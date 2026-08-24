@@ -58,9 +58,34 @@ function porcentaje_iva_desde_xml_sri($totalImpuesto)
 		'3' => 14,
 		'4' => 15,
 		'5' => 5,
+		// El codigo 7 (exento) se procesa como subtotal tarifa 0 para que
+		// participe en bases, retenciones y directorio sin duplicar el total.
+		'7' => 0,
 		'10' => 13,
 	);
 	return isset($mapa[$codigoPorcentaje]) ? $mapa[$codigoPorcentaje] : 0;
+}
+
+/**
+ * Determina si el texto de un comprobante identifica de forma explicita un
+ * servicio. Si no hay evidencia suficiente se conserva la clasificacion
+ * historica (bienes).
+ */
+function descripcion_corresponde_servicio($descripcion)
+{
+	$descripcion = strtolower(trim((string)$descripcion));
+	$descripcion = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $descripcion);
+	return preg_match('/\b(serv(?:icio)?s?|honorarios?|consultoria|asesoria|mantenimiento)\b\.?/i', $descripcion) === 1;
+}
+
+function tipo_compra_desde_detalles_xml_sri($detalles)
+{
+	foreach ($detalles as $detalle) {
+		if (descripcion_corresponde_servicio(isset($detalle->descripcion) ? $detalle->descripcion : '')) {
+			return 'servicios';
+		}
+	}
+	return 'bienes';
 }
 
 function agregar_iva_multiple_xml_sri(&$detalles, $tipo, $porcentaje, $base, $iva)
@@ -94,7 +119,8 @@ function script_cargar_iva_multiple_xml_sri($detalles)
 		$fila['valor_iva'] = round($fila['valor_iva'], 2);
 		$fila['total'] = round($fila['total'], 2);
 	}
-	return "cargarIvaMultipleDesdeSri(" . json_encode($filas) . ");";
+	$json = json_encode($filas);
+	return "window.ivaMultipleSriPendiente=" . $json . "; if (typeof cargarIvaMultipleDesdeSri === 'function') { cargarIvaMultipleDesdeSri(window.ivaMultipleSriPendiente); window.ivaMultipleSriPendiente=null; }";
 }
 
 
@@ -2688,6 +2714,7 @@ function genera_formulario_pedido($cod = 0, $tmp = 0, $sAccion = 'nuevo', $aForm
 	$oReturn->assign("divFormularioRetencion", "innerHTML", $sHtmlRete);
 	$oReturn->assign("divValoresFacturas", "innerHTML", $sHtmlValoresFacturas);
 	$oReturn->assign("divValoresRetencion", "innerHTML", $sHtmlValoresRetencion);
+	$oReturn->script("if (typeof inicializarClasificacionCompras === 'function') { inicializarClasificacionCompras(); } else { var s=document.createElement('script'); s.src='js/clasificacion-compras.js'; s.onload=inicializarClasificacionCompras; document.head.appendChild(s); }");
 	$oReturn->assign("divFormularioCuentas", "innerHTML", $sHtmlCuentas);
 	$oReturn->assign("divReporte", "innerHTML", "");
 	$oReturn->assign("proveedor", "placeholder", "PRESIONE ENTER O F4 PARA BUSCAR...");
@@ -8577,6 +8604,7 @@ function clave_acceso($aForm = '', $tipo)
 			$identificacionProveedor = $xmlParse->infoTributaria->ruc;
 			$totalImpuesto 	= $xmlParse->infoFactura->totalConImpuestos->totalImpuesto;
 			$detalles = $xmlParse->detalles->detalle;
+			$tipo_compra_xml = tipo_compra_desde_detalles_xml_sri($detalles);
 			//$detalle=$detalles[0];
 			foreach ($detalles as $arreglo1) {
 				$deta = $arreglo1->descripcion;
@@ -8584,8 +8612,9 @@ function clave_acceso($aForm = '', $tipo)
 
 			$totalbien = 0;
 			$totalserv = 0;
-			$totalexcento = 0;
 			$valor_grab12b = 0;
+			$valor_grab0b = 0;
+			$valor_grab12s = 0;
 			$valor_grab0s = 0;
 			$iva_multiple_xml = array();
 			foreach ($totalImpuesto as $bases) {
@@ -8594,18 +8623,24 @@ function clave_acceso($aForm = '', $tipo)
 				$valor 				= (float)$bases->valor;
 				$porcentajeIva 		= porcentaje_iva_desde_xml_sri($bases);
 
-				if ($codigoPorcentaje == 7) {
-					$totalexcento = $totalexcento + $baseImponible;
-					continue;
-				}
-
-				agregar_iva_multiple_xml_sri($iva_multiple_xml, 'bienes', $porcentajeIva, $baseImponible, $valor);
-				if ($porcentajeIva > 0) {
-					$valor_grab12b = $valor_grab12b + $baseImponible;
-					$totalbien = $totalbien + $baseImponible;
+				// Los subtotales exentos (codigo 7) ingresan en la fila de tarifa
+				// 0 de bienes o servicios. No se conservan ademas en
+				// valor_exentoIva porque eso duplicaria el total de la factura.
+				agregar_iva_multiple_xml_sri($iva_multiple_xml, $tipo_compra_xml, $porcentajeIva, $baseImponible, $valor);
+				if ($tipo_compra_xml == 'servicios') {
+					if ($porcentajeIva > 0) {
+						$valor_grab12s += $baseImponible;
+					} else {
+						$valor_grab0s += $baseImponible;
+					}
+					$totalserv += $baseImponible;
 				} else {
-					$valor_grab0s = $valor_grab0s + $baseImponible;
-					$totalserv = $totalserv + $baseImponible;
+					if ($porcentajeIva > 0) {
+						$valor_grab12b += $baseImponible;
+					} else {
+						$valor_grab0b += $baseImponible;
+					}
+					$totalbien += $baseImponible;
 				}
 			}
 
@@ -8664,10 +8699,12 @@ function clave_acceso($aForm = '', $tipo)
 							$oReturn->assign('serie', 'value', $serie);
 							$oReturn->assign('factura', 'value', $secuencial);
 							$oReturn->assign('valor_grab12b', 'value', $valor_grab12b);
-							$oReturn->assign('valor_grab0b', 'value', $valor_grab0s);
-							$oReturn->assign('valor_grab12t', 'value', $totalbien);
-							$oReturn->assign('valor_grab0t', 'value', $totalserv);
-							$oReturn->assign('valor_exentoIva', 'value', $totalexcento);
+							$oReturn->assign('valor_grab0b', 'value', $valor_grab0b);
+							$oReturn->assign('valor_grab12s', 'value', $valor_grab12s);
+							$oReturn->assign('valor_grab0s', 'value', $valor_grab0s);
+							$oReturn->assign('valor_grab12t', 'value', $valor_grab12b + $valor_grab12s);
+							$oReturn->assign('valor_grab0t', 'value', $valor_grab0b + $valor_grab0s);
+							$oReturn->assign('valor_exentoIva', 'value', 0);
 
 											$oReturn->script(script_cargar_iva_multiple_xml_sri($iva_multiple_xml));
 						} else {
@@ -8726,10 +8763,12 @@ function clave_acceso($aForm = '', $tipo)
 							}
 
 							$oReturn->assign('valor_grab12b', 'value', $valor_grab12b);
-							$oReturn->assign('valor_grab0b', 'value', $valor_grab0s);
-							$oReturn->assign('valor_grab12t', 'value', $totalbien);
-							$oReturn->assign('valor_grab0t', 'value', $totalserv);
-							$oReturn->assign('valor_exentoIva', 'value', $totalexcento);
+							$oReturn->assign('valor_grab0b', 'value', $valor_grab0b);
+							$oReturn->assign('valor_grab12s', 'value', $valor_grab12s);
+							$oReturn->assign('valor_grab0s', 'value', $valor_grab0s);
+							$oReturn->assign('valor_grab12t', 'value', $valor_grab12b + $valor_grab12s);
+							$oReturn->assign('valor_grab0t', 'value', $valor_grab0b + $valor_grab0s);
+							$oReturn->assign('valor_exentoIva', 'value', 0);
 											$oReturn->script(script_cargar_iva_multiple_xml_sri($iva_multiple_xml));
 							
 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>BUELE MORENO JOSELITO ROYERS</razonSocial><nombreComercial>FERRECENTRO</nombreComercial><ruc>0702873787001</ruc><claveAcceso>2810202501070287378700120011000004314691234567813</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>100</ptoEmi><secuencial>000431469</secuencial><dirMatriz>VIA PANAMERICANA, BARRIO LA FLORIDA</dirMatriz><agenteRetencion>00000001</agenteRetencion></infoTributaria><infoFactura><fechaEmision>28/10/2025</fechaEmision><dirEstablecimiento>VIA PANAMERICANA, BARRIO LA FLORIDA</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL Y 5 NORTE</direccionComprador><totalSinImpuestos>8427.48</totalSinImpuestos><totalDescuento>0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><descuentoAdicional>0</descuentoAdicional><baseImponible>0</baseImponible><tarifa>0</tarifa><valor>0</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><descuentoAdicional>0</descuentoAdicional><baseImponible>8427.48</baseImponible><tarifa>15</tarifa><valor>1264.12</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>9691.6</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>9164.88</total><plazo>0</plazo><unidadTiempo>días</unidadTiempo></pago><pago><formaPago>20</formaPago><total>526.72</total><plazo>0</plazo><unidadTiempo>días</unidadTiempo></pago></pagos><valorRetIva>0</valorRetIva><valorRetRenta>0</valorRetRenta></infoFactura><detalles><detalle><codigoPrincipal>00000106</codigoPrincipal><codigoAuxiliar>00000106</codigoAuxiliar><descripcion>ARMEX 8.0MM 15X15 CM 6.25X2.40 MT</descripcion><cantidad>86</cantidad><precioUnitario>92.9565</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>7994.26</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="UNIDAD"></detAdicional></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>7994.26</baseImponible><valor>1199.14</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>00001148</codigoPrincipal><codigoAuxiliar>00001148</codigoAuxiliar><descripcion>VARILLA LISA 8MM X 6M (5/16)</descripcion><cantidad>141</cantidad><precioUnitario>2.7826</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>392.35</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="UNIDAD"></detAdicional></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>392.35</baseImponible><valor>58.85</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>00001147</codigoPrincipal><codigoAuxiliar>00001147</codigoAuxiliar><descripcion>VARILLA LISA 6MM X 6M (1/4)</descripcion><cantidad>20</cantidad><precioUnitario>2.0435</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>40.87</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="UNIDAD"></detAdicional></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>40.87</baseImponible><valor>6.13</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="DIRECCION">GUAYAQUIL Y 5 NORTE</campoAdicional><campoAdicional nombre="TELEFONO">0981546654</campoAdicional><campoAdicional nombre="E-MAIL">diego.alvear@grupodmg.ec, fernanda.paccha@grupodmg.ec, diegoalvear3cont@hotmail.es</campoAdicional><campoAdicional nombre="TIPOVENTA">CREDITO</campoAdicional><campoAdicional nombre="COMENTARIO">CREDITO - VENCE: 28/10/2025
+TRANSF# 5987 CTA:CUENTA MACHALA AHORRO #1220054361 9,164.88
+AGENTE DE RETENCION RESOLUCION NAC-DNACRASC20-00000001</campoAdicional><campoAdicional nombre="LINK-DESCARGA">CONSULTA Y DESCARGA TUS COMPROBANTES EN EVA.EC</campoAdicional><campoAdicional nombre="AGENTE DE RETENCION">00000001</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature195609">
+<ds:SignedInfo Id="Signature-SignedInfo532124">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID380861" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature195609-SignedProperties930376">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>OhFieckstR+yYVuOsMhZV01pSzc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1568679">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>PlRRF9U5pVy5LC/ncQBijsBakDM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-641016" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>927AnHRlxoDSVNihhdsRbbRcLHE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue728681">
+ddp0TCex7dlL4lDdcEaduF2mBQvhLbOQelJfudBKxcH5H4yUl5tE4oe1LB7/HopaOBtZoVGKDyVb
+yKj/15US4UXXI+GWypxqa6Hxz1s9KTZAoMS3eZo/EwoCtBnPZQXiZMGBKwMs4cBmHDeRQEWReAS4
+tayYdizC4y9CmHxKSCB4ilVTb7TszXTRHbA13886JwVAmxTnXiGusSaJhAbjrwco5GBpvAVfjDdu
+MjLW39JuxJHM76cyGYw3wOKvHqZx3hD3Gq+l8L9WuxxzkjDBhk1Lxdi5LmxmGoH5BadLl+8/4Xau
+qiT24vIfi5RuOMgHucMG07d0u7OZVkyKdsGCKA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1568679">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJZDCCB0ygAwIBAgIIbrhrhAwpkJswDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTAxMDE1MTcwMFoXDTI2MTAwOTE1MTcwMFowgZ4xCzAJBgNVBAYTAkVDMRUwEwYDVQQEDAxC
+VUVMRSBNT1JFTk8xGDAWBgNVBCoMD0pPU0VMSVRPIFJPWUVSUzEZMBcGA1UEBRMQSURDRUMtMDcw
+Mjg3Mzc4NzElMCMGA1UEAwwcSk9TRUxJVE8gUk9ZRVJTIEJVRUxFIE1PUkVOTzEcMBoGA1UEYQwT
+VElORUMtMDcwMjg3Mzc4NzAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJZv6Nx1
+gdM08xwRzsz+EgEY5osI12PvwUnN0pJNMkmLtRcg5hmFN12BlYZ19zIakYifAGbHftYj2+v/o19R
+/0Q1Y0ybsWvfq9xqYNi69uAXj65E2QZSnha/4d/qkZQsyX5lORhfJZwBqtiaH+K2xxgyq3Nex1vs
+igIIKFRN84rQkTUGyGB/oL4y+i+qfD6fvlVtYtpDqTM/JiKlTaqzCLqV6rGH9S+IcInXJUlSB0EU
+7XQzL8rulOOeKORUEKpXa4hXoiG6VV+15O9b5jLfQiFFVdpepIvjfQxUVr/CHfJUlXEnIDOL6FuF
+ZMWilHO6ZsFcAbVLNyshzOkf9rCmnoUCAwEAAaOCBIgwggSEMBsGCysGAQQBgvE2ZgMBBAwMCjA3
+MDI4NzM3ODcwHgYLKwYBBAGC8TZmAwsEDwwNMDcwMjg3Mzc4NzAwMTCB1wYIKwYBBQUHAQEEgcow
+gccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9kb3dubG9hZC90
+c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3Nw
+MS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYqaHR0cDovL29jc3Ay
+LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT6af0W/uHPKG2cu9HDVO4I
+WmrgZzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDhEbJ0knP9MIGZBgNV
+HSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRwczovL3d3dy51YW5h
+dGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNFUlRJRklDQURPIERF
+IFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8EgYcwgYQwQKA+oDyG
+Omh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5j
+cmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJv
+cmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDCCAb4GA1UdEQSCAbUwggGxgRtkaXNlbnNhLmJ1ZWxlanJAb3V0bG9vay5jb22gGwYLKwYBBAGC
+8TZmAwGgDAwKMDcwMjg3Mzc4N6AgBgsrBgEEAYLxNmYDAqARDA9KT1NFTElUTyBST1lFUlOgFgYL
+KwYBBAGC8TZmAwOgBwwFQlVFTEWgFwYLKwYBBAGC8TZmAwSgCAwGTU9SRU5PoF4GCysGAQQBgvE2
+ZgMHoE8MTUJBUlJJTyBMQSBGTE9SSURBIFZJQSBQQU5BTUVSSUNBTkEgUkVGRVJFTkNJQSBGUkVO
+VEUgQSBDT01FUkNJQUwgQlVFTEUgTU9SRU5PoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTg5NzM4
+NTM2oCcGCysGAQQBgvE2ZgMJoBgMFkNBTUlMTyBQT05DRSBFTlLDjVFVRVqgHgYLKwYBBAGC8TZm
+AwugDwwNMDcwMjg3Mzc4NzAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAa
+DBhQRVJTT05BIE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkq
+hkiG9w0BAQsFAAOCAgEAqUASifKSKDQKsDMsijPL7hUCUY4aqz8+Rx9qHUNqe9xLCvBjVlv8OZa7
+hP+q7Zk4xUyr7Aa0WQokALfmdW8zJkwMY2BLxLmnFgWbq/z9dEDg5LDVX65FK4b4dlS6xw1iPOfk
+JlFxi7HaW5EBRwLBPZV5TUIqSgbaPk7Ciyu0OXwJwOfWMEkVEvxvclZ6JQX4bifqSXBLRsL1AsML
+Md+5bTvHRbOknHlpi8Fi/XLz+ckzH1UbQRz93oHIkXTxgkCz2sbUpuVnI6HkyrF9IC4XPxVbZduz
+q7ZnqJ57GIOimOjkdXZ/YOHbHuSo5TscMatJC5POT7aKEbLGb/hCZC4i7a2oaOwKYrjeq2BkTtun
+g21mPMA+JZuTMtaLshY5qzVcX8aIGLwxkrWuN/8un8ahI8Nt8UetKoFjln1ConXHvKLljFWTekzN
+Is7sREsoqx3xepmxhlNx7sPHsg7GrGcxpwEXX/+Z0eNXjkb6t1dQb8GCiX047w8eGIcYGrXCseNH
+CZt0IvWyc967Ga7DFyrZDaNUqofBJqKArurEXpZ387NuagVWHdCZbGhH/GkpIngCWjA44XQ7uuvx
+HfQmfSs5BI/N3tYBLDM55FGa9vfX4D90NQu5WcqyQG6blttMJvzS089GNLFw2PbOZxLD1RSC+72U
+bQNkoP+8uI4JtSMiY8Q=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lm/o3HWB0zTzHBHOzP4SARjmiwjXY+/BSc3Skk0ySYu1FyDmGYU3XYGVhnX3MhqRiJ8AZsd+1iPb
+6/+jX1H/RDVjTJuxa9+r3Gpg2Lr24BePrkTZBlKeFr/h3+qRlCzJfmU5GF8lnAGq2Jof4rbHGDKr
+c17HW+yKAggoVE3zitCRNQbIYH+gvjL6L6p8Pp++VW1i2kOpMz8mIqVNqrMIupXqsYf1L4hwidcl
+SVIHQRTtdDMvyu6U454o5FQQqldriFeiIbpVX7Xk71vmMt9CIUVV2l6ki+N9DFRWv8Id8lSVcScg
+M4voW4VkxaKUc7pmwVwBtUs3KyHM6R/2sKaehQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature195609-Object432725"><etsi:QualifyingProperties Target="#Signature195609"><etsi:SignedProperties Id="Signature195609-SignedProperties930376"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-10-28T10:15:02-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>qq8DzeXrZ6NyGDl/h69Xm3biFKE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>7978244954770739355</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-641016"><etsi:Description>Descripcion del documento</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

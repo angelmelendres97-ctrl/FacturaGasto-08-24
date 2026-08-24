@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TRANSPORTES PESADOS TRANS FEBRES SA</razonSocial>
+    <nombreComercial>TRANSPORTES PESADOS TRANS FEBRES SA</nombreComercial>
+    <ruc>0990974853001</ruc>
+    <claveAcceso>1504202501099097485300120010010000182303607852617</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000018230</secuencial>
+    <dirMatriz> GUAYAQUIL / TARQUI / AV. SAN FELIX S/N Y ENTRE LA PRIMERA Y LA SEGUNDA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>15/04/2025</fechaEmision>
+    <dirEstablecimiento> AV. SAN FELIX S/N Y ENTRE LA PRIMERA Y LA SEGUNDA</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <guiaRemision>000-000-000000000</guiaRemision>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>CDLA LOS JARDINES S/N QUINTA NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>80.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>80.00</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>80.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>80.00</total>
+        <plazo>0</plazo>
+        <unidadTiempo>meses</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>001</codigoPrincipal>
+      <codigoAuxiliar>SERV</codigoAuxiliar>
+      <descripcion>COCINADOR DE ARROZ</descripcion>
+      <cantidad>1.000</cantidad>
+      <precioUnitario>80.000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>80.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="na" valor="na" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>80.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Observaciones">GR 17922
+ENRIQUE MACAS
+P ENRIQUEZ- HACIENDA LA C</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="Reference-55969b6d-3a10-4eec-8c0b-e8c41ee602ef" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>cWuRWiddrwzb96ekc501lPoSEbk=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>+5kEy54yBjyFzga2yGz2ruFcYFg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>W1Llae2fxvALdgZ5pcn4417bXEQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-826517b8-aa47-41a8-a3bd-6136e1105101">Uea0lzpkn28Uo1N9+r52U8Trj/38VPHL3r0bOV7z40eovtJWSb6ExAjhzYAnxsbAV62YPuC7xuzx2vL7IczreglrS9Tt7r7PrVN3XS+P4BCa61sO3gS6Mc4fraFA0RJLfRBX//oy5ryeMQSbosf+c8LdGWldaA7fZi8dX+mgz8CQEv2JIa9Og8DbZ3Um85Ucv+6zzOw+0LWe6MkdnaBtdyQdzQJAZjFnPPAQ0tPZIkw7iqrh1QfPnc6JfZpsMcvGUtKMCDv8pBKExYKoYzQ8sRstPBKvZrHEq/VYZX433nNdVG0g2BoyMjNlvqyF2t/nXFdPGAGWPD/MSzjFW+R4ZA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>lE3qiJa2oREHgvPuPbTUFBd1mHCEwMDK49+K8942h0WYbjgbXYh3ai9EI99p/cb3H++apRVNZ+KUDE1vTN4aZY7+zX+IK4hnQTcxMjuXRU+iFEVye0RgKmzrDjvxbPJeFftKO7ddjxf1zUpOZ13HIG2tkczQASfr8FbeMhOxcUHuoFydOc8V+1K0fFqRT5fHERx4W6EH+s1abSne8Fu5Ne3+aJOFz/6MtLXx9/JcsF39ArTtRUofjAHG+EthOXDCHp1aB79cKgmG2MxxfCrEZabNUqoCgwmmt/Wx3D+26mpVcPNU2XNR0BvoiQqKIomCXLPT7Zrc+7dydVQ1s5uxbQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-6ca273d5-5b6f-4095-a542-88f40fa10048"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-742611f3-1290-4017-b13c-742e4f86d023" Target="#Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><xades:SignedProperties Id="SignedProperties-Signature-826517b8-aa47-41a8-a3bd-6136e1105101"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-15T12:00:10-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>ySR5NrS1T7VN9GKPT9EhR09zrws=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>OID.2.5.4.97=VATES-A66721499, CN=UANATACA CA2 2016, OU=TSP-UANATACA, O=UANATACA S.A., L=Barcelona (see current address at www.uanataca.com/address), C=ES</ds:X509IssuerName><ds:X509SerialNumber>3882832125997796009</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><SignaturePolicyIdentifier xmlns="http://uri.etsi.org/01903/v1.3.2#"><SignaturePolicyId><SigPolicyId><xades:Identifier>urn:oid:2.16.724.1.3.1.1.2.1.8</xades:Identifier><Description /></SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash><SigPolicyQualifiers><SigPolicyQualifier><SPURI>http://uri.etsi.org/01903/v1.3.2/ts_101903v010302p.pdf</SPURI></SigPolicyQualifier></SigPolicyQualifiers></SignaturePolicyId></SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

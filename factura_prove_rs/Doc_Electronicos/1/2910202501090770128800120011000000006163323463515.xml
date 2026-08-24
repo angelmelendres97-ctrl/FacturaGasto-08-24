@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RUIZ LOPEZ JAVIER ANTONIO</razonSocial>
+        <ruc>0907701288001</ruc>
+        <claveAcceso>2910202501090770128800120011000000006163323463515</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000616</secuencial>
+        <dirMatriz>Calle: MALECON SIMON BOLIVAR Numero: 512 Interseccion: TOMAS MARTINEZ - IMBABURA Manzana: 6 </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>29/10/2025</fechaEmision>
+        <dirEstablecimiento>Calle: MALECON SIMON BOLIVAR Numero: 512 Interseccion: TOMAS MARTINEZ - IMBABURA Manzana: 6 </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>los jardines calle Quinta Norte y Guayaquil esquina</direccionComprador>
+        <totalSinImpuestos>3667.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>3667.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>3667.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>3667.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>002</codigoPrincipal>
+            <descripcion>GASTOS DE ENTREGA</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>3667</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>3667.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="gestiones logisticas de exportacion y transporte Lima/La Ponce."/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>3667.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072984073</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GVT0cHXCU1GYiCMDqHWOF4r1ym8vRliQLP+lYnFq8vY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>VPygY4r+cj7oW93lTodo1vpLSLIOY756AdtcWvKW8gU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f-sigvalue">uTtC8islHCg68rORAUHQEWTn7855+QLeizTWiljsTAXMVOaTOPspBMW04Me3IF2iggAO9Rq1qz/ivQDUYoY6Okh1dbXmvvGIiGBPICxJaRzEl5dS6HRlmP1e6EZQLmQc6+XKQZthy/OC64Bu2XR/89HWIFwWOK8P7tu/OYtRNrVz0K4EC0FzaI9GEhB1EHmDSRrnXQB5jZXLxYvB10CqpPkcgSOYjT4bu4QIx/5kXKgZUegKvlrYf5kcBZQOEmtt/TAQNfpK0scZBT+4xTNsItVtZA+CageGbpNcHDnYBr0TGS+pnWFjMp6ab3TX7wYamQanjv82Hdgbs9sSSVL6vQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIMITCCCgmgAwIBAgIEdkchazANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDA0MTAyMzM4MTVaFw0yNjA0MTAyMzM4MTVaMIGkMSIwIAYDVQQDDBlKQVZJRVIgQU5UT05JTyBSVUlaIExPUEVaMSAwHgYDVQQFExcwOTA3NzAxMjg4LTEwMDQyNDE4NDgwNjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDx4GTl2Uj+InpA0qxbXRRf6FdyGfXXrGfh/jdxXKHeH7aUbvJtD14ugSYcyGWf+/ChX7BOxVbpcML+7xClbicWRM0LBrnMeCn7gTiiW/oZVBlWnhsGXg8cmo8aeK3tf1pd6yehszq0COSaU3r3y6QzPUUTZBBJfzUVQ9akH0WMqgIA49lsNYEqEejVxWkSSwNixayw5X7SKhv+J74JMkZ/wc0zxJ3G1ELzH3dEXauDEURrwo6JOPkbB0rwHwEpal90RO7E1x1j2bWZU3BYn/MUyA1Oh+vQpRjHJL4OIIC4E508tBcQU+I07ONoXLtjF2mXR+TCMnUmrxohlwuY9lIPAgMBAAGjggdiMIIHXjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/YmFzZTAoBgNVHREEITAfgR1qYXZpZXIucnVpei5sb3BlejYxQGdtYWlsLmNvbTCCAQYGA1UdIASB/jCB+zBaBgorBgEEAYKmcgIHMEwwSgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFAAZQByAHMAbwBuAGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggrBgEFBQcCARZ+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5hdHVyYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBSbPHz7ETDETYEag6d1bcDLkP9jaTArBgNVHRAEJDAigA8yMDI0MDQxMDIzMzgxNVqBDzIwMjYwNDEwMjMzODE1WjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAowOTA3NzAxMjg4MEAGCisGAQQBgqZyAwkEMgwwR1VBWUFRVUlMIENBQkVDRVJBIENBTlRPTkFMIFkgQ0FQSVRBTCBQUk9WSU5DSUFMMBEGCisGAQQBgqZyAyIEAwwBLjBDBgorBgEEAYKmcgMHBDUMM01BTEVDT04gU0lNT04gQk9MSVZBUiA1MTIgWSBUT01BUyBNQVJUSU5FWiBJTUJBQlVSQTAeBgorBgEEAYKmcgMCBBAMDkpBVklFUiBBTlRPTklPMB8GCisGAQQBgqZyAyAEEQwPMDAxMDAyMDAwNTY5NjI5MBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFAYKKwYBBAGCpnIDAwQGDARSVUlaMBoGCisGAQQBgqZyAx4EDAwKRVNUVURJQU5URTAdBgorBgEEAYKmcgMLBA8MDTA5MDc3MDEyODgwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBUGCisGAQQBgqZyAwQEBwwFTE9QRVowGgYKKwYBBAGCpnIDCAQMDAowOTg4NzI3MDQ5MA0GCSqGSIb3DQEBCwUAA4ICAQCDgdw3dEnqldofflCJCA03zLNhZPp+V9IKeWJ9K6RtMb4EB1y0Bt27Xd/hiYeks59vYFt1t3YS4evjGu+aJG+PY3qsEU0LgDQ4aeH36wIUKNGLW0vvMjJLNAOEQTElzleMLY5hAhPuN4/eujjj95AAgffue+V9WhoZ7/eI0D5rPq17jWAkIURTkuBHdeCy7QREzr8/mJURzfHwbkq/YPx0i5NTtKCZJmxZgFqPlmfEM0pTVBXnIambTjZKH7y41W6JEtF+N0FGECg4CJ/WFk4irVTJ0jakpiboMJxjf4UURWTyaAm8alq1+/HTbr5hchBZWFJi1SAeI2R0ltCiWoHhIfePbb7HN1Fr1GKIx/1w/L7/d3udwIKjaGCqkeFn+3yrYWMuSNrgia0iep3v7Y6ddCXacV/tW7+aaQXjWj916lpne4m8AcrqGK0J4kE9J9tGkYl91ovIZCzCmQ3zaXr+uS6uzcEmvy7gLBxovKICu3Jz4WBiJXy+dKQ4C3JHJOYgLkcpJdC5ufvi6Ae/BWmt1mrk+vnZ5Bswqjo3pKzcvLtEArJjXeqwdKxCCDK3CISZCdZYK3RJnzNwF80mxfOUElklykIBbNamCphaHTfkhOuqKU+nKSvpcFAH0mWK64ptkMZUVGU2lH/QRxM3B+Yuzdw5uO/8+Nz/ph2HRpY1+g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f"><xades:SignedProperties Id="xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-10-29T15:35:27.851-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Ht9sF1z02w6PTcVIsGQzZ8gZ37gI4DnBb+MG3B+QyT4=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1984373099</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-a5e4089c-d98c-40ee-828a-8e9e7075624f-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.0.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>CONSORCIO COBRANZA DURAN</razonSocial>
+<nombreComercial>CONSORCIO COBRANZA DURAN</nombreComercial>
+<ruc>1793205796001</ruc>
+<claveAcceso>3007202601179320579600120010010000940462023032215</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000094046</secuencial>
+<dirMatriz>PICHINCHA / QUITO / MARISCAL SUCRE / JOSE GALDOZ 104 Y YANEZ PINZON</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>30/07/2026</fechaEmision>
+<dirEstablecimiento>PICHINCHA / QUITO / MARISCAL SUCRE / JOSE GALDOZ 104 Y YANEZ PINZON</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<direccionComprador>.</direccionComprador>
+<totalSinImpuestos>14.48</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>14.48</baseImponible>
+<valor>2.17</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>16.65</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>16.65</total>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>4075</codigoPrincipal>
+<codigoAuxiliar>COB</codigoAuxiliar>
+<descripcion>COMISIÓN DE COBRANZA</descripcion>
+<cantidad>1.00</cantidad>
+<precioUnitario>14.48</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>14.48</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>14.48</baseImponible>
+<valor>2.17</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre=" ">Contribuyente Régimen RIMPE</campoAdicional>
+<campoAdicional nombre="Correo Electrónico:">mtorres@ferrere.com</campoAdicional>
+<campoAdicional nombre="Dirección:">.</campoAdicional>
+<campoAdicional nombre="Teléfono:">072923970</campoAdicional>
+<campoAdicional nombre="Lugar de Pago:">BANCO DEL PACIFICO</campoAdicional>
+<campoAdicional nombre="Canal de Pago:">29-07-2026 14:09:40 - BANCOS EN LINEA</campoAdicional>
+<campoAdicional nombre="Comprobante Pago:">162385521361920</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature66401">
+<ds:SignedInfo Id="Signature-SignedInfo114328">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID735396" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature66401-SignedProperties376687">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>5i4KEketbzgKXcWGcBnJts7A1jU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate11037835">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>CWKUJR3ROGxFaDBQ8UTFtmqb8iQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1035904" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>9bYgILNxxJC11sFSlreT8AYwFAc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue438531">
+o9E4CslCl8fnC55go/Zn8JTdubs0Ue1a85xJ5qCT9/ERQO7Es60ol0h+nLvEBqANM2YTRoy89115
+3lZhz8qnMTgMxqlO0H57joxkTRsul2rjiFSBGU4frMoV73GxOdfeTcJe2by2dJaJxBMDoycX4Yx5
+JYjc7vZfu0r7L35TJa36UM8TthB1QWf2HMh71TE3hKwIipwOLYUODCoa00sCHLp8zd4405dR6Jwb
+UZxgtFvF5LoB22nx2OufhLU9HhiL8ZtRZUBjwyYRBbzNcgSPkVqJ869PoqtY5ByvtntTdtUHVqh+
+b4J2aXo4f4J+/N36T9mkPhU/4bS7J5jT1B/+4w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate11037835">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL/jCCCeagAwIBAgIEKxJ/cTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA0MjcxNjM3NTFaFw0yODA0MjYxNjM3NTFaMIGcMSUw
+IwYDVQQDDBxTWUxWSUEgQlJJR0lUVEUgTUlOTyBBTEFSQ09OMRUwEwYDVQQFEwwyNzA0MjMxMTQ3
+MjQxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsG
+A1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAynuFjPZKBLqOsi8h+fUFbB3ZKe4g3IIO+uGWMuwDmpLD+mohktR96TI3
+F8w5CTRlPhvA01jpFuW353ke5sYgIcZCdljoYGCoqzNoYwKcVjnQTWqtQZofQPJ9u1p10sSSt+Mt
+7XMdUf42G/3DpEFvpPQKvY0zQC8E/7s2pKYDLgwR+4APsdDKgl9HeG1cN0ad99ERuksKk5Den5WX
+EJx03OxhVz/9XKzxiXtM2A2sZvevE0YxLPSivmg+u7g+bWcoPNiakC2ad3Rnd2YoO6gAWQSt6eDN
+lLuXUL6pB37WhHKWiMWsRyN1DgWgvQtsHNPJNlI7wxdh2qNcXKcDSserXQIDAQABo4IHRzCCB0Mw
+DAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcB
+AQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJj
+YS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9s
+ZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25MaXN0
+P2Jhc2UwHQYDVR0RBBYwFIESY3N5YnJpODJAZ21haWwuY29tMIIBFQYDVR0gBIIBDDCCAQgwYgYK
+KwYBBAGCpnICCTBUMFIGCCsGAQUFBwICMEYeRABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABkAGUA
+IABSAGUAcAByAGUAcwBlAG4AdABhAG4AdABlACAATABlAGcAYQBsMIGhBgorBgEEAYKmcgIDMIGS
+MIGPBggrBgEFBQcCARaBgmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVu
+dC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2Vy
+dGlmaWNhZG8gUmVwcmVzZW50YW50ZSBMZWdhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+G
+PWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNB
+LTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceg
+gcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFE
+IERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2Vy
+dGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3Bl
+cmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRp
+c3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBT
+RUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixP
+PVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFF/pnmsVaoekMscT0NI2tTmsVxzF
+MCsGA1UdEAQkMCKADzIwMjMwNDI3MTYzNzUxWoEPMjAyODA0MjYxNjM3NTFaMAsGA1UdDwQEAwIF
+4DAgBgorBgEEAYKmcgMFBBIMEFBST0NVUkFET1IgQ09NVU4wGgYKKwYBBAGCpnIDAQQMDAoxNzE0
+MTkwNTQxMBUGCisGAQQBgqZyAwkEBwwFUVVJVE8wEQYKKwYBBAGCpnIDIgQDDAEuMC4GCisGAQQB
+gqZyAwcEIAweSk9TRSBHQUxET1ogMTA0IFkgWUFORVogUElOWk9OMB8GCisGAQQBgqZyAwIEEQwP
+U1lMVklBIEJSSUdJVFRFMB8GCisGAQQBgqZyAyAEEQwPMDAyMDAxMDAwNjA5NzMxMBMGCisGAQQB
+gqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAUBgorBgEEAYKmcgMDBAYMBE1J
+Tk8wKAYKKwYBBAGCpnIDCgQaDBhDT05TT1JDSU8gQ09CUkFOWkEgRFVSQU4wHQYKKwYBBAGCpnID
+CwQPDA0xNzkzMjA1Nzk2MDAxMBIGCisGAQQBgqZyAx0EBAwCTm8wFwYKKwYBBAGCpnIDBAQJDAdB
+TEFSQ09OMBoGCisGAQQBgqZyAwgEDAwKMDk4NDQ5MTY4ODANBgkqhkiG9w0BAQsFAAOCAgEACmKw
+uK2I/6HNHauCl5tsofICeVrYsYo8+uINIvtM3NITt0aadU31KlrU2MM9yY9Im35wGDv8tPOjTObS
+ti414JZPPZxNuCWVyibP3FZm4A3uYt36jhoe7SBN2VSG3+lsK9yTUkXuczhDt4CdpsrnFa6j9zys
++6RNdSJrT/PsnyH1Vsqynok43It6XEGl/LqVaOsb/zZX16gmuMnFCWUK1OewuhXb31hVectUAinf
+mAMXDRX/eHL2UxSrT2l19BoMQyr6lST7wlVhON6S80mjN25vr5TUiZmRrgF8hQkcuSquqnCG/7xY
+fOcQMMl4TegmPnRJEcXaojFM1jfHdOLGP2qm8Xtace7yjYjVLA3FHL6XtwngzZNEjQJ0qSL3InYa
+3EzIvtjuPS7SyxgAs0U7cwrP2Nbme+5JvnjJlYO/ZhLCp2G/JnCH+FMxoggccyrGvqxJA4SBeFsz
+i5lft+KfChXZVlPoebdyFyx3hCK+bIBFT/tpbz0/SH1bEzMW+LcQM/10KvvqXyZihADuAlgmRsuN
+bB28fF2tTcsA3pi+SRN+2tkODbX0N8x4HSXhSKxFkwft/Il/BrkGp867f2IdpfYUVsexdEJZEPBk
+jXqL32tK/xsz7RMH3iLl6xO51+58LHeeJ/+Tzavb9lbZAbr7Uzs9KgAWEYCLcjyUe20+HQA=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ynuFjPZKBLqOsi8h+fUFbB3ZKe4g3IIO+uGWMuwDmpLD+mohktR96TI3F8w5CTRlPhvA01jpFuW3
+53ke5sYgIcZCdljoYGCoqzNoYwKcVjnQTWqtQZofQPJ9u1p10sSSt+Mt7XMdUf42G/3DpEFvpPQK
+vY0zQC8E/7s2pKYDLgwR+4APsdDKgl9HeG1cN0ad99ERuksKk5Den5WXEJx03OxhVz/9XKzxiXtM
+2A2sZvevE0YxLPSivmg+u7g+bWcoPNiakC2ad3Rnd2YoO6gAWQSt6eDNlLuXUL6pB37WhHKWiMWs
+RyN1DgWgvQtsHNPJNlI7wxdh2qNcXKcDSserXQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature66401-Object587872"><etsi:QualifyingProperties Target="#Signature66401"><etsi:SignedProperties Id="Signature66401-SignedProperties376687"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-30T10:31:25-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>1ih9BF3JkPfARtJrtqAKVYWqY9I=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>722632561</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1035904"><etsi:Description>Comprobante Electrónico firmado desde el sistema AXIS Cloud.</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

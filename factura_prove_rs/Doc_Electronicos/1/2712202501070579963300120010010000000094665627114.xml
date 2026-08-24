@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>FERREL CAMPOS JONATHAN FABRICIO</razonSocial>
+        <nombreComercial>ENERGY CARS</nombreComercial>
+        <ruc>0705799633001</ruc>
+        <claveAcceso>2712202501070579963300120010010000000094665627114</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000009</secuencial>
+        <dirMatriz>Barrio: 24 DE SEPTIEMBRE </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>27/12/2025</fechaEmision>
+        <dirEstablecimiento>Barrio: 24 DE SEPTIEMBRE </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>30.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>30.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>30.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>30.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>010</codigoPrincipal>
+            <descripcion>REPARACIÓN DE ENCENDIDO TOYOTA STOUT AZUL PLACAS ADG-099</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>30</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>30.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>30.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>SEQlcMCbKh+opWuBUy0PbpFonic7U1ikOCyVCMWjsag=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>v1inOdBIhFyL1yvPJwvcEreKGWDykeWULwxzvDsc1v0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b-sigvalue">q50tg4Ud9nP0RTi2rHm4WYJfcMUI0O/rrAEhdK2rdaF3q8sBy/RpYw5dtDhyHMB0Gn7ZOpUNIbqZ6ptjvKtolFCEatOJLUrk0gD3pD/kH/PsuFNUrSQXvsm8xMaCHvN70cJWoAAsQE34XadmEseSevAuSiCsoL13wQU+0bXE6trlSozP+4555WYHVqtY2SERklNfAQKDwPuKOJ7Uibkexr8UVJ/gKpyHwTf4nMGx64opf7eJ64yP/Zigb+BGppGZ9F5t4YVziJVhZX4kh+kAxGkhksUBhIIuloxy2D2lMK7XEhnJTP4lA63dPrKuDtdoc2RXAkpfUiTG9r8/IpGeVg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIKlDCCCHygAwIBAgIIQ3UH0YvenMEwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMTA1MjEyMDMyWhcNMjcxMTA1MjEyMDMyWjCBqjEoMCYGA1UEAwwfSk9OQVRIQU4gRkFCUklDSU8gRkVSUkVMIENBTVBPUzEgMB4GA1UEBRMXMDcwNTc5OTYzMy0wNTExMjUxNjMwMjMxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxqYeC0wWjz33Wf/R2h0zdK/gTsIdWyMwIgT+xc5rpCVnrUYZByoDJ6qb7AMlEqJ0KxWCiBdB1BQJQ0a1uH1AW5X4R4bUtN2Nk4Q251V33GhsBH+zs3QCHetJPzUSw3XbS1QbKR67NEBTx9AH0eZzWVkN4LeVKAEG3Dk+JHiJHkvG+u26+R5/vfxjKc7zqSbqm1fQQ8XzktZSLiHZmX9sx6aJ9S3QmUQO06LaTaimyZQDlKA0X7qR78d2w5IFwB625EGwgaq3D3q5nd2FL9ptCAO1NRGdE3oakIynIoeQ4HoA7l4V0Aw3h6d5MWdszFDYpsIu+KInwPaSxQ3sgqDrbQIDAQABo4IFyzCCBccwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwJgYDVR0RBB8wHYEbam9uYXRoYW5mYWJyaWNpb2ZAZ21haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIICDwYDVR0fBIICBjCCAgIwgd6gOqA4hjZodHRwOi8vY3JsMS5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDEvY3JsZmlsZS5jcmyigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwPKA6oDiGNmh0dHA6Ly9jcmwyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMi9jcmxmaWxlLmNybDCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBRTR52pcX9nXAp3B+gMTH9DA0SIdTArBgNVHRAEJDAigA8yMDI1MTEwNTIxMjAzMlqBDzIwMjcxMTA1MjEyMDMyWjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAowNzA1Nzk5NjMzMBcGCisGAQQBgqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKmcgMiBAMMAS4wEgYKKwYBBAGCpnIDBwQEDAJTTjAhBgorBgEEAYKmcgMCBBMMEUpPTkFUSEFOIEZBQlJJQ0lPMB8GCisGAQQBgqZyAyAEEQwPMDIxMDAxMDAwMDAzNDYyMBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZGRVJSRUwwHwYKKwYBBAGCpnIDHgQRDA9FTEVDVFJPTUVDQU5JQ08wHQYKKwYBBAGCpnIDCwQPDA0wNzA1Nzk5NjMzMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAWBgorBgEEAYKmcgMEBAgMBkNBTVBPUzAaBgorBgEEAYKmcgMIBAwMCjA5NjI1NDc4NTcwDQYJKoZIhvcNAQELBQADggIBAIYAtXFlUCPQTP6sfG7w3yqBhipFFh9o5LabhCp1PE7Oar0GH8i7Xh6rbLck6hYWsCetC5zIOg8l7Am1gptD/9yVC+e5sK02AUAOYYRmU5wGURY4niXg0yaShsjmAp0cCAbWs7j0aKDTIj1duLwjPHlk0MaGZD8aIKPtYpWIcEVvw7sH1o7D/uJZXav35v1nAgkmHcN1sWNU+xxZsDJ2jokSELURHRoNdVD2hkYCpmOp/+llfNhRC/bSzl4t7PyT8Wi7VSbyFun/fgs6JJKRpi6dsP6xpMI4YZxJUAZ+9zIuGbraRiQ5OcWY+U7ab7Le8xKzdNjud8ZcU6e1Ks/Vn7iYsQTS2G6Zjo/NUtlBdMn/56Y7DMTDyTO0iHue3EPdVG353eHV8WlpePRHRhn87phSaqcSaVCa7tu2HWD2g9ZkREynrMIqMtkjLrwLAsOzjyNr8TPKZYFtkKqw7C+0gSTo39zvEIWaZijVhgNJ576oqed15WXl873SFlqLp2cNNonhjg+r/QLEBJPNHz91UwOojY1FP/PnHXhRg6OW21qPw04lFcPhHIFhMxjMYKRBTFE+TNSh/jKeCag0c2NoAvXJt7oyk5yu4Us0TL83Dv5CRtLG0K1oQtTy6mr7PxlKq+H10lyTzhVNX7tDxbk1LrZZwiELG8KrjH06pHCoekxx</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b"><xades:SignedProperties Id="xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-27T12:39:55.625-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Vmkop8aUQZTWm1/gbMh8EdvWMYNMSRjPWB8IwFLzO34=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>4860799969392499905</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-1d941f7b-c33b-4c8e-9907-f332e1150c3b-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

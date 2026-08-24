@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>COMPUTRONICA S.A.S.</razonSocial><nombreComercial>COMPUTRONICA S.A.S.</nombreComercial><ruc>0791842712001</ruc><claveAcceso>0411202501079184271200120020010000015611234567818</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>001</ptoEmi><secuencial>000001561</secuencial><dirMatriz>AV 25 JUNIO Y JUAN MONTALVO</dirMatriz></infoTributaria><infoFactura><fechaEmision>04/11/2025</fechaEmision><dirEstablecimiento>EL ORO / MACHALA / MACHALA / COLON 1813 Y BOLIVAR Y ROCAFUER</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><totalSinImpuestos>966.54</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>966.54</baseImponible><valor>144.98</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>1111.52</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>1111.52</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>4610</codigoPrincipal><descripcion>IMPRESORA EPSON WF6590 WORKFORCE PRO</descripcion><cantidad>1.00</cantidad><precioUnitario>667.83</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>667.83</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>667.83</baseImponible><valor>100.17</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>4731</codigoPrincipal><descripcion>TINTA EPSON T748XXL NEGRO</descripcion><cantidad>1.00</cantidad><precioUnitario>62.61</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>62.61</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>62.61</baseImponible><valor>9.38</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>4732</codigoPrincipal><descripcion>TINTA EPSON T748XXL CYAN</descripcion><cantidad>1.00</cantidad><precioUnitario>78.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>78.70</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>78.70</baseImponible><valor>11.81</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>4733</codigoPrincipal><descripcion>TINTA EPSON T748XXL MAGENTA</descripcion><cantidad>1.00</cantidad><precioUnitario>78.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>78.70</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>78.70</baseImponible><valor>11.81</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>4734</codigoPrincipal><descripcion>TINTA EPSON T748XXL AMARILLO</descripcion><cantidad>1.00</cantidad><precioUnitario>78.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>78.70</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>78.70</baseImponible><valor>11.81</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion ">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional><campoAdicional nombre="Telefono ">29323970//0</campoAdicional><campoAdicional nombre="e@mail ">0</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature152063">
+<ds:SignedInfo Id="Signature-SignedInfo488270">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID316276" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature152063-SignedProperties350078">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>nMC9JwkCzgL/O8jLyXWHtKV5H6Q=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1181637">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>KEgda6OZLdCbhySotpNgghDx5rM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-26483" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-237293" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-112535" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-518387" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-780499" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-569582" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-235857" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-72871" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-546095" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-914326" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-672094" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-300145" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-749795" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-550001" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-994838" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-468539" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-355116" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-221128" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-113096" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-217334" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-769232" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-917932" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-470683" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-17703" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-464928" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-174984" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-392159" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-301276" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-512377" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-751389" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-69122" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-669084" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-173816" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-318522" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-334092" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-392179" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-675988" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-994607" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-805164" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-381286" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-375813" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-242357" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-350764" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-776008" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-490718" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-606055" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-450761" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-665207" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-540113" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-684041" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-339087" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-303682" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-956356" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-269761" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-289210" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1017558" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-823876" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-634119" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-435349" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-707113" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-224044" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-394353" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-546634" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-654607" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-363703" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-554169" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-643961" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-268610" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-820727" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-285719" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-587509" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-54339" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-810385" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-439775" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-475635" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-273058" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-58850" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-407690" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/3TmQGhG0zaRpTpema/R2nD3a7E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue763639">
+DT2d52OFv/mP0Vtxt04b9vT3aH1qO0FCKx4HtUXGOSnJMoF9JMzEPda7S+hYJneVVokolnqFQdeJ
+8S01uXXHuDl0FMdlUbphN4JKpbWdmBTtPZjthtS/Xh4186qzFil3rifgqMPUIr5/Bkj4bpLBHXTV
+olqhQrhnerr/wndqSQ/JzCx98BvTXBn45dvkio2CHx2NC6nRa5T8J+81hE+guHO+UvsdWzNg5Re+
++An5A0+jx2E/C2Ed9JlwmhQt5fUmO7xJXUVsuuBcvZ9o21/E7r+2PHXWHtZvBe14tWK3fd01P0z6
+MeJxa4pZt/jFOKUSkZuNHZvyI3ZA9n0LbXZfAA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1181637">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJrzCCB5egAwIBAgIISBSvbiruvnYwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTExNjE5NTYwMFoXDTI1MTExNTE5NTYwMFowgeQxCzAJBgNVBAYTAkVDMRwwGgYDVQQKDBND
+T01QVVRST05JQ0EgUy5BLlMuMRgwFgYDVQQMDA9HRVJFTlRFIEdFTkVSQUwxGzAZBgNVBAQMElBP
+UlJBUyBSSVZBREVORUlSQTEZMBcGA1UEKgwQQURSSUFOIEFMRVhBTkRFUjEZMBcGA1UEBRMQSURD
+RUMtMDcwNjUxMDE4NzEsMCoGA1UEAwwjQURSSUFOIEFMRVhBTkRFUiBQT1JSQVMgUklWQURFTkVJ
+UkExHDAaBgNVBGEME1ZBVEVDLTA3OTE4NDI3MTIwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC4TQWC9uSiBmH3tzxHhO3WR7bGZa7G/AKKwSNzuV1vr0O8HLsttz87NNGNsUTkOrjC
+USqm9P9JaKNACUqA2mbQL8y12s2f3DyVZn+TKsRH7wi9gPM/cs4CEX8kQd8kzlMHomqGTfzkmpTe
+B4naXs3y3sh1+huRlz2rcUwUC0A3SG0ix87w7BknsLs3JxoUSqACIXzeVt9JCFSbXMux0Y8qG130
+vhyDzk0iJZTnz+JXG4KEhpzqBKodE46GgvQok4qGYGCkfl+SBiub/pEAlxULTF1hmSh8zmGXPDOU
+S0wnQW2c+84vTxgcYCf87oa58t0JEISxkXAtL3UXK/qKEMn9AgMBAAGjggSNMIIEiTAbBgsrBgEE
+AYLxNmYDAQQMDAowNzA2NTEwMTg3MB4GCysGAQQBgvE2ZgMLBA8MDTA3OTE4NDI3MTIwMDEwgdcG
+CCsGAQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJs
+aWMvZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzAB
+hipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGG
+Kmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQUk3ok
+LEHQ49IdwDf0nncEMI57aUcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw
+4RGydJJz/TCBjgYDVR0gBIGGMIGDMIGABgwrBgEEAYLxNmYCAwEwcDA3BggrBgEFBQcCARYraHR0
+cHM6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzA1BggrBgEFBQcCAjApDCdD
+RVJUSUZJQ0FETyBERSBSRVBSRVNFTlRBTlRFIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6g
+PIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh
+LmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1
+Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMIIBzgYDVR0RBIIBxTCCAcGBHGNvbnRhYmlsaWRhZDEuZXNwbkBnbWFpbC5jb22gGwYLKwYB
+BAGC8TZmAwGgDAwKMDcwNjUxMDE4N6AhBgsrBgEEAYLxNmYDAqASDBBBRFJJQU4gQUxFWEFOREVS
+oBcGCysGAQQBgvE2ZgMDoAgMBlBPUlJBU6AcBgsrBgEEAYLxNmYDBKANDAtSSVZBREVORUlSQaAg
+BgsrBgEEAYLxNmYDBaARDA9HRVJFTlRFIEdFTkVSQUygMgYLKwYBBAGC8TZmAwegIwwhQ09MT04g
+MTgxMyBZIEJPTElWQVIgWSBST0NBRlVFUlRFoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTc5NDQx
+NzkzoBgGCysGAQQBgvE2ZgMJoAkMB01BQ0hBTEGgJAYLKwYBBAGC8TZmAwqgFQwTQ09NUFVUUk9O
+SUNBIFMuQS5TLqAeBgsrBgEEAYLxNmYDC6APDA0wNzkxODQyNzEyMDAxoBMGCysGAQQBgvE2ZgMM
+oAQMAkVDoCQGCysGAQQBgvE2ZgMyoBUME1JFUFJFU0VOVEFOVEUgTEVHQUygGAYLKwYBBAGC8TZm
+AzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAnvkac6/qVb5URmZwFqTmp8ZHBZPvH8zD
+12WNdaAA0NlHryTtEUbgv6PJ0h/b3rct47FhKH4PcO5L5yVd2O0QanCKQSRw6AGJdRVR6JXjshcW
+EaNmX8q8mF9EAJ5unbYy+zeKvkh7E7KLBP3arXXOf93mEgt9jGpk0vOqKwZxE+PQdgW8oPyBIn5m
+Z+QvFwLX4jyXxsaq/IupyRCWg/Qd+tAtsOU+cnzZiWd36le3A08CPm7GfzOuIYZP1a46ugHRWj3s
+sSuV6d80aVgo4j5JiNlIiXb1frkAx/3LhMaTTY6X7D5YecgRR20BRwZZOH9+4V4iitseHY5Rjxom
+x6tv/mMC3xxao8jgMVBnA11y2xW4/yQuGTICJjX3B2PTSjw3m28SJZOzFhUz6MbEWfDWJFQB2AOc
+gXX2YLXIC41n+2d3zoV45Nf8gt1WFXRTVmAFRicEgqZ4rTRqpdriKjuobRSpDCIKpYm8qULxIc0v
+0hn9XBJCRho7SVjl1izhPlP2GUZxHIjKz5cipqpwpZXftGiYutMsbpHSTzPu1B5/26cdiIjC8m+E
+lQnr06s7oFoJHGnA6T82RLZeKZ1GVoOqkj09oYWdxqECLGAlw3uxIRXuwHibCxPfZQhCRd6kfbNf
+APYZ1CIaOW004RKLpXmTX4gwTbsyHwu5HckjlmQgduc=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uE0FgvbkogZh97c8R4Tt1ke2xmWuxvwCisEjc7ldb69DvBy7Lbc/OzTRjbFE5Dq4wlEqpvT/SWij
+QAlKgNpm0C/MtdrNn9w8lWZ/kyrER+8IvYDzP3LOAhF/JEHfJM5TB6Jqhk385JqU3geJ2l7N8t7I
+dfobkZc9q3FMFAtAN0htIsfO8OwZJ7C7NycaFEqgAiF83lbfSQhUm1zLsdGPKhtd9L4cg85NIiWU
+58/iVxuChIac6gSqHROOhoL0KJOKhmBgpH5fkgYrm/6RAJcVC0xdYZkofM5hlzwzlEtMJ0FtnPvO
+L08YHGAn/O6GufLdCRCEsZFwLS91Fyv6ihDJ/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature152063-Object780627"><etsi:QualifyingProperties Target="#Signature152063"><etsi:SignedProperties Id="Signature152063-SignedProperties350078"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-11-04T09:00:03-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>sNUPHtY06kO5u1GNsJR3/39+LyY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>5193969157966577270</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-26483"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-237293"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-112535"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-518387"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-780499"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-569582"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-235857"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-72871"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-546095"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-914326"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-672094"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-300145"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-749795"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-550001"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-994838"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-468539"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-355116"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-221128"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-113096"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-217334"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-769232"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-917932"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-470683"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-17703"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-464928"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-174984"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-392159"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-301276"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-512377"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-751389"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-69122"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-669084"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-173816"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-318522"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-334092"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-392179"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-675988"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-994607"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-805164"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-381286"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-375813"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-242357"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-350764"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-776008"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-490718"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-606055"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-450761"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-665207"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-540113"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-684041"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-339087"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-303682"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-956356"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-269761"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-289210"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-1017558"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-823876"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-634119"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-435349"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-707113"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-224044"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-394353"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-546634"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-654607"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-363703"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-554169"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-643961"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-268610"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-820727"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-285719"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-587509"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-54339"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-810385"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-439775"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-475635"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-273058"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-58850"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat><etsi:DataObjectFormat ObjectReference="#Reference-ID-407690"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

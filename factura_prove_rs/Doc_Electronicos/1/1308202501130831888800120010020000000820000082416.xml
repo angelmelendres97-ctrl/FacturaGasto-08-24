@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>DELGADO LAJE KAROLINA ROCIO</razonSocial>
+    <nombreComercial>DELGADO LAJE KAROLINA ROCIO</nombreComercial>
+    <ruc>1308318888001</ruc>
+    <claveAcceso>1308202501130831888800120010020000000820000082416</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000082</secuencial>
+    <dirMatriz>URB. BELLAVISTA DEL SUR Calle: SIMON BOLIVAR N93 LT-1774 Interseccion CALLE T  piso: 0</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>13/08/2025</fechaEmision>
+    <dirEstablecimiento>URB. BELLAVISTA DEL SUR Calle: SIMON BOLIVAR N93 LT-1774 Interseccion CALLE T  piso: 0</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>BELORO</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>Guayaquil y 5ta Norte Esquina</direccionComprador>
+    <totalSinImpuestos>2520.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>2520.00</baseImponible>
+        <tarifa>15.00</tarifa>
+        <valor>378.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <importeTotal>2898.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>2898.00</total>
+        <unidadTiempo>dia</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>01</codigoPrincipal>
+      <descripcion>Señal Informativa de 90 x 30</descripcion>
+      <cantidad>40.00</cantidad>
+      <precioUnitario>42.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1680.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Detalle" valor="Señal Informativa de 90 x 30  PARROQUIA JAMBELI AV. DR. ANDRES DAVID MACHUCA GRANDA"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>1680.00</baseImponible>
+          <valor>252.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>02</codigoPrincipal>
+      <descripcion>Señal Informativa de 90x30</descripcion>
+      <cantidad>20.00</cantidad>
+      <precioUnitario>42.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>840.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Detalle" valor="Señal Informativa de 90x30  PARROQUIA JUBONES AV. DR. ANDRES DAVID MACHUCA GRANDA"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>840.00</baseImponible>
+          <valor>126.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">Guayaquil y 5ta Norte Esquina</campoAdicional>
+    <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature585491">
+<ds:SignedInfo Id="Signature-SignedInfo390496">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID950031" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature585491-SignedProperties234570">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>5P9u7aRfTLBme1W3xPBQkZGNJXs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1121737">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>vSILh8R8k2Vhy4XsnRKh5BxRfAQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-241266" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>qnC0gGLOrjHAAXrWEzT9lWeS++Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue512378">
+UCDVebgU2atcXXTQI4Vf7/4cQP5T0hEVoOIgwn1tho//6KmOnL7MKQVr8dW0IKFS1Q3TMLLwquD9
+3wwwZdammgH1AQ8EunknqEwNasTbyBxRIWEfcUyAOU44KjsDRUXoFfOsSVjG321fBQ3lOIp5cCYl
+7Akik+1aZMZVed/Uj3LrxuQCNhsRcXfl6mwPazsMxbRgn+hX/sC+d++LPpeahtSuCnIbpn5fW881
+vvUdufOZYXQ3gDg8Petpm4aNvo14xfDODpXkpXnzX6FJ/KaZFy5X4bhRQ6B5ehTPx+quBl63PWbm
+iWTzSt8EK5eosD13DDPTm0vsmTAN/CV3ZkHkxQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1121737">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJOzCCByOgAwIBAgIIQT4bylwVqSEwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDgyODEyNDEwMFoXDTI2MDgyODEyNDEwMFowgZwxCzAJBgNVBAYTAkVDMRUwEwYDVQQEDAxE
+RUxHQURPIExBSkUxFzAVBgNVBCoMDktBUk9MSU5BIFJPQ0lPMRkwFwYDVQQFExBJRENFQy0xMzA4
+MzE4ODg4MSQwIgYDVQQDDBtLQVJPTElOQSBST0NJTyBERUxHQURPIExBSkUxHDAaBgNVBGEME1RJ
+TkVDLTEzMDgzMTg4ODgwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOqc9D+iil
+fCjEpK8KDHMOf51/JuNXvDnAzXfKGhqnWTScroJrQ6pT7OkTwSNijgfiCEbx2JYnwP+aSJKOlmye
+KEIAnlH3AEVDyE3yzYgp0PNhf26mMCpV3ZuedUCdb9uY7UiY72s2y5qvcV31qP+Lunhx+h9gfmmX
+R0ZC69tGCn58bdASOFzyTvB8/osGg/UH32kMqE/LU4Jqesa0Nyx02Tq9UN6P9ioDR26FGKdK6U/4
+KzEg6qIyfFgAqZOaB0AgR/vM/qJp7fscwXUO2N02fU+BHXkAM+CFbuVeO2hfeckwf3rvnVqGzHQU
+p90HzOtI9viSIL+IYtaGBd8nzxQBAgMBAAGjggRhMIIEXTAbBgsrBgEEAYLxNmYDAQQMDAoxMzA4
+MzE4ODg4MB4GCysGAQQBgvE2ZgMLBA8MDTEzMDgzMTg4ODgwMDEwgdcGCCsGAQUFBwEBBIHKMIHH
+MFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxvYWQvdHNw
+X2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEu
+dWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51
+YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQUxA61myp8IvSiskm/lMMcnTdQ
+1DkwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGydJJz/TCBmQYDVR0g
+BIGRMIGOMIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cudWFuYXRh
+Y2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0DDJDRVJUSUZJQ0FETyBERSBQ
+RVJTT05BIE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGEMECgPqA8hjpo
+dHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3Js
+MECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3Jk
+aW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw
+ggGXBgNVHREEggGOMIIBioEYdmlhbC1kZWxnYWRvQGhvdG1haWwuY29toBsGCysGAQQBgvE2ZgMB
+oAwMCjEzMDgzMTg4ODigHwYLKwYBBAGC8TZmAwKgEAwOS0FST0xJTkEgUk9DSU+gGAYLKwYBBAGC
+8TZmAwOgCQwHREVMR0FET6AVBgsrBgEEAYLxNmYDBKAGDARMQUpFoEwGCysGAQQBgvE2ZgMHoD0M
+O0NBTExFOiBTSU1PTiBCT0xJVkFSIE5NRVJPOiA5MyBMVC0xNzc0IElOVEVSU0VDQ0lOOiBDQUxM
+RSBUoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTk1MjE4NTcxoBYGCysGAQQBgvE2ZgMJoAcMBVFV
+SVRPoB4GCysGAQQBgvE2ZgMLoA8MDTEzMDgzMTg4ODgwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOg
+KQYLKwYBBAGC8TZmAzKgGgwYUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBoBgGCysGAQQBgvE2ZgMz
+oAkMB0FSQ0hJVk8wDQYJKoZIhvcNAQELBQADggIBAHqhfWXspcv+aVCPBvqRRdeqaW5HRvkBbwmk
+92snMwlXv9Z/tT8lTTtJ68uZs2a8ujo20xUH6Vze+XYODVrjjcxVua1WYtGAAIBt98It1F3Lw1p2
+U3NR6hnOIcdVzRxRgrnwKQ5wbMrREZ4ck0XVSp3xR7pAj/GiVkJbTU80keIosYwtgoWw/Kjas4q8
+EQA54I3NEOtl8MgAiD25dPPHMZ+SMLR6FkepcE/ACttdCpg3P5Ov82zWBm1llP2ZLXsnxZLMKwxU
+d/gaSlknAQhSkyX8c7VeIpz64jnXSU2WSnMb/Ir2w+TLp9N9MGoWsXr2E/yDkhaP42LQMUigXJ5w
+ObK6+r1yWgi4vGy0PiiCPFBAS+LmsYgBVqSpTkSsTXNDpX02gaCAbogvhEtTouXImcFAsO33BMD1
+1Cu2IKBRRnZKWw7AZa601g+TeWwNwYuCsqoT2UpZpY7IOt3CAWvlHXbnJmoSwj5ssB3V2D0q/rFp
+ZC+VGQt4ueH3D0rHQQ9pDru9dKvGTQVtNZgZeuzo4xtFr1Rq8fyloh1Qyf+fqpUOoMGaGMAyuitl
+iHNpUay2CaAQjY6B663Tred44UOfBz+LXs+aZ/w/MeJg+AtuvKw3q4M7Id7LtSJGOrs3PFiUMf6m
+wOp4r9JW/tqnyeGYeOcXQ/pxwRA2jmsQe8Mc3cFj
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zqnPQ/oopXwoxKSvCgxzDn+dfybjV7w5wM13yhoap1k0nK6Ca0OqU+zpE8EjYo4H4ghG8diWJ8D/
+mkiSjpZsnihCAJ5R9wBFQ8hN8s2IKdDzYX9upjAqVd2bnnVAnW/bmO1ImO9rNsuar3Fd9aj/i7p4
+cfofYH5pl0dGQuvbRgp+fG3QEjhc8k7wfP6LBoP1B99pDKhPy1OCanrGtDcsdNk6vVDej/YqA0du
+hRinSulP+CsxIOqiMnxYAKmTmgdAIEf7zP6iae37HMF1DtjdNn1PgR15ADPghW7lXjtoX3nJMH96
+751ahsx0FKfdB8zrSPb4kiC/iGLWhgXfJ88UAQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature585491-Object596143"><etsi:QualifyingProperties Target="#Signature585491"><etsi:SignedProperties Id="Signature585491-SignedProperties234570"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-08-13T17:35:51-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>hYnZ/WX1NK1y21ItlgXHz/PZxfE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>4701225616963643681</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-241266"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

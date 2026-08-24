@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>ALMACENES JUAN ELJURI CIA. LTDA</razonSocial><nombreComercial>ALMACENES JUAN ELJURI CIA</nombreComercial><ruc>0190007510001</ruc><claveAcceso>2805202601019000751000121360020002207808754539418</claveAcceso><codDoc>01</codDoc><estab>136</estab><ptoEmi>002</ptoEmi><secuencial>000220780</secuencial><dirMatriz>AV.GIL RAMIREZ DÁVALOS 532 Y ARMENILLAS</dirMatriz></infoTributaria><infoFactura><fechaEmision>28/05/2026</fechaEmision><dirEstablecimiento>AV. PAQUISHA S/N VIA PASAJE MACHALA</dirEstablecimiento><contribuyenteEspecial>5368</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>QUINTA NORTE Y GUAYAQUIL ESQ.     </direccionComprador><totalSinImpuestos>13170.60</totalSinImpuestos><totalDescuento>1463.40</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>13170.60</baseImponible><valor>1975.59</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>15146.19</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>15146.19</total><plazo>30</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>000000000010123351</codigoPrincipal><codigoAuxiliar>5000267197630</codigoAuxiliar><descripcion>JOHNNIE GOLD RESERVE_JOHNNIE WALKER GOLD LABEL 750 ML_WHISKY_</descripcion><cantidad>180.00</cantidad><precioUnitario>81.30</precioUnitario><descuento>1463.40</descuento><precioTotalSinImpuesto>13170.60</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>13170.60</baseImponible><valor>1975.59</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="DATA">ALMACENES JUAN ELJURI CIA. LTDA</campoAdicional><campoAdicional nombre="A3D">sistemasaje@eljuric.com</campoAdicional><campoAdicional nombre="Gran Contribuyente">Gran Contribuyente NAC-GCFOIOC21-00000927-E</campoAdicional><campoAdicional nombre="Observaciones">PEDIDO: 0013480532  - AUTORIZADO POR LUCI AUCAPIÑA, CLIENTE PAGA CON TRANSFERENCIA, RESPONSABLES TAB MACHALA</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature173879">
+<ds:SignedInfo Id="Signature-SignedInfo137456">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID99702" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature173879-SignedProperties249903">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>qmvAb+Ahz2rl1T/T7fFua1eqUNE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1287107">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>nl2cd6m2/3RoMbqRM7nBbPAqpF0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1045312" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>1XPGD0EXjRWMRXeU9T2sK5UKwXI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue307886">
+BjwZ6BmmEhDehdQ1KPSMg2jp6ZWygbf+8V24i1v999VOeYyYYqM6FM07kL1EKtrXmMaSX/71lXet
+/dtFdmMQcoz/sOhIhXrKBDz258i0su5u13dpx5QwFMFYEgFP08Ozybo6dm5s/8HTREZA0RNHJYH+
+oB6G8RfvIqOAB/r0XghT7eBtdeoFsd+X/It5MTMhsbUxJtBtsh5mXlumem2FUh8qRRO9dwGzaKj4
+JsOW5iuMo+WOqlWVbYC9+hw8nlyikF5U3vHFxaKngxXjkDQbDBYgsT1KInucRv/bWlWqSuI8MZK7
+IYQkw6+NlqjgmQrF4JH8CpI3OzbpgI7s77iEMQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1287107">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK5zCCCM+gAwIBAgIIVupxZGyvte4wDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwMzA1MDAyNzM5WhcNMjcwMzA1MDAyNzM5WjCB
+qDEmMCQGA1UEAwwdQ0FSTE9TIEpPQVFVSU4gQUxWQVJFWiBFTEpVUkkxIDAeBgNVBAUTFzAxMDE5
+OTk1OTctMDQwMzI2MTkzNzMxMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN6hUsXMWoiUGfaGObpU8QWUn9a+8egI494P
+/mQ9xqkzrRvuFnOHk5rtLJSgzowzMeLyR9ajuLt2lUmJGuFpCoa3zJ1vPQzQSAJNqrt6qJIlsCL6
+ZlAslz0znKtKx1+KCnT4vgvAIISaGsgno13UFNNdaiu7sWhcdwuIvBnB0LDhF8nnIZXAMTkhoOf+
+a8XSYuISfIuHCaMUJ/JwrESJ1vuZRATMm3HhBCJAC4Ry1PsxFfbZMjUw3kymy0eRPtb5JHlFyDkj
+JSwjbiKjZ6iUH4eqxZkv77qDS7ePqlaWnAtuqT4foEcWIfOnc2qZSyQ33qKZ2p0fXrUbfwNc/Juj
+EesCAwEAAaOCBiAwggYcMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+N
+rmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCkGA1UdEQQiMCCBHmFzaXN0
+ZW50ZWNvbnRhYmxlMUBlbGp1cmljLmNvbTCCARUGA1UdIASCAQwwggEIMGIGCisGAQQBgqZyAgkw
+VDBSBggrBgEFBQcCAjBGHkQAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUgBlAHAAcgBl
+AHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBnAGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYIKwYBBQUH
+AgEWgYJodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRz
+L05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFJl
+cHJlc2VudGFudGUgTGVnYWwucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8G
+A1UdHwSCAgYwggICMIHeoDqgOIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJj
+YTJjcmwxL2NybGZpbGUuY3JsooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJ
+BgNVBAYTAkVDMDygOqA4hjZodHRwOi8vY3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNy
+bDIvY3JsZmlsZS5jcmwwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlz
+c3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEs
+T1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFU
+QSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUknVCd8GUcGuNwrF/BpI4b1Oy2kwwKwYDVR0QBCQwIoAP
+MjAyNjAzMDUwMDI3MzlagQ8yMDI3MDMwNTAwMjczOVowCwYDVR0PBAQDAgXgMB8GCisGAQQBgqZy
+AwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgqZyAwEEDAwKMDEwMTk5OTU5NzAZBgorBgEE
+AYKmcgMJBAsMCUVMIFZFQ0lOTzARBgorBgEEAYKmcgMiBAMMAS4wOAYKKwYBBAGCpnIDBwQqDChB
+ViBHSUwgUkFNSVJFWiBEQVZBTE9TIDUgMzIgWSBBUk1FTklMTEFTMB4GCisGAQQBgqZyAwIEEAwO
+Q0FSTE9TIEpPQVFVSU4wHwYKKwYBBAGCpnIDIAQRDA8wMDUwMDEwMDAxOTUyMTAwEwYKKwYBBAGC
+pnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBcGCisGAQQBgqZyAwMECQwHQUxW
+QVJFWjAuBgorBgEEAYKmcgMKBCAMHkFMTUFDRU5FUyBKVUFOIEVMSlVSSSBDSUEgTFREQTAdBgor
+BgEEAYKmcgMLBA8MDTAxOTAwMDc1MTAwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBYGCisGAQQBgqZy
+AwQECAwGRUxKVVJJMBoGCisGAQQBgqZyAwgEDAwKMDk4NDE3NjQzNzANBgkqhkiG9w0BAQsFAAOC
+AgEAsjaT7oIU5/s+cWUdqqcKX15QCTX2HZiq8HXMV5VNlcWit0lx7V4+tJw31ffYtR3dfAxft/+B
+KBs4zFNrnAwYBWqbGT5B073lC4yw6Eai2UdBULFmlYNjJPBbzgwPBgX2BKNPSALdm9miCN7SljCt
+ewYfcfVWDbIHv7mNROTiT/7BLPdU+Oj7SYDZvbeTXednTUMd0UXpVQYfFONT4K3nUuJaQiALZEHl
+IpKKxxjmtexxKmQUXa0H7BJf3PWX4R1OT4Q89fZAMgYl4tHLpRhQ0VYGSHnq0UV6Rl5kQmkVjHxS
+2OIhnEu9RfJIAGvUZG7XQCOp4LM41MMoSIOj5pPF6AmqSlhi3wW3ibBtTcBjycIrvpR5dfJfMSGy
+5B5xvH0xPIj/DFgqY+ZUKXGBK4XxtrqhtbiUmXqlGQr/RZrsi2fsR1xkKSapTY1S2EU3gmMgyA8o
+ptmkFze+ZUHo4wvlkf7sB/wxu+4LsgUaF6uM1VMAHSOdoQZzgOpL7aAXnLCBIA6pRRmzZ+KlpV7D
+k34hqEDIE8mZRcuW83T3QmPU7rJ1yx59xqdSOZy9I3EtQM5TH4SoL7CwAN8azilxnw0pmC8fm3Oy
+7t+oigNz9hH+Oa7Blo+LClA3J4Dlk7OCFoa06BS7DAEpONYII714gyFpL5OYRFo5BmghqF9qL47Q
+4sA=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3qFSxcxaiJQZ9oY5ulTxBZSf1r7x6Ajj3g/+ZD3GqTOtG+4Wc4eTmu0slKDOjDMx4vJH1qO4u3aV
+SYka4WkKhrfMnW89DNBIAk2qu3qokiWwIvpmUCyXPTOcq0rHX4oKdPi+C8AghJoayCejXdQU011q
+K7uxaFx3C4i8GcHQsOEXyechlcAxOSGg5/5rxdJi4hJ8i4cJoxQn8nCsRInW+5lEBMybceEEIkAL
+hHLU+zEV9tkyNTDeTKbLR5E+1vkkeUXIOSMlLCNuIqNnqJQfh6rFmS/vuoNLt4+qVpacC26pPh+g
+RxYh86dzaplLJDfeopnanR9etRt/A1z8m6MR6w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature173879-Object620427"><etsi:QualifyingProperties Target="#Signature173879"><etsi:SignedProperties Id="Signature173879-SignedProperties249903"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-05-28T16:41:22-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>nzb4Hyd0TAo4VRwLPSdvHVZlwnI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>6262942907946218990</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1045312"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

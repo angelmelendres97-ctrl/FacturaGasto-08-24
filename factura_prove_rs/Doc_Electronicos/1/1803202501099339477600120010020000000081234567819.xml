@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">  <infoTributaria>    <ambiente>2</ambiente>    <tipoEmision>1</tipoEmision>    <razonSocial>WAVEMUSIC ECUADOR S.A.S.</razonSocial>    <nombreComercial>WAVEMUSIC ECUADOR S.A.S.</nombreComercial>    <ruc>0993394776001</ruc>    <claveAcceso>1803202501099339477600120010020000000081234567819</claveAcceso>    <codDoc>01</codDoc>    <estab>001</estab>    <ptoEmi>002</ptoEmi>    <secuencial>000000008</secuencial>    <dirMatriz>ACACIAS Y ILANES</dirMatriz>  </infoTributaria>  <infoFactura>    <fechaEmision>18/03/2025</fechaEmision>    <dirEstablecimiento>ACACIAS Y ILANES</dirEstablecimiento>    <obligadoContabilidad>SI</obligadoContabilidad>    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>    <razonSocialComprador>Empresa Minera Beloro C.L.</razonSocialComprador>    <identificacionComprador>0992529679001</identificacionComprador>    <direccionComprador>Machala calles Quinta Norte y Guayaquil</direccionComprador>    <totalSinImpuestos>265000.00</totalSinImpuestos>    <totalDescuento>0.00</totalDescuento>    <totalConImpuestos>      <totalImpuesto>        <codigo>2</codigo>        <codigoPorcentaje>4</codigoPorcentaje>        <baseImponible>265000.00</baseImponible>        <valor>39750.00</valor>      </totalImpuesto>    </totalConImpuestos>    <propina>0.00</propina>    <importeTotal>304750.00</importeTotal>    <moneda>DOLAR</moneda>    <pagos>      <pago>        <formaPago>01</formaPago>        <total>304750.00</total>        <plazo>8</plazo>        <unidadTiempo>dias</unidadTiempo>      </pago>    </pagos>  </infoFactura>  <detalles>    <detalle>      <codigoPrincipal>006</codigoPrincipal>      <descripcion>Organizacion Produccion de espectaculo artistico</descripcion>      <cantidad>1</cantidad>      <precioUnitario>265000.00</precioUnitario>      <descuento>0.00</descuento>      <precioTotalSinImpuesto>265000.00</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15</tarifa>          <baseImponible>265000.00</baseImponible>          <valor>39750.00</valor>        </impuesto>      </impuestos>    </detalle>  </detalles>  <infoAdicional>    <campoAdicional nombre="Email Cliente">fernanda.paccha@grupoadmg.com</campoAdicional>    <campoAdicional nombre="Telef. Cliente">072937375/</campoAdicional>    <campoAdicional nombre="Detalle Adicional">Organizacion, Produccion de espectaculo artistico</campoAdicional>  </infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature180321">
+<ds:SignedInfo Id="Signature-SignedInfo540821">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID406143" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature180321-SignedProperties221930">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>sA8pn4T/qXHd4CtDKHa9J85TuV8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1981640">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>WoRQ/1cDJjDKIzuQAGRSnfJpjjA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-561356" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>jD9mS/3kIT2v8+MbFDlVFXzTsBc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue73037">
+ALE4Pd0FHE/o6t/CCZkNojPn1uBtt4ykC+hXsg5dDo15Mhxi/tlnP8CTSTRRjaw789yehLfSjf9l
+t/+5Qol/jAk8+wy5wjN96M3DzZfMdjvvrE2o223TKwiQ3EG22PtUrokOkmZPnYRaJvGo2gADtmmH
+Oeh/OFflwfyFdB2S3wZ+fF6ZlLgz25pvp2/1ZayHPJlECxrrq29m8sY+cqhUNR6c474ceJqMPAzP
+PqJrgOLWuttyZSYCC2aj1uOZh13FfLkHDICm6T7YcxCJggL0+6EkLUTyqEpw6uqi43zSYJRXCCJS
+lIZkyQYiVw3hXqqtMQ7SSv2cnXL/+xC1eXSgmA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1981640">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMSTCCCjGgAwIBAgIEas7M5TANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDEyMjAxNjMyMDNaFw0yNTEyMjAxNjMyMDNaMIGvMS0w
+KwYDVQQDDCRSQUZBRUwgQUxFSkFORFJPIFNBTENFRE8gQVJJU1RJWkFCQUwxIDAeBgNVBAUTFzA5
+Mjc2NTU2MjEtMjAxMjI0MTE0MTU4MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04g
+REUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJF
+QzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcJVYWknHPNKrh/rTRYW6ojXh0TKu6F
+nZCP5LMUNwVqvZyL5zmN0Rwiawr+7LvQkqRTVY/qsK08w9Rbwt3RG/gmRkCfOrQO9FZtS93FdfQ0
+5w1q7a61bjwplZKk7VXbFtJY2R4zMLPqq+6CHyXmznssK8MCQc0psW5pO2y6hn+SZZiq57Fn0W+f
+doe2eFqp6LjVNJaQBZ+ywuUit38XrOyHAZj0r4ZrtcTUUOw9XbjePIzBJ2UiO7tv2Bfo987HQEoZ
+tpY2awJf94+KjR9nEjp36iuR4OjleIhEZXvJltaJ4tYgF1SLoz4t25i9ImQNcSnb004KOJKr8okB
+GFMGAccCAwEAAaOCB38wggd7MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpL
+Vb+NrmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3Vy
+aXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQw
+gcGggb6ggbuGgbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJ
+REFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/
+ZGVsdGFSZXZvY2F0aW9uTGlzdD9iYXNlMB4GA1UdEQQXMBWBE3JhZmFzYWwyNkBnbWFpbC5jb20w
+ggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQA
+aQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBh
+AGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNh
+ZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2FsLnBkZjAdBgNV
+HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6
+Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Ci
+gZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VD
+VVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGG
+gb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNh
+dGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3Iy
+LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21k
+PWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VS
+SVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFLsStBX6BAQXv+iDso7UABehxQfQMCsGA1Ud
+EAQkMCKADzIwMjQxMjIwMTYzMjAzWoEPMjAyNTEyMjAxNjMyMDNaMAsGA1UdDwQEAwIF4DAfBgor
+BgEEAYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjA5Mjc2NTU2MjEw
+QAYKKwYBBAGCpnIDCQQyDDBHVUFZQVFVSUwgQ0FCRUNFUkEgQ0FOVE9OQUwgWSBDQVBJVEFMIFBS
+T1ZJTkNJQUwwEQYKKwYBBAGCpnIDIgQDDAEuMCAGCisGAQQBgqZyAwcEEgwQQUNBQ0lBUyBZIElM
+QU5FUzAgBgorBgEEAYKmcgMCBBIMEFJBRkFFTCBBTEVKQU5EUk8wHwYKKwYBBAGCpnIDIAQRDA8w
+MDEwMDIwMDA2ODk4NzgwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VB
+RE9SMBcGCisGAQQBgqZyAwMECQwHU0FMQ0VETzAnBgorBgEEAYKmcgMKBBkMF1dBVkVNVVNJQyBF
+Q1VBRE9SIFMgQSBTMB0GCisGAQQBgqZyAwsEDwwNMDk5MzM5NDc3NjAwMTARBgorBgEEAYKmcgMd
+BAMMAS4wGwYKKwYBBAGCpnIDBAQNDAtBUklTVElaQUJBTDAQBgorBgEEAYKmcgMIBAIMADANBgkq
+hkiG9w0BAQsFAAOCAgEAeW9hVvmUQ22fmyG2ElfuWk91Xdea6TwLhGP96fh6NZbUWmmu9F651Ww4
+Wrc79aLj/PcuT8zBuzWbOB4MHBcFHv0u4hOHyXX0Ore6yPoS2k4zngeHspDeRE+j3wtC0bxo/IgD
+GnLsVe/neLOBCaIcwKBtMne4JaQopMH65xlHIYhRJEy2NHE7US3xISgRXIDdzSsVEBXNQru9yXUj
+KZ+rgVshUXQB2Fvp5CbaWPQeVjVXErna0Jw6uG7nm2F/drv0RsQHw/P7kt7T5uiZGmGaUsOYUivp
+gqlOM6yWzCYVaM5jp++affDG3uFgKz2n+2er+U6ShtTKmOSjBhYoZtZHKJwq6oMHGQs5cfv9Bok8
+eSTl/40kVgX6ibeStCFvrKhjUcsXbOBJDC+fwaCR1XBVbjzPQodIGUMv/B54ku00clJySX7yNzuU
+Doc9cA2nuLXQZKxUScCG/WqefnMj+X6pov7DZqY05Qa9/SYGSP8IKGLivBpHd7EJ9CQqLSopVNRL
+DDAFHnX6H61thu06NrbvMEBWyzhVHDpg2UT3L5fEESA5rqkCutYFuNxOsD4xcducfxZuNxXaddJR
+iT8j++4l5vNFEsSPI7wyB2PtS8yutchaktj3hiElyokXyHJDYTzzfakvx7WNBxOjBNo6qKmXBLzP
+buWUrsRDgIRYlsELRJE=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pwlVhaScc80quH+tNFhbqiNeHRMq7oWdkI/ksxQ3BWq9nIvnOY3RHCJrCv7su9CSpFNVj+qwrTzD
+1FvC3dEb+CZGQJ86tA70Vm1L3cV19DTnDWrtrrVuPCmVkqTtVdsW0ljZHjMws+qr7oIfJebOeywr
+wwJBzSmxbmk7bLqGf5JlmKrnsWfRb592h7Z4WqnouNU0lpAFn7LC5SK3fxes7IcBmPSvhmu1xNRQ
+7D1duN48jMEnZSI7u2/YF+j3zsdAShm2ljZrAl/3j4qNH2cSOnfqK5Hg6OV4iERle8mW1oni1iAX
+VIujPi3bmL0iZA1xKdvTTgo4kqvyiQEYUwYBxw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature180321-Object158685"><etsi:QualifyingProperties Target="#Signature180321"><etsi:SignedProperties Id="Signature180321-SignedProperties221930"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-03-18T16:45:05-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>+ITvglQk7X++wmotw7TAymbiu9c=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1791937765</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-561356"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

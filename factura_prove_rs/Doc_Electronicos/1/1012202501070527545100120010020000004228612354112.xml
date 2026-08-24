@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>OCHOA CABRERA YUSTHYN GISSELLA</razonSocial>
+        <nombreComercial>SCRAPBOOK DETALLES</nombreComercial>
+        <ruc>0705275451001</ruc>
+        <claveAcceso>1012202501070527545100120010020000004228612354112</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000422</secuencial>
+        <dirMatriz>Barrio: CDLA JAIME ROLDOS Calle: SN Numero: 6 Interseccion: CIRCUNVALACION SUR Manzana: A3 </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>10/12/2025</fechaEmision>
+        <dirEstablecimiento>Barrio: CDLA JAIME ROLDOS Calle: SN Numero: 6 Interseccion: CIRCUNVALACION SUR Manzana: A3 </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>MACHALA</direccionComprador>
+        <totalSinImpuestos>10500.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>10500.00</baseImponible>
+                <valor>1575.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>12075.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>12075.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>AGE01</codigoPrincipal>
+            <codigoAuxiliar>AG</codigoAuxiliar>
+            <descripcion>AGENDAS PASTA DURA CON INSERTOS PERSONALIZADA</descripcion>
+            <cantidad>750.00</cantidad>
+            <precioUnitario>9</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>6750.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="AGENDAS 100 HOJAS ANILLADAS METALICAS PERSONALIZADAS"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>6750.00</baseImponible>
+                    <valor>1012.50</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>ESFE01</codigoPrincipal>
+            <codigoAuxiliar>ES</codigoAuxiliar>
+            <descripcion>ESFEROS METALICOS GRABADOS</descripcion>
+            <cantidad>750.00</cantidad>
+            <precioUnitario>5.00</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>3750.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="PREMIUM"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>3750.00</baseImponible>
+                    <valor>562.50</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lIce/aT8KLhjWIOwSd9Dd4atbNqqB2b0k36qpBvH0yM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>p7NKE7cHtSMaPjkAklbOsGjv1roUwLwH3ypCslT3dY0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c-sigvalue">A4vc8Uvk4leNhPfiR+hi2uEyuLG72W+Sq3dxuyYwTjpi88f9d7AdV7Dhtw8t7VRJ9augqbdC4Kx+y+WcXbQRJWHWh0KlLBoZnkIlvAeEBVcfuI2wluHP/xG6JNf4S5NoT1AKkEYKxB2M+OJx0KsALXHxq7Evp8TrgelAU1UKBMeF4pEVdQhpSJDywA6cyTe7cHB5CA94i1kZV90AQrfxkHcJyyNJUDCybiXd3f/HdJYAdpDNXEGea6SorzgAxGkxXaUX0oqlm4ZxCxOxWel1DfvNpgok0DCuZEA0xfnoatDWF7HUhlvmsabCLAh+JERz9lumkjRi9tyuArFznTWSpA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIKlTCCCH2gAwIBAgIIJQy7hIivk+QwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMDI4MTkyNTQwWhcNMjYxMDI4MTkyNTQwWjCBqTEnMCUGA1UEAwweWVVTVEhZTiBHSVNTRUxMQSBPQ0hPQSBDQUJSRVJBMSAwHgYDVQQFExcwNzA1Mjc1NDUxLTI4MTAyNTE0MzUyOTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDh+8lhGCtTHG2IOtXdCRRAOKhWF1xBBi/k+GqvHFdajD00x3DKcQzrQjJD1c9s3QBmF0Ixe1ytG2nY9LM5r/eOu0Jk0UyNf2fwGRWZYcNNHnw5WzTt/YzlK99/QxJMoxh0c0f3tH2DLk6g5WyLfQXB3ojbqMfZGl+8nGIjxfsUTHPrQDE+359xY0xaU5+albw8l6T6+8LF0fyTQmXSX/8OxfvLsUYsfsB9kyGp5LyzZp589MEpx23mbRLHRu1Gh/PfCjOE8Id8XlhuaDejgd2dT4WyZvzdpORzmu8eip8dryDdCkQkJHX/FBwl+TX4ZZI3SJjuROTlX2WOFfNNyxF7AgMBAAGjggXNMIIFyTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDAgBgNVHREEGTAXgRVtYXJ0Ym9vay5lY0BnbWFpbC5jb20wggEGBgNVHSAEgf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGCpnICATCBjTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFIol8DYBlSbLn+Rq85c8pHfb94rGMCsGA1UdEAQkMCKADzIwMjUxMDI4MTkyNTQwWoEPMjAyNjEwMjgxOTI1NDBaMAsGA1UdDwQEAwIF4DAaBgorBgEEAYKmcgMBBAwMCjA3MDUyNzU0NTEwHQYKKwYBBAGCpnIDCQQPDA1OVUVWRSBERSBNQVlPMBEGCisGAQQBgqZyAyIEAwwBLjApBgorBgEEAYKmcgMHBBsMGVNOIDYgWSBDSVJDVU5WQUxBQ0lPTiBTVVIwIAYKKwYBBAGCpnIDAgQSDBBZVVNUSFlOIEdJU1NFTExBMBAGCisGAQQBgqZyAyAEAgwAMBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFQYKKwYBBAGCpnIDAwQHDAVPQ0hPQTAaBgorBgEEAYKmcgMeBAwMClBVQkxJQ0lTVEEwHQYKKwYBBAGCpnIDCwQPDA0wNzA1Mjc1NDUxMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAXBgorBgEEAYKmcgMEBAkMB0NBQlJFUkEwGgYKKwYBBAGCpnIDCAQMDAowOTk5OTcyNDU1MA0GCSqGSIb3DQEBCwUAA4ICAQBY1ZyxYOrWgvHDHY7pAPuqoO2hc3GttNpPvwKNbEuIPnNhrGCssrfAy0GbA/6YzAeAMrd3hXo+C3HuJw98wEcog9Qr+sj9tHYQOcimwdzYH/OBnudWE4rxD5ywhWQ47ZlHbOSzHURYve+i0uC9q1p5IHXUtSMq7GZETccAHGk67M1QAGH6W8wC0STKNuGTxPUkLA7blM5wfAez/0HvjQcLzyVlQdVUhxrL5rUl55UvhW5pyAYi3oZN6gAeNvXirm/oijQ7nLpKNqWt3FLbCyvCMAdw99LQyUyA87SpKMLyJFZnvl+UelWl8pgkdzLKnetDkqQZuVNQas6eDbXRQvqGjiQ6RF68yFikLoniTyDZKZ44uhtQMaqM7rpc3SAH9i9h4w3wcse1LL0pBGNWAw5FG4ohiOcgDRd4MnZZ3Ev+SApgUDM1UYgwOtCnUAALPvl1FSwIIbKuDyzW3FSYF4J3nwmipoenehsX4jF9yLk1YwUMsgCsXzx1d5TOIRXNZoJuJNb/E4CLUxfn3Fjo4Nw9eoNx18SQ3OwiBo2tCf4kKuPtZQaN61rORXEKj3SLLo5ZJINFxpCZdqNRf9bxinM4QcjdWWzMZ3j28bb10LI+z+CJb/zny8lUSG7lu/+VRrp4+Oth7ZEBt1oH5/pevVoHtMOZQ32w5WVmQWNzqQmXrQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c"><xades:SignedProperties Id="xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-10T08:47:07.448-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>yCw5VIe0x+c6hFdXNOP+9Lbvxn2/bJHJtr92tO4O9Vo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>2669714857027146724</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-65401b72-7ed3-479a-a9d2-b576351fc92c-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

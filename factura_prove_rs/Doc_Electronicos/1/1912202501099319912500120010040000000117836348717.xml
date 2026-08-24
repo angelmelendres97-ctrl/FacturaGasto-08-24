@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>LINMARZHA LOGISTIC LINL S.A.</razonSocial>
+        <ruc>0993199125001</ruc>
+        <claveAcceso>1912202501099319912500120010040000000117836348717</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>004</ptoEmi>
+        <secuencial>000000011</secuencial>
+        <dirMatriz>Ciudadela: KENNEDY NUEVA Barrio: S/N Calle: ESTE Numero: 513 Interseccion: D Manzana: S/N </dirMatriz>
+        <agenteRetencion>1</agenteRetencion>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>19/12/2025</fechaEmision>
+        <dirEstablecimiento>Ciudadela: KENNEDY NUEVA Barrio: S/N Calle: ESTE Numero: 513 Interseccion: D Manzana: S/N </dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>GUAYAQUIL S/N  Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>970.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>970.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>970.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>970.00</total>
+                <plazo>15</plazo>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>000013</codigoPrincipal>
+            <descripcion>REEMBOLSO DE GASTO - FACT 001-100-000000669 - RUIZ LOPEZ JAVIER ANTONIO - RUC 0907701288001</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>970</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>970.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>970.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="DETALLE">MINERA BELORO CL IMPORTACIÓN TERRESTRE/ PERU - ECUADOR - REEMBOLSO DE GASTO FACT # 001-100-000000669 RUIZ LOPEZ - DAI: 082-2025-10-02492627 - LIQUIDACIÓN ADUANA 50424946 -  LIQUIDACION ADUANA ALCANCE 50448879 -  Exportadores Habituales de Servicios - No. NAC-DGERCGC20- 00000061</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>M98xJieS9liAk82dTeDvo3KxNGmoUGISAK2QtPxluIs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ClVopcK83fOKbvxsVEOJppvKRxk97gruze0IU/ZWsss=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f-sigvalue">O8oaqyvb/kidhG7yt2LXGZlBxuuiuWr3y3WOil7yBtUFyVQc8OQVbdNZuNyYAA8PPdxJ6iJfuJZPHlA6UgWS6iYaPRnLDe+HfIRY1np0PO7x04uMQVQMKx2TwbqmNyetu6JwZpxlzl/XbEWSsW14YKYNH8eGE/7MRwAIgy4FBc1ZgG6uAh58RF2PMdZk+vwuMr6cMPr9ahlHZ3Tq9B3iOkTDn1D5GoiQ2eOiGkewjqOzOtHrVF9yEnLjlkRuQPhv3HQoyv8VXZuG3Lf+j1hcO9I/qCP8ULEZ2cBe2UZovzbk8s76zd4Ry/6oyqYUtSFHKLEYPC6yVDzNbliJaNR0KQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f"><xades:SignedProperties Id="xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-19T21:42:02.972-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>uYlRXyWJKasGXTHnbrqJNjHbuN872jyoxrfnR7JEvKQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>5956964545305988886</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-ebc517ce-d555-42cf-bd70-965f9aac300f-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>NEOCAMIONES S.A.S.</razonSocial><nombreComercial>NEOCAMIONES S.A.S.</nombreComercial><ruc>0993375482001</ruc><claveAcceso>0503202601099337548200120020110000001460000000116</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>011</ptoEmi><secuencial>000000146</secuencial><dirMatriz>AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</dirMatriz></infoTributaria><infoFactura><fechaEmision>05/03/2026</fechaEmision><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>1700.58</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>1700.58</baseImponible><valor>255.09</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>1955.67</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>106.29</total><plazo>30</plazo><unidadTiempo>dias</unidadTiempo></pago><pago><formaPago>20</formaPago><total>1849.38</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>M-81125016129</codigoPrincipal><descripcion>FILTRO RACOR TGS 33440  TGS 33480 2025</descripcion><cantidad>14.00</cantidad><precioUnitario>59.440000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>832.16</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>832.16</baseImponible><valor>124.82</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>M-81619100050</codigoPrincipal><descripcion>FILTRO DE CABINA MAN TGS 33440 6X4 BBCH</descripcion><cantidad>8.00</cantidad><precioUnitario>62.030000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>496.24</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>496.24</baseImponible><valor>74.44</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>ML-81619100050</codigoPrincipal><descripcion>FILTRO DE CABINA TG3 CARBON ACTIVO</descripcion><cantidad>6.00</cantidad><precioUnitario>62.030000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>372.18</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>372.18</baseImponible><valor>55.83</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion Establecimiento">AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</campoAdicional><campoAdicional nombre="OBLIGADO A LLEVAR CONTABILIDAD">OBLIGADO A LLEVAR CONTABILIDAD</campoAdicional><campoAdicional nombre="nombre_vendedor">CEDENO BRIONES MARLON OSWALDO</campoAdicional></infoAdicional><ds:Signature Id="Signature165165" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo801173">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID659079" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature165165-SignedProperties75993">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bD+DLkb9p3tg4A3+eB9GuEZtiTQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1525756">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>KcKbUdT2VkZNSRcHQBe//XZJWLA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-477123" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>r0lhT+5NzkDuiryzoOX4BRMyeBY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue104877">
+ig6K8Arxqw8zomnqRYn1rcu2kS7DJhhyEacHaf29iwdmU/Yt8oSWHV9aUwcLw/Y8L1Hl30fuUO7D
+GWmxG7R1nC+YcSWUIVcxrcKgohQCV17capEJF8GpvC8LiGtDvvsRjpC/3jDtjZzNR31rJzfGieps
+SWpMn3/7InBFMEcCmj1nIXyA+mQ3WUslTYvGW6/djz7I3XU9N4hPW4CJ5+QT6qU1IwL53S/9bDrx
+DPDdtmuuIYDEA18wVjfJT/nrt9+sr4+dGKdiN/wSzLYMQBOUrJsLW2mm6EF3N/WBd3pxe9xTzqM9
+jpwyUUAjUR4CP5qfdlj8WdKpyRQFoxya2E5apw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1525756">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK8zCCCNugAwIBAgIEE2bKrDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTA1MjYxNDU1MjdaFw0yNzA1MjYxNDU1MjdaMIGjMSEw
+HwYDVQQDDBhKVUFOIEdBQlJJRUwgTU9SRU5PIExFT04xIDAeBgNVBAUTFzAxMDQxNDYyMTItMjYw
+NTI1MTAwNTE4MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJ
+T04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAPUHJ8oReODa8sYqxRmDTMImU1nmZ4ah0BxYb7tfwOepLnpG
+9uNCd/+91MmyClQfuCkQI/gFC9njFFKPpgEzPP6EInKjn6oP23Zy7Nn1g+lufVCcZ/cwOD7Qz7Kh
+Dn2o9557sVYMGJkEP7ByqKT9l9SaxHu79wfnd0JobAYEscTgvVqYwxqNlo5bKxXwCaYknVDqJ1Wi
+36KP8SoPLKkjORM5+7ajd2HtBSpBhyBC+xYCUoXagMRJiVwOXFbO+Lu2kvVnmR9MOuevOJBec5R/
+wOfjygPIwUeRmPzhe5kwTs4pKRBFt22TKNp9mUwSRtI5f5IV8K9Fe8W3DKjB50XlqUsCAwEAAaOC
+BjUwggYxMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYI
+KwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCoGA1UdEQQjMCGBH21kb21pbmd1ZXpAaW5k
+aWFuZWdvY2lvcy5jb20uZWMwggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYB
+BQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0
+AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0
+cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRp
+dmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRh
+bnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIG
+MIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9j
+cmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04g
+REUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJF
+QzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZp
+bGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049
+QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAy
+LEM9RUMwHQYDVR0OBBYEFAVoiKIq6LijhyjYIMyzpMQ/KTbVMCsGA1UdEAQkMCKADzIwMjUwNTI2
+MTQ1NTI3WoEPMjAyNzA1MjYxNDU1MjdaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dF
+UkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjAxMDQxNDYyMTIwQAYKKwYBBAGCpnIDCQQy
+DDBHVUFZQVFVSUwgQ0FCRUNFUkEgQ0FOVE9OQUwgWSBDQVBJVEFMIFBST1ZJTkNJQUwwEQYKKwYB
+BAGCpnIDIgQDDAEuMDcGCisGAQQBgqZyAwcEKQwnQVYgREUgTEFTIEFNRVJJQ0FTIFMgTiBZIENB
+TExFIExBIFNBTExFMBwGCisGAQQBgqZyAwIEDgwMSlVBTiBHQUJSSUVMMB8GCisGAQQBgqZyAyAE
+EQwPMDAxMDAyMDAwOTk4NDg3MBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwH
+RUNVQURPUjAWBgorBgEEAYKmcgMDBAgMBk1PUkVOTzAhBgorBgEEAYKmcgMKBBMMEU5FT0NBTUlP
+TkVTIFMgQSBTMB0GCisGAQQBgqZyAwsEDwwNMDk5MzM3NTQ4MjAwMTARBgorBgEEAYKmcgMdBAMM
+AS4wFAYKKwYBBAGCpnIDBAQGDARMRU9OMBoGCisGAQQBgqZyAwgEDAwKMDk1ODgwNjgzNTANBgkq
+hkiG9w0BAQsFAAOCAgEAACvR09ta+7EESBG2VbIBRSHVLXFErDI7iTjVjWsJs4TpDiI5n/pQUGQR
+fDYy3xnJ0YBEebnrTaXi0N/Fp4IJZcQ6M+JmXZZiyykE0qyla7CVSlMTcY96xRJM0JzxFHSit7ky
+D7yKtE7fE6R/ysuLSlG+bM5RIWuFYZfFbxFWucRi6bNLSIEbthKCcRRR0W9fargqDURxrMz24RqX
+5wX5svY7dqbe2Jjkq74rytEFuSTcxKbRonbtYiqZU0Pc23DrndTxfMqXdnEx+r1I5hv09GbY/uiO
+TjRYn6FwdIIoWdQppp1ubVKNYkj84owmrn5XVKPuaQFbY1/l9Uk21aA2MB+2Iw006I1zRXN7KzU2
+OPnFunanVX8TykfTfoprjWwOUcx+eDb/DP62HBMTDUO2LlnvZPErlZ2HaaSdcQJHHrCdSad1q0jB
+1TOyc3DDu92vynfyJFdsU9mkEZbHNM0XgqQwc6EkGnUcS7xm7nLbjpkRS18z1NgvUsHX81x12kpo
+5CoVbvbtsKJeKN5UdxeJSlgJyeLxliLEGjsQ/Yfyurci93+6BdrrbBYwajHQX0GzOeYfgdwu5L3c
+k9lN3IXGQQ0STn17FuWrfOh8Xfms9Una7rLrEo+boI0e1RAIU+NaWjJ8gKl/UxLbZbRQA7cHmgw4
+wnctYTmySkyt+uPXk7E=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+9QcnyhF44NryxirFGYNMwiZTWeZnhqHQHFhvu1/A56kuekb240J3/73UybIKVB+4KRAj+AUL2eMU
+Uo+mATM8/oQicqOfqg/bdnLs2fWD6W59UJxn9zA4PtDPsqEOfaj3nnuxVgwYmQQ/sHKopP2X1JrE
+e7v3B+d3QmhsBgSxxOC9WpjDGo2WjlsrFfAJpiSdUOonVaLfoo/xKg8sqSM5Ezn7tqN3Ye0FKkGH
+IEL7FgJShdqAxEmJXA5cVs74u7aS9WeZH0w65684kF5zlH/A5+PKA8jBR5GY/OF7mTBOzikpEEW3
+bZMo2n2ZTBJG0jl/khXwr0V7xbcMqMHnReWpSw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature165165-Object780572"><etsi:QualifyingProperties Target="#Signature165165"><etsi:SignedProperties Id="Signature165165-SignedProperties75993"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-03-05T16:53:41-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>NDMU8PaOJuNvoLVQetpuKp7LaQk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>325503660</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-477123"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

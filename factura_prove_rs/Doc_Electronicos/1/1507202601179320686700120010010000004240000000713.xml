@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>OWEN 360 S.A.S.</razonSocial>
+        <nombreComercial>OWEN 360 S A S</nombreComercial>
+        <ruc>1793206867001</ruc>
+        <claveAcceso>1507202601179320686700120010010000004240000000713</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000424</secuencial>
+        <dirMatriz>AV GRANADOS GONZALO BACA EDIFICIO DIAMON CLUB 2 OF 107 PARTE POSTERIOR DEL PATIO VEHICULOS YAZBEK </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>15/07/2026</fechaEmision>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>3000.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>3000.00</baseImponible>
+                <valor>450.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>3450.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>3450.00</total>
+                <plazo>10</plazo>
+                <unidadTiempo>dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>28</codigoPrincipal>
+            <codigoAuxiliar>GAST28</codigoAuxiliar>
+            <descripcion>MANTENIMIENTO Y REPRACION DE VEHICULOS CON IVA</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>3000.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>3000.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="garantia" valor="0"></detAdicional>
+                <detAdicional nombre="garantia" valor="0"></detAdicional>
+                <detAdicional nombre="garantia" valor="0"></detAdicional>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>3000.00</baseImponible>
+                    <valor>450.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="observaciones">MANTENIMIENTO VEHICULO PLACA PDT1268 </campoAdicional>
+        <campoAdicional nombre="celular">0981323099</campoAdicional>
+        <campoAdicional nombre="telefono">0981323099</campoAdicional>
+        <campoAdicional nombre="correo">owen_360@yahoo.com</campoAdicional>
+        <campoAdicional nombre="fecha_vence">2026-07-25</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature290404">
+<ds:SignedInfo Id="Signature-SignedInfo386800">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID672982" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature290404-SignedProperties186724">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>mtqTSxMT7Y8VkSwqo4fltZUmdO8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1758404">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hBdjE5qsxuTfiFTxUemVPGaqwAM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-497292" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>DWreTCfCbaXKtTubW6pnLcjUp+0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue550435">
+QsRA49ihJ1eGxW/mm+SI08m8TrFIDABLQxLp0hjpNx0RTc8/36Itoj9ntkVhFiZ2S174fhHVUpCB
+9zLo9hTQla/5G+vEOEKtgEYPuTRv/s5uCmqvXM+i/5WpCjCRt2UvVFTeTMdUsqLi7YwPPXjE+4Xs
+2vzLO8F4z1Sw5dB+Zm/NAWgFR7SL30RMHqV8A8eAi8PDk/nIph1bX9fycmalf//JB2QDWnT9qtcZ
+pooh6DiGjGejCY3VlmBAZfAsepYPlXfXdEM0dT8SVeOpxAKpRuvEgOJ9T5qDMyROMvhNcq5CSWwK
+TfGiLMV1joSxkvGPJ301o8hLx3QPUb8GZ11+9Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1758404">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIUTCCBzmgAwIBAgIFAMIOs7kwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI2
+MDUxOTIyMTgwM1oXDTI3MDUxOTIyMTgwM1owgZkxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEoMCYGA1UEAwwf
+SkVYQU5EUkEgTUlTSEVMTEUgTUVDSUFTIFRPUlJFUzEjMCEGCSqGSIb3DQEJARYUamV4YW5kcmEy
+OUB5YWhvby5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCyPy1A2rU8Vyeejm6k
+2CqsBvqvq53ML6nF83F55H2yL5+GqRaVFxRCnC5mlUTi7NkyQAy/1qzsiV4gqa5Gknu7WrFwzuWY
+k//yXDhBCONndpiQXsjcJdzpx94FtbE66Kwz+jJ5FV7vGmIL5ojFkVD1tD7KLV/Z7dx45Ro2Z8FL
+juvqKdviUlOktvgUw8SSjTUA4z6KK8oBegieEiWPkAltNExmH4tidd7mk+Zmn/Yze5tg+SRRKRgK
+NgLK3968jJ2ICNmsAhdE+tAZFTv2KNDeEV167/cGnEV2A2/emLzoCM17NIpJ+U3drPu3LYrL7tzJ
+6szk76wjO+eK9Oe6GgybAgMBAAGjggTvMIIE6zAaBgorBgEEAYPPdgMBBAwMCjIzMDA2MjczMzQw
+IQYKKwYBBAGDz3YDAgQTDBFKRVhBTkRSQSBNSVNIRUxMRTAWBgorBgEEAYPPdgMDBAgMBk1FQ0lB
+UzAWBgorBgEEAYPPdgMEBAgMBlRPUlJFUzAfBgorBgEEAYPPdgMFBBEMD0dFUkVOVEUgR0VORVJB
+TDAfBgorBgEEAYPPdgMHBBEMD1BJQ0hJTkNIQS9RVUlUTzAaBgorBgEEAYPPdgMIBAwMCjA5ODEz
+MjMwOTkwFQYKKwYBBAGDz3YDCQQHDAVRdWl0bzAXBgorBgEEAYPPdgMMBAkMB0VDVUFET1IwHQYK
+KwYBBAGDz3YDCwQPDA0xNzkzMjA2ODY3MDAxMB8GCisGAQQBg892AwoEEQwPT1dFTiAzNjAgUy5B
+LlMuMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFAgVYG4OnSOhg0sYSDaGFi/6BmdtMB8GA1UdIwQY
+MBaAFO12SLAK8cmGhgxMRmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNVHR8EMzAxMC+gLaAr
+hilodHRwOi9lbmV4dDIueHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCCAYQGA1UdIASCAXsw
+ggF3MHwGCisGAQQBg892AgIwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2Fk
+byBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6
+emF0ZSBDaWEuIEx0ZGEuMIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIwYBpeRWwgcHJlc2Vu
+dGUgY2VydGlmaWNhZG8gZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOtdGljYXMgZGUgc2Vn
+dXJpZGFkIGRlIExhenphdGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpFbCBwcmVzZW50ZSBj
+ZXJ0aWZpY2FkbyBzdWJvcmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNh
+cyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIIBSgYDVR0RBIIBQTCCAT2gGgYK
+KwYBBAGDz3YDAaAMDAoyMzAwNjI3MzM0oCEGCisGAQQBg892AwKgEwwRSkVYQU5EUkEgTUlTSEVM
+TEWgFgYKKwYBBAGDz3YDA6AIDAZNRUNJQVOgFgYKKwYBBAGDz3YDBKAIDAZUT1JSRVOgHwYKKwYB
+BAGDz3YDBaARDA9HRVJFTlRFIEdFTkVSQUygHwYKKwYBBAGDz3YDB6ARDA9QSUNISU5DSEEvUVVJ
+VE+gGgYKKwYBBAGDz3YDCKAMDAowOTgxMzIzMDk5oBUGCisGAQQBg892AwmgBwwFUXVpdG+gFwYK
+KwYBBAGDz3YDDKAJDAdFQ1VBRE9SoB0GCisGAQQBg892AwugDwwNMTc5MzIwNjg2NzAwMaAfBgor
+BgEEAYPPdgMKoBEMD09XRU4gMzYwIFMuQS5TLjA8BggrBgEFBQcBAQQwMC4wLAYIKwYBBQUHMAGG
+IGh0dHA6Ly9lbmV4dDIueHl6Ojg3NzcvYWRzcy9vY3NwMA0GCSqGSIb3DQEBCwUAA4IBAQBlBXPv
+QmiTiVKmmP7KXMnDAvKfUKQRZuuwLF/zWhIRf44rtQKXCEcNVJyh00r9HqP/cuxaKpVBkU3xCfC3
+IxS4z5jEj6KVebPke3W51cMaxQmKnpk5wvR01akqviVFHCFgs0z4XSdMryLR/f/i7x/x5gis2lAj
+wdikS1oRUMsTSnmSESB2ezt6+FoujAHHEjejuR8IBFlM0i/vj8WlbyNjigMOd/wSLcIyGykTKPsP
+Bu09qWlUxb6ywLPZWWYu4eJ0SKcS1hlLOoer1ImIhCwnvTaU8lmBSIfIDbtr18jWbOXGQTnxcNB7
+eJdT0fDf6jRux21KkTDzOBwEz+DVyZ5C
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sj8tQNq1PFcnno5upNgqrAb6r6udzC+pxfNxeeR9si+fhqkWlRcUQpwuZpVE4uzZMkAMv9as7Ile
+IKmuRpJ7u1qxcM7lmJP/8lw4QQjjZ3aYkF7I3CXc6cfeBbWxOuisM/oyeRVe7xpiC+aIxZFQ9bQ+
+yi1f2e3ceOUaNmfBS47r6inb4lJTpLb4FMPEko01AOM+iivKAXoInhIlj5AJbTRMZh+LYnXe5pPm
+Zp/2M3ubYPkkUSkYCjYCyt/evIydiAjZrAIXRPrQGRU79ijQ3hFdeu/3BpxFdgNv3pi86AjNezSK
+SflN3az7ty2Ky+7cyerM5O+sIzvnivTnuhoMmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature290404-Object689937"><etsi:QualifyingProperties Target="#Signature290404"><etsi:SignedProperties Id="Signature290404-SignedProperties186724"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-15T16:37:33-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>nTVikgEkTyj7E6sxppnE4Ipbz44=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3255743417</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-497292"><etsi:Description>Documento de ejemplo</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

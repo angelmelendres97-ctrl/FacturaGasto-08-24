@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TROYAMOTORS CIA. LTDA.</razonSocial>
+    <nombreComercial>TROYAMOTORS CIA.LTDA.</nombreComercial>
+    <ruc>0791842352001</ruc>
+    <claveAcceso>2912202501079184235200120010020000051442013886113</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000005144</secuencial>
+    <dirMatriz>EL ORO / MACHALA / MACHALA / ARIZAGA Y BUENAVISTA</dirMatriz>
+    <agenteRetencion>10</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>29/12/2025</fechaEmision>
+    <dirEstablecimiento>EL ORO / MACHALA / MACHALA / ARIZAGA Y BUENAVISTA</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>272.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>272.00</baseImponible>
+        <valor>40.80</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>312.80</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>312.80</total>
+        <plazo>1</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>VAD00405</codigoPrincipal>
+      <codigoAuxiliar>2418382-FP</codigoAuxiliar>
+      <descripcion>VALVULA DE ADMISION (D) CATERPILLAR C9</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>40.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>40.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>40.00</baseImponible>
+          <valor>6.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>GV00427</codigoPrincipal>
+      <codigoAuxiliar>2595829</codigoAuxiliar>
+      <descripcion>GUIAS DE VALVULA ADMISION (D) CATERPILLAR C.9</descripcion>
+      <cantidad>12.00</cantidad>
+      <precioUnitario>5.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>60.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>60.00</baseImponible>
+          <valor>9.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>GV00259</codigoPrincipal>
+      <codigoAuxiliar>2604856</codigoAuxiliar>
+      <descripcion>GUIAS DE VALVULA ESCAPE (D) CATERPILLAR C.9</descripcion>
+      <cantidad>11.00</cantidad>
+      <precioUnitario>5.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>55.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>55.00</baseImponible>
+          <valor>8.25</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>GV00045</codigoPrincipal>
+      <codigoAuxiliar>1478220-CTP</codigoAuxiliar>
+      <descripcion>GUIAS DE VALVULA DE ESCAPE (D) CATERPILLAR C9</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>5.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>5.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>5.00</baseImponible>
+          <valor>0.75</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>ISM00002</codigoPrincipal>
+      <codigoAuxiliar>PL-2R</codigoAuxiliar>
+      <descripcion>PLASTIGAGE ROJO (DIESEL)</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>3.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>6.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>6.00</baseImponible>
+          <valor>0.90</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>SLG00002</codigoPrincipal>
+      <codigoAuxiliar>5699</codigoAuxiliar>
+      <descripcion>SILICON LOCTITE GRIS 70ML (101G)</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>8.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>16.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>16.00</baseImponible>
+          <valor>2.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>ISM00012</codigoPrincipal>
+      <codigoAuxiliar>270916</codigoAuxiliar>
+      <descripcion>SILICON LOCTITE 515  -50ML</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>90.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>90.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>90.00</baseImponible>
+          <valor>13.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="TELEFONO"> | 072984073</campoAdicional>
+    <campoAdicional nombre="EMAIL">fernanda.paccha@grupoadmg.com</campoAdicional>
+    <campoAdicional nombre="CPN">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="PLACA">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="MODELO">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="ANIO">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="NUMERO CHASIS">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="NUMERO MOTOR">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="OBSERVACION">CATERPILLAR c9</campoAdicional>
+    <campoAdicional nombre="KILOMETRAJE">NO REGISTRADO</campoAdicional>
+    <campoAdicional nombre="ORDEN TRABAJO">NO REGISTRADO</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature742155">
+<ds:SignedInfo Id="Signature-SignedInfo283821">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID336397" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature742155-SignedProperties775179">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>9siXosoAcH2O7kXz/IqrUc7jgew=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate872679">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>VCYVZHqosZusQklfLM5cbQ/PBm8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-905625" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>FT0Mf63KF3vUGyxvcDvanKldj4U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue937786">
+bhEW6MtG8bDt4BktNbFqWViAJXMX9iAndBr3/f2fVXCJaRMiLmHp+9XtU8VCY/oj
+fuNJfH0tNb6yBLHueyH3iKvq44Eo1QQlc4jd9IlU7VdyBiPYAfNn59sjOmBUcxjt
+aUNL5yC6xlDjen5JEEc3uIB3AMFxMuyFNLj9FgegY6ATE5XKfG3uHboZiQzz3Uhv
+vPL0gGCZXdNSn4YHQCIOOBqI6aEPGrtzw7VvP1i9Wl6j9MyhdD54L6rNB4P4HpqD
+ISb16sLIcmPoKEGw2wGHJCxnu3uOZP9ktDFHqQRrLm0Rw6IPx6wN/gTM2Sb0DPHB
+ndYyNg23um6XCU9MM4C9Bw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate872679">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKvjCCCKagAwIBAgIEdUUr7zANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yNTA2MDQxNTMxMzlaFw0yNzA2MDQxNTMxMzlaMIGrMSkwJwYDVQQDDCBBTkdF
+TEEgUEFVTElOQSBERSBMQSBDUlVaIEJFUk1FTzEgMB4GA1UEBRMXMDcwNTExOTk4
+MC0wNDA2MjUxMDQxMzAxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIx
+CzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAliDS
+0fXGKhwY2oUKxrdYS1kxX6Qg/3IAnAWFp1wE7X0IQtxr0aiUAsXow1Hfcsdjh10N
+TSWzOAmug62xUx+cox1eK3u9GuZ/cDbErDVW7jUuvJ/QQ/CEoH/xgkbhxmFWmIgR
+pxoU2kDUpx61RieybgLmgOIQ+RZx2suN16vi8lEpH/fv5Lk9acjK68YHAUmBtfip
+K2k3KowpVaREltjx5DF/BPkUqplZvomGtnhyxdNaLwFpluYI7Z51k2TT7prbxGkM
+hBpij4AHJikyG7fruX3dohpd2PLZQuPP95aqbhofAgMNVAODZS1715cAhSXC2eJA
+E3qqD+XqhIklvGs1uwIDAQABo4IF+DCCBfQwDAYDVR0TAQH/BAIwADAfBgNVHSME
+GDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYB
+BQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9w
+dWJsaWN3ZWIvc3RhdHVzL29jc3AwHgYDVR0RBBcwFYETYW5nX2xpdGFAaG90bWFp
+bC5lczCCARUGA1UdIASCAQwwggEIMGIGCisGAQQBgqZyAgkwVDBSBggrBgEFBQcC
+AjBGHkQAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUgBlAHAAcgBlAHMA
+ZQBuAHQAYQBuAHQAZQAgAEwAZQBnAGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYI
+KwYBBQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNv
+bnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9s
+aXRpY2FzIGRlIENlcnRpZmljYWRvIFJlcHJlc2VudGFudGUgTGVnYWwucGRmMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHe
+oDqgOIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwx
+L2NybGZpbGUuY3JsooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VD
+VVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4hjZodHRwOi8vY3Js
+Mi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmwwgeCg
+gd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlz
+c3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUNyo6A0gy
+FK71kw4NHdcHEY3/es0wKwYDVR0QBCQwIoAPMjAyNTA2MDQxNTMxMzlagQ8yMDI3
+MDYwNDE1MzEzOVowCwYDVR0PBAQDAgXgMB8GCisGAQQBgqZyAwUEEQwPR0VSRU5U
+RSBHRU5FUkFMMBoGCisGAQQBgqZyAwEEDAwKMDcwNTExOTk4MDAXBgorBgEEAYKm
+cgMJBAkMB01BQ0hBTEEwEQYKKwYBBAGCpnIDIgQDDAEuMCQGCisGAQQBgqZyAwcE
+FgwUQVJJWkFHQSBZIEJVRU5BVklTVEEwHgYKKwYBBAGCpnIDAgQQDA5BTkdFTEEg
+UEFVTElOQTAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDk4MDY0MTATBgorBgEE
+AYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwGgYKKwYBBAGC
+pnIDAwQMDApERSBMQSBDUlVaMCQGCisGAQQBgqZyAwoEFgwUVFJPWUFNT1RPUlMg
+Q0lBIExUREEwHQYKKwYBBAGCpnIDCwQPDA0wNzkxODQyMzUyMDAxMBEGCisGAQQB
+gqZyAx0EAwwBLjAWBgorBgEEAYKmcgMEBAgMBkJFUk1FTzAaBgorBgEEAYKmcgMI
+BAwMCjA5ODAxODM2MDYwDQYJKoZIhvcNAQELBQADggIBAIKh2FxrewYT+huqpeBA
+AURrCG2FBw4DnXsutqxa3cIvE/9IOqFOBWBwv376CiJV/RKV0MFlXUVdx79iWeLD
+Fvb5irtKoUiFGRg7RR2vZEtwQhnsz+v25UFq9wsWLPAqFyj+rHiMjlShXhbCHIur
+5SbNmpX7GpKMO27K8ZmUaK0D0klCztMCPy1s13jgQhQeVLbNRoxt492CYpD5QgqY
+Ke1yIkL97JIoUrcEO8HC2loi0/fmdEq19MR50Ty3E3ToeSgy6RaHv6tghHlq4vA3
+SyO60gZ6knoL9DiqsHjAAiO6wPST7pRK1xXoRyHEFxzYPPi724AaxReRLrBqSzJm
+Sk75SwUvs4L0rKSfIn4cOi1csM/aG9yTOhcCZceNK0ssqLtCnu10Wm5UsW+UsGkG
+WaqwjHnfoimuk7tkb1LdMndkhr4pKzEcxeQ4nib2rGaTIajyJ7UXSihyMociBlat
+h1RNvrkKIniwRmfQ49ortfcMJtBbeJVRpHitZmwpgn6VdbwNp3MeTIeHoAAOTQz2
+u+YbUwmj5wKbmLUdV0OECa4cnwH4PK+qobGufdzvvt8qzx0KJE4aQo2+TVJlPFxU
+O7nGIQz895xqf/GW8et7vLP8TvgClB+zvYcmoI45A6ZiTUcqwjqfbMoFzYFjpAPk
+OnBUTbtX9n0QJK/EqJG4zRPZ
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+liDS0fXGKhwY2oUKxrdYS1kxX6Qg/3IAnAWFp1wE7X0IQtxr0aiUAsXow1Hfcsdj
+h10NTSWzOAmug62xUx+cox1eK3u9GuZ/cDbErDVW7jUuvJ/QQ/CEoH/xgkbhxmFW
+mIgRpxoU2kDUpx61RieybgLmgOIQ+RZx2suN16vi8lEpH/fv5Lk9acjK68YHAUmB
+tfipK2k3KowpVaREltjx5DF/BPkUqplZvomGtnhyxdNaLwFpluYI7Z51k2TT7prb
+xGkMhBpij4AHJikyG7fruX3dohpd2PLZQuPP95aqbhofAgMNVAODZS1715cAhSXC
+2eJAE3qqD+XqhIklvGs1uw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature742155-Object386966"><etsi:QualifyingProperties Target="#Signature742155"><etsi:SignedProperties Id="Signature742155-SignedProperties775179"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-29T14:27:24-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>z7agC7B+YQkpMJDoZJ9BAWSk9e0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1967467503</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-905625"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

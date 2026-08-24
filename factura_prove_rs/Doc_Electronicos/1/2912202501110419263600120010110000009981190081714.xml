@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>BERMEO CUMBICUS MARIA DEL CARMEN</razonSocial>
+		<nombreComercial>AUTOSERVICIO D Y M</nombreComercial>
+		<ruc>1104192636001</ruc>
+		<claveAcceso>2912202501110419263600120010110000009981190081714</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000000998</secuencial>
+		<dirMatriz>EL ORO / ARENILLAS / CDLA. MIRAFLORES</dirMatriz>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>29/12/2025</fechaEmision>
+	<dirEstablecimiento>EL ORO / ARENILLAS / CDLA. MIRAFLORES</dirEstablecimiento>
+	<obligadoContabilidad>NO</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>CALLE GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</direccionComprador>
+	<totalSinImpuestos>774.35</totalSinImpuestos>
+	<totalDescuento>0.00</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<descuentoAdicional>0.00</descuentoAdicional>
+		<baseImponible>774.35</baseImponible>
+		<valor>116.15</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0.00</propina>
+	<importeTotal>890.50</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>890.50</total>
+		<plazo>30</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>SFS120T</codigoPrincipal>
+		<descripcion>FILTRO DIESELSFS120T  RACOR CON PURGA Y VISOR</descripcion>
+		<cantidad>4.000000</cantidad>
+		<precioUnitario>32.608695</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>130.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>130.43</baseImponible>
+			<valor>19.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>PEC3021</codigoPrincipal>
+		<descripcion>FILTRO DIESEL PEC3021 M  BENZ ACTROS 2650</descripcion>
+		<cantidad>4.000000</cantidad>
+		<precioUnitario>16.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>64.35</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>64.35</baseImponible>
+			<valor>9.65</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>PEL2004</codigoPrincipal>
+		<descripcion>PEL2004 FILTRO DE ACEITE TCF MERCEDES AXOR</descripcion>
+		<cantidad>4.000000</cantidad>
+		<precioUnitario>18.478260</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>73.91</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>73.91</baseImponible>
+			<valor>11.09</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>SA271250/2KIT</codigoPrincipal>
+		<descripcion>FILTRO AIRE SA271250/2KIT</descripcion>
+		<cantidad>4.000000</cantidad>
+		<precioUnitario>59.782608</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>239.13</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>239.13</baseImponible>
+			<valor>35.87</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>CU4469</codigoPrincipal>
+		<descripcion>CU4469 FILTRO A/C MERCEDES AXOR</descripcion>
+		<cantidad>2.000000</cantidad>
+		<precioUnitario>20.652173</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>41.30</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>41.30</baseImponible>
+			<valor>6.19</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>S1000FH10</codigoPrincipal>
+		<descripcion>racort S1000 Samury</descripcion>
+		<cantidad>1.000000</cantidad>
+		<precioUnitario>130.434782</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>130.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>130.43</baseImponible>
+			<valor>19.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>SPH8A</codigoPrincipal>
+		<descripcion>FILTRO DE ACEITE  SPH8A</descripcion>
+		<cantidad>1.000000</cantidad>
+		<precioUnitario>4.782608</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>4.78</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>4.78</baseImponible>
+			<valor>0.72</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>FPG</codigoPrincipal>
+		<descripcion>filtro de gasolina pequeño</descripcion>
+		<cantidad>1.000000</cantidad>
+		<precioUnitario>1.739130</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>1.74</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>1.74</baseImponible>
+			<valor>0.26</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>Havoline-40-G</codigoPrincipal>
+		<descripcion>GLN Havoline 40 Gasolina</descripcion>
+		<cantidad>4.000000</cantidad>
+		<precioUnitario>19.130434</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>76.52</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>76.52</baseImponible>
+			<valor>11.48</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>SA410</codigoPrincipal>
+		<descripcion>SA410 FILTRO AIRE TOYOTA</descripcion>
+		<cantidad>1.000000</cantidad>
+		<precioUnitario>11.739130</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>11.74</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>11.74</baseImponible>
+			<valor>1.76</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="Direccion">CALLE GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</campoAdicional>
+	<campoAdicional nombre="Telefono">072923970</campoAdicional>
+	<campoAdicional nombre="Email">fernanda.paccha@grupodmg.ec</campoAdicional>
+	<campoAdicional nombre="Vencimiento">28/01/2026</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C.L.</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature950344">
+<ds:SignedInfo Id="Signature-SignedInfo269553">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID958578" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature950344-SignedProperties129449">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>EdViJ6fdk7LNqq8QwRY/S+KydNU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1419865">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>18LznEyal/8UFr3Ljejj1GT42as=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-522732" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>O4Ky9hQcBCLJRbDUxwl0jBVs7K8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue400747">
+U3fTF/ZLc/TtpZ3PkM/5Jw2fBJieljYv72Sl14S4iviTfQVGKVX693Cb8nzWm0KNBLstMZrpLiWa
+l/OLog1XlHXnaJ0RT3xQlpCRRKrglRlXFUPRGhnPUzchbHfbA3QaJOqAoTEXwFD9Gxwuba4mU00t
+2fAGetlVpVwkRKnLGeEiV7FhHXyU7YJthH+H5ejNql7YPoe0HRnpTHHV7vksoXp8zygOmgTcl0/t
+EXUNpQYTWu40pjTaIywKKLdcmbCD8PKYqmMznAj1Ah57Z/E5/S0D+oJu5QXBD3IXhxaxNYQrd75u
+CB/ecdlbRFIturYBg5+m9aun7T8KSzWaafJuFg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1419865">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJJjCCBw6gAwIBAgIIRnugBWMh880wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MTIzMDIwNTYwMFoXDTI2MTIzMDIwNTYwMFowgaYxCzAJBgNVBAYTAkVDMRgwFgYDVQQEDA9C
+RVJNRU8gQ1VNQklDVVMxGTAXBgNVBCoMEE1BUklBIERFTCBDQVJNRU4xGTAXBgNVBAUTEElEQ0VD
+LTExMDQxOTI2MzYxKTAnBgNVBAMMIE1BUklBIERFTCBDQVJNRU4gQkVSTUVPIENVTUJJQ1VTMRww
+GgYDVQRhDBNUSU5FQy0xMTA0MTkyNjM2MDAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEApTR6VXoUuk67l9HXFr2hy0H9IuqLXyW60KuIjUfHhbsZctmZaOG+qKqnAnm6+TgeCtssDZmG
+GSQJ//2izr6jo5N6bb7E+7koc8iNEwT3c1mn9urstQzsI2cPOp1p4Msu7szDVTjurKASiCs/1QOA
+vIzG+qXk4lC1mSbPcQuCbdAVhZNIWF+RoOl+tku6krsH37IGzjAozpqw94pJfCZPtW5C8GsWI9pZ
+l+GuOz0byKXPrWFNs7sFJtepvvzmNPyRVMyg7wZ+kX99MzDVacUzgr22R5sM19aC1KPTu8svsLCD
+9XMvwdKHbtnZPuQPD1qGhXD4PGd/3LBAPY26jGmwSQIDAQABo4IEQjCCBD4wGwYLKwYBBAGC8TZm
+AwEEDAwKMTEwNDE5MjYzNjAeBgsrBgEEAYLxNmYDCwQPDA0xMTA0MTkyNjM2MDAxMIHXBggrBgEF
+BQcBAQSByjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rv
+d25sb2FkL3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0
+cDovL29jc3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRw
+Oi8vb2NzcDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFABUhBGc98oN
+L3tDjPfEkAeXiDenMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSS
+c/0wgZkGA1UdIASBkTCBjjCBiwYMKwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8v
+d3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElG
+SUNBRE8gREUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCB
+hDBAoD6gPIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9y
+ZGluYWRhLmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3Js
+L0NBMnN1Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMIIBeAYDVR0RBIIBbzCCAWuBFm9sZXNpc3RlbWFzY0BnbWFpbC5jb22gGwYLKwYB
+BAGC8TZmAwGgDAwKMTEwNDE5MjYzNqAhBgsrBgEEAYLxNmYDAqASDBBNQVJJQSBERUwgQ0FSTUVO
+oBcGCysGAQQBgvE2ZgMDoAgMBkJFUk1FT6AZBgsrBgEEAYLxNmYDBKAKDAhDVU1CSUNVU6AmBgsr
+BgEEAYLxNmYDB6AXDBVTTiAgTlVNRVJPIE9GSUNJTkEgUEKgHwYLKwYBBAGC8TZmAwigEAwOMDA1
+OTM5NjI1MjEzNzSgGgYLKwYBBAGC8TZmAwmgCwwJQVJFTklMTEFToB4GCysGAQQBgvE2ZgMLoA8M
+DTExMDQxOTI2MzYwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOgKQYLKwYBBAGC8TZmAzKgGgwYUEVS
+U09OQSBOQVRVUkFMIE8gRklTSUNBoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcN
+AQELBQADggIBAFSTm84xjpkdGaxPXbfR2lly3oxL/f+E1r5hAIF7FtfFungGCGYOiJKqSpd7GPSE
+AEAlNPPpDif7vUaDD7rw0CFSP7HSyvbzM5BQTJrbgw3YKZY+LwrfB+r2Y086wtSmllvbkOefWejg
+rT6knJn8w4R6IjkpEXFf9rf2BkoAKM/tyzJAbEi1IbAZsKVBe017eqYG7pvloB/RiUIPJQOtCshw
+GlOEJmktL+/Isvha0VnZcAb5EeMLSK179X6O5UVOEYxFQm0nyr5agotC7iptcVfOhr/EMRE06TLY
+7PyPz6nc54mdnMUfacmXhWLOrqElqoT9rNCSYepGiJxPXX+EHKnf3Can9153GqLmpno8HHlz32QS
+8xvhyDmSwZ36c1WeTR8I9R4NJxvj53wAKbf5DMLNvEFJ8GHiKAhcH+PznbvyPjBO3JjQLjazQuEp
+77uPkOud5NhSvYaWSJfFcDkKcLviN9gU3ZTZfzYVRZNjbxmyY8JJ4qxibcP7xEQs6eYkSMS4eKxf
+2xeXlbycaycNBOA69CdTKSanZiiSOroxSqNCbo1wtkoIKu7lbOb0dyfzluAVOrdwT9WLXNe3s2mk
+lsQUhWW06l8dmtHnGHgwMCbwTxzwztZ0QMZvxBro6kzhiCHzookHB0iVUY2SzRTEbaEI8VSI+oZ4
+fZ8hASChrl/k
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pTR6VXoUuk67l9HXFr2hy0H9IuqLXyW60KuIjUfHhbsZctmZaOG+qKqnAnm6+TgeCtssDZmGGSQJ
+//2izr6jo5N6bb7E+7koc8iNEwT3c1mn9urstQzsI2cPOp1p4Msu7szDVTjurKASiCs/1QOAvIzG
++qXk4lC1mSbPcQuCbdAVhZNIWF+RoOl+tku6krsH37IGzjAozpqw94pJfCZPtW5C8GsWI9pZl+Gu
+Oz0byKXPrWFNs7sFJtepvvzmNPyRVMyg7wZ+kX99MzDVacUzgr22R5sM19aC1KPTu8svsLCD9XMv
+wdKHbtnZPuQPD1qGhXD4PGd/3LBAPY26jGmwSQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature950344-Object14956"><etsi:QualifyingProperties Target="#Signature950344"><etsi:SignedProperties Id="Signature950344-SignedProperties129449"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-29T10:09:37-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>Tqi0CyZ8GIBN/RG+3ifpE2a9M9k=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>5078828949788816333</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-522732"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

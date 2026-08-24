@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MORA COTO JOSE ENRIQUE</razonSocial>
+        <nombreComercial>NG FACTORY</nombreComercial>
+        <ruc>0905603833001</ruc>
+        <claveAcceso>2108202501090560383300120031000000009039717881114</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>003</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000903</secuencial>
+        <dirMatriz>Calle: JUNIN Interseccion: OLMEDO ESQUINA </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>21/08/2025</fechaEmision>
+        <dirEstablecimiento>Calle: JUNIN Interseccion: OLMEDO ESQUINA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>476.50</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>476.50</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>476.50</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>476.50</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>0905.60</codigoPrincipal>
+            <descripcion>CHALECO A MEDIDAS</descripcion>
+            <cantidad>2.0</cantidad>
+            <precioUnitario>50.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="CON REFLECTIVO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>100.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0905.101</codigoPrincipal>
+            <descripcion>CHALECO COMBINADO CON LOGO</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>45.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>45.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="CON REFLECTIVO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>45.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0905.44</codigoPrincipal>
+            <descripcion>PANTALON SAFARI GABARDINA</descripcion>
+            <cantidad>4.0</cantidad>
+            <precioUnitario>35.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>140.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="CLASICO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>140.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0905.298</codigoPrincipal>
+            <descripcion>PANTALON BOLSILLOS A LOS COSTADOS</descripcion>
+            <cantidad>3.0</cantidad>
+            <precioUnitario>32.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>96.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>96.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0905.68</codigoPrincipal>
+            <descripcion>CAMISETA POLO PIQUE BORDADA</descripcion>
+            <cantidad>3.0</cantidad>
+            <precioUnitario>12.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>37.50</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="CLASICO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>37.50</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0905.211</codigoPrincipal>
+            <descripcion>CAMISETA ALGODON ESTAMPADO</descripcion>
+            <cantidad>4.0</cantidad>
+            <precioUnitario>14.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>58.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>58.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="CONTRIBUYENTE ">jnda 185075</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ujcfE13VIljxRbYk8+KXsaX7ypOQ0ZA66YtRoTpcFOg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3YKmUTvmbtA39HFVxGIH9eQv+VMR5p5WWlVDYok3CFc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6-sigvalue">TCo+INzmoo7fVcWGrdxSfIqoluR/JS/M48o9szOHBrTVk+IeQlDIVXWS4HFnhwE9HNq12O65ha3skdVzya0Uy7zIEoa2Hgr0oegh79edkLk3z3vZFamWRhK7F0wtEfYFu1XwQH3e6ZZRe6+IvrYpIFZP/NBIK2dSRei4ajXpxIRDbsKSSb08OV7vZGuWzTzr2doT1ki6+F0zshFPOH72Xyiw+xUMg0fNY0mxKgG4ow+egbip+gzPLltLvq93RJzMdS2i3US3dS/HDOsqR2b2U7yv1hjUrhLYs9z3OszNqHQpR33FvWpgbRaHfNxNUHyZDXUfLlYOTfsz7ok3VOXGLQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6"><xades:SignedProperties Id="xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-21T09:01:13.683-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EjdreZl2qIMCgs2fGdCOoj51r+uX6zqD9k1FPZzTYjc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1EF CORPNEWBEST,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=CORPNEWBEST CIA. LTDA.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>601076430629987613790947015257191206397519186762</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-d6391880-f8ac-40ad-9d6e-ae6556da2ed6-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

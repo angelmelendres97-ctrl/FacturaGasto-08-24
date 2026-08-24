@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>AYALA YAGUANA LEONELA GUADALUPE</razonSocial>
+<nombreComercial>AYALA PLAST</nombreComercial>
+<ruc>0704593185001</ruc>
+<claveAcceso>1808202601070459318500120010100000012772858915417</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>010</ptoEmi>
+<secuencial>000001277</secuencial>
+<dirMatriz>OLMEDO E/ JUNIN Y PAEZ</dirMatriz></infoTributaria>
+<infoFactura>
+<fechaEmision>18/08/2026</fechaEmision>
+<dirEstablecimiento>OLMEDO E/ JUNIN Y PAEZ</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C.L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+<totalSinImpuestos>780.87</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos><totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>780.87</baseImponible>
+<tarifa>15.00</tarifa>
+<valor>117.13</valor>
+</totalImpuesto></totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>898.00</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>01</formaPago>
+<total>898.00</total>
+<plazo>0</plazo>
+<unidadTiempo>dias</unidadTiempo>
+</pago>
+</pagos>
+<valorRetIva>0.00</valorRetIva>
+<valorRetRenta>0.00</valorRetRenta>
+</infoFactura>
+<detalles><detalle>
+<codigoPrincipal>3361</codigoPrincipal>
+<codigoAuxiliar>  </codigoAuxiliar>
+<descripcion>MESA RECTANGULAR MADEIRA PIKA  CAFE</descripcion>
+<cantidad>6.00</cantidad>
+<precioUnitario>54.78</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>328.70</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>328.70</baseImponible>
+<valor>49.30</valor>
+</impuesto></impuestos>
+</detalle><detalle>
+<codigoPrincipal>4542</codigoPrincipal>
+<codigoAuxiliar>  </codigoAuxiliar>
+<descripcion>SILLA MADEIRA S/BRAZO PIKA  CAFE</descripcion>
+<cantidad>40.00</cantidad>
+<precioUnitario>11.30</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>452.17</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>452.17</baseImponible>
+<valor>67.83</valor>
+</impuesto></impuestos>
+</detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional>
+<campoAdicional nombre="Telefono">2923970</campoAdicional>
+<campoAdicional nombre="Email">femanda.paccha@grupoadmg.com</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature315797" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo879376">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID847959" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature315797-SignedProperties376341">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>fVr39NQZI/4sxPRu55EzNHBhzMw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1416614">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>tGrb+vmGHfZnZ6X8UPnn0ueJZP4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-728016" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>iHQA+IuYJ9GQJ4apKUapN+YwwjY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue174672">
+BLwePnPPNDkcHZsP8NuXMIphJZ1zRbGixIY2lCeuWVi77D6Cj7c7FTGuHTyUOgW1tCSHxM2L1yMs
+FYz2Pp/SBleeXsGAU7bSdo49qEjhP1lL2f3jiK7VczRzgFbR1ZkWuhqNYvRKjsODbMA2DNzF4YF6
+R+s2Drzhle2o88aZ/g+0auLs6Pm3k7v7fXDZcMsOQLLVIMatgzXWi+o8BVegb8lIJp3FkrstCkSm
+J4RfcRNBmg1ctf9ViI2O98k/YLmxUYwzyecH3s0iDgInmnSI/27SBx4bR51MB3YK5RltowUAWBMs
+f5NnRtssMTzeMBSzS+lFm71hf7wLJeVyPhoAbg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1416614">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHxTCCBq2gAwIBAgIFAMIDD4UwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI1
+MTEyODIxNTkzM1oXDTI4MTEyNzIxNTkzM1owgZ8xCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEpMCcGA1UEAwwg
+TEVPTkVMQSBHVUFEQUxVUEUgIEFZQUxBIFlBR1VBTkExKDAmBgkqhkiG9w0BCQEWGXRhbmlhX21v
+cm9jaG9AaG90bWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDT5hzJq4Ww
+BQSbA4fz7e714Omn2tIK8YhEu64k0ogGkSjrgqnk7FdCJvjku0B1WUdGKIwLhdNRJQDd+jWR1H49
+9p6bqirwTTu1GJlxatxrBASad2A7lV7wOuwxxBOQb0Vbu0HUna7BpiGU+PkszA9P83AhOVS38GG9
+rAFlX7+6RycKUEf+nJ0Ybt5mL7OjILkXBr5eLXKvUXlz1I+dIRjcStEm+CiGIxFpyyYwMN+hOiVz
+9Q39Fj/3ORmXqGztwz883TTottJEQ2VxwXyYBbdtMo1r2v2eD+U4m36yhx15onEIOn4DEZVhOzza
+O/hr/wDt4IS6M1zuIdvNI2/G5tfFAgMBAAGjggRdMIIEWTAaBgorBgEEAYPPdgMBBAwMCjA3MDQ1
+OTMxODUwIQYKKwYBBAGDz3YDAgQTDBFMRU9ORUxBIEdVQURBTFVQRTAVBgorBgEEAYPPdgMDBAcM
+BUFZQUxBMBcGCisGAQQBg892AwQECQwHWUFHVUFOQTAXBgorBgEEAYPPdgMHBAkMB21hY2hhbGEw
+GgYKKwYBBAGDz3YDCAQMDAowOTAwMDAwMDAwMBcGCisGAQQBg892AwkECQwHTWFjaGFsYTAXBgor
+BgEEAYPPdgMMBAkMB0VDVUFET1IwHQYKKwYBBAGDz3YDCwQPDA0wNzA0NTkzMTg1MDAxMAwGA1Ud
+EwEB/wQCMAAwHQYDVR0OBBYEFK+QT6rAVIBMGOIRYCQgbJH7H02cMB8GA1UdIwQYMBaAFO12SLAK
+8cmGhgxMRmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNVHR8EMzAxMC+gLaArhilodHRwOi9l
+bmV4dDIueHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCCAYQGA1UdIASCAXswggF3MHwGCisG
+AQQBg892AgEwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0
+aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEu
+IEx0ZGEuMIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIwYBpeRWwgcHJlc2VudGUgY2VydGlm
+aWNhZG8gZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOtdGljYXMgZGUgc2VndXJpZGFkIGRl
+IExhenphdGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpFbCBwcmVzZW50ZSBjZXJ0aWZpY2Fk
+byBzdWJvcmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1
+cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIIBAAYDVR0RBIH4MIH1oBoGCisGAQQBg892AwGg
+DAwKMDcwNDU5MzE4NaAhBgorBgEEAYPPdgMCoBMMEUxFT05FTEEgR1VBREFMVVBFoBUGCisGAQQB
+g892AwOgBwwFQVlBTEGgFwYKKwYBBAGDz3YDBKAJDAdZQUdVQU5BoBcGCisGAQQBg892AwegCQwH
+bWFjaGFsYaAaBgorBgEEAYPPdgMIoAwMCjA5MDAwMDAwMDCgFwYKKwYBBAGDz3YDCaAJDAdNYWNo
+YWxhoBcGCisGAQQBg892AwygCQwHRUNVQURPUqAdBgorBgEEAYPPdgMLoA8MDTA3MDQ1OTMxODUw
+MDEwPAYIKwYBBQUHAQEEMDAuMCwGCCsGAQUFBzABhiBodHRwOi8vZW5leHQyLnh5ejo4Nzc3L2Fk
+c3Mvb2NzcDANBgkqhkiG9w0BAQsFAAOCAQEAT1E4/n2udNvkJs0ViV5zpIVD1tc4q9M9seTWpcc+
+HOZ5Tjm6qKniEJfP9vlLv2hVSPLwEeM6hbx8rjhPe0T6uZVYEfTgsv0Ay/vDsyLIl0gvViFjwlY1
+0nsqwk69dnxWPYPkJp2aatHsya1Mi/aS/x5TYaWgwrWBmTeOKjfyj9+huD70G7rV/XRp1hsfqhnQ
+6ilkwfM7BQURjAl/dFM72ZVBP8UbEOlu0AvLgVRTP42d78GgJG2ljlZUN5ZKwfW3CyvnR0QPyMja
+GTFFREDhKbcJX26HNyToCqTzrSRWISG+d1FSnSyhl9F60XW6SESuC8uRmKUpGRR6ZDefXlXGYw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0+YcyauFsAUEmwOH8+3u9eDpp9rSCvGIRLuuJNKIBpEo64Kp5OxXQib45LtAdVlHRiiMC4XTUSUA
+3fo1kdR+Pfaem6oq8E07tRiZcWrcawQEmndgO5Ve8DrsMcQTkG9FW7tB1J2uwaYhlPj5LMwPT/Nw
+ITlUt/BhvawBZV+/ukcnClBH/pydGG7eZi+zoyC5Fwa+Xi1yr1F5c9SPnSEY3ErRJvgohiMRacsm
+MDDfoTolc/UN/RY/9zkZl6hs7cM/PN006LbSRENlccF8mAW3bTKNa9r9ng/lOJt+socdeaJxCDp+
+AxGVYTs82jv4a/8A7eCEujNc7iHbzSNvxubXxQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature315797-Object660237"><etsi:QualifyingProperties Target="#Signature315797"><etsi:SignedProperties Id="Signature315797-SignedProperties376341"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-08-18T11:08:58-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>gBwfSJHKSQzQrOILmo28k2s+Pr8=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254980485</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-728016"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

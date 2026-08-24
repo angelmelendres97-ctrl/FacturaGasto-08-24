@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>GARCIA CORREA RICARDO ALEXANDER</razonSocial>
+        <nombreComercial>MECANICA DIESEL RG</nombreComercial>
+        <ruc>0704988732001</ruc>
+        <claveAcceso>0702202601070498873200120010110000004401234567815</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>011</ptoEmi>
+        <secuencial>000000440</secuencial>
+        <dirMatriz>EL ORO / MACHALA / BARRIO LOS VERGELES SECTOR A</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>07/02/2026</fechaEmision>
+        <dirEstablecimiento>EL ARENAL CALLE 19AVA OESTE S/N Y AYACUCHO DIAGONAL A LUBRICADORA ELER</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL SN Y QUINTA A NORTE ESQUINA.</direccionComprador>
+        <totalSinImpuestos>1580.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>1580.00</baseImponible>
+                <tarifa>0.00</tarifa>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>0.00</baseImponible>
+                <tarifa>15.00</tarifa>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>1580.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>1580.00</total>
+                <plazo>0</plazo>
+                <unidadTiempo>DÍA(S)</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>0001</codigoPrincipal>
+            <codigoAuxiliar>0001</codigoAuxiliar>
+            <descripcion>REPARACION Y MANTENIMIENTO DE OM 366 MERCEDES BENZ</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>1400.000000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1400.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>1400.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0001</codigoPrincipal>
+            <codigoAuxiliar>0001</codigoAuxiliar>
+            <descripcion>MANTENIMIENTO DEL EJE PORSTERIOR, CAMBIO DE GRASA, PASTILLAS Y AJUSTES</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>180.000000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>180.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>180.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección de correo electrónico">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="Número de teléfono">2923970</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature442288">
+<ds:SignedInfo Id="Signature-SignedInfo688555">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID1031061" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature442288-SignedProperties200752">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>uDLmsseDgsy70vzNyi8LX6IWk8s=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1795737">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>nKiXMNzfXhWopRrtccdCcKJUe60=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-896974" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>oerv0dS2W5Q5leMtAWlSEjGkEOU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue45881">
+T+5QEQ5v1qdlBHaDHhPtK9B+c2JAYDn1tm8GXDYAAn9nX74okn8YoDjmf1DDO0LluR15OA9peIq7
+zEb41LJZRz2Utp5egr9C8um4gFcXwmiSluzRQ8NrkmAG45lnX/cmLcoCiPzbcJHVfC7i10Ar3Nbn
+eu5CVX/oUF8N/JSsbtNwoSeMNp+Tz7oUdpKu7jZlMGEPl4lXG6Y2V0CwL79cgfJOBXYI+dC9AW4r
+b6m2psZDhP1XhqDlkDb7tYsr7JeHpBzF56Haj2pND45+e86CRWIE3osCr5/5QD99tE0UdBudlEdh
+TC1bNvebI+YKZmvWLWJBe20XFUvhz/JHnIIG/g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1795737">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJBzCCBu+gAwIBAgIIMsnfVDB3ALMwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIyMTExMTIyMDQwMFoXDTI3MTExMDIyMDQwMFowgaQxCzAJBgNVBAYTAkVDMRYwFAYDVQQEDA1H
+QVJDSUEgQ09SUkVBMRowGAYDVQQqDBFSSUNBUkRPIEFMRVhBTkRFUjEZMBcGA1UEBRMQSURDRUMt
+MDcwNDk4ODczMjEoMCYGA1UEAwwfUklDQVJETyBBTEVYQU5ERVIgR0FSQ0lBIENPUlJFQTEcMBoG
+A1UEYQwTVElORUMtMDcwNDk4ODczMjAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AJGRcdMaIu6D1yOhfKws+Q8CxrEosekIfB4PI9HYFbBww+AUE4ZUzTA9aQsT36opCJ0FWedc+5E0
+Hjz3WJ92+PN1ZTlXGrxT139lpVx2viesa0jVWJE+PyWSlyv6Ix52i4WBqjmv5wUhhX0UwkE1pZvu
+HlK/40wUCtsVRRIuSEFxcjLaTSj2+Qb8bFNvd1dlp0F1+Dk/3ICif+MD079qUvztfvATOo4z/GWx
+PPCLsqvmv7IqeDBIRcgKZzTjinhrygpDmoM8g4ImaumTbVRbKiuHEKNndAl5VZRZJDmk2t3d/SQU
+r8PgiL8YBqBiClvJMgWGnuh9sl2qOrlkL2WFjH8CAwEAAaOCBCUwggQhMIHXBggrBgEFBQcBAQSB
+yjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2Fk
+L3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0cDovL29j
+c3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRwOi8vb2Nz
+cDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFL962JDOhSCmP9/t+PK8
+5HASBlxaMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgZkG
+A1UdIASBkTCBjjCBiwYMKwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVh
+bmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElGSUNBRE8g
+REUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6g
+PIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh
+LmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1
+Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMIIBmAYDVR0RBIIBjzCCAYuBFm9sZXNpc3RlbWFzY0BnbWFpbC5jb22gGwYLKwYBBAGC8TZm
+AwGgDAwKMDcwNDk4ODczMqAiBgsrBgEEAYLxNmYDAqATDBFSSUNBUkRPIEFMRVhBTkRFUqAXBgsr
+BgEEAYLxNmYDA6AIDAZHQVJDSUGgFwYLKwYBBAGC8TZmAwSgCAwGQ09SUkVBoEkGCysGAQQBgvE2
+ZgMHoDoMOENBTExFOiAxMCBERSBBR09TVE8gTk1FUk86IFMgTiBJTlRFUlNFQ0NJTjogREVDSU1B
+IE5PUlRFoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTk5MTQzODEwoBgGCysGAQQBgvE2ZgMJoAkM
+B01BQ0hBTEGgHgYLKwYBBAGC8TZmAwugDwwNMDcwNDk4ODczMjAwMaATBgsrBgEEAYLxNmYDDKAE
+DAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05BIE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC
+8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAxzxK9ZXmFCgoA0s01qeF9mEca/2Q
+qkG5svFcgZ+4XtOIP5I9QjnnBaff/PA2punHoHA7auVJPiBmKG39+OiQLBsb7qsnSMB5IN/g0g+T
+qMb7GZ+uj4KBQ3Yu5GbgKyWMuVWUOR9yJans62XjoWBG1asXYIWVKu1mGoUy95GgWjQpwbl6Wg00
+UH4mo6ORMdY5WwsENifE06N9sZqSKNk0gCtzY+e6kRvFHuMidLokRc1vpCLbECNrjNRvTnHR8i7j
+q9nwQnPEWvsd7di/SmjKcJdmWOvJlG/450m7BAiNL3wQTQM8yjH21aOpMNvMGWFQ2RYVr5cDQm2m
+N/qIqe/ETKHCp8HQB3/TtzMDSV/agRXpzsZnwRBrfRM2D6UBSx+dL5MlHCAL4onn76PA+Tm9QyrZ
+iofG88udzrkyIrQMZsott22Bc7ueY4uBX+n8F78+/k1DeqCMQsI+ymLKSn7AW84VztEkqGqtbE8S
+3RuHk0Taj8o5WUu26lET8P8yAzY/2NEIrE7n0HcQqt/tt2vk9XNRb8/hEQl3pZzorKDc1d+hGxUV
+dJ246utlXv8shwF4MaVP0I4kymvyo1kX1lyHb9FckQmREaK/HjvFQTBkjnqTdKEDFHu4sI3SZcGc
+CdJziUhhAFecq0IyCLXyfMkGZye6zAdiRXcDfxqTvSZoERg=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+kZFx0xoi7oPXI6F8rCz5DwLGsSix6Qh8Hg8j0dgVsHDD4BQThlTNMD1pCxPfqikInQVZ51z7kTQe
+PPdYn3b483VlOVcavFPXf2WlXHa+J6xrSNVYkT4/JZKXK/ojHnaLhYGqOa/nBSGFfRTCQTWlm+4e
+Ur/jTBQK2xVFEi5IQXFyMtpNKPb5BvxsU293V2WnQXX4OT/cgKJ/4wPTv2pS/O1+8BM6jjP8ZbE8
+8Iuyq+a/sip4MEhFyApnNOOKeGvKCkOagzyDgiZq6ZNtVFsqK4cQo2d0CXlVlFkkOaTa3d39JBSv
+w+CIvxgGoGIKW8kyBYae6H2yXao6uWQvZYWMfw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature442288-Object303862"><etsi:QualifyingProperties Target="#Signature442288"><etsi:SignedProperties Id="Signature442288-SignedProperties200752"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-02-07T09:35:05-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>4LLibOwQPnwXjo9wxi9Kx/2q5Yk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>3659701724898590899</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-896974"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

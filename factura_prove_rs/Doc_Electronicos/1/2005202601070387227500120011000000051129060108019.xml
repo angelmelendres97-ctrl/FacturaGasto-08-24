@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>JIMENEZ CALDERON CHRISTIAN XAVIER</razonSocial><nombreComercial>COMPUTECH</nombreComercial><ruc>0703872275001</ruc><claveAcceso>2005202601070387227500120011000000051129060108019</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>100</ptoEmi><secuencial>000005112</secuencial><dirMatriz>VELA S/N Y 4TA NORTE Y BOYACA</dirMatriz></infoTributaria><infoFactura><fechaEmision>20/05/2026</fechaEmision><dirEstablecimiento>VELA S/N Y 4TA NORTE Y BOYACA - MACHALA</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>CALLE GUAYAQUIL S/N Y 5TA NORTE ESQUINA</direccionComprador><totalSinImpuestos>1234.78</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>1234.78</baseImponible><tarifa>15.00</tarifa><valor>185.22</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>1420.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>1420.00</total><plazo>1</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>ASUCOMPORX1504VA-BQ3131</codigoPrincipal><descripcion>LAPTOP ASUS VIVOBOOK CORE I5 120U / 512 SSD / 8GB / 15.6" FHD / FREE DOS / COLOR AZUL / X1504VA-BQ3131</descripcion><cantidad>2.00</cantidad><precioUnitario>604.34888</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>1208.70</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="TBN0CV02K363458-18052625, TBN0CV02K286458-18052625" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>1208.70</baseImponible><valor>181.30</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>REGFORZ1000</codigoPrincipal><descripcion>REGULADOR DE VOLTAJE FORZA 1000VA 4 TOMAS</descripcion><cantidad>2.00</cantidad><precioUnitario>13.043485</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>26.09</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="91412509509726-26032602, 91412509509732-26032602" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>26.09</baseImponible><valor>3.91</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Documento para retención">documentos@computech.ec</campoAdicional><campoAdicional nombre="Teléfono contacto">072938432</campoAdicional><campoAdicional nombre="email">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="telefono">072923970</campoAdicional></infoAdicional><ds:Signature Id="Signature789808" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo488398" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID958084" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature789808-SignedProperties171607">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>3di/91SNPPFTuvGG1PnFSrZ4zi0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate694981">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>EPIIj0IfWf+eiRyeil6Z5bnrC/k=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-306923" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>X+pRP9DIO4CXUykKwW198lZ9Z34=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hQhsHg7ImI+Pk6ajr5x+MzjqLVkqutVZotRiVhJk00CX963J1zfe7kB6oERcoBe6n8Su68Yr4QtB
+dMhAEc2miT+UDtC5zf0YvcXuWYOAya3pdEh9Do1stiiTv5nvQnjLp1W8t/kHQ/JSHpQWQgh5MCkk
+eEnUCgB7EE5GlAQ2v5YmtN/XxISrVGNB9WES5CrRRN1MPp+MBCSl1RD2sqRYiDFuQ7jemzT94Iof
+sirbkHK4IDvstk+s68WniAEnfaOX9Xo4MIX0ezElKvlx0pga9FjKWKAv0EdED4N6DK4K/5EL46+U
+xD87+xnzD4pB0dlQD904y4lhkLKXDeC6GYI0mg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate694981" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKpjCCCI6gAwIBAgIMAzlD1W9OuBWJ9gInMA0GCSqGSIb3DQEBCwUAMIG5MRYwFAYDVQQFEw0x
+NzkyNjAxMjE1MDAxMQswCQYDVQQGEwJFQzE2MDQGA1UEChMtQU5GQUMgQVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gRUNVQURPUiBDLkEuMSUwIwYDVQQLExxBTkYgQXV0b3JpZGFkIGludGVybWVk
+aWEgIEVDMTMwMQYDVQQDEypBTkYgSGlnaCBBc3N1cmFuY2UgRWN1YWRvciBJbnRlcm1lZGlhdGUg
+Q0EwHhcNMjUwMzExMTk1NTA2WhcNMjkwMzEwMTk1NTA2WjCCAWExKjAoBgNVBAoMIUpJTUVORVog
+Q0FMREVST04gQ0hSSVNUSUFOIFhBVklFUjEaMBgGCisGAQQBgqRCCgQMCjA3MDM4NzIyNzUxKzAp
+BgNVBAsMIkNlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbCBSVUMgRUMxGTAXBgNVBCoMEENIUklT
+VElBTiBYQVZJRVIxFjAUBgNVBGETDTA3MDM4NzIyNzUwMDExCzAJBgNVBAYTAkVDMRMwEQYDVQQF
+EwowNzAzODcyMjc1MRkwFwYDVQQEDBBKSU1FTkVaIENBTERFUk9OMTUwMwYDVQQDDCwwNzAzODcy
+Mjc1IENIUklTVElBTiBYQVZJRVIgSklNRU5FWiBDQUxERVJPTjEgMB4GCSqGSIb3DQEJARYRY2Ny
+YWtAaG90bWFpbC5jb20xDzANBgNVBAgMBkVMIE9STzEQMA4GA1UEBwwHTUFDSEFMQTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMA+ZFYSlswuXVEY0OcPptH4GBz15QLoE+xuesyQtjGA
+uboKMFhm8el1BKc3OM1K5hfC8c/t84z0G3fH3kXkEr5H2TjurA5WBFaErGVQoaHJT7VoVASTkmPk
+VzXfyP+LamL01PKnLn6q8k4C1lPxHH4GjVlgV1SA6jfHr2lYX8H8e8V50cu52dLHjOYsTizhu2S1
+pGLTtoL3Nx9TByd/ZYkLdVCDIBVjHrzPLRQKcqtATVfF/pdjjDvSuSCKNhDca+ZjQu5Cp7WL113Y
+vrHHsHXuXTzvbLIRnzlOCvAtUINCJqBeJ9RFPFGUnEA/x4L3sHIhFD+QXHkFTvUA7nxq06sCAwEA
+AaOCBQEwggT9MB8GA1UdIwQYMBaAFJKu1MuCtJnG0XsRbGXqxU1oIfmsMB0GA1UdDgQWBBQIN+VJ
+xgsMbArCK3TTKgortJywrDCBsAYDVR0RBIGoMIGlgRFjY3Jha0Bob3RtYWlsLmNvbaSBjzCBjDEg
+MB4GCisGAQQBgqRCCgEMEENIUklTVElBTiBYQVZJRVIxFzAVBgorBgEEAYKkQgoCDAdKSU1FTkVa
+MRgwFgYKKwYBBAGCpEIKAwwIQ0FMREVST04xGjAYBgorBgEEAYKkQgoEDAowNzAzODcyMjc1MRkw
+FwYJKwYBBAGBjxwBDApBLTExMDMyMDI1MA4GA1UdDwEB/wQEAwIGwDAdBgNVHSUEFjAUBggrBgEF
+BQcDBAYIKwYBBQUHAwIwUAYDVR0fBEkwRzBFoEOgQYY/aHR0cDovL2NybC5hbmYuZXMvY3JsL0FO
+RkhpZ2hBc3N1cmFuY2VFY3VhZG9ySW50ZXJtZWRpYXRlQ0EuY3JsMIIBDQYDVR0gBIIBBDCCAQAw
+gecGDCsGAQQBgqRCAgUBAzCB1jAwBggrBgEFBQcCARYkaHR0cHM6Ly9hbmYuZXMvZWMvcmVwb3Np
+dG9yaW8tbGVnYWwvMIGhBggrBgEFBQcCAjCBlAyBkUNlcnRpZmljYWRvIGNvbmZvcm1lIGEgbGEg
+bGVnaXNsYWNpw7NuIGRlIGZpcm1hIGVsZWN0csOzbmljYS4gQW50ZXMgZGUgYWNlcHRhcmxvIGNv
+bXBydWViZSBpbnRlZ3JpZGFkLCBsaW1pdGFjaW9uZXMsIHZpZ2VuY2lhIHkgdXNvcyBhdXRvcml6
+YWRvcy4wCQYHBACL7EABATAJBgdghVQBAwUIMIGbBggrBgEFBQcBAQSBjjCBizAnBggrBgEFBQcw
+AYYbaHR0cDovL29jc3AuYW5mLmVzL3NwYWluL0FWMGAGCCsGAQUFBzAChlRodHRwOi8vd3d3LmFu
+Zi5lcy9lcy9jZXJ0aWZpY2F0ZXMtZG93bmxvYWQvQU5GSGlnaEFzc3VyYW5jZUVjdWFkb3JJbnRl
+cm1lZGlhdGVDQS5jZXIwDAYDVR0TAQH/BAIwADAoBgkrBgEEAYGPHBMEGwwZNjM0NTAwNDA5NTA5
+LTUyNTAyMDE3MjExNTAVBgorBgEEAYGPHBMCBAcMBTM3NDQyMCkGCisGAQQBgqRCEwEEGwwZNTI1
+MDIwMTcyMTE1LTQ4NzA2NTEyMjM0ODAaBgorBgEEAYKkQgMBBAwMCjA3MDM4NzIyNzUwMQYKKwYB
+BAGCpEIDCgQjDCFKSU1FTkVaIENBTERFUk9OIENIUklTVElBTiBYQVZJRVIwHQYKKwYBBAGCpEID
+CwQPDA0wNzAzODcyMjc1MDAxMBIGCisGAQQBgqRCAwwEBAwCRUMwIAYKKwYBBAGCpEIDAgQSDBBD
+SFJJU1RJQU4gWEFWSUVSMCAGCisGAQQBgqRCAwMEEgwQSklNRU5FWiBDQUxERVJPTjAXBgorBgEE
+AYKkQgMJBAkMB01BQ0hBTEEwFwYKKwYBBAGCpEIqAQQJDAdVSU8tMDA3MBQGCisGAQQBgqRCLgEE
+BgwEMTQ2MDBQBgorBgEEAYKkQi8BBEIMQDkwY2Y1OTcwZWVhMTZiYzBlOTgxZmIwOGRkM2IyNDJk
+NDkwMTBmYzk0NDExMTdiNGEzMzk5MGFlMTc1MjVhNzQwDQYJKoZIhvcNAQELBQADggIBAJewRSfn
+/fVDENXduXnUSW3w56qjy4L7O4QoZxwKTuzIVzDYWDEKo2TJMJoDH2Szr+3WON5mIc5hrNKinZNP
+/0pJ20tjtwmORootcH5rXOeahn+TzIHKKnPsLbqEtpZ9KAKf6YFh2MGWiWfFZku/92H2oeq41G9R
+MpPBEKEnWkP1oETWKLOcGmwfLWzQP9cA8YzhDCMuBbMxv0txugiUadBzzPQwMklmxW1vjKxtGeQe
+FDMGR/LMLUKEBiC309s6mZ7chd4Ym37DJqH3ntBYnof/RxO9eXlbJZkf5oLRy3f8UK1ZZCSwh7cS
+AEmyV7YKMIy51G1BgcDeMt9V+B/xidcOgj29SkCNaobcyzdIORYU7uv7ROL0m13968LAV5WNWKJq
+LI5uqEB58me9bF1gDZ82gfjNw/LvNpcBDLcd54oHcj63ewLhzt+CYg7i170XCrydf3SDk+OXs3D1
+z8CDGjBPArDyL6+SSBtb/JdYmp3kMelHg9WTIZdzBcbyXWgegSNhkH+6tF0iAKYavif3LSbmWMoJ
+udiaJ2exs6MXnNZfprGdlGeY6lha2M212yMQ+kYuMCMIuuOsIYWVDb2REhwmZsK6PPtNOE7YRe1z
++t8miy6npijVHeZKuhG6X6R3ZZBsO+edXZLSq7I2Ol5uN8UIHs3McLI36sMrpyIH9jfh
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wD5kVhKWzC5dURjQ5w+m0fgYHPXlAugT7G56zJC2MYC5ugowWGbx6XUEpzc4zUrmF8Lxz+3zjPQb
+d8feReQSvkfZOO6sDlYEVoSsZVChoclPtWhUBJOSY+RXNd/I/4tqYvTU8qcufqryTgLWU/EcfgaN
+WWBXVIDqN8evaVhfwfx7xXnRy7nZ0seM5ixOLOG7ZLWkYtO2gvc3H1MHJ39liQt1UIMgFWMevM8t
+FApyq0BNV8X+l2OMO9K5IIo2ENxr5mNC7kKntYvXXdi+scewde5dPO9sshGfOU4K8C1Qg0ImoF4n
+1EU8UZScQD/HgvewciEUP5BceQVO9QDufGrTqw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature789808-Object21611"><etsi:QualifyingProperties Target="#Signature789808"><etsi:SignedProperties Id="Signature789808-SignedProperties171607"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-05-20T09:37:46-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ZLVxTbvxUz0snsdM9uBjTRUPHVc=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ANF High Assurance Ecuador Intermediate CA, OU=ANF Autoridad intermedia  EC, O=ANFAC AUTORIDAD DE CERTIFICACION ECUADOR C.A., C=EC, SERIALNUMBER=1792601215001</ds:X509IssuerName><ds:X509SerialNumber>997684136913459424538264103</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-306923"><etsi:Description>Contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

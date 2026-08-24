@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>ARMORTEAM CIA LTDA</razonSocial>
+    <nombreComercial>ARMORTEAM CIA LTDA</nombreComercial>
+    <ruc>0791842243001</ruc>
+    <claveAcceso>2505202601079184224300120020010000000570000000012</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000057</secuencial>
+    <dirMatriz>VIA A PRIMAVERA</dirMatriz>
+    <agenteRetencion>10</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>MARCEL LANIADO Y CRISTOBAL COLON</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>GUAYAQUIL S/N QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>500.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>500.00</baseImponible>
+        <valor>75.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>575.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>575.00</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>numItem 001</codigoPrincipal>
+      <descripcion>CAMBIO DE COLOR GRIS CHARCOEL AVERY</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>500.0000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>500.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>500.00</baseImponible>
+          <valor>75.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Dirección">GUAYAQUIL S/N QUINTA A NORTE ESQUINA</campoAdicional>
+    <campoAdicional nombre="Email">marcelohet@hotmail.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature260990">
+<ds:SignedInfo Id="Signature-SignedInfo650296">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID656835" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature260990-SignedProperties243644">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Q8oACpmnzP8qKQjXfUa3jgUbY0M=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1723877">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>/+dWyO+0wCWBAomFIY7ceJP4cmc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-786183" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>KFo7Nyl/ZU0CggvBRusyIwWXafs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue869145">
+nwgbLFGipY1XiiSDmKVTidfpQ9r6ki9Omt93jh2AiT/Dr9uLfDMJvLxQc+a7ffhQ0I6qHZdlWwb5
+l+0y+uAcXfX7d69BHacDPlWfY8lGG7tfdVXJXwqlgpyzowJx5y2DhHkjBbcSHMSVV0V4u1NF/Qkq
+qvdRtDy63+JmL73WFWvbr4I4HfkWcfz/vBeOBNjLGb368W01K79WGMOsBDCu+tl01IOPjU1OpeCm
+wgWxudhdhYW6ch/WsVJbtOJj4U67eL4qp4xDxI/hmkxKehZDnt6jgu0QGvTfxgO3DVtz3Ol4Csvh
+FGSWzYUh+iW3vZYgXFIkMK1Oy9Jog2hyAsUdaQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1723877">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIQDCCBiigAwIBAgIQBKRq7wPg3G5fT7u5XWKd7TANBgkqhkiG9w0BAQsFADCBwjELMAkGA1UE
+BhMCRUMxGzAZBgNVBAoMEkZJUk1BU0VHVVJBIFMuQS5TLjEwMC4GA1UECwwnRU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMRMwEQYDVQQIDApUVU5HVVJBSFVBMT4wPAYDVQQD
+DDVBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0xIEZJUk1BU0VHVVJBIFMuQS5TLjEP
+MA0GA1UEBwwGQU1CQVRPMB4XDTI2MDUwNTIwMTIwOFoXDTI4MDUwNTIxMTIwOFowgeAxLTArBgNV
+BAUTJDhiZjk0NDEyLTgxYjgtNDQzYi05NjIyLTJhY2VjZDEyMTliMTEtMCsGCSqGSIb3DQEJARYe
+YWRtaW5pc3RyYWNpb25AYXJtb3J0ZWFtZWMuY29tMSQwIgYDVQQDExtWSUNUT1IgTUFOVUVMIFNB
+TEFaQVIgQ1VFVkExMDAuBgNVBAsTJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEbMBkGA1UEChMSRklSTUFTRUdVUkEgUy5BLlMuMQswCQYDVQQGEwJFQzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBALuXTYFjqjeEC/cDaKlcAttcfRd2FJhlYW+NanFmxgCIVduv
+jcX6dnlqSZYFoohIFRhc3gm3NUE9hg4a5IkGivao1cjni/3tfCK7i9CXGsGWgKhS4EM2LgFcB5ev
+Yylx08CAGAac+M3c/3NaQtDTq28JTx7jO/oEtXFE+/oPZu/Aw2QcYT+jkSTc+3O2+wraGUzqLRaD
+stY0x3j7E37uVd0mGK6pYWQHs8kI1WbeT7q95Sgs8FSzop4MkSpP2h8eExRVhjR4JygpwbHg/SfH
+5GEywJrTooXbHCqirAXUvTRkWRHaln8m/0R4uA7O8ldGkZV9N2ZsgkJdVW/FfgyxPj8CAwEAAaOC
+AxAwggMMMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUE0aTaAmu1ySHM0VjJnffrF5eilEwHQYDVR0O
+BBYEFGQ1zF69alT3E3pjUDblw2v9eOW6MFoGA1UdHwRTMFEwT6BNoEuGSWh0dHA6Ly9jcmwuZmly
+bWFzZWd1cmFlYy5jb20vY3JsL2NjY2U1YTRmLTZiNjgtNDZmYy1hNjIwLTRhYmNjNGM0YTY5MC5j
+cmwwOQYIKwYBBQUHAQEELTArMCkGCCsGAQUFBzABhh1odHRwOi8vb2NzcC5maXJtYXNlZ3VyYWVj
+LmNvbTAaBgorBgEEAYPeeQMBBAwWCjA3MDQ2MTM0NTQwHQYKKwYBBAGD3nkDAgQPFg1WSUNUT1Ig
+TUFOVUVMMBcGCisGAQQBg955AwMECRYHU0FMQVpBUjAVBgorBgEEAYPeeQMEBAcWBUNVRVZBMB8G
+CisGAQQBg955AwUEERYPR0VSRU5URSBHRU5FUkFMMFEGCisGAQQBg955AwcEQxZBQ0FMTEU6IFZJ
+QSBBIFBSSU1BVkVSQSBO2k1FUk86IFMvTiBSRUZFUkVOQ0lBOiBKVU5UTyBBIEhJUEVSU1RPQ0sw
+HAYKKwYBBAGD3nkDCAQOFgw1OTM5NTk0MDg0OTEwFwYKKwYBBAGD3nkDCQQJFgdNQUNIQUxBMCMG
+CisGAQQBg955AwoEFRYTQVJNT1JURUFNIENJQS5MVERBLjAdBgorBgEEAYPeeQMLBA8WDTA3OTE4
+NDIyNDMwMDEwFwYKKwYBBAGD3nkDDAQJFgdFY3VhZG9yMIGkBgNVHSAEgZwwgZkwVAYLKwYBBAGD
+3nkCAQEwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9maXJtYXNlZ3VyYWVjLmNvbS9wb2xpdGljYXNf
+cmVwcmVzZW50YW50ZV9sZWdhbDBBBgsrBgEEAYPeeQICAjAyMDAGCCsGAQUFBwICMCQMIkNlcnRp
+ZmljYWRvIGRlIFJlcHJlc2VudGFudGUgTGVnYWwwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEB
+CwUAA4ICAQCN4UB8niKt6QZBL2zVoiLTliILECFaCb32S8Z3w2u/slfaf4kQf9bPRb7QuJ+XFiwW
+zVc94OsNO/vAjHmqvipD/7Acp6RfBCw2g6+qXDHKV/6dU2QMhifmuIJRf0AFcVUkCYvKz7q9++Bf
+SdLIb8/2RBEmjJdex9lYxptGNLw2Y2lOV+ppsSSziFyDth86QUFXjjaAjmThZ8hsUlsx5GYDQJZs
+sTnpT5ZqJ7rP8Lnl8+GoM+ZiMbdXnmhZ8VR4RUiN1Mie7BLslYS6M2vGTUa2KekjtFLwT8rhptQG
+3VTPwtEj4zUq2NvwNgz0FF1oO43qTKNcPd5Wws240AS7gcm3vvabssoMMdbUH115OfAT9iJZBCaU
+vK7936/c8rNr4/jzoaymz2kTmUA3Kwz5JvLuT3U820eO2P0kRCWSLe8B4aq9mjixsJFJPNGn3YTt
+5l15YusTSzqt68wYeKeIq6ImPtLGntiuQwlyp8ucKywy1DJjj+HrvDihe2e9SSKT4dNdkhuLq/Bj
+4OCc/LmJAq8uMv2iIBz4/m9I0MFpddw1idtwIbqzqdtZ3jtpNAc0SijByXDbjJVl1KZ3Fd/XX/R4
+jyx/8bdTYzIV0uS8A6lTvGpbR9Dd0TtJDR3a+CI33fvKYzNCC9duxKmnZ3YuyR2z4qyEJaBVuKyR
+fnQrYjz1Gg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u5dNgWOqN4QL9wNoqVwC21x9F3YUmGVhb41qcWbGAIhV26+Nxfp2eWpJlgWiiEgVGFzeCbc1QT2G
+DhrkiQaK9qjVyOeL/e18IruL0JcawZaAqFLgQzYuAVwHl69jKXHTwIAYBpz4zdz/c1pC0NOrbwlP
+HuM7+gS1cUT7+g9m78DDZBxhP6ORJNz7c7b7CtoZTOotFoOy1jTHePsTfu5V3SYYrqlhZAezyQjV
+Zt5Pur3lKCzwVLOingyRKk/aHx4TFFWGNHgnKCnBseD9J8fkYTLAmtOihdscKqKsBdS9NGRZEdqW
+fyb/RHi4Ds7yV0aRlX03ZmyCQl1Vb8V+DLE+Pw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature260990-Object736167"><etsi:QualifyingProperties Target="#Signature260990"><etsi:SignedProperties Id="Signature260990-SignedProperties243644"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-05-25T18:03:10-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>/vudQzSrZl0pbtJqCjtbPQJW3ik=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>L=AMBATO,CN=AUTORIDAD DE CERTIFICACION SUBCA-1 FIRMASEGURA S.A.S.,ST=TUNGURAHUA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=FIRMASEGURA S.A.S.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>6170617540088498578629558837633523181</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-786183"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

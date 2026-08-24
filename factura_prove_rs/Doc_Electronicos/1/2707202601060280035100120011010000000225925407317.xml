@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PAGUAY RUIZ ANA LUCIA</razonSocial>
+        <ruc>0602800351001</ruc>
+        <claveAcceso>2707202601060280035100120011010000000225925407317</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>101</ptoEmi>
+        <secuencial>000000022</secuencial>
+        <dirMatriz>Calle: L VAREZUETA </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>27/07/2026</fechaEmision>
+        <dirEstablecimiento>Calle: L VAREZUETA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>GUAYAQUIL S/N QUINTA NORTE </direccionComprador>
+        <totalSinImpuestos>52.05</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>52.05</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>52.05</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>52.05</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>001</codigoPrincipal>
+            <descripcion>VENTA DE LEGUMBRES</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>52.05</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>52.05</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>52.05</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072923970</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Rqfh+vN3PDf/2NFBA+OURo+HPAyiNf4zEIFY8H7XvAU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tJ1/UZaiuQr1wh5T1MbdVpfCLpfMi1GkrAQcDkxOjVU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85-sigvalue">onHTVlHjYlX6/80KR62DQP9hBHt+sOGAeYiADesc9+7o+gSzq8Hgmr5gD0FISJy4/FBBaSZegxm+qUGXEhcZc8V1V4/PcEV4dcGF6ohAxkwTrfS+Xu4+hiRl5qvpoZ99uN6NNRGD9R2P7NjnkuTybpEWuenNgJXVkiTMvN+KhhWMW8hYZxRLqj0+QkaaPZb7o6rHtr59TyGulQgt7/7UeMa+9I8H2jmoUiXJbxin+44TY4NyJwL23375BaMFAJ17R+y+NalEkJMMAbxdU1LDFZaMJBfOsymCE7RRcC0X0wZZG8uU4cJmiWq+B/2PSkoyioAd3ZZCHNRmHj4S9xQCng==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85"><xades:SignedProperties Id="xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-07-27T13:28:31.287-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>z14gGulaL3rWH1La5FYtfPh4ijwhvfyOJGguW/MIl+o=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>L=AMBATO,CN=AUTORIDAD DE CERTIFICACION SUBCA-1 FIRMASEGURA S.A.S.,ST=TUNGURAHUA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=FIRMASEGURA S.A.S.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>215244520909158595893115809569866193305</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-3a378673-8f90-4b20-8831-5ead3a178d85-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>** SISCOMIN Cia. Ltda. **</razonSocial><ruc>0790092732001</ruc><claveAcceso>0511202501079009273200120010020000149800000000115</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>002</ptoEmi><secuencial>000014980</secuencial><dirMatriz>Av. 25 de Junio y Av. Junín (esq).</dirMatriz></infoTributaria><infoFactura>
+     <fechaEmision>05/11/2025</fechaEmision><dirEstablecimiento>Av. 25 de Junio y Av. Junín (esq).</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C.L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>CDLA LOS JARDINES CALLE GYE Y QUINTA NOR</direccionComprador><totalSinImpuestos>396.00</totalSinImpuestos><totalDescuento>79.20</totalDescuento><totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>396.00</baseImponible><tarifa>15</tarifa><valor>59.40</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>455.40</importeTotal><moneda>DOLAR</moneda><pagos>
+         <pago>
+         <formaPago>20</formaPago><total>455.40</total><plazo>0</plazo><unidadTiempo>Dias</unidadTiempo></pago></pagos></infoFactura><detalles>
+            <detalle>
+              <codigoPrincipal>30010104</codigoPrincipal><descripcion>IMPR EPSON FX-890 II USB</descripcion><cantidad>1.00</cantidad><precioUnitario>475.20</precioUnitario><descuento>79.20</descuento><precioTotalSinImpuesto>396.00</precioTotalSinImpuesto><impuestos>
+            		<impuesto>
+              		<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>396.00</baseImponible><valor>59.40</valor></impuesto></impuestos></detalle></detalles><infoAdicional>
+             <campoAdicional nombre="Direccion">CDLA LOS JARDINES CALLE GYE Y QUINTA NOR</campoAdicional><campoAdicional nombre="E-Mail">logistica.001@grupodmg.ec</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="SignatureN0"><ds:SignedInfo Id="Signature-SignedInfo379688"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod><ds:Reference Id="SignedPropertiesID429911" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignatureN0-SignedPropertiesN0"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>PNi+hk/nNSod3M+T9xkP9oE/AN4=</ds:DigestValue></ds:Reference><ds:Reference URI="#CertificateN0"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>rSrSoq36Zhxhsh/GNNYzVD1a82Y=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-N0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>VpG+1G+JyglDbEA0gi/GEbyoJ0Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValueN0">Ru0w2prUxJ+LCQ8oNFZqU4n92EPGooBO5MF9a8/uYShdSAoJmdx1xnxLhTnIZ4FtjAYMLn5pEiZT19Yt/+ynhlp+TqFn1o7jNx08xErzkHWMPqaCk0s/3R07aNBRsmGHXUI0wo8lbcYFaI3+dXVbIiKQf14r7XNhijDVPk1s5wxiDTgUxKMan2VUwSHvn1zNC43il+MnPBBEVmg7Auo7wZFastblw0ZdQqEnFmBOnNsi0H6sIGkrgcbg6nhOWY8mIQmaNMGmRVadsorBKHuoneBnuySn9znqjP1JOI0iN5TXzdHQRtN5T+aQUhWwMDT7VI3QFa1hysqyzxm6PmC9GA==</ds:SignatureValue><ds:KeyInfo Id="CertificateN0"><ds:X509Data><ds:X509Certificate>MIIMMjCCChqgAwIBAgIEB9+yDDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yNTAxMjExNjEzMTJaFw0yNjAxMjExNjEzMTJaMIGkMSIwIAYDVQQDDBlIVUdP
+IENFU0FSIEZMT1JFUyBHQUxBUlpBMSAwHgYDVQQFExcwNzAyMDg1MDc3LTIxMDEy
+NTExMjMwNjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UE
+BhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXtTJngFqxqhy9
+8WD0vbFxFChTbt1koBeqvMdBdLaCkHx7KQTtg7GW8NpH/Z39FCOyNIhgmrvGV7jV
+nTdwirXT2gQeZfJMUwhttGiG73vP+y5hEvjF4r9oN1+t03nl0w3KvtVoWBWktNZZ
+D4/bUQdVBQX29t2cX8y7gsxYsbemEh4UEdWNKVE1aPXLxgYMBN79zFtx3StxbGM2
+K11XTT1ilyYZ/ouc/lWsP4gzro0goeg7jJybclarIFWzHd30G99V11j/2C8JfPcx
+H5uSDH6GfptcY4lyHL3z/odNNo5lrUDzrjLtnn95ZHebqb+Ox1MuPbLMqgnCkMkn
+rZR/K0qZAgMBAAGjggdzMIIHbzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6
+yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9
+aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xk
+YXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4g
+MixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/YmFzZTAgBgNVHREEGTAXgRVnZXJl
+bmNpYUBzaXNjb21pbi5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJ
+MFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAg
+AFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQB
+gqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRh
+Lm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2Vy
+dGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRl
+IExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggKiBgNV
+HR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNV
+BAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9S
+TUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMC
+RUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0
+aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3Iy
+LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2Vy
+dGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMw
+HQYDVR0OBBYEFC92A7ps4Z5QIfTuG4arwRXoHDonMCsGA1UdEAQkMCKADzIwMjUw
+MTIxMTYxMzEyWoEPMjAyNjAxMjExNjEzMTJaMAsGA1UdDwQEAwIF4DAfBgorBgEE
+AYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjA3MDIw
+ODUwNzcwFwYKKwYBBAGCpnIDCQQJDAdNQUNIQUxBMBEGCisGAQQBgqZyAyIEAwwB
+LjAqBgorBgEEAYKmcgMHBBwMGkFWIDI1IERFIEpVTklPIFMgTiBZIEpVTklOMBoG
+CisGAQQBgqZyAwIEDAwKSFVHTyBDRVNBUjAfBgorBgEEAYKmcgMgBBEMDzAwNjAw
+MTAwMDA4NDE5NDATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkM
+B0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZGTE9SRVMwQwYKKwYBBAGCpnIDCgQ1
+DDNTSVNURU1BUyBDT01QVVRBQ0lPTkFMRVMgSU5URUdSQURPUyBTSVNDT01JTiBD
+IExUREEwHQYKKwYBBAGCpnIDCwQPDA0wNzkwMDkyNzMyMDAxMBEGCisGAQQBgqZy
+Ax0EAwwBLjAXBgorBgEEAYKmcgMEBAkMB0dBTEFSWkEwEAYKKwYBBAGCpnIDCAQC
+DAAwDQYJKoZIhvcNAQELBQADggIBAJmmUYiJaWV0T0mDkOVHmh/g8syOazFPNkFt
+c2mqwg+Yll4tnZWnqrMSh9bn2n/UVgVFkaexItzCoV31ERzKy0V+APf3Tab39F40
+o9OI0ufXPHM30zCkt+u+7P28NPy7qYBK/VBKRcT78Vq7Bfnv8qbubBuaFOM13d/R
+EP10zsdPY6GwdHe+eM9jXgPJNb2U1vWlnReKteOoGGImKcPa+ErejrCrwjoH2RVd
+FyG3MObvsBXy5NaB4jdnzh3G0gQ3y4JQQ54xfyohltX8VvYuOl1ICKvOgrWmVViz
+HoK1WFE9fOlI4OIwfFGRm503G5YhnCNpYQaSsdPFg7jJ9oCPVf/r4ndsf2hQpVjA
+bcVLO9tTWDmSbg2A2syme9lpIVTFdXzrndCwKkPYArtza91zE2chMn1IInqKmbsY
+Rn2V3eJqSdOEjoHHLt6rJIkYbodgznjn6RkPVfZfoqg+QWzQOzbdmTxDkhhH6EKk
+qBXUMmAfJ9cw3s0DkbPDpNpYqu22HkO4wUNYEV3JmuJo18UKKYyR7XU07Qrdif40
+HdJLR3HdU9IoNnyAmZgmaxXN/LuSj2Jz4G2fc6+AQHTlgA2IO92sfyufFrfOQYKw
+nP7Kqh3EKuciaGGmPIt/vWQT6zNcpMMi0zrzcBuND7/c0dvartJm+5bjOmeoRipJ
+Nkjhjumt</ds:X509Certificate><ds:X509Certificate>MIIIJDCCBgygAwIBAgIEWJrokDANBgkqhkiG9w0BAQsFADCBmzELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOzA5BgNVBAMMMkFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRB
+MB4XDTE5MTAxNTIyMTU1N1oXDTM5MDQwNzIyMTU1N1owgZkxCzAJBgNVBAYTAkVD
+MR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURB
+RCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRP
+UklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDIEvPSI5HT5FJ6T+kkuTbOr4qV
+6A+HtdPCurs4p51KBQ0+qawKxV9PaL/lMxBMlBF5IYr8rYOzUD2NL6Gj3/bRdFkK
+R2HdVrSh3VTUQCq9F5KbTk0wIDlUARdt2GGdY/frbNH9f8lK1LwyU/3sGOGLiF27
+RJJI4dcS/qkhz25IlPvvV0kORHOT7Ar0GFTX4fGnBX4c+zEL+/trNKN7SPgswYL5
+lRHKQXXTpgDv0eWecBWCTz+4VDD0xX/VYYDRPmczMzIhCH+3nJmCPaTrmTMiL2MG
+Zx0rgam9ckStqvGXyKurE0Hkn0uciaux4HcQDcdqkXJKCyyd7QSN87FMIUKjTttt
+2KfO667rMrDK2h9QyzCMWPJ5NXjJY71NJQX6KLYOm9PydioN9H5owF6AcGW0QFiH
+RgPsbhREnDL4ZflDmok+S/9TrcJQVrLjfnuoGRtqnPErKNeMebtZGx5crqjc2+fW
+gBvdJtLldZryfi5nrcdYGEKYiU4b349aXWNWmwpP/Tcew0dYiWaA3NHoJRifOVM+
+Wswiv94OXqZCABxKdEXbql9iCnAUiow1LYZmgEg8GwnFXseTw4zwtObPh6rKuQVl
+2yySywk2zeDmAZ9hAh7IBmKVhWE/lfWrdhifaKtHuyulPrdfPKKOIR6Lb4ZAluDa
+/a5rp98tKdQogeuA4QIDAQABo4ICbjCCAmowDwYDVR0TAQH/BAUwAwEB/zAfBgNV
+HSMEGDAWgBSEv4ZkaGZ6bB/rpKK4RMOVAB3xbjCBhgYDVR0gBH8wfTB7BgorBgEE
+AYKmcgEJMG0wawYIKwYBBQUHAgEWX2h0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9wX2NlcnRpZmlj
+YWNpb24vZGVjbGFyYWNpb24ucGRmMIIBfAYDVR0fBIIBczCCAW8wggFroIHEoIHB
+hoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9S
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRBLE9V
+PUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VS
+SVRZIERBVEEgUy5BLiAyLEM9RUM/YXV0aG9yaXR5UmV2b2NhdGlvbkxpc3Q/YmFz
+ZaKBoaSBnjCBmzE7MDkGA1UEAwwyQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+UkFJWiBDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFU
+QSBTLkEuIDIxCzAJBgNVBAYTAkVDMB0GA1UdDgQWBBSMusoRV3glgB1rCktVv42u
+Yt29jzAOBgNVHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAICvaRPs/FWq
+rIBCtnaIEH/PE+IpOBxG2AAzkkZ4M+zAObtTW7G8dTCBFBX22KWMt3O63jhrwWen
+5sCn/acs1sbyax21lBjgRWGHd1tCYgghb7BYRr/QoBhQ8E4z1M26HsEN2lPri7oP
+gEQkpTZJQhP9mNLYUwdIZa64pcTJHyM3+z+sT/Qisa4MP4cmd/UQVuAmydlU7sbA
+e8pFE2md/5R9PDQd29vs7OLb6tHTQAxkBoS3faEVXJhW6Kwa6jvFRgr5P4BVIGbo
+F9yooW/F7xiukyvHwSOLx8odf0X0gpg3mWIEe3hGe/HM/miHCob8KEDPnsFd1E99
+l+EPiLvjt2Q5pyAhk7/9WwivWmFeUPjt9FBjnRRMLr94utLCx2dnYEl+EHWV9KlS
+jRJI+LL9q/ekfnFUWI/r5IBh325WR7EC/hQPLuzpH54/ZKBgDs/0TqMN44Yb2N/u
+7sWZEHxlraQIZ6TPjK3jOV0U1lVO+cc9IblwSlONReYh8IAeqBgTuLT2UQONXjyp
+PdGuS1DFnSI3BsERswHalw392Xsz68+lJnTm89YreRMUD7C7X0iTTGILUP6t2EO1
+7NXdYr7iCfAzXjGQnoUwBf/b/331sweZLzXvII9YKSdWfWlGb7o8A8Gs5qCXxHz7
+SEm7ouyiw+vZY46dwodz3rnMb6hZkYTy</ds:X509Certificate><ds:X509Certificate>MIIGMTCCBBmgAwIBAgIEQbvSUTANBgkqhkiG9w0BAQsFADCBmzELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOzA5BgNVBAMMMkFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRB
+MB4XDTE5MTAxNTIxMjAxMloXDTM5MTAwNjIxMjAxMlowgZsxCzAJBgNVBAYTAkVD
+MR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURB
+RCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTswOQYDVQQDDDJBVVRP
+UklEQUQgREUgQ0VSVElGSUNBQ0lPTiBSQUlaIENBLTIgU0VDVVJJVFkgREFUQTCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMN8h43o0W88YbV2h+knLPcR
+c9KnfWfdVDSZzSRFxLI7JjVMsjd1rU9CA4veB4qiqpSa4rwYUrACdvNexPJONpJg
+vhgx6auj2wFOKDpge+6YxPFkXw8kN062JcSu/ZWO6cryF8clRywWnxBXBXlX3rdD
+EFEPVHKHxLMiZLLaqxOBV52oQEqu5udNBctfHh5wyx/NHgdZWH7YWHMA9pnAIM3D
+eyTACC/ssAoHYgfe3GsUW3fFYNDNnYy/jHv5xFGTeftnN27vMEonqIeHoSb+jHKY
+KMSN3bZn0k0rUugwNUl3+Sa5EBIEtNoQJmqVfvzKGZUeMFk/3ZPGE04pmAOLXf0q
+jq98um684vxLEWUoOkNi4RYOOO1najDNMtdo/TFG+IPO/faG8qCmq5CwM9KCay1e
+EFGECX9Ihp3Qf1tafaI1mU4IcIWt0D4LlF6plxMzL7/ezHFOOoqeVqZSe9Gk7ofc
+cVUL2z8P5di+wu/t1AlgqmzRlviLIk08mnMxVdX9C9z8vCZ0pso1C1hhPoA/rEiM
+6FfKaUple/FxzfkgabbQhYRb6YyrR7cz90Cb4FzhKOZ8ocU4oueKVuBN1f0OVBdO
+aw7IHzMqzjn7hM9msFf10PKcOJ2gCpSAJHln5+NWJAX8z6oXUOuiGh8I8BpgeUOb
+WSC7xP5F3lNuOevch1dDAgMBAAGjezB5MA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0j
+BBgwFoAUhL+GZGhmemwf66SiuETDlQAd8W4wFgYDVR0gBA8wDTALBgkrBgEEAYKm
+cgEwHQYDVR0OBBYEFIS/hmRoZnpsH+ukorhEw5UAHfFuMA4GA1UdDwEB/wQEAwIB
+hjANBgkqhkiG9w0BAQsFAAOCAgEASD6yNRCQa76mbJ7tu9TvX38pEX/xAEIco5xn
+liEHlD1YWv9fTRJjruz8tUcvDEm8J7C4oCmy9WqjDyLS0vnMZeRoN/7Z/55cAPiy
+gyzfY+nl/KiM94zUP6Q7WaskW/uAwUsjbZL1dhgqR0WfUuw6749xwi7hSISV0NOP
+u6kbXPoQd9F2He23Ze8begcdCbgygn887K5PKqfHl1XT1NYEmspmb4rEn+GpAO6J
+cwEal4RmoE07gdl2nqUAugWLPt97OkvcqjkOpKisX6pdTVd0BEbRXmZvmB1GwtWH
+5O4Cq3IUBWLjWhtmtJTmYeBaNjzLL1zraC0RuAj9rhMXpYEwJNUPSXZt6dCgWVjW
+9v70dMcuVaAz2/cLmx1KGNEPJSVOm+9VrIvWit4kcpxEtcCP6eppgF+VAVUWnHze
+j2nd7oBwVXtsyhPlRN3CT3Bs1mE/Cb/tLJxuhiax0lEa5Mc2EONdQgM5OzmSaOgH
+yfxUBxiudNWAjyxV/NN4A27Suh6/tjPKkXql3JTsYGkbOyWGaf3B/fCfDW4295XR
+ayPtdunbLdadjTKt25jcqJ3xASY0CG76hJRi6zgiKoDXH0qpWKhYj7KmohoRLdMM
+R+WMUU0zPcgCsnNoW4RJgXrjNW1WXysrRksIbg9JvXx63pZqjtGFlN4tpxL4rkab
+Lk9Um9M=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>l7UyZ4BasaocvfFg9L2xcRQoU27dZKAXqrzHQXS2gpB8eykE7YOxlvDaR/2d/RQjsjSIYJq7xle41Z03cIq109oEHmXyTFMIbbRohu97z/suYRL4xeK/aDdfrdN55dMNyr7VaFgVpLTWWQ+P21EHVQUF9vbdnF/Mu4LMWLG3phIeFBHVjSlRNWj1y8YGDATe/cxbcd0rcWxjNitdV009YpcmGf6LnP5VrD+IM66NIKHoO4ycm3JWqyBVsx3d9BvfVddY/9gvCXz3MR+bkgx+hn6bXGOJchy98/6HTTaOZa1A864y7Z5/eWR3m6m/jsdTLj2yzKoJwpDJJ62UfytKmQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="SignatureN0-ObjectN0"><xades:QualifyingProperties Target="#SignatureN0"><xades:SignedProperties Id="SignatureN0-SignedPropertiesN0"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-05T11:27:38</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>enCAaXrbry7l5LoaQOgQVgMihno=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>132100620</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-ID-N0"><xades:Description>contenido comprobante</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

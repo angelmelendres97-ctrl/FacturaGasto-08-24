@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>CHAN MORA DANIEL GONZALO</razonSocial><nombreComercial>CHAN MORA DANIEL GONZALO</nombreComercial><ruc>0703225938001</ruc><claveAcceso>0610202501070322593800120011000000001088755431515</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>100</ptoEmi><secuencial>000000108</secuencial><dirMatriz>ELOY ALFARO 701 Y JUAN MONTALVO ESQUINA, A DOCIENTOS METROS DEL ANTIGUO AEREOPUERTO</dirMatriz>
+		
+		</infoTributaria><infoFactura><fechaEmision>06/10/2025</fechaEmision><dirEstablecimiento>ELOY ALFARO 701 Y JUAN MONTALVO ESQUINA, A DOCIENTOS METROS DE ANTIGUO AEREOPUERTO</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>2900.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>2900.00</baseImponible><tarifa>0</tarifa><valor>0</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>2900.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>2900.00</total></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>0422</codigoPrincipal><descripcion>Recubrimiento contra el oxido, para vehiculo tipo VOLQUETA, marca MAN modelo TGS.33.440, incluye toda la parte externa asi como la tolva, placa ABQ-2610</descripcion><cantidad>1.000000</cantidad><precioUnitario>2900.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>2900.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>2900.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Nombre">MINERA BELORO C L</campoAdicional><campoAdicional nombre="Correo">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="Direccion">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional><campoAdicional nombre="Calificación Artesanal No. ">227369</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1027578">
+<ds:SignedInfo Id="Signature-SignedInfo810824">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID267160" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1027578-SignedProperties565412">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>cuglNWFIOfMnGshA5v05DNSbfyQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1169243">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>+H8DkhVUvQjq2ImmgmlkPqSiWNA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-41050" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>DmN/9qDpX0mJ0A+mc9lJl15zdco=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue859284">
+jfGWuwuRaecrbkPyoFDJ9W8R05Lf+3zCPym0AIDkm1NveFT1/OuFwypUiig3wVtH7VSohS6P3GvA
+VeWq1reqW1SOLwPLSQfe7xoqRRzpSyS0iKEzr3JEw69DvufeCxzCLbV12Y3v//QN+Wk9Q1YHt3Jv
+cec18gUhHOcgGuOP1W6lwAybX2uIGuJt/V9aNuZZaDQblt9XhNFKCASUdtli2LdAFGqq5WgQ43UV
+3YxwEb4oxdPXgTbiak6wLCOVB0cT0PymLPFR/rAcJflWNQSbIvPhUYfqExpW0uP0TkHSviZ/6nZO
+pmDwnai0XFZSnsnQMcf9QBKfQKDZKgawG946Uw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1169243">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHrTCCBpWgAwIBAgIFAMIAxy4wDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI1
+MDIwNDE5MjY1OFoXDTI2MDIwNDE5MjY1OFowgZYxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEiMCAGA1UEAwwZ
+REFOSUVMIEdPTlpBTE8gIENIQU4gTU9SQTEmMCQGCSqGSIb3DQEJARYXeXVsaWNoaWNhMjIwOEBn
+bWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCQWUHmbkWDa2Np8i1wrmTH
+kZySUpQM0K/C1vLPW2qXUI/wKTL4lRG+PlnBD+cZO6Ke2cVxFhXMt+4Vdw2CgFns+pjHurlNkfEc
+QhvCUbNbc+VNGv8lxREMlwgT04fo+N6W86vZadHk+UhJE8SU9H4A6q3VXFh1JjX+NnPnDgN7ju0b
+1CGuhOvUU5gmZihJ0PRTk/539kjIMObO0YRZT/ihjuBhzFRvXHbz+IA0BKxmGYOIqJD7xMC0mF5d
+asdTKx4/gsiSrAd1rREzm84+/hQX1CG13d+JlBFtv0bGcncjLySu1Aea7wZqzXQUWlY5B5Utym4a
+U7HHXpXulqgbOE87AgMBAAGjggROMIIESjAaBgorBgEEAYPPdgMBBAwMCjA3MDMyMjU5MzgwHgYK
+KwYBBAGDz3YDAgQQDA5EQU5JRUwgR09OWkFMTzAUBgorBgEEAYPPdgMDBAYMBENIQU4wFAYKKwYB
+BAGDz3YDBAQGDARNT1JBMBcGCisGAQQBg892AwcECQwHTUFDSEFMQTAaBgorBgEEAYPPdgMIBAwM
+CjA5ODU1NzYwNjcwFwYKKwYBBAGDz3YDCQQJDAdNYWNoYWxhMBcGCisGAQQBg892AwwECQwHRUNV
+QURPUjAdBgorBgEEAYPPdgMLBA8MDTA3MDMyMjU5MzgwMDEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+FgQUTOXUii9xYoQ3ks4dTyJjn0GvwHUwHwYDVR0jBBgwFoAU7XZIsArxyYaGDExGZNIG+MzVvT4w
+DgYDVR0PAQH/BAQDAgXgMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6L2VuZXh0Mi54eXovTGF6emF0
+ZUNBMi9lbWlzb3JDQTIuY3JsMIIBhAYDVR0gBIIBezCCAXcwfAYKKwYBBAGDz3YCATBuMGwGCCsG
+AQUFBwICMGAaXkVsIHByZXNlbnRlIGNlcnRpZmljYWRvIGVzIGVtaXRpZG8gZW4gYmFzZSBhIGxh
+cyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENpYS4gTHRkYS4wgfYGCSsGAQQB
+g892AjCB6DBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0aWRv
+IGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0
+ZGEuMHgGCCsGAQUFBwICMGwaakVsIHByZXNlbnRlIGNlcnRpZmljYWRvIHN1Ym9yZGluYWRvIGVz
+IGVtaXRpZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRl
+IENpYS4gTHRkYS4wgfkGA1UdEQSB8TCB7qAaBgorBgEEAYPPdgMBoAwMCjA3MDMyMjU5MzigHgYK
+KwYBBAGDz3YDAqAQDA5EQU5JRUwgR09OWkFMT6AUBgorBgEEAYPPdgMDoAYMBENIQU6gFAYKKwYB
+BAGDz3YDBKAGDARNT1JBoBcGCisGAQQBg892AwegCQwHTUFDSEFMQaAaBgorBgEEAYPPdgMIoAwM
+CjA5ODU1NzYwNjegFwYKKwYBBAGDz3YDCaAJDAdNYWNoYWxhoBcGCisGAQQBg892AwygCQwHRUNV
+QURPUqAdBgorBgEEAYPPdgMLoA8MDTA3MDMyMjU5MzgwMDEwPAYIKwYBBQUHAQEEMDAuMCwGCCsG
+AQUFBzABhiBodHRwOi8vZW5leHQyLnh5ejo4Nzc3L2Fkc3Mvb2NzcDANBgkqhkiG9w0BAQsFAAOC
+AQEA3uFmUv9RKeTp4DTXjeZsTWbkC/p1IOYIzBFI6+k9sh7TznE94FXdeTaWVJn4eaCuEVezyqoO
+7Ces5lsxBS4NrwTo4e3SomV6/+p9injkoOo2riFNsjG3W50YuStMBa48P+4NoT/8wHVvIcHLdzDt
+3Otp++F7lEcKnTjfTudoSlAsuzXaPuq/cu9eh4wNvQiAzRLkHp9/p1cBHxcqi3j0VjKVrdpBstq2
+B/GN35BK6IgpZOO9VLS21oMzJ/THlV3TgnLRFT7HgSrfFX4TPNAkDI3Fp0S6XoP4UqjUXqXiIvtx
+iVkOKqfj96l3DdetKVX3VsT6V4+RnZbL5OzX76+COA==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+kFlB5m5Fg2tjafItcK5kx5GcklKUDNCvwtbyz1tql1CP8Cky+JURvj5ZwQ/nGTuintnFcRYVzLfu
+FXcNgoBZ7PqYx7q5TZHxHEIbwlGzW3PlTRr/JcURDJcIE9OH6PjelvOr2WnR5PlISRPElPR+AOqt
+1VxYdSY1/jZz5w4De47tG9QhroTr1FOYJmYoSdD0U5P+d/ZIyDDmztGEWU/4oY7gYcxUb1x28/iA
+NASsZhmDiKiQ+8TAtJheXWrHUyseP4LIkqwHda0RM5vOPv4UF9Qhtd3fiZQRbb9GxnJ3Iy8krtQH
+mu8Gas10FFpWOQeVLcpuGlOxx16V7paoGzhPOw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature1027578-Object610907"><etsi:QualifyingProperties Target="#Signature1027578"><etsi:SignedProperties Id="Signature1027578-SignedProperties565412"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-10-06T10:52:01-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>oTBoykN2fkdHBni0FOFF0p4H0a8=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254830894</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-41050"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

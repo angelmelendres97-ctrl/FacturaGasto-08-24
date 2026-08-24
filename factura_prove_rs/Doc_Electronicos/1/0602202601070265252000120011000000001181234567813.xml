@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>ROMERO UZHO FANNY GRACIELA</razonSocial>
+    <nombreComercial>ROMERO UZHO FANNY GRACIELA</nombreComercial>
+    <ruc>0702652520001</ruc>
+    <claveAcceso>0602202601070265252000120011000000001181234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>100</ptoEmi>
+    <secuencial>000000118</secuencial>
+    <dirMatriz>HUAQUILLAS  Dirección Calle: JUNÍN Número: S/N Intersección: AZUAY Y BOLÍVAR Código postal: 070501 Referencia: A CINCUENTA METROS DE LA TIENDA DON MANUEL</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>06/02/2026</fechaEmision>
+    <dirEstablecimiento>HUAQUILLAS / JUNÍN / AZUAY Y BOLÍVAR Referencia: A CINCUENTA METROS DE LA TIENDA DON MANUEL CORREO: fanny_romero19@hotmail.com CELULAR: 0991814045</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>Urb. Los Jardines. Calle Quinta Norte y Guayaquill esq.</direccionComprador>
+    <totalSinImpuestos>7040.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>7040.00</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>7040.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>7040.00</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>75</codigoPrincipal>
+      <descripcion>Blusa de uniforme</descripcion>
+      <cantidad>50.00</cantidad>
+      <precioUnitario>25.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1250.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>1250.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>076</codigoPrincipal>
+      <descripcion>Pantalon de uniforme</descripcion>
+      <cantidad>31.00</cantidad>
+      <precioUnitario>30.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>930.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>930.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>077</codigoPrincipal>
+      <descripcion>Blazer Uniforme</descripcion>
+      <cantidad>62.00</cantidad>
+      <precioUnitario>50.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>3100.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>3100.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>078</codigoPrincipal>
+      <descripcion>Vestido de Uniforme</descripcion>
+      <cantidad>22.00</cantidad>
+      <precioUnitario>50.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1100.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>1100.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>079</codigoPrincipal>
+      <descripcion>Falda de Uniforme</descripcion>
+      <cantidad>22.00</cantidad>
+      <precioUnitario>30.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>660.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>660.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Telefono">(593) 07-2-984-073 ext. (129)</campoAdicional>
+    <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature750760">
+<ds:SignedInfo Id="Signature-SignedInfo395022">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID921072" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature750760-SignedProperties672401">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZEAnQMf9Shzen+FwwYtwZABz/e4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate19538">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>zqr6St5f1MWh5LWGqmctzi+tEMU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-478048" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>yO7R+coYcB5JcJtqnCFCSNaZtrc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue712701">
+oPdEnS/4qnp9yltNxPUFQoM7VhzIvZ4Ue6Sq4zf1UyRSZOp8oLhdmeg35aOqWU0c0ZbYtKrI3Jf3
+cucHdJp5/8v+UeMwmg9hb6668741Gon+0thDhKkWIJc5PPBF5YeZGriIZ5NOW8a82tjQk2+7rQlU
+SUpk6o+Tbl6fIh/frzsx5XKK3RJJIhWYR20LilTvnkqJJGJ5tDN5BKjmPvnYr8ZKQKAJvBWHwGX6
+Lq7UqqrnY4Uvk5noFYrrtqO1CJ5NC+itEOUOsZfcBHgLE1h4peM85ASPIhCtA17+uFhkKGVKYs73
+9xeYFaArCBGDC3d1KPSLr5rg81oJyzB4RPbk2A==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate19538">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHujCCBqKgAwIBAgIFAMIAcpwwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI0
+MTEyMTE0Mzc1M1oXDTI2MTEyMTE0Mzc1M1owgZsxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEkMCIGA1UEAwwb
+RkFOTlkgR1JBQ0lFTEEgIFJPTUVSTyBVWkhPMSkwJwYJKoZIhvcNAQkBFhpmYW5ueV9yb21lcm8x
+OUBob3RtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALMfSZ3aOx/nbYob
+vr1vBICKomnn+fysiERml/HQ/OIg6NOAWtYj14RIYfRHOyCMEJ3d7neHXSb7eBWY2syZ90zj0hOD
+DbeaogBpnOGltB/Td5j/ZCLQPXEcmcO4ZdmbgqO3bX19lFS+BzQ19GMBY5WQGNdZrky3VNDeEZWe
+Tvu03AAneMGuzQdJRvAhBXs3rWQWPKNRcMqoEepnakBxQ+MeRj3TS0RGGaTnaMW5Evet7kYD/FNY
+Ia+1RAsg917T8aowQErA8n52rLktnD1Iwn8w4nEjm6rPcmo9UruBHm9Dls7pSTNXGNWtNB3QKo1f
+fTIhKvL53ps3D3VESnhMpOsCAwEAAaOCBFYwggRSMBoGCisGAQQBg892AwEEDAwKMDcwMjY1MjUy
+MDAeBgorBgEEAYPPdgMCBBAMDkZBTk5ZIEdSQUNJRUxBMBYGCisGAQQBg892AwMECAwGUk9NRVJP
+MBQGCisGAQQBg892AwQEBgwEVVpITzAaBgorBgEEAYPPdgMHBAwMCkhVQVFVSUxMQVMwGQYKKwYB
+BAGDz3YDCAQLDAkwOTkxOTMzMDMwFwYKKwYBBAGDz3YDCQQJDAdNYWNoYWxhMBcGCisGAQQBg892
+AwwECQwHRUNVQURPUjAdBgorBgEEAYPPdgMLBA8MDTA3MDI2NTI1MjAwMDEwDAYDVR0TAQH/BAIw
+ADAdBgNVHQ4EFgQUk8K1P1iRAiZo6ZhVpxx9Ih+9gfgwHwYDVR0jBBgwFoAU7XZIsArxyYaGDExG
+ZNIG+MzVvT4wDgYDVR0PAQH/BAQDAgXgMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6L2VuZXh0Mi54
+eXovTGF6emF0ZUNBMi9lbWlzb3JDQTIuY3JsMIIBhAYDVR0gBIIBezCCAXcwfAYKKwYBBAGDz3YC
+ATBuMGwGCCsGAQUFBwICMGAaXkVsIHByZXNlbnRlIGNlcnRpZmljYWRvIGVzIGVtaXRpZG8gZW4g
+YmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENpYS4gTHRkYS4w
+gfYGCSsGAQQBg892AjCB6DBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBl
+cyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0
+ZSBDaWEuIEx0ZGEuMHgGCCsGAQUFBwICMGwaakVsIHByZXNlbnRlIGNlcnRpZmljYWRvIHN1Ym9y
+ZGluYWRvIGVzIGVtaXRpZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBk
+ZSBMYXp6YXRlIENpYS4gTHRkYS4wgf0GA1UdEQSB9TCB8qAaBgorBgEEAYPPdgMBoAwMCjA3MDI2
+NTI1MjCgHgYKKwYBBAGDz3YDAqAQDA5GQU5OWSBHUkFDSUVMQaAWBgorBgEEAYPPdgMDoAgMBlJP
+TUVST6AUBgorBgEEAYPPdgMEoAYMBFVaSE+gGgYKKwYBBAGDz3YDB6AMDApIVUFRVUlMTEFToBkG
+CisGAQQBg892AwigCwwJMDk5MTkzMzAzoBcGCisGAQQBg892AwmgCQwHTWFjaGFsYaAXBgorBgEE
+AYPPdgMMoAkMB0VDVUFET1KgHQYKKwYBBAGDz3YDC6APDA0wNzAyNjUyNTIwMDAxMDwGCCsGAQUF
+BwEBBDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL2VuZXh0Mi54eXo6ODc3Ny9hZHNzL29jc3AwDQYJ
+KoZIhvcNAQELBQADggEBAGaKp3jutw7JP4ot5OPTX7E6gR6Csd1whm92JPRpQUUZA5c4oVV9IjzW
+J+KxUj214bdROgkSYilMgmLIISj25fN/lspa+C0uB9zi8KLs9K1XOCNNNx2keAdyNLxjTjfypIz8
+h3u1XqOexRdmhwGm446BXWwPEQkPTZS6dB0SVFXkxRm0saWM7wv4aUUKN+qnjMYqEiHvtvVkut5o
+OFW1j/E/LGJpJ5Tk9eWJu747sNkzy+ONgklAhoUJ40S4V85WXDVYnAHfLtTy+QIK5s7rXAEs7eCx
+fvFEQ22QNvbJonaZ+RsiYbzByE4t91sPQLltpjApqLe0uTx2q0MIIi17neE=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sx9Jndo7H+dtihu+vW8EgIqiaef5/KyIRGaX8dD84iDo04Ba1iPXhEhh9Ec7IIwQnd3ud4ddJvt4
+FZjazJn3TOPSE4MNt5qiAGmc4aW0H9N3mP9kItA9cRyZw7hl2ZuCo7dtfX2UVL4HNDX0YwFjlZAY
+11muTLdU0N4RlZ5O+7TcACd4wa7NB0lG8CEFezetZBY8o1FwyqgR6mdqQHFD4x5GPdNLREYZpOdo
+xbkS963uRgP8U1ghr7VECyD3XtPxqjBASsDyfnasuS2cPUjCfzDicSObqs9yaj1Su4Eeb0OWzulJ
+M1cY1a00HdAqjV99MiEq8vnemzcPdURKeEyk6w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature750760-Object124328"><etsi:QualifyingProperties Target="#Signature750760"><etsi:SignedProperties Id="Signature750760-SignedProperties672401"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-02-06T15:42:24-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>nK0Zh0ZWlqYZlHWwT6G/oKRdlGU=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254809244</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-478048"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

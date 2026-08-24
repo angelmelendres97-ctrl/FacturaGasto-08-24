@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>VACACELA GIA SEGUNDO VICENTE</razonSocial><nombreComercial>SASTRERIA CREACIONES MACHALA</nombreComercial><ruc>0701385262001</ruc><claveAcceso>0312202501070138526200120041000000000368755431510</claveAcceso><codDoc>01</codDoc><estab>004</estab><ptoEmi>100</ptoEmi><secuencial>000000036</secuencial><dirMatriz>NAPOLEON MERA SN Y BOLIVAR Y PICHINCHA</dirMatriz>
+		
+		</infoTributaria><infoFactura><fechaEmision>03/12/2025</fechaEmision><dirEstablecimiento>NAPOLEON MERA SN Y BOLIVAR Y PICHINCHA	</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>Urb. Los Jardines. Calle Quinta Norte y Guayaquil esq.</direccionComprador><totalSinImpuestos>660.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>660.00</baseImponible><tarifa>0</tarifa><valor>0</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>660.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>660.00</total></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>005</codigoPrincipal><descripcion>CAMISAS COLUMBIAS</descripcion><cantidad>22.000000</cantidad><precioUnitario>30.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>660.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>660.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Nombre">MINERA BELORO C.L.</campoAdicional><campoAdicional nombre="Correo">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="Direccion">Urb. Los Jardines. Calle Quinta Norte y Guayaquil esq.</campoAdicional><campoAdicional nombre="Teléfono">2984073</campoAdicional><campoAdicional nombre="CALIFICACION ARTESANAL">226313</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature662002">
+<ds:SignedInfo Id="Signature-SignedInfo819896">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID1039065" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature662002-SignedProperties425208">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>1obUa+RDyXcuxwlN08imBTrbUmc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1160066">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>sK7g7l/glcUYrNijuEsbR+3wt0E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-659011" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>YhQFGzTb11WUYYu5InKrkMiRIYA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue695831">
+CmrasWwxznDQCv6ZfibfaR+E1DEJU2P1PFsGaqVMoaUwbLam4ENpA4wr5axovdd+37ad2Gjfd80w
+FGqRTyBs39B9qnxMVDIR8boG/n+Ikb7q8Ezo9YVD9CLddZYrVvz/adSva2VS8a0LlFLVAwiwjRG6
+ZH3p8UgGZqaouEApA6dToAlABBQhbPzOSEU7O5bjCl0qvxmeu/GQ66amRM6wvJiz6G+jXwn7KWG8
+Jy+J6SuHiFwcI3VV5xSW9J4ymT2pPmmpYRWNMr207y0YossXz5URVLqVjxP/spMq/wst9Rnl+yE5
+xLA+skWN0p7fPVfYuA1ULN6BshHdiPHfvp/J4w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1160066">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHtzCCBp+gAwIBAgIFAMIAh7kwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI0
+MTIwNjE1MTU0OVoXDTI1MTIwNjE1MTU0OVowgZgxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEmMCQGA1UEAwwd
+U0VHVU5ETyBWSUNFTlRFICBWQUNBQ0VMQSBHSUExJDAiBgkqhkiG9w0BCQEWFWluZm8uZmFkaWVj
+QGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKoiLJRK6/l5b2jtv6w
+DzTYLCuALEPWgn8npiUHbutB+qKFdTtdSRQcMRqShxl8GinwzhJGc2JWddKmm1Zkrkh+jKZ4j6K/
+nz2easZCz51vVGegSxBMkj9a7WDD+tf3i9BG40FWiKXewPcWlyZL2ozuDxHxfvYhuknxDkDd5BST
++cMK2dfqCG+xHBDVB/zgdp/pmIdwMV/arU6tafESvunX57Siz/nxQDPZ06Q7Xc5GQiRvCO5u5SpS
+dF0qVYMw04wDW4+ZAyhtJQa0BWy32TgGzx7ReonczO+YPvGVLW+sy6g0qikDC5CbTVmcx/YaTU9Z
+zmmQ5RXK7y5tqnkvIl8CAwEAAaOCBFYwggRSMBoGCisGAQQBg892AwEEDAwKMDcwMTM4NTI2MjAf
+BgorBgEEAYPPdgMCBBEMD1NFR1VORE8gVklDRU5URTAYBgorBgEEAYPPdgMDBAoMCFZBQ0FDRUxB
+MBMGCisGAQQBg892AwQEBQwDR0lBMBcGCisGAQQBg892AwcECQwHTUFDSEFMQTAaBgorBgEEAYPP
+dgMIBAwMCjA5ODU1NzYwNjcwFwYKKwYBBAGDz3YDCQQJDAdNYWNoYWxhMBcGCisGAQQBg892AwwE
+CQwHRUNVQURPUjAdBgorBgEEAYPPdgMLBA8MDTA3MDEzODUyNjIwMDEwDAYDVR0TAQH/BAIwADAd
+BgNVHQ4EFgQUgkxIPzkEM1BmyynxEErcxw2buCEwHwYDVR0jBBgwFoAU7XZIsArxyYaGDExGZNIG
++MzVvT4wDgYDVR0PAQH/BAQDAgXgMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6L2VuZXh0Mi54eXov
+TGF6emF0ZUNBMi9lbWlzb3JDQTIuY3JsMIIBhAYDVR0gBIIBezCCAXcwfAYKKwYBBAGDz3YCATBu
+MGwGCCsGAQUFBwICMGAaXkVsIHByZXNlbnRlIGNlcnRpZmljYWRvIGVzIGVtaXRpZG8gZW4gYmFz
+ZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENpYS4gTHRkYS4wgfYG
+CSsGAQQBg892AjCB6DBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBl
+bWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBD
+aWEuIEx0ZGEuMHgGCCsGAQUFBwICMGwaakVsIHByZXNlbnRlIGNlcnRpZmljYWRvIHN1Ym9yZGlu
+YWRvIGVzIGVtaXRpZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBM
+YXp6YXRlIENpYS4gTHRkYS4wgf0GA1UdEQSB9TCB8qAaBgorBgEEAYPPdgMBoAwMCjA3MDEzODUy
+NjKgHwYKKwYBBAGDz3YDAqARDA9TRUdVTkRPIFZJQ0VOVEWgGAYKKwYBBAGDz3YDA6AKDAhWQUNB
+Q0VMQaATBgorBgEEAYPPdgMEoAUMA0dJQaAXBgorBgEEAYPPdgMHoAkMB01BQ0hBTEGgGgYKKwYB
+BAGDz3YDCKAMDAowOTg1NTc2MDY3oBcGCisGAQQBg892AwmgCQwHTWFjaGFsYaAXBgorBgEEAYPP
+dgMMoAkMB0VDVUFET1KgHQYKKwYBBAGDz3YDC6APDA0wNzAxMzg1MjYyMDAxMDwGCCsGAQUFBwEB
+BDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL2VuZXh0Mi54eXo6ODc3Ny9hZHNzL29jc3AwDQYJKoZI
+hvcNAQELBQADggEBACfOARaafNjGLww/CR+OqLyLJUQNqtstqTh0BDkoTNx11Mmf85l+7CFuX0Ia
+x5stVwJUJd7EjZ1jmX4ipirdcI2DMz9P8sSVIQFq6OAAThRGn2fS/HMZW2P8y+CmXnk8vle9JQu6
+A598vgeIWqyckSyo6+iS30JGuWO/HP1i//vepRIpAZF6NhZGx3a4xXneCUxO1fQ6OnHMdd920kWy
+gckaGy8f/REBlvtpWv0w2ZRXnnBlSHu1xldDLVilZlyEvSMZ0Meznuxxhda4Pm2SsuvSXNRYg7WF
+IG7B18mwViuXCmE2PtRJsik4SMvtv+LwbZYPERMpKVKcdO0fJ+SO9XE=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0qiIslErr+XlvaO2/rAPNNgsK4AsQ9aCfyemJQdu60H6ooV1O11JFBwxGpKHGXwaKfDOEkZzYlZ1
+0qabVmSuSH6MpniPor+fPZ5qxkLPnW9UZ6BLEEySP1rtYMP61/eL0EbjQVaIpd7A9xaXJkvajO4P
+EfF+9iG6SfEOQN3kFJP5wwrZ1+oIb7EcENUH/OB2n+mYh3AxX9qtTq1p8RK+6dfntKLP+fFAM9nT
+pDtdzkZCJG8I7m7lKlJ0XSpVgzDTjANbj5kDKG0lBrQFbLfZOAbPHtF6idzM75g+8ZUtb6zLqDSq
+KQMLkJtNWZzH9hpNT1nOaZDlFcrvLm2qeS8iXw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature662002-Object143778"><etsi:QualifyingProperties Target="#Signature662002"><etsi:SignedProperties Id="Signature662002-SignedProperties425208"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-03T14:04:43+00:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>xpyFHXCknN63CXnF8xgtXNirtKE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254814649</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-659011"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

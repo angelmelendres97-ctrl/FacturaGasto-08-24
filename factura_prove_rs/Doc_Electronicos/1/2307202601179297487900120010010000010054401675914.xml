@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>GEODESIA Y TOPOGRAFIA SAC GEOTOP S.A.</razonSocial>
+	    <nombreComercial>GEODESIA Y TOPOGRAFIA SAC GEOTOP S.A.</nombreComercial>
+	    <ruc>1792974879001</ruc>
+	    <claveAcceso>2307202601179297487900120010010000010054401675914</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>001</ptoEmi>
+	    <secuencial>000001005</secuencial>
+	    <dirMatriz>PICHINCHA / QUITO / QUITO DISTRITO METROPOLITANO / AV DE LA PRENSA N42-75 Y MARIANO ECHEVERRIA</dirMatriz>
+		
+		
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>23/07/2026</fechaEmision>
+		
+			<dirEstablecimiento>PICHINCHA / QUITO / QUITO DISTRITO METROPOLITANO / AV DE LA PRENSA N42-75 Y MARIANO ECHEVERRIA</dirEstablecimiento>
+		
+	    
+	    
+			<obligadoContabilidad>SI</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+	    
+	    <totalSinImpuestos>11478.26000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>0.00</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>11478.26</baseImponible>
+				<valor>1721.74000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>13200.00000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>13200.00</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>868849</codigoPrincipal>
+		<codigoAuxiliar>868849</codigoAuxiliar>
+      	<descripcion>Estacion Total Electronica Marca Leica modelo TS07 2 segundos, R500  con: WLAN, Bluetooth, RS232, SD</descripcion>
+      
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>11478.260000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>11478.26</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>11478.26000</baseImponible>
+          <valor>1721.74</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+	
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+		
+    	
+    		
+    			<campoAdicional nombre="Descripción">ESTACIÓN TOTAL SERIE 3360862</campoAdicional>
+    		
+    	
+		
+			<campoAdicional nombre="Exportador">Exportador Habitual de Bienes y/o Servicios</campoAdicional>
+		
+		
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature34638">
+<ds:SignedInfo Id="Signature-SignedInfo488680">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID656099" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature34638-SignedProperties637311">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6Bwa7XhQPZlT/PFeWzpYN0erupc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate262298">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>py+su1PHvbJJmKen/39885yAKcI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-387655" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ko8bMBuMl/3ii0KUNITvXa24C7w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue675632">
+MPzuHYGXVPrGVSVteUH8PqBdSX6i/5sLem10gvACwx5kiTvZeU4c+e8UkgTckEB7BxvrdA1CFPLH
+fOWc2t5lJiNlIzokKR8WPDKT57uPeG/VgeC8sESU7y3FtHDPhOwpeiaAoCZgw/jJ0Nd+FgUc3nhg
+7ADT8y8Bn+pRAcRmN0xpUk72JZfwMTw+4zAJIp5KkiyL2v+bbgEgNtXGGa6EcwxIkjV9ZL8GOnnz
+5kODx65GPrY3OqIatEgeEAAQNnQoo1IECLBEfKmSa7bWCizag8q+wlEAio2ZXDnBUdKSyCB++Cq4
+mf/1jMqlyFygaEM8b3IoOImlSwGyIrwTVQiu/w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate262298">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJyzCCB7OgAwIBAgIIUYhXni+1ZDswDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI1MDIyNTIyMzQwMFoXDTI3MDIyNTIyMzQwMFowgesxCzAJBgNVBAYTAkVDMS4wLAYDVQQKDCVH
+RU9ERVNJQSBZIFRPUE9HUkFGSUEgU0FDIEdFT1RPUCBTLkEuMRgwFgYDVQQMDA9HRVJFTlRFIEdF
+TkVSQUwxGDAWBgNVBAQMD0xMQU5PUyBFU1BJTk9aQTEXMBUGA1UEKgwOREFOSUVMIE5JQ09MQVMx
+GDAWBgNVBAUTD1BBU0VDLTEyMDY2NTQwOTEnMCUGA1UEAwweREFOSUVMIE5JQ09MQVMgTExBTk9T
+IEVTUElOT1pBMRwwGgYDVQRhDBNWQVRFQy0xNzkyOTc0ODc5MDAxMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAi6RuiI5OaargRwwmOtOqlJPUb/IlK7uYu096JKCjeiin40smPDg9d0dI
+w6ILp+RA1JOA2mpoAnMBXWU/PVlIg19UxitZVaRtTUY64rpaJQ6hhAplz5SROOyX06hDznZqx1iQ
+/EgDYpLjUONJD3gXC+JXesDoEBDFC9WUggtKvYuS9IOy5bME1S5VFP8eMNaCs3POOncmdHCu3ru9
+JZ99Iab7B74xcZTz2paWsEfKgkabVbMif84X/Wxv/aETgT3ZCCAFhVMjdyRg2xiwQ2cH23vdTqRB
+dWn4hfMiofQK7IRXi3z/AD3jM6mVfrH6aZjmmI9CzZ/QJLh6AlKGrWVeaQIDAQABo4IEojCCBJ4w
+GgYLKwYBBAGC8TZmAwEECwwJMTIwNjY1NDA5MB4GCysGAQQBgvE2ZgMLBA8MDTE3OTI5NzQ4Nzkw
+MDEwgdcGCCsGAQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNv
+bS9wdWJsaWMvZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsG
+AQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYB
+BQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4E
+FgQUYiOPUdRALuM2FAK5ZJEa6xLP+fgwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84H
+Rqnio2jw4RGydJJz/TCBjgYDVR0gBIGGMIGDMIGABgwrBgEEAYLxNmYCAwEwcDA3BggrBgEFBQcC
+ARYraHR0cHM6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzA1BggrBgEFBQcC
+AjApDCdDRVJUSUZJQ0FETyBERSBSRVBSRVNFTlRBTlRFIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCB
+hDBAoD6gPIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9y
+ZGluYWRhLmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3Js
+L0NBMnN1Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMIIB5AYDVR0RBIIB2zCCAdeBHm5vdGlmaWNhY2lvbmVzZmlybWFzQHNpaWdvLmNv
+baAaBgsrBgEEAYLxNmYDAaALDAkxMjA2NjU0MDmgHwYLKwYBBAGC8TZmAwKgEAwOREFOSUVMIE5J
+Q09MQVOgFwYLKwYBBAGC8TZmAwOgCAwGTExBTk9ToBkGCysGAQQBgvE2ZgMEoAoMCEVTUElOT1pB
+oCAGCysGAQQBgvE2ZgMFoBEMD0dFUkVOVEUgR0VORVJBTKA8BgsrBgEEAYLxNmYDB6AtDCtBViBE
+RSBMQSBQUkVOU0EgTjQyLTk1IFkgTUFSSUFOTyBFQ0hFVkVSUklBoB8GCysGAQQBgvE2ZgMIoBAM
+DjAwNTkzOTY3ODUyMDA2oBYGCysGAQQBgvE2ZgMJoAcMBVFVSVRPoDYGCysGAQQBgvE2ZgMKoCcM
+JUdFT0RFU0lBIFkgVE9QT0dSQUZJQSBTQUMgR0VPVE9QIFMuQS6gHgYLKwYBBAGC8TZmAwugDwwN
+MTc5Mjk3NDg3OTAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6AkBgsrBgEEAYLxNmYDMqAVDBNSRVBS
+RVNFTlRBTlRFIExFR0FMoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcNAQELBQAD
+ggIBABkV4oxD9W4obmM0xTFgT3K1OdRejOIeR5xXM5EMeaEsnmTnsUtweslNF8vNEmY9E8EfIgyw
+TYWh5/JLrJDMbxFXrFXVcafOOUcv7RrBR883vffe0+hM1FuBbGsunJf3NdYMnWpy1Tv5T0C3Y4Qw
+06xmewsGiNiXwsW5CcoXT2op73XCvupSKx3CUuhtQILLniwL2HhCqaUCyAuVvZjNzzkuJev4o6qh
+WWJah2KB3FJ11I6uhRV29YyMA5rW7qR6jMHiecef1QEjThGv1MIKdpX3lY9x+NGWF2ImQT6od/9y
+8nWbodCceT7rqiX3ZIGxxTxWbDdvn6wERWglmeztCH0uEUjhU3FCU/DduFkoiSHHSuglZAlawVnC
+L7QiL1sv+DvHQwxfhkmnYU7SUpt1lUAd/1yywJ9YS7iOEd7Tn1PsHe98OrRTTY2D5HH6uzrDE4BW
+OonakPRuAvZ31Q/3WCtAXH9QSl2qTQhX+z6h1xAO2l+sTh4xRR2ufa1UQGuZ4Kf/uMl2SGVSZWBx
+yOXAYGNVO09ugneHlVj/ocgghMQ70VRbgITHRa+v7FQ08QC9w6c7woAR0Inxe6KRAuKZTFk91pBz
+1hYIFi8y7d9ZOVYURCRpPD5NkVxNgRat+ssPsoP30Hojo941/8MqTewhaGQXAj5MxNgkM8lkOMZV
+p9D/
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+i6RuiI5OaargRwwmOtOqlJPUb/IlK7uYu096JKCjeiin40smPDg9d0dIw6ILp+RA1JOA2mpoAnMB
+XWU/PVlIg19UxitZVaRtTUY64rpaJQ6hhAplz5SROOyX06hDznZqx1iQ/EgDYpLjUONJD3gXC+JX
+esDoEBDFC9WUggtKvYuS9IOy5bME1S5VFP8eMNaCs3POOncmdHCu3ru9JZ99Iab7B74xcZTz2paW
+sEfKgkabVbMif84X/Wxv/aETgT3ZCCAFhVMjdyRg2xiwQ2cH23vdTqRBdWn4hfMiofQK7IRXi3z/
+AD3jM6mVfrH6aZjmmI9CzZ/QJLh6AlKGrWVeaQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature34638-Object891769"><etsi:QualifyingProperties Target="#Signature34638"><etsi:SignedProperties Id="Signature34638-SignedProperties637311"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-23T15:33:55-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>KIH6BVMsak0BJREtjnYUqN/LBOI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=UANATACA CA2 2016,C=ES,L=Barcelona (see current address at www.uanataca.com/address),2.5.4.97=#0c0f56415445532d413636373231343939,O=UANATACA S.A.,OU=TSP-UANATACA</ds:X509IssuerName><ds:X509SerialNumber>5875042050821678139</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

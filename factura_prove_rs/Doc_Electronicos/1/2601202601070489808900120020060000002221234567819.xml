@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>CARDENAS APOLO KENNIA DEL ROCIO</razonSocial>
+    <nombreComercial>SUPERMERCADOS ANAZCO</nombreComercial>
+    <ruc>0704898089001</ruc>
+    <claveAcceso>2601202601070489808900120020060000002221234567819</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000000222</secuencial>
+    <dirMatriz>9 DE MAYO Y OCTAVA NORTE ESQUINA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>26/01/2026</fechaEmision>
+    <dirEstablecimiento>Olmedo sn y Vargas Torres                                                                           </dirEstablecimiento>
+    <contribuyenteEspecial>011</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>CALLE GUAYAQUIL S/N Y 5TA NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>3044.07</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>970.90</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>2073.17</baseImponible>
+        <valor>310.98</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>3355.05</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>3355.05</total>
+        <plazo>5</plazo>
+        <unidadTiempo>DIAS</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>4098</codigoPrincipal>
+      <descripcion>SQUIZ NARANJA 1000 ML X24</descripcion>
+      <cantidad>120.000000</cantidad>
+      <precioUnitario>0.376800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>45.22</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>45.22</baseImponible>
+          <valor>6.78</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11834</codigoPrincipal>
+      <descripcion>LA VAQUITA LEP INSTAN 30X400GR</descripcion>
+      <cantidad>20.000000</cantidad>
+      <precioUnitario>3.950000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>79.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>79.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>367</codigoPrincipal>
+      <descripcion>NUTRI ENTERA 1/2 LT 500ML X24</descripcion>
+      <cantidad>240.000000</cantidad>
+      <precioUnitario>0.583300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>139.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>139.99</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14011</codigoPrincipal>
+      <descripcion>LISTERINE COOL MINT 180ML</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>3.087000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>37.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>37.04</baseImponible>
+          <valor>5.56</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>3128</codigoPrincipal>
+      <descripcion>AREQUIPE 250G</descripcion>
+      <cantidad>15.000000</cantidad>
+      <precioUnitario>1.834800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>27.52</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>27.52</baseImponible>
+          <valor>4.13</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>6020</codigoPrincipal>
+      <descripcion>MAYONESA MAGGI 42X 200GR</descripcion>
+      <cantidad>50.000000</cantidad>
+      <precioUnitario>1.260900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>63.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>63.04</baseImponible>
+          <valor>9.46</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14168</codigoPrincipal>
+      <descripcion>MERMELADA FACUNDO FRUTILLA 300GR</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.434800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>34.44</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>34.44</baseImponible>
+          <valor>5.17</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14409</codigoPrincipal>
+      <descripcion>NATURA NECTAR NARANJA 1LT</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.539100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.94</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>36.94</baseImponible>
+          <valor>5.54</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11850</codigoPrincipal>
+      <descripcion>NATURA NECTAR DURAZNO 12X1LT</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.539100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.94</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>36.94</baseImponible>
+          <valor>5.54</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2694</codigoPrincipal>
+      <descripcion>PULP DURAZNO *6 1LT</descripcion>
+      <cantidad>60.000000</cantidad>
+      <precioUnitario>0.927600</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>55.66</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>55.66</baseImponible>
+          <valor>8.35</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18545</codigoPrincipal>
+      <descripcion>PH FAMILIA TRIPLEMAX X6UNDS ( 8PQT)</descripcion>
+      <cantidad>40.000000</cantidad>
+      <precioUnitario>2.163000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>86.52</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>86.52</baseImponible>
+          <valor>12.98</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18148</codigoPrincipal>
+      <descripcion>PANITOS HUMEDOS POMPIS FLOWPACK 110UND</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>0.608700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>7.30</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>7.30</baseImponible>
+          <valor>1.10</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>16989</codigoPrincipal>
+      <descripcion>RUFFLES NATURAL 136G</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>1.652200</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>49.57</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>49.57</baseImponible>
+          <valor>7.43</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13090</codigoPrincipal>
+      <descripcion>PONY MALTA 1000CC 1LT (6)</descripcion>
+      <cantidad>60.000000</cantidad>
+      <precioUnitario>0.812100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>48.73</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>48.73</baseImponible>
+          <valor>7.31</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7803</codigoPrincipal>
+      <descripcion>PONY MALTA 330CC X6</descripcion>
+      <cantidad>48.000000</cantidad>
+      <precioUnitario>0.413200</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>19.83</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>19.83</baseImponible>
+          <valor>2.98</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4114</codigoPrincipal>
+      <descripcion>AFEITADORA BIC COMFORT3 ADVANCE X UND</descripcion>
+      <cantidad>42.000000</cantidad>
+      <precioUnitario>0.645000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>27.09</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>27.09</baseImponible>
+          <valor>4.06</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11854</codigoPrincipal>
+      <descripcion>QUESO CREMA TONI 250G</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>2.250000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>27.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>27.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4328</codigoPrincipal>
+      <descripcion>NUTRI POLIETILENO 900ML X12</descripcion>
+      <cantidad>120.000000</cantidad>
+      <precioUnitario>0.916700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>110.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>110.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14450</codigoPrincipal>
+      <descripcion>ROSQUITA TRENZADA 200G</descripcion>
+      <cantidad>15.000000</cantidad>
+      <precioUnitario>1.800000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>27.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>27.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>249</codigoPrincipal>
+      <descripcion>SAVILOE *6 320ML</descripcion>
+      <cantidad>48.000000</cantidad>
+      <precioUnitario>0.695700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>33.39</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>33.39</baseImponible>
+          <valor>5.01</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18012</codigoPrincipal>
+      <descripcion>SHAMPOO SAVITAL CASPA MENTA EUCALIPTO X12 510ML</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>3.130400</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>75.13</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>75.13</baseImponible>
+          <valor>11.27</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>17526</codigoPrincipal>
+      <descripcion>SUAVITEL FRESCA PRIMAVERA X24 360ML</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>0.610400</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>14.65</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>14.65</baseImponible>
+          <valor>2.20</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1332</codigoPrincipal>
+      <descripcion>SUPAN PAN BLANCO TRADICIONAL MOLDE 525G</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>1.900000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>22.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>22.80</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12169</codigoPrincipal>
+      <descripcion>FUNGIREX 90GR</descripcion>
+      <cantidad>50.000000</cantidad>
+      <precioUnitario>2.883300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>144.16</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>144.16</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2855</codigoPrincipal>
+      <descripcion>TIPS PAST AMBIENT FRUTILLA 144X75G</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>0.565200</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>6.78</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>6.78</baseImponible>
+          <valor>1.02</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>15748</codigoPrincipal>
+      <descripcion>TORTOLINES MADURITOS 45GR</descripcion>
+      <cantidad>60.000000</cantidad>
+      <precioUnitario>0.487000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>29.22</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>29.22</baseImponible>
+          <valor>4.38</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14264</codigoPrincipal>
+      <descripcion>ENERGIZANTE V220 600ML X12</descripcion>
+      <cantidad>144.000000</cantidad>
+      <precioUnitario>0.702900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>101.22</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>101.22</baseImponible>
+          <valor>15.18</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12541</codigoPrincipal>
+      <descripcion>ACEITE FAVORITA ORIG 4LT X5</descripcion>
+      <cantidad>10.000000</cantidad>
+      <precioUnitario>7.850000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>78.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>78.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14957</codigoPrincipal>
+      <descripcion>ATUN REAL 160G X48UND A/F AZUL</descripcion>
+      <cantidad>96.000000</cantidad>
+      <precioUnitario>1.119700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>107.49</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>107.49</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>56</codigoPrincipal>
+      <descripcion>ATUN REAL TIRA 80GRX3 X20 TUN TUN AZUL</descripcion>
+      <cantidad>60.000000</cantidad>
+      <precioUnitario>2.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>120.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>120.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>50004</codigoPrincipal>
+      <descripcion>AVENA ALPINA CAN VASO 250GR</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>1.017400</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>30.52</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>30.52</baseImponible>
+          <valor>4.58</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11425</codigoPrincipal>
+      <descripcion>AZUCAR BLANCA 2KG X25 QQ</descripcion>
+      <cantidad>25.000000</cantidad>
+      <precioUnitario>1.470000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.75</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>36.75</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>293</codigoPrincipal>
+      <descripcion>CAFE BUENDIA 85G</descripcion>
+      <cantidad>15.000000</cantidad>
+      <precioUnitario>5.391300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>80.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>80.87</baseImponible>
+          <valor>12.13</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4106</codigoPrincipal>
+      <descripcion>CEPILLO COLGATE PREMIER CLEAN</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>0.543500</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>13.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>13.04</baseImponible>
+          <valor>1.96</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14213</codigoPrincipal>
+      <descripcion>HISOPOS CARLITOS ALGODON POMO 100UND</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>0.739100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>8.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>8.87</baseImponible>
+          <valor>1.33</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>15979</codigoPrincipal>
+      <descripcion>CREMA PEINAR SEDAL CERAMIDAS 300ML</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>3.739100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>44.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>44.87</baseImponible>
+          <valor>6.73</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>40089</codigoPrincipal>
+      <descripcion>REXONA DEO ROL CLINICAL FOREST 12X50ML</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>2.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>48.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>48.00</baseImponible>
+          <valor>7.20</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14339</codigoPrincipal>
+      <descripcion>AXE DEO AER MUSK 150ML</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>3.391300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>40.70</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>40.70</baseImponible>
+          <valor>6.10</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18226</codigoPrincipal>
+      <descripcion>DT DEJA BRISA PRIMAVERA 800GR</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.260900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>30.26</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>30.26</baseImponible>
+          <valor>4.54</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18221</codigoPrincipal>
+      <descripcion>DT DEJA LIMON 800GR</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.260900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>30.26</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>30.26</baseImponible>
+          <valor>4.54</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>18225</codigoPrincipal>
+      <descripcion>DT DEJA FLORAL 800GR</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>1.260900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>15.13</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>15.13</baseImponible>
+          <valor>2.27</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13228</codigoPrincipal>
+      <descripcion>DT DEJA FLORAL X30 370GR</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>0.629000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>18.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>18.87</baseImponible>
+          <valor>2.83</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13230</codigoPrincipal>
+      <descripcion>DT DEJA LIMON X30 370GR</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>0.629000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>18.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>18.87</baseImponible>
+          <valor>2.83</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12511</codigoPrincipal>
+      <descripcion>DT DEJA SUAVIZANTE ALOE VERA 370GR</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>0.629000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>18.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>18.87</baseImponible>
+          <valor>2.83</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14185</codigoPrincipal>
+      <descripcion>DT DEJA SUAVIZANTE BRISA 370GR</descripcion>
+      <cantidad>30.000000</cantidad>
+      <precioUnitario>0.678300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>20.35</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>20.35</baseImponible>
+          <valor>3.05</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13794</codigoPrincipal>
+      <descripcion>FIDEO RAPIDITO ORIENTAL POLLO 100GR</descripcion>
+      <cantidad>72.000000</cantidad>
+      <precioUnitario>0.600000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>43.20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>43.20</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12650</codigoPrincipal>
+      <descripcion>RAPIDITO VASO INSTANT POLLO 65G</descripcion>
+      <cantidad>25.000000</cantidad>
+      <precioUnitario>0.700000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>17.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14840</codigoPrincipal>
+      <descripcion>RAPIDITO VASO INSTANT RES 65G</descripcion>
+      <cantidad>25.000000</cantidad>
+      <precioUnitario>0.700000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>17.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11886</codigoPrincipal>
+      <descripcion>FOSFORERA GRANDE UNIDAD</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>0.698800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>16.77</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>16.77</baseImponible>
+          <valor>2.52</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13043</codigoPrincipal>
+      <descripcion>GALLETA AMOR WAFER CHOCOLATE X36 CJ 175G</descripcion>
+      <cantidad>108.000000</cantidad>
+      <precioUnitario>1.087000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>117.40</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>117.40</baseImponible>
+          <valor>17.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>17767</codigoPrincipal>
+      <descripcion>GALLETA ANIVENTURAS VAINILLA 380GR</descripcion>
+      <cantidad>60.000000</cantidad>
+      <precioUnitario>1.181100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>70.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>70.87</baseImponible>
+          <valor>10.63</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>17523</codigoPrincipal>
+      <descripcion>GALLETA DUCALES TACO X3 315G</descripcion>
+      <cantidad>96.000000</cantidad>
+      <precioUnitario>1.521700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>146.08</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>146.08</baseImponible>
+          <valor>21.91</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>16843</codigoPrincipal>
+      <descripcion>GALLETA KOKI  X24 210GR</descripcion>
+      <cantidad>72.000000</cantidad>
+      <precioUnitario>0.608700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>43.83</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>43.83</baseImponible>
+          <valor>6.57</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>16995</codigoPrincipal>
+      <descripcion>GALLETA RICAS X100 58GR</descripcion>
+      <cantidad>100.000000</cantidad>
+      <precioUnitario>0.337400</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>33.74</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>33.74</baseImponible>
+          <valor>5.06</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14076</codigoPrincipal>
+      <descripcion>GEL EGO ATTRACTION 190ML</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>1.452200</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.43</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>17.43</baseImponible>
+          <valor>2.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>777</codigoPrincipal>
+      <descripcion>INA CAKE RELLENO VAINILLA 100G</descripcion>
+      <cantidad>50.000000</cantidad>
+      <precioUnitario>0.869600</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>43.48</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>43.48</baseImponible>
+          <valor>6.52</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13244</codigoPrincipal>
+      <descripcion>INA CAKE CHOCOCAKE 100G</descripcion>
+      <cantidad>50.000000</cantidad>
+      <precioUnitario>0.869600</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>43.48</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>43.48</baseImponible>
+          <valor>6.52</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13914</codigoPrincipal>
+      <descripcion>DOVE JABON EXFOLIANTE 16X3X90GR</descripcion>
+      <cantidad>48.000000</cantidad>
+      <precioUnitario>2.877700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>138.13</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>138.13</baseImponible>
+          <valor>20.72</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13500</codigoPrincipal>
+      <descripcion>JABON LAVA TODO LIMON 230GR</descripcion>
+      <cantidad>96.000000</cantidad>
+      <precioUnitario>0.578800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>55.56</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>55.56</baseImponible>
+          <valor>8.33</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13817</codigoPrincipal>
+      <descripcion>JABON PROTEX AVENA 3X110GR</descripcion>
+      <cantidad>48.000000</cantidad>
+      <precioUnitario>1.889500</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>90.70</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>90.70</baseImponible>
+          <valor>13.60</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Correo:">fernanda.paccha@grupoadmg.com</campoAdicional>
+    <campoAdicional nombre="Ciudad:">EL ORO</campoAdicional>
+    <campoAdicional nombre="Telefono:">| 0</campoAdicional>
+    <campoAdicional nombre="Vencimiento:">27-Ene-2026</campoAdicional>
+    <campoAdicional nombre="Tipo:">CONTADO</campoAdicional>
+    <campoAdicional nombre="Agente de Retención">NAC-DGERCGC25</campoAdicional>
+  </infoAdicional>
+<ds:Signature Id="Signature76745" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo Id="Signature-SignedInfo52281"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="SignedPropertiesID59702" URI="#Signature76745-SignedProperties95358" Type="http://uri.etsi.org/01903#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>0ZmN4TmsoeA9bp22KWw4AjHSJ3c=</ds:DigestValue></ds:Reference><ds:Reference URI="#Certificate79714"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>QNWwBX4MuvkK3LnDDGe2oMhEes4=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-82484" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>K1+ij/F5ti5mnnOsUO8huzLh3Eg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue82227">EEJoazX1VKcgr07B/oVhsGutY+sNn9V+dqqiHKPVlV/5yyrKdkzf4v6YcGER0hR0drUPtUnuwdHB
+NzSeNgKQb64a5468biDmqJ9NOVRxt549WLhdfXAyYIaR5PtGa6VMYzSlipXy8R8vRaxEEdZH6/Hi
+5Zh1Nwehwi9al9kN8DAGdwUy+GHx3RsFEhxRM6N/eD84OEhOCrqlSk6FHanPce4py7B49IMPTf6j
+6m5pTdK+HjSLRb5da/Rg42SVzKoDy3e+P0qzFCiOoInaIW2m0nSfWpB+Xg/2h7dW7xoHoNYKAvTY
+PaIR9A5ufV6WAQbpYqG+p4TChJl3yLUQVnkJgg==</ds:SignatureValue><ds:KeyInfo Id="Certificate79714"><ds:X509Data><ds:X509Certificate>MIILzzCCCbegAwIBAgIENmYi0jANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMTEyMjcyMjAyNDZaFw0yNjEyMjcyMjAyNDZaMIGfMSgw
+JgYDVQQDDB9LRU5OSUEgREVMIFJPQ0lPIENBUkRFTkFTIEFQT0xPMRUwEwYDVQQFEwwyNzEyMjEx
+NzEyMzIxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEApseofJBP9NL/Aiy9EU4J9oGUxqIyb7l2/0ev+3EoB80VwYj1pDco
+kxYZkS+SVTCqsga4jjnY7Y1goxoj0E+Jjc1y5Kq3m5q9EaD2BSLW1iUaTcgFbG5dDMfuYHSC3MH/
+J/8KmrQO/UClUQuuwDJpw3N6ZjqQXAmGc/Y7TytWTOWvSgPXmXmn0Dc7BZGFTE3x9l5Hmkj+m3ip
+zEhNw5XeeBAnXPIVlezf6b8g7hoXhFhlz3pRlWuBXqJZJvRwgM8vImz9FIPfUWyeeW6HWqkLY2H5
+LtUJ/6zQykrvGL4Dl5Fmbw+nTxv4stlwVcKbQAJldISjCCLoipD0/eIbQOkPpwIDAQABo4IHFTCC
+BxEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEF
+BQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9l
+amJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6
+Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25M
+aXN0P2Jhc2UwIQYDVR0RBBowGIEWb2xlc2lzdGVtYXNjQGdtYWlsLmNvbTCCAQYGA1UdIASB/jCB
++zBaBgorBgEEAYKmcgIHMEwwSgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAg
+AGQAZQAgAFAAZQByAHMAbwBuAGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGK
+BggrBgEFBQcCARZ+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rv
+d25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZp
+Y2FkbyBQZXJzb25hIE5hdHVyYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8v
+b2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGf
+pIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+
+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRl
+UmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5z
+ZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1j
+cmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklU
+WSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBQyqnTlgbg7c2eHHoBAVSxEyQxdJzArBgNVHRAE
+JDAigA8yMDIxMTIyNzIyMDI0NlqBDzIwMjYxMjI3MjIwMjQ2WjALBgNVHQ8EBAMCBeAwGgYKKwYB
+BAGCpnIDAQQMDAowNzA0ODk4MDg5MBcGCisGAQQBgqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKm
+cgMiBAMMAS4wKQYKKwYBBAGCpnIDBwQbDBlKVUFOIE1PTlRBTFZPIFMgTiBZIEdVQUJPMCAGCisG
+AQQBgqZyAwIEEgwQS0VOTklBIERFTCBST0NJTzAfBgorBgEEAYKmcgMgBBEMDzAwMjAwMTAwMDAw
+MDAwMDARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnID
+DAQJDAdFQ1VBRE9SMBgGCisGAQQBgqZyAwMECgwIQ0FSREVOQVMwEQYKKwYBBAGCpnIDHgQDDAEu
+MB0GCisGAQQBgqZyAwsEDwwNMDcwNDg5ODA4OTAwMTARBgorBgEEAYKmcgMdBAMMAS4wFQYKKwYB
+BAGCpnIDBAQHDAVBUE9MTzAaBgorBgEEAYKmcgMIBAwMCjA5OTcwNDcxMTQwDQYJKoZIhvcNAQEL
+BQADggIBAEMMoP2ZJmHtUzRLoWSbxtjnLP7Z1ZtVuKwRVSlfX3eS026f+RbjCbE7NQLHUqb/1GmH
+mSFkzCm7BL8xfQnttBcmTFgCVu0TEDIlxBJttoAQsVy5JlYKz//B1iIBo1zbNzKDwwo1xP79pukx
+1Wa3N6KgXAHowfjJMnv0Ji8ttTJMTd09/Gr2bqv6/9IMoh1UN3/Hspy+b/JJE5BjrO78zPXaCm5p
+jRA8tc1pKAX1DggcQ7Q3TrYT2fvLxHYLLjsqJvsdxL9kgDKLV8Se4psWlx9rLvWjPw48nNn6keyO
+NiCsFyLp0eqVp03yE7eCt46NyIp0ZE7PCqZax7xrR1pXyFYJ0vSLUIasadH+oouHO4gRcQQvTbD1
+N3aCIgZjLa0+4MacsC0dTqdCPoKUbATa38aa+bq8bk5HCJlWU5W1YR/ZWrJYXiEsWunItaLInT66
+g/GM1xe69qHMF52hMgf1P7t/fTwAXpTodSooGGmO+6n7MscqkcUlU+E8mlK3yC8MhASeSuEZ/Rss
+lTEai3LsKL2LvB0oVbntOeOiEGI8gsCEd4lWd01H6BRDVBrf8zaQTS3ZqbzqR89HR8xUZSTBRPR/
+53Q2BBGgu300TdUF7rNMW4JJ2Gh1ya3IdVIs7ve3vKyZHu5Yv/sP1jK8SIh69JHVj2JLP7ze82ei
+V5KgGz9h</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>pseofJBP9NL/Aiy9EU4J9oGUxqIyb7l2/0ev+3EoB80VwYj1pDcokxYZkS+SVTCqsga4jjnY7Y1g
+oxoj0E+Jjc1y5Kq3m5q9EaD2BSLW1iUaTcgFbG5dDMfuYHSC3MH/J/8KmrQO/UClUQuuwDJpw3N6
+ZjqQXAmGc/Y7TytWTOWvSgPXmXmn0Dc7BZGFTE3x9l5Hmkj+m3ipzEhNw5XeeBAnXPIVlezf6b8g
+7hoXhFhlz3pRlWuBXqJZJvRwgM8vImz9FIPfUWyeeW6HWqkLY2H5LtUJ/6zQykrvGL4Dl5Fmbw+n
+Txv4stlwVcKbQAJldISjCCLoipD0/eIbQOkPpw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature76745-Object58474"><etsi:QualifyingProperties Target="#Signature76745"><etsi:SignedProperties Id="Signature76745-SignedProperties95358"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-01-26T13:23:59</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Bv/ZG/8sw+F5oORNNFPuLyYZOIw=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>912663250</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-82484"><etsi:Description>Servicios IT, Luis Orellana Escalante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

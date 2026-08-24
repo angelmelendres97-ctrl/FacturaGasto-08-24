@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>ONATE VILLENA SEGUNDO DAVID</razonSocial>
+		<nombreComercial>SUPERMERCADOS DEL NORTE</nombreComercial>
+		<ruc>1600079022001</ruc>
+		<claveAcceso>0401202501160007902200120010110007135671234567811</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000713567</secuencial>
+		<dirMatriz>CIRCUNVALACION NORTE ENTRE BUENAVISTA Y NAPOLEON MERA</dirMatriz>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>04/01/2025</fechaEmision>
+	<dirEstablecimiento>PASAJE 312 E/ JUAN MONTALVO Y PAEZ</dirEstablecimiento>
+	<obligadoContabilidad>SI</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>CDLA. LOS JARDINES CALLES QUINTA NORTE Y GUAYAQUIL</direccionComprador>
+	<totalSinImpuestos>1512.83</totalSinImpuestos>
+	<totalDescuento>0</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>0</codigoPorcentaje>
+		<baseImponible>472</baseImponible>
+		<tarifa>0</tarifa>
+		<valor>0</valor>
+		</totalImpuesto>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<baseImponible>1040.83</baseImponible>
+			<tarifa>15</tarifa>
+		<valor>156.12</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0</propina>
+	<importeTotal>1668.95</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>1668.95</total>
+		<plazo>15</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>4184</codigoPrincipal>
+		<codigoAuxiliar>7861074900787</codigoAuxiliar>
+		<descripcion>*AGUA PURE WATER BOTELLA 625 ML</descripcion>
+		<cantidad>45</cantidad>
+		<precioUnitario>0.202869</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>9.13</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>9.13</baseImponible>
+			<valor>1.37</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>317</codigoPrincipal>
+		<codigoAuxiliar>090388000792</codigoAuxiliar>
+		<descripcion>ATUN REAL LOMITOS EN ACEITE DE GIRASOL 160 GR</descripcion>
+		<cantidad>96</cantidad>
+		<precioUnitario>1.125</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>108</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>108</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>316</codigoPrincipal>
+		<codigoAuxiliar>090388001416</codigoAuxiliar>
+		<descripcion>ATUN REAL TRIPACK 80GR X20</descripcion>
+		<cantidad>80</cantidad>
+		<precioUnitario>2</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>160</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="PQT"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>160</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3535</codigoPrincipal>
+		<codigoAuxiliar>7861001239515</codigoAuxiliar>
+		<descripcion>*CHOCAPIC CEREAL NESTLE 100GR</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>0.947826</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>47.39</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="22"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>47.39</baseImponible>
+			<valor>7.11</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>96839</codigoPrincipal>
+		<codigoAuxiliar>759494998316</codigoAuxiliar>
+		<descripcion>*SQUIZ CITRUS PUNCH 1LT</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>0.362347</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>26.09</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>26.09</baseImponible>
+			<valor>3.91</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>28470</codigoPrincipal>
+		<codigoAuxiliar>7861001301304</codigoAuxiliar>
+		<descripcion>*DETERGENTE DEJA SUAVIZANTE BRISA 320G</descripcion>
+		<cantidad>108</cantidad>
+		<precioUnitario>0.565217</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>61.04</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>61.04</baseImponible>
+			<valor>9.16</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>8625</codigoPrincipal>
+		<codigoAuxiliar>7861001303094</codigoAuxiliar>
+		<descripcion>*DETERGENTE DEJA BRISA PRIMAVERA 860GR</descripcion>
+		<cantidad>36</cantidad>
+		<precioUnitario>1.304347</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>46.96</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="36"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>46.96</baseImponible>
+			<valor>7.04</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>6219</codigoPrincipal>
+		<codigoAuxiliar>070330662773</codigoAuxiliar>
+		<descripcion>*FOSFORERA BIC GRANDE</descripcion>
+		<cantidad>100</cantidad>
+		<precioUnitario>0.73913</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>73.91</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="7"/>
+			<detAdicional nombre="unidades" valor="2"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>73.91</baseImponible>
+			<valor>11.09</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>187452</codigoPrincipal>
+		<codigoAuxiliar>7861004914075</codigoAuxiliar>
+		<descripcion>*GALLETAS ANIVENTURAS CHOCOLATE 380GR</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>1.195652</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>86.09</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>86.09</baseImponible>
+			<valor>12.91</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>147915</codigoPrincipal>
+		<codigoAuxiliar>7702025147915</codigoAuxiliar>
+		<descripcion>*GALLETA DUCALES 315GR</descripcion>
+		<cantidad>96</cantidad>
+		<precioUnitario>1.43113</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>137.39</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>137.39</baseImponible>
+			<valor>20.61</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>617</codigoPrincipal>
+		<codigoAuxiliar>7590011151110</codigoAuxiliar>
+		<descripcion>*GALLETA OREO ORIGINAL 432GR</descripcion>
+		<cantidad>48</cantidad>
+		<precioUnitario>3.369565</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>161.74</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="Paq"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>161.74</baseImponible>
+			<valor>24.26</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>01918</codigoPrincipal>
+		<codigoAuxiliar>78601918</codigoAuxiliar>
+		<descripcion>MENTOL CHINO CONCENTRADO</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>0.8</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>24</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="6"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>24</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1952</codigoPrincipal>
+		<codigoAuxiliar>7861003121528</codigoAuxiliar>
+		<descripcion>*PAPEL HIGIENICO FAMILIA ACOLCHAMAX MEGAROLLO X 6UND*8</descripcion>
+		<cantidad>48</cantidad>
+		<precioUnitario>2.5</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>120</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="PQT"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>120</baseImponible>
+			<valor>18</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>4901</codigoPrincipal>
+		<codigoAuxiliar>7861018517552</codigoAuxiliar>
+		<descripcion>*RUFFLES NATURAL 136GR</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>1.695652</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>84.78</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="50"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>84.78</baseImponible>
+			<valor>12.72</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3395</codigoPrincipal>
+		<codigoAuxiliar>009497003198</codigoAuxiliar>
+		<descripcion>*PONY MALTA 1LT</descripcion>
+		<cantidad>60</cantidad>
+		<precioUnitario>0.947826</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>56.87</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="60"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>56.87</baseImponible>
+			<valor>8.53</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>2039</codigoPrincipal>
+		<codigoAuxiliar>7861009940710</codigoAuxiliar>
+		<descripcion>ROSQUITAS SUPAN TRENZADA 200GR</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>1.8</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>90</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="8"/>
+			<detAdicional nombre="unidades" valor="2"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>90</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>5151</codigoPrincipal>
+		<codigoAuxiliar>7702010282751</codigoAuxiliar>
+		<descripcion>*SUAVITEL DULCES PLACERES FRESAS Y CHOCOLATE 430ML</descripcion>
+		<cantidad>24</cantidad>
+		<precioUnitario>0.57456</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>13.79</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>13.79</baseImponible>
+			<valor>2.07</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>969</codigoPrincipal>
+		<codigoAuxiliar>7861032141405</codigoAuxiliar>
+		<descripcion>TALCO FUNGIREX FUNGICIDA 45G</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>1.8</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>90</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="2"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>90</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>4290</codigoPrincipal>
+		<codigoAuxiliar>7861038056451</codigoAuxiliar>
+		<descripcion>*AMBIENTAL TIPS P PARED BRISAS DE LAVANDA 95G</descripcion>
+		<cantidad>15</cantidad>
+		<precioUnitario>0.956521</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>14.35</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="15"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>14.35</baseImponible>
+			<valor>2.15</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>4649</codigoPrincipal>
+		<codigoAuxiliar>7861038056444</codigoAuxiliar>
+		<descripcion>*AMBIENTAL TIPS P PARED MANZANA CANELA 95GR</descripcion>
+		<cantidad>15</cantidad>
+		<precioUnitario>0.956521</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>14.35</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="15"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>14.35</baseImponible>
+			<valor>2.15</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1316</codigoPrincipal>
+		<codigoAuxiliar>0759494005755</codigoAuxiliar>
+		<descripcion>*ENERGIZANTE 220V AZUL JUMBO 600ML X24</descripcion>
+		<cantidad>120</cantidad>
+		<precioUnitario>0.724608</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>86.95</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="10"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>86.95</baseImponible>
+			<valor>13.04</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="pIva">15</campoAdicional>
+	<campoAdicional nombre="Direccion">CDLA. LOS JARDINES CALLES QUINTA NORTE Y GUAYAQUIL</campoAdicional>
+	<campoAdicional nombre="Telefono">2937375</campoAdicional>
+	<campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+	<campoAdicional nombre="Vencimiento">19/01/2025</campoAdicional>
+	<campoAdicional nombre="Vendedor">ALMACEN</campoAdicional>
+	<campoAdicional nombre="Zona">ZONA 1</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C.L.</campoAdicional>
+	<campoAdicional nombre="Usuario">KLINTON JAMES CORDOVA</campoAdicional>
+	<campoAdicional nombre="Ciudad">MACHALA</campoAdicional>
+	<campoAdicional nombre="FormaPago">Credito</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature171252">
+<ds:SignedInfo Id="Signature-SignedInfo515524">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID245884" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature171252-SignedProperties449119">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Tc/+CZPfzUg5DuE6L4vcb1IzLDs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1792007">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>N8V43tLqPVxYuZeDMfaJCW/Whaw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-96808" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>1hDk2hQBitYh3JXOKARKXMwPnf8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue343272">
+XnpKu0etUQFQ0ZBw0TqTAOw+0ecWV4s55F7x9QoElukSv+sU31gMt/YZUHZkBZjo2Fr3w4hTmf+f
+QGoQ2+Viyv+g5H0wfDebYUBsIVoqzMykz/7HaK2aTtFTyiL9Ds2bKoH7ES96R/mPEQn/TNNmLNDL
+4aEaCysgTWBhMGgp0YMib6F2ltvQBD+Ai62Jfz2Q4s3iPovcYmYvSNpoBQzTe+1H3HPB4eHo60bZ
+sbH/pUsDkkhPGHYxVw6phCA9DlbaIUGclxjIK7dDeE1Jt3QJk4thgx/OXDRQPyinh/LCNgDq5wcg
+rpvPo+5yI4sm+KWVkIdbnvD2jWlNHFTRDTM6YQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1792007">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJQjCCByqgAwIBAgIIVSugJxPa82UwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTEyMzIwMDAwMFoXDTI4MTEyMTIwMDAwMFowgZ4xCzAJBgNVBAYTAkVDMRcwFQYDVQQEDA5P
+w5FBVEUgVklMTEVOQTEWMBQGA1UEKgwNU0VHVU5ETyBEQVZJRDEZMBcGA1UEBRMQSURDRUMtMTYw
+MDA3OTAyMjElMCMGA1UEAwwcU0VHVU5ETyBEQVZJRCBPw5FBVEUgVklMTEVOQTEcMBoGA1UEYQwT
+VElORUMtMTYwMDA3OTAyMjAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKguvG2/
+7F/23JjtdtHyLqKNum7EL+rdeyCkzUL/fvNRVcwIWovNlWcqX7gbGazmV0V/FUOjuXSHajAkGNKB
+CBIEZEm06eZySvDWWDHS7AbkzxDL5HyzcgA1BXwBruZgqPxWVxwf/fmedCtWDu6Y9/VKV+AolbYM
+YHjRtjnqQMIFNjdYLX60S4zYNuKdNXvdn6nvYRaGlUH3hS4mygHv6zUiA2ItkLaWXsRwKSNAo71J
+Vy4RutL6GquWQ5Trf6ipfWdY8catxk58o5QXyFZ+JwN6onh83TO1rmRdk994YojKfM3eaQMmOtcz
+85alLWfzn8UDLwZ1umiHsZMIVVkZ7vUCAwEAAaOCBGYwggRiMBsGCysGAQQBgvE2ZgMBBAwMCjE2
+MDAwNzkwMjIwHgYLKwYBBAGC8TZmAwsEDwwNMTYwMDA3OTAyMjAwMTCB1wYIKwYBBQUHAQEEgcow
+gccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9kb3dubG9hZC90
+c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3Nw
+MS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYqaHR0cDovL29jc3Ay
+LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBRQjMoKKiUPRpM3eJW+m74Y
+ZGdeGjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDhEbJ0knP9MIGZBgNV
+HSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRwczovL3d3dy51YW5h
+dGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNFUlRJRklDQURPIERF
+IFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8EgYcwgYQwQKA+oDyG
+Omh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5j
+cmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJv
+cmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDCCAZwGA1UdEQSCAZMwggGPgRtkYXZpZHZpbGxlbmExOTUzQGhvdG1haWwuZXOgGwYLKwYBBAGC
+8TZmAwGgDAwKMTYwMDA3OTAyMqAeBgsrBgEEAYLxNmYDAqAPDA1TRUdVTkRPIERBVklEoBcGCysG
+AQQBgvE2ZgMDoAgMBk/DkUFURaAYBgsrBgEEAYLxNmYDBKAJDAdWSUxMRU5BoEsGCysGAQQBgvE2
+ZgMHoDwMOkxBIFBST1ZJREVOQ0lBXCwgVklWSUVOREFTIFBPUFVMQVJFUyBBVkNJUkNVTlZBTENJ
+T04gTk9SVEWgHwYLKwYBBAGC8TZmAwigEAwOMDA1OTM5ODk0MTk1MDegGAYLKwYBBAGC8TZmAwmg
+CQwHTUFDSEFMQaAeBgsrBgEEAYLxNmYDC6APDA0xNjAwMDc5MDIyMDAxoBMGCysGAQQBgvE2ZgMM
+oAQMAkVDoCkGCysGAQQBgvE2ZgMyoBoMGFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQaAYBgsrBgEE
+AYLxNmYDM6AJDAdBUkNISVZPMA0GCSqGSIb3DQEBCwUAA4ICAQCx/W0QHUo+70SZhI4tpMMiVoly
+D4InijwQjES35e8OFstvWRl7HcQsrrFVM5X2eFhKUG0+f3I8cLmk44QxaAol+mz8ytMZjSKmPsCR
+5UxtnrdXAMdZ2J5OZx39Log2k18CL3EdAypAsrGDVH5m3x+hs3E+wYynKQ28V3CmBl7wu2QzR0lg
+tLZhAqgP7DGvDqkfMr5Og+uMvWfiHkXqcS2NmD0ZM9aTwmAbz4g/3v8tg3ojTk1gEYulGhpbISH1
+oNM8UnoDZNMYL5gyAiiUM40uaJFTH1owRcddjH+G0cCz6tQ/z0N6O6FvH7sNNJRxkrGv9G8c2yX6
+RKcQ+Y3596szXypCZshsxwSRzWyeuBWkRr75WNkCNfr2vXSr/JTUzmUL8Ynrpb5pe3ENguUWp0kR
+fLXGRHlAHSoYVsJpr60YwhBoKnUos1elaUUNSmEKJKu3U7mfCz+J7MHYvk1tBo5j1Ens+vA4+Cdd
+vCfOnbLAe6N/rUmgJkdaZEUEI6AZBbU9NgjuvEuXz2SMLVdsO2xOS/zfM1Q0691lhGqnkGwWS1L8
+YUv+tAJFaaXAtb96JmQVAVlfy2zXN/10NyJ9MBbbbO2IOAHUJZWSC601F9/yfSwwabkeBaAo1RM8
+kKncq8CYC2GiwCqokPEaMucFm1OrExtjyPZvzhCQMu9s/wiApg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qC68bb/sX/bcmO120fIuoo26bsQv6t17IKTNQv9+81FVzAhai82VZypfuBsZrOZXRX8VQ6O5dIdq
+MCQY0oEIEgRkSbTp5nJK8NZYMdLsBuTPEMvkfLNyADUFfAGu5mCo/FZXHB/9+Z50K1YO7pj39UpX
+4CiVtgxgeNG2OepAwgU2N1gtfrRLjNg24p01e92fqe9hFoaVQfeFLibKAe/rNSIDYi2QtpZexHAp
+I0CjvUlXLhG60voaq5ZDlOt/qKl9Z1jxxq3GTnyjlBfIVn4nA3qieHzdM7WuZF2T33hiiMp8zd5p
+AyY61zPzlqUtZ/OfxQMvBnW6aIexkwhVWRnu9Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature171252-Object209995"><etsi:QualifyingProperties Target="#Signature171252"><etsi:SignedProperties Id="Signature171252-SignedProperties449119"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-01-04T09:59:06-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>cBHnaH9Mg0pQ47Xt6+XcixHUzNg=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>6137175006919717733</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-96808"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

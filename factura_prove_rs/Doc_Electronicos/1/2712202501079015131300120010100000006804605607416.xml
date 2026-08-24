@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>Marcuver Travel Cia Ltda</razonSocial><nombreComercial>Marcuver Travel Cia Ltda</nombreComercial><ruc>0790151313001</ruc><claveAcceso>2712202501079015131300120010100000006804605607416</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>010</ptoEmi><secuencial>000000680</secuencial><dirMatriz>TARQUI 1804 ENTRE ROCAFUERTE Y BOLIVAR</dirMatriz></infoTributaria><infoFactura><fechaEmision>27/12/2025</fechaEmision><dirEstablecimiento>TARQUI 1804 ENTRE ROCAFUERTE Y BOLIVAR</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C.L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>5TA NORTE Y GUAYAQUIL</direccionComprador><totalSinImpuestos>2608.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>2608.00</baseImponible><valor>0.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>2608.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>2608.00</total></pago></pagos><valorRetIva>0.00</valorRetIva><valorRetRenta>0.00</valorRetRenta></infoFactura><detalles><detalle><codigoPrincipal>BOLETOAE</codigoPrincipal><codigoAuxiliar>boleto</codigoAuxiliar><descripcion>REEMBOLSO DE GASTOS</descripcion><cantidad>1.000000</cantidad><precioUnitario>2608.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>2608.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="POR EMISION DE BOLETO" valor="A FAVOR DEL PASAJERO MACHUCA GRANDA ANDRES"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>2608.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Correo de cliente">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="Enviar los comprobantes de retenciones electrónicas al correo">marcuvertravel1@yahoo.com</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature100601">
+<ds:SignedInfo Id="Signature-SignedInfo729201">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID541155" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature100601-SignedProperties899338">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>taOThEZD/+fOUcGP+SJId2Bwh28=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1671355">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>eeYSbBn4Iu3MEntTs++wo9NxuLA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-281593" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>2mmknj8lJyj2p5Dv0QlocK0dMpE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue924724">
+Y+c8j/RraVsQrmYnxeWvsdKy1ymF/q7tiSMJOa5WV31sv7tGylv12KioFyjycbjh3Pr/tJfNWiP8
+YRSMTj6gmgo+FulL1F0DIAuNZj8eBSQyyNCdiHL9RKmVu+1g5my8hSaoywQrBC/bcLBrFMMh8FWO
+BHVJ3QosPJVOnFM23a0IxEStZoTRCQaKEGUPRcKOoTFWgeuKz7KZhfWbBdZOrXOzaY9DAspF4XYH
+/pG/uKEyXV5qkK3F9/Az/6Z9HqExWHejCny1b5aLQ7GeFetPMXS9LFUgeDDJEk05ONWFK/yTcyR7
+fcGNk5EnCpxzTOFKMZL+n1Mecye7Fb8xMa6lZQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1671355">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMIzCCCgugAwIBAgIEHG0y1TANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDExMjgyMDAwNDJaFw0yNjExMjgyMDAwNDJaMIGmMSQw
+IgYDVQQDDBtHRVJNQU4gUklHT0JFUlRPIENVRVZBIFZFR0ExIDAeBgNVBAUTFzA3MDI0MzA2Mzgt
+MjgxMTI0MTUxMDMwMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAK8Aj5GSmtQhTMbiP8eVfXZvnu4CgMjq5sJ2mNgmFqe2
+UW/zGLm3zInkcKp4U3FxzOrqW5l+vedS8va+J0QuSxLyFu+VA//d1GELiYRo8TU/8cIuWGU/tQkt
+URfD7znHJFpmsHOfL2zSezkiB46Le5GYx3+xMR6jidp7ATZvhrsV72jG4pI8XEoEcgDzoloy9LH7
+c9r7W48YRIyjwMhcwpy49axxWI/vpzxqIsMLva9EWCKwy3DMuCqZTGpSSvjxS7SF5p2q/yxM7uHp
+R32pk/VTuvHdyla38cAqV+K5Un0352H38tP/05Rjn0Zjy2+Xqdk2hQz2p/2XXGx+X9Ec68ECAwEA
+AaOCB2IwggdeMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8w
+WQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuG
+gbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZv
+Y2F0aW9uTGlzdD9iYXNlMCAGA1UdEQQZMBeBFXJpZ29jdWV2YUBob3RtYWlsLmNvbTCCARUGA1Ud
+IASCAQwwggEIMGIGCisGAQQBgqZyAgkwVDBSBggrBgEFBQcCAjBGHkQAQwBlAHIAdABpAGYAaQBj
+AGEAZABvACAAZABlACAAUgBlAHAAcgBlAHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBnAGEAbDCBoQYK
+KwYBBAGCpnICAzCBkjCBjwYIKwYBBQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0
+LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9s
+aXRpY2FzIGRlIENlcnRpZmljYWRvIFJlcHJlc2VudGFudGUgTGVnYWwucGRmMB0GA1UdJQQWMBQG
+CCsGAQUFBwMCBggrBgEFBQcDBDCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29jc3Bn
+dy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcKKBn6SBnDCB
+mTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBE
+QVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAb
+BgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6
+Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZpY2F0ZVJldm9j
+YXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlz
+c3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEs
+T1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFU
+QSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUIcS+xwcmL2z/Hyl57YFHnFH8rK0wKwYDVR0QBCQwIoAP
+MjAyNDExMjgyMDAwNDJagQ8yMDI2MTEyODIwMDA0MlowCwYDVR0PBAQDAgXgMB8GCisGAQQBgqZy
+AwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgqZyAwEEDAwKMDcwMjQzMDYzODAXBgorBgEE
+AYKmcgMJBAkMB01BQ0hBTEEwEQYKKwYBBAGCpnIDIgQDDAEuMDIGCisGAQQBgqZyAwcEJAwiVEFS
+UVVJIDE4MDQgWSBST0NBRlVFUlRFIFkgQk9MSVZBUjAgBgorBgEEAYKmcgMCBBIMEEdFUk1BTiBS
+SUdPQkVSVE8wHwYKKwYBBAGCpnIDIAQRDA8wMDYwMDEwMDAwNzkxNTcwEwYKKwYBBAGCpnIDIQQF
+DANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBUGCisGAQQBgqZyAwMEBwwFQ1VFVkEwKAYK
+KwYBBAGCpnIDCgQaDBhNQVJDVVZFUiBUUkFWRUwgQ0lBIExUREEwHQYKKwYBBAGCpnIDCwQPDA0w
+NzkwMTUxMzEzMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAUBgorBgEEAYKmcgMEBAYMBFZFR0EwEAYK
+KwYBBAGCpnIDCAQCDAAwDQYJKoZIhvcNAQELBQADggIBALJh/gE/pDmZMhmLxdW1FuP5HxHP+o3p
+v8V7jN34o7ESPAMjnIHrwqlmYpC6dlvVABQhRJAh+Rr9z42X97J9VXFpDVzXf4pIq1nP+t5CkzQK
+KkTfjWiIG+L5IZIcex8ozSlRP13kYyKlEfW6CNKDPBBE/B2ocJtN94/gh+DbLMIkQLUR3UTTkD2Y
+rfnpMpobSW8CRfnyxxkTwP6Fuxp1r77vwQS6QwgwisdNAd458k6Qy2fxlIDq0RmgiIOZVoMh+eJw
+W4o1hvgLfkTREfH2od2bv6G21L2ZQVnj6GKB0SPBCF8Cc+tUwed/E7Uwict7wqbxpYr2JrGJJGO1
+I7m3IYKAup/YlQDS7XLYytJHIaH6KeZhY+Gg0LqA5d6kteVqpgzHtSg3v7+pd0vtwBe8RPJfDDTV
+Ql74HOJtlDswofuDEH692DkIecUhfGdsiyBs9dfRGjqorQTgcraDNVDRjlNzDteJmVSyedNcnex6
+bf5/QdFGVv2rTAhBlsUXzYukVrTb2TbksZNRG6Cpn9Vjnnmz3AlZTPHk2H54esnSTcZdh31IcJOn
+73yDXqwpm4xhcq04WGGO69Hf125HoTbpxiWTY1fY0jSWeEhRLGH5bF0c6zwaNSho8QUgYsFI9QlD
+JV1cFISvDZd8WQ/oLXv7GEee+o8lpbhSO0yzpLYM7Lwr
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rwCPkZKa1CFMxuI/x5V9dm+e7gKAyOrmwnaY2CYWp7ZRb/MYubfMieRwqnhTcXHM6upbmX6951Ly
+9r4nRC5LEvIW75UD/93UYQuJhGjxNT/xwi5YZT+1CS1RF8PvOcckWmawc58vbNJ7OSIHjot7kZjH
+f7ExHqOJ2nsBNm+GuxXvaMbikjxcSgRyAPOiWjL0sftz2vtbjxhEjKPAyFzCnLj1rHFYj++nPGoi
+wwu9r0RYIrDLcMy4KplMalJK+PFLtIXmnar/LEzu4elHfamT9VO68d3KVrfxwCpX4rlSfTfnYffy
+0//TlGOfRmPLb5ep2TaFDPan/ZdcbH5f0RzrwQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature100601-Object582545"><etsi:QualifyingProperties Target="#Signature100601"><etsi:SignedProperties Id="Signature100601-SignedProperties899338"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-27T11:25:00-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>7exQLgzddpkRBch2CtHos34RdbE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>476918485</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-281593"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

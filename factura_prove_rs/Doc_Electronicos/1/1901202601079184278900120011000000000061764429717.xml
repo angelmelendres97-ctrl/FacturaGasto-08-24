@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VIK S.A.S.</razonSocial>
+        <ruc>0791842789001</ruc>
+        <claveAcceso>1901202601079184278900120011000000000061764429717</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000006</secuencial>
+        <dirMatriz>Barrio: BARRIO SECO Calle: CARCHI Interseccion: AV EL EJERCITO </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>19/01/2026</fechaEmision>
+        <dirEstablecimiento>Barrio: BARRIO SECO Calle: CARCHI Interseccion: AV EL EJERCITO </dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>Calla Guayaquil sn y Quinta Norte esquina </direccionComprador>
+        <totalSinImpuestos>840.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>840.00</baseImponible>
+                <valor>126.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>966.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>913.50</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>001</codigoPrincipal>
+            <descripcion>CHIFLES DE PLATANO 70 GR</descripcion>
+            <cantidad>3000.00</cantidad>
+            <precioUnitario>0.28</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>840.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>840.00</baseImponible>
+                    <valor>126.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072923970</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RvlvPJ2GMu0PkR0gsEv8SKKFlFJVp3+qIwxK9eQOAp0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>NA8GK4hjTpyTTnxiEPLNZ8WgU6CMsgxpsvCPxJLuISk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70-sigvalue">ynfPGL1jiBh473UeCR8VX3XKilFRICa43adqCdG4vw12jjRcNRzA1Zph5tAngtAaPhhn/4U62X+aMjnBx3c+tmLy54dwvbJbG7kw6c9RAMm2UHcagB54aEMBK8dVNfei8hNUWGaRUL742R0iu44+l04JQZ9Lg8h4CZhNbdpd2Z2l7uPCLsqzZ6jIckK3isqVcREHvt0JIvGDS/U7kGVnVGPzVrV5luRvccQXphBiUUwKuLdqovEnavMr3FHmRgRkctihV1Jzwv4XHw06KBEeB4Us9J2E3hR2IS3R08oG3tmWfO5GRkK4QsfWp8QUCw9tOxpswjL3dYmqk6XyAi3uUw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIL/TCCCeWgAwIBAgIEcsH/SjANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDAxMzExNDU2NTNaFw0yOTAxMzAxNDU2NTNaMIGhMR8wHQYDVQQDDBZKT1NFIE1BUklPIE1PUkEgTUFSSUNIMSAwHgYDVQQFExcwNzAyOTU0MjgwLTMxMDEyNDEwMDYyOTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ2fXPPdGVe8E/4pSDN5P/f4yPyQIWXmTt26NI7EYmRY6mZ8UccSePDPwk8KI5hdcFmiqyC32yqHXL1zFzcsygbiD5q7sR9thOfs/d0iwERFqB1xssSW82TEYq+mo+14tgy6elKOo1iBClM33mwKZE780yg/jSxQoCMKY4tteyEBGoFxPnEPmoRVjEBr8bCjT2+LtzFKDuEAbLM3/EA5QjKE+TwW2wINqoJEb2puRKIdGGmQkVJvNcp+GuA0kNFt1ZwST+ilza5Xig/wbVG+OTmiiTjCSmwmTTYFM0DsQtLY84eg+1U3LDhK+cs4yX+gg+abj52T5KNivAvaqDSWyfAgMBAAGjggdBMIIHPTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/YmFzZTAgBgNVHREEGTAXgRVqb3NlbWFyaW9tbUBnbWFpbC5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2FsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU4Yv1jvFeyTIeDqpY9G2qzGMtGmswKwYDVR0QBCQwIoAPMjAyNDAxMzExNDU2NTNagQ8yMDI5MDEzMDE0NTY1M1owCwYDVR0PBAQDAgXgMB8GCisGAQQBgqZyAwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgqZyAwEEDAwKMDcwMjk1NDI4MDAqBgorBgEEAYKmcgMJBBwMGkVMIEdVQUJPIENBQkVDRVJBIENBTlRPTkFMMBEGCisGAQQBgqZyAyIEAwwBLjAnBgorBgEEAYKmcgMHBBkMF0NBUkNISSBZIEFWIEVMIEVKRVJDSVRPMBoGCisGAQQBgqZyAwIEDAwKSk9TRSBNQVJJTzAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDA1NzcxODATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFAYKKwYBBAGCpnIDAwQGDARNT1JBMBkGCisGAQQBgqZyAwoECwwJVklLIFMgQSBTMB0GCisGAQQBgqZyAwsEDwwNMDc5MTg0Mjc4OTAwMTARBgorBgEEAYKmcgMdBAMMAS4wFgYKKwYBBAGCpnIDBAQIDAZNQVJJQ0gwGgYKKwYBBAGCpnIDCAQMDAowOTk5NTQ2MzE0MA0GCSqGSIb3DQEBCwUAA4ICAQBv7lieaXYHe8Uu2ENidB8u3KZh9bekjaclS0Vl28EITt33ogOXhqNSOU6U1XhQdicJQWe66pa4+ZsjrdBjfCfrVAFlQUE/+M6YLOr3n2vjlPe+aK3I9KlH14lq9hB/PQGnoShA+QIx77/lACikgUoKMxf2fsCQmap3xVZlaQprK2Ckya1TFU0wc2SWjWupNUBqK7lcUEGRy+QzJkFLXi8rbdyAnxGbhBqRwubVpEr49ZPY1UhmnIisFiz8BdCJiTwd75gl/iwAXew47+ukD2Q6hJVVnwUZ3GlslNL2fpkUqVAtlsZPoVcTN88owWo+4OXsr/9chFAXwp6QbsgSh0UWVEYdQ+ovbfQj0dOBWo0FvdOWeSr4E6BfV7AwCetPxoeA8HOAwa/Q9HNmu4O4FpCZGynGNm+josESkpwBTcEwqrNhSLKoiwknsww4ZOXbJHt4EkuLP9p0//WPJdAz0dOryFAycBEOrtGR4ayGA2kfjx3QFwKGSyQFcD2lF07XQMqgL1+awtdzQ7WFhe6rAyPUv0R3TpqmSTBK2QqNa8xG4NKe4J2WacYuDcksOElPYwHdFWCoGCXTusXPrX/lcVb/Y6yFmxcvzrntGMkGPTPOagxA0/XviVTTJX/ID/GGoMz0snk5X1NGh5AEe5FxISHTu4RmXMzZxgdMEYLpIXXMRQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70"><xades:SignedProperties Id="xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-01-19T14:38:06.452-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Vc9QGJ7p7iN1e0pRRzos1Cgcz3JDt/OydW3YmaKeRJY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1925316426</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-1936c97b-79b8-41f7-8d08-270aa3ba4f70-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

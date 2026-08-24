@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>INDUSTRIA ANDINA DE TRANSFORMADORES S.A.</razonSocial>
+        <nombreComercial>INATRA</nombreComercial>
+        <ruc>0990169640001</ruc>
+        <claveAcceso>2310202501099016964000120010010000550061234567810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000055006</secuencial>
+        <dirMatriz>KM 10.5 VIA DAULE, ECUADOR</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>23/10/2025</fechaEmision>
+        <dirEstablecimiento>KM 10.5 VIA DAULE, ECUADOR</dirEstablecimiento>
+        <contribuyenteEspecial>105</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>22173.91</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>22173.91</baseImponible>
+                <tarifa>15.00</tarifa>
+                <valor>3326.09</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>25500.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>25500.00</total>
+                <plazo>0</plazo>
+                <unidadTiempo>Días</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>ACCT0033</codigoPrincipal>
+            <descripcion>RUEDAS 200mm, HASTA 6,7 ton TRANSFORMADORES HASTA 6.7 ton.</descripcion>
+            <cantidad>4.00</cantidad>
+            <precioUnitario>85.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>340.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="comentario" valor="CON 14 TAPS DE REGULACION "/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>340.00</baseImponible>
+                    <valor>51.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>T51000A0007</codigoPrincipal>
+            <descripcion>1000POT CONV 14P 13200/480Dy 3A</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>21833.91</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>21833.91</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="atributo" valor="TipoTrafo[MEDIA POTENCIA]Clase[CONVENCIONAL]Potencia[1000 KVA]VAT[13200]VBT[480 Y/277]Norma[ANSI C.57]Tap[3]Frecuencia[60 Hz]Marca[INATRA]"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>21833.91</baseImponible>
+                    <valor>3275.09</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="direccion">GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional>
+        <campoAdicional nombre="telefono">2937375</campoAdicional>
+        <campoAdicional nombre="vendedor">CHACHA RUBEN</campoAdicional>
+        <campoAdicional nombre="condicionPago">CONTADO</campoAdicional>
+        <campoAdicional nombre="cotizacion">000000000078837</campoAdicional>
+        <campoAdicional nombre="ciudad">MACHALA</campoAdicional>
+        <campoAdicional nombre="moneda">DOLARES AMERICANOS</campoAdicional>
+        <campoAdicional nombre="exportador">Exportador Habitual de Bienes según RESOLUCIÓN Nro. NAC-DGERCGC20-00000061</campoAdicional>
+        <campoAdicional nombre="T51000A0007">0825158983,</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature937579">
+<ds:SignedInfo Id="Signature-SignedInfo78697">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID107993" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature937579-SignedProperties784802">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>zj6JNnhrBcJ4it2LozF75kh27tA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1923159">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>k3HYUM0Yr3bwIPieZYUfCN1/Q/E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-992417" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>vUIdS6ZmJ3CvyJq9zUcVEQ3eiFc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue885410">
+pqTYkmFISEbi318sbiBOT82wvBb0stwcwiXja+4mpo8vG1unFt4uisLbo/EbMy0mZO6Yi1bdnc7N
+wCQwpfQ2FrlR2Z+NA9pEBrBQ/x6dgVKx38vNPjUtgOvRDq9mPFF9qjd0P2kORuSMhqV7UhbUsOL/
+9t1GG4QaSt+eLspfiTMCa7bTDwPBM/vFRwYFdpeGxzGLtGR48PLzJ50Z1DLIf6cwm+7vpnDryxa3
+GqOZYwe523WpgzZnjQTuPZbUoG8RxnEvY4x4GjN/D8WuztjodrcMEixl/Oqee5KeqIfneI2caMY5
+ByYeNqGGF+QCK2Y3tO09KfMh0g13MOVsIL5RPQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1923159">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMJjCCCg6gAwIBAgIEZ5+8ozANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDExMjUyMDM3MDdaFw0yNzExMjUyMDM3MDdaMIGnMSUw
+IwYDVQQDDBxCUkVOREEgUEFUUklDSUEgTkFWQVJSTyBMT09SMSAwHgYDVQQFExcwOTIyNjQxNDUx
+LTI1MTEyNDE1NDcwMTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9S
+TUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUonFaS7s81vfmQqhXgNQKYwj2UEe02ugUn1zdJjLS
+9nq5zbDLD9bXxN+Mk2zZZmqIrPt7bTrI4MARoeXhebwxfW6rLNuDCEJjZ7kNsogflm0lRuMYgSyx
+KgJP9tlqUTOJwnJwV5sZv0T3UWA3pyUCpzFDa0ssCD95q72nWcJjQaZagfZ5ZiP2p1tuTreKKz78
+X6cKd7FpM6sWVC8C4HVX4KMB+ulAQQ9M9F+i5JdnP7x3IySLleBg0FeUXQw1Vfk86R5qL8fowSKk
+Mbj0Cpx7rySdqeil5FHl06aEEQPPlAJm4vP2MEKAyDGD72uiDe1A8EB0KIaF0Be8oIycb5u7AgMB
+AAGjggdkMIIHYDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2P
+MFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEu
+bmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7
+hoG4bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBD
+RVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2
+b2NhdGlvbkxpc3Q/YmFzZTAeBgNVHREEFzAVgRNibmF2YXJyb0BpbmF0cmEuY29tMIIBEgYDVR0g
+BIIBCTCCAQUwYAYKKwYBBAGCpnICCjBSMFAGCCsGAQUFBwICMEQeQgBDAGUAcgB0AGkAZgBpAGMA
+YQBkAG8AIABkAGUAIABNAGkAZQBtAGIAcgBvACAAZABlACAARQBtAHAAcgBlAHMAYTCBoAYKKwYB
+BAGCpnICBDCBkTCBjgYIKwYBBQUHAgEWgYFodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVj
+L3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRp
+Y2FzIGRlIENlcnRpZmljYWRvIE1pZW1icm8gZGUgRW1wcmVzYS5wZGYwHQYDVR0lBBYwFAYIKwYB
+BQUHAwIGCCsGAQUFBwMEMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8vb2NzcGd3LnNl
+Y3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGfpIGcMIGZMTkw
+NwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEx
+MDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UE
+CgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+bGRhcDovL2xk
+YXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9O
+IFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5G
+T1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRlUmV2b2NhdGlv
+bkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRh
+dGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVy
+PUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1F
+TlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMu
+QS4gMixDPUVDMB0GA1UdDgQWBBTPANCFINJKsbPiYToOq0PUf79A2DArBgNVHRAEJDAigA8yMDI0
+MTEyNTIwMzcwN1qBDzIwMjcxMTI1MjAzNzA3WjALBgNVHQ8EBAMCBeAwGQYKKwYBBAGCpnIDBQQL
+DAlDT05UQURPUkEwGgYKKwYBBAGCpnIDAQQMDAowOTIyNjQxNDUxMBYGCisGAQQBgqZyAwkECAwG
+VEFSUVVJMBEGCisGAQQBgqZyAyIEAwwBLjATBgorBgEEAYKmcgMHBAUMA1MgTjAfBgorBgEEAYKm
+cgMCBBEMD0JSRU5EQSBQQVRSSUNJQTAfBgorBgEEAYKmcgMgBBEMDzAwMTAwMjAwMDY3NTc1NTAT
+BgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFwYKKwYBBAGCpnID
+AwQJDAdOQVZBUlJPMBEGCisGAQQBgqZyAx4EAwwBLjA3BgorBgEEAYKmcgMKBCkMJ0lORFVTVFJJ
+QSBBTkRJTkEgREUgVFJBTlNGT1JNQURPUkVTIFMgQTAdBgorBgEEAYKmcgMLBA8MDTA5OTAxNjk2
+NDAwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBQGCisGAQQBgqZyAwQEBgwETE9PUjAaBgorBgEEAYKm
+cgMIBAwMCjA5ODg3NTczNzcwDQYJKoZIhvcNAQELBQADggIBAGKDkkLNBPCf2sXaJYrKvSlKHcEX
+RkMiyVnEyuBPcAQQzm7LZTdxKWOBuZ0hDnueXlxhjipwuz1UafKtOQu0hBiJjJ9N4iTL40miFRXa
+oPa54BeT/xlOoi0Gfqry8VDfJghjx8Xm90V33eNCbIQIJeSYNMTOttW8I6drGFGlNxZdt0+sxWI6
+Z1gEiBz0OEz7Vhbq8CtUwrRJNi3JQn5Ia6T02CI2Mgy2bMDqojmS7Bn0pICriD8IhiUjk/qIQNLq
+WTRPQj+51VFEMpj2HhHgea2Or4bx2IPz0u9rPh0tvHL0U/W8RlemdKk0/x82Oy49g7I46x3Hi8Sr
+Mlk61Vj4STkttpztexxAkE/5UV+x46UPd6P269DaoabgI0EgAFfGjapAqKp5IUL6h8NBb8lRqhWO
+II3wLdAHBZWoz/A11hOBFNvxLuXvVtupePPYrve8ajIoEzpGDzdSFVknJzBnoHPz2Vi4cOw7FjrE
+pL1zOBA0v4+xIC+wfrPc2RrA+itjwt6okr9RXumOylUi/VP7wujCX+HC6Ig5YVsM91LEvWI/m1ro
+DEC/YsAN5KBYbFFLIMDP/oOPOmkD7c+KqlhFn7yP4dShqoUbKu8mu6XIovEcc/DWVZPQhhFel71N
+LLk2Vy9t5Uq0nItveeokqhWVZEVvgcLCzjYAlzQHdC0w1L/o
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1KJxWku7PNb35kKoV4DUCmMI9lBHtNroFJ9c3SYy0vZ6uc2wyw/W18TfjJNs2WZqiKz7e206yODA
+EaHl4Xm8MX1uqyzbgwhCY2e5DbKIH5ZtJUbjGIEssSoCT/bZalEzicJycFebGb9E91FgN6clAqcx
+Q2tLLAg/eau9p1nCY0GmWoH2eWYj9qdbbk63iis+/F+nCnexaTOrFlQvAuB1V+CjAfrpQEEPTPRf
+ouSXZz+8dyMki5XgYNBXlF0MNVX5POkeai/H6MEipDG49Aqce68knanopeRR5dOmhBEDz5QCZuLz
+9jBCgMgxg+9rog3tQPBAdCiGhdAXvKCMnG+buw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature937579-Object1036288"><etsi:QualifyingProperties Target="#Signature937579"><etsi:SignedProperties Id="Signature937579-SignedProperties784802"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-10-23T15:36:29-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>ADQl6W2Y5MyXdy3Jij8Tt6G12is=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1738521763</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-992417"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

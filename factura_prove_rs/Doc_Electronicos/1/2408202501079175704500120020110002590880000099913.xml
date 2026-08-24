@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>MACHUCA LOAYZA &amp; ASOCIADOS ASOMACH S A</razonSocial><nombreComercial>ESTACION DE SERVICIO 6 ESQUINAS</nombreComercial><ruc>0791757045001</ruc><claveAcceso>2408202501079175704500120020110002590880000099913</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>011</ptoEmi><secuencial>000259088</secuencial><dirMatriz>AVENIDA 10 DE AGOSTO 1-1A Y COLON TINOCO</dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>24/08/2025</fechaEmision><dirEstablecimiento>AVENIDA 10 DE AGOSTO 1-1A Y COLON TINOCO</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>JUNIN</direccionComprador><totalSinImpuestos>317.21</totalSinImpuestos><totalSubsidio>226.84</totalSubsidio><totalDescuento>0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>317.21</baseImponible><valor>47.58</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>364.79</importeTotal><placa>GSO6865</placa><pagos><pago><formaPago>01</formaPago><total>364.79</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>0121</codigoPrincipal><codigoAuxiliar>3</codigoAuxiliar><descripcion>DIESEL PREMIUM</descripcion><cantidad>203.000</cantidad><precioUnitario>1.562609</precioUnitario><precioSinSubsidio>2.680046</precioSinSubsidio><descuento>0</descuento><precioTotalSinImpuesto>317.21</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>317.21</baseImponible><valor>47.58</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Num_Factura">002-011-000259088</campoAdicional><campoAdicional nombre="E_MAIL">estacion6esquinas@gmail.com</campoAdicional><campoAdicional nombre="Direccion_Cliente">JUNIN</campoAdicional><campoAdicional nombre="Telefono_Cliente">0</campoAdicional><campoAdicional nombre="Codigo_Cliente">29946</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature776905">
+<ds:SignedInfo Id="Signature-SignedInfo39315">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID256490" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature776905-SignedProperties868788">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>r/wCNxU3pAQWlXDZbhByp/OkZgg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1894412">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>4NaBzuq+w8QY0nX1XN3bkaAfUnk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-17924" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>lb3tWvbvFHZaJeaE5xHUp2R3oG4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue781187">
+KClDXDvLzF6Tht7Sji/mPyChj7HfFeuCRFBtg04H+mV0o5w+HvY9kVGUja71cUCOyHxYDrkU180w
+FFpXoQo5NsWg0zaAGdFUgjXY+dWamTGoh1RmTpfd/XjQoqZpYuxLmx491hyvO4zPaV6nyP/7YbCf
+na/4O1QGOhEspnQr2vXPGs1rpZulfXBIa0G3YJMYACbRWooHLnHAIGNtMT78VsDNpBtoFODk/sNk
+thb53lUvFtMzwGk5suLrtUcqfuA468zWTHBTExLR/w6uFfLzet903v0IesfOPSP0ApF5JsvfyPpj
+Z/5ry4zPS2JXK5LtMS47axObcmoT0zK+mB/0bw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1894412">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJwTCCB6mgAwIBAgIIPSugem8gIqMwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI1MDMyODE3NTEwMFoXDTI3MDMyODE3NTEwMFowgekxCzAJBgNVBAYTAkVDMS8wLQYDVQQKDCZN
+QUNIVUNBIExPQVlaQSAmIEFTT0NJQURPUyBBU09NQUNIIFMgQTEYMBYGA1UEDAwPR0VSRU5URSBH
+RU5FUkFMMRkwFwYDVQQEDBBWQUxESVZJRVpPIENBQ0FZMRQwEgYDVQQqDAtKSE9OTlkgVElUTzEZ
+MBcGA1UEBRMQSURDRUMtMDcwNDA4OTA1MTElMCMGA1UEAwwcSkhPTk5ZIFRJVE8gVkFMRElWSUVa
+TyBDQUNBWTEcMBoGA1UEYQwTVkFURUMtMDc5MTc1NzA0NTAwMTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAIfZb5zqYSOz9DmkEcZNFsk+2KAJNt7YR2tKP7LxNfAMGywEW5w3vNEckR5C
+0GWOVv+WnCzOI/DIIMYtZx6i85vFhIy2xne8Mz0rP6x1/GyrdSpLL+unTV32uiUVEsvr0H5w8AUk
+PuCIxUJELIhKncBORWJK+vacjI43VcLm36xAirJyYtJfevycdE3ICg1H3TC+TCszvKb7R1LhFE+V
+KG6evGgO05VhMjvIBlCXfERRW7HTWhDpfEv2xJB+L+y1YibMudTiX+nr/zVLyHbWhb3B7zqgsz7b
+mQvPrRr8ObY3kRC+/BazrkJBmR5YfbXy0eKk3/YFCvlbZVqK1Bb8mm8CAwEAAaOCBJowggSWMBsG
+CysGAQQBgvE2ZgMBBAwMCjA3MDQwODkwNTEwHgYLKwYBBAGC8TZmAwsEDwwNMDc5MTc1NzA0NTAw
+MTCB1wYIKwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29t
+L3B1YmxpYy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYB
+BQUHMAGGKmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEF
+BQcwAYYqaHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQW
+BBTmL9q9kmOtDxOqAuKs1mPvp/18EDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdG
+qeKjaPDhEbJ0knP9MIGOBgNVHSAEgYYwgYMwgYAGDCsGAQQBgvE2ZgIDATBwMDcGCCsGAQUFBwIB
+FitodHRwczovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMDUGCCsGAQUFBwIC
+MCkMJ0NFUlRJRklDQURPIERFIFJFUFJFU0VOVEFOVEUgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGE
+MECgPqA8hjpodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3Jk
+aW5hZGEuY3JsMECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwv
+Q0Eyc3Vib3JkaW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYI
+KwYBBQUHAwQwggHbBgNVHREEggHSMIIBzoETYXNvbWFjaHNhQGdtYWlsLmNvbaAbBgsrBgEEAYLx
+NmYDAaAMDAowNzA0MDg5MDUxoBwGCysGAQQBgvE2ZgMCoA0MC0pIT05OWSBUSVRPoBsGCysGAQQB
+gvE2ZgMDoAwMClZBTERJVklFWk+gFgYLKwYBBAGC8TZmAwSgBwwFQ0FDQVmgIAYLKwYBBAGC8TZm
+AwWgEQwPR0VSRU5URSBHRU5FUkFMoDwGCysGAQQBgvE2ZgMHoC0MK0FWIDEwIERFIEFHT1NUTyAx
+LTFBIFkgQ09MT04gVElOT0NPIEVTUVVJTkGgHwYLKwYBBAGC8TZmAwigEAwOMDA1OTM5ODY0NjEz
+MzOgGAYLKwYBBAGC8TZmAwmgCQwHTUFDSEFMQaA3BgsrBgEEAYLxNmYDCqAoDCZNQUNIVUNBIExP
+QVlaQSAmIEFTT0NJQURPUyBBU09NQUNIIFMgQaAeBgsrBgEEAYLxNmYDC6APDA0wNzkxNzU3MDQ1
+MDAxoBMGCysGAQQBgvE2ZgMMoAQMAkVDoCQGCysGAQQBgvE2ZgMyoBUME1JFUFJFU0VOVEFOVEUg
+TEVHQUygGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAfox7gLYK
+UNZDQLvPPYCFEnvngIHBEnmY8UW4rmDZEAnBX5aBYzUzkazWoVRKa3CARnjZCyf8dbugwTMlQNoG
+zbgrB4WgFoRVzZ2RRhSPHJakmcDaZZKTOG1OS+slykkijFXqfY0bKn3gBunIu5RYecIoL9347NOG
+vK4hA5NPBn4Amq0gBALvrbC7FSO/jTQsmUiJ39xoYedObJ06GWx1koYnxB5gpUy2DffX/4IEcA2A
+cJU5FebND43pUSl0q18mjBe3CXXMaigpCmsSUScrP63JK/GDCMqlXMq272jJSasqrTbkTW3dD0ap
+14r7mADJqPLcWJH0tMHBtX1Etg2u3cBc9YUipjkVfuLCswtTbcmAa4EnqvS/Dilp9fZFdmAqWixr
+hiHBjxD7uCUX9QvwU/fVEpgfBjQON6EcnnpVqSGCEd4eVi2yrTh99mJ+sG7W7flOrNhZp7P1tSpu
+PGMU8EYYHaI/Rru/4Ksgjja37CPeyviftveKW+sSJMc62CMPIqFAfJEACchWkxlbJE3fh42JzpgW
+MfG1DjtwMFNY7NpwgD5/MA7fj9RoCNkAOJnhA4pWDPeC6KGUcTCuv/ypj0tXnPHIy8AU4cd9l8bb
+TjDS/pd3PZiFFgtSLAy3ETGEGw6TKxTZR1ZMUszQV9eXX65kap+H2w5J9WLIWkDBlUQ=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+h9lvnOphI7P0OaQRxk0WyT7YoAk23thHa0o/svE18AwbLARbnDe80RyRHkLQZY5W/5acLM4j8Mgg
+xi1nHqLzm8WEjLbGd7wzPSs/rHX8bKt1Kksv66dNXfa6JRUSy+vQfnDwBSQ+4IjFQkQsiEqdwE5F
+Ykr69pyMjjdVwubfrECKsnJi0l96/Jx0TcgKDUfdML5MKzO8pvtHUuEUT5Uobp68aA7TlWEyO8gG
+UJd8RFFbsdNaEOl8S/bEkH4v7LViJsy51OJf6ev/NUvIdtaFvcHvOqCzPtuZC8+tGvw5tjeREL78
+FrOuQkGZHlh9tfLR4qTf9gUK+VtlWorUFvyabw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature776905-Object332678"><etsi:QualifyingProperties Target="#Signature776905"><etsi:SignedProperties Id="Signature776905-SignedProperties868788"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-08-24T01:30:06-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ufucgnvu7thVG403gx27Ni5Fm0k=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>4407793108022993571</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-17924"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

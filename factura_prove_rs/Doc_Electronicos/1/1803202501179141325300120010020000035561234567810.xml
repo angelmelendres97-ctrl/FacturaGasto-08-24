@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<factura id="comprobante" version="1.1.0">
+                                        <infoTributaria>
+                                            <ambiente>2</ambiente>
+                                            <tipoEmision>1</tipoEmision>
+                                            <razonSocial>SISTEMAS CONTABLES INTEGRADOS FLORES NARVAEZ SA</razonSocial>
+                                            <nombreComercial>SISTEMAS CONTABLES INTEGRADOS FLORES NARVAEZ SA</nombreComercial>
+                                            <ruc>1791413253001</ruc>
+                                            <claveAcceso>1803202501179141325300120010020000035561234567810</claveAcceso>
+                                            <codDoc>01</codDoc>
+                                            <estab>001</estab>
+                                            <ptoEmi>002</ptoEmi>
+                                            <secuencial>000003556</secuencial>
+                                            <dirMatriz>PASAJE JOSE LUCUMA E6-180 Y PEDRO CORNELIO</dirMatriz><agenteRetencion>1</agenteRetencion>
+                                        </infoTributaria>
+                                        <infoFactura>
+                                            <fechaEmision>18/03/2025</fechaEmision>
+											<dirEstablecimiento>PASAJE JOSE LUCUMA Y PEDRO CORNELIO</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad>
+                                    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+                                    <razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+									<identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</direccionComprador>
+                                    <totalSinImpuestos>3000</totalSinImpuestos>
+                                    <totalDescuento>0</totalDescuento><totalConImpuestos> <totalImpuesto>
+                                         <codigo>2</codigo>
+                                         <codigoPorcentaje>4</codigoPorcentaje>
+                                         <baseImponible>3000</baseImponible>
+                                         <valor>450</valor>
+                                     </totalImpuesto><totalImpuesto>
+                                         <codigo>2</codigo>
+                                         <codigoPorcentaje>0</codigoPorcentaje>
+                                         <baseImponible>0</baseImponible>
+                                         <valor>0.00</valor>
+                             </totalImpuesto></totalConImpuestos> <propina>0.00</propina>
+                        <importeTotal>3450</importeTotal>
+                        <moneda>DOLAR</moneda><pagos><pago>
+                                        <formaPago>20</formaPago>
+                                        <total>3450</total>
+                                        <plazo>0</plazo> 
+                                        <unidadTiempo>dias</unidadTiempo> 
+                                    </pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>J0101</codigoPrincipal><codigoAuxiliar>J0101</codigoAuxiliar><descripcion>SISTEMA JIREH WEB PROYECTO MINERA BELORO Instalacion y configuracion sistema operativo linux,cifrado de discos,usuarios,instalacion de paquetes, instalacion servicos apache,php,fpm servicios postgresql y configuracion aplicativos</descripcion><cantidad>1.000000</cantidad><precioUnitario>3000</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>3000</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle" valor="SISTEMA JIREH WEB PROYECTO MINERA BELORO Instalacion y configuracion sistema operativo linux,cifrado de discos,usuarios,instalacion de paquetes, instalacion servicos apache,php,fpm servicios postgresql y configuracion aplicativos"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>3000</baseImponible><valor>450</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</campoAdicional><campoAdicional nombre="Telefono">072923970</campoAdicional><campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature78019882">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="Reference-ID-29002796" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>v/OGyRMZwyTkkchVNyCQQ2INxxY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate90631161">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>AcfJk7G/gcOKHoodVJfrPVaAt24=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="SignedPropertiesID49630015" URI="#Signature78019882-SignedProperties30844632" Type="http://uri.etsi.org/01903#SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>5pdWSrTNVHIR8LvIMu2uQ8Dfewk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>TacGyytvPMKwq0yEYVE/5LoF76w4C6tKe5rwcfzr2m1oQU/MxANcH73hiV92Ko8q
+Sdhi6R/34feV/CbuMR7JaVLe7KoljxkKrag1BvD/unnqt1dcyGUHaLJWySacjvm6
+5GE2q6NGTsG4cstcX+ayzX/H0Vaeq1VjcPrjTeXVi1AYC2nq7n6Wpc7dXb3IJvYt
+huHHN7Sut0LnCOAlC5BXd6Yv945YJXrt5BXPoRTVO2biPg7zQlrPiE1zf3VmSexF
+/R1iErRksPxR5WrgGYC9GRdDSWA9HCdbK79e24mIdpB+Ataz9PUdM4NyRnRq8lUw
+9ysTpDIqiJg4axci7Ip/xQ==</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate90631161">
+<ds:X509Data>
+<ds:X509Certificate>MIIMKTCCChGgAwIBAgIECwqKfTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yMzEyMTgxNDE0NTdaFw0yNTEyMTcxNDE0NTdaMIGfMSgwJgYDVQQDDB9XSUxM
+SUFNIEZSQU5DSVNDTyBGTE9SRVMgRkxPUkVTMRUwEwYDVQQFEwwxODEyMjMwOTI0
+NDMxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVD
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4hIKTW44fkD2RV0FAbsf
+60x06Y2ysFRcOGjQ7xBmV0HougyjMwToJa9tICLq0dKvFsUGHsgCdRvc2u/asdxy
+5PKY245zAGnpGxS+6376XkFtSlXGncqxgopRdh2Wi0+vTYCrHw7Vq0MezOlg3jqV
+R8rhwUH0MPxd/9W4kqn1jv/skWz+4KUJSu8lJJpVa67gVG8vP5wF951GKU+bb9MY
+fCLdjENMmo8BZpOCUrO79RT0F7D220TDEdf9z1ZL7tT1LxeiSlheC1tbiWbV8jyy
+xKY95TE8Z9UAej909QX4FZudAxQrJpagolscdT2tnuBuzmEk1gCbVnwjmNbIU6q5
+YwIDAQABo4IHbzCCB2swDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3gl
+gB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6
+Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3Rh
+dHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9sZGFwc2Rj
+YTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1F
+Qz9kZWx0YVJldm9jYXRpb25MaXN0P2Jhc2UwHwYDVR0RBBgwFoEUd2lsbGlhbUBz
+aXNjb250aS5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYI
+KwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBw
+AHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMw
+gZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5l
+Yy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNh
+ZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2Fs
+LnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29jc3Bndy5zZWN1
+cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcKKBn6SB
+nDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0Et
+MiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAy
+MQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJD
+QS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZp
+Y2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRh
+bC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIv
+d2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBE
+RSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBT
+LkEuIDIsQz1FQzAdBgNVHQ4EFgQUNq/I61LgtNVzOYa3P+13AeHeg4swKwYDVR0Q
+BCQwIoAPMjAyMzEyMTgxNDE0NTdagQ8yMDI1MTIxNzE0MTQ1N1owCwYDVR0PBAQD
+AgXgMB8GCisGAQQBgqZyAwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgqZy
+AwEEDAwKMTcwNjM0OTM1MjAVBgorBgEEAYKmcgMJBAcMBVFVSVRPMBEGCisGAQQB
+gqZyAyIEAwwBLjA6BgorBgEEAYKmcgMHBCwMKlBBU0FKRSBKT1NFIExVQ1VNQSBF
+NiAxODAgWSBQRURSTyBDT1JORUxJTzAhBgorBgEEAYKmcgMCBBMMEVdJTExJQU0g
+RlJBTkNJU0NPMB8GCisGAQQBgqZyAyAEEQwPMDAyMDAxMDAwNzMxNjU2MBMGCisG
+AQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAWBgorBgEE
+AYKmcgMDBAgMBkZMT1JFUzBABgorBgEEAYKmcgMKBDIMMFNJU1RFTUFTIENPTlRB
+QkxFUyBJTlRFR1JBRE9TIEZMT1JFUyBOQVJWQUVaIFMgQTAdBgorBgEEAYKmcgML
+BA8MDTE3OTE0MTMyNTMwMDEwEgYKKwYBBAGCpnIDHQQEDAJObzAWBgorBgEEAYKm
+cgMEBAgMBkZMT1JFUzAaBgorBgEEAYKmcgMIBAwMCjA5OTgwNDU2NjYwDQYJKoZI
+hvcNAQELBQADggIBAEgiqYnmW24XOzirrjhkgevYkpj8kYmJ1dHTyZeNJS0A0A0Q
+QHqH6TtE+U49/x/2R1/nfPtLZ1gKUx7t5CejTePhUBJ5kDVmC7//5aw13350FCRd
+cgDWrwVNH0sAUVi0NIdvvXrKus4WyKYzPv2OLODFfWUVPygikwDGZKbbgyJ3mtdz
+gF4iURxcd7KkRyr0A4mQ+Gm+uuK7TQgL3PWkYX/Y2//HQbvdCdsYF8nqz+ppGjED
+pnsXiQEAwdk9wHu01usQSfwxjw4wzGwlBWAtvcXd6+1blj9SxFWv12SES3dm55E6
+1Pyxp51M9iaEF9ZTc9nYLTwHp9+FTctRvr42s7q2uAWMikjIQKpXAVkSHYJLkMil
+eKNy7cW0rxcf5NKRmAxFAk5gpUMWkc1CFyg682ArE9PKWITesnNrClbMGbBUBLSd
+YBCTzFw/PVX/lwNmc2ZsPn3k7K+i12sTU1QhqwkeqjLZ1rXLrjLQ5ciCt/MJMEsv
+VEEWg6HqNfoqBOKegxkbFt01mguYgIHLdB8FetbCobjY+D62l/WyALzUbE2KbJHP
+k3xYLQ/ZbhOasubYHnq/i7SqsStJ7aqoRKbntQoFsujAXYacWJkdD4ahhN5aOkYP
+hD6ULzK5uIPUbqG+OFEFrZn5qLvluBNEPpp6tNcG7SvE7X6+jL2dNNGcMunZ</ds:X509Certificate>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+<ds:X509SerialNumber>185240189</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>4hIKTW44fkD2RV0FAbsf60x06Y2ysFRcOGjQ7xBmV0HougyjMwToJa9tICLq0dKv
+FsUGHsgCdRvc2u/asdxy5PKY245zAGnpGxS+6376XkFtSlXGncqxgopRdh2Wi0+v
+TYCrHw7Vq0MezOlg3jqVR8rhwUH0MPxd/9W4kqn1jv/skWz+4KUJSu8lJJpVa67g
+VG8vP5wF951GKU+bb9MYfCLdjENMmo8BZpOCUrO79RT0F7D220TDEdf9z1ZL7tT1
+LxeiSlheC1tbiWbV8jyyxKY95TE8Z9UAej909QX4FZudAxQrJpagolscdT2tnuBu
+zmEk1gCbVnwjmNbIU6q5Yw==</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object><etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature78019882"><etsi:SignedProperties Id="Signature78019882-SignedProperties30844632"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-03-18T10:05:40+00:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>EQ68opDZ0elvQ9pGqmpvfcJzhaE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>185240189</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyImplied/></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

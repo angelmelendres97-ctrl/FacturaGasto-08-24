@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>FACILIDADES TECNICAS SC</razonSocial><ruc>2390035848001</ruc><claveAcceso>0705202501239003584800120010200000045460000456717</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>020</ptoEmi><secuencial>000004546</secuencial><dirMatriz>AV. QUITO S/N</dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>07/05/2025</fechaEmision><dirEstablecimiento>AV. QUITO S/N</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>Quinta Norte y Guayaquil</direccionComprador><totalSinImpuestos>3900.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>3900.00</baseImponible><valor>585.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>4485.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>4485.00</total><plazo>30</plazo><unidadTiempo>Dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>001</codigoPrincipal><codigoAuxiliar>001</codigoAuxiliar><descripcion>ALQUILER DE BANOS PORTATILES CON LAVAMNOS INTERNO</descripcion><cantidad>60.000000</cantidad><precioUnitario>65.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>3900.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>3900.00</baseImponible><valor>585.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="DIRECCION">Quinta Norte y Guayaquil</campoAdicional><campoAdicional nombre="FORMA DE PAGO">CREDITO</campoAdicional><campoAdicional nombre="RESPONSABLE">JESSICA FLORES</campoAdicional><campoAdicional nombre="Observaciones">por 5 dias - Machala</campoAdicional><campoAdicional nombre="Orden">por 5 dias - Machala</campoAdicional><campoAdicional nombre="EMAIL">fernanda.paccha@grupoadmg.com;facturacionfacilidadestecnicas@gmail.com</campoAdicional><campoAdicional nombre="TELEFONOS">072937375</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature306804">
+<ds:SignedInfo Id="Signature-SignedInfo450712">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID566716" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature306804-SignedProperties754287">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>paWqqLf0GoAQARzJFNr3HrR1MsU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate11019663">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>28XBI0w7Glxna3KkP0+Pj+uxmaU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-270847" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>wNImXlr0IiHuFxn9CG/tIqGDV3s=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue778708">
+KcM6qjjxpXGGBGuZyYwjfWMwAOuq9yYTa3DFgtwcDw3xC5uneRpI8SvH5VCMwvzHVCFgXqh4i5je
+2Cqfo4gpUEcFbrtPFQqvfjSa0Clg15P8JvUiy1ZwnKjnIqQuIxWNMBPPCqqPgREJSOd+GU0q0aKe
+l1jOXW/cQ2+rCU2KG4wnU6nJ2FR4iPZzzvfZBjidDzo2SnEAN5wFqpiJPlvo/0awJ5E8+mPLy/+I
+/rGbJiLP7huoW0800gF09pmDraTuNLTG8nxzXUmNeS8G6cocKJn/2kFtYRBMIdp4d6dArdIqqGp6
+ReWSl+/WROOK9IFjkLUnSw8xbQz8ZeFkjH+WGw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate11019663">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJlTCCB32gAwIBAgIIB0ifytXNlocwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI1MDMyMDIwMzgwMFoXDTI2MDMyMDIwMzgwMFowgdsxCzAJBgNVBAYTAkVDMSEwHwYDVQQKDBhG
+QUNJTElEQURFUyBURUNOSUNBUyBTLkMxGDAWBgNVBAwMD0dFUkVOVEUgR0VORVJBTDEZMBcGA1UE
+BAwQTk9ST8ORQSBaQU1CUkFOTzEUMBIGA1UEKgwLSkFJTUUgREFWSUQxGTAXBgNVBAUTEElEQ0VD
+LTE3MTE5NzIyMzAxJTAjBgNVBAMMHEpBSU1FIERBVklEIE5PUk/DkUEgWkFNQlJBTk8xHDAaBgNV
+BGEME1ZBVEVDLTIzOTAwMzU4NDgwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCP
+ANCrf54tEzIGV79lkrOJk4+vYZxWxZLhNr0AJg5FyamytpIXincLrRG6wRwzcZQRcESPmoKhaLOQ
+Jo3A4pgqCNUXqYYdIWUWz5/EHLgF6Nb2CFg92h1AmujmcMSOcb7ZL3NwXK6uCs66T/vellJJRLE+
+J5aAGHuz/LV3h+BRCF3myWEKyvclLqVgEf/AdBwSQQmKPZT8pSwlwUDoK6RQKtbAtFSwG1P22Fi8
+C7+Z5DQWHfurhFyDaZTg24ZVJ1NVxh4Q++arc+VeWYsLTCjX0jzz8fWUmrTX/M/U8PUTtIQak8Xy
++sYMOfP7t2edhhe7KrZc7W17Myiti42V1kpRAgMBAAGjggR8MIIEeDAbBgsrBgEEAYLxNmYDAQQM
+DAoxNzExOTcyMjMwMB4GCysGAQQBgvE2ZgMLBA8MDTIzOTAwMzU4NDgwMDEwgdcGCCsGAQUFBwEB
+BIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxv
+YWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8v
+b2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9v
+Y3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQUIzhsJJY+hrItil13
+BHAWBzxNCFMwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGydJJz/TCB
+jgYDVR0gBIGGMIGDMIGABgwrBgEEAYLxNmYCAwEwcDA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cu
+dWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzA1BggrBgEFBQcCAjApDCdDRVJUSUZJQ0FE
+TyBERSBSRVBSRVNFTlRBTlRFIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6gPIY6aHR0cDov
+L2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRhLmNybDBAoD6g
+PIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh
+LmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIIBvQYD
+VR0RBIIBtDCCAbCBHWdsb2JhbGluZm9ybWFjaW9uNzRAZ21haWwuY29toBsGCysGAQQBgvE2ZgMB
+oAwMCjE3MTE5NzIyMzCgHAYLKwYBBAGC8TZmAwKgDQwLSkFJTUUgREFWSUSgGAYLKwYBBAGC8TZm
+AwOgCQwHTk9ST8ORQaAZBgsrBgEEAYLxNmYDBKAKDAhaQU1CUkFOT6AgBgsrBgEEAYLxNmYDBaAR
+DA9HRVJFTlRFIEdFTkVSQUygHAYLKwYBBAGC8TZmAwegDQwLQVYgUVVJVE8gU06gHwYLKwYBBAGC
+8TZmAwigEAwOMDA1OTM5ODg0NTI2MTSgHgYLKwYBBAGC8TZmAwmgDwwNU0FOVE8gRE9NSU5HT6Ap
+BgsrBgEEAYLxNmYDCqAaDBhGQUNJTElEQURFUyBURUNOSUNBUyBTLkOgHgYLKwYBBAGC8TZmAwug
+DwwNMjM5MDAzNTg0ODAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6AkBgsrBgEEAYLxNmYDMqAVDBNS
+RVBSRVNFTlRBTlRFIExFR0FMoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcNAQEL
+BQADggIBAFab9wjg5rbL4Ybd8JbF5fdURaUnOjRHjr/kFEW/Jm8sWH/ZzZ9KrJMngzxz0jaP1xJu
+4icR3G0PMnjnZRY3U/x49Arf2htsW1JhP8PEpyfZjBwsFoazKgLYHmnxCK84/VTL4in/mAsYpmkR
+M5dmORWktK3pIm40m+QqX2aQbdwxdpPDHtmITMpbtQzIbVna5WgjhXt90foef5mK81xLM+Cul+6l
+thTZgf7LVu/nmBGbRfhY25nVE2al+gYvyEvcAtWiEtj/Ou/gOFfzFv0/7W3V9aU9vKZFbchs0Psn
+qm8HoCZdDfI+owPyDwS4Uf9zYu29y8fY6unJ8/WbjoDorggiACqoUypTSeN5+UPZ0a7bKeSpwCXy
+LI+wkmU/DGCEqCu75h+zqtfPJcth/jgtRfmE4pzAsS/+ifwnb0n09jl3756XRh8wUzGkO273XBfP
+AHDfq7LfetEW0c9sky+tE+hCLx213eDEYBT54VPLRYYbQ6YK7LXhFYnvBB7TEP9cHbmnt+CC0BhT
+PY28ZBolEsi49xL5ozyWJJ86GnA4hqBYuBTnRkMjyI882ByIoZtOfX539oEMxbfjsXBgSasVMavs
+xZja0LjmSiKBgcPfT+Zet4gqgsK6XY3KcXHoFXiQEYqSIoDQ1ALoMlpNqjDJTcMvweWgvu6tgSmT
+f2SI7HSJ
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+jwDQq3+eLRMyBle/ZZKziZOPr2GcVsWS4Ta9ACYORcmpsraSF4p3C60RusEcM3GUEXBEj5qCoWiz
+kCaNwOKYKgjVF6mGHSFlFs+fxBy4BejW9ghYPdodQJro5nDEjnG+2S9zcFyurgrOuk/73pZSSUSx
+PieWgBh7s/y1d4fgUQhd5slhCsr3JS6lYBH/wHQcEkEJij2U/KUsJcFA6CukUCrWwLRUsBtT9thY
+vAu/meQ0Fh37q4Rcg2mU4NuGVSdTVcYeEPvmq3PlXlmLC0wo19I88/H1lJq01/zP1PD1E7SEGpPF
+8vrGDDnz+7dnnYYXuyq2XO1tezMorYuNldZKUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature306804-Object562593"><etsi:QualifyingProperties Target="#Signature306804"><etsi:SignedProperties Id="Signature306804-SignedProperties754287"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-05-07T15:02:59-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>zBBl2qtwem7HfYX5ZYCgRy+Vcag=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>524845050107893383</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-270847"><etsi:Description>powered by ElectroFacturas.com</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

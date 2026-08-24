@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>SUMINISTROS INDUSTRIALES Y HERRAMIENTAS DE PERFORACIÓN SUMINELEC-EC S.A.S.</razonSocial>
+	    <nombreComercial>SUMINELEC-EC S.A.S.</nombreComercial>
+	    <ruc>1191796983001</ruc>
+	    <claveAcceso>1001202501119179698300120010010000001465678130616</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>001</ptoEmi>
+	    <secuencial>000000146</secuencial>
+	    <dirMatriz>LOJA / LOJA / LOJA / JOSE MARIA PEÑA Y 10 DE AGOSTO</dirMatriz>
+		
+		
+		
+			<contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe>
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>10/01/2025</fechaEmision>
+		
+			<dirEstablecimiento>LOJA / LOJA / LOJA / JOSE MARIA PEÑA Y 10 DE AGOSTO</dirEstablecimiento>
+		
+	    
+	    
+			<obligadoContabilidad>SI</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+	    
+	    <totalSinImpuestos>1004.93000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>251.23</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>1004.93</baseImponible>
+				<valor>150.74000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>1155.67000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>1155.67</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>P551010</codigoPrincipal>
+		<codigoAuxiliar>P551010</codigoAuxiliar>
+      	<descripcion>P551010 FILTRO DE COMBUSTIBLE- SEPARADOR DE AGUA</descripcion>
+      
+      <cantidad>4.000000</cantidad>
+      <precioUnitario>68.900000</precioUnitario>
+	  
+      <descuento>55.12</descuento>
+      <precioTotalSinImpuesto>220.48</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>220.48000</baseImponible>
+          <valor>33.07</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+    <detalle>
+      
+      	<codigoPrincipal>P551001</codigoPrincipal>
+		<codigoAuxiliar>P551001</codigoAuxiliar>
+      	<descripcion>P551001 FILTRO DE COMBUSTIBLE- SEPARADOR  DE AGUA</descripcion>
+      
+      <cantidad>4.000000</cantidad>
+      <precioUnitario>38.500000</precioUnitario>
+	  
+      <descuento>30.80</descuento>
+      <precioTotalSinImpuesto>123.20</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>123.20000</baseImponible>
+          <valor>18.48</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+    <detalle>
+      
+      	<codigoPrincipal>P551808</codigoPrincipal>
+		<codigoAuxiliar>P551808</codigoAuxiliar>
+      	<descripcion>P551808 FILTRO DE ACEITE</descripcion>
+      
+      <cantidad>6.000000</cantidad>
+      <precioUnitario>24.660000</precioUnitario>
+	  
+      <descuento>29.59</descuento>
+      <precioTotalSinImpuesto>118.37</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>118.37000</baseImponible>
+          <valor>17.76</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+    <detalle>
+      
+      	<codigoPrincipal>P551311</codigoPrincipal>
+		<codigoAuxiliar>P551311</codigoAuxiliar>
+      	<descripcion>P551311 FILTRO DE COMBUSTIBLE- PRIMARIO</descripcion>
+      
+      <cantidad>8.000000</cantidad>
+      <precioUnitario>22.860000</precioUnitario>
+	  
+      <descuento>36.58</descuento>
+      <precioTotalSinImpuesto>146.30</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>146.30000</baseImponible>
+          <valor>21.94</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+    <detalle>
+      
+      	<codigoPrincipal>P165569</codigoPrincipal>
+		<codigoAuxiliar>P165569</codigoAuxiliar>
+      	<descripcion>P165569 FILTRO HIDRAULICO</descripcion>
+      
+      <cantidad>4.000000</cantidad>
+      <precioUnitario>123.930000</precioUnitario>
+	  
+      <descuento>99.14</descuento>
+      <precioTotalSinImpuesto>396.58</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>396.58000</baseImponible>
+          <valor>59.49</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+	
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+    	
+    		
+    			<campoAdicional nombre="Descripción">ITEM 1 4 ENTREGA INMEDITA 4 Y 2 ENTREGA 3 DIAS  ITEM 5 3 DIAS  ENTREGA INMEDIATA</campoAdicional>
+    		
+    	
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature782145">
+<ds:SignedInfo Id="Signature-SignedInfo675952">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID279064" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature782145-SignedProperties1040819">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>sblTSRMqGpqquJhEhr8jF+yPSVc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1567483">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>4KyBher/B0pW/Ozdvm3DUr2xvsY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-582256" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>STuu68bGOR6oR+KtCs18OjzPun0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue529722">
+ggn0yym42+pq7WksVS3YM/nc9O5TlhS8MpgSPmsekRBsc0RYgFG0z1Au5SkP4ciLgONEzrtawUv2
+O8YaV5gy4UtOGPgrYi1mzmszVVEzJH4k2ZYOxZLaFFnKAOkn7YJOB11jRYnBGEcRxP4FrLf/fOir
+JuJFRYQewFGV0k2eXzto459YYrfdbrVho5EcxeL+fFULUpTW7/6y0qOV/yYRz7WEZfCqCGApNB+w
+4A1znGEGctGeot8DP/QSLZemaz0Tf5rrseUoCtAzXmrjtfJrcrs0dftw7rxVVzNB7IdHNnH61C6t
+zr58crM0NXBlTXTZ7xfpF+fu7rypru1KHUYudw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1567483">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMOTCCCiGgAwIBAgIEd18uYDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA5MDQyMDMwMTVaFw0yNTA5MDMyMDMwMTVaMIGfMSgw
+JgYDVQQDDB9DUklTVElBTiBCT0xJVkFSIFNBTENFRE8gUE9OVE9OMRUwEwYDVQQFEwwwNDA5MjMx
+NTQwMDQxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEApo1BSRettSO2oDd6b2YefpuTR0hi617nmZsqkDXVdwuoApmkxJWo
+XIrbV90UPy2termh+ODpShMv1ckx46lD8wcu4yc4H837wdrJG9yelm5b7FZNCrz4Xqj5Nve4tSXu
+ogTp0uC7i/PDcrc8vPCr7RrYb92vOxva+WUKCIHXuvQ74v2yyw5/dZICMrWuIdAkaXglJ+euh0T3
+h9vkNz/KLBK4RZxdWVOBvMaz7HdwdZ3P/YKe7hYwAuL3CqmCmb+InvevhJqxfXyOTS26BDOXPZGQ
+h2T3jgRJVmCh9L+l9xVc87XAOiPR6Tsrl6S2wjnY93hkkqsC9SYkHEgzcjqsewIDAQABo4IHfzCC
+B3swDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEF
+BQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9l
+amJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6
+Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25M
+aXN0P2Jhc2UwIwYDVR0RBBwwGoEYY3NhbGNlZG9wb250b25AZ21haWwuY29tMIIBFQYDVR0gBIIB
+DDCCAQgwYgYKKwYBBAGCpnICCTBUMFIGCCsGAQUFBwICMEYeRABDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABkAGUAIABSAGUAcAByAGUAcwBlAG4AdABhAG4AdABlACAATABlAGcAYQBsMIGhBgorBgEE
+AYKmcgIDMIGSMIGPBggrBgEFBQcCARaBgmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMv
+d3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGlj
+YXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50YW50ZSBMZWdhbC5wZGYwggKiBgNVHR8EggKZMIIC
+lTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3
+ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FD
+SU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UE
+BhMCRUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049
+QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAy
+LEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9w
+b3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRp
+c3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFOTYrP+xMmoHmqfX
+FnPAf9TUltFAMCsGA1UdEAQkMCKADzIwMjMwOTA0MjAzMDE1WoEPMjAyNTA5MDMyMDMwMTVaMAsG
+A1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMB
+BAwMCjExMDQxODI1NjEwFAYKKwYBBAGCpnIDCQQGDARMT0pBMBEGCisGAQQBgqZyAyIEAwwBLjAu
+BgorBgEEAYKmcgMHBCAMHkpPU0UgTUFSSUEgUEVOQSBZIDEwIERFIEFHT1NUTzAgBgorBgEEAYKm
+cgMCBBIMEENSSVNUSUFOIEJPTElWQVIwHwYKKwYBBAGCpnIDIAQRDA8wMDUwMDEwMDAwODY4ODIw
+EwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBcGCisGAQQBgqZy
+AwMECQwHU0FMQ0VETzBZBgorBgEEAYKmcgMKBEsMSVNVTUlOSVNUUk9TIElORFVTVFJJQUxFUyBZ
+IEhFUlJBTUlFTlRBUyBERSBQRVJGT1JBQ0lPTiBTVU1JTkVMRUMgRUMgUyBBIFMwHQYKKwYBBAGC
+pnIDCwQPDA0xMTkxNzk2OTgzMDAxMBIGCisGAQQBgqZyAx0EBAwCTm8wFgYKKwYBBAGCpnIDBAQI
+DAZQT05UT04wGgYKKwYBBAGCpnIDCAQMDAowOTgwMTg5NzQ1MA0GCSqGSIb3DQEBCwUAA4ICAQAH
+L7asesNwpMLbp5yFuSxPPo8m4CU6YEX4tKCggn71Wx6O4ohSJUdseBelywG20ZNxFFXjfSrMsMss
+603LpxiKcX85FauxTCHEyzwKaqWsno3plwRWEGgnY0Zew3YgtxMTS1xSowyPkCJCUM1JWqz3CGWJ
+q0ufzgL40IGMh2pqLojGnvCjaH6aOrHom9iKwX3QZMVx+EXcEtXVj6JFWRxpCDNY6H+Gl3d5ZhcA
+Bx4sHWfOcPf3xY40rx6tSGL4E02GnwQ81Db/pkDtU/x/3r8I7VN3kLSaNYR2dHOFjosoc1MQ01YK
+9kIkpDjZ9E1NjtkxgI/dFOYaMBIwaQuO44axufUoQ6ghBvvSWxDPVxnYoqYGMcr6Ge7EzepskTPF
+8YxUlk2pY6qXcMHO5rkyNEIcD666IFk4sOxJAc3qvax9a6AC3t0/Po+eyfGEjBs7MvyMwqWIu/QW
+pxuB3dSrfUnnLnFMjpQjLa+dI4o5WWw7SqgRIgGlXaa5cUsasffo3wkEiQK2S+6Op5s4l9nZFVw6
+7iKOmKpx+wQF8u5NUVHXDKaK4YLRFJN5ZvDu3OpDS0w49vdba8vYrF8x5pYjk4w4w23fBptg4Pqo
+q9VqXuaFESJdrf6+kSAMvin02GbhOGXVs0EkP3D1HiE6AoVrZbgJDAjlN5aChri+33C2LMF4CQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+po1BSRettSO2oDd6b2YefpuTR0hi617nmZsqkDXVdwuoApmkxJWoXIrbV90UPy2termh+ODpShMv
+1ckx46lD8wcu4yc4H837wdrJG9yelm5b7FZNCrz4Xqj5Nve4tSXuogTp0uC7i/PDcrc8vPCr7RrY
+b92vOxva+WUKCIHXuvQ74v2yyw5/dZICMrWuIdAkaXglJ+euh0T3h9vkNz/KLBK4RZxdWVOBvMaz
+7HdwdZ3P/YKe7hYwAuL3CqmCmb+InvevhJqxfXyOTS26BDOXPZGQh2T3jgRJVmCh9L+l9xVc87XA
+OiPR6Tsrl6S2wjnY93hkkqsC9SYkHEgzcjqsew==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature782145-Object604735"><etsi:QualifyingProperties Target="#Signature782145"><etsi:SignedProperties Id="Signature782145-SignedProperties1040819"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-01-10T10:00:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>VLPfgjTmf7IgFg6mb7aLM6zjbVo=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>2002726496</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

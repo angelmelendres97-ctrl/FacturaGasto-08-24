@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>BALDEON MARTINEZ OLGA VERONICA</razonSocial><ruc>0915413413001</ruc><claveAcceso>0107202601091541341300120020110000085321234567811</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>011</ptoEmi><secuencial>000008532</secuencial><dirMatriz>EDIF TRADE BUILDING PISO 6 OFICINA L 611 AVE. JOAQUIN ORRANTIA Y LEOPOLDO BENITEZ</dirMatriz></infoTributaria><infoFactura><fechaEmision>01/07/2026</fechaEmision><dirEstablecimiento>EDIF TRADE BUILDING PISO 6 OFICINA L 611 AVE. JOAQUIN ORRANTIA Y LEOPOLDO BENITEZ</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>3.58</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>3.58</baseImponible><tarifa>15.00</tarifa><valor>0.54</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>4.12</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>4.12</total><plazo>0</plazo><unidadTiempo>DIAS</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>1</codigoPrincipal><descripcion>(2) CERTIFICACIÓN DE DOCUMENTOS EXHIBIDOS EN ORIGINAL</descripcion><cantidad>1.000000</cantidad><precioUnitario>3.580000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>3.58</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>3.58</baseImponible><valor>0.54</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="emailCliente">bespinoza@mavesa.com.ec</campoAdicional><campoAdicional nombre="dirCliente">MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional><campoAdicional nombre="Matrizador">ANGELA MICHELLE BAILON ALVARADO</campoAdicional><campoAdicional nombre="Numero de Libro">20260901006C04954</campoAdicional><campoAdicional nombre="Telefono">072937375</campoAdicional><campoAdicional nombre="Celular">072937375</campoAdicional><campoAdicional nombre="Temporal">00011980</campoAdicional><campoAdicional nombre="dirCliente">MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature837158">
+<ds:SignedInfo Id="Signature-SignedInfo892134">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID549614" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature837158-SignedProperties950566">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>hJo/ZaEkvlF1V2TbpauStduOLok=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1439600">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>uS3bQYS1JXdlPZOZsd0bP9TQzkk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-355163" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>1Gli4J7A5RE+BANWKAskwu84Pbk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue869337">
+I1byChdG7olGCoBcJePkDgucSORMTB9T6nywYYVVKmT2JrYurLHEbBZAIYI6zZkb9hiHWURQRwQ0
+JxDmDClkLt0088b27TaIdVtXYNfkPJPaFHsQkLqn4zE7Fh4APJ+wh0fgat9q00fdi6st5k1oqoa6
++Dms30u1o9+HdwWQkVdz8M8eNRz8bsydTwb1tppBhqXtH/HQmZhV0QOWlAomeJRMheRlEMFV5jbl
+JgrFnyaCoLZCFRr6FEIxyFAuF7x3yJmzlV4tG8hXCbnNR1Zq5feYv8+pgY2V+vN4t4qYYIfD3MHN
+drqyBcGbo5vYjNb4cF8fSLrq1YL8fORCui3P8g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1439600">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH1zCCBb+gAwIBAgIIJJAlxz6y6SswDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAkVDMREw
+DwYDVQQHDAhETSBRVUlUTzEhMB8GA1UECgwYQ09OU0VKTyBERSBMQSBKVURJQ0FUVVJBMUQwQgYD
+VQQLDDtTVUJESVJFQ0NJT04gTkFDSU9OQUwgREUgU0VHVVJJREFEIERFIExBIElORk9STUFDSU9O
+IEROVElDUzEqMCgGA1UEAwwhRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIElDRVJULUVDMB4XDTI0
+MTIyMzIyMjMwMFoXDTI2MTIyMzIyMjMwMFowXzELMAkGA1UEBhMCRUMxEjAQBgNVBAcTCUdVQVlB
+UVVJTDETMBEGA1UEBRMKMDkxNTQxMzQxMzEnMCUGA1UEAxMeT0xHQSBWRVJPTklDQSBCQUxERU9O
+IE1BUlRJTkVaMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoJozOjNlBA3qKF0EEFSR
+D2HzVWSmJeWZfIGcLtG0Zh3Pl0vigLbX9M47BMTBfRjkyTLjyk9rTOk+KBA/RRVo83iK3P4FPWv5
+U+CdD/e+IQB1oIWCwH6hxR8J84YQlS/u7VH7+Sg62wp9LE+pckKOSC9b74xcxaiNY57WOVLu4K81
+sMXqoYAyd0j69WHhnnWBuYBLphy5ziqwq1+WhbksOaV6Iqv0EXU5h3KVTEJqwGwCdY3df+t3l+Gq
+st3u4DOe3IluVpEsjoLMsoMnapmLJJlE3u6KmosIxAaW7DEW0onFiDz7C1NFPoqdGimgbLI853Ex
+VfJoBS+is/yn90fCawIDAQABo4IDPjCCAzowggHSBgNVHREEggHJMIIBxYEdb2xnYS5iYWxkZW9u
+QG5vdGFyaWE2LWd5ZS5jb22gGwYLKwYBBAGC1WEBAwGgDAwKMDkxNTQxMzQxM6AeBgsrBgEEAYLV
+YQEDAqAPDA1PTEdBIFZFUk9OSUNBoBgGCysGAQQBgtVhAQMDoAkMB0JBTERFT06gGQYLKwYBBAGC
+1WEBAwSgCgwITUFSVElORVqgSwYLKwYBBAGC1WEBAwegPAw6RURJRiBUUkFERSBCVUlMRElORyBQ
+SVNPIDYgT0ZJQyBMIDYxMSBBViBKT0FRVUlOIE9SUkFOVElBIKAeBgsrBgEEAYLVYQEDCKAPDA0r
+NTkzOTk5NDAwNzAwoBoGCysGAQQBgtVhAQMJoAsMCUdVQVlBUVVJTKAeBgsrBgEEAYLVYQEDC6AP
+DA0wOTE1NDEzNDEzMDAxoBgGCysGAQQBgtVhAQMMoAkMB0VDVUFET1KgIAYLKwYBBAGC1WEBAzKg
+EQwPUEVSU09OQSBOQVRVUkFMoCAGCysGAQQBgtVhAQMzoBEMD0FSQ0hJVk8gUEtDUyMxMqARBgsr
+BgEEAYLVYQEDNKACDACgGAYLKwYBBAGC1WEBAzWgCQwHQUJPR0FEQTAJBgNVHRMEAjAAMB8GA1Ud
+IwQYMBaAFC8ievhebZSOakAUN8dua3LpOsI/MDgGCCsGAQUFBwEBBCwwKjAoBggrBgEFBQcwAYYc
+aHR0cDovL29jc3AuaWNlcnQuZmplLmdvYi5lYzByBgNVHSAEazBpMGcGDisGAQQBgtVhAQIBAQIB
+MFUwUwYIKwYBBQUHAgEWR2h0dHA6Ly93d3cuaWNlcnQuZmplLmdvYi5lYy9kcGMvZGVjbGFyYWNp
+b25fcHJhY3RpY2FzX2NlcnRpZmljYWNpb24ucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEF
+BQcDBDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vd3d3LmljZXJ0LmZqZS5nb2IuZWMvY3JsL2lj
+ZXJ0LmNybDAdBgNVHQ4EFgQU8QfNyE7v89VA/Lz0YBkcRstAA34wDgYDVR0PAQH/BAQDAgbAMA0G
+CSqGSIb3DQEBCwUAA4ICAQAgC9CuOBWm5ZOzYZI8Za8ezD1Bc9uIx/ArR1HtX34f+FlMGqsPb1ed
+LUPeZrFoua6KuK1pGevAeDr+2yQfKp6pulaIvKoulLVSLVIVAOpC5VXhlgJNs9hqgH1pGtoQvKIr
+KGzlm33uMGGtEdfMTDc0sgvoscdo/thNhH/9F8ye2KdNhcCTueHDFYeebFfgVv3VqBwLBof7A0/Y
+e9+OM5UzucvPpWwhQ45dJhnivbI5ATrsdqXC+k5gy02zLV9Ntav5JkD0FGaF3KQmoQKBL8eKrRAE
+Mnxg6ctgLm5YBaRMuVaXH5WMEri6OvxSK+gnVpw8JT0gxXvjSuXCVoSyV7rV6QLCcFJ4hYUHtHke
+7NVa5uwA9WZMuhcNzJftEZb0qsecHeWamg2O8DSjfNz6JITB2GTpLag8AmpFR+vV47zPny2tALnU
+AFaC/62RrZQJVQY3+bRrpOZDUhvDOrxQqwJLP5LKt3OiHOTLseqGlVIWfOKPlzR8/BOQykGRPS6T
+WsDf27Eh1KYoLX6l99JT20+lz1HatCt16IfGX7v8u3MVbybYN+3ufyx+mmy5GC7ti3D0pW1nBVAp
+SORnSmQTQEbU+e5VITDljFI30lB549QewjAMaZjYs36S6VcaeYXP4W8M/zTIEKLFYng9a/pyMwlq
+p/xZMYyM+NO6mNa4OTfUeQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oJozOjNlBA3qKF0EEFSRD2HzVWSmJeWZfIGcLtG0Zh3Pl0vigLbX9M47BMTBfRjkyTLjyk9rTOk+
+KBA/RRVo83iK3P4FPWv5U+CdD/e+IQB1oIWCwH6hxR8J84YQlS/u7VH7+Sg62wp9LE+pckKOSC9b
+74xcxaiNY57WOVLu4K81sMXqoYAyd0j69WHhnnWBuYBLphy5ziqwq1+WhbksOaV6Iqv0EXU5h3KV
+TEJqwGwCdY3df+t3l+Gqst3u4DOe3IluVpEsjoLMsoMnapmLJJlE3u6KmosIxAaW7DEW0onFiDz7
+C1NFPoqdGimgbLI853ExVfJoBS+is/yn90fCaw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature837158-Object736072"><etsi:QualifyingProperties Target="#Signature837158"><etsi:SignedProperties Id="Signature837158-SignedProperties950566"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-01T18:07:00-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Rf3cDEPzl0BiBiV0NrXA6V8uySE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ENTIDAD DE CERTIFICACION ICERT-EC,OU=SUBDIRECCION NACIONAL DE SEGURIDAD DE LA INFORMACION DNTICS,O=CONSEJO DE LA JUDICATURA,L=DM QUITO,C=EC</ds:X509IssuerName><ds:X509SerialNumber>2634647319692372267</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-355163"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

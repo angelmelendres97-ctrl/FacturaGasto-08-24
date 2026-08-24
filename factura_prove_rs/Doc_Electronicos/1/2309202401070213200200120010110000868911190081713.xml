@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>SAMANIEGO CABRERA CESAR EDWIN</razonSocial>
+		<nombreComercial>ORO PERNO</nombreComercial>
+		<ruc>0702132002001</ruc>
+		<claveAcceso>2309202401070213200200120010110000868911190081713</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000086891</secuencial>
+		<dirMatriz>EL ORO / MACHALA / MARCEL LANIADO S/N Y 10 DE AGOSTO</dirMatriz>
+		<agenteRetencion>1</agenteRetencion>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>23/09/2024</fechaEmision>
+	<dirEstablecimiento>EL ORO / MACHALA / MARCEL LANIADO S/N Y 10 DE AGOSTO</dirEstablecimiento>
+	<obligadoContabilidad>SI</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>LOS JARDINES, GUAYAQUIL Y 5TA NORTE</direccionComprador>
+	<totalSinImpuestos>362.62</totalSinImpuestos>
+	<totalDescuento>0.00</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<descuentoAdicional>0.00</descuentoAdicional>
+		<baseImponible>362.62</baseImponible>
+		<valor>54.39</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0.00</propina>
+	<importeTotal>417.01</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>417.01</total>
+		<plazo>30</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>000000001832</codigoPrincipal>
+		<descripcion>PERNO G8 NEGRO UNC 5/8 X 2</descripcion>
+		<unidadMedida>Cajas: 30 Unidades: 0</unidadMedida>
+		<cantidad>30.000000</cantidad>
+		<precioUnitario>0.782608</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>23.48</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>23.48</baseImponible>
+			<valor>3.52</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000006954</codigoPrincipal>
+		<descripcion>TUERCA G2 UNC 5/8</descripcion>
+		<unidadMedida>Cajas: 2 Unidades: 0</unidadMedida>
+		<cantidad>30.000000</cantidad>
+		<precioUnitario>0.173913</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002835</codigoPrincipal>
+		<descripcion>ANILLO PLANO NACIONAL 5/8</descripcion>
+		<unidadMedida>Cajas: 1 Unidades: 10</unidadMedida>
+		<cantidad>30.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>2.61</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>2.61</baseImponible>
+			<valor>0.39</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002845</codigoPrincipal>
+		<descripcion>ANILLO PRESION NEGRO 5/8</descripcion>
+		<unidadMedida>Cajas: 0 Unidades: 30</unidadMedida>
+		<cantidad>30.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>2.61</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>2.61</baseImponible>
+			<valor>0.39</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000001834</codigoPrincipal>
+		<descripcion>PERNO G8 NEGRO UNC 5/8 X 3</descripcion>
+		<unidadMedida>Cajas: 60 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>1.043478</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>62.61</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>62.61</baseImponible>
+			<valor>9.39</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000006954</codigoPrincipal>
+		<descripcion>TUERCA G2 UNC 5/8</descripcion>
+		<unidadMedida>Cajas: 4 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.173913</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>10.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>10.43</baseImponible>
+			<valor>1.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002835</codigoPrincipal>
+		<descripcion>ANILLO PLANO NACIONAL 5/8</descripcion>
+		<unidadMedida>Cajas: 3 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002845</codigoPrincipal>
+		<descripcion>ANILLO PRESION NEGRO 5/8</descripcion>
+		<unidadMedida>Cajas: 1 Unidades: 17</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000001836</codigoPrincipal>
+		<descripcion>PERNO G8 NEGRO UNC 5/8 X 4</descripcion>
+		<unidadMedida>Cajas: 60 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>1.608695</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>96.52</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>96.52</baseImponible>
+			<valor>14.48</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000006954</codigoPrincipal>
+		<descripcion>TUERCA G2 UNC 5/8</descripcion>
+		<unidadMedida>Cajas: 4 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.173913</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>10.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>10.43</baseImponible>
+			<valor>1.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002835</codigoPrincipal>
+		<descripcion>ANILLO PLANO NACIONAL 5/8</descripcion>
+		<unidadMedida>Cajas: 3 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002845</codigoPrincipal>
+		<descripcion>ANILLO PRESION NEGRO 5/8</descripcion>
+		<unidadMedida>Cajas: 1 Unidades: 17</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000001837</codigoPrincipal>
+		<descripcion>PERNO G8 NEGRO UNC 5/8 X 4 1/2</descripcion>
+		<unidadMedida>Cajas: 60 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>1.782608</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>106.96</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>106.96</baseImponible>
+			<valor>16.04</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000006954</codigoPrincipal>
+		<descripcion>TUERCA G2 UNC 5/8</descripcion>
+		<unidadMedida>Cajas: 4 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.173913</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>10.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>10.43</baseImponible>
+			<valor>1.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002835</codigoPrincipal>
+		<descripcion>ANILLO PLANO NACIONAL 5/8</descripcion>
+		<unidadMedida>Cajas: 3 Unidades: 0</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000002845</codigoPrincipal>
+		<descripcion>ANILLO PRESION NEGRO 5/8</descripcion>
+		<unidadMedida>Cajas: 1 Unidades: 17</unidadMedida>
+		<cantidad>60.000000</cantidad>
+		<precioUnitario>0.086956</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>5.22</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>5.22</baseImponible>
+			<valor>0.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="Direccion">LOS JARDINES, GUAYAQUIL Y 5TA NORTE</campoAdicional>
+	<campoAdicional nombre="Vencimiento">23/10/2024</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C. L.</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature659704">
+<ds:SignedInfo Id="Signature-SignedInfo633382">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID259009" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature659704-SignedProperties208531">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>TUVKZwpnMGBLZZM0qNW3xRBbir8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1513350">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>whqpRWkiZdhSggN2FgGGzz8cFbw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-536813" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>I3vZyujdjJb9WOWPTqBZgN2L4co=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue337332">
+e4fH4PgLzz9tQREnw7pS0LObtvO8sW/vHxuu36z9AvxFNjuMC6H28jlk0m7hoirAwcEBf4WR3fFX
+wQkOncRDia0qWqINaGS7D8uc/MVhYcnia8V9CmGvMesNC4WMb1uVryuYzYF8z5wJd6019RVUB6Q5
+o093eQ0X5hqIOSnFOK8+Cn+5nHWD1Eljqe7XcrWUWuUKJ/7qfGmd3Wry1MZLA6pIZPqqCAac4XlF
+jxzoifXXRTmyf5IzDHBQTZu94j5T30xynEAP3jluPOw43GMCV9luYqCjNFhYsSy5TWNX4ipHRAHD
+UGNaLZ7rDDHV++1RpXM0wnQpdi+5IWDNC3WUjg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1513350">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJJjCCBw6gAwIBAgIIF1LYVHr6x6swDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTExNzE0MDEwMFoXDTI4MTExNTE0MDEwMFowgaAxCzAJBgNVBAYTAkVDMRowGAYDVQQEDBFT
+QU1BTklFR08gQ0FCUkVSQTEUMBIGA1UEKgwLQ0VTQVIgRURXSU4xGTAXBgNVBAUTEElEQ0VDLTA3
+MDIxMzIwMDIxJjAkBgNVBAMMHUNFU0FSIEVEV0lOIFNBTUFOSUVHTyBDQUJSRVJBMRwwGgYDVQRh
+DBNUSU5FQy0wNzAyMTMyMDAyMDAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGEk
+ADrE+cTsDKrOxQgHqhoIKQPJ2gTIcwDdf3H4HSXsa6GxJ6bqZDMas6N6GWohJfcZ4ZNRj4kN3VYj
+7tP70XfgJyTID5c/6St9p6yhQrsTCrmBbiue9iuY/w/yjsdmc+ldzMWRi0MKjhiMhB7jFqJRrxhb
+Y37JcPygcgUTum7qxy1tRh3Js1X4bC9/XVzR0DADaN/wvLJcbzVdvOG5/CWeM7BR1NdbzKx8B5aV
+CxYYIsASj6ra0fnJdgpqfFZZc/yRyDCD0cHz8KZdk+7w21CrQDbonjeE4tfQO9/cnYONtwPA7GTZ
+pU6NvwxMSkuQmhmlXlKzu8rmr7FSwHW1VwIDAQABo4IESDCCBEQwGwYLKwYBBAGC8TZmAwEEDAwK
+MDcwMjEzMjAwMjAeBgsrBgEEAYLxNmYDCwQPDA0wNzAyMTMyMDAyMDAxMIHXBggrBgEFBQcBAQSB
+yjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2Fk
+L3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0cDovL29j
+c3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRwOi8vb2Nz
+cDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFFaevK+rcRqV/WQlf1Wj
+ATbwrnVZMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgZkG
+A1UdIASBkTCBjjCBiwYMKwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVh
+bmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElGSUNBRE8g
+REUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6g
+PIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh
+LmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1
+Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMIIBfgYDVR0RBIIBdTCCAXGBFmNzYW1hbmllZ29vcEBnbWFpbC5jb22gGwYLKwYBBAGC8TZm
+AwGgDAwKMDcwMjEzMjAwMqAcBgsrBgEEAYLxNmYDAqANDAtDRVNBUiBFRFdJTqAaBgsrBgEEAYLx
+NmYDA6ALDAlTQU1BTklFR0+gGAYLKwYBBAGC8TZmAwSgCQwHQ0FCUkVSQaAxBgsrBgEEAYLxNmYD
+B6AiDCBNQVJDRUwgTEFOSUFETyBTTiBZIDEwIERFIEFHT1NUT6AfBgsrBgEEAYLxNmYDCKAQDA4w
+MDU5Mzk5ODA3MjQ2OKAYBgsrBgEEAYLxNmYDCaAJDAdNQUNIQUxBoB4GCysGAQQBgvE2ZgMLoA8M
+DTA3MDIxMzIwMDIwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOgKQYLKwYBBAGC8TZmAzKgGgwYUEVS
+U09OQSBOQVRVUkFMIE8gRklTSUNBoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcN
+AQELBQADggIBAFHvpFa9uPXhmh2PmJcuBTg6LpG3ivSWiE4+gJfTu6jZb9N8bXEmz70PD9dzD2RE
+g8SiiHgOElQXjSRIUd+LBLPYYVR6RYuQpAr2UKHnxuCngMxgTzFsLYrem5cPp6fkUrY4wDvuGs7n
+iefjrP0IfjEr5rVmdMv/UumbrxvbxZBuU8GWCHQyvUmKkQuQnnIs5+aDNXQhgZI64GGs6jDQkkZY
+FD73WT4/ljGFgLkqSWN08xaIiphrUmfTGUi62H6bmJTwRrGSCytm2/FxzZ/A8bhT4OXCNem9pJIy
+LUYV0nHJPzargQrA5OdxzdccFrmB1aC70cEeJO4+H7xC5Wj9hgRT/ORB7zGrsAy/786Ssvcnpg2N
++nvVekZYdCPY1WXq2eHqHG356yUuzMvRmA9yG2jUlQ3PsnN6B74WhN3BpBRxKoRU1t9R3exQzWyn
+dixb9O9lLFyS2Jj+b7C27SAHZ/1kBiF2FgA+Q3gTDtXH2iVekcBa5CRqybNYWdinCLNZxPIc5WLE
+gv4FmDftHWy9EAus3EjHsMN0N65Yff0ejMgpaOQihjaeg+gb/EbODDsr5K9UfqPReQPD6ZM8jKym
+lgnApN7TYaTjcUdZ8BUQhEMViUSlBvB66XnlW/tBh24V30MMLh/4P1vasoRcDJiY00ZqCm/oFqnz
+WCF9I/EHqLL7
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vGEkADrE+cTsDKrOxQgHqhoIKQPJ2gTIcwDdf3H4HSXsa6GxJ6bqZDMas6N6GWohJfcZ4ZNRj4kN
+3VYj7tP70XfgJyTID5c/6St9p6yhQrsTCrmBbiue9iuY/w/yjsdmc+ldzMWRi0MKjhiMhB7jFqJR
+rxhbY37JcPygcgUTum7qxy1tRh3Js1X4bC9/XVzR0DADaN/wvLJcbzVdvOG5/CWeM7BR1NdbzKx8
+B5aVCxYYIsASj6ra0fnJdgpqfFZZc/yRyDCD0cHz8KZdk+7w21CrQDbonjeE4tfQO9/cnYONtwPA
+7GTZpU6NvwxMSkuQmhmlXlKzu8rmr7FSwHW1Vw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature659704-Object1023804"><etsi:QualifyingProperties Target="#Signature659704"><etsi:SignedProperties Id="Signature659704-SignedProperties208531"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-09-23T14:12:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>M9isBLzXqOaVfssFzXtHVPQ8s8M=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>1680643468314724267</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-536813"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

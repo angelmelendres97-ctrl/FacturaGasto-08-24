@@ -1,0 +1,5 @@
+table.dataTable td.focus {
+    outline: 1px solid #013ADF;
+    outline-offset: -3px;
+    background-color: #81BEF7 !important;
+}

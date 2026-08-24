@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>EDUARDO HERNAN HARO MANCHENO</razonSocial>
+        <nombreComercial>EDUARDO HERNAN HARO MANCHENO</nombreComercial>
+        <ruc>1707319362001</ruc>
+        <claveAcceso>2007202601170731936200120010020001062290000616315</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000106229</secuencial>
+        <dirMatriz>AVE DE LA PRENSA N69 - 133 PLANTA BAJA LOCAL COMERCIAL CENTRO MUCHACHO TRABAJADOR</dirMatriz>
+        
+        
+        <agenteRetencion>1</agenteRetencion>
+        
+        
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>20/07/2026</fechaEmision>
+        
+        
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>56.07</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <descuentoAdicional>0.00</descuentoAdicional>
+                <baseImponible>0.30</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <descuentoAdicional>0.00</descuentoAdicional>
+                <baseImponible>55.77</baseImponible>
+                <valor>8.37</valor>
+            </totalImpuesto>
+            
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>64.44</importeTotal>
+        <moneda>DOLAR</moneda>
+            <pagos>
+                
+                <pago>
+                    <formaPago>20</formaPago>
+                    <total>64.44</total>
+                    
+                </pago>
+                
+            </pagos>
+        <valorRetIva>0.00</valorRetIva>
+        <valorRetRenta>0.00</valorRetRenta>
+    </infoFactura>
+    <detalles>
+        
+        <detalle>
+            <codigoPrincipal>520</codigoPrincipal>
+            <codigoAuxiliar>334</codigoAuxiliar>
+            <descripcion>(2) RECONOCIMIENTO DE FIRMAS DE VEHICULO</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>28.92</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>28.92</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>28.92</baseImponible>
+                    <valor>4.34</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+        <detalle>
+            <codigoPrincipal>520</codigoPrincipal>
+            <codigoAuxiliar>429</codigoAuxiliar>
+            <descripcion>(1) CONSULTA DATOS BIOMETRICOS SISTEMA NACIONAL DE IDENTIFICACION CIUDADANA - REGISTRO CIVIL (D)</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>0.30</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>0.30</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.30</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+        <detalle>
+            <codigoPrincipal>520</codigoPrincipal>
+            <codigoAuxiliar>502</codigoAuxiliar>
+            <descripcion>(15) CERTIFICACION DE DOCUMENTOS EXHIBIDOS EN ORIGINALES O COPIAS CERTIFICADAS (D)</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>26.85</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>26.85</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>26.85</baseImponible>
+                    <valor>4.03</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+    </detalles>
+    <infoAdicional>
+        
+            <campoAdicional nombre="Forma de Pago">OTROS CON UTILIZACION DEL SISTEMA FINANCIERO 64.44</campoAdicional>
+        
+            <campoAdicional nombre="Numero de Libro"> 20261701055D02004</campoAdicional>
+        
+            <campoAdicional nombre="Matrizador"> CAMILO RAMON ROJAS HARO</campoAdicional>
+        
+            <campoAdicional nombre="Email Cliente">marcelohet@hotmail.com</campoAdicional>
+        
+            <campoAdicional nombre="Agente de Retención Resolución No.">NAC-NCRASC20-00000001</campoAdicional>
+        
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature118534" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo521864">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID959148" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature118534-SignedProperties1030835">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>pDcZXfq9c9+cnYyIhVcQJsHsGlI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1323795">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WpM1g7KeuYvDtrHxZGU25sF/ZBg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-479534" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>85YSqcGUmhD3SeY9v54mNMBGxQ8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue271345">
+U11T6iAxsD4RT0190MG9tEzYv1b/EG+vX0sc7naj5qUrwmf6w9xbIfsaQyQq744Zvl7GQBJ2iezR
+Rkw5UVVyn6ZgfVwB36C3UiVyDH0gWwC0bPidcw9lsd/e+zcik4vKONj8d+zUcwL30KFsreD6TzAc
+FYVHRy6IMoAMRKwsn2qilKBalPK6DWdvYY2oprvtf8BB4UuzwxRAWuBRriPGbLPfSj4Wnhwo/SCX
+4LH+g9ABFVmGY6Vc902Ez6kRGDhJKyj47Gc644RuW1GXOmQGM1lHZGkG2x42X1KIYmpjgWp5u0jc
++xKDktECqc/U8Rt1whRX0G/hQQrv6I5b0yQdvw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1323795">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJmTCCB4GgAwIBAgIEZeeAiTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI1MTIxMDE2MjEwN1oXDTI3MTIxMDE2NTEw
+NlowgbQxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE4MBEGA1UEBRMKMDAwMDEwNDYxMzAjBgNVBAMTHEVEVUFSRE8gSEVSTkFO
+IEhBUk8gTUFOQ0hFTk8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSBYPJFUM0IcGh
+EtALLdvDJ8wI3ETMQwFH5JojpcoE2rXc6E8GLUG680FiBPiOk1kDESUAqYLBTqYxKAU6yZ1h3myo
+HOmBjMYlqo5ya1xGEdTs8lNld4BgIv998or13HzeyX32umVqPMbr/9st+5FCdlcu3Cte0l16kKg8
+9CX7oJDyPeTjmiBvk9xu4yCj4PqgHMD+NGxvFVL0vwhmVrN6eKr/Ra3XAarI9BFqodRhwGE+yKa6
+9ypHXLyaW+auQ7oClPrXGppL2ILXEgePH6OEuK84Uur5eQLIEXtqYXWS5c2Q+r5IkMsFDspVAJXc
+OKx0u2iYQHnLCyrvf5sDA9NjAgMBAAGjggTCMIIEvjALBgNVHQ8EBAMCBsAwZgYDVR0gBF8wXTBb
+BgsrBgEEAYKoOwIBATBMMEoGCCsGAQUFBwIBFj5odHRwOi8vd3d3LmVjaS5iY2UuZWMvcG9saXRp
+Y2EtY2VydGlmaWNhZG8vcGVyc29uYS1uYXR1cmFsLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYI
+KwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9v
+Y3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIv
+c3RhdHVzL29jc3AwGgYKKwYBBAGCqDsDAQQMEwoxNzA3MzE5MzYyMB4GCisGAQQBgqg7AwIEEBMO
+RURVQVJETyBIRVJOQU4wFAYKKwYBBAGCqDsDAwQGEwRIQVJPMBgGCisGAQQBgqg7AwQEChMITUFO
+Q0hFTk8wHwYKKwYBBAGCqDsDBwQREw9GUkFOQ0lTQ08gRlJBR0EwGQYKKwYBBAGCqDsDCAQLEwkw
+MjI4ODk0NTkwFQYKKwYBBAGCqDsDCQQHEwVRVUlUTzAXBgorBgEEAYKoOwMMBAkTB0VDVUFET1Iw
+HQYKKwYBBAGCqDsDCwQPEw0xNzA3MzE5MzYyMDAxMCAGCisGAQQBgqg7AzMEEhMQU09GVFdBUkUt
+QVJDSElWTzAhBgNVHREEGjAYgRZub3RhcmlhNTV1aW9AZ21haWwuY29tMIIB4QYDVR0fBIIB2DCC
+AdQwggHQoIIBzKCCAciGgdZsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMMjMwNyxj
+bj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFE
+JTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUy
+MENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9i
+YXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3Js
+pIG2MIGzMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3
+MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEO
+MAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxEDAO
+BgNVBAMTB0NSTDIzMDcwKwYDVR0QBCQwIoAPMjAyNTEyMTAxNjIxMDdagQ8yMDI3MTIxMDE2NTEw
+NlowHwYDVR0jBBgwFoAUSKLfIx8d+CxReowDzUkypQnBlKswHQYDVR0OBBYEFId/rU77eyAlKax2
+FCDuayz14SEmMAkGA1UdEwQCMAAwGgYJKoZIhvZ9B0EABA0wCxsFVjEwLjADAgQwMA0GCSqGSIb3
+DQEBCwUAA4ICAQBvwEbC+yvNmwHvFEHK6PcXsdUV2XaPaMYASi1+jT90ve9VNt5p3VEIejVv1Xns
+ntGo8yNPD26xAjGE6b3ipjyEEu/py0CkLnwjyQIzRhCJ14e7EVVl7MdixISliui9+DZdPoZZDH1O
+i9/baTFv6WpTTMMa4OHerE2Wm0qzfKdhsZw44N38Ir/OXWdv6CVALnOPvBU5ug4+7ZodpdejbEsO
+MLDXKR/pF7xNttaj2aq8qkOIqMttwFWa6L0LlVjSN4/XyJha268bGkQ1GZVEZD77+vG/rzkCm95k
+e24yL9Q8DSxhOb46p2iZat5pOPRV7vv5rjUx7VxG4aIgP5Ydqgg+QfsZZb27hi5AqBNZJc7Mshvx
+1K+jVWqPwIh/ClPWHmvnxWLmeGp7q/MHQ10070+3R1WKNCvxoBDtMo9aZm9XPNbRlan2B1kaPI+M
+Rj6Nqi7xKlDSRMbnRuLIhxAn7kwqaLc0x38kKcaFs1gInocS+mCs3mK7gVuJVQeG8d6aiO7ee6O1
+5hW1lgCraFebw31gF4/k13MWI/27BLS5xrzSBRuIxmhvwX+tlwaO0CnVzJnIrUCbAjnL5XFy+E4D
+gFVOqmgFb6vDiEjQNSmWenWaul8nfa/izhDzbBf5TKV4o+Uv1bTYBckpGARChIpD+f60EuTviyD1
+GxpXQSw933ThSw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0gWDyRVDNCHBoRLQCy3bwyfMCNxEzEMBR+SaI6XKBNq13OhPBi1BuvNBYgT4jpNZAxElAKmCwU6m
+MSgFOsmdYd5sqBzpgYzGJaqOcmtcRhHU7PJTZXeAYCL/ffKK9dx83sl99rplajzG6//bLfuRQnZX
+LtwrXtJdepCoPPQl+6CQ8j3k45ogb5PcbuMgo+D6oBzA/jRsbxVS9L8IZlazeniq/0Wt1wGqyPQR
+aqHUYcBhPsimuvcqR1y8mlvmrkO6ApT61xqaS9iC1xIHjx+jhLivOFLq+XkCyBF7amF1kuXNkPq+
+SJDLBQ7KVQCV3DisdLtomEB5ywsq73+bAwPTYw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature118534-Object578503"><etsi:QualifyingProperties Target="#Signature118534"><etsi:SignedProperties Id="Signature118534-SignedProperties1030835"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-20T10:05:30-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>U/BQxLG6ZbPFS0Tz6nc+0pmgzgc=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709670537</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-479534"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VALAREZO ROMERO MERCEDES MARIA</razonSocial>
+        <nombreComercial>ASERRIO RAMIREZ</nombreComercial>
+        <ruc>0700104755001</ruc>
+        <claveAcceso>1008202601070010475500120010010000003438699637517</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000343</secuencial>
+        <dirMatriz>Barrio: VILLA ELVITA Calle: VIA A ZARUMA Numero: SN Interseccion: NA </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>10/08/2026</fechaEmision>
+        <dirEstablecimiento>Barrio: VILLA ELVITA Calle: VIA A ZARUMA Numero: SN Interseccion: NA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL SN Y QUINTA NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>1112.50</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>1112.50</baseImponible>
+                <valor>166.88</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>1279.38</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>1279.38</total>
+                <plazo>7</plazo>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>EU04</codigoPrincipal>
+            <descripcion>EUCALIPTO TABLONES 3 METROS</descripcion>
+            <cantidad>50.00</cantidad>
+            <precioUnitario>7.25</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>362.50</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="-"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>362.50</baseImponible>
+                    <valor>54.38</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>EU08</codigoPrincipal>
+            <descripcion>EUCALIPTO VIGAS 6X6 PULGADAS 3 METROS</descripcion>
+            <cantidad>50.00</cantidad>
+            <precioUnitario>15.00</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>750.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="-"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>750.00</baseImponible>
+                    <valor>112.50</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="NUMERO DE BODEGA">887</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>KAVEBdWycNPOmv3Ml/F3zeQh14Y4jnFzdg+ZfbY4gSw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>hvlwEleaJHef60KH6uxlgwP2Z7oES2sCQbEQYCVzM/Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03-sigvalue">O/pXWELrTuIwUAePCjtf5M7NfW/PNQ7gTOn8fAx1XREdKqro//NKZ8XEmLCsMwhRKZY/sIDvcEW3jDKTm8h6LTFqeUY6Z7WYPISJHwAuXOsU/aLmvfhrm0DehcANHjPJFclIkTB/qb4jtjIRjO4RhIp3c/z3e3+XV4mlUj+RZcI0CTQOhRqeeI8yDCLz3Qo5IKp/56Suntdr9gWblBshj3FSMeytwpI8NqkEYGX8oClfCyTlsNOR2njT6wcf5SZ0iiaiqVWvSq8bsFsjGk5th4T9Td/71QA6il7WBVnHP66JtHPdswwAIIo3fakuROBItHH0idTY7Tr3RM0AFwfLWw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03"><xades:SignedProperties Id="xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-08-10T21:17:19.337-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>VtBklDYkkGiQcZEyuh2jMYbXzGRuyRH70fgP7ChPt/c=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>7281898206514968084</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-4c81610c-2dd4-4c63-8fe7-311b34688e03-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

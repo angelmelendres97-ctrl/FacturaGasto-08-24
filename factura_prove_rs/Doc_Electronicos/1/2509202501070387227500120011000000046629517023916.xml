@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>JIMENEZ CALDERON CHRISTIAN XAVIER</razonSocial><nombreComercial>COMPUTECH</nombreComercial><ruc>0703872275001</ruc><claveAcceso>2509202501070387227500120011000000046629517023916</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>100</ptoEmi><secuencial>000004662</secuencial><dirMatriz>VELA S/N Y 4TA NORTE Y BOYACA</dirMatriz></infoTributaria><infoFactura><fechaEmision>25/09/2025</fechaEmision><dirEstablecimiento>VELA S/N Y 4TA NORTE Y BOYACA - MACHALA</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>CALLE GUAYAQUIL S/N Y 5TA NORTE ESQUINA</direccionComprador><totalSinImpuestos>857.39</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>857.39</baseImponible><tarifa>15.00</tarifa><valor>128.61</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>986.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>986.00</total><plazo>30</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>XT-9Y53</codigoPrincipal><descripcion>CASE XTRATECH ATX 2 USB 3.0 1 USB 2.0 HD AUDIO FUENTE 750W</descripcion><cantidad>1.00</cantidad><precioUnitario>39.13043</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>39.13</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>39.13</baseImponible><valor>5.87</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>MBOASUH610M-A</codigoPrincipal><descripcion>MBO ASUS PRIME H610M-A CSM 14VA LGA1700 2XDDR5-5600 VGA DP HDMI  2M.2 USB3.2 PCIE4.0 mATX</descripcion><cantidad>1.00</cantidad><precioUnitario>90.435103</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>90.44</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="S7M0CS007732LHD-22082501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>90.44</baseImponible><valor>13.57</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>CPI512400</codigoPrincipal><descripcion>PROCESADOR INTEL CORE I5-12400 Core 2.5GHz (TURBO 4.4GHz) 18MB LGA1700 12th Gen</descripcion><cantidad>1.00</cantidad><precioUnitario>221.73913</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>221.74</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="U50P7B4900857-27082501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>221.74</baseImponible><valor>33.26</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>DIMKIN56U46BS16</codigoPrincipal><descripcion>MEMORIA KINGSTON 16GB DDR5 5600Mhz NON-ECC CL46 1Rx8 2GX64Bit 1.1V 288pin</descripcion><cantidad>1.00</cantidad><precioUnitario>60.000224</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>60.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="O000195-22082501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>60.00</baseImponible><valor>9.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>HDDKINSNV3S500G</codigoPrincipal><descripcion>SSD KINGSTON 500G NV3 M.2 2280 NVMe PCIe 4.0 5000-3000MB-s NAND 3D</descripcion><cantidad>1.00</cantidad><precioUnitario>47.826031</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>47.83</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="50026B7283A7DDFB-28082501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>47.83</baseImponible><valor>7.17</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>HDDWDIWD10PURZ</codigoPrincipal><descripcion>DISCO DURO WD 1TB 3.5" SATA 5400RPM / 24-7 / PURPURA</descripcion><cantidad>1.00</cantidad><precioUnitario>66.956652</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>66.96</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="WCC4JMJKLZUS-05092502" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>66.96</baseImponible><valor>10.04</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>KEYLOG920002716</codigoPrincipal><descripcion>KIT TECLADO MOUSE LOGITECH MK200 MULTIMEDIA USB BLACK</descripcion><cantidad>1.00</cantidad><precioUnitario>25.217358</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>25.22</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="2518SYQ06G99-100992501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>25.22</baseImponible><valor>3.78</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>MONLGX24MS500-B</codigoPrincipal><descripcion>MONITOR LG 23.8" 24MS500 IPS 2HDMI 1920X1080 BlackStabilizer Black 100Hz</descripcion><cantidad>1.00</cantidad><precioUnitario>221.73913</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>221.74</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="506NTABEL328-23092501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>221.74</baseImponible><valor>33.26</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>UPSAPCBV1000</codigoPrincipal><descripcion>UPS APC Easy BV 1000VA AVR 120V</descripcion><cantidad>1.00</cantidad><precioUnitario>84.347933</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>84.35</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Series1" valor="9B202A01100-100992501" /></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>84.35</baseImponible><valor>12.65</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>SUMGENGWMP200MK</codigoPrincipal><descripcion>PADMOUSE GENIUS G-WMP 200M NEGRO</descripcion><cantidad>1.00</cantidad><precioUnitario>0.00087</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>0.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>0.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Documento para retención">documentos@computech.ec</campoAdicional><campoAdicional nombre="Teléfono contacto">072938432</campoAdicional><campoAdicional nombre="descripcion">S/N CTM-250925-M1606-1608</campoAdicional><campoAdicional nombre="email">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="telefono">072923970</campoAdicional></infoAdicional><ds:Signature Id="Signature994476" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo57708" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID782480" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature994476-SignedProperties795616">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>rr0KsfXpGFaYYVSU7/aduOUrC+Y=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate665182">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>cyVQ98lPi4ZyXvVTNwF7hVpe5Us=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-641359" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>BDX13CmabQ/peW35HRqhVU3yxuA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pfm1Mb6MQce3/olkDTBlmUfh367mrqISyTVesAtO7Zbktb/yTyql/OBuQKjgoMSRsJsom/d48cEZ
+WIbGKN0k2XLzNKhtqoF/tER2W+IVHSgK1yVZN68u8UfKs3uIyBG5McsOucT3OxWPePd+aGw5g5EZ
+MqyRbrj6ppOYlYfpd9Jg04cdhQwG5ZN2aMNBngijB2RDD2wTXK8tOYDEKoHtmi93g1qy8djuAYIC
+UY6L4Y4a0vsyN4dSE+H3Zwy6J4MSPDaauoH931SZA5YRiQcr30U1y8htxoOUVdaoqLKNMIum1ef1
+lj70mL6Oik1aPbw3fs1syBgtMUu3OXPQSsIKFQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate665182" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKpjCCCI6gAwIBAgIMAzlD1W9OuBWJ9gInMA0GCSqGSIb3DQEBCwUAMIG5MRYwFAYDVQQFEw0x
+NzkyNjAxMjE1MDAxMQswCQYDVQQGEwJFQzE2MDQGA1UEChMtQU5GQUMgQVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gRUNVQURPUiBDLkEuMSUwIwYDVQQLExxBTkYgQXV0b3JpZGFkIGludGVybWVk
+aWEgIEVDMTMwMQYDVQQDEypBTkYgSGlnaCBBc3N1cmFuY2UgRWN1YWRvciBJbnRlcm1lZGlhdGUg
+Q0EwHhcNMjUwMzExMTk1NTA2WhcNMjkwMzEwMTk1NTA2WjCCAWExKjAoBgNVBAoMIUpJTUVORVog
+Q0FMREVST04gQ0hSSVNUSUFOIFhBVklFUjEaMBgGCisGAQQBgqRCCgQMCjA3MDM4NzIyNzUxKzAp
+BgNVBAsMIkNlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbCBSVUMgRUMxGTAXBgNVBCoMEENIUklT
+VElBTiBYQVZJRVIxFjAUBgNVBGETDTA3MDM4NzIyNzUwMDExCzAJBgNVBAYTAkVDMRMwEQYDVQQF
+EwowNzAzODcyMjc1MRkwFwYDVQQEDBBKSU1FTkVaIENBTERFUk9OMTUwMwYDVQQDDCwwNzAzODcy
+Mjc1IENIUklTVElBTiBYQVZJRVIgSklNRU5FWiBDQUxERVJPTjEgMB4GCSqGSIb3DQEJARYRY2Ny
+YWtAaG90bWFpbC5jb20xDzANBgNVBAgMBkVMIE9STzEQMA4GA1UEBwwHTUFDSEFMQTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMA+ZFYSlswuXVEY0OcPptH4GBz15QLoE+xuesyQtjGA
+uboKMFhm8el1BKc3OM1K5hfC8c/t84z0G3fH3kXkEr5H2TjurA5WBFaErGVQoaHJT7VoVASTkmPk
+VzXfyP+LamL01PKnLn6q8k4C1lPxHH4GjVlgV1SA6jfHr2lYX8H8e8V50cu52dLHjOYsTizhu2S1
+pGLTtoL3Nx9TByd/ZYkLdVCDIBVjHrzPLRQKcqtATVfF/pdjjDvSuSCKNhDca+ZjQu5Cp7WL113Y
+vrHHsHXuXTzvbLIRnzlOCvAtUINCJqBeJ9RFPFGUnEA/x4L3sHIhFD+QXHkFTvUA7nxq06sCAwEA
+AaOCBQEwggT9MB8GA1UdIwQYMBaAFJKu1MuCtJnG0XsRbGXqxU1oIfmsMB0GA1UdDgQWBBQIN+VJ
+xgsMbArCK3TTKgortJywrDCBsAYDVR0RBIGoMIGlgRFjY3Jha0Bob3RtYWlsLmNvbaSBjzCBjDEg
+MB4GCisGAQQBgqRCCgEMEENIUklTVElBTiBYQVZJRVIxFzAVBgorBgEEAYKkQgoCDAdKSU1FTkVa
+MRgwFgYKKwYBBAGCpEIKAwwIQ0FMREVST04xGjAYBgorBgEEAYKkQgoEDAowNzAzODcyMjc1MRkw
+FwYJKwYBBAGBjxwBDApBLTExMDMyMDI1MA4GA1UdDwEB/wQEAwIGwDAdBgNVHSUEFjAUBggrBgEF
+BQcDBAYIKwYBBQUHAwIwUAYDVR0fBEkwRzBFoEOgQYY/aHR0cDovL2NybC5hbmYuZXMvY3JsL0FO
+RkhpZ2hBc3N1cmFuY2VFY3VhZG9ySW50ZXJtZWRpYXRlQ0EuY3JsMIIBDQYDVR0gBIIBBDCCAQAw
+gecGDCsGAQQBgqRCAgUBAzCB1jAwBggrBgEFBQcCARYkaHR0cHM6Ly9hbmYuZXMvZWMvcmVwb3Np
+dG9yaW8tbGVnYWwvMIGhBggrBgEFBQcCAjCBlAyBkUNlcnRpZmljYWRvIGNvbmZvcm1lIGEgbGEg
+bGVnaXNsYWNpw7NuIGRlIGZpcm1hIGVsZWN0csOzbmljYS4gQW50ZXMgZGUgYWNlcHRhcmxvIGNv
+bXBydWViZSBpbnRlZ3JpZGFkLCBsaW1pdGFjaW9uZXMsIHZpZ2VuY2lhIHkgdXNvcyBhdXRvcml6
+YWRvcy4wCQYHBACL7EABATAJBgdghVQBAwUIMIGbBggrBgEFBQcBAQSBjjCBizAnBggrBgEFBQcw
+AYYbaHR0cDovL29jc3AuYW5mLmVzL3NwYWluL0FWMGAGCCsGAQUFBzAChlRodHRwOi8vd3d3LmFu
+Zi5lcy9lcy9jZXJ0aWZpY2F0ZXMtZG93bmxvYWQvQU5GSGlnaEFzc3VyYW5jZUVjdWFkb3JJbnRl
+cm1lZGlhdGVDQS5jZXIwDAYDVR0TAQH/BAIwADAoBgkrBgEEAYGPHBMEGwwZNjM0NTAwNDA5NTA5
+LTUyNTAyMDE3MjExNTAVBgorBgEEAYGPHBMCBAcMBTM3NDQyMCkGCisGAQQBgqRCEwEEGwwZNTI1
+MDIwMTcyMTE1LTQ4NzA2NTEyMjM0ODAaBgorBgEEAYKkQgMBBAwMCjA3MDM4NzIyNzUwMQYKKwYB
+BAGCpEIDCgQjDCFKSU1FTkVaIENBTERFUk9OIENIUklTVElBTiBYQVZJRVIwHQYKKwYBBAGCpEID
+CwQPDA0wNzAzODcyMjc1MDAxMBIGCisGAQQBgqRCAwwEBAwCRUMwIAYKKwYBBAGCpEIDAgQSDBBD
+SFJJU1RJQU4gWEFWSUVSMCAGCisGAQQBgqRCAwMEEgwQSklNRU5FWiBDQUxERVJPTjAXBgorBgEE
+AYKkQgMJBAkMB01BQ0hBTEEwFwYKKwYBBAGCpEIqAQQJDAdVSU8tMDA3MBQGCisGAQQBgqRCLgEE
+BgwEMTQ2MDBQBgorBgEEAYKkQi8BBEIMQDkwY2Y1OTcwZWVhMTZiYzBlOTgxZmIwOGRkM2IyNDJk
+NDkwMTBmYzk0NDExMTdiNGEzMzk5MGFlMTc1MjVhNzQwDQYJKoZIhvcNAQELBQADggIBAJewRSfn
+/fVDENXduXnUSW3w56qjy4L7O4QoZxwKTuzIVzDYWDEKo2TJMJoDH2Szr+3WON5mIc5hrNKinZNP
+/0pJ20tjtwmORootcH5rXOeahn+TzIHKKnPsLbqEtpZ9KAKf6YFh2MGWiWfFZku/92H2oeq41G9R
+MpPBEKEnWkP1oETWKLOcGmwfLWzQP9cA8YzhDCMuBbMxv0txugiUadBzzPQwMklmxW1vjKxtGeQe
+FDMGR/LMLUKEBiC309s6mZ7chd4Ym37DJqH3ntBYnof/RxO9eXlbJZkf5oLRy3f8UK1ZZCSwh7cS
+AEmyV7YKMIy51G1BgcDeMt9V+B/xidcOgj29SkCNaobcyzdIORYU7uv7ROL0m13968LAV5WNWKJq
+LI5uqEB58me9bF1gDZ82gfjNw/LvNpcBDLcd54oHcj63ewLhzt+CYg7i170XCrydf3SDk+OXs3D1
+z8CDGjBPArDyL6+SSBtb/JdYmp3kMelHg9WTIZdzBcbyXWgegSNhkH+6tF0iAKYavif3LSbmWMoJ
+udiaJ2exs6MXnNZfprGdlGeY6lha2M212yMQ+kYuMCMIuuOsIYWVDb2REhwmZsK6PPtNOE7YRe1z
++t8miy6npijVHeZKuhG6X6R3ZZBsO+edXZLSq7I2Ol5uN8UIHs3McLI36sMrpyIH9jfh
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wD5kVhKWzC5dURjQ5w+m0fgYHPXlAugT7G56zJC2MYC5ugowWGbx6XUEpzc4zUrmF8Lxz+3zjPQb
+d8feReQSvkfZOO6sDlYEVoSsZVChoclPtWhUBJOSY+RXNd/I/4tqYvTU8qcufqryTgLWU/EcfgaN
+WWBXVIDqN8evaVhfwfx7xXnRy7nZ0seM5ixOLOG7ZLWkYtO2gvc3H1MHJ39liQt1UIMgFWMevM8t
+FApyq0BNV8X+l2OMO9K5IIo2ENxr5mNC7kKntYvXXdi+scewde5dPO9sshGfOU4K8C1Qg0ImoF4n
+1EU8UZScQD/HgvewciEUP5BceQVO9QDufGrTqw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature994476-Object504918"><etsi:QualifyingProperties Target="#Signature994476"><etsi:SignedProperties Id="Signature994476-SignedProperties795616"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-09-25T15:41:59-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ZLVxTbvxUz0snsdM9uBjTRUPHVc=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ANF High Assurance Ecuador Intermediate CA, OU=ANF Autoridad intermedia  EC, O=ANFAC AUTORIDAD DE CERTIFICACION ECUADOR C.A., C=EC, SERIALNUMBER=1792601215001</ds:X509IssuerName><ds:X509SerialNumber>997684136913459424538264103</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-641359"><etsi:Description>Contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

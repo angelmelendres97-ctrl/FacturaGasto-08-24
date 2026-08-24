@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>SUMINDTORO S A S</razonSocial><nombreComercial>SUMINDTORO S A S</nombreComercial><ruc>0791842619001</ruc><claveAcceso>1102202601079184261900120010050000180341234567813</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>005</ptoEmi><secuencial>000018034</secuencial><dirMatriz>AYACUCHO E/ 9NA Y 10MA NORTE</dirMatriz><agenteRetencion>10</agenteRetencion></infoTributaria><infoFactura>
+    	<fechaEmision>11/02/2026</fechaEmision><dirEstablecimiento>AYACUCHO E/ 9NA Y 10MA NORTE</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><totalSinImpuestos>408.51</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos>
+	    	<totalImpuesto>
+	    		<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>408.51</baseImponible><valor>61.28</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>469.79</importeTotal><moneda>DOLAR</moneda><pagos>
+    		<pago>
+    			<formaPago>20</formaPago><total>469.79</total><plazo>15</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles>
+   		<detalle>
+   			<codigoPrincipal>94019</codigoPrincipal><codigoAuxiliar>32688</codigoAuxiliar><descripcion>LLAVEHEXAGONALCORTA PPLANA L MM10 GTE</descripcion><cantidad>1.000000</cantidad><precioUnitario>3.382609</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>3.38</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>3.38</baseImponible><valor>0.51</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>87010</codigoPrincipal><codigoAuxiliar>32689</codigoAuxiliar><descripcion>LLAVEHEXAGONALCORTA PPLANA L MM12 GTE</descripcion><cantidad>1.000000</cantidad><precioUnitario>4.617391</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>4.62</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>4.62</baseImponible><valor>0.69</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>85388</codigoPrincipal><codigoAuxiliar>32690</codigoAuxiliar><descripcion>LLAVEHEXAGONALCORTA PPLANA L MM14 GTE</descripcion><cantidad>1.000000</cantidad><precioUnitario>7.382609</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>7.38</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>7.38</baseImponible><valor>1.11</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>95194</codigoPrincipal><codigoAuxiliar>9493</codigoAuxiliar><descripcion>JUEGO DADOS 34 12PUNTAS MM CORTO 2250MM 19PZS STANLEY 89101</descripcion><cantidad>1.000000</cantidad><precioUnitario>150.356522</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>150.36</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>150.36</baseImponible><valor>22.55</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>86569</codigoPrincipal><codigoAuxiliar>9398</codigoAuxiliar><descripcion>JUEGO LLAVES MIXTAS MM 14PZS 724MM STANLEY 86081</descripcion><cantidad>1.000000</cantidad><precioUnitario>43.730435</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>43.73</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>43.73</baseImponible><valor>6.56</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>76284</codigoPrincipal><codigoAuxiliar>8230</codigoAuxiliar><descripcion>JUEGO LLAVES TORXHEXAG LARGA L18PZS MM HHKSET0181 INGCO</descripcion><cantidad>1.000000</cantidad><precioUnitario>14.730435</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>14.73</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>14.73</baseImponible><valor>2.21</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>101690</codigoPrincipal><codigoAuxiliar>38778</codigoAuxiliar><descripcion>CINTA REFLECTIVA BICOLOR PVEHICULOS 5CMXROLLOS45.75MTS 983326 3M FDO</descripcion><cantidad>1.000000</cantidad><precioUnitario>100.808696</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>100.81</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>100.81</baseImponible><valor>15.12</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>82455</codigoPrincipal><codigoAuxiliar>8479</codigoAuxiliar><descripcion>LLAVE FILTROSVEHICULAR FAJALONA 34X612 LLB10 15818 TRUPER</descripcion><cantidad>2.000000</cantidad><precioUnitario>15.069565</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>30.14</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>30.14</baseImponible><valor>4.52</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>88239</codigoPrincipal><codigoAuxiliar>13380</codigoAuxiliar><descripcion>EMBUDOPVC ACORDEON 2CUERPO 145 X 300MMLARGO 65230 TOLSEN IFA</descripcion><cantidad>2.000000</cantidad><precioUnitario>1.165217</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>2.33</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>2.33</baseImponible><valor>0.35</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>83305</codigoPrincipal><codigoAuxiliar>8493</codigoAuxiliar><descripcion>BOMBAMANUALMANIBELA PACEITE TUBO114 10067 TRUPER</descripcion><cantidad>1.000000</cantidad><precioUnitario>35.043478</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>35.04</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>35.04</baseImponible><valor>5.26</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>85240</codigoPrincipal><codigoAuxiliar>32054</codigoAuxiliar><descripcion>GUANTENITRILOLISOAZULTOTAL C05 MEDICO 922CM S712 MASTER</descripcion><cantidad>1.000000</cantidad><precioUnitario>5.730435</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>5.73</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>5.73</baseImponible><valor>0.86</valor></impuesto></impuestos></detalle><detalle>
+   			<codigoPrincipal>79530</codigoPrincipal><codigoAuxiliar>11927</codigoAuxiliar><descripcion>POMOMULTIUSOS PVC CANECA 20LTS RECICLADO</descripcion><cantidad>4.000000</cantidad><precioUnitario>2.565217</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>10.26</precioTotalSinImpuesto><impuestos>
+   				<impuesto>
+   					<codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>10.26</baseImponible><valor>1.54</valor></impuesto></impuestos></detalle></detalles><infoAdicional>
+<campoAdicional nombre="Direccion">CDLA LOS JARDINES</campoAdicional><campoAdicional nombre="Telefono">072923798</campoAdicional><campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="Concepto">La Tigrera. Solicita Ing Liliana</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="SignatureN0"><ds:SignedInfo Id="Signature-SignedInfo379688"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod><ds:Reference Id="SignedPropertiesID429911" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignatureN0-SignedPropertiesN0"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>eiMvCy2JYopQ4QxNlHR6kmW/NFY=</ds:DigestValue></ds:Reference><ds:Reference URI="#CertificateN0"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>eu0xhH9GIS0eNc/RPFK0rXRLxic=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-N0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>VKqxyKBQn2L+Ghoz2ktFTW2prL8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValueN0">AM7opbmUnLEql4Ev9M9E1VUmABd64xPpoXm+sgOMGOi4v4XIy6/3Lf6rMu36bmgZ2zHLjb5Sl/sjtgcxMlX+JpMSXWY0KFTE7CAMjZGBJutjpbXLGvfRGsqATeGu4b30fNIr5CHqDD4BwoWLEF4cX5aUkjuaXJoK40nn90GPwBRWhKa7nBIruKU/5PrOPQcrOdmZ9UDXf4osSqZfIovVuKNHtXkR/ADWg6++xQBo4HiqH1WBdubla7q1ge6EWUKdJBF2G4WtxHEJ3b3jEXuobWkwYBLLWISD1BMbYAqZV+56RKt8+b6UT/X0Lk1tipRhYwEmJ6KCIf1T8EghZojDsg==</ds:SignatureValue><ds:KeyInfo Id="CertificateN0"><ds:X509Data><ds:X509Certificate>MIIMDTCCCfWgAwIBAgIEKfJ2ijANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yMzA5MDQxNzM3MDlaFw0yODA5MDMxNzM3MDlaMIGcMSUwIwYDVQQDDBxHVUlC
+U09OIEVSQUxETyBUT1JPIEVTUElOT1pBMRUwEwYDVQQFEwwwNDA5MjMxMjQ2NTgx
+MDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl3yw89gCEiwuwOu+hIF45LsH
+eR5NcPfrL2KUJCuk1fVx1XrBODmYB/+qrNwVbHUPx9zdZRjOP6AmjLiWlqqoOo/B
+baMUvK31equgRBrZpyMY0OmIqn1K3fYPa5StrRFn8gna3AiBlsIDhFxT7Tmv/25t
+9jOmFfO7U/97ahQvefpvb9vGTVFw7Ce+2BiNFnlprMNSVoSoJo1VkjWtfJPMrkom
+8/ysBGVOtOMc2X3F7el277b0ZMdkClvkMpM9HC+lHQCNf5djQHr0bYNZrntrJb9c
+DdGA0kAZVYr2A/opt5999QdQZQdERqLDqzcIORTMVg+odyonkO9Y9FbBxbEXuwID
+AQABo4IHVjCCB1IwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1r
+CktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9v
+Y3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9sZGFwc2RjYTIu
+c2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9k
+ZWx0YVJldm9jYXRpb25MaXN0P2Jhc2UwKwYDVR0RBCQwIoEgcmVjZXBjaW9uZG9j
+dW1lbnRvc0BzdW1pbnRvci5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKm
+cgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQA
+ZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisG
+AQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVf
+Q2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRh
+bnRlIExlZ2FsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29j
+c3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMv
+b2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERB
+VEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2Rj
+YTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1F
+Qz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRw
+czovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9w
+dWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRP
+UklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9
+RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJ
+VFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUHedttcvh/vsLzEALm3HdXBSJ
+PP4wKwYDVR0QBCQwIoAPMjAyMzA5MDQxNzM3MDlagQ8yMDI4MDkwMzE3MzcwOVow
+CwYDVR0PBAQDAgXgMB8GCisGAQQBgqZyAwUEEQwPR0VSRU5URSBHRU5FUkFMMBoG
+CisGAQQBgqZyAwEEDAwKMDcwMjgwNTY5ODAXBgorBgEEAYKmcgMJBAkMB01BQ0hB
+TEEwEQYKKwYBBAGCpnIDIgQDDAEuMDYGCisGAQQBgqZyAwcEKAwmQVlBQ1VDSE8g
+WSBOT1ZFTkEgTk9SVEUgWSBERUNJTUEgTk9SVEUwHgYKKwYBBAGCpnIDAgQQDA5H
+VUlCU09OIEVSQUxETzAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDA0NTExNjAT
+BgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFAYK
+KwYBBAGCpnIDAwQGDARUT1JPMCAGCisGAQQBgqZyAwoEEgwQU1VNSU5EVE9STyBT
+IEEgUzAdBgorBgEEAYKmcgMLBA8MDTA3OTE4NDI2MTkwMDEwEgYKKwYBBAGCpnID
+HQQEDAJObzAYBgorBgEEAYKmcgMEBAoMCEVTUElOT1pBMBoGCisGAQQBgqZyAwgE
+DAwKMDk5ODk4ODcyODANBgkqhkiG9w0BAQsFAAOCAgEAlcCgOnmOab6f4L1YPhZ/
+zfOkclaenhkbTQ20fBDp0T1KkoTvHN2kXqa4po4tI9e1S040f1PBC1w0ksJqa3th
+vvrAIZvg2meAOxfVVO8rhvjxbCM5tarBpiVyzpxcQRrATd9tGG6cBYDQjBqHs72L
+ZININhJKkugncjtzERkYhMPpJxDj0BrRD//OfhnD2JRxRDdDKbgIv3VZTqgDj6pH
+cgRJgD3xk8vZJFa0YLK5U+qVBmRMUy7fOcyZ6j1JRyzAYEq08Wvtbnk6nUoRQI6G
+gxgUBg6KAO573HPfMclRnPW2//2YozioiEAspMaXzHuhSibK0jIIptxmPsZ/vKGF
+r4R2ZSuHmeiPjZM8c4fYrQTmmFk9i29WGDyPOnMdIyfEc2cyaM88jFQIklSxdUkw
+Ys0XQule/gbeq1yGIrJ1TYo3DiKZzSz29l+qKZgRzsb3lU5XhVXLaW/+iyYy099R
+PZtqi7uT2fiGcnahY4+VmbnZ8uYcT0pCwTvpDr4/ffCiDut1YrYW9kaAMmb+CRYt
+ZHYO+vojSi25sca+t2YwNC5cZTJmnOby6O5XeXl/DpV77Qi0EgzHba6LyLF+LzpZ
+jBLZ8J0n2L5S6dFQhYmWOWhFxlF5LUXG2vPe0WU1lwbGLmfr/VXSQZSag7zqAM/U
+TkA3EDq/fMNOy59tw3SB3xc=</ds:X509Certificate><ds:X509Certificate>MIIIJDCCBgygAwIBAgIEWJrokDANBgkqhkiG9w0BAQsFADCBmzELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOzA5BgNVBAMMMkFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRB
+MB4XDTE5MTAxNTIyMTU1N1oXDTM5MDQwNzIyMTU1N1owgZkxCzAJBgNVBAYTAkVD
+MR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURB
+RCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRP
+UklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDIEvPSI5HT5FJ6T+kkuTbOr4qV
+6A+HtdPCurs4p51KBQ0+qawKxV9PaL/lMxBMlBF5IYr8rYOzUD2NL6Gj3/bRdFkK
+R2HdVrSh3VTUQCq9F5KbTk0wIDlUARdt2GGdY/frbNH9f8lK1LwyU/3sGOGLiF27
+RJJI4dcS/qkhz25IlPvvV0kORHOT7Ar0GFTX4fGnBX4c+zEL+/trNKN7SPgswYL5
+lRHKQXXTpgDv0eWecBWCTz+4VDD0xX/VYYDRPmczMzIhCH+3nJmCPaTrmTMiL2MG
+Zx0rgam9ckStqvGXyKurE0Hkn0uciaux4HcQDcdqkXJKCyyd7QSN87FMIUKjTttt
+2KfO667rMrDK2h9QyzCMWPJ5NXjJY71NJQX6KLYOm9PydioN9H5owF6AcGW0QFiH
+RgPsbhREnDL4ZflDmok+S/9TrcJQVrLjfnuoGRtqnPErKNeMebtZGx5crqjc2+fW
+gBvdJtLldZryfi5nrcdYGEKYiU4b349aXWNWmwpP/Tcew0dYiWaA3NHoJRifOVM+
+Wswiv94OXqZCABxKdEXbql9iCnAUiow1LYZmgEg8GwnFXseTw4zwtObPh6rKuQVl
+2yySywk2zeDmAZ9hAh7IBmKVhWE/lfWrdhifaKtHuyulPrdfPKKOIR6Lb4ZAluDa
+/a5rp98tKdQogeuA4QIDAQABo4ICbjCCAmowDwYDVR0TAQH/BAUwAwEB/zAfBgNV
+HSMEGDAWgBSEv4ZkaGZ6bB/rpKK4RMOVAB3xbjCBhgYDVR0gBH8wfTB7BgorBgEE
+AYKmcgEJMG0wawYIKwYBBQUHAgEWX2h0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9wX2NlcnRpZmlj
+YWNpb24vZGVjbGFyYWNpb24ucGRmMIIBfAYDVR0fBIIBczCCAW8wggFroIHEoIHB
+hoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9S
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRBLE9V
+PUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VS
+SVRZIERBVEEgUy5BLiAyLEM9RUM/YXV0aG9yaXR5UmV2b2NhdGlvbkxpc3Q/YmFz
+ZaKBoaSBnjCBmzE7MDkGA1UEAwwyQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+UkFJWiBDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFU
+QSBTLkEuIDIxCzAJBgNVBAYTAkVDMB0GA1UdDgQWBBSMusoRV3glgB1rCktVv42u
+Yt29jzAOBgNVHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAICvaRPs/FWq
+rIBCtnaIEH/PE+IpOBxG2AAzkkZ4M+zAObtTW7G8dTCBFBX22KWMt3O63jhrwWen
+5sCn/acs1sbyax21lBjgRWGHd1tCYgghb7BYRr/QoBhQ8E4z1M26HsEN2lPri7oP
+gEQkpTZJQhP9mNLYUwdIZa64pcTJHyM3+z+sT/Qisa4MP4cmd/UQVuAmydlU7sbA
+e8pFE2md/5R9PDQd29vs7OLb6tHTQAxkBoS3faEVXJhW6Kwa6jvFRgr5P4BVIGbo
+F9yooW/F7xiukyvHwSOLx8odf0X0gpg3mWIEe3hGe/HM/miHCob8KEDPnsFd1E99
+l+EPiLvjt2Q5pyAhk7/9WwivWmFeUPjt9FBjnRRMLr94utLCx2dnYEl+EHWV9KlS
+jRJI+LL9q/ekfnFUWI/r5IBh325WR7EC/hQPLuzpH54/ZKBgDs/0TqMN44Yb2N/u
+7sWZEHxlraQIZ6TPjK3jOV0U1lVO+cc9IblwSlONReYh8IAeqBgTuLT2UQONXjyp
+PdGuS1DFnSI3BsERswHalw392Xsz68+lJnTm89YreRMUD7C7X0iTTGILUP6t2EO1
+7NXdYr7iCfAzXjGQnoUwBf/b/331sweZLzXvII9YKSdWfWlGb7o8A8Gs5qCXxHz7
+SEm7ouyiw+vZY46dwodz3rnMb6hZkYTy</ds:X509Certificate><ds:X509Certificate>MIIGMTCCBBmgAwIBAgIEQbvSUTANBgkqhkiG9w0BAQsFADCBmzELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOzA5BgNVBAMMMkFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFJBSVogQ0EtMiBTRUNVUklUWSBEQVRB
+MB4XDTE5MTAxNTIxMjAxMloXDTM5MTAwNjIxMjAxMlowgZsxCzAJBgNVBAYTAkVD
+MR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURB
+RCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTswOQYDVQQDDDJBVVRP
+UklEQUQgREUgQ0VSVElGSUNBQ0lPTiBSQUlaIENBLTIgU0VDVVJJVFkgREFUQTCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMN8h43o0W88YbV2h+knLPcR
+c9KnfWfdVDSZzSRFxLI7JjVMsjd1rU9CA4veB4qiqpSa4rwYUrACdvNexPJONpJg
+vhgx6auj2wFOKDpge+6YxPFkXw8kN062JcSu/ZWO6cryF8clRywWnxBXBXlX3rdD
+EFEPVHKHxLMiZLLaqxOBV52oQEqu5udNBctfHh5wyx/NHgdZWH7YWHMA9pnAIM3D
+eyTACC/ssAoHYgfe3GsUW3fFYNDNnYy/jHv5xFGTeftnN27vMEonqIeHoSb+jHKY
+KMSN3bZn0k0rUugwNUl3+Sa5EBIEtNoQJmqVfvzKGZUeMFk/3ZPGE04pmAOLXf0q
+jq98um684vxLEWUoOkNi4RYOOO1najDNMtdo/TFG+IPO/faG8qCmq5CwM9KCay1e
+EFGECX9Ihp3Qf1tafaI1mU4IcIWt0D4LlF6plxMzL7/ezHFOOoqeVqZSe9Gk7ofc
+cVUL2z8P5di+wu/t1AlgqmzRlviLIk08mnMxVdX9C9z8vCZ0pso1C1hhPoA/rEiM
+6FfKaUple/FxzfkgabbQhYRb6YyrR7cz90Cb4FzhKOZ8ocU4oueKVuBN1f0OVBdO
+aw7IHzMqzjn7hM9msFf10PKcOJ2gCpSAJHln5+NWJAX8z6oXUOuiGh8I8BpgeUOb
+WSC7xP5F3lNuOevch1dDAgMBAAGjezB5MA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0j
+BBgwFoAUhL+GZGhmemwf66SiuETDlQAd8W4wFgYDVR0gBA8wDTALBgkrBgEEAYKm
+cgEwHQYDVR0OBBYEFIS/hmRoZnpsH+ukorhEw5UAHfFuMA4GA1UdDwEB/wQEAwIB
+hjANBgkqhkiG9w0BAQsFAAOCAgEASD6yNRCQa76mbJ7tu9TvX38pEX/xAEIco5xn
+liEHlD1YWv9fTRJjruz8tUcvDEm8J7C4oCmy9WqjDyLS0vnMZeRoN/7Z/55cAPiy
+gyzfY+nl/KiM94zUP6Q7WaskW/uAwUsjbZL1dhgqR0WfUuw6749xwi7hSISV0NOP
+u6kbXPoQd9F2He23Ze8begcdCbgygn887K5PKqfHl1XT1NYEmspmb4rEn+GpAO6J
+cwEal4RmoE07gdl2nqUAugWLPt97OkvcqjkOpKisX6pdTVd0BEbRXmZvmB1GwtWH
+5O4Cq3IUBWLjWhtmtJTmYeBaNjzLL1zraC0RuAj9rhMXpYEwJNUPSXZt6dCgWVjW
+9v70dMcuVaAz2/cLmx1KGNEPJSVOm+9VrIvWit4kcpxEtcCP6eppgF+VAVUWnHze
+j2nd7oBwVXtsyhPlRN3CT3Bs1mE/Cb/tLJxuhiax0lEa5Mc2EONdQgM5OzmSaOgH
+yfxUBxiudNWAjyxV/NN4A27Suh6/tjPKkXql3JTsYGkbOyWGaf3B/fCfDW4295XR
+ayPtdunbLdadjTKt25jcqJ3xASY0CG76hJRi6zgiKoDXH0qpWKhYj7KmohoRLdMM
+R+WMUU0zPcgCsnNoW4RJgXrjNW1WXysrRksIbg9JvXx63pZqjtGFlN4tpxL4rkab
+Lk9Um9M=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>l3yw89gCEiwuwOu+hIF45LsHeR5NcPfrL2KUJCuk1fVx1XrBODmYB/+qrNwVbHUPx9zdZRjOP6AmjLiWlqqoOo/BbaMUvK31equgRBrZpyMY0OmIqn1K3fYPa5StrRFn8gna3AiBlsIDhFxT7Tmv/25t9jOmFfO7U/97ahQvefpvb9vGTVFw7Ce+2BiNFnlprMNSVoSoJo1VkjWtfJPMrkom8/ysBGVOtOMc2X3F7el277b0ZMdkClvkMpM9HC+lHQCNf5djQHr0bYNZrntrJb9cDdGA0kAZVYr2A/opt5999QdQZQdERqLDqzcIORTMVg+odyonkO9Y9FbBxbEXuw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="SignatureN0-ObjectN0"><xades:QualifyingProperties Target="#SignatureN0"><xades:SignedProperties Id="SignatureN0-SignedPropertiesN0"><xades:SignedSignatureProperties><xades:SigningTime>2026-02-11T10:19:18</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>q+uMswOP8QE/FrrQlePtxOIgb7E=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>703755914</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-ID-N0"><xades:Description>contenido comprobante</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

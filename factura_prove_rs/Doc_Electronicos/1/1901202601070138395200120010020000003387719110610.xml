@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>CRUZ CHACHA MIGUEL ORLANDO</razonSocial>
+	    <nombreComercial>CRUZ CHACHA MIGUEL ORLANDO</nombreComercial>
+	    <ruc>0701383952001</ruc>
+	    <claveAcceso>1901202601070138395200120010020000003387719110610</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>002</ptoEmi>
+	    <secuencial>000000338</secuencial>
+	    <dirMatriz>PUERTO BOLIVAR / BOLIVAR S/N Y APOLINARIO GALVEZ Y GONZALO CO</dirMatriz>
+		
+		
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>19/01/2026</fechaEmision>
+		
+			<dirEstablecimiento>PUERTO BOLIVAR / BOLIVAR S/N Y APOLINARIO GALVEZ Y GONZALO CO</dirEstablecimiento>
+		
+	    
+	    
+			<obligadoContabilidad>NO</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>CIUDADELA LOS JARDINES CALLE GUAYAQUIL INTERSECCION QUINTA NORTE ESQ</direccionComprador>
+	    
+	    <totalSinImpuestos>800.00000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>0.00</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>800.00</baseImponible>
+				<valor>120.00000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>920.00000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>920.00</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>00208</codigoPrincipal>
+		<codigoAuxiliar>00208</codigoAuxiliar>
+      	<descripcion>Asesorar y controlar las sustancias químicas, fiscalizadas por el Ministerio del Interior y el Ministerio del Ambiente.</descripcion>
+      
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>800.000000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>800.00</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>800.00000</baseImponible>
+          <valor>120.00</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+    	
+    		
+    			<campoAdicional nombre="Descripción">PERIODO MES ENERO 2026 - Asesorar y controlar las sustancias químicas, fiscalizadas por el Ministerio del Interior y el Ministerio del Ambiente</campoAdicional>
+    		
+    	
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature757972">
+<ds:SignedInfo Id="Signature-SignedInfo499629">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID696533" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature757972-SignedProperties306787">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6kEwFbK15lFALJI+waMDXdpVEZ4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate221499">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>QR2cZy9gkSPhE7RhcxT34nWi3sM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-863144" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>YzhBpcCcniC5s7a2VvSrnc0pWqI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue867614">
+Fu9cfx39bQWVmIGmyvPkQjdkMmwfhF2JWBLjiGKl87xzKk+ORUldz2fjz6iq7NfcpHTRZPXp8VWc
+U82hpGfggjfNLMxRUZ41bRenuAO255e448nAboY28LXRgWxgmuRBzKUgU83Efa3EHIx7sdWIVyOJ
+5mUETXZlFTyZCWsFLA+jV3lMaOCOyvYd+ZaOTBw96MzdSnu0cd5oxPJ6K1fNmXYyNn/VlDhENaWW
+NJUEud9GAh+9CE1kTwzDZgWo2Fqyx2243SvhVswyvT9Q+oQKYtGpZo6DVXLgak9EUNqHWH4qrkFA
+OSsBAbYuJtZ9CyDNBtoaT4Xi9inmUKWH5SARvg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate221499">
+<ds:X509Data>
+<ds:X509Certificate>
+MIII+TCCBuGgAwIBAgIKeS/l33+j2/ehiTANBgkqhkiG9w0BAQsFADCBmzELMAkGA1UEBhMCRUMx
+HzAdBgNVBAoMFkNPUlBORVdCRVNUIENJQS4gTFREQS4xMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMUVGIENPUlBORVdCRVNUMB4XDTI1MTIwNjE5MDczM1oXDTI3MTIwNjE5MDcz
+MlowgYQxIzAhBgNVBAMMGkNSVVogQ0hBQ0hBIE1JR1VFTCBPUkxBTkRPMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHjAcBgNVBAoMFUNPUlBORVdCRVNU
+IENJQS4gTFREQTELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCn
+PYbNezEJhpEqZxeUubGujwsxzRU2nU20oO8xux3U21zEujHRfFLnYMndBliOhcY14xpZg7xtyqfx
+seFzDv9g5JB+z75RG0Yrs9yOGmlvRqS+BiN7Iwg5Cg833bJVjQwCcIfL7mt7Z7Q0bfGr0o0AQtjQ
+Jx632HYKLzc5A3RJGeU4J8gouwsoahePtJZ0IkhJlImMfHZnIB5P1LbQsruYDMfJSvnOevrqiehI
+DgwUmvTCh16MuZL5R3sOkV80APhR8vyNZoALZnE/HvD11uQHQshJSlWO7VhEHYWX7Pf3WBNNHL6a
+Cb6PTVM0D1AhYfJAybN7ipeVPnaaXTDKwF/dAgMBAAGjggRSMIIETjAMBgNVHRMBAf8EAjAAMB8G
+A1UdIwQYMBaAFGmVD4U4mVSIWuXJ9hp1c4j/SvSeMFMGCCsGAQUFBwEBBEcwRTBDBggrBgEFBQcw
+AYY3aHR0cDovL2VqYmNhZWUubmV3YmVzdC50ZWNoL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cDCB7QYDVR0uBIHlMIHiMIHfoIHcoIHZhoHWaHR0cDovL2VqYmNhZWUubmV3YmVzdC50ZWNoL2Vq
+YmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOJTNEQVVUT1JJ
+REFEK0RFK0NFUlRJRklDQUNJT04rU1VCQ0EtMUVGK0NPUlBORVdCRVNUJTJDT1UlM0RFTlRJREFE
+K0RFK0NFUlRJRklDQUNJT04rREUrSU5GT1JNQUNJT04lMkNPJTNEQ09SUE5FV0JFU1QrQ0lBLitM
+VERBLiUyQ0MlM0RFQzCBiwYDVR0gBIGDMIGAMHAGCisGAQQBgoxMAQkwYjBgBggrBgEFBQcCARZU
+aHR0cHM6Ly93d3cubmV3YmVzdC5uZXQvbmV3c2lnbmFwaS9kb3dubG9hZHMvbm9ybWF0aXZhL3Bv
+bGl0aWNhc19wZXJzb25hX25hdHVyYWwucGRmMAwGCisGAQQBgoxMAgcwge0GA1UdHwSB5TCB4jCB
+36CB3KCB2YaB1mh0dHA6Ly9lamJjYWVlLm5ld2Jlc3QudGVjaC9lamJjYS9wdWJsaWN3ZWIvd2Vi
+ZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTiUzREFVVE9SSURBRCtERStDRVJUSUZJQ0FD
+SU9OK1NVQkNBLTFFRitDT1JQTkVXQkVTVCUyQ09VJTNERU5USURBRCtERStDRVJUSUZJQ0FDSU9O
+K0RFK0lORk9STUFDSU9OJTJDTyUzRENPUlBORVdCRVNUK0NJQS4rTFREQS4lMkNDJTNERUMwHQYD
+VR0OBBYEFJTRBXpDTv6xaephsxjkc+9tSL8zMCsGA1UdEAQkMCKADzIwMjUxMjA2MTkwNzMzWoEP
+MjAyNzEyMDYxOTA3MzJaMA4GA1UdDwEB/wQEAwIF4DAaBgorBgEEAYKMTAMBBAwMCjA3MDEzODM5
+NTIwFwYKKwYBBAGCjEwDCQQJDAdNQUNIQUxBMCwGCisGAQQBgoxMAwcEHgwcQk9MSVZBUiBTTiBB
+UE9MSU5BUklPIEdBTFZFWjAeBgorBgEEAYKMTAMCBBAMDk1JR1VFTCBPUkxBTkRPMBIGCisGAQQB
+goxMAwwEBAwCRUMwFAYKKwYBBAGCjEwDAwQGDARDUlVaMB0GCisGAQQBgoxMAwsEDwwNMDcwMTM4
+Mzk1MjAwMTAWBgorBgEEAYKMTAMEBAgMBkNIQUNIQTAaBgorBgEEAYKMTAMIBAwMCjA5OTc2Mzk1
+MzUwDQYJKoZIhvcNAQELBQADggIBAK62J21vmAHAIj6jHuZ9z8SUr4VUuc2eicXKtYvUe6qDK2vI
+B0KaKFryC/5ZxrRK1dPfGYS31N/cEkxvC9EnR+krsLnwzhRewtvyR0fe1pKHcMTTGyU0CXJW0JsE
+7rsF2VGgkqFkYDvw6zFpKdeb0ycFe5sbEv7YjX+6WqLZ28axkS51nkIeCYf9Knf+bvXktFAcZ7Qo
+JnlJGchET0Tgx2sZvDcxVgzF2yNt5zqTDKNgSgAvQAn5FLISiRGu0NYPLYxbAOVsfyKpSuGkIIiV
+CQPIqpKZH2RTwyldx0TY5w2/wLRx/ND9i6RNOTkCmpuoc005OvU2rBvwbf0/PviXCrkPDrCxjw+t
+JKjmEUqXtvk/NkeWXJvq0xCHDYtn4zcU8DYLY+2JltW+tqB8ZcEKMaBg4HYImgLMD4xhE05X2THC
+Zdlz2cteZr29Gj4s5Tti2V0qh7rTE36eNsrM1eL+Ai9lUxzHbdm0Iq8H8EeM1zJ+RT/iOgSPTjj6
+uRFVccNGE0m8iLaZIoQf2l9WC0hsEdRIGdPjPJJ+NXiAGru5dvgJsko+PnSKAOE4S3g9QM6fu8Ja
+1WrqbqJzvTyskK2IPES4HVV6nEZDJ+HxnKMfm0iddzjOpjg8y+4fxtPAtqa8tnCHIM0sbHegJrUT
+dHmY1kJn81G2yLv/mP5rQ49e7w4j
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pz2GzXsxCYaRKmcXlLmxro8LMc0VNp1NtKDvMbsd1NtcxLox0XxS52DJ3QZYjoXGNeMaWYO8bcqn
+8bHhcw7/YOSQfs++URtGK7Pcjhppb0akvgYjeyMIOQoPN92yVY0MAnCHy+5re2e0NG3xq9KNAELY
+0Ccet9h2Ci83OQN0SRnlOCfIKLsLKGoXj7SWdCJISZSJjHx2ZyAeT9S20LK7mAzHyUr5znr66ono
+SA4MFJr0wodejLmS+Ud7DpFfNAD4UfL8jWaAC2ZxPx7w9dbkB0LISUpVju1YRB2Fl+z391gTTRy+
+mgm+j01TNA9QIWHyQMmze4qXlT52ml0wysBf3Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature757972-Object220487"><etsi:QualifyingProperties Target="#Signature757972"><etsi:SignedProperties Id="Signature757972-SignedProperties306787"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-01-19T16:35:23-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ns8QG/cLZrKs8oaZa5A6lY0CIns=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1EF CORPNEWBEST,C=EC,O=CORPNEWBEST CIA. LTDA.,OU=ENTIDAD DE CERTIFICACION DE INFORMACION</ds:X509IssuerName><ds:X509SerialNumber>572289905496987658592649</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

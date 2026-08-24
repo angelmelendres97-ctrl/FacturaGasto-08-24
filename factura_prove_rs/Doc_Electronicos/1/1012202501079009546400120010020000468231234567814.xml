@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>EMPRESA DE BODEGAS BODPUYANGO CIA LTDA</razonSocial>
+<nombreComercial>EMPRESA DE BODEGAS BODPUYANGO CIA LTDA</nombreComercial>
+<ruc>0790095464001</ruc>
+<claveAcceso>1012202501079009546400120010020000468231234567814</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>002</ptoEmi>
+<secuencial>000046823</secuencial>
+<dirMatriz>COOPERATIVA UNION DE GANADEROS VIA PANAMERICANA SUR  HUAQUILLAS-ARENILLAS KM 2 5</dirMatriz>
+<agenteRetencion>00001</agenteRetencion>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>10/12/2025</fechaEmision>
+<dirEstablecimiento>VIA ARENILLAS-HUAQUILLAS KM 2 1/2</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+<totalSinImpuestos>70.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>70.00</baseImponible>
+<tarifa>15</tarifa>
+<valor>10.50</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>80.50</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos><pago>
+<formaPago>20</formaPago>
+<total>80.50</total>
+</pago></pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>001</codigoPrincipal>
+<descripcion>SERVICIO DE ALMACENAJE DE: 2 00 BULTO</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>40.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>40.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>40.00</baseImponible>
+<valor>6.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>DESDE: 06/12/2025  HASTA: 10/12/2025</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>DICE CONT : BILLAS DECAERO  PIIÑON SDIVERSA REFERENCIAS</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>DIAS DE ALMACENAJE: 5</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>PESO BRUTO: 70 00</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>CIF US$: 7508 43   M R N: CEC202547790503</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>LIQUIDACION No : 50424946</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>C P I  No : PE000503</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>000</codigoPrincipal>
+<descripcion>D A I  No : 082-25-10-02492627</descripcion>
+<cantidad>0.0000</cantidad>
+<precioUnitario>0.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>002</codigoPrincipal>
+<descripcion>SERVICIO DE BASCULA 1 VEHICULOS</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>10.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>10.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>10.00</baseImponible>
+<valor>1.50</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>004</codigoPrincipal>
+<descripcion>ALQUILER DE MAQUINARIA/ EMBARQUE/ DESEMBARQUE</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>20.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>20.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>20.00</baseImponible>
+<valor>3.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Email">Fernanda.paccha@grupoadmg.com</campoAdicional>
+<campoAdicional nombre="Telefonos">072984073 ext 1</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature399336">
+<ds:SignedInfo Id="Signature-SignedInfo139751">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID859031" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature399336-SignedProperties956841">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>EIl4XgmAVIUurr1y8jeSK91NWB0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1956726">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>cxmtfcrUPzkghXC2I6nkYzKtCi4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-773130" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>DfEKEd6NBlTHDFYC2WuGb9CAmkc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue407070">
+WOxNEAj3Gd7kFD2DD6ZU8WrRYfGpzqKxwxB2i2/0c6iNU0mIBv6RFUY8Jh9Woo2PLwgsv1XnQQo/
+JcSGkwWpQtw4jt+m130J3kOS/u5EeQDp9uaIJtYXT4f5dXqPbLn3b0bkAb7BRzFB8g1Gj8Waldm+
+HELKJy5UY/An8cAxEVY59ISVvUyBdaXfrrQPC4qfGmuRLZJHb/Py1GUxzDZx6cIwxdfabS84okyd
+vXinFbFj7LVC9oruZrMda4CVBMpVBK5hV0EIUbAJnZ4DVwpTueYg9F6ixgtd0VhOVMHRc61HQ/++
+R3/IMMCyo2LyCYXby0EqV40mLkabnOsG8qTLuA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1956726">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK8zCCCNugAwIBAgIIb9weRkgCL0AwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMTExMjAwNTE4WhcNMjcxMTExMjAwNTE4WjCB
+pzElMCMGA1UEAwwcSlVBTiBIRVJJQkVSVE8gRVNQSU5FTCBUQVBJQTEgMB4GA1UEBRMXMTgwMTk4
+NjExNi0xMTExMjUxNTE1MDgxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzLsJzGMUipbb2bDme4bSyyJWb+0g10OyMab5
+HI82TiFzTFc8CgF+LfdkvBs9ZDtKWaujDmZyNRbBxVAuH8ZBahdWYwo5uoNLGWyZNtLBOrHdmhjd
+rXH/XvzbAknNqHpdbqn7Jg8G29BnSjs6trxJfLSp4EOfe+pg9NB7r7eNIs+/Gml9re97DwUNPrrA
+J+BLlPwmarHssn0OdMXnT8KcVgEhpxAWVcQDfolvKZOP4dzpFhAgWeHLLGSkkyb68hD5A5sRvDz9
+n1M6v8Awe1J63anv8VQQHz8QA0csctKPQAKRAS+CR3V8KMBbygT6RlZD34czEg8Z56N+fCd47YZy
+9wIDAQABo4IGLTCCBikwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42u
+Yt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwJQYDVR0RBB4wHIEaamVubnlq
+YXBvbjIwMTBAaG90bWFpbC5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYI
+KwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUA
+bgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGC
+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3Jt
+YXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNl
+bnRhbnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8E
+ggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3Js
+MS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQG
+EwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2Ny
+bGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0
+YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9
+Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVO
+VElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5B
+LiAyLEM9RUMwHQYDVR0OBBYEFM0NqhUq8DGIVGXNd98jxgFT3rciMCsGA1UdEAQkMCKADzIwMjUx
+MTExMjAwNTE4WoEPMjAyNzExMTEyMDA1MThaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEM
+D0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjE4MDE5ODYxMTYwHAYKKwYBBAGCpnID
+CQQODAxVTklPTiBMT0pBTkEwEQYKKwYBBAGCpnIDIgQDDAEuMD8GCisGAQQBgqZyAwcEMQwvVklB
+IFBBTkFNRVJJQ0FOQSBTVVIgUyBOIFkgU0lOIENBTExFIFNFQ1VOREFSSUEwHgYKKwYBBAGCpnID
+AgQQDA5KVUFOIEhFUklCRVJUTzAfBgorBgEEAYKmcgMgBBEMDzAyMTAwMTAwMDAwMzUwNDATBgor
+BgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFwYKKwYBBAGCpnIDAwQJ
+DAdFU1BJTkVMMDYGCisGAQQBgqZyAwoEKAwmRU1QUkVTQSBERSBCT0RFR0FTIEJPRFBVWUFOR08g
+Q0lBIExUREEwHQYKKwYBBAGCpnIDCwQPDA0wNzkwMDk1NDY0MDAxMBEGCisGAQQBgqZyAx0EAwwB
+LjAVBgorBgEEAYKmcgMEBAcMBVRBUElBMBoGCisGAQQBgqZyAwgEDAwKMDk5NTE3ODI4NjANBgkq
+hkiG9w0BAQsFAAOCAgEAOEK1c278M1dfNMxAAND3CesWeKfww5Z5M3xBMR0K/MPV9oAScKqK9JIy
+ouqdwnQS5XoS/WCovaUZl3006slkpOn5ZicYEmFmgfRPsnlWuyPjLLoocg+XjsiOzChrTUwX+p9t
+sibJsFrXHN7LmG0Q9rH4EC880405bwv4/pEwNviQfx3xqu0GNVRr0Pxu1nGLegWV452swrubBpvr
+u3HpZamHPyc8jeq3kt/fByLZ2N42sZgr08Z419T/y9A0sxYkGdiNXqfVNvr5ZMm7wyJJjmW1YALt
+TDUhgWX54DL2si2HmqJPG75GGFaCuK2D6xTJL/+OGjSAybo5YM4MV1BAO5BOwp7qMhPliGVI8SgW
+AZUM6M1FmgR3GVnM9hRLIMUbXyvn52hHytJBj6uYrNbv8XituGKAp30gqz/T/j/bmmjcAPJiP5s1
+FOxksqjnxWySYN8oyTtu5M+miUjtCzN9iC1UCz9eYGwzV9ydblCRAKnPw1tXJxZ6ljuIMtW00ImU
+r0fa0E4uNVsuG7jJq/EZnzmFD//5P5PKwfN7IBZwYlYF6RYU+H0jn19A2pZB+QreygsUhAzYg9C8
+ns4orNf9IxpBNsW+HrHbNbFutQkh7crXFY3wZbcZ4VuWP2QcV2ZXQLWwesN0prmKo5HSb6makGPK
+skeEmAIuHkublJLh6Wo=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zLsJzGMUipbb2bDme4bSyyJWb+0g10OyMab5HI82TiFzTFc8CgF+LfdkvBs9ZDtKWaujDmZyNRbB
+xVAuH8ZBahdWYwo5uoNLGWyZNtLBOrHdmhjdrXH/XvzbAknNqHpdbqn7Jg8G29BnSjs6trxJfLSp
+4EOfe+pg9NB7r7eNIs+/Gml9re97DwUNPrrAJ+BLlPwmarHssn0OdMXnT8KcVgEhpxAWVcQDfolv
+KZOP4dzpFhAgWeHLLGSkkyb68hD5A5sRvDz9n1M6v8Awe1J63anv8VQQHz8QA0csctKPQAKRAS+C
+R3V8KMBbygT6RlZD34czEg8Z56N+fCd47YZy9w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature399336-Object307178"><etsi:QualifyingProperties Target="#Signature399336"><etsi:SignedProperties Id="Signature399336-SignedProperties956841"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-10T09:47:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>GALiTq3JuTNnVPBNt1H9qNM5WrA=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>8060350720290991936</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-773130"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

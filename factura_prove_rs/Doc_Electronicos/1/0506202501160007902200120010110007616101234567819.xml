@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>ONATE VILLENA SEGUNDO DAVID</razonSocial>
+		<nombreComercial>SUPERMERCADOS DEL NORTE</nombreComercial>
+		<ruc>1600079022001</ruc>
+		<claveAcceso>0506202501160007902200120010110007616101234567819</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000761610</secuencial>
+		<dirMatriz>CIRCUNVALACION NORTE ENTRE BUENAVISTA Y NAPOLEON MERA</dirMatriz>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>05/06/2025</fechaEmision>
+	<dirEstablecimiento>PASAJE 312 E/ JUAN MONTALVO Y PAEZ</dirEstablecimiento>
+	<obligadoContabilidad>SI</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>CDLA. LOS JARDINES CALLES QUINTA NORTE Y GUAYAQUIL</direccionComprador>
+	<totalSinImpuestos>2567.31</totalSinImpuestos>
+	<totalDescuento>0</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>0</codigoPorcentaje>
+		<baseImponible>513.9</baseImponible>
+		<tarifa>0</tarifa>
+		<valor>0</valor>
+		</totalImpuesto>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<baseImponible>2053.41</baseImponible>
+			<tarifa>15</tarifa>
+		<valor>308.01</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0</propina>
+	<importeTotal>2875.33</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>2875.33</total>
+		<plazo>15</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>1107</codigoPrincipal>
+		<codigoAuxiliar>7861048690133</codigoAuxiliar>
+		<descripcion>ACEITE LA FAVORITA NORMAL 1LT</descripcion>
+		<cantidad>15</cantidad>
+		<precioUnitario>2.16666</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>32.5</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>32.5</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>7721</codigoPrincipal>
+		<codigoAuxiliar>7868000358131</codigoAuxiliar>
+		<descripcion>*AGUA PURIFICADA TISANITA 600ML</descripcion>
+		<cantidad>60</cantidad>
+		<precioUnitario>0.188405</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>11.3</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>11.3</baseImponible>
+			<valor>1.7</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1172</codigoPrincipal>
+		<codigoAuxiliar>7861007902024</codigoAuxiliar>
+		<descripcion>*SALSA DE AJI ORIENTAL 100ML</descripcion>
+		<cantidad>24</cantidad>
+		<precioUnitario>0.73913</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>17.74</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="24"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>17.74</baseImponible>
+			<valor>2.66</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>316</codigoPrincipal>
+		<codigoAuxiliar>090388001416</codigoAuxiliar>
+		<descripcion>ATUN REAL TRIPACK 80GR X20</descripcion>
+		<cantidad>60</cantidad>
+		<precioUnitario>2</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>120</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="PQT"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>120</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1150</codigoPrincipal>
+		<codigoAuxiliar>7861006800277</codigoAuxiliar>
+		<descripcion>*CAFE DON CAFE CLASICO 40GR 20UND</descripcion>
+		<cantidad>40</cantidad>
+		<precioUnitario>1.195652</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>47.83</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>47.83</baseImponible>
+			<valor>7.17</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3535</codigoPrincipal>
+		<codigoAuxiliar>7861001239515</codigoAuxiliar>
+		<descripcion>*CHOCAPIC CEREAL NESTLE 100GR</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>0.947826</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>28.43</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="2"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>28.43</baseImponible>
+			<valor>4.26</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>214512</codigoPrincipal>
+		<codigoAuxiliar>7702103124852</codigoAuxiliar>
+		<descripcion>*ZUCARITAS KELLOGGS 90GR</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>0.782608</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>23.48</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="30"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>23.48</baseImponible>
+			<valor>3.52</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3106</codigoPrincipal>
+		<codigoAuxiliar>7702010111501</codigoAuxiliar>
+		<descripcion>*COLGATE TRIPLE ACCION 60ML</descripcion>
+		<cantidad>144</cantidad>
+		<precioUnitario>0.75483</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>108.7</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>108.69</baseImponible>
+			<valor>16.31</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>2201</codigoPrincipal>
+		<codigoAuxiliar>7861081700165</codigoAuxiliar>
+		<descripcion>*HISOPOS DE ALGODON CARLITOS MADERA 100UND</descripcion>
+		<cantidad>24</cantidad>
+		<precioUnitario>0.365217</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>8.77</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="24"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>8.76</baseImponible>
+			<valor>1.32</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>944</codigoPrincipal>
+		<codigoAuxiliar>78923454</codigoAuxiliar>
+		<descripcion>*DESODORANTE REXONA BOLITA MEN V8 50ML</descripcion>
+		<cantidad>24</cantidad>
+		<precioUnitario>1.869565</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>44.87</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>44.87</baseImponible>
+			<valor>6.73</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>930</codigoPrincipal>
+		<codigoAuxiliar>7791293042718</codigoAuxiliar>
+		<descripcion>*DESODORANTE AXE DARK TEMPTATION 150ML</descripcion>
+		<cantidad>15</cantidad>
+		<precioUnitario>3.260869</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>48.91</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="3"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>48.91</baseImponible>
+			<valor>7.34</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>28467</codigoPrincipal>
+		<codigoAuxiliar>7861001301311</codigoAuxiliar>
+		<descripcion>*DETERGENTE DEJA FLORAL 340G</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>0.628019</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>45.22</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>45.22</baseImponible>
+			<valor>6.78</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>7051</codigoPrincipal>
+		<codigoAuxiliar>7861001347142</codigoAuxiliar>
+		<descripcion>*DETERGENTE DEJA LIMON 5KG</descripcion>
+		<cantidad>10</cantidad>
+		<precioUnitario>9.782608</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>97.83</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="1"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>97.83</baseImponible>
+			<valor>14.67</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>364859</codigoPrincipal>
+		<codigoAuxiliar>7861001364859</codigoAuxiliar>
+		<descripcion>*DETERGENTE DEJA BRISA PRIMAVE 800GR</descripcion>
+		<cantidad>48</cantidad>
+		<precioUnitario>1.391304</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>66.78</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>66.78</baseImponible>
+			<valor>10.02</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>350</codigoPrincipal>
+		<codigoAuxiliar>7861092182608</codigoAuxiliar>
+		<descripcion>*MANJAR AREQUIPE 250G</descripcion>
+		<cantidad>20</cantidad>
+		<precioUnitario>1.869565</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>37.39</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="8"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>37.39</baseImponible>
+			<valor>5.61</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1223</codigoPrincipal>
+		<codigoAuxiliar>7861007915321</codigoAuxiliar>
+		<descripcion>FIDEO RAPIDITO ORIENTAL POLLO 100GR</descripcion>
+		<cantidad>60</cantidad>
+		<precioUnitario>0.61</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>36.6</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="12"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>36.6</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>6219</codigoPrincipal>
+		<codigoAuxiliar>070330662773</codigoAuxiliar>
+		<descripcion>*FOSFORERA BIC GRANDE</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>0.765217</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>22.96</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="2"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>22.96</baseImponible>
+			<valor>3.44</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>384</codigoPrincipal>
+		<codigoAuxiliar>7861091158024</codigoAuxiliar>
+		<descripcion>*GALLETA AMOR WAFFERS CHOCOLATE 175G</descripcion>
+		<cantidad>36</cantidad>
+		<precioUnitario>1.130434</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>40.7</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>40.69</baseImponible>
+			<valor>6.11</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>383</codigoPrincipal>
+		<codigoAuxiliar>7861091158048</codigoAuxiliar>
+		<descripcion>*GALLETA AMOR WAFFERS FRESA 175GR</descripcion>
+		<cantidad>36</cantidad>
+		<precioUnitario>1.130434</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>40.7</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>40.69</baseImponible>
+			<valor>6.11</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>6370</codigoPrincipal>
+		<codigoAuxiliar>7861091158017</codigoAuxiliar>
+		<descripcion>*GALLETA AMOR WAFFERS CLASICA 175GR</descripcion>
+		<cantidad>28</cantidad>
+		<precioUnitario>1.130434</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>31.65</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="28"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>31.65</baseImponible>
+			<valor>4.75</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>187452</codigoPrincipal>
+		<codigoAuxiliar>7861004914075</codigoAuxiliar>
+		<descripcion>*GALLETAS ANIVENTURAS CHOCOLATE 380GR</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>1.268115</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>91.3</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>91.3</baseImponible>
+			<valor>13.7</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>147915</codigoPrincipal>
+		<codigoAuxiliar>7702025147915</codigoAuxiliar>
+		<descripcion>*GALLETA DUCALES 315GR</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>1.449275</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>104.35</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>104.35</baseImponible>
+			<valor>15.65</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>15412</codigoPrincipal>
+		<codigoAuxiliar>7862117321637</codigoAuxiliar>
+		<descripcion>*GALLETA KOKI 210GR</descripcion>
+		<cantidad>120</cantidad>
+		<precioUnitario>0.634057</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>76.09</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="5"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>76.09</baseImponible>
+			<valor>11.41</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>17145</codigoPrincipal>
+		<codigoAuxiliar>7861004914174</codigoAuxiliar>
+		<descripcion>*GALLETAS APETITAS TIPO MARIA 165GR</descripcion>
+		<cantidad>90</cantidad>
+		<precioUnitario>0.536231</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>48.26</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>48.26</baseImponible>
+			<valor>7.24</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>150</codigoPrincipal>
+		<codigoAuxiliar>7861091199898</codigoAuxiliar>
+		<descripcion>*GALLETA NESTLE SAL 380GR 26UND</descripcion>
+		<cantidad>26</cantidad>
+		<precioUnitario>1.622073</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>42.17</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>42.17</baseImponible>
+			<valor>6.33</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>380</codigoPrincipal>
+		<codigoAuxiliar>7861091199881</codigoAuxiliar>
+		<descripcion>*GALLETA NESTLE VAINILLA 380GR 26UND</descripcion>
+		<cantidad>26</cantidad>
+		<precioUnitario>1.622073</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>42.17</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="FDA"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>42.17</baseImponible>
+			<valor>6.33</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>2664</codigoPrincipal>
+		<codigoAuxiliar>7861091190192</codigoAuxiliar>
+		<descripcion>*GALLETA RICAS 58GR 48UND</descripcion>
+		<cantidad>100</cantidad>
+		<precioUnitario>0.330434</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>33.04</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>33.04</baseImponible>
+			<valor>4.96</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>4094</codigoPrincipal>
+		<codigoAuxiliar>7861004911258</codigoAuxiliar>
+		<descripcion>*GALLETAS SALTICAS TACO 63GR 48UND</descripcion>
+		<cantidad>48</cantidad>
+		<precioUnitario>0.262681</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>12.61</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>12.61</baseImponible>
+			<valor>1.89</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>89827</codigoPrincipal>
+		<codigoAuxiliar>78600522</codigoAuxiliar>
+		<descripcion>*RELLENO CON CREMA DE VAINILLA 100G</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>0.913043</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>45.65</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="50"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>45.65</baseImponible>
+			<valor>6.85</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>89826</codigoPrincipal>
+		<codigoAuxiliar>78600515</codigoAuxiliar>
+		<descripcion>*CHOCOCAKE CON CREMA DE VAINILLA 100G</descripcion>
+		<cantidad>50</cantidad>
+		<precioUnitario>0.913043</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>45.65</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="50"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>45.65</baseImponible>
+			<valor>6.85</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1050</codigoPrincipal>
+		<codigoAuxiliar>7861048613613</codigoAuxiliar>
+		<descripcion>*JABON LAVA TODO FLORAL 230GR</descripcion>
+		<cantidad>48</cantidad>
+		<precioUnitario>0.521739</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>25.04</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>25.04</baseImponible>
+			<valor>3.76</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3007</codigoPrincipal>
+		<codigoAuxiliar>7702010420344</codigoAuxiliar>
+		<descripcion>*JABON PROTEX FRESH 110G X 3 UND</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>0.682367</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>49.13</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>49.13</baseImponible>
+			<valor>7.37</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>10580</codigoPrincipal>
+		<codigoAuxiliar>7862110544934</codigoAuxiliar>
+		<descripcion>*CIFRUT NARANJA 1LT</descripcion>
+		<cantidad>144</cantidad>
+		<precioUnitario>0.416666</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>60</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="16"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>60</baseImponible>
+			<valor>9</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>32323</codigoPrincipal>
+		<codigoAuxiliar>7861002011073</codigoAuxiliar>
+		<descripcion>LECHE ENTERA GLORIA 1LT</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>1.041666</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>75</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>75</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1062</codigoPrincipal>
+		<codigoAuxiliar>7861055900249</codigoAuxiliar>
+		<descripcion>LECHE NUTRI ENTERA FUNDA 500ML 24UND</descripcion>
+		<cantidad>240</cantidad>
+		<precioUnitario>0.583333</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>140</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="10"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="FDA"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>140</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>01918</codigoPrincipal>
+		<codigoAuxiliar>78601918</codigoAuxiliar>
+		<descripcion>MENTOL CHINO CONCENTRADO</descripcion>
+		<cantidad>24</cantidad>
+		<precioUnitario>0.7</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>16.8</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>16.8</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>89581</codigoPrincipal>
+		<codigoAuxiliar>044695012603</codigoAuxiliar>
+		<descripcion>*MERMELADA FACUNDO DURAZNO 300G X12</descripcion>
+		<cantidad>12</cantidad>
+		<precioUnitario>1.391304</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>16.7</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="1"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>16.69</baseImponible>
+			<valor>2.51</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>89580</codigoPrincipal>
+		<codigoAuxiliar>044695002482</codigoAuxiliar>
+		<descripcion>*MERMELADA FACUNDO FRUTIMORA 300G X12</descripcion>
+		<cantidad>12</cantidad>
+		<precioUnitario>1.391304</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>16.7</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="12"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>16.69</baseImponible>
+			<valor>2.51</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1185</codigoPrincipal>
+		<codigoAuxiliar>7750670000758</codigoAuxiliar>
+		<descripcion>*PULP DURAZNO 1LT 6UND</descripcion>
+		<cantidad>144</cantidad>
+		<precioUnitario>0.97826</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>140.87</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="24"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>140.87</baseImponible>
+			<valor>21.13</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1952</codigoPrincipal>
+		<codigoAuxiliar>7861003121528</codigoAuxiliar>
+		<descripcion>*PAPEL HIGIENICO FAMILIA ACOLCHAMAX MEGAROLLO X 6UND*8</descripcion>
+		<cantidad>32</cantidad>
+		<precioUnitario>2.717391</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>86.96</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="4"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="PQT"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>86.96</baseImponible>
+			<valor>13.04</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>4901</codigoPrincipal>
+		<codigoAuxiliar>7861018517552</codigoAuxiliar>
+		<descripcion>*RUFFLES NATURAL 136GR</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>1.695652</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>50.87</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="30"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>50.87</baseImponible>
+			<valor>7.63</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3395</codigoPrincipal>
+		<codigoAuxiliar>009497003198</codigoAuxiliar>
+		<descripcion>*PONY MALTA 1LT</descripcion>
+		<cantidad>60</cantidad>
+		<precioUnitario>0.947826</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>56.87</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="60"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>56.87</baseImponible>
+			<valor>8.53</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1375</codigoPrincipal>
+		<codigoAuxiliar>7501009222729</codigoAuxiliar>
+		<descripcion>*PRESTOBARBA GILLETTE GILBUN 2 HOJAS</descripcion>
+		<cantidad>72</cantidad>
+		<precioUnitario>0.73913</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>53.22</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="16"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>53.22</baseImponible>
+			<valor>7.98</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>2039</codigoPrincipal>
+		<codigoAuxiliar>7861009940710</codigoAuxiliar>
+		<descripcion>ROSQUITAS SUPAN TRENZADA 200GR</descripcion>
+		<cantidad>30</cantidad>
+		<precioUnitario>1.8</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>54</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="5"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>54</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3754</codigoPrincipal>
+		<codigoAuxiliar>7702354945992</codigoAuxiliar>
+		<descripcion>*BEBIDA SAVILOE 320ML</descripcion>
+		<cantidad>36</cantidad>
+		<precioUnitario>0.73913</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>26.61</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>26.61</baseImponible>
+			<valor>3.99</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>96611</codigoPrincipal>
+		<codigoAuxiliar>7862130300145</codigoAuxiliar>
+		<descripcion>*SERVILLETA BLANCHY X300 UNDS</descripcion>
+		<cantidad>8</cantidad>
+		<precioUnitario>1.304347</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>10.43</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="8"/>
+			<detAdicional nombre="unidades" valor="0"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>10.43</baseImponible>
+			<valor>1.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>2196</codigoPrincipal>
+		<codigoAuxiliar>7702006203708</codigoAuxiliar>
+		<descripcion>*SHAMPOO SAVITAL MULTIVITAMINAS Y SABILA 510ML</descripcion>
+		<cantidad>6</cantidad>
+		<precioUnitario>3.913043</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>23.48</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="6"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>23.48</baseImponible>
+			<valor>3.52</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>914621</codigoPrincipal>
+		<codigoAuxiliar>7702006406444</codigoAuxiliar>
+		<descripcion>*SHAMPOO SAVITAL CON SERUM DE AMINOACIDOS Y SABILA 510ML</descripcion>
+		<cantidad>6</cantidad>
+		<precioUnitario>3.913043</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>23.48</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="0"/>
+			<detAdicional nombre="unidades" valor="6"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>23.48</baseImponible>
+			<valor>3.52</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>6371</codigoPrincipal>
+		<codigoAuxiliar>7861032141429</codigoAuxiliar>
+		<descripcion>TALCO FUNGIREX FUNGICIDA 90G</descripcion>
+		<cantidad>12</cantidad>
+		<precioUnitario>3.25</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>39</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="2"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>0</codigoPorcentaje>
+			<tarifa>0</tarifa>
+			<baseImponible>39</baseImponible>
+			<valor>0</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3737</codigoPrincipal>
+		<codigoAuxiliar>7861006748043</codigoAuxiliar>
+		<descripcion>*TORTOLINES 45 GR</descripcion>
+		<cantidad>40</cantidad>
+		<precioUnitario>0.486956</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>19.48</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="3"/>
+			<detAdicional nombre="unidades" valor="4"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>19.48</baseImponible>
+			<valor>2.92</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>3734</codigoPrincipal>
+		<codigoAuxiliar>7861006747152</codigoAuxiliar>
+		<descripcion>*TORTOLINES MADURITOS 45GR</descripcion>
+		<cantidad>40</cantidad>
+		<precioUnitario>0.486956</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>19.48</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="6"/>
+			<detAdicional nombre="unidades" valor="4"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>19.48</baseImponible>
+			<valor>2.92</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>1316</codigoPrincipal>
+		<codigoAuxiliar>0759494005755</codigoAuxiliar>
+		<descripcion>*ENERGIZANTE 220V AZUL JUMBO 600ML X24</descripcion>
+		<cantidad>144</cantidad>
+		<precioUnitario>0.760869</precioUnitario>
+		<descuento>0</descuento>
+		<precioTotalSinImpuesto>109.57</precioTotalSinImpuesto>
+		<detallesAdicionales>
+			<detAdicional nombre="bultos" valor="12"/>
+			<detAdicional nombre="unidades" valor="0"/>
+			<detAdicional nombre="noteunidad" valor="UND"/>
+		</detallesAdicionales>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15</tarifa>
+			<baseImponible>109.56</baseImponible>
+			<valor>16.44</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="pIva">15</campoAdicional>
+	<campoAdicional nombre="Direccion">CDLA. LOS JARDINES CALLES QUINTA NORTE Y GUAYAQUIL</campoAdicional>
+	<campoAdicional nombre="Telefono">2937375</campoAdicional>
+	<campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+	<campoAdicional nombre="Vencimiento">20/06/2025</campoAdicional>
+	<campoAdicional nombre="Vendedor">ALMACEN</campoAdicional>
+	<campoAdicional nombre="Zona">ZONA 1</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C.L.</campoAdicional>
+	<campoAdicional nombre="Usuario">KIARA LUNA</campoAdicional>
+	<campoAdicional nombre="Ciudad">MACHALA</campoAdicional>
+	<campoAdicional nombre="FormaPago">Contado</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature156148">
+<ds:SignedInfo Id="Signature-SignedInfo286095">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID233068" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature156148-SignedProperties475387">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>epW2M9JQ/Cn3r1U4fzk4zBI+oG4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1359967">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>UYqsjddUXhDJMO9k2URkYOKgeAw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-743910" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>EgxvFnPn6VKovbCXp8sXpucvAMA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue979852">
+KCtClKWiIMKHQnDyPsKiP+BROhza4Yow8t0KMOO8VQW5h+WFSouzbh019RALD3+YLtCnCVazI9wO
+PCurTC99KmZPnJdSzwvw8TMqbf7eF9VzfKBRuP6uRQrjBN1a2pYsaBjolswhnR0W1DoPO2BjG06o
+KiWrBIdKl1lrY60GLljaGX2upmTUry4R43Sq2lXcDipGkRfEmPThj/7KBBS/t+SCH0SYA5isrBhe
+n9PtgMUlxs4JE/ta2RPN8MzQYuMUbyfmxnKIEAcFnPzotZ/NWcMsU4x1BSUzf+AqZ/KQQbd4GNGf
+vKuX1t2nhYgTNz7v3OUx8AUhA3BP+Dtl+rB1DA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1359967">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJQjCCByqgAwIBAgIIVSugJxPa82UwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTEyMzIwMDAwMFoXDTI4MTEyMTIwMDAwMFowgZ4xCzAJBgNVBAYTAkVDMRcwFQYDVQQEDA5P
+w5FBVEUgVklMTEVOQTEWMBQGA1UEKgwNU0VHVU5ETyBEQVZJRDEZMBcGA1UEBRMQSURDRUMtMTYw
+MDA3OTAyMjElMCMGA1UEAwwcU0VHVU5ETyBEQVZJRCBPw5FBVEUgVklMTEVOQTEcMBoGA1UEYQwT
+VElORUMtMTYwMDA3OTAyMjAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKguvG2/
+7F/23JjtdtHyLqKNum7EL+rdeyCkzUL/fvNRVcwIWovNlWcqX7gbGazmV0V/FUOjuXSHajAkGNKB
+CBIEZEm06eZySvDWWDHS7AbkzxDL5HyzcgA1BXwBruZgqPxWVxwf/fmedCtWDu6Y9/VKV+AolbYM
+YHjRtjnqQMIFNjdYLX60S4zYNuKdNXvdn6nvYRaGlUH3hS4mygHv6zUiA2ItkLaWXsRwKSNAo71J
+Vy4RutL6GquWQ5Trf6ipfWdY8catxk58o5QXyFZ+JwN6onh83TO1rmRdk994YojKfM3eaQMmOtcz
+85alLWfzn8UDLwZ1umiHsZMIVVkZ7vUCAwEAAaOCBGYwggRiMBsGCysGAQQBgvE2ZgMBBAwMCjE2
+MDAwNzkwMjIwHgYLKwYBBAGC8TZmAwsEDwwNMTYwMDA3OTAyMjAwMTCB1wYIKwYBBQUHAQEEgcow
+gccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9kb3dubG9hZC90
+c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3Nw
+MS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYqaHR0cDovL29jc3Ay
+LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBRQjMoKKiUPRpM3eJW+m74Y
+ZGdeGjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDhEbJ0knP9MIGZBgNV
+HSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRwczovL3d3dy51YW5h
+dGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNFUlRJRklDQURPIERF
+IFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8EgYcwgYQwQKA+oDyG
+Omh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5j
+cmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJv
+cmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDCCAZwGA1UdEQSCAZMwggGPgRtkYXZpZHZpbGxlbmExOTUzQGhvdG1haWwuZXOgGwYLKwYBBAGC
+8TZmAwGgDAwKMTYwMDA3OTAyMqAeBgsrBgEEAYLxNmYDAqAPDA1TRUdVTkRPIERBVklEoBcGCysG
+AQQBgvE2ZgMDoAgMBk/DkUFURaAYBgsrBgEEAYLxNmYDBKAJDAdWSUxMRU5BoEsGCysGAQQBgvE2
+ZgMHoDwMOkxBIFBST1ZJREVOQ0lBXCwgVklWSUVOREFTIFBPUFVMQVJFUyBBVkNJUkNVTlZBTENJ
+T04gTk9SVEWgHwYLKwYBBAGC8TZmAwigEAwOMDA1OTM5ODk0MTk1MDegGAYLKwYBBAGC8TZmAwmg
+CQwHTUFDSEFMQaAeBgsrBgEEAYLxNmYDC6APDA0xNjAwMDc5MDIyMDAxoBMGCysGAQQBgvE2ZgMM
+oAQMAkVDoCkGCysGAQQBgvE2ZgMyoBoMGFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQaAYBgsrBgEE
+AYLxNmYDM6AJDAdBUkNISVZPMA0GCSqGSIb3DQEBCwUAA4ICAQCx/W0QHUo+70SZhI4tpMMiVoly
+D4InijwQjES35e8OFstvWRl7HcQsrrFVM5X2eFhKUG0+f3I8cLmk44QxaAol+mz8ytMZjSKmPsCR
+5UxtnrdXAMdZ2J5OZx39Log2k18CL3EdAypAsrGDVH5m3x+hs3E+wYynKQ28V3CmBl7wu2QzR0lg
+tLZhAqgP7DGvDqkfMr5Og+uMvWfiHkXqcS2NmD0ZM9aTwmAbz4g/3v8tg3ojTk1gEYulGhpbISH1
+oNM8UnoDZNMYL5gyAiiUM40uaJFTH1owRcddjH+G0cCz6tQ/z0N6O6FvH7sNNJRxkrGv9G8c2yX6
+RKcQ+Y3596szXypCZshsxwSRzWyeuBWkRr75WNkCNfr2vXSr/JTUzmUL8Ynrpb5pe3ENguUWp0kR
+fLXGRHlAHSoYVsJpr60YwhBoKnUos1elaUUNSmEKJKu3U7mfCz+J7MHYvk1tBo5j1Ens+vA4+Cdd
+vCfOnbLAe6N/rUmgJkdaZEUEI6AZBbU9NgjuvEuXz2SMLVdsO2xOS/zfM1Q0691lhGqnkGwWS1L8
+YUv+tAJFaaXAtb96JmQVAVlfy2zXN/10NyJ9MBbbbO2IOAHUJZWSC601F9/yfSwwabkeBaAo1RM8
+kKncq8CYC2GiwCqokPEaMucFm1OrExtjyPZvzhCQMu9s/wiApg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qC68bb/sX/bcmO120fIuoo26bsQv6t17IKTNQv9+81FVzAhai82VZypfuBsZrOZXRX8VQ6O5dIdq
+MCQY0oEIEgRkSbTp5nJK8NZYMdLsBuTPEMvkfLNyADUFfAGu5mCo/FZXHB/9+Z50K1YO7pj39UpX
+4CiVtgxgeNG2OepAwgU2N1gtfrRLjNg24p01e92fqe9hFoaVQfeFLibKAe/rNSIDYi2QtpZexHAp
+I0CjvUlXLhG60voaq5ZDlOt/qKl9Z1jxxq3GTnyjlBfIVn4nA3qieHzdM7WuZF2T33hiiMp8zd5p
+AyY61zPzlqUtZ/OfxQMvBnW6aIexkwhVWRnu9Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature156148-Object894474"><etsi:QualifyingProperties Target="#Signature156148"><etsi:SignedProperties Id="Signature156148-SignedProperties475387"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-06-05T16:50:43-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>cBHnaH9Mg0pQ47Xt6+XcixHUzNg=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>6137175006919717733</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-743910"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

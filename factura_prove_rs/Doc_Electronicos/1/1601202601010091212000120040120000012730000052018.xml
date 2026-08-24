@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GALARZA LOPEZ NEPTALI SECUNDINO</razonSocial>
+    <nombreComercial>IMPORTADORA COMERCIAL GALARZA</nombreComercial>
+    <ruc>0100912120001</ruc>
+    <claveAcceso>1601202601010091212000120040120000012730000052018</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>004</estab>
+    <ptoEmi>012</ptoEmi>
+    <secuencial>000001273</secuencial>
+    <dirMatriz>OLMEDO S/N Y TARQUI Y COLON</dirMatriz>
+    <agenteRetencion>1</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>16/01/2026</fechaEmision>
+    <dirEstablecimiento>OLMEDO S/N Y BUENAVISTA Y COLON</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>GUAYAQUIL S/N QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>3554.80</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>3554.80</baseImponible>
+        <valor>533.22</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>4088.02</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>4088.02</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>5.010.00004</codigoPrincipal>
+      <descripcion>CAFETERA 349 NEGRA INNOVA 12TZ FILTRO PERM.</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>21.740</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>21.74</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>21.74</baseImponible>
+          <valor>3.26</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.014.00018</codigoPrincipal>
+      <descripcion>COCINA LUCIANA C/T NEGRO MATE ECOLINE</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>191.305</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>382.61</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>382.61</baseImponible>
+          <valor>57.39</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.021.00145</codigoPrincipal>
+      <descripcion>TETERA ELECT. MW-KT25 SCOTLAND STAR</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>17.390</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.39</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>17.39</baseImponible>
+          <valor>2.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.021.00162</codigoPrincipal>
+      <descripcion>SANDUCHERA OSTER CKSTSM400-013</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>26.090</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>26.09</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>26.09</baseImponible>
+          <valor>3.91</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.026.00008</codigoPrincipal>
+      <descripcion>LAVADORA AUTOM. SMCLV17BN1 17KG BLANCO SMC</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>304.350</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>608.70</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>608.70</baseImponible>
+          <valor>91.31</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.026.00067</codigoPrincipal>
+      <descripcion>SECADORA LG-DT25MTGK A GAS SILVER</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>556.520</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1113.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>1113.04</baseImponible>
+          <valor>166.96</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.027.00054</codigoPrincipal>
+      <descripcion>LICUADORA UMCO 5167 PERSONAL NUTRI MIX</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>30.440</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>30.44</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>30.44</baseImponible>
+          <valor>4.57</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.037.00061</codigoPrincipal>
+      <descripcion>OLLA 7PCS K07G049 MARTINA INDUCCION/GAS/ELECT</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>43.480</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>43.48</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>43.48</baseImponible>
+          <valor>6.52</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.037.00216</codigoPrincipal>
+      <descripcion>OLLA ARROCERA CKSTRCB10DFSKE-013 GRIS</descripcion>
+      <cantidad>3.00</cantidad>
+      <precioUnitario>39.130</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>117.39</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>117.39</baseImponible>
+          <valor>17.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.039.00026</codigoPrincipal>
+      <descripcion>PARLANTE IN-PARL-8 20W INNOVA RECARGABLE</descripcion>
+      <cantidad>3.00</cantidad>
+      <precioUnitario>30.437</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>91.31</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>91.31</baseImponible>
+          <valor>13.70</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.040.00019</codigoPrincipal>
+      <descripcion>PLANCHA OSTER GCSTBS5001</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>21.740</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>21.74</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>21.74</baseImponible>
+          <valor>3.26</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.044.00018</codigoPrincipal>
+      <descripcion>REFRIGERADORA 3.3" 87LT SMCRF33FSP 2P SILVER</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>152.175</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>304.35</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>304.35</baseImponible>
+          <valor>45.65</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.045.00033</codigoPrincipal>
+      <descripcion>RELOJ D/PARED DQ254101 REDONDO</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>21.740</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>21.74</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>21.74</baseImponible>
+          <valor>3.26</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.055.00036</codigoPrincipal>
+      <descripcion>TELEVISOR IN-TVLED-55GUHD-MP GOOGLE  INNOVA</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>347.825</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>695.65</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>695.65</baseImponible>
+          <valor>104.35</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.056.00013</codigoPrincipal>
+      <descripcion>TERMO P/ALIMENTOS BI0873 14L </descripcion>
+      <cantidad>4.00</cantidad>
+      <precioUnitario>10.435</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>41.74</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>41.74</baseImponible>
+          <valor>6.26</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5.061.00004</codigoPrincipal>
+      <descripcion>MINI VENTILADOR HL-0812 8" HI LUXE</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>17.390</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.39</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>17.39</baseImponible>
+          <valor>2.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Dirección">GUAYAQUIL S/N QUINTA A NORTE ESQUINA</campoAdicional>
+    <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature904430">
+<ds:SignedInfo Id="Signature-SignedInfo323422">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID992729" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature904430-SignedProperties766683">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Nm8vmI8PrkMrh1iLQUegEHcPBGc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1324032">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>TajpI+N/7dgrtm4U4iY9PoxOAPc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-547298" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>/yGJWNsH3+MbViBbZCN8OTXnWGM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue10355">
+EjKlHpar5u5YpQ8qMGInbTBlNzDhq2vVEuy9Wib6oFHBs0mRvE4V0PZwh7qnBTTuxA42E1VASoxO
+EVeJ6KoHC0CLXORPuBWCRE4T3BuYb6xsi4C2YmC62k7xZF3q6X96nAumEwIpM8V5+7bbi+YV1NBM
+woZBHsNh80sWKwKQ1jWevRidNLAzWu97fukl+Ym7qDbX2wKoyf7zSZ1AisNpp/PedCzQktapymNI
+/ANjAUpQ+de2uFSTgQu95tmCdVjVW+vxnkjVMC0wgIIErhi2IgELkLi6RRXDqug0auss0HXYJftX
+z5epQGKLyKWlHS3mJnV+TtDITgdDvQGiuJZoOg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1324032">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHujCCBqKgAwIBAgIFAMIDIfcwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI1
+MTIwMjIwMzcwMloXDTMwMTIwMTIwMzcwMlowgZ0xCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEpMCcGA1UEAwwg
+TkVQVEFMSSBTRUNVTkRJTk8gIEdBTEFSWkEgTE9QRVoxJjAkBgkqhkiG9w0BCQEWF2Zpcm1hc2Zh
+Y3RlY3VAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl1ZqpNOEKSw8
+38veHM3FVBoZxZzi2KlbMqyrFYgW4BRS8Pw6vXCGi5aiFDWtZ/jWlqGVNhhwa5a8kCK4bXd4/yY2
+63GcdBEmq4pDVJVFD2awWBbnC8y34uuUo5bnwgbeW40ydvEvxz+670/hpTyZoE/Pa1OmBPO5Ry9h
+i1RX/DN1pKKLn3E8c+J5EzBG7F7/P3XkhLd2nXPUDszh8PJ5XdFlHMDR5+fKoa89kCgnTe0m+q5m
+MMv91LFIHEjTxp96xCFhB2ejhk3obrdXqECSsk5XUwa673EtJTHLHeVI41B9xnz7eZBuu1SYQkse
+mWwgAMhIBRZXOms0jCLjz2+HUwIDAQABo4IEVDCCBFAwGgYKKwYBBAGDz3YDAQQMDAowMTAwOTEy
+MTIwMCEGCisGAQQBg892AwIEEwwRTkVQVEFMSSBTRUNVTkRJTk8wFwYKKwYBBAGDz3YDAwQJDAdH
+QUxBUlpBMBUGCisGAQQBg892AwQEBwwFTE9QRVowEwYKKwYBBAGDz3YDBwQFDANTL04wGgYKKwYB
+BAGDz3YDCAQMDAowOTk1NDYwMDQyMBcGCisGAQQBg892AwkECQwHTWFjaGFsYTAXBgorBgEEAYPP
+dgMMBAkMB0VDVUFET1IwHQYKKwYBBAGDz3YDCwQPDA0wMTAwOTEyMTIwMDAxMAwGA1UdEwEB/wQC
+MAAwHQYDVR0OBBYEFOdbXIFGl6g5+waOeJ5e+LswxT9tMB8GA1UdIwQYMBaAFO12SLAK8cmGhgxM
+RmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNVHR8EMzAxMC+gLaArhilodHRwOi9lbmV4dDIu
+eHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCCAYQGA1UdIASCAXswggF3MHwGCisGAQQBg892
+AgEwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0aWRvIGVu
+IGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEu
+MIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIwYBpeRWwgcHJlc2VudGUgY2VydGlmaWNhZG8g
+ZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOtdGljYXMgZGUgc2VndXJpZGFkIGRlIExhenph
+dGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpFbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBzdWJv
+cmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQg
+ZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIH8BgNVHREEgfQwgfGgGgYKKwYBBAGDz3YDAaAMDAowMTAw
+OTEyMTIwoCEGCisGAQQBg892AwKgEwwRTkVQVEFMSSBTRUNVTkRJTk+gFwYKKwYBBAGDz3YDA6AJ
+DAdHQUxBUlpBoBUGCisGAQQBg892AwSgBwwFTE9QRVqgEwYKKwYBBAGDz3YDB6AFDANTL06gGgYK
+KwYBBAGDz3YDCKAMDAowOTk1NDYwMDQyoBcGCisGAQQBg892AwmgCQwHTWFjaGFsYaAXBgorBgEE
+AYPPdgMMoAkMB0VDVUFET1KgHQYKKwYBBAGDz3YDC6APDA0wMTAwOTEyMTIwMDAxMDwGCCsGAQUF
+BwEBBDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL2VuZXh0Mi54eXo6ODc3Ny9hZHNzL29jc3AwDQYJ
+KoZIhvcNAQELBQADggEBAB+4nu1zDVCy+oiF1cVQq48GhEH0EX6m5Oqz7phrlFjuZPR9l2qbfOjZ
+TpVgfWzY8sdSrb39zxh369sJvZK5P82BuJCvG336vupAtJ5Lc0CGTPfuXN0SG9/JqNURooL2E3eK
+2OVmbmtDjpn2I9nduWVf6fnfZCq4+RRn7d/fHZcE6L9l1+tJ7ZYKJsfTbLEWDtYjfAzsrddtuQUr
+U7iUslKImJmkKHWEGPWaD5b8hkqMafYHXU0DvItjBhEOfmA9ME5kZvKxhJEz6TkUd9FM6dxE3IF+
+uvoi5OBNVLtpNOaaFc19TUOGlJ+QRMzRixX8ur7wgRT7emLWM9iRvv13Hdw=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+l1ZqpNOEKSw838veHM3FVBoZxZzi2KlbMqyrFYgW4BRS8Pw6vXCGi5aiFDWtZ/jWlqGVNhhwa5a8
+kCK4bXd4/yY263GcdBEmq4pDVJVFD2awWBbnC8y34uuUo5bnwgbeW40ydvEvxz+670/hpTyZoE/P
+a1OmBPO5Ry9hi1RX/DN1pKKLn3E8c+J5EzBG7F7/P3XkhLd2nXPUDszh8PJ5XdFlHMDR5+fKoa89
+kCgnTe0m+q5mMMv91LFIHEjTxp96xCFhB2ejhk3obrdXqECSsk5XUwa673EtJTHLHeVI41B9xnz7
+eZBuu1SYQksemWwgAMhIBRZXOms0jCLjz2+HUw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature904430-Object166551"><etsi:QualifyingProperties Target="#Signature904430"><etsi:SignedProperties Id="Signature904430-SignedProperties766683"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-01-16T09:08:09-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>SjS7gOENGneuC6hoj6VJSp++4f0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254985207</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-547298"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

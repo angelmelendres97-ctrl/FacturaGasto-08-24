@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>ESPINOSA RODRIGUEZ ALBITA DEL CARMEN</razonSocial>
+    <nombreComercial>TALLER Y COMERCIAL ROMERO ESPINOSA</nombreComercial>
+    <ruc>1713284931001</ruc>
+    <claveAcceso>1006202601171328493100120020020000624170000318318</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000062417</secuencial>
+    <dirMatriz>VIA LA PRIMAVERA KM 1 </dirMatriz>
+    <agenteRetencion>1</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>10/06/2026</fechaEmision>
+    <dirEstablecimiento>VIA LA PRIMAVERA KM 1</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>LOS JARDINES  CALLE GUAYAQUIL Y 5TA NORTE ESQ.</direccionComprador>
+    <totalSinImpuestos>251.30</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>251.30</baseImponible>
+        <valor>37.70</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>289.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>289.00</total>
+        <plazo>30</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>002</codigoPrincipal>
+      <descripcion>SERVICIO DE CORTE AL 220CM EN PLANCHON NEGRA DE 18MM (O.T.58267/FACT 101140)</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>9.8000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>9.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>9.80</baseImponible>
+          <valor>1.47</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>002</codigoPrincipal>
+      <descripcion>SERVICIO DE CORTE A 500CM EN PLANCHON NEGRO DE 18MM </descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>24.1100</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>24.11</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>24.11</baseImponible>
+          <valor>3.62</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>002</codigoPrincipal>
+      <descripcion>SERVICIO DE ROLADO DE 150CM DIAM. X 150CM EN PLANCHON NEGRO DE 18MM</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>217.3900</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>217.39</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>217.39</baseImponible>
+          <valor>32.61</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Dirección">LOS JARDINES  CALLE GUAYAQUIL Y 5TA NORTE ESQ.</campoAdicional>
+    <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature874184">
+<ds:SignedInfo Id="Signature-SignedInfo134534">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID467671" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature874184-SignedProperties282255">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hzv0DXMbokWHecAAzG/2u2/FaAs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1869364">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>lmI4cLpFJ065He+zb76En+PRdtg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-154305" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>2OqnPcPSVYqH9tk7MH+kJyZuUZw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue28728">
+XKw4sc9kZySC4kzRHwBOEwhHjzGn5ZdGQBQJrDsW40ewV4VpjyMbdd+M8ikWXs6mkjVsNuoftzze
+jV64/EPFZh1EfOXsTjbd9EJ3yIfz2Q7qzNDQhMdZCEfTFNJFNt8czTWddunMC1astwVvOUnOhdTT
+885eefBGOz0/kBzDS9TMiXPLMNLLAYQNWNtLPoe3wTwkFZ2EKr+bfgpxTLVjP4gP9kFukolpveDW
+XyYEaZ1prk0o9EkniApwmNwDdBQ6JfHUeOJwD0Q4/vjb0Biz6c2nr7zOo4180pkdzIH8EVkpei8h
+h/eFff7XFEUSDuL52y1YJg0zWTINBvv7iLRFOA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1869364">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILzDCCCbSgAwIBAgIEEYVfGTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMjA2MTYyMjE4MzZaFw0yNjA2MTYyMjE4MzZaMIGkMS0w
+KwYDVQQDDCRBTEJJVEEgREVMIENBUk1FTiBFU1BJTk9TQSBST0RSSUdVRVoxFTATBgNVBAUTDDE2
+MDYyMjE3MjgyODEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlGi4iGEozBgXQv3h8JLdtEqDxL0/O/6ppPgL2nvepwUoz
+31bDM9FIUJi7HgmDBDus2Ju6iy+FwXiIDAYQ9/GZG9MaxCiFSNh/LLNrtO88SYAtinZftnseh0DA
+/1e9+EZ5J6iJbn7pW7WfEPy+OF69uuEKryRIFukjr/ENkxtYEpMTFcAHYZo8cI2ijY0pZq/QSZM1
+Qxd6njnh7hQC1IhcT0rEIzyhcbU8fZ4tKDEO554XcCbj89f2A//8EYTjUEPX0lK48HWqli1trmCZ
+VSTDDq21T5+laJMhxxScWRKV47gUzbgWGH0RE1oI7hdft5oHmWNRD4yqsPE+tk+ESuwNAgMBAAGj
+ggcNMIIHCTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMIHY
+BggrBgEFBQcBAQSByzCByDCBxQYIKwYBBQUHMAGGgbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VS
+SVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlzdD9iYXNlMIHOBgNVHS4EgcYw
+gcMwgcCggb2ggbqGgbdsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVU
+T1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9
+RUM/ZGVsdGFSZXZvY2F0aW9uTGlzdD9iYXMwIQYDVR0RBBowGIEWZGVwY29udEByZWlwcm9hY2Vy
+by5lYzBlBgNVHSAEXjBcMFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABp
+AGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwggKiBgNV
+HR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJj
+YS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBD
+RVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4g
+MjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRB
+LE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERB
+VEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHX
+aHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGlj
+d2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJ
+RklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFODZ
+BIDyXUFvWz8B45bXBhj/luLlMCsGA1UdEAQkMCKADzIwMjIwNjE2MjIxODM2WoEPMjAyNjA2MTYy
+MjE4MzZaMAsGA1UdDwQEAwIF4DAaBgorBgEEAYKmcgMBBAwMCjE3MTMyODQ5MzEwFwYKKwYBBAGC
+pnIDCQQJDAdNQUNIQUxBMBEGCisGAQQBgqZyAyIEAwwBLjBABgorBgEEAYKmcgMHBDIMMFZJQSBM
+QSBQUklNQVZFUkEgS00gMSBTIE4gWSBESUFHT05BTCBBIFBBVFJJREFTQTAhBgorBgEEAYKmcgMC
+BBMMEUFMQklUQSBERUwgQ0FSTUVOMB8GCisGAQQBgqZyAyAEEQwPMDA0MDAxMDAwMDIxMDA2MBEG
+CisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VD
+VUFET1IwGAYKKwYBBAGCpnIDAwQKDAhFU1BJTk9TQTARBgorBgEEAYKmcgMeBAMMAS4wHQYKKwYB
+BAGCpnIDCwQPDA0xNzEzMjg0OTMxMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAZBgorBgEEAYKmcgME
+BAsMCVJPRFJJR1VFWjAaBgorBgEEAYKmcgMIBAwMCjA5NzkxNzMxMTEwDQYJKoZIhvcNAQELBQAD
+ggIBADGeDdBrrZP2ShzwQk0/qtAIfEQb5qLKwyoXUdFBi5LeGFhvdAmVPQAMLRKqzEGboh9rCE0u
+6Srs79hdjigSrDaq0eGj8qbt/DVUZ7wN7FMNsKxU+h7LUZPYTQWvdEI9dlhDH/hTNbhvAZgSDHJT
+9kAIww1KQ2TyDsC7YoBu3fVxbOq8wSZ0i7+X6jf3u5A+eh8f1363WOoPlBAiFaaTCixY7PjgdQeA
+m8Au5ozEZpCeVu3TnkIngxckoAcMcJThKK5YD70kng28ZU5vCIrZApgqKhTdjd1HNUeMvHFScEAK
+nnbVTB41u5lg/1LfC/HTrUhVd59iXrvIfl62BY5ovHyrhN+gFQBB9xmmthTlayDqLVhPY0rrrVBz
+aZYqI456eT3fy8t8w7VoKS7wJaVoB4GYsWauxbC63c1TdgCc4MU9THmV5qWc7AIL0/6iSJG0TgGb
+oQoDys8fDF9gEujvFzsFlLXhCMx2uWD844QZf3hR2mep7CJQmMGnOPrm6GLyVqsiIIE9ha8GTV4C
+MINBKAaEpe47vTwQ8nMzhY7KcP6OMe8kqXuRBJxphMsqnvkTEFsvRIPOPFdOZ+riFYn6EPqGlBT0
+EX04GcQrYA23+yx5hsrGp8gYA9gkWJF52YfHol5NMg7uRcahTBI3aVLSRLcIpuehmzlV+ZpSLLsy
+toaE
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5RouIhhKMwYF0L94fCS3bRKg8S9Pzv+qaT4C9p73qcFKM99WwzPRSFCYux4JgwQ7rNibuosvhcF4
+iAwGEPfxmRvTGsQohUjYfyyza7TvPEmALYp2X7Z7HodAwP9XvfhGeSeoiW5+6Vu1nxD8vjhevbrh
+Cq8kSBbpI6/xDZMbWBKTExXAB2GaPHCNoo2NKWav0EmTNUMXep454e4UAtSIXE9KxCM8oXG1PH2e
+LSgxDueeF3Am4/PX9gP//BGE41BD19JSuPB1qpYtba5gmVUkww6ttU+fpWiTIccUnFkSleO4FM24
+Fhh9ERNaCO4XX7eaB5ljUQ+MqrDxPrZPhErsDQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature874184-Object817067"><etsi:QualifyingProperties Target="#Signature874184"><etsi:SignedProperties Id="Signature874184-SignedProperties282255"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-06-10T09:05:15-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>Ke4dJ9hqA5T5ULvfSSkF/27HC/E=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>293953305</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-154305"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

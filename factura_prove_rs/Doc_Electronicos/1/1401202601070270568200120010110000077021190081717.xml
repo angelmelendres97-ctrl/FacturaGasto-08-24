@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>BUELE SARANGO SEGUNDO MARCELO</razonSocial>
+		<nombreComercial>REPRESENTACIONES BUELE</nombreComercial>
+		<ruc>0702705682001</ruc>
+		<claveAcceso>1401202601070270568200120010110000077021190081717</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000007702</secuencial>
+		<dirMatriz>BOYACA Y AYACUCHO</dirMatriz>
+		<agenteRetencion>1</agenteRetencion>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>14/01/2026</fechaEmision>
+	<dirEstablecimiento>BOYACA Y AYACUCHO</dirEstablecimiento>
+	<obligadoContabilidad>SI</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C  L</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+	<totalSinImpuestos>2973.92</totalSinImpuestos>
+	<totalDescuento>330.43</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<descuentoAdicional>0.00</descuentoAdicional>
+		<baseImponible>2973.92</baseImponible>
+		<valor>446.09</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0.00</propina>
+	<importeTotal>3420.01</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>3420.01</total>
+		<plazo>30</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>D1607 NEGRA</codigoPrincipal>
+		<descripcion>SILLA DE VISTA D1607 NEGRA CON APOYA BRAZOS LINEA ECONOMICA, TAPIZADO DE ASIENTO, ESPALDAR DE MALLA, ESTRUCTURAS METALICAS</descripcion>
+		<cantidad>50.000000</cantidad>
+		<precioUnitario>66.086956</precioUnitario>
+		<descuento>330.43</descuento>
+		<precioTotalSinImpuesto>2973.91</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>2973.91</baseImponible>
+			<valor>446.09</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="Direccion">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional>
+	<campoAdicional nombre="Telefono">2923970</campoAdicional>
+	<campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+	<campoAdicional nombre="Vencimiento">13/02/2026</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C  L</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature749136">
+<ds:SignedInfo Id="Signature-SignedInfo828958">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID522431" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature749136-SignedProperties820987">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>1VQO5j0MIJySRJQMYCaO98OXiec=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate11042535">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>jwPdXS6i0DvwrOYrZVr9e658WKk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-277717" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>vkNkzs+3bqOd+ASSU5KPs8GrvoE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue180605">
+mUcudzVdvTT0dgoISddeaDmsmiXY08WJZdyS45w5TJvhAoO+MKTxciX8U6n3rgcJhV83WojegzVm
+KbANIXCTLR6izwOzEEuR9nBybwBs1RTBfs/HVPoTn1O8G1soatzaCW1F0raXbWnt3aOk+Wu+8+e6
+6VZwpAHEz4tcAx5aRYaUZzo5dvBJ34RQQ1Mx0rzrZR19PEC45SaX9bV5dr2zyXYff5ojBDA8UGZE
+JwRY6bt8xhaHio5CH7ZfCt6twnYDevsj7f2H4Bd3rhy/S/r2uXicK4rpVDEPgTtVtMm/ccxDp+th
+X/qXOwxwvkTUHp7lHO55hbD/WRwLs6bBgqBWWQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate11042535">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJrjCCB5agAwIBAgIEZTTIjzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI0MDExODIxNTk1OFoXDTI2MDExODIyMzAw
+M1owgbUxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE5MBEGA1UEBRMKMDAwMDcwMzUxMzAkBgNVBAMTHVNFR1VORE8gTUFSQ0VM
+TyBCVUVMRSBTQVJBTkdPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx2P+g7d/Dk98
+63QBInrc/KGbX7+okPJ3Q/DHrBMn8Z1WUbN0aGgJ134DAqCHmwn4n2yN1uSMe/UCzVIZnC34lC6S
+igNF143DtmlS8s784P7LKxOdr0I13YtSWiG/ecSdu3ajULUR3+cQtR0CTTaHhn98R4FD2SbRKGfn
+P3Ux/xQjpT7KHQbdhocubB8SjGU67NxPWKwS9kbpmy28LSkFkbZsiJw2xnXZQ0wshZ0wedSKRAhk
+0DzMNqqKIEXgQGdNZ3AML5KrcqESHNqYpUR6Ob8XRYAGXiJwV6M4CrtO1A697jlYRgBlavje0j9x
+T3TkMMcP6DSCuY06XCEmXEOkxQIDAQABo4IE1jCCBNIwCwYDVR0PBAQDAgeAMGYGA1UdIARfMF0w
+WwYLKwYBBAGCqDsCAQEwTDBKBggrBgEFBQcCARY+aHR0cDovL3d3dy5lY2kuYmNlLmVjL3BvbGl0
+aWNhLWNlcnRpZmljYWRvL3BlcnNvbmEtbmF0dXJhbC5wZGYwgZEGCCsGAQUFBwEBBIGEMIGBMD4G
+CCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMv
+b2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2Vi
+L3N0YXR1cy9vY3NwMBoGCisGAQQBgqg7AwEEDBMKMDcwMjcwNTY4MjAfBgorBgEEAYKoOwMCBBET
+D1NFR1VORE8gTUFSQ0VMTzAVBgorBgEEAYKoOwMDBAcTBUJVRUxFMBcGCisGAQQBgqg7AwQECRMH
+U0FSQU5HTzAvBgorBgEEAYKoOwMHBCETH0NJUkNVTlZBTEFDSU9OIFNVUiBZIERFQ0lNQSBTVVIw
+GQYKKwYBBAGCqDsDCAQLEwkwNzI5Mjk2NTIwFwYKKwYBBAGCqDsDCQQJEwdNQUNIQUxBMBcGCisG
+AQQBgqg7AwwECRMHRUNVQURPUjAdBgorBgEEAYKoOwMLBA8TDTA3MDI3MDU2ODIwMDEwIAYKKwYB
+BAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMCMGA1UdEQQcMBqBGHNlZ3VuZG9idWVsZUBob3Rt
+YWlsLmNvbTCCAeEGA1UdHwSCAdgwggHUMIIB0KCCAcygggHIhoHWbGRhcDovL2JjZXFsZGFwc3Vi
+cDEuYmNlLmVjL2NuPUNSTDE5NDksY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VB
+RE9SLGw9UVVJVE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIwSU5GT1JN
+QUNJT04tRUNJQkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVDP2NlcnRp
+ZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NSTC9lY2lf
+YmNlX2VjX2NybGZpbGVjb21iLmNybKSBtjCBszELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJBTkNP
+IENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5DTyBD
+RU5UUkFMIERFTCBFQ1VBRE9SMRAwDgYDVQQDEwdDUkwxOTQ5MCsGA1UdEAQkMCKADzIwMjQwMTE4
+MjE1OTU4WoEPMjAyNjAxMTgyMjMwMDNaMB8GA1UdIwQYMBaAFEii3yMfHfgsUXqMA81JMqUJwZSr
+MB0GA1UdDgQWBBQLbhMM01f05RYNy95xUXI2FSRQQTAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQM
+MAobBFY4LjMDAgQwMA0GCSqGSIb3DQEBCwUAA4ICAQA4qL7kJH8r3FXHKv+Z6tAVX0Yvp1iJ9DUE
+b9a2o79FNM1Hbhw9hukw9zJ6Z9BW0Pxs27ZpYs8XVBJvxhKMxzK4rS68Iedl/OGLmPT8LREM7387
+/FhcttxjA+cNomGXF7p2uZvmzUGBlGBnGFivPH4L5uzx9XpsmDCMU0hZnjUFv17SKJKm4KxEN5OX
+naPPZpkOOEgjSNMRk7hbwWF0sNW3Tv5uyMtNX39dde21mDvR0k/klcN66wJq1C0gbTK88rJz+vxD
+QJHotlzeKimQgd3OUektuLqWCtEcssqBx5MUo/dI/5m9XQWC2aH3gNi/16fLBshIxAcBaWD8EX/x
+S/tWFsRkkEUCD7BIOrd2ReYbLfsU2EBKi8av1S073qiOsY0IquGzGCxziKdSDzqF8ytiC/Ae2RjU
+dpSa0kaqW5R2DIi/GtIeNt8UrGsvV3lQ8p8Atgzpt6R0OC221Qr2/8kgK7MQ/MGGzaLDTIA+zb98
+nO/u0evfnGSo+J1FqgqXn9OX1yurN1KMbS3ODz6CXbXn/292E57GNILkorsRu469i4ccv3H61Cl9
+bVS4WSS/Djza8ua13s4RPmM60292dnrliGbSKeM3ips9x+ZfaYxycyE7OwZ/koDDsdHc+ik5Gf/h
+pMfV4saUKnQq3pBmZ/ziV0tmqROlUVxj6kE5jYitew==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+x2P+g7d/Dk9863QBInrc/KGbX7+okPJ3Q/DHrBMn8Z1WUbN0aGgJ134DAqCHmwn4n2yN1uSMe/UC
+zVIZnC34lC6SigNF143DtmlS8s784P7LKxOdr0I13YtSWiG/ecSdu3ajULUR3+cQtR0CTTaHhn98
+R4FD2SbRKGfnP3Ux/xQjpT7KHQbdhocubB8SjGU67NxPWKwS9kbpmy28LSkFkbZsiJw2xnXZQ0ws
+hZ0wedSKRAhk0DzMNqqKIEXgQGdNZ3AML5KrcqESHNqYpUR6Ob8XRYAGXiJwV6M4CrtO1A697jlY
+RgBlavje0j9xT3TkMMcP6DSCuY06XCEmXEOkxQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature749136-Object429929"><etsi:QualifyingProperties Target="#Signature749136"><etsi:SignedProperties Id="Signature749136-SignedProperties820987"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-01-14T12:02:34-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>4CfmsSB84RHLfLw5Ey9lisfy/nU=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1697958031</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-277717"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

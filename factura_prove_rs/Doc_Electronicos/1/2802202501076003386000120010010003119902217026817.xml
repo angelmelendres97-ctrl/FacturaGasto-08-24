@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0">
+   <infoTributaria>
+      <ambiente>2</ambiente>
+      <tipoEmision>1</tipoEmision>
+      <razonSocial>GOBIERNO AUTÓNOMO DESCENTRALIZADO MUNICIPAL DEL CANTÓN CAMILO PONCE ENRÍQUEZ</razonSocial>
+      <nombreComercial>GAD MUNICIPAL DE CAMILO PONCE ENRÍQUEZ</nombreComercial>
+      <ruc>0760033860001</ruc>
+      <claveAcceso>2802202501076003386000120010010003119902217026817</claveAcceso>
+      <codDoc>01</codDoc>
+      <estab>001</estab>
+      <ptoEmi>001</ptoEmi>
+      <secuencial>000311990</secuencial>
+      <dirMatriz>MUNICIPIO Calle 28 de Marzo y Av. Rio Siete</dirMatriz>
+   </infoTributaria>
+   <infoFactura>
+      <fechaEmision>28/02/2025</fechaEmision>
+      <dirEstablecimiento>MUNICIPIO Calle 28 de Marzo y Av. Rio Siete</dirEstablecimiento>
+      <obligadoContabilidad>SI</obligadoContabilidad>
+      <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+      <razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+      <identificacionComprador>0992529679001</identificacionComprador>
+      <totalSinImpuestos>17841.04</totalSinImpuestos>
+      <totalSubsidio>0.0</totalSubsidio>
+      <totalDescuento>0.0</totalDescuento>
+      <totalConImpuestos>
+         <totalImpuesto>
+            <codigo>2</codigo>
+            <codigoPorcentaje>0</codigoPorcentaje>
+            <baseImponible>17841.04</baseImponible>
+            <valor>0.0</valor>
+         </totalImpuesto>
+      </totalConImpuestos>
+      <propina>0.0</propina>
+      <importeTotal>17841.04</importeTotal>
+      <moneda>DOLAR</moneda>
+      <pagos>
+         <pago>
+            <formaPago>01</formaPago>
+            <total>17841.04</total>
+            <plazo>0</plazo>
+            <unidadTiempo>dias</unidadTiempo>
+         </pago>
+      </pagos>
+   </infoFactura>
+   <detalles>
+      <detalle>
+         <codigoPrincipal>210</codigoPrincipal>
+         <codigoAuxiliar>210</codigoAuxiliar>
+         <descripcion>servicios administrativos activo</descripcion>
+         <cantidad>1.0</cantidad>
+         <precioUnitario>0.5</precioUnitario>
+         <descuento>0.00</descuento>
+         <precioTotalSinImpuesto>0.5</precioTotalSinImpuesto>
+         <impuestos>
+            <impuesto>
+               <codigo>2</codigo>
+               <codigoPorcentaje>0</codigoPorcentaje>
+               <tarifa>0</tarifa>
+               <baseImponible>0.5</baseImponible>
+               <valor>0.0</valor>
+            </impuesto>
+         </impuestos>
+      </detalle>
+      <detalle>
+         <codigoPrincipal>53</codigoPrincipal>
+         <codigoAuxiliar>53</codigoAuxiliar>
+         <descripcion>v. activos</descripcion>
+         <cantidad>1.0</cantidad>
+         <precioUnitario>11563.17</precioUnitario>
+         <descuento>0.00</descuento>
+         <precioTotalSinImpuesto>11563.17</precioTotalSinImpuesto>
+         <impuestos>
+            <impuesto>
+               <codigo>2</codigo>
+               <codigoPorcentaje>0</codigoPorcentaje>
+               <tarifa>0</tarifa>
+               <baseImponible>11563.17</baseImponible>
+               <valor>0.0</valor>
+            </impuesto>
+         </impuestos>
+      </detalle>
+      <detalle>
+         <codigoPrincipal>52</codigoPrincipal>
+         <codigoAuxiliar>52</codigoAuxiliar>
+         <descripcion>v. patente</descripcion>
+         <cantidad>1.0</cantidad>
+         <precioUnitario>6277.37</precioUnitario>
+         <descuento>0.00</descuento>
+         <precioTotalSinImpuesto>6277.37</precioTotalSinImpuesto>
+         <impuestos>
+            <impuesto>
+               <codigo>2</codigo>
+               <codigoPorcentaje>0</codigoPorcentaje>
+               <tarifa>0</tarifa>
+               <baseImponible>6277.37</baseImponible>
+               <valor>0.0</valor>
+            </impuesto>
+         </impuestos>
+      </detalle>
+   </detalles>
+   <infoAdicional>
+      <campoAdicional nombre="Domicilio">LA LOPEZ  CAMILO PONCE FINCAS</campoAdicional>
+      <campoAdicional nombre="email">juan-cando@hotmail.es   </campoAdicional>
+      <campoAdicional nombre="Telefono">072937375</campoAdicional>
+      <campoAdicional nombre="Concepto">Cuota Nro.  6 Referencia  1044</campoAdicional>
+      <campoAdicional nombre="Referencia">1290</campoAdicional>
+      <campoAdicional nombre="Recaudador"> Flor Charito Heras Alvarado</campoAdicional>
+   </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature714534">
+<ds:SignedInfo Id="Signature-SignedInfo619083">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID490074" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature714534-SignedProperties584449">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>22Ydo6TAYUFTH1FBr0opX838ZI8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1664902">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WybYl+oeWUr+3B6+VKO7PmqkUAo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-461515" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>kaibQh/4VBT4dClLXMcWrAbGaok=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue695214">
+UoFdqQa6z44O6dEfxZqOso2cQwmzjQmp/hkDIZVU4joYsu1p6CeP/GQfJfrGBvy1nif98d+AKXkS
+HZcosmPKOCNRDlzKQKHfdvwnGVaAYG5PYUruVCY2strV8ovfbeBiaptCwYBXY/Ts2rjDyEZ8DkZ/
+7ICgA8RcU+cgL6s5whdZpwMVr8rZPqB00J0rcX0EXjOt7/t6NoeV4QfMTe3vI0bgA3CpHAjeUmIM
+Kf2KenveDTQZAJ778a7HsgvDunZYYrH0Mj4SwuoW5I22nR+iHJysTP07tNy8OOVyQ5m4Q5IISSpb
+Of5GJdTBThhyFHhA4LFYSO0ur6h6i3d0tFrwjg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1664902">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMUTCCCjmgAwIBAgIEOyMpCzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA0MTMxODM3MjdaFw0yNTA0MTIxODM3MjdaMIGcMSUw
+IwYDVQQDDBxSSUNIQVJEIFBBVUwgQkFSWkFMTE8gUFJPQ0VMMRUwEwYDVQQFEwwxMzA0MjMxMzQ3
+MDkxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsG
+A1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAg1R8WOvAhU7Z81SC1vlw+cWrzBdxAEnX14KgwxQ2MwUf2GzYMQk25lY7
+t8qFbs9HPlLg4KgIqmbKMb4RIbu13EJBS8D8GiaS8aIUY9kPrF/abznwWxPNR34vPMdx8DdbkB6e
+1trEiBzYvxM4JZUILJ3vAkz26UJsVJmrxjFOQTBspw3a+0qMx7lCiq2PY4lir/KlTer4zoZpZWml
+rkU4ruxZnVYr59ABqMQ3AkCj7Gv9o2RpzO/7inzFWBSl+Enw+Et7hfMFdXf8bLyVYTfw30p5Gomz
+s9t2GEgliM6P6USZNJga4DWs1vUFrX+bJPpcd6JBUWfY6xdAVMprrkPlcQIDAQABo4IHmjCCB5Yw
+DAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcB
+AQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJj
+YS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9s
+ZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25MaXN0
+P2Jhc2UwJgYDVR0RBB8wHYEbcmJwY29udGFkb3IyMDA3QGhvdG1haWwuY29tMIIBEgYDVR0gBIIB
+CTCCAQUwYAYKKwYBBAGCpnICCjBSMFAGCCsGAQUFBwICMEQeQgBDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABkAGUAIABNAGkAZQBtAGIAcgBvACAAZABlACAARQBtAHAAcgBlAHMAYTCBoAYKKwYBBAGC
+pnICBDCBkTCBjgYIKwYBBQUHAgEWgYFodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dw
+LWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2Fz
+IGRlIENlcnRpZmljYWRvIE1pZW1icm8gZGUgRW1wcmVzYS5wZGYwggKiBgNVHR8EggKZMIIClTCB
+5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIv
+c3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9O
+IFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMC
+RUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVU
+T1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9
+RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0
+YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3Qv
+Y2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFN9EvCBPGnMXN7SHYiIp
+wDSWgc05MCsGA1UdEAQkMCKADzIwMjMwNDEzMTgzNzI3WoEPMjAyNTA0MTIxODM3MjdaMAsGA1Ud
+DwQEAwIF4DAgBgorBgEEAYKmcgMFBBIMEENPTlRBRE9SIEdFTkVSQUwwGgYKKwYBBAGCpnIDAQQM
+DAowNzAzNjIxMTAyMCUGCisGAQQBgqZyAwkEFwwVQ0FNSUxPIFBPTkNFIEVOUklRVUVaMBEGCisG
+AQQBgqZyAyIEAwwBLjA3BgorBgEEAYKmcgMHBCkMJ0FWRU5JREEgMjggREUgTUFSWk8gUyBOIFkg
+QVZFTklEQSBSSU8gNzAcBgorBgEEAYKmcgMCBA4MDFJJQ0hBUkQgUEFVTDAfBgorBgEEAYKmcgMg
+BBEMDzAwNjAwMTAwMDAzNjEyMzATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkM
+B0VDVUFET1IwGAYKKwYBBAGCpnIDAwQKDAhCQVJaQUxMTzBcBgorBgEEAYKmcgMKBE4MTEdPQklF
+Uk5PIEFVVE9OT01PIERFU0NFTlRSQUxJWkFETyBNVU5JQ0lQQUwgREVMIENBTlRPTiBDQU1JTE8g
+UE9OQ0UgRU5SSVFVRVowHQYKKwYBBAGCpnIDCwQPDA0wNzYwMDMzODYwMDAxMBIGCisGAQQBgqZy
+Ax0EBAwCTm8wFgYKKwYBBAGCpnIDBAQIDAZQUk9DRUwwGgYKKwYBBAGCpnIDCAQMDAowOTk0Mzg1
+MjYzMA0GCSqGSIb3DQEBCwUAA4ICAQCLCw01P83pxZbEztxmBmoq4ZqBFQVWAEmQtPQuAPWZme0+
+S9spb/CV+Gc+naeKyM+ZqeI3ZCXsM0t5hH9hzx/orvl9TPqG81jfM/OxcmqTMhlWDixPjOSi32mi
+YEGXKBDLa8JjBmlTf3ngKmTs7/WhlTyxIEWKJuhFMihetbgG+5LANqawpOfS4t6T9SK4wl3QQC0j
+gl4XRyOIhuQLxEF/vgTOlSrjmPMPpugoV6HS+8UA/OERNpdVgmW2OIiUgJQqZq1bb79A1cIzaymZ
+71SyMiQQXiQs9zmyGzfC375jg9vWGDLmsWhBQIBfSdvbQENDraseFjsJbBIjUldB9N4i3zB0A3m9
+Ta7c98mY5uEP8XiDrtHKpKSs3CaN426ELX6VtRSLJKcF/EOQ5scsGrH+YaNP1O5Vq4blHHFvFJ/w
+6epBv96bVJYlpEJzSG1XOYBP93B+/XV/DcM/ia5J8MbfXEvZRLqgSAf7KrvxZlEn/JE6S8jVxOXK
+WgwRlO+liVmsBo6OekEZte7QYNOYigzdJa9nUPHyvTaUaEif5Lz3bxr9SU3B0v2fzbkel8lTy321
+ijpDxNP+djqRyXgVrb+Uvz83NDJWfKCdnm0oClWwzbj55z0lgrOsWK434phmjc14DNARakjs6FAg
+1nRU98EBLX8A58aGhZAZOh0hJmxW8g==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+g1R8WOvAhU7Z81SC1vlw+cWrzBdxAEnX14KgwxQ2MwUf2GzYMQk25lY7t8qFbs9HPlLg4KgIqmbK
+Mb4RIbu13EJBS8D8GiaS8aIUY9kPrF/abznwWxPNR34vPMdx8DdbkB6e1trEiBzYvxM4JZUILJ3v
+Akz26UJsVJmrxjFOQTBspw3a+0qMx7lCiq2PY4lir/KlTer4zoZpZWmlrkU4ruxZnVYr59ABqMQ3
+AkCj7Gv9o2RpzO/7inzFWBSl+Enw+Et7hfMFdXf8bLyVYTfw30p5Gomzs9t2GEgliM6P6USZNJga
+4DWs1vUFrX+bJPpcd6JBUWfY6xdAVMprrkPlcQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature714534-Object540090"><etsi:QualifyingProperties Target="#Signature714534"><etsi:SignedProperties Id="Signature714534-SignedProperties584449"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-02-28T08:44:35-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>iCpkCJ4Sc6L0ZyjNKtSe7DKh23U=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>992160011</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-461515"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

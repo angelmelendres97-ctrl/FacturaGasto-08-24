@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>TORRES JOSE GUSTAVO</razonSocial>
+        <nombreComercial>IMPRENTA TORRES</nombreComercial>
+        <ruc>0701241440001</ruc>
+        <claveAcceso>1301202501070124144000120011000000015946713845711</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000001594</secuencial>
+        <dirMatriz>Calle: SUCRE Numero: S/N Interseccion: PALMERAS Y VELA </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>13/01/2025</fechaEmision>
+        <dirEstablecimiento>Calle: SUCRE Numero: S/N Interseccion: PALMERAS Y VELA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>SEPEREM C LTDA</razonSocialComprador>
+        <identificacionComprador>0791745632001</identificacionComprador>
+        <direccionComprador>Guayaquil s/n y Guabo</direccionComprador>
+        <totalSinImpuestos>180.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>180.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>180.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>180.00</total>
+                <plazo>30</plazo>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>0701.682</codigoPrincipal>
+            <descripcion>BLOCK DE ORDEN DE TRABAJO DE 100X3 1/2 OFICIO - QUIMICO</descripcion>
+            <cantidad>20.0</cantidad>
+            <precioUnitario>9.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>180.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>180.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">mery.enriquez@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="CONTRIBUYENTE DE LA JUNTA">JNDA Nº 195882
+</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GIEBMljE4NUSD17jmPdVUF9gSdtxqKMFBEg2DobAfbs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>5JXFAdHM5pIPcGvTms9HrP3CLhpxJlY3CqEKIpBVhOg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078-sigvalue">c/HU3pWEqGcXehCVkLoV/GbVxK3iq+xe6e8DWAXrQzbWnbm2mVqw/gOser1zQ+5oEBn5yis0Gr0ab5Yq9L1DM6NZLazstvkqcgJxFHr4vcD0SNKaX8HssOSkc0StMQw39PG1WVwQlcPJupxSubcAUYvi7XA913Y+EE8wnrzAldjFG3WRvLa09/sVL7nd8qcNfiLKpCCwljaZlHzsIDPEY74ADfY+tm59XS6QmAzHfxOFgINyPdJoTQojpzkEkL6flTAxQZPidSe+pdzHYRl1SVhdUv+XCHJUf14wMpswy3c9G1kFppM2vJ7YMLGdSYYRSlCpZ1ZfYxbd0tvpzwnh3g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078"><xades:SignedProperties Id="xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-13T09:23:39.778-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1bSL+gnHtuWX3KjlMwrCBOfg1SbXAQOP78jaCtwiSMw=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ANF High Assurance Ecuador Intermediate CA,OU=ANF Autoridad intermedia  EC,O=ANFAC AUTORIDAD DE CERTIFICACION ECUADOR C.A.,C=EC,2.5.4.5=#130d31373932363031323135303031</ds:X509IssuerName><ds:X509SerialNumber>1016711563745645209895273519</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-bb5d5604-fa86-4f20-84b8-f786879fd078-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

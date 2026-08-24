@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>Holcim Ecuador S.A.</razonSocial><ruc>0990293244001</ruc><claveAcceso>1409202501099029324400120060060000416131462357513</claveAcceso><codDoc>01</codDoc><estab>006</estab><ptoEmi>006</ptoEmi><secuencial>000041613</secuencial><dirMatriz>Av. Barcelona y Jose Rodriguez Bonin (Edificio el Caiman Piso 2)</dirMatriz></infoTributaria><infoFactura><fechaEmision>14/09/2025</fechaEmision><dirEstablecimiento>Km. 4 1/2 via Machala - Pasaje Machala</dirEstablecimiento><contribuyenteEspecial>6925</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><guiaRemision>006-006-000068455</guiaRemision><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN Y QUINTA A</direccionComprador><totalSinImpuestos>7599.2</totalSinImpuestos><totalDescuento>0.0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>5</codigoPorcentaje><baseImponible>7599.2</baseImponible><tarifa>5.0</tarifa><valor>379.96</valor></totalImpuesto></totalConImpuestos><propina>0.0</propina><importeTotal>7979.16</importeTotal><moneda>Dolar USA</moneda><pagos><pago><formaPago>20</formaPago><total>7979.16</total><plazo>00</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>10064731</codigoPrincipal><codigoAuxiliar>F010301</codigoAuxiliar><descripcion>ESTRUCTURAL 300 Kgcm225mm13cm28d</descripcion><cantidad>               59</cantidad><precioUnitario>128.800000</precioUnitario><descuento>0.0</descuento><precioTotalSinImpuesto>7599.2</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>5</codigoPorcentaje><tarifa>5.0</tarifa><baseImponible>7599.2</baseImponible><valor>379.96</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Comentario">CMD 6023 20250913</campoAdicional><campoAdicional nombre="Oficina y Telefono">GUAYAQUIL SN Y QUINTA A 981104252</campoAdicional><campoAdicional nombre="Bodega/obra">PONCE ENRIQUEZ</campoAdicional><campoAdicional nombre="Email">logistica.001@grupodmg.ec</campoAdicional><campoAdicional nombre="Orden Compra">VCCE6321658; VCCE6321658</campoAdicional><campoAdicional nombre="*">GRAN CONTRIBUYENTE OFICIO N°. NAC-GCFOIOC21-00000881-E</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924-ref0" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/aJex4qzHzQ5MgnRYxzF4lrBhao7hGL6Cf36cLJsWTQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rUctZBohCV5yNSXVTP/xkw9X1RMUJOyVFEqLkC+JFXo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924-sigvalue">
+JHXnCrZadQYQHZhhmBOzT5G3FXiG/v6EvzUYnVO/61KelGFZ8+oRcJa/9KDS4FcnHUqQQKwYt0ph
+9i5SHfZ7rKQ6LQ6jHVDWQV9oMiLlK1QPwo+gLzDT6PT2E4gLShpEMmyhcmtmCo3L51a7GkiwMYOm
+WOyyivJGQLoHyW6+3neLDFR0i8rSldXbCffl1JSTPshWEBGFGwK4iXo+XSEEzcxgYYwzNitdoZGQ
+Q78srg9HLsrumPoEMp3TeujLSthvA9UXnvXlAnaOf6YwdVvxfBkLbUii2S44WAn0WZk8KLxLZV7s
+L7ehXlxiXXqLGlp/Qz2e7sxChfSfaInvmN3CVw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMCzCCCfOgAwIBAgIET36X+zANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDA1MjIxNzAzMTVaFw0yNjA1MjIxNzAzMTVaMIGaMSMw
+IQYDVQQDDBpSSUNIQVJEIEpBVklFUiBNT1JFTk8gV09ORzEVMBMGA1UEBRMMMjIwNTI0MTIxMjUz
+MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKbxGqSckoVx5/0hgBFbee127xrT6PGoJKaI8OCoKmymkPntZtQq664NjEQm
+/nuEFRyGP6aDu41jsDEX3tu2Xf7zdUyVS8mZjEBvpGLn0J56VMuM0P56T9AIyhcqFk4zN84D+4Fp
+dobs1HzcgoWI1jZl4nwGFgXVWrfcjSeeDWXOOcWuxC6aByyeOTx/bFXMorAF1QsG7vVSFjVQSvAk
+csZV/t5vlA7KWIW3c0rX16qOFFUVjtxOndMIByng4/a5aFySLzi3n95A5bYVnCxqBab2sZr1IUzo
+GUE1enQBDxLjfPs1ANHLa02zROBRqs1pQA1CKz/ooNArCJlOrgCyOkcCAwEAAaOCB1YwggdSMAwG
+A1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEE
+TTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2Ev
+cHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFwOi8vbGRh
+cHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlzdD9i
+YXNlMCQGA1UdEQQdMBuBGXJpY2hhcmQubW9yZW5vQGhvbGNpbS5jb20wggESBgNVHSAEggEJMIIB
+BTBgBgorBgEEAYKmcgIKMFIwUAYIKwYBBQUHAgIwRB5CAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAg
+AGQAZQAgAE0AaQBlAG0AYgByAG8AIABkAGUAIABFAG0AcAByAGUAcwBhMIGgBgorBgEEAYKmcgIE
+MIGRMIGOBggrBgEFBQcCARaBgWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29u
+dGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUg
+Q2VydGlmaWNhZG8gTWllbWJybyBkZSBFbXByZXNhLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGg
+P4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0
+dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCB
+x6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1v
+cGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0
+ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0y
+IFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9O
+LE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUEIyviWktktHY9Ol/HU+wd+9J
+/0EwKwYDVR0QBCQwIoAPMjAyNDA1MjIxNzAzMTVagQ8yMDI2MDUyMjE3MDMxNVowCwYDVR0PBAQD
+AgXgMCYGCisGAQQBgqZyAwUEGAwWRVNQRUNJQUxJU1RBIENPTUVSQ0lBTDAaBgorBgEEAYKmcgMB
+BAwMCjA5MTQ0MTA2MDAwGQYKKwYBBAGCpnIDCQQLDAlHVUFZQVFVSUwwEQYKKwYBBAGCpnIDIgQD
+DAEuMDgGCisGAQQBgqZyAwcEKgwoQVYgIEJBUkNFTE9OQSBTIE4gWSBKT1NFIFJPRFJJR1VFWiBC
+T05JTjAeBgorBgEEAYKmcgMCBBAMDlJJQ0hBUkQgSkFWSUVSMB8GCisGAQQBgqZyAyAEEQwPMDAx
+MDAyMDAwNTg5ODczMBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURP
+UjAWBgorBgEEAYKmcgMDBAgMBk1PUkVOTzAiBgorBgEEAYKmcgMKBBQMEkhPTENJTSBFQ1VBRE9S
+IFMgQTAdBgorBgEEAYKmcgMLBA8MDTA5OTAyOTMyNDQwMDEwEgYKKwYBBAGCpnIDHQQEDAJObzAU
+BgorBgEEAYKmcgMEBAYMBFdPTkcwGQYKKwYBBAGCpnIDCAQLDAkwOTM3MDkwMDEwDQYJKoZIhvcN
+AQELBQADggIBAB0Go8NJJUJZ5jzJYfFzEVgT+3ELpTcbZDo4W/D1xESxPRt/deBlVh7Tjo4dIw1W
+UTlwDqDYhnaZXCXtLHSVU6JLMrWNYMnxs7N6nnZcnCHtidGYUx6CuMu8wFPXTIGadPedDiauC1IL
+PtXPKJNTKXypChW4MiP9UTpZNoQmOeBEvZTxahWjua2WjSDAMWeZ+/F9CRFx3r5xzIMYEg2b35UV
+6751JW/QTjxpW6Bz1BMUKrQnolX/e4W52nOFm1K5sVhBt84BiB6O6ljZJ+2C0GiGryMugOuWc5Ki
+C0/1VXm0hhquiduZGPi6lsnj0rm4oJ10NTkzR8A/8DsNcnKFUlEM+nDYdJj4lvZnw81jpM5nPC7o
+s8EFF3y3XywN6ETaOfnAFU3XAoOH177ZkXBOyurfG9solhtnYuhq6JY6bIVddaRsBspho3qlhC1c
+wdDntev949ytSqL+MmXm57PkarAh6Yn/jH4gXc5xK819JL5O8CfRHZ0lUTOIM6Is8S5p/r7+RO90
+bs8s/9TgDMV14wPflEvhoCpZVE5747jdq4Yxkoaowwdo+aQE8UG/btLPjohCYxMOhLpv1yBSPA1S
+flcDyZgHRGxoDfr1UPiC53Q4IPWREJKu0CnMRivblEPmGSC2OcfsrnxcmiL7B/2gdtpMFSiGXA/q
+v1wPrwybLnlt
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924"><xades:SignedProperties Id="xmldsig-b36176a5-8fef-4b0a-99d1-478e784f1924-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-09-15T08:37:57.908-03:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vY3kEjL4iSHadMesjKsVFyJPfpgqwaxTQ2ux5RFWNGY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1333696507</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

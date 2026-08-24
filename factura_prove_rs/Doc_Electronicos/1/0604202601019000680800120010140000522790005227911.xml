@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>CLINICA DE ESPECIALIDADES MEDICAS SANTA INES SA</razonSocial>
+        <ruc>0190006808001</ruc>
+        <claveAcceso>0604202601019000680800120010140000522790005227911</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>014</ptoEmi>
+        <secuencial>000052279</secuencial>
+        <dirMatriz>AV DANIEL CORDOVA 2 67 Y AGUSTIN CUEVA</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>06/04/2026</fechaEmision>
+        <contribuyenteEspecial>5504</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>16823.74</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>16768.77</baseImponible>
+                <valor>0</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>54.97</baseImponible>
+                <valor>8.25</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>16831.98</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>16831.98</total>
+                <plazo>30</plazo>
+                <unidadTiempo>DIAS</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>S9999997</codigoPrincipal>
+            <descripcion>SERVICIOS HOSPITALARIOS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>677.48</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>677.48</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>677.48</baseImponible>
+                    <valor>0</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>S9999998</codigoPrincipal>
+            <descripcion>MEDICAMENTOS E INSUMOS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>16091.29</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>16091.29</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>16091.29</baseImponible>
+                    <valor>0</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>S9999998</codigoPrincipal>
+            <descripcion>MEDICAMENTOS E INSUMOS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>54.97</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>54.97</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>54.97</baseImponible>
+                    <valor>8.25</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Resolucion:">Agente de Retención Resolución NAC-DNCRASC20-00000001</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature804114">
+<ds:SignedInfo Id="Signature-SignedInfo1029183">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID865978" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature804114-SignedProperties901707">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>ROX8ns8S18eJkhHPvv2R+SWnpf4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1417143">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>scFiPiWI77J0eOELLpCcteZSrb8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-854996" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>TE3qgFkiBrop8uuPwtYBJ92tgT0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue598770">
+icwo+C4j9BU+iiHLJtq0mC6EKwqXzXmL354JIZFFwZVirKuxea+7BkQFOFtgJseHQ1b+0u2LmhxO
+AofNWKPFA57LZ3AfuVifoNqUwV5Qr8t7RXo1jT7ZznwLycyPS+TNsrUVDvYBg2fNDzP3s9av0hXP
+osTIZoOESAS71zor5/WdRnFdTqBto2ngv/Pbv23dhl8sDFoabvENi9JSYnhl8Zyu71AAexMfnnJG
+83nh1ZkPf5o9yc8ZDlArQTXyYDSb/J0GhqoCYfhbl82luT5yDLnZejieZl4I7T/4FxOj+4E2lTfB
+RgFrvb0cXVHhMN9go2dmEXJg4Vs8tLzyVeC8cw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1417143">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKCDCCB/CgAwIBAgIEZed7DjANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI1MTIwNDIwNDc0M1oXDTI3MTIwNDIxMTc0
+MlowgbExCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE1MBEGA1UEBRMKMDIwMDAyMTQ2NTAgBgNVBAMTGU1BUklBIExPUkVOQSBQ
+RU5BIE1PTlRFUk8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDoqn9fE9mylN6lZCQr
+Te76FtU77eWTZo2wg4zzB0+8rAGo2FG+IP8eoYYDGtpMHBOqcuvetcrptrXck6q/W8bgU7eFNuLR
+DWuKTt2wfkLwJIc7yV9Y4vXbgmR21gX3gjFKROK6B7DopVS6U45GlB3M150Z82hp0/g38qTID0Ud
+I3mgcL7fry5+5PQzHzZqiz6jIGlH5QWfEYq4GPyA/awApmE39UaTDEQrYJxjBsM7P1tI6hziSUvF
+uHHrZWrdX3CtQYNm5hSoMyn7LJZeVTBH6MFw1fyuOjYfOs295xvgc9iEyaW11Lc7kRfnjbjzh8bQ
+vNQ5+dzgzSBOUCC+bTWJAgMBAAGjggU0MIIFMDALBgNVHQ8EBAMCBsAwZwYDVR0gBGAwXjBcBgsr
+BgEEAYKoOwICATBNMEsGCCsGAQUFBwIBFj9odHRwOi8vd3d3LmVjaS5iY2UuZWMvcG9saXRpY2Et
+Y2VydGlmaWNhZG8vcGVyc29uYS1qdXJpZGljYS5wZGYwgZEGCCsGAQUFBwEBBIGEMIGBMD4GCCsG
+AQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0
+YXR1cy9vY3NwMEEGCisGAQQBgqg7AwoEMxMxQ0xJTklDQSBERSBFU1BFQ0lBTElEQURFUyBNRURJ
+Q0FTIFNBTlRBIElORVMgUy5BLjAdBgorBgEEAYKoOwMLBA8TDTAxOTAwMDY4MDgwMDEwGgYKKwYB
+BAGCqDsDAQQMEwowMTAzMjU5NzkyMBwGCisGAQQBgqg7AwIEDhMMTUFSSUEgTE9SRU5BMBQGCisG
+AQQBgqg7AwMEBhMEUEVOQTAXBgorBgEEAYKoOwMEBAkTB01PTlRFUk8wKAYKKwYBBAGCqDsDBQQa
+ExhBVVhJTElBUiBERSBDT05UQUJJTElEQUQwJgYKKwYBBAGCqDsDBwQYExZDRExBLiBNVVRVQUxJ
+U1RBIEFaVUFZMBkGCisGAQQBgqg7AwgECxMJMDc0MDgzMDAxMBYGCisGAQQBgqg7AwkECBMGQ1VF
+TkNBMBcGCisGAQQBgqg7AwwECRMHRUNVQURPUjAgBgorBgEEAYKoOwMzBBITEFNPRlRXQVJFLUFS
+Q0hJVk8wIAYDVR0RBBkwF4EVbHBlbmFAc2lzYW50YWluZXMuY29tMIIB4QYDVR0fBIIB2DCCAdQw
+ggHQoIIBzKCCAciGgdZsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMMjMwNSxjbj1B
+QyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIw
+REUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENF
+TlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNl
+hjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG2
+MIGzMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUG
+A1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwG
+A1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxEDAOBgNV
+BAMTB0NSTDIzMDUwKwYDVR0QBCQwIoAPMjAyNTEyMDQyMDQ3NDNagQ8yMDI3MTIwNDIxMTc0Mlow
+HwYDVR0jBBgwFoAUSKLfIx8d+CxReowDzUkypQnBlKswHQYDVR0OBBYEFB+Xb095x+njlzNmW20T
+1b8Gsx87MAkGA1UdEwQCMAAwGgYJKoZIhvZ9B0EABA0wCxsFVjEwLjADAgQwMA0GCSqGSIb3DQEB
+CwUAA4ICAQANO9uFJlky+AKkKGgXml3Yz7549rT9v4rma2Jh1MdlJ4rkl+YLbkXVmYmNu/49GSZl
+rDsqnOs9kPZpvvq2la56ps6P6jBkUW9P2rTrPcreMoCfyJGA/Ra3BIsNM4zH4yg4bRc84KC0LxKQ
+L42Du0dhelRLw00WJtiMIP/8r2nPSR/5Og/sU438irWvP6LMSfmAiSb9eeCOYhgeWJRsw6znZTR0
+1ityIQMRLZyR0ZzOkmrCTpIqj0+guro+3XVOHdktjrGra6Jy6Sg4ZTlifalhaDmXqcO6uf09/Yyx
+lrDdJcCBirapGS+iYhoz99Qi9LSnvI3PHzU0RlWQN+ejKoPxy/TlyelkZEsijA5SSdV/VFN+EjW9
+MXYc6iUPYD3z6uUqf2nQWo8JNyHLxbkO9CItJpspaKCwXl9wQr4AchKcEd0bJDTbUkLmIdROcGiR
+0CABuxNt5STZpsupA3z4DhLWOhjo/e+n22kvTQ3wnGzaPXLqiVUcNmddVFN+CoUFUiTkMebjxK7d
+ypIugStu4ToqxYJujk74R7MBsQazQ/HhTU8l4VHxW2mEPBrTHGzEhM1w63mdrQALFfE0kG26mZjb
+1dkeRHhi+mVCk6ZRvx59Lare7+Wp4lvTo4RANgkifSxH8ZRf7MpTjPW296IawHcQoyfOPldSb8ZP
+wpopGD5fTQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6Kp/XxPZspTepWQkK03u+hbVO+3lk2aNsIOM8wdPvKwBqNhRviD/HqGGAxraTBwTqnLr3rXK6ba1
+3JOqv1vG4FO3hTbi0Q1rik7dsH5C8CSHO8lfWOL124JkdtYF94IxSkTiugew6KVUulOORpQdzNed
+GfNoadP4N/KkyA9FHSN5oHC+368ufuT0Mx82aos+oyBpR+UFnxGKuBj8gP2sAKZhN/VGkwxEK2Cc
+YwbDOz9bSOoc4klLxbhx62Vq3V9wrUGDZuYUqDMp+yyWXlUwR+jBcNX8rjo2HzrNvecb4HPYhMml
+tdS3O5EX542484fG0LzUOfnc4M0gTlAgvm01iQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature804114-Object489248"><etsi:QualifyingProperties Target="#Signature804114"><etsi:SignedProperties Id="Signature804114-SignedProperties901707"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-04-06T17:29:51-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>CWQaWg5qzPBFOkmyn4lqsYDGoc0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709669134</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-854996"><etsi:Description>Documento de ejemplo</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

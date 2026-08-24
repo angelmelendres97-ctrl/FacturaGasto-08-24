@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>VILLA GARRIDO OSWALDO ISRAEL</razonSocial><ruc>1708001613001</ruc><claveAcceso>1407202601170800161300120010020000000121234567814</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>002</ptoEmi><secuencial>000000012</secuencial><dirMatriz>LEONARDO MURIALDO SN Y JAZMINES</dirMatriz></infoTributaria><infoFactura><fechaEmision>14/07/2026</fechaEmision><dirEstablecimiento>LEONARDO MURIALDO SN Y JAZMINES</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>17120.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>17120.00</baseImponible><valor>2568</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>19688.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>19688.00</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>009</codigoPrincipal><codigoAuxiliar>009</codigoAuxiliar><descripcion>HONORARIOS SUBASTA ACNUR 2026</descripcion><cantidad>1</cantidad><precioUnitario>17120.00</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>17120.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>17120.00</baseImponible><valor>2568.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Email Cliente">fernanda.paccha@grupoadmg.com</campoAdicional><campoAdicional nombre="Telef. Cliente">072923970</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8-ref0" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>oY52FIP2spzoTMF9ekQbZ5+XgFA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8-signedprops">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>pe+cS8hOo002z5z/Qynt0r2kNH0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8-sigvalue">
+Ew3FALkcONKX+QAorUAIsm9qzSUIqkXT6LOVU8MgaOvUUvS1RplMyq7Q+eI1J2OOEufJo9zWJldS&#13;
+wrQeQtyqTpzsTq73wRMWkwOK8rJCets1rbWoVtTPpIWciqIcTV7FDdLn/RnaX6clMjb0vScJzZAm&#13;
+V+z7v50uyOE2vXadhqC2KjBf3eIpquZ/GmWkiveSRmDTAoTQhEsemo+V3jIO3QEKvO+TjP0m7XYk&#13;
+m0duQngF8WsJ7dTJiYcaWK7v90qh2pRyBq7X/ixMYxyYtP0lV/bMGL/sq6O2atqYN+wlyKdL4+Bm&#13;
+lMNHfh4k4PnGkwD6ZnDc8WpvuW0WWGNwz8PI2A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKrjCCCJagAwIBAgIIUn6x4nhI3RQwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w&#13;
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ&#13;
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP&#13;
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwNzA2MTMzODA4WhcNMjcwNzA2MTMzODA4WjCB&#13;
+pzElMCMGA1UEAwwcT1NXQUxETyBJU1JBRUwgVklMTEEgR0FSUklETzEgMB4GA1UEBRMXMTcwODAw&#13;
+MTYxMy0wNjA3MjYwODQ3NTUxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ&#13;
+TkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnfrq0OgL7yf04L/WgAcZAGcUg8xHFoRklIV3&#13;
+cvfjda32Pyl/VjMZPYPtZTfuDLorzduBKoIND7PcPmWea6GqxLE1OZL7Ixdfbou1uOjQnH4zode+&#13;
+rHO7K+EX8hC7kPRM8Nu+k7ExIpo3++9dycWqgZfS3NmPOX8DYLqHE7b+qgYEGmtwuUI66Ez+sejX&#13;
+Rw9uMb+W4v2FIc2Lf3b+iFOeNREjzQL69YePpnDHg/HRQ/vfwh7i7r4462Pm3TMVDFAik7UeFCpm&#13;
+jW3ZxsvG4GOLGIp8BCSTpv0TnEaSfDB71Hx1Z9tpsyPaDWbXynz/aP/IdlWyxfF3McdBjY00tOYZ&#13;
+mQIDAQABo4IF6DCCBeQwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42u&#13;
+Yt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk&#13;
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwIAYDVR0RBBkwF4EVc3ViYXN0&#13;
+YXNpdmdAZ21haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcC&#13;
+AjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0&#13;
+AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1&#13;
+cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0&#13;
+aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwHQYD&#13;
+VR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIICDwYDVR0fBIICBjCCAgIwgd6gOqA4hjZodHRw&#13;
+Oi8vY3JsMS5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDEvY3JsZmlsZS5jcmyigZ+kgZww&#13;
+gZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg&#13;
+REFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w&#13;
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwPKA6oDiGNmh0dHA6Ly9j&#13;
+cmwyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMi9jcmxmaWxlLmNybDCB4KCB3aCB2oaB&#13;
+12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1Ymxp&#13;
+Y3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJU&#13;
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ&#13;
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBT1&#13;
+b5/wlt0Tp9b6/UOutKf26liXcDArBgNVHRAEJDAigA8yMDI2MDcwNjEzMzgwOFqBDzIwMjcwNzA2&#13;
+MTMzODA4WjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAoxNzA4MDAxNjEzMB0GCisGAQQB&#13;
+gqZyAwkEDwwNTEEgQ09OQ0VQQ0lPTjARBgorBgEEAYKmcgMiBAMMAS4wMAYKKwYBBAGCpnIDBwQi&#13;
+DCBMRU9OQVJETyBNVVJJQUxETyBTIE4gWSBKQVpNSU5FUzAeBgorBgEEAYKmcgMCBBAMDk9TV0FM&#13;
+RE8gSVNSQUVMMB8GCisGAQQBgqZyAyAEEQwPMDA3MDAxMDAwMDM1OTYxMBEGCisGAQQBgqZyAyME&#13;
+AwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFQYKKwYB&#13;
+BAGCpnIDAwQHDAVWSUxMQTAhBgorBgEEAYKmcgMeBBMMEUVNUExFQURPIEJBTkNBUklPMB0GCisG&#13;
+AQQBgqZyAwsEDwwNMTcwODAwMTYxMzAwMTARBgorBgEEAYKmcgMdBAMMAS4wFwYKKwYBBAGCpnID&#13;
+BAQJDAdHQVJSSURPMBoGCisGAQQBgqZyAwgEDAwKMDk5OTQ0MjgyNTANBgkqhkiG9w0BAQsFAAOC&#13;
+AgEAF44a63re2WQ9nAdycJYO57tQ0bLlsR3FioXVFnYCvkOf4v/Akgv7TsXwl+HPJtqaWYpZPYBj&#13;
+pZo31Y5hZQrNbxSP+3sbvXXyfDGyXk+taabzeNl7vQ3MtlxOpkmTRSdz2Lyf0ob3M7C2QOMI1oJm&#13;
+BxdAnHWwOHKdiXr/hQxuxsGxwRWc841iVXXdxuZHqJMEUgZ4xscfVpvV++3NV/8gN2ESRn0cTHeW&#13;
+w5v5+xn3lU/T7GyTMLPWlM4u2fRgVQibh2yX6dieCOpk1zzxObWqstGpABMwCXm91uzQMjovkdhY&#13;
+47DegoHxtjH9wwn9vfYYrZB2v/B+yuBgRvKsd2omYX07lE9xqekTWbiqsD6Adw00Vtagy7e5sllI&#13;
+gCzjI6jNGOkZN0rTlj/lCWsddLstA2ZAol34IuQar1zCzlz3tpo50+qFBVFA0mDfa1UqzrEJx6KH&#13;
+Gg3LTQmmTlZB7sYVY9JGUeexxdoPASg8jSw3l7mP6C5zS9yO9CU2oqAycAb3463pPu58+aov1nJH&#13;
+e+64Kf2HhET2PrMkn4xive/l3fTu97DrOct1zbRfmThjhdnTJuzPmx9Aougd8HqHGX3STcqEZMtR&#13;
+uHIbyQozCwwPPRfEqacbSguxkTSqnmN8tob16OLYK8ie9wJJA3QhgPTxM4rLU4HKoQP5HKrZhZbF&#13;
+p6E=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8"><xades:SignedProperties Id="xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-07-14T16:15:05.530-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>QXlUJ8zue/YDIfBTEsNUicKFGIU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,ou=ENTIDAD DE CERTIFICACION DE INFORMACION,o=SECURITY DATA S.A. 2,c=EC</ds:X509IssuerName><ds:X509SerialNumber>5944384144414399764</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-243d7acb-c496-48e9-9600-2b7e16f257f8-ref0"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GALLARDO AGUILAR EMANUEL ANDRES </razonSocial>
+    <nombreComercial>LA BODEGUITA DEL AHORRO</nombreComercial>
+    <ruc>0704374586001</ruc>
+    <claveAcceso>0311202501070437458600120010020000193560000000010</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000019356</secuencial>
+    <dirMatriz>BABAHOYO ENTRE KLEBER FRANCO Y 5TA NORTE</dirMatriz>
+    <agenteRetencion>2</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>03/11/2025</fechaEmision>
+    <dirEstablecimiento>BABAHOYO ENTRE KLEBER FRANCO Y 5TA NORTE</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>GUAYAQUIL S/N QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>365.22</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>365.22</baseImponible>
+        <valor>54.78</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>420.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>397.18</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>22.82</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>5.005.00021</codigoPrincipal>
+      <descripcion>LAVADORA AUTOMATICA INDURAMA 19 KG LRI-19DGR COD: 10000392</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>365.2200</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>365.22</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>365.22</baseImponible>
+          <valor>54.78</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Dirección">GUAYAQUIL S/N QUINTA A NORTE ESQUINA</campoAdicional>
+    <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature953210">
+<ds:SignedInfo Id="Signature-SignedInfo445626">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID763202" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature953210-SignedProperties592317">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hlgmEF26wa/W3P2zLSgn8hhmNQ0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1780012">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>f2GXATqIhWnTcHe41UNgLB0uftw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-607213" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>JNdsHBw0PjoMK0O6uZKM3YSrmU0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue319597">
+bsCR4sJZt3R0e4XR81O5B0cn+Lln8ndbK/gMsZFAoJUTBVtL0+AiOv7OnddH5//PHB3x24H5m2cc
+UbZb2Udqx6n51TZ1wV+ZjERhKUIG7Jl789Jtr34RW7A4CiqBCv3td0P1CWpZ90XGCrguNmGrZnuc
+zHs8IuGvoyFCn7lYd7Bz8bw3dGGwlKl2O3R7ueNLq1hbW3hhfI3QlE5hmZs7V/+J1/CHBiR0CFll
+U2+40mWHPnEzDEdh+rYUhHSMqmAIZshaP/GTiKhEkQCqwOEV2AX/6BPCYHVUZFXExEFn3jH3J3du
+HNNM3TY/CNexpkQBlj8kCVGkSJ6I7t0Rax9Hlg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1780012">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKwjCCCKqgAwIBAgIIQHkuhpGONmowDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMDEzMjIxOTM4WhcNMjkxMDI5MjExNjAwWjCB
+qjEoMCYGA1UEAwwfRU1BTlVFTCBBTkRSRVMgR0FMTEFSRE8gQUdVSUxBUjEgMB4GA1UEBRMXMDcw
+NDM3NDU4Ni0xMzEwMjUxNzI5MzAxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVD
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmlEGzfbYh+0/oc8s/eIN4PzhRcz75vpk
+LabNUD+U5rHjqKPGTSSD2wQNwGGKfffYeK5jNNcRNHakliPd2W0v5/360Y0eWnQz1DWrWdVUPTPf
+Qtlx+ARYYlV7JXhrj9vwn32+Jr0YCEkPC3pldib0pLj+bs4Nu+tT7mcMy3RIieEOYkLT6pB260ub
+Hx+ko3dwOIFs/Xnf8IiRyvq9P9rPOfFqZfilepaxRzULJUSQEX3vPpJJ2Bl/pXdq3MISs3vlYji0
+vaZVb40Qtrj4TWO1ihyO2naa81WSdmzCheWWDWCtfWjJgU6Cu/cP4G5aa95ONXpGbZcWJ07uBubL
+e+lqCwIDAQABo4IF+TCCBfUwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktV
+v42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwJwYDVR0RBCAwHoEcYm9k
+ZWd1aXRhZGVsYWhvcnJvQGdtYWlsLmNvbTCCAQYGA1UdIASB/jCB+zBaBgorBgEEAYKmcgIHMEww
+SgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFAAZQByAHMAbwBu
+AGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggrBgEFBQcCARZ+aHR0cHM6
+Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFz
+L1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5hdHVy
+YWwucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHe
+oDqgOIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwxL2NybGZpbGUu
+Y3JsooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0y
+IFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4
+hjZodHRwOi8vY3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmww
+geCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9l
+amJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAd
+BgNVHQ4EFgQUp/CtF/fUd6A1IKgjhFYqCNPYbA4wKwYDVR0QBCQwIoAPMjAyNTEwMTMyMjE5Mzha
+gQ8yMDMwMTAxMzIyMTkzOFowCwYDVR0PBAQDAgXgMBoGCisGAQQBgqZyAwEEDAwKMDcwNDM3NDU4
+NjAeBgorBgEEAYKmcgMJBBAMDkxBIFBST1ZJREVOQ0lBMBEGCisGAQQBgqZyAyIEAwwBLjBMBgor
+BgEEAYKmcgMHBD4MPEJBQkFIT1lPIEtMRUJFUiBGUkFOQ08gWSA1VEEgUyBOIFkgS0xFQkVSIEZS
+QU5DTyBZIDVUQSBOT1JURTAeBgorBgEEAYKmcgMCBBAMDkVNQU5VRUwgQU5EUkVTMBAGCisGAQQB
+gqZyAyAEAgwAMBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEE
+AYKmcgMMBAkMB0VDVUFET1IwGAYKKwYBBAGCpnIDAwQKDAhHQUxMQVJETzAaBgorBgEEAYKmcgMe
+BAwMCkVTVFVESUFOVEUwHQYKKwYBBAGCpnIDCwQPDA0wNzA0Mzc0NTg2MDAxMBEGCisGAQQBgqZy
+Ax0EAwwBLjAXBgorBgEEAYKmcgMEBAkMB0FHVUlMQVIwGgYKKwYBBAGCpnIDCAQMDAowOTU5MDcz
+MTY3MA0GCSqGSIb3DQEBCwUAA4ICAQCHturWo1PlHg399waxStF6dwaLkN0FyzULpEk/1xllolRW
+zEnSgijpgkGf+4xVCz9f95hixrNg5viwUnWFFuofSQBv961rBoptZSlCwUQsQxDMb0abpRA5XtqF
+OFo9Bce1aC3Ei5gN/Vfu3ytiZmVO/qefEGJhsm7GAZQlE8qpezZydk3DiiITRPsl8RMsy84D0eZG
+Oi5F+jVBE8fIZU5pP6saTmxkudcr2Ox339vr23OObMT9vaKOmW9kMnsbS0ARtdx8QRycl8TDMO27
+CcuEyouIHtn5DvbQD7VHCchmBrNH37vyJr//lHiG9WZcya0jsQ8VXLKB3CE3dUP069hzLuNYk4oc
+qwb2nutHoFLdq1RwG7+LxGAOfwzWubUjE7azfrA003FwNKAJL4+GRDDwCYcBYZ3DGjMZS1LQxfcZ
+odsIyWIx/25WeXyasfNkBU85nBXZVwT87gcqnZeZzP2jAPSIcgTgQMBZNvN+KDt1k4b6DygUeTdj
++Zm52BAWS6/iGwomO7Dvrwzyr5A+PkZH0lPAaPXVK7WEzJ4Kv0rHWkzvO2JKbss628VMZUla9Ug8
+vFX5HFVFAlnjfi8C0BaqXcmcFH5OsglCaXt4WwHLm7cenSlGf+dJtYNa4zI2yhTteKKzbru/KfA9
+onOWr9iuBpIXFQqSXWtR/n8qaQ6TQg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mlEGzfbYh+0/oc8s/eIN4PzhRcz75vpkLabNUD+U5rHjqKPGTSSD2wQNwGGKfffYeK5jNNcRNHak
+liPd2W0v5/360Y0eWnQz1DWrWdVUPTPfQtlx+ARYYlV7JXhrj9vwn32+Jr0YCEkPC3pldib0pLj+
+bs4Nu+tT7mcMy3RIieEOYkLT6pB260ubHx+ko3dwOIFs/Xnf8IiRyvq9P9rPOfFqZfilepaxRzUL
+JUSQEX3vPpJJ2Bl/pXdq3MISs3vlYji0vaZVb40Qtrj4TWO1ihyO2naa81WSdmzCheWWDWCtfWjJ
+gU6Cu/cP4G5aa95ONXpGbZcWJ07uBubLe+lqCw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature953210-Object630338"><etsi:QualifyingProperties Target="#Signature953210"><etsi:SignedProperties Id="Signature953210-SignedProperties592317"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-11-05T15:06:23-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>5W5CJVNsdLFHFZRk/OK9YRlJq84=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>4645795646111889002</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-607213"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

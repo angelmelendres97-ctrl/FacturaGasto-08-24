@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>MACHUCA LOAYZA &amp; ASOCIADOS ASOMACH S A</razonSocial><nombreComercial>ESTACION DE SERVICIO 6 ESQUINAS</nombreComercial><ruc>0791757045001</ruc><claveAcceso>2712202501079175704500120020110002917000000099913</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>011</ptoEmi><secuencial>000291700</secuencial><dirMatriz>AVENIDA 10 DE AGOSTO 1-1A Y COLON TINOCO</dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>27/12/2025</fechaEmision><dirEstablecimiento>AVENIDA 10 DE AGOSTO 1-1A Y COLON TINOCO</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>JUNIN</direccionComprador><totalSinImpuestos>387.52</totalSinImpuestos><totalSubsidio>20.28</totalSubsidio><totalDescuento>0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>387.52</baseImponible><valor>58.13</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>445.65</importeTotal><placa>GSQ6682</placa><pagos><pago><formaPago>01</formaPago><total>445.65</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>0121</codigoPrincipal><codigoAuxiliar>3</codigoAuxiliar><descripcion>DIESEL PREMIUM</descripcion><cantidad>161.000</cantidad><precioUnitario>2.406957</precioUnitario><precioSinSubsidio>2.532910</precioSinSubsidio><descuento>0</descuento><precioTotalSinImpuesto>387.52</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>387.52</baseImponible><valor>58.13</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Num_Factura">002-011-000291700</campoAdicional><campoAdicional nombre="E_MAIL">estacion6esquinas@gmail.com</campoAdicional><campoAdicional nombre="Direccion_Cliente">JUNIN</campoAdicional><campoAdicional nombre="Telefono_Cliente">0</campoAdicional><campoAdicional nombre="Codigo_Cliente">29946</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature999325">
+<ds:SignedInfo Id="Signature-SignedInfo258555">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID920280" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature999325-SignedProperties872956">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>41obv0WTO1AOO2/mJ1ymq0ndA7w=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1500699">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>JU/uCpCKtq+fxu7pNf4vspA9MBs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-367898" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>iKeRAnB2vvMlJoHXtrxKoy2iwKY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue110323">
+iMivgAZKob+aM89X5N7eY9DRgDif1W028IUBlHl5WTOywIRHnwYwSb1KWPzr0UUDMXxOpVH3AikI
+z4vioBYaweG408SR4z1vXp98Pq9RbZ3xia21YRVdjf4H/M+QVVh8emj+dtJ4X2EhchDMPdcT04iu
+UKQgK3XXovqLuOkfWvvxzIIXALzQH/DnFBu9jQqotpWhzrAuXQ+lSI3paEyzrpS8D1y7IBSJwXNR
+DXn2CjvX5q93OBUrVBS8O1A0wknZiuFHsvsNfB4rxEpZPxVOPpV+kpGy+CTb9aIdyfI5RIEiZ6eb
+9wwCuZmNjZlQe7jbv5jG6CpKsr2+GFGq1DyDPA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1500699">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIbDCCB1SgAwIBAgIFAMIDR/gwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI1
+MTIwOTIyMDYwNFoXDTMwMTIwODIyMDYwNFowgZYxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEmMCQGA1UEAwwd
+SkhJTlNPTiBNQU5VRUwgTUFDSFVDQSBMT0FZWkExIjAgBgkqhkiG9w0BCQEWE2Fzb21hY2hzYUBn
+bWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCoeEZ2dvLt2TH3A47PP1bp
+9YkHmhM3cXwbpt2IDjuySk1ro26HjzEN/xDBq7g6MCfDa9pwngPyHRHVwajd0vupgaGejbMaKpk5
+1w4DdkfJoT5c4DIzcgDXJob3Sn45ObQ5OHcth/6x9r/y38O8EasWPvTbo7Bj8AmlmVM5b73v+3NZ
+pm7TbJh/dpIF6T5jqGM23ACOmUNOVDQucEIhIE22v8ZbDHsEf0gUr1RxlSGpsTj6zxobd2iKKLIU
+k/ysQswRqtxOY5X0zMYSgweXk6MSSFizYOt2iKApTABB9NbUv5aQCiYFJxW4rK4JhBzsMwPkh3i9
+t0njoslEXlW7SlLNAgMBAAGjggUNMIIFCTAaBgorBgEEAYPPdgMBBAwMCjA3MDI3NzEzMDQwHgYK
+KwYBBAGDz3YDAgQQDA5KSElOU09OIE1BTlVFTDAXBgorBgEEAYPPdgMDBAkMB01BQ0hVQ0EwFgYK
+KwYBBAGDz3YDBAQIDAZMT0FZWkEwHwYKKwYBBAGDz3YDBQQRDA9HRVJFTlRFIEdFTkVSQUwwFwYK
+KwYBBAGDz3YDBwQJDAdNQUNIQUxBMBoGCisGAQQBg892AwgEDAwKMDk5MjY5NjM0NzAXBgorBgEE
+AYPPdgMJBAkMB01hY2hhbGEwFwYKKwYBBAGDz3YDDAQJDAdFQ1VBRE9SMB0GCisGAQQBg892AwsE
+DwwNMDc5MTc1NzA0NTAwMTA2BgorBgEEAYPPdgMKBCgMJk1BQ0hVQ0EgTE9BWVpBICYgQVNPQ0lB
+RE9TIEFTT01BQ0ggUyBBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDV6Rq6MUnGG3Qm/0J5gRb2C
+lCcAMB8GA1UdIwQYMBaAFO12SLAK8cmGhgxMRmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNV
+HR8EMzAxMC+gLaArhilodHRwOi9lbmV4dDIueHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCC
+AYQGA1UdIASCAXswggF3MHwGCisGAQQBg892AgIwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50
+ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1
+cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIw
+YBpeRWwgcHJlc2VudGUgY2VydGlmaWNhZG8gZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOt
+dGljYXMgZGUgc2VndXJpZGFkIGRlIExhenphdGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpF
+bCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBzdWJvcmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBs
+YXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIIBWQYDVR0R
+BIIBUDCCAUygGgYKKwYBBAGDz3YDAaAMDAowNzAyNzcxMzA0oB4GCisGAQQBg892AwKgEAwOSkhJ
+TlNPTiBNQU5VRUygFwYKKwYBBAGDz3YDA6AJDAdNQUNIVUNBoBYGCisGAQQBg892AwSgCAwGTE9B
+WVpBoB8GCisGAQQBg892AwWgEQwPR0VSRU5URSBHRU5FUkFMoBcGCisGAQQBg892AwegCQwHTUFD
+SEFMQaAaBgorBgEEAYPPdgMIoAwMCjA5OTI2OTYzNDegFwYKKwYBBAGDz3YDCaAJDAdNYWNoYWxh
+oBcGCisGAQQBg892AwygCQwHRUNVQURPUqAdBgorBgEEAYPPdgMLoA8MDTA3OTE3NTcwNDUwMDGg
+NgYKKwYBBAGDz3YDCqAoDCZNQUNIVUNBIExPQVlaQSAmIEFTT0NJQURPUyBBU09NQUNIIFMgQTA8
+BggrBgEFBQcBAQQwMC4wLAYIKwYBBQUHMAGGIGh0dHA6Ly9lbmV4dDIueHl6Ojg3NzcvYWRzcy9v
+Y3NwMA0GCSqGSIb3DQEBCwUAA4IBAQCYFnwAJrSKiolvYvIwIKxpBttNE0iHzJPjzCcyQ0QtPSgZ
+HRwXKrAHvpbX38yq4xGtCId8Q+0Ra6T5KISyC9Z5wAApTj77Xxu3T2dyZo/xzdhWte7PAAQrtnNn
+So9KlSyhKBuDFWSlJIj8vfzzfiHCZJDf+ilfGpZQzyv0chjxpAnhs+4tv9TC4D12/qseyMlqbj3U
+Km2mMNhecMIbDHSg4MebWxQz2753Fc+5nw3noiDFhLQWa8/bwXmJmXPUrVIpbPhH0jaJQ6gV6PYi
+ATd5nN0XzCDmlLgWIAGWFsCWFmaiDBs1tnar7jzSLee5i5DW0AfwAG4MtDRaqCGO647I
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qHhGdnby7dkx9wOOzz9W6fWJB5oTN3F8G6bdiA47skpNa6Nuh48xDf8Qwau4OjAnw2vacJ4D8h0R
+1cGo3dL7qYGhno2zGiqZOdcOA3ZHyaE+XOAyM3IA1yaG90p+OTm0OTh3LYf+sfa/8t/DvBGrFj70
+26OwY/AJpZlTOW+97/tzWaZu02yYf3aSBek+Y6hjNtwAjplDTlQ0LnBCISBNtr/GWwx7BH9IFK9U
+cZUhqbE4+s8aG3doiiiyFJP8rELMEarcTmOV9MzGEoMHl5OjEkhYs2DrdoigKUwAQfTW1L+WkAom
+BScVuKyuCYQc7DMD5Id4vbdJ46LJRF5Vu0pSzQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature999325-Object796821"><etsi:QualifyingProperties Target="#Signature999325"><etsi:SignedProperties Id="Signature999325-SignedProperties872956"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-27T03:50:02-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>L5vLYRbT7W9I9IFVqEL9rPQyo5A=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254994936</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-367898"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

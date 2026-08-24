@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MATUTE GAONA JEFFERSON JOSE</razonSocial>
+<nombreComercial>ASTELCOM</nombreComercial>
+        <ruc>0703780460001</ruc>
+        <claveAcceso>1604202601070378046000120020020000322291234567818</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>002</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000032229</secuencial>
+        <dirMatriz>DR. ENRIQUE RAMOS #206 E/ LAUTARO CASTILLO Y AV. MADERO VARGAS</dirMatriz>
+        <agenteRetencion>1</agenteRetencion>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>16/04/2026</fechaEmision>
+        <dirEstablecimiento>DR. ENRIQUE RAMOS #206 E/ LAUTARO CASTILLO Y AV. MADERO VARGAS</dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA "BELORO" C.L.</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>1074.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+        <totalImpuesto>
+            <codigo>2</codigo>
+            <codigoPorcentaje>4</codigoPorcentaje>
+            <baseImponible>1074.00</baseImponible>
+            <valor>161.10</valor>
+        </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1235.10</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+        <pago>
+            <formaPago>20</formaPago>
+            <total>1235.1</total>
+        </pago>
+    </pagos>
+    <valorRetIva>0</valorRetIva>
+    <valorRetRenta>0</valorRetRenta>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>LAH06RDN9WA2AN</codigoPrincipal>
+            <codigoAuxiliar>LAH06RDN9WA2AN</codigoAuxiliar>
+            <descripcion>MOTOTRBO R7 400-527 4W CON PANTALLA  FKP GNSS BT WIFI CAPABLE</descripcion>
+            <cantidad>1.0000</cantidad>
+            <precioUnitario>1050.000000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>1050.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                    <detAdicional nombre="Serie" valor="865EBN847"></detAdicional>
+                    <detAdicional nombre="Observacion" valor="BATERIA SER 2548 AK05"></detAdicional>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>1050.00</baseImponible>
+                    <valor>157.50</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>PMAE4077</codigoPrincipal>
+            <codigoAuxiliar>PMAE4077</codigoAuxiliar>
+            <descripcion>ANTENA STUBBY 438-470 MHZ</descripcion>
+            <cantidad>1.0000</cantidad>
+            <precioUnitario>20.000000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>20.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                    <detAdicional nombre="Observacion" valor="CARGADOR SER  2537 MOAJ"></detAdicional>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>20.00</baseImponible>
+                    <valor>3.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>32012144004</codigoPrincipal>
+            <codigoAuxiliar>32012144004</codigoAuxiliar>
+            <descripcion>BANDA ID AZUL</descripcion>
+            <cantidad>1.0000</cantidad>
+            <precioUnitario>4.000000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>4.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>4.00</baseImponible>
+                    <valor>.60</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">CDLA. LOS JARDINES CALLE GUAYAQUIL Y QUINTA NORTE</campoAdicional>
+        <campoAdicional nombre="Teléfono">2937375 EXT 101</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature424822">
+<ds:SignedInfo Id="Signature-SignedInfo506815">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID559113" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature424822-SignedProperties818136">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>810eqdD6o2ljcv8dC0DZGzmwGMA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1124783">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>UoMcPs2m69x9DNWC5W154TakzRE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-816770" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>8yJ7NnBJZmbmLL9IXRed1nqkD/I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue1042625">
+scBhTO9STQoIrFRAv7VdP0lGrSwHvYkWytzoYwoqZtsv/4wIF6Ou1qLZw4CEj1TdAfoa8tty86DH
+80y1vuRQFM08+DU1PctYDzj4Kv/RQG3NgAJhDOLuK8q32K4fw7Q5bSnsV6XdizOTEhFPiXqEM+U0
+smZrbpdQbT8g0F/VxPjQhC0ivp9suJMDUi9z8epqIeyGnaqlzu5+7IUXmN3gmpAacxATSQneZOsA
++KbsILQJptnV6II7nlN0isw4uIHFEvlwQXM05kLP1MnpXutnvWXCmeH6zg3qxbUZ4lDThYPAX7Ip
+CzGnEwyw+bGy4qbfFAIPRJPrw7xsv+FAy4cf+A==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1124783">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL2jCCCcKgAwIBAgIESInI6zANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMTExMTgxNjM3NDJaFw0yNjExMTgxNjM3NDJaMIGbMSQw
+IgYDVQQDDBtKRUZGRVJTT04gSk9TRSBNQVRVVEUgR0FPTkExFTATBgNVBAUTDDE4MTEyMTExNDcz
+MzEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYD
+VQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDNVTAxW0wyc76TxVivWKfb7kEYeWJJdb1xJuYncFJBAA+jxS10Ue8k6aDi
+BL7HaqkT4vd9Yvr5SOOfvtZTp/vY022q6bSwdPP5O6ogl6f2up3Hibk/zvr85sI4UiSjOWIHAum8
+xirkgi5GoJlK4T5Bf8NavwlT1ea3a7TvzdnIW2aUCpQyqUFN8Ype0x91Q0aAOYFWHVv2n4jiWoyg
+vtKmYFjMjuTBohutx3etvmm5u7p7KL60YrtVYEpHmHvgiIL4Ll5sv+FofRw+Thvneqbf/QsrgT5H
+Dx86/6XPW851Hq/BYXYwQZkSeLz+tZN5lhJC8Wf3omhDR5k6cAk5HfUXAgMBAAGjggckMIIHIDAM
+BgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEB
+BE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNh
+L3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xk
+YXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9O
+IFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5G
+T1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/
+YmFzZTAiBgNVHREEGzAZgRdhc3RlbGNvbV8yNEBob3RtYWlsLmNvbTCCAQYGA1UdIASB/jCB+zBa
+BgorBgEEAYKmcgIHMEwwSgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQA
+ZQAgAFAAZQByAHMAbwBuAGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggr
+BgEFBQcCARZ+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25s
+b2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2Fk
+byBQZXJzb25hIE5hdHVyYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8vb2Nz
+cGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGfpIGc
+MIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZ
+IERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+bGRh
+cDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04g
+REUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRlUmV2
+b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1
+cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwm
+aXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFU
+QSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBE
+QVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBQglxa2m84rkKx4FLAG/0dhzAcuGDArBgNVHRAEJDAi
+gA8yMDIxMTExODE2Mzc0MlqBDzIwMjYxMTE4MTYzNzQyWjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGC
+pnIDAQQMDAowNzAzNzgwNDYwMBcGCisGAQQBgqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKmcgMi
+BAMMAS4wOwYKKwYBBAGCpnIDBwQtDCtET0NUT1IgRU5SSVFVRSBSQU1PUyAyMDYgWSBMQVVUQVJP
+IENBU1RJTExPMB4GCisGAQQBgqZyAwIEEAwOSkVGRkVSU09OIEpPU0UwHwYKKwYBBAGCpnIDIAQR
+DA8wMDYwMDEwMDAwMDE0MjMwEQYKKwYBBAGCpnIDIwQDDAEuMBMGCisGAQQBgqZyAyEEBQwDUEZY
+MBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAWBgorBgEEAYKmcgMDBAgMBk1BVFVURTARBgorBgEE
+AYKmcgMeBAMMAS4wHQYKKwYBBAGCpnIDCwQPDA0wNzAzNzgwNDYwMDAxMBEGCisGAQQBgqZyAx0E
+AwwBLjAVBgorBgEEAYKmcgMEBAcMBUdBT05BMBoGCisGAQQBgqZyAwgEDAwKMDk5NzU2ODk1MTAN
+BgkqhkiG9w0BAQsFAAOCAgEAe24MOchmHT12NR5eFcmXh32gIOPC1XRnFhym+Ln4CEECLGlyNrTs
+iDct4jRxoEip8Jil41d4G9NK3C9GjhbDZi5b7dbkpK7YnN9m1I1GEcQh0CqpDuqQFmpBZcI3+xNh
+Lg1B9P2cu1PYfmXBJA0mId0Qj/CxALkcNB+IRRTsDuVXKOY18YJG1JGUoZG0hBxnzyOX2NvJ4NIm
+MA8UlIG1QDQkyk11w5QI1pTnC/BOtka2cAYfw/tPorenEqZLsIaf11JSPcEQfpzEQ2isglQei0Zh
+FjERzb7L1En7ithfhEhH2Z2K0GFb5itMWaKEFSq5zSoP9g8vt1PQaWo4DNRNQwhpP0mYz523UJce
+71xQPu5b19hnQ90exyXerLbIAyrXLeLJGPKqMPtZng3IXj9XqtW9YyTyKTIOFSlTjjQlITJtuxm5
+Dc8JshipRrPsmx1H6Tasz/T0Gvb6R+ATefDWAMTWz6YYcwmv8QootsTTp2ONVeafhy64l7/7VlOY
+sp/8pV/kQTfFlK/OIhJ4wh/7bF+eUjHRCLcXS3xd3A0Net4agHSqYC2P6jWAZLXfWOLrjiWsrryD
+2TuYiODEmYVRJemBdkwCNOA7MSgy3D491S7ESGTBo1dtMNR0O+LBMQX4GyrApM1aD52y8IQKq/Wl
+ZLOK08j1g1/8VBWYjloYxYw=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zVUwMVtMMnO+k8VYr1in2+5BGHliSXW9cSbmJ3BSQQAPo8UtdFHvJOmg4gS+x2qpE+L3fWL6+Ujj
+n77WU6f72NNtqum0sHTz+TuqIJen9rqdx4m5P876/ObCOFIkozliBwLpvMYq5IIuRqCZSuE+QX/D
+Wr8JU9Xmt2u0783ZyFtmlAqUMqlBTfGKXtMfdUNGgDmBVh1b9p+I4lqMoL7SpmBYzI7kwaIbrcd3
+rb5pubu6eyi+tGK7VWBKR5h74IiC+C5ebL/haH0cPk4b53qm3/0LK4E+Rw8fOv+lz1vOdR6vwWF2
+MEGZEni8/rWTeZYSQvFn96JoQ0eZOnAJOR31Fw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature424822-Object326132"><etsi:QualifyingProperties Target="#Signature424822"><etsi:SignedProperties Id="Signature424822-SignedProperties818136"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-04-16T11:47:45-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>o3AD0a44xNebbacMGUI/yJDBGKI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1216989419</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-816770"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

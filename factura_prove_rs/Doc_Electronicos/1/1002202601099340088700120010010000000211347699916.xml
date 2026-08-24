@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>AUDITING TAXES BUSINESS AUDTAX S.A.S.</razonSocial>
+	    <nombreComercial>AUDITINGTAXES BUSINESS AUDTAX S.A.S.</nombreComercial>
+	    <ruc>0993400887001</ruc>
+	    <claveAcceso>1002202601099340088700120010010000000211347699916</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>001</ptoEmi>
+	    <secuencial>000000021</secuencial>
+	    <dirMatriz>GUAYAS / DAULE / DAULE / MARIA CARLOTA VILLACIS Y ELIAS DAU BRIONES</dirMatriz>
+		
+		
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>10/02/2026</fechaEmision>
+		
+			<dirEstablecimiento>GUAYAS / DAULE / DAULE / MARIA CARLOTA VILLACIS Y ELIAS DAU BRIONES</dirEstablecimiento>
+		
+	    
+	    
+			<obligadoContabilidad>SI</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+	    
+	    <totalSinImpuestos>900.00000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>0.00</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>900.00</baseImponible>
+				<valor>135.00000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>1035.00000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>1035.00</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>004</codigoPrincipal>
+		<codigoAuxiliar>004</codigoAuxiliar>
+      	<descripcion>Asesoría Tributaria</descripcion>
+      
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>900.000000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>900.00</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>900.00000</baseImponible>
+          <valor>135.00</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+    	
+    		
+    			<campoAdicional nombre="Descripción">Asesoria Tributaria</campoAdicional>
+    		
+    	
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature516837">
+<ds:SignedInfo Id="Signature-SignedInfo621441">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID265478" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature516837-SignedProperties62242">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>JFd2DMm+k0hBXBma3mcvWXf3sO8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate912902">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>N1TNeCcmj7OSzJU4goWo0Iec0SM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-785110" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>gsyyJtumi0Ll8uUJDNqc17YWgko=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue719919">
+fSJgaSaTdlAorHIaKMKLtDEash+z8uj2iksYdC033b9eQ2cgYe8+0KufKKsi4gdk34ewmwjdxpO1
+VNXq2yfbcf7IkxIuEj5GJAMLmbDXvySxXTo3d80BNrkVp5cvvnn1dlGMk2I1DnRxKqZungS3mQ/z
+N9GXNrNg+w5umFpH/a3wNlej/hhrrfN+IBWzsMtpNRmP99HR/VzDVSWcdgcSM83P1AoKO+gRnQeb
+3hMiHaJC2mG8ujTV1qKtaNad6gPisUu5Nq7Ng2yoNuYT0MxTNHye2Pwd3wJsYTjvRjzEDGkQqqKZ
+HOhAu+MIKyAFp1xL9Q5+zuSDGPOTfnYzQ+x5LA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate912902">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIILTCCBhWgAwIBAgIRANPPH5ahnz/USvKJcxZ2R1EwDQYJKoZIhvcNAQELBQAwgcIxCzAJBgNV
+BAYTAkVDMRswGQYDVQQKDBJGSVJNQVNFR1VSQSBTLkEuUy4xMDAuBgNVBAsMJ0VOVElEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjETMBEGA1UECAwKVFVOR1VSQUhVQTE+MDwGA1UE
+Aww1QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMSBGSVJNQVNFR1VSQSBTLkEuUy4x
+DzANBgNVBAcMBkFNQkFUTzAeFw0yNTA3MzAxNTU0MTdaFw0yNzA3MzAxNjU0MTZaMIHdMS0wKwYD
+VQQFEyQyMjJmMGUwMi0wM2JjLTQwZmQtYWVjOS0yZWJhYmNlY2E1MjQxJzAlBgkqhkiG9w0BCQEW
+GGNvbnN1bHRvcmlhQGF1ZHRheGVjLmNvbTEnMCUGA1UEAxMeRkFSSU5BIFZJT0xFVEEgTU9SRUpP
+TiBTQUxJTkFTMTAwLgYDVQQLEydFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJ
+T04xGzAZBgNVBAoTEkZJUk1BU0VHVVJBIFMuQS5TLjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCc0UoRxYdNhTBa/f3hXBmSbGaLTLxLMyOdSyCaArtHg9wuK/dL
+w9knHhMAaFihuKaSU+dP1J7MWjgWP6krscoFp2BjGkL2JeSRwrNpRoshHPN/a/WLSgu6/I8n5cNH
+3ZzK3FqTvYx8UE/GbTkqsGCXi4bKBoN+ogbCAC9I/goxSFrB0JQp5nUw1hurU5CCGmyNpMllbsOZ
+N7oLQT+Z6b272aHlrKOcq/wixXRzFOXAeseL6VDi8tnFlC98jXhhq0F+P1LBRdv13Y+yQmaZEpIU
+5izsjxp+eWvuXHcktA1L/c2pagFFH0O6zen8M7R97DUe5MC0duqKmTo8uBAg9CUxAgMBAAGjggL/
+MIIC+zAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFBNGk2gJrtckhzNFYyZ336xeXopRMB0GA1UdDgQW
+BBRiK/oxqYfxuiNu8T3e8Q1OOMgjCDBaBgNVHR8EUzBRME+gTaBLhklodHRwOi8vY3JsLmZpcm1h
+c2VndXJhZWMuY29tL2NybC9jY2NlNWE0Zi02YjY4LTQ2ZmMtYTYyMC00YWJjYzRjNGE2OTAuY3Js
+MDkGCCsGAQUFBwEBBC0wKzApBggrBgEFBQcwAYYdaHR0cDovL29jc3AuZmlybWFzZWd1cmFlYy5j
+b20wGgYKKwYBBAGD3nkDAQQMFgowOTI0MTYzMTk5MB4GCisGAQQBg955AwIEEBYORkFSSU5BIFZJ
+T0xFVEEwFwYKKwYBBAGD3nkDAwQJFgdNT1JFSk9OMBcGCisGAQQBg955AwQECRYHU0FMSU5BUzAf
+BgorBgEEAYPeeQMFBBEWD0dFUkVOVEUgR0VORVJBTDAuBgorBgEEAYPeeQMHBCAWHk9BU0lTIERF
+IENBU0EgTEFHVU5BIE1aIDUgU0wgOTAcBgorBgEEAYPeeQMIBA4WDDU5Mzk4NDgxMTI4NTAVBgor
+BgEEAYPeeQMJBAcWBURBVUxFMDgGCisGAQQBg955AwoEKhYoQVVESVRJTkcsIFRBWEVTICYgQlVT
+SU5FU1MgQVVEVEFYIFMuQS5TLjAdBgorBgEEAYPeeQMLBA8WDTA5OTM0MDA4ODcwMDEwEwYKKwYB
+BAGD3nkDDAQFFgNFQ1UwgaQGA1UdIASBnDCBmTBUBgsrBgEEAYPeeQIBATBFMEMGCCsGAQUFBwIB
+FjdodHRwczovL2Zpcm1hc2VndXJhZWMuY29tL3BvbGl0aWNhc19yZXByZXNlbnRhbnRlX2xlZ2Fs
+MEEGCysGAQQBg955AgICMDIwMAYIKwYBBQUHAgIwJAwiQ2VydGlmaWNhZG8gZGUgUmVwcmVzZW50
+YW50ZSBMZWdhbDAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggIBALA8iZvVyodOTFzK
+fz6d8MaYqFzu7i2MeNllQR0EmKFX+o9Ia4bALj6HLblmseesKLhEi9N+ocKhweuOz4UWSb23zhDO
+7Pzilh/eB14xTBGs7tg6dXxGuAUh0qeOstrO42IXkGSaTlFa37GZXfIFtdF9HBSMnEaPwbcAR1xR
+TbHj8h13CUYMUH2BXmM53JBuJ46ue6FLkniyNtFkKUx4z6KEAWdmtD8BLR0JVUbj9pFYNBP61D7h
+LDmYg9cPZKwd2uTdv893EqEqMhuhPLiBCoCJYR5tlO2fkqzAMEGqINFvFr/FBm8UaNmoksXByfYU
+49DcYbYKAT6geEb0SOjncS4lWhuFgklcRt7sCfR+pxAIrukrd3tykks/Y6nmTKi94+Fm4kUR8LNT
+vZWd0i7nPDWg1YEJvCpySRvdf2pAmTyZjAp+8wGzIouJ+V3vl5UvEO5Vh/uBEvHRE13RrU7AdcnZ
+8T7yXCSSBUNuZ2aJBTGl6EoClQvh48G7/dzOGZ3CIYfjYYPvgednOMvsVyoV2GnC269LJMcTKQkx
+Ofukg5ML1ie9hHNxTO1zPQdr+llQBQBbsco2FzUwqv31He3SIFi4NSe4mFp9qVTvijZW5xmFiXjD
+4DNuqlVDgIXU2POsa1Ur62vzaRXgVuk2Ggmgyv6Svuu8wOHjfld/0gY1fG61
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nNFKEcWHTYUwWv394VwZkmxmi0y8SzMjnUsgmgK7R4PcLiv3S8PZJx4TAGhYobimklPnT9SezFo4
+Fj+pK7HKBadgYxpC9iXkkcKzaUaLIRzzf2v1i0oLuvyPJ+XDR92cytxak72MfFBPxm05KrBgl4uG
+ygaDfqIGwgAvSP4KMUhawdCUKeZ1MNYbq1OQghpsjaTJZW7DmTe6C0E/mem9u9mh5ayjnKv8IsV0
+cxTlwHrHi+lQ4vLZxZQvfI14YatBfj9SwUXb9d2PskJmmRKSFOYs7I8afnlr7lx3JLQNS/3NqWoB
+RR9Dus3p/DO0few1HuTAtHbqipk6PLgQIPQlMQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature516837-Object191920"><etsi:QualifyingProperties Target="#Signature516837"><etsi:SignedProperties Id="Signature516837-SignedProperties62242"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-02-10T16:40:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>hhOJMfFhdj+ghwKi/HVdxXX28Gc=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1 FIRMASEGURA S.A.S.,C=EC,L=AMBATO,ST=TUNGURAHUA,O=FIRMASEGURA S.A.S.,OU=ENTIDAD DE CERTIFICACION DE INFORMACION</ds:X509IssuerName><ds:X509SerialNumber>281542553249275656054996860403786860369</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

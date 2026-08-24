@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PAULINA ALEXANDRA AUQUILLA FONSECA</razonSocial>
+        <nombreComercial>PAULINA ALEXANDRA AUQUILLA FONSECA</nombreComercial>
+        <ruc>1712255858001</ruc>
+        <claveAcceso>0810202501171225585800120020030001184880001445318</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>002</estab>
+        <ptoEmi>003</ptoEmi>
+        <secuencial>000118488</secuencial>
+        <dirMatriz>AV.AMAZONAS N35 89 Y JUAN PABLO SANZ</dirMatriz>
+        
+        
+        <agenteRetencion>1</agenteRetencion>
+        
+        
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>08/10/2025</fechaEmision>
+        
+        
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>1322.47</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <descuentoAdicional>0.00</descuentoAdicional>
+                <baseImponible>0.90</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <descuentoAdicional>0.00</descuentoAdicional>
+                <baseImponible>1321.57</baseImponible>
+                <valor>198.24</valor>
+            </totalImpuesto>
+            
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>1520.71</importeTotal>
+        <moneda>DOLAR</moneda>
+            <pagos>
+                
+                <pago>
+                    <formaPago>20</formaPago>
+                    <total>1520.71</total>
+                    
+                </pago>
+                
+            </pagos>
+        <valorRetIva>0.00</valorRetIva>
+        <valorRetRenta>0.00</valorRetRenta>
+    </infoFactura>
+    <detalles>
+        
+        <detalle>
+            <codigoPrincipal>519</codigoPrincipal>
+            <codigoAuxiliar>660</codigoAuxiliar>
+            <descripcion>(11) CERTIFICACION DE DOCUMENTOS EXHIBIDOS EN ORIGINAL O COPIA CERTIFICADA QUE SE INCORPOREN A LA ESCRITURA PUBLICA</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>19.69</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>19.69</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>19.69</baseImponible>
+                    <valor>2.95</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+        <detalle>
+            <codigoPrincipal>519</codigoPrincipal>
+            <codigoAuxiliar>522</codigoAuxiliar>
+            <descripcion>(55) CONSTITUCION DE FIDEICOMISO MERCANTIL</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>1292.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1292.50</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1292.50</baseImponible>
+                    <valor>193.88</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+        <detalle>
+            <codigoPrincipal>519</codigoPrincipal>
+            <codigoAuxiliar>460</codigoAuxiliar>
+            <descripcion>(7) CERTIFICACION DE DOCUMENTOS MATERIALIZADOS DESDE PAGINA WEB O DE CUALQUIER SOPORTE ELECTRONICO QUE SE INCORPOREN A LA ESCRITURA PUBLICA</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>9.38</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>9.38</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>9.38</baseImponible>
+                    <valor>1.41</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+        <detalle>
+            <codigoPrincipal>519</codigoPrincipal>
+            <codigoAuxiliar>428</codigoAuxiliar>
+            <descripcion>(3) CONSULTA DATOS BIOMETRICOS SISTEMA NACIONAL DE IDENTIFICACION CIUDADANA - REGISTRO CIVIL (P)</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>0.90</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>0.90</precioTotalSinImpuesto>
+            
+            <impuestos>
+                
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.90</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+                
+            </impuestos>
+        </detalle>
+        
+    </detalles>
+    <infoAdicional>
+        
+            <campoAdicional nombre="Forma de Pago">OTROS CON UTILIZACION DEL SISTEMA FINANCIERO 1520.71</campoAdicional>
+        
+            <campoAdicional nombre="Numero de Libro"> 20251701037P03696</campoAdicional>
+        
+            <campoAdicional nombre="Matrizador"> MARIA ELENA COLLAGUAZO SIMBAÑA</campoAdicional>
+        
+            <campoAdicional nombre="Email Cliente">jennifer05062009@hotmail.com</campoAdicional>
+        
+            <campoAdicional nombre="Detalleextra1">DR ACUÑA</campoAdicional>
+        
+            <campoAdicional nombre="Agente de Retención Resolución No.">NAC-NCRASC20-00000001</campoAdicional>
+        
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature314723" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo500127">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID61881" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature314723-SignedProperties390971">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ww5JoWlLonTirF4rF26Ng0k2+Ys=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1999378">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>27b1ug8jYtiaH5qz60mV5pAbmkU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-528152" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>oVcr8l/01IqzTA4oruq3PZa1SZo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue422358">
+O6VDZzWQ8Qu+MQbp+R9DSfDiq0b3twfy0gBU82q/2M90tkO8RQ3JBrJvA+VnGJJkHY0x+Fa6veFv
+NwvLPf5h7/gOQgerMhiq4AbgA35gTR7vvkPafhWGsfbIQS2dT/F3wxdURfGeMj/5fP7GNqxe8LjM
+632LudPYVmCR7Ogr1U1Z9fYy7HtpWmw9H+z0Xv5Gbw5S+Lo8B4SP8QA5kZsIifg0pRfSzfR6Jk2z
+EHTN64ALBtVPuR3X2Nd0LnO5W9PqyTK+JaNHPtrPehFTchycr+a3tKrcDHYiaaD1MiFScXwGQdlY
+AqVx3gyisTw2ki7tmojeSXUVKr3zjwWF+9l5eQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1999378">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF3TCCBMWgAwIBAgIRANQOHRs/UPw8+mjYHWCBfgowDQYJKoZIhvcNAQELBQAwWjELMAkGA1UE
+BhMCRUMxEjAQBgNVBAoMCUFyZ29zRGF0YTEVMBMGA1UECwwMQXJnb3NEYXRhIENBMSAwHgYDVQQD
+DBdBcmdvc0RhdGEgQ0EgMSAtIFNIQTI1NjAeFw0yNTAxMTYxMzI4NDFaFw0yNzAxMTYxNDI4NDFa
+MIGZMRIwEAYDVQQIDAlQSUNISU5DSEExCzAJBgNVBAYTAkVDMSEwHwYJKoZIhvcNAQkBFhJjbGll
+bnRlc0BoZXJtZXMuZWMxKzApBgNVBAMMIlBhdWxpbmEgQWxleGFuZHJhIEF1cXVpbGxhIEZvbnNl
+Y2ExDjAMBgNVBAcMBVFVSVRPMRYwFAYDVQRhDA0xNzEyMjU1ODU4MDAxMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA2JM1E3wxxzfkGqfFfCaWOvyuBVRHuTKTYJUgrPY+HzAwwxdReqqb
+Co4fHY57MQkXsih872xpw1lMIwulqwjKHSZDT/1xF5MInDkZ/wRhGEmGVa4X3O3RTTMP+04hireH
+e81vlW3hdiG+70kxYu1mPGFbuVlgLgt8wh6y8qjwpAKitl9U5htmbzoPHUB5p9GDFG8TnFw7X5hH
+tC901TVljw78bYv4kkPxoOqwf99d4os051Q1KU+DRHcTDo0SLdaq27oR7hHdiKnWCekFizVvbKzc
+9MBFMwkmU32VmfZAaChE7yFiUuRrC57ILP/DPwDbwb5Z20vVwA/EmmSjWH8WRQIDAQABo4ICXDCC
+AlgwHQYDVR0RBBYwFIESY2xpZW50ZXNAaGVybWVzLmVjMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAU
+LXpvruJNfmJ/KoXJCxbFHfNKCUcwHQYDVR0OBBYEFFsFg7gRQnWXlQJQ+Pr3IYOoQug/MFkGA1Ud
+HwRSMFAwTqBMoEqGSGh0dHA6Ly9jcmwuYXJnb3NkYXRhLmNvbS5lYy9jcmwvMGNkYWVhNDUtMzM3
+NC00MmNhLTkyNDgtN2Q0Nzk3ZWEwMGE0LmNybDA4BggrBgEFBQcBAQQsMCowKAYIKwYBBQUHMAGG
+HGh0dHA6Ly9vY3NwLmFyZ29zZGF0YS5jb20uZWMwDgYDVR0PAQH/BAQDAgbAMFMGA1UdIARMMEow
+SAYLKwYBBAGDzj4CAQEwOTA3BggrBgEFBQcCARYraHR0cHM6Ly9zaWduYXJlLmFyZ29zZGF0YS5j
+b20uZWMvcmVwb3NpdG9yeTAaBgorBgEEAYPOPgMBBAwTCjE3MTIyNTU4NTgwIQYKKwYBBAGDzj4D
+AgQTExFQYXVsaW5hIEFsZXhhbmRyYTAYBgorBgEEAYPOPgMHBAoTCEnRQVFVSVRPMBwGCisGAQQB
+g84+AwgEDhMMNTkzOTk4ODM1NzAzMBUGCisGAQQBg84+AwkEBxMFUVVJVE8wHQYKKwYBBAGDzj4D
+CwQPEw0xNzEyMjU1ODU4MDAxMBIGCisGAQQBg84+AwwEBBMCRUMwGAYKKwYBBAGDzj4DAwQKEwhB
+dXF1aWxsYTAXBgorBgEEAYPOPgMEBAkTB0ZvbnNlY2EwDQYJKoZIhvcNAQELBQADggEBAAu8eFii
+SClDvHT3qsQNBRwpHvEnc0t+KKDmkad8ofJVv6ZYWHQ0is2tBoiCcjdKf8ldvZ1w4dKvBwpVa7Zj
+aWluQMbgXn2/MsfEvWOL1+vA0ca+vDkE9NblVVSzTj3blp/1/bqPF1tAnHx5VsQ7dea3nvY5gtwP
+g3XCmGMTyjHp7uFb9+sCKbq+u74vnoIyP9zK7831Hjc9ynzA3zbFQDmNSBFQ2h37N8dIOJ92w6W4
+NSlJrIFWT1y8XJagFLxjN+PABVE/NCXPcoiJJkarHnE8A9VjIBUQWlffcjU/zmq6loMU8+LsJfnV
+KAgznb5U2KMRHwXPWljN1u2Rp/KldJo=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2JM1E3wxxzfkGqfFfCaWOvyuBVRHuTKTYJUgrPY+HzAwwxdReqqbCo4fHY57MQkXsih872xpw1lM
+IwulqwjKHSZDT/1xF5MInDkZ/wRhGEmGVa4X3O3RTTMP+04hireHe81vlW3hdiG+70kxYu1mPGFb
+uVlgLgt8wh6y8qjwpAKitl9U5htmbzoPHUB5p9GDFG8TnFw7X5hHtC901TVljw78bYv4kkPxoOqw
+f99d4os051Q1KU+DRHcTDo0SLdaq27oR7hHdiKnWCekFizVvbKzc9MBFMwkmU32VmfZAaChE7yFi
+UuRrC57ILP/DPwDbwb5Z20vVwA/EmmSjWH8WRQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature314723-Object422514"><etsi:QualifyingProperties Target="#Signature314723"><etsi:SignedProperties Id="Signature314723-SignedProperties390971"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-10-08T20:05:21-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>FVTzdX4DGkYOIM5q10UG2PNCdfE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ArgosData CA 1 - SHA256,OU=ArgosData CA,O=ArgosData,C=EC</ds:X509IssuerName><ds:X509SerialNumber>281869617611056007271502079988565376522</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-528152"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

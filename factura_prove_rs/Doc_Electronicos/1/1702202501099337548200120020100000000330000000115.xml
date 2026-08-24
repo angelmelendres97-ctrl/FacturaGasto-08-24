@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>NEOCAMIONES S.A.S.</razonSocial><nombreComercial>NEOCAMIONES S.A.S.</nombreComercial><ruc>0993375482001</ruc><claveAcceso>1702202501099337548200120020100000000330000000115</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>010</ptoEmi><secuencial>000000033</secuencial><dirMatriz>AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</dirMatriz></infoTributaria><infoFactura><fechaEmision>17/02/2025</fechaEmision><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>130434.78</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>130434.78</baseImponible><valor>19565.22</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>150000.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>25460.87</total><plazo>8</plazo><unidadTiempo>dias</unidadTiempo></pago><pago><formaPago>20</formaPago><total>100050.00</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago><pago><formaPago>01</formaPago><total>24489.13</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>WMA26EZZ4RP258261</codigoPrincipal><codigoAuxiliar>51568391346842</codigoAuxiliar><descripcion>RAMV:T03295675,Marca:MAN,Modelo:TGS 33.440 C CAB AC 12.4 2P 6X4 TM DIESEL,Version:AC,Cilindraje:12419,Anio:2024,Chasis:WMA26EZZ4RP258261,Motor:51568391346842,Color:BLANCO (BLANCO),Combustible:DIESEL,Clase:CAMION,Subclase:CAMION,Pasajeros:2,PBV:17.28 Tn,Origen:POLONIA</descripcion><cantidad>1.00</cantidad><precioUnitario>130434.780000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>130434.78</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="FSC" valor="2024-33440-BB-CH"/><detAdicional nombre="MODELO HOMOLOGADO" valor="TGS 33.440 C CAB AC 12.4 2P 6X4 TM DIESEL"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>130434.78</baseImponible><valor>19565.22</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion Establecimiento">AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</campoAdicional><campoAdicional nombre="OBLIGADO A LLEVAR CONTABILIDAD">OBLIGADO A LLEVAR CONTABILIDAD</campoAdicional><campoAdicional nombre="nombre_vendedor">GOMEZ ORTIZ RAUL ANDRES 351</campoAdicional><campoAdicional nombre="Observacion">PRENDA INDUSTRIAL ABIERTA A FAVOR DEL BANCO DEL AUSTRO S.A.</campoAdicional></infoAdicional><ds:Signature Id="Signature225164" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo275923">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID902238" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature225164-SignedProperties89796">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>p2y1KU61L7SjracirN6dp8XUAzg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1924799">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>pq7S/zM7jDCC82j5rO5mGkcUw+A=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-448223" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>3tu+rRpD/GuW63JlR/cYuLyGIGI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue627528">
+wMC3hcAKiKh6rJKDswSY+EEH6jU2ZfHTlbFU2K08xD0ka+dIDg//2DPAreNqj5SUj9hKs1gjlRHj
+UCnA2P1B5Qn9Dj2by6B3tjSHwKC0u7QNOrsEHFTaqVAbhui+oWZLBoUeJry4/fOqX1aKu5cNc7e6
+TqjBD60wIsXFKvJl8EADHV//B56kX61AW+bFipXIOuGBE2rY6xZIAPpFnVRpb92oI+lk56AVUlvu
++foqPBeZg2LR0rWpJUu9Qz3PUF55cnJ6AE23TbI5jXOPMx8eTW/n7sHPDHVSdh1XySqkijrknMlA
+7O1KJ+DJniTRNMSpbe096XMj7r6tvND+b+741w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1924799">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMKzCCChOgAwIBAgIEP5GPczANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDA1MjkxNjIxMDZaFw0yNTA1MjkxNjIxMDZaMIGjMSEw
+HwYDVQQDDBhKVUFOIEdBQlJJRUwgTU9SRU5PIExFT04xIDAeBgNVBAUTFzAxMDQxNDYyMTItMjkw
+NTI0MTEzMDQyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJ
+T04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAN6uVkQJO25qdWWFnJi1Ia4JJGO7rWtrkGgIXW+98pkIdz0j
+aikPIHQE0bhSRVnPqEJGcxxJa8zP0djry8B99grESCSGXnUyBwOfoa6OBSIOEhtLfrJZdyYZDvbC
+NTYH/NIojea2RigaaqgZ6LabdcCkeBbOu47YN/zTn9zXNEg5SPzWOXQtYz1g0NkJjD7lxUOsUMAA
+pMW++3NLYRM4Tq96JFbR5gtwLUe0mtytwKcbVEZ/jYyo03Dj/xx/yoe+9BSYiLINvWoo+eMUVEMZ
+HhA8x4eUMR7Oyu4WuzD33eQ4+0xiNeuWgXzXtYEO3MbSX5g67RS+UYv+yO2djqA3OaECAwEAAaOC
+B20wggdpMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYI
+KwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhs
+ZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJ
+RklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0
+aW9uTGlzdD9iYXNlMCIGA1UdEQQbMBmBF2pnbW9yZW5vQGNvcnBvcmF0aXZvLmVjMIIBFQYDVR0g
+BIIBDDCCAQgwYgYKKwYBBAGCpnICCTBUMFIGCCsGAQUFBwICMEYeRABDAGUAcgB0AGkAZgBpAGMA
+YQBkAG8AIABkAGUAIABSAGUAcAByAGUAcwBlAG4AdABhAG4AdABlACAATABlAGcAYQBsMIGhBgor
+BgEEAYKmcgIDMIGSMIGPBggrBgEFBQcCARaBgmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xp
+dGljYXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50YW50ZSBMZWdhbC5wZGYwggKiBgNVHR8EggKZ
+MIIClTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJs
+aWN3ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkG
+A1UEBhMCRUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMv
+Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVO
+VElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5B
+LiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6
+Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dl
+YmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFCxbMGS2Hn2j
+Ce2bDxroGGVr6LeMMCsGA1UdEAQkMCKADzIwMjQwNTI5MTYyMTA2WoEPMjAyNTA1MjkxNjIxMDZa
+MAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKm
+cgMBBAwMCjAxMDQxNDYyMTIwQAYKKwYBBAGCpnIDCQQyDDBHVUFZQVFVSUwgQ0FCRUNFUkEgQ0FO
+VE9OQUwgWSBDQVBJVEFMIFBST1ZJTkNJQUwwEQYKKwYBBAGCpnIDIgQDDAEuMDEGCisGAQQBgqZy
+AwcEIwwhQVYgREUgTEFTIEFNRVJJQ0FTIFkgSVNJRFJPIEFZT1JBMBwGCisGAQQBgqZyAwIEDgwM
+SlVBTiBHQUJSSUVMMB8GCisGAQQBgqZyAyAEEQwPMDAxMDAyMDAwNTkwNTQzMBMGCisGAQQBgqZy
+AyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAWBgorBgEEAYKmcgMDBAgMBk1PUkVO
+TzAhBgorBgEEAYKmcgMKBBMMEU5FT0NBTUlPTkVTIFMgQSBTMB0GCisGAQQBgqZyAwsEDwwNMDk5
+MzM3NTQ4MjAwMTARBgorBgEEAYKmcgMdBAMMAS4wFAYKKwYBBAGCpnIDBAQGDARMRU9OMBoGCisG
+AQQBgqZyAwgEDAwKMDk4MzM3MjEyNTANBgkqhkiG9w0BAQsFAAOCAgEAkBm42w7DB9bFU+fTIxOq
+PvT/gBGMh1nlByKPf7qyKb+Rh0bshV2TM2dEt1cnfXilMGVrkleIGrzgSSqDCKbSuvxk0X6C7L8w
+zarkvpwMMrUKnYUV1GhoqVm9SmC0zf2tq4kqeoEgDbtOGI3ekA4i68g63uApcsaYPXTPUnBXx43Q
+4e7mnn3k/ezyuXW9hOJnPDXmK7DJ/TpvhkF4vLElVektVe0epCliZ+H7smPZcNpRzvAPyQiHAMVH
+i3JAgIeuWn/oI1oeoO/7bnD+DYWFTTzzY4wG8g2oOhbgjXUdvTKK5IjdgVuGqOQ86L5uhOF+w1AT
+LDnsIyACfDxFCSTnrlPjiY1LyBxOf0OchRR4LHqCjtoAxQaqUOqFIxI44QpOpX/gotbT/7OItiD3
+EBZJlig9Kbq71E2oDbNJm4UMM7K3kYsLZlx50EmGuwBo7GWP6kH6l8qPlTNSfR6rrVYgm2t749go
+p2YXf2vhLSE9nppvHD88pcsk2AgXNZ3tFuir6yOMROyygvhD7W1SWOUQb41QhIEVgcJJ1Kk5z263
+ZkGjAkF8AvhD0m8tEP3v4IfwvTeE1rADCpQv78jbojxXhCcifR5QeK3DPX/QsRDyiXk59lIZkt7J
+oFykZqB5A5FetBRtk2GCiZOs3RfWV37rAVYyx0wVp62AKd/eoDEcFQU=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3q5WRAk7bmp1ZYWcmLUhrgkkY7uta2uQaAhdb73ymQh3PSNqKQ8gdATRuFJFWc+oQkZzHElrzM/R
+2OvLwH32CsRIJIZedTIHA5+hro4FIg4SG0t+sll3JhkO9sI1Ngf80iiN5rZGKBpqqBnotpt1wKR4
+Fs67jtg3/NOf3Nc0SDlI/NY5dC1jPWDQ2QmMPuXFQ6xQwACkxb77c0thEzhOr3okVtHmC3AtR7Sa
+3K3ApxtURn+NjKjTcOP/HH/Kh770FJiIsg29aij54xRUQxkeEDzHh5QxHs7K7ha7MPfd5Dj7TGI1
+65aBfNe1gQ7cxtJfmDrtFL5Ri/7I7Z2OoDc5oQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature225164-Object806582"><etsi:QualifyingProperties Target="#Signature225164"><etsi:SignedProperties Id="Signature225164-SignedProperties89796"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-02-17T13:13:01-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>7rwfH/jmftkfWYxxgZ20/Y1O0gs=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1066504051</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-448223"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

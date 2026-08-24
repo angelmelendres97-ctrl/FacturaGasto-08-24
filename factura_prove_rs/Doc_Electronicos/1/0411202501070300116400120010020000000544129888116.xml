@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>CHAVEZ VARGAS JOFFRE HERNAN</razonSocial>
+        <nombreComercial>TAPICERIA AUTOMOTRIZ</nombreComercial>
+        <ruc>0703001164001</ruc>
+        <claveAcceso>0411202501070300116400120010020000000544129888116</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000054</secuencial>
+        <dirMatriz>Barrio: SANTA ELENA Calle: 10 DE AGOSTO Numero: S/N Interseccion: ONCEAVA Y DOCEAVA NORTE </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>04/11/2025</fechaEmision>
+        <dirEstablecimiento>Barrio: SANTA ELENA Calle: 10 DE AGOSTO Numero: S/N Interseccion: ONCEAVA Y DOCEAVA NORTE </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>1280.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>1280.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>1280.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>1280.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>003</codigoPrincipal>
+            <descripcion>TAPIZADO DE PISO, TECHO, FORROS, TABLERO Y LATERALES DE VOLQUETA S (ROJA PLACA ABQ-2613) Y (AMARILLA PLACA ABQ-2614)</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1280</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1280.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>1280.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">2923970</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="CALIFICACION ARTESANAL">214673</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UYtvo1QY0pq9a6R1esLPenru2BkBytFSqpW9dtBnjNg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6y4yP3uC2y48HcJ7JDKxSov5Cy9R9ojeyW5PJkfa8EE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74-sigvalue">N2ULfmp56I8Ws51c6LQJmknITcC1IZi4DQjCUPzdBzO9E5Utvkull0tAC0UhqL5xGxjqJomguEofvSR7ZfwBZCTC5Hluy2kjUee+cJXdWG9q1eq35Gj7Pue4TetpjkYExS8vGWQg3H4onhssfbPhHgokcvE4NvRuJLCJ4dHJoJaY964RGjP5QjmK+zxKudDmK/mgG7OYPeZ5q+Hhb8YwgirkMjfv44Y+gHIxKfpAYZkfLS7Tcv4Fs4oMx22x+HJYgvB5PdbLdklN92TsvXzEerKshgs6DzLycq36otuGA26Manc1FNaBh5PcN8NQ+utKG/CsoF5Oepirm/7P8muolg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIJsjCCB5qgAwIBAgIEZTTRkDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI0MDEyMzIxNDQ0MVoXDTI2MDEyMzIyMTQ0MVowgbIxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzE2MBEGA1UEBRMKMTAwMDcyMDY0MTAhBgNVBAMTGkpPRlJFIEhFUk5BTiBDSEFWRVogVkFSR0FTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXi4rCWUSsKMMJk5OC3r4PH+QOt+4GLccpjpXrFhpe87OG/7p0A5t39L/gsZglCbWM2OsYiAPgQXBSQSWhmzyQYoCNHWYtnbn438ri292rfRgVhrWZ5ugZzuDcEfA1LHPHEZ2RzGdfKyPLydmTT9oLlOFIXxJl0gtJ/ATmfJnPw7GvbAp4umVJ3p19dNAjtP6P50lcGlOFgFz+2JJy/LHq45x/695RJpr2AHaAzh5mDldmYfIf6xCne3M8+X8KS3CykTh0B37fq60RekvqxHlEaU+INgTWYl2LrXz5mouexPTsVM6ZImsq5lFe11cQS0ds34FWEaMi+oEDtSGtnHkQIDAQABo4IE3TCCBNkwCwYDVR0PBAQDAgeAMGYGA1UdIARfMF0wWwYLKwYBBAGCqDsCAQEwTDBKBggrBgEFBQcCARY+aHR0cDovL3d3dy5lY2kuYmNlLmVjL3BvbGl0aWNhLWNlcnRpZmljYWRvL3BlcnNvbmEtbmF0dXJhbC5wZGYwgZEGCCsGAQUFBwEBBIGEMIGBMD4GCCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMBoGCisGAQQBgqg7AwEEDBMKMDcwMzAwMTE2NDAcBgorBgEEAYKoOwMCBA4TDEpPRlJFIEhFUk5BTjAWBgorBgEEAYKoOwMDBAgTBkNIQVZFWjAWBgorBgEEAYKoOwMEBAgTBlZBUkdBUzA6BgorBgEEAYKoOwMHBCwTKjEwIERFIEFHT1NUTyBTL04gWSBPTkNFQVZBIFkgRE9DRUFWQSBOT1JURTAaBgorBgEEAYKoOwMIBAwTCjAwMDAwMDAwMDAwFwYKKwYBBAGCqDsDCQQJEwdNYWNoYWxhMBcGCisGAQQBgqg7AwwECRMHRUNVQURPUjAdBgorBgEEAYKoOwMLBA8TDTA3MDMwMDExNjQwMDEwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMCEGA1UdEQQaMBiBFmRvcml0YWhhbGw1MEBnbWFpbC5jb20wggHhBgNVHR8EggHYMIIB1DCCAdCgggHMoIIByIaB1mxkYXA6Ly9iY2VxbGRhcHN1YnAxLmJjZS5lYy9jbj1DUkwxOTUyLGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbYwgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEQMA4GA1UEAxMHQ1JMMTk1MjArBgNVHRAEJDAigA8yMDI0MDEyMzIxNDQ0MVqBDzIwMjYwMTIzMjIxNDQxWjAfBgNVHSMEGDAWgBRIot8jHx34LFF6jAPNSTKlCcGUqzAdBgNVHQ4EFgQUu4/jmliQPpNUJcWZAIz+9qqU3MQwCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4zAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEApLpVmj87tiIZoP86XjHhwLSWfN//SNfjrRv4I/byYuBjDNGJFLD4Vz8xw3NH6asLmLqcKJAslIcN4PJr15oPnWwzvgRoh5yTMPiQRR4zKEvot2kNI0ssWuyPDgjOQEwGeMv0fNDTbwepomXgwuizqpayp1zV1N8bChwBzbsFQaCffhu3ZQNywJXNGx/PhQvTdS6xc6awS/r9aCL0wPNUuyK/OoQ15LbL7V5CYUUakcz5ygwpIgmfErqW/G+8d6BGmQRVTjXwFvCdJfF6uUjLomTFm8feXuVEItKI9rRnDUhsPb73BZynYrGwAvt2KLNBTLJYJ5Lp0BVYZRQoNPzACaKNGmZnokypqY1tLemyMLpOW5dfALHULaKNPhJ4winpeKICKxizMJptokzRRx7rKIPvF6fQWoKrYQdVWdj4xKWiHbn1ocStDHAxuVFAg9kM9QkVIiFjlHlfUw41PNI4bMSwDTVIgqwvuR+fhghDE1P0eQwklYSC3iErecmgGc8y7ozy2TuN3N7vDJ5UA46wszUsCN4P6NACuY/3G7v63PXYzPqQ3bbwqoHpWpgQxPDJyxz2daDCFGY8U6xUTCOCZcsX28pCgphBcXOfR6BVs4xYlm+T5YF43HyYtehP6Z5LsPL8L+yacnEzXaOZJKcIBrHU+HYGiWKa3AyC9zoG7Qc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74"><xades:SignedProperties Id="xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-04T13:02:12.249-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>0T7VoZ9L9oxiJtHiapZLLNJLWEJ2dg3C9lWv7xcpDY4=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1697960336</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-b5ba1f38-38d1-4329-9614-35efbe5f5b74-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

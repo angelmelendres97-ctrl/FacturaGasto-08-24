@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>COOPERATIVA DE TRANSPORTES VENTANAS</razonSocial><nombreComercial>COOPERATIVA DE TRANSPORTES VENTANAS</nombreComercial><ruc>1290038428001</ruc><claveAcceso>1206202501129003842800120031020007237790000000110</claveAcceso><codDoc>01</codDoc><estab>003</estab><ptoEmi>102</ptoEmi><secuencial>000723779</secuencial><dirMatriz>10 DE AGOSTO 305 Y CALLEJON VINCES</dirMatriz></infoTributaria><infoFactura><fechaEmision>12/06/2025</fechaEmision><dirEstablecimiento>KM 1.5 VIA BABAHOYO</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>LOS JARDINESSN</direccionComprador><totalSinImpuestos>26.09</totalSinImpuestos><totalSubsidio>16.45</totalSubsidio><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>26.09</baseImponible><valor>3.91</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>30.00</importeTotal><moneda>DOLAR</moneda><placa>OBB2872</placa><pagos><pago><formaPago>01</formaPago><total>30.00</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>0121      </codigoPrincipal><codigoAuxiliar>0121      </codigoAuxiliar><descripcion>DIESEL PREMIUM</descripcion><cantidad>16.697</cantidad><precioUnitario>1.562609</precioUnitario><precioSinSubsidio>2.547966</precioSinSubsidio><descuento>0.00</descuento><precioTotalSinImpuesto>26.09</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>26.09</baseImponible><valor>3.91</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Vendedor">DD0000001</campoAdicional><campoAdicional nombre="Detalle">Surti:02-A MANG:01</campoAdicional><campoAdicional nombre="Direccion">LOS JARDINESSN</campoAdicional><campoAdicional nombre="Sodinfo">Facturacion Electronica</campoAdicional><campoAdicional nombre="SODINFO">FACTURACION ELECTRONICA</campoAdicional></infoAdicional><ds:Signature Id="Signature1038463" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo852630">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID945598" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1038463-SignedProperties864561">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>w/9WKLHYIwcAZxtarCCdZeA5oUs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1831268">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>AFg6zzjo51hfH/tmdZ9386qhlNc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-462322" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>A87s/qadPWHu3y366K3wMbJOhKE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue999040">
+jicPv0/XTLxd6Z29jYNwPodqZ7EJaHjXgFcDmq+nwmePu9tW7HiF6RX+L033N/L4oLIqwSWPF27U
+FaIm8+1gavjnYolzAov9yGDJl7fLr1gVK1vlDgUm3uUl4qio9rFSiNy0801YIsP/+zxPJfVmf6DD
+RX53+jrYvMHG+Egg1Bhwp3E3SpzRFkmPsmvaxx8T2qJhGbWph7P7hwwZ+TWeZ7E62vWzXfiqBEYD
+06t66KOgUWForr0WTxIKra6Q7ZAEWd2aAK3Q3ZV8JBQfwnUtQBt/llAbC1iLPwL6K/pANflcZuXv
+uox9PM3bDxp+4Fts2WvODgrimJVSKeq7+8ptIA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1831268">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJZjCCB06gAwIBAgIUEDdqbsTbJI4eV1021F3vDn+u1XUwDQYJKoZIhvcNAQELBQAwgZsxCzAJ
+BgNVBAYTAkVDMR8wHQYDVQQKDBZDT1JQTkVXQkVTVCBDSUEuIExUREEuMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBE
+RSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTFFRiBDT1JQTkVXQkVTVDAeFw0yNDEyMDQyMDQyNTVaFw0y
+NjEyMDQyMDQyNTRaMIGHMQswCQYDVQQGEwJFQzEeMBwGA1UECgwVQ09SUE5FV0JFU1QgQ0lBLiBM
+VERBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xJjAk
+BgNVBAMMHUpJTUVORVogQkFSUkFHQU4gTUFOVUVMIEpFU1VTMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAsBKtqzqEJA2z2a5qWUdmomqcyc6pTiPxddZqeXFLNi1UKKe6jF1vJbOewg+O
+XTNwLhngdAe/FO/nq85A4FCa8THc5kIAymwxydg8q5l0sNbcVJzWh0ti0apAvORIWIAGGl/gL/gX
+NJAUXsXtKQRJfOoSeq1JD6l1N2bQ5xPtiI69OUEqRfjtZYkvDjTWuG3TGQAMYVGfVZ10NnXZn7g/
+ykJrOcH7t3UFxyArZRVWtRCBpeJQUZgAKKY2eEn8E0i9QfZnoksr5+kgEJi5/XEI7fMvwwrleNB/
+WNzD2lFz5sjvNzhSqS3p51l8L+Nfb4i7zw7momsy/I20McgDwzkTpQIDAQABo4IEsjCCBK4wDAYD
+VR0TAQH/BAIwADAfBgNVHSMEGDAWgBRplQ+FOJlUiFrlyfYadXOI/0r0njBTBggrBgEFBQcBAQRH
+MEUwQwYIKwYBBQUHMAGGN2h0dHA6Ly9lamJjYWVlLm5ld2Jlc3QudGVjaC9lamJjYS9wdWJsaWN3
+ZWIvc3RhdHVzL29jc3Awge0GA1UdLgSB5TCB4jCB36CB3KCB2YaB1mh0dHA6Ly9lamJjYWVlLm5l
+d2Jlc3QudGVjaC9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vl
+cj1DTiUzREFVVE9SSURBRCtERStDRVJUSUZJQ0FDSU9OK1NVQkNBLTFFRitDT1JQTkVXQkVTVCUy
+Q09VJTNERU5USURBRCtERStDRVJUSUZJQ0FDSU9OK0RFK0lORk9STUFDSU9OJTJDTyUzRENPUlBO
+RVdCRVNUK0NJQS4rTFREQS4lMkNDJTNERUMwgYwGA1UdIASBhDCBgTBxBgorBgEEAYKMTAEJMGMw
+YQYIKwYBBQUHAgEWVWh0dHBzOi8vd3d3Lm5ld2Jlc3QubmV0L25ld3NpZ25hcGkvZG93bmxvYWRz
+L25vcm1hdGl2YS9wb2xpdGljYXNfcGVyc29uYV9qdXJpZGljYS5wZGYwDAYKKwYBBAGCjEwCCDCB
+7QYDVR0fBIHlMIHiMIHfoIHcoIHZhoHWaHR0cDovL2VqYmNhZWUubmV3YmVzdC50ZWNoL2VqYmNh
+L3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOJTNEQVVUT1JJREFE
+K0RFK0NFUlRJRklDQUNJT04rU1VCQ0EtMUVGK0NPUlBORVdCRVNUJTJDT1UlM0RFTlRJREFEK0RF
+K0NFUlRJRklDQUNJT04rREUrSU5GT1JNQUNJT04lMkNPJTNEQ09SUE5FV0JFU1QrQ0lBLitMVERB
+LiUyQ0MlM0RFQzAdBgNVHQ4EFgQU0fRseFBR9Ht27wV27dq/EeEEKiYwKwYDVR0QBCQwIoAPMjAy
+NDEyMDQyMDQyNTVagQ8yMDI2MTIwNDIwNDI1NFowDgYDVR0PAQH/BAQDAgXgMB8GCisGAQQBgoxM
+AwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgoxMAwEEDAwKMDIwMDM1MTExMjAYBgorBgEE
+AYKMTAMJBAoMCFZFTlRBTkFTMDAGCisGAQQBgoxMAwcEIgwgMTAgREUgQUdPU1RPIDMwNSBDQUxM
+RUpPTiBWSU5DRVMwHAYKKwYBBAGCjEwDAgQODAxNQU5VRUwgSkVTVVMwEgYKKwYBBAGCjEwDDAQE
+DAJFQzAXBgorBgEEAYKMTAMDBAkMB0pJTUVORVowNAYKKwYBBAGCjEwDCgQmDCRDT09QRVJBVElW
+QSBERSBUUkFOU1BPUlRFUyAgVkVOVEFOQVMwHQYKKwYBBAGCjEwDCwQPDA0xMjkwMDM4NDI4MDAx
+MBgGCisGAQQBgoxMAwQECgwIQkFSUkFHQU4wGgYKKwYBBAGCjEwDCAQMDAowOTgyNzM4ODAwMA0G
+CSqGSIb3DQEBCwUAA4ICAQCqTjX3sarG8UwcMuXJAOK+itNUWa0Bve3v/3vEC1glvEhPpr9V8ajF
+PVYUvN/iEd6pqkPDU49nHyM619p9lwNCQPD1vtYMOuccQVAILzB6FkC95xZsl8zjntwTMubXithD
+PjzEwzfa0Og9BOB4ZIrdzM6mG+IQWq1aX6Ho5NapLg6Dk9vNKXu+wFewuyPhavdXsYdoFbkM8+Jr
+xWqYayJP6/U+Q+dnNcTeKv/eA+NqkSg0xKsUh1T5Rh2ASmYSDo1ECHWI4SwC7OxvPFTBs2jxaLHv
+qZfOSZ9ggj+cGT8rEFZmtAdoDhBIgMquPnLqv46n59tKYFMKIc+fM8iSAEJDrwh/Yl0CcP5WOR1X
+fw1WmeYfHhPQukZDuOjhY2/c6O/aimDFMC0zXLdeicW6KNHZ/iK4nGbGTqHRfn4xSEcW2OKTPsT/
+sAZl7Zd4MXVVE0ru1L/TtqJONcn8YGDvMTZyjYTMJrJqpGxNBF0qW6OciwxZMnsLqftn6PqPerVG
+65aMjf52D1LIAOGoZBVor0QNXElkp3dCuG+EFAWu3WK2zINval4+2BnJtp+IG0P/1MOjCg+nDEXy
+oVD9KFccAngaNKULPRxITKsP55omYMxl/dQ3yp54vObuFFir7QkEK6e5b++X7ltj1PWg1mL+bRKf
+7lJtVmZta3mL2OhkjPp8KA==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sBKtqzqEJA2z2a5qWUdmomqcyc6pTiPxddZqeXFLNi1UKKe6jF1vJbOewg+OXTNwLhngdAe/FO/n
+q85A4FCa8THc5kIAymwxydg8q5l0sNbcVJzWh0ti0apAvORIWIAGGl/gL/gXNJAUXsXtKQRJfOoS
+eq1JD6l1N2bQ5xPtiI69OUEqRfjtZYkvDjTWuG3TGQAMYVGfVZ10NnXZn7g/ykJrOcH7t3UFxyAr
+ZRVWtRCBpeJQUZgAKKY2eEn8E0i9QfZnoksr5+kgEJi5/XEI7fMvwwrleNB/WNzD2lFz5sjvNzhS
+qS3p51l8L+Nfb4i7zw7momsy/I20McgDwzkTpQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature1038463-Object406817"><etsi:QualifyingProperties Target="#Signature1038463"><etsi:SignedProperties Id="Signature1038463-SignedProperties864561"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-06-12T09:11:15-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Eeh1WyoOwVT+LGUTmeHuTjo/HeY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1EF CORPNEWBEST,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=CORPNEWBEST CIA. LTDA.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>92579664914136286162287903512239559075037107573</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-462322"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

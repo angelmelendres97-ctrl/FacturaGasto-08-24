@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>COOPERATIVA DE TRANSPORTE PESADO PUYANGO</razonSocial>
+        <nombreComercial>COOPERATIVA DE TRANSPORTE PESADO PUYANGO</nombreComercial>
+        <ruc>1190028247001</ruc>
+        <claveAcceso>0904202501119002824700120040010000112024627480611</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>004</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000011202</secuencial>
+        <dirMatriz>Calle: BABAHOYO Numero: S/N Interseccion: ARIZAGA </dirMatriz>
+        <agenteRetencion>1</agenteRetencion>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>09/04/2025</fechaEmision>
+        <dirEstablecimiento>Ciudadela: 1ERO DE OCTUBRE Calle: AV LA REPÚBLICA Numero: S/N Interseccion: ENTRE IWIAS Y BATALLÓN CÓRDOVA </dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <guiaRemision>001-001-000055143</guiaRemision>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>19.50</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>19.50</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>19.50</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>19.50</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>TRANS01</codigoPrincipal>
+            <descripcion>SERVICIO DE TRANSPORTE</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>19.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>19.50</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>19.50</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="TRANSPORTE DE VARIEDAD">20 BULTOS</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ydXcAdo+wTH53XlRGNCF8+ED6/ag1hMnORd55+6UY7U=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RNmmnlgw7MY1x3yBhHbLF1GXRIhlQtcK9Bl/CK4PnkQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae-sigvalue">HYrB46GTIwuN/OY8fAa8Z9H2/+XtFmlehD1VSHXMrJUwB82f3RdGOQO9GyN8j48lax32zGNnV0Rex2piii7firblJgxQDmCRKPqeapAn/bikBv+jzkO67O7nOrpyCOgQ7vzIax1lyq+prLOFDPShVDz2yuQ3aMy3AAPS/6wvKAHtwXjkZVSCbNEb7TDNJBT769Z2H63XHMiSbfJPkaNZZCLczEEFmk1pul+nFMkkJOYNbjLVHTr6ls2763o3B6xFyVxgF4eYZJZ/wAKUvZ9JvB3nSgXZfOFRW8sMB0belCTotEBzlN+nGJDdDgqyUGGxw+/Chp2j1RcgD9BS/XEDZQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae"><xades:SignedProperties Id="xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-09T10:51:14.633-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>szz/xxrb0DAMI8fworz5Bl7dktn/ew/GMPcUoxrd4JA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254798381</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-0cfa8dee-2901-4fc8-bdfa-ea33427462ae-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><factura version="2.1.0" id="comprobante">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>VILLEGAS ROMERO MARTHA ANDREA</razonSocial>
+    <nombreComercial>VILLEGAS ROMERO MARTHA ANDREA</nombreComercial>
+    <ruc>0703902114001</ruc>
+    <claveAcceso>0204202601070390211400120010050000083253121521411</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>005</ptoEmi>
+    <secuencial>000008325</secuencial>
+    <dirMatriz>CDLA APEMSO Y AV. ALEJANDRO CASTRO B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>02/04/2026</fechaEmision>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>URB. LOS JARDINES</direccionComprador>
+    <totalSinImpuestos>15000.000000</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>15000.000000</baseImponible>
+        <tarifa>15.000000</tarifa>
+        <valor>2250.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <importeTotal>17250.00</importeTotal>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>17250.00</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>N/A</codigoPrincipal>
+      <descripcion>TORTA Y BOCADITOS</descripcion>
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>15000.000000</precioUnitario>
+      <descuento>0.000000</descuento>
+      <precioTotalSinImpuesto>15000.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.000000</tarifa>
+          <baseImponible>15000.000000</baseImponible>
+          <valor>2250.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Referencia">001-005-000008325</campoAdicional>
+    <campoAdicional nombre="Vendedor">Ventas</campoAdicional>
+    <campoAdicional nombre="E-mail">ventas@andreavillegas.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signaturefa426d90-1589-454c-bcd0-f93209d720ca">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" Id="SignedPropertiesIDe2a788bf-552c-4fa5-9bbb-2fe8e29c9760" URI="#Signaturefa426d90-1589-454c-bcd0-f93209d720ca-SignedPropertiesID49b40546-e030-4cd5-bdf6-81eb22f93dce">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6jgV3E0bY9bu/ymJ2+YYifROn8A=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate12eed6b6-62f1-4886-aef4-eea060acb75b">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>brJuWnPglr0A/l5Dr0oVXq7Y52A=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#comprobante" Id="Reference-ID-2ce241f5-a61b-41f6-ab37-92f19b8d1b69">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Pb3+GxLbP53a9E0EreNOyQ8ZABE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>AuMAWGn109ul0RiFiysuSnDNuCbHrmRJRXelT79+5hIwxIrVvVMfSk35mZSSMLTnfql95CTW5XFP
+9g7JD09mHxxlFNktIRZpeXLH4ZLhpRveYJg5WFVQ/5UE4lJx+NMsMCzxssTmeMp6fr+a5BtCWAlj
+XJ+JyKJh/xCqhHd52dxqSHNGbijlUm++q7ea++fABMo1zz/vaWhr4kcwQ6QWHJ1e8opiWLFOt4Rm
+jVNUL+mFouASlSicuIqwZGvXD3cgNkK7tmLxq9PjpoDwygbJaAcC6UT2+iQDmTF3w2aMaLy9f8qw
+F+yJPB5o5JjcxICvs3r/y+UG7aKIYfFWH5aiew==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate12eed6b6-62f1-4886-aef4-eea060acb75b">
+<ds:X509Data>
+<ds:X509Certificate>MIIHvzCCBqegAwIBAgIFAMICM+YwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI1
+MDkyNjIxNDMwNFoXDTI3MDkyNjIxNDMwNFowgaIxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEnMCUGA1UEAwwe
+TUFSVEhBIEFORFJFQSAgVklMTEVHQVMgUk9NRVJPMS0wKwYJKoZIhvcNAQkBFh50YWxsZXJhbmRy
+ZWF2aWxsZWdhc0BnbWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxjTn+
+oL/7xcC/u4lkdkBHM9KCP0hMSavKMwbdID+JudB0cqyNFkolp8QY9kkyJGM8ZdQ50ANhctJbyts7
+hHck4/PU9qOyJXj+C6sasN3HUeCzkeK+/eIOQGL0UPsPelm3hpszPDdO2YPtT09y8dnmWqZHHrxQ
+zZTZIUensHP7MTvyvmznWHe20yw5BGGWqQRuZPJht7h3hW1AWCKnpNwZqOZvofwbc3lPihjUCAsf
+7Tyxx/tvKoySKmzeC3t7+zQquoKyic8cDSBb/b+S5fV+K9IXNZw5MfUJRGxIqj65tEUqOvRYskAW
+2R3yhhykIKNVDyUUbkgvW9BwNV2F5PWHAgMBAAGjggRUMIIEUDAaBgorBgEEAYPPdgMBBAwMCjA3
+MDM5MDIxMTQwHQYKKwYBBAGDz3YDAgQPDA1NQVJUSEEgQU5EUkVBMBgGCisGAQQBg892AwMECgwI
+VklMTEVHQVMwFgYKKwYBBAGDz3YDBAQIDAZST01FUk8wFgYKKwYBBAGDz3YDBwQIDAZaQVJVTUEw
+GgYKKwYBBAGDz3YDCAQMDAowOTY3Njc5NDEwMBYGCisGAQQBg892AwkECAwGWkFSVU1BMBcGCisG
+AQQBg892AwwECQwHRUNVQURPUjAdBgorBgEEAYPPdgMLBA8MDTA3MDM5MDIxMTQwMDEwDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUm18LcCqRqQIe0U59XYPz1PVOSEMwHwYDVR0jBBgwFoAU7XZIsArx
+yYaGDExGZNIG+MzVvT4wDgYDVR0PAQH/BAQDAgXgMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6L2Vu
+ZXh0Mi54eXovTGF6emF0ZUNBMi9lbWlzb3JDQTIuY3JsMIIBhAYDVR0gBIIBezCCAXcwfAYKKwYB
+BAGDz3YCATBuMGwGCCsGAQUFBwICMGAaXkVsIHByZXNlbnRlIGNlcnRpZmljYWRvIGVzIGVtaXRp
+ZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENpYS4g
+THRkYS4wgfYGCSsGAQQBg892AjCB6DBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZp
+Y2FkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUg
+TGF6emF0ZSBDaWEuIEx0ZGEuMHgGCCsGAQUFBwICMGwaakVsIHByZXNlbnRlIGNlcnRpZmljYWRv
+IHN1Ym9yZGluYWRvIGVzIGVtaXRpZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3Vy
+aWRhZCBkZSBMYXp6YXRlIENpYS4gTHRkYS4wgfwGA1UdEQSB9DCB8aAaBgorBgEEAYPPdgMBoAwM
+CjA3MDM5MDIxMTSgHQYKKwYBBAGDz3YDAqAPDA1NQVJUSEEgQU5EUkVBoBgGCisGAQQBg892AwOg
+CgwIVklMTEVHQVOgFgYKKwYBBAGDz3YDBKAIDAZST01FUk+gFgYKKwYBBAGDz3YDB6AIDAZaQVJV
+TUGgGgYKKwYBBAGDz3YDCKAMDAowOTY3Njc5NDEwoBYGCisGAQQBg892AwmgCAwGWkFSVU1BoBcG
+CisGAQQBg892AwygCQwHRUNVQURPUqAdBgorBgEEAYPPdgMLoA8MDTA3MDM5MDIxMTQwMDEwPAYI
+KwYBBQUHAQEEMDAuMCwGCCsGAQUFBzABhiBodHRwOi8vZW5leHQyLnh5ejo4Nzc3L2Fkc3Mvb2Nz
+cDANBgkqhkiG9w0BAQsFAAOCAQEAT+0t/iYaaQzuSj9HetPH7Bfk/bwJTcgmRdwqpQ4UD+QvvY00
+HTrIomG24f9SUuzLv3MfNKqv0PGAA5ROPBVGfwS2lK5YaDkql+2LmbOGzKtFLsiFkbsxwkmtsn9U
+nvBgLIskStz7W3zygqwI8iVcMYFxrwgIMNw84C+yWGNShMIv3JFlNrdjOB1n4xmSRZ/k/aV2Ddo+
+VTBsY2X0nNetlzF7g/D2wkXy799oVHnI5QNo8qN8x/UbWLQnBsn3R/ryQ+ViCbJYb1/F3eCTM5kX
+aOc7NaxGfXKlLZFPz5UthVfXy0/+xPiwhsMnJxsmYx6qxm43SQDE6Oxqv3sf4HQZXg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>sY05/qC/+8XAv7uJZHZARzPSgj9ITEmryjMG3SA/ibnQdHKsjRZKJafEGPZJMiRjPGXUOdADYXLS
+W8rbO4R3JOPz1PajsiV4/gurGrDdx1Hgs5Hivv3iDkBi9FD7D3pZt4abMzw3TtmD7U9PcvHZ5lqm
+Rx68UM2U2SFHp7Bz+zE78r5s51h3ttMsOQRhlqkEbmTyYbe4d4VtQFgip6TcGajmb6H8G3N5T4oY
+1AgLH+08scf7byqMkips3gt7e/s0KrqCsonPHA0gW/2/kuX1fivSFzWcOTH1CURsSKo+ubRFKjr0
+WLJAFtkd8oYcpCCjVQ8lFG5IL1vQcDVdheT1hw==
+</ds:Modulus>
+<ds:Exponent>AQAB
+</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object><etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signaturefa426d90-1589-454c-bcd0-f93209d720ca" Id="Signaturefa426d90-1589-454c-bcd0-f93209d720ca"><etsi:SignedProperties Id="Signaturefa426d90-1589-454c-bcd0-f93209d720ca-SignedPropertiesID49b40546-e030-4cd5-bdf6-81eb22f93dce"><etsi:SignedSignatureProperties><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>f7bYBpPHoUZ+lvJNRTDq/R8TKrM=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254924262</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyImplied/></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-2ce241f5-a61b-41f6-ab37-92f19b8d1b69"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

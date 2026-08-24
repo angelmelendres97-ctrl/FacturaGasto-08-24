@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>COOPERATIVA INTERNACIONAL FRONTERIZA ASOCIADA CIFA</razonSocial><nombreComercial>CIFA</nombreComercial><ruc>0790017552001</ruc><claveAcceso>1106202501079001755200120290040000600230000099917</claveAcceso><codDoc>01</codDoc><estab>029</estab><ptoEmi>004</ptoEmi><secuencial>000060023</secuencial><dirMatriz>AV BOLIVAR S/N Y GUAYAS</dirMatriz></infoTributaria><infoFactura><fechaEmision>11/06/2025</fechaEmision><dirEstablecimiento>EL ORO / MACHALA / EL CAMBIO / E25 PREDIO ROS Y SN</dirEstablecimiento><contribuyenteEspecial>529</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>JUNIN</direccionComprador><totalSinImpuestos>43.48</totalSinImpuestos><totalSubsidio>0.00</totalSubsidio><totalDescuento>0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>43.48</baseImponible><valor>6.52</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>50.00</importeTotal><placa>OBB2872</placa><pagos><pago><formaPago>01</formaPago><total>50.00</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>0121</codigoPrincipal><codigoAuxiliar>3</codigoAuxiliar><descripcion>DIESEL PREMIUM</descripcion><cantidad>27.824</cantidad><precioUnitario>1.562609</precioUnitario><precioSinSubsidio>0</precioSinSubsidio><descuento>0</descuento><precioTotalSinImpuesto>43.48</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>43.48</baseImponible><valor>6.52</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Num_Factura">029-004-000060023</campoAdicional><campoAdicional nombre="E_MAIL">cifa.evo@gmail.com</campoAdicional><campoAdicional nombre="Direccion_Cliente">JUNIN</campoAdicional><campoAdicional nombre="Telefono_Cliente">0</campoAdicional><campoAdicional nombre="Codigo_Cliente">3915</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature165467">
+<ds:SignedInfo Id="Signature-SignedInfo735296">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID293506" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature165467-SignedProperties958047">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>91go2pBS57tEZ4myNxx/TJePpP0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1449061">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>4y65bS2yZzL5bmX4n8+OpOtIUhM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-240246" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Y+irCB2YYRGZy4UVuKQkmFzoR0o=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue181572">
+YW3bFDpn5UN7WtLqA0djTpc1uWBLkshigbeex213roAkso/QP3uGGH01wtVMDdj014IskzsJZoYP
+2xrYgNBz8IC7IL5aj0laf06f9KI8IcYaAew7dM4NurhUj2m/lmgAfDzqK6SYwsqIyuCNkKehNldU
+CpLeEoTuJZDX9bH7AMXB0Dw/5fO4QEpA+qwkQ/+iDTlzhRlK6cGXBqU5eIrtJ4DcZ+CCUqVIfjel
+p6/xI7o41FR+q3IWsKJFlqIyc50Qwaag9ggrnJRDfutWo5EUjFiiuHcDeAPBxCmfVkARKOoBgoxa
+JLkEqE1KfkPqWkCt7F0HfUeMlmR0E2nEBJ4ZVw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1449061">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK1jCCCL6gAwIBAgIENgl25DANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTA1MDkxNjEzMjRaFw0yNzA1MDkxNjEzMjRaMIGnMSUw
+IwYDVQQDDBxORVJJIFJPQkVSVE8gUEVOQVJSRVRBIEFQT0xPMSAwHgYDVQQFExcwNzAxNzM0MzI5
+LTA5MDUyNTExMjMxNjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9S
+TUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCa5Ue+cFHBrrz+lkadIbWEFVbOFQTWjE6Hv0uJhuC8
+jIDu0nMdKVHkSAOUDL7DEmiPwClwqcdmmpG8fWsiI39MGtWSrbGcP04ONBOnVsHG5zfTBu8wUkgX
+r6Rd/mRgV744YSSiIhOTF04den7FcyjZEzSxCJjfNCpoVsUHhxvDngmqtTr1/lucJgHwlo814f+o
+2LHUv+PDGq36DlMgSp3xvUohwqVfOoRed/Yd+GCiKiAHnkoWDxylmQ4+CyF1hQw4U9MYR84zyXgf
+N1byc5NaUQHMAXlvM7kz6y4xMWiuKhu1cnW+VKAX095JAoXlhhielvMRFGpZy/zme9Q3fFUnAgMB
+AAGjggYUMIIGEDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2P
+MFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEu
+bmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDAxBgNVHREEKjAogSZjb250YWJpbGlk
+YWRfc3JpQGNpZmFpbnRlcm5hY2lvbmFsLmNvbTCCARUGA1UdIASCAQwwggEIMGIGCisGAQQBgqZy
+AgkwVDBSBggrBgEFBQcCAjBGHkQAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUgBlAHAA
+cgBlAHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBnAGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYIKwYB
+BQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxv
+YWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRv
+IFJlcHJlc2VudGFudGUgTGVnYWwucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCC
+Ag8GA1UdHwSCAgYwggICMIHeoDqgOIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9z
+dWJjYTJjcmwxL2NybGZpbGUuY3JsooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIx
+CzAJBgNVBAYTAkVDMDygOqA4hjZodHRwOi8vY3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNh
+MmNybDIvY3JsZmlsZS5jcmwwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2Vj
+dXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3Js
+Jmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERB
+VEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkg
+REFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUzQEDv5HCUIoKRA4E1PqkWPMTYaMwKwYDVR0QBCQw
+IoAPMjAyNTA1MDkxNjEzMjRagQ8yMDI3MDUwOTE2MTMyNFowCwYDVR0PBAQDAgXgMBcGCisGAQQB
+gqZyAwUECQwHR0VSRU5URTAaBgorBgEEAYKmcgMBBAwMCjA3MDE3MzQzMjkwGQYKKwYBBAGCpnID
+CQQLDAlFTCBSRVRJUk8wEQYKKwYBBAGCpnIDIgQDDAEuMCMGCisGAQQBgqZyAwcEFQwTR09OWkFM
+TyBDT1JET1ZBIFMgTjAcBgorBgEEAYKmcgMCBA4MDE5FUkkgUk9CRVJUTzAfBgorBgEEAYKmcgMg
+BBEMDzAwNjAwMTAwMDk3OTMyMzATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkM
+B0VDVUFET1IwGQYKKwYBBAGCpnIDAwQLDAlQRU5BUlJFVEEwQgYKKwYBBAGCpnIDCgQ0DDJDT09Q
+RVJBVElWQSBJTlRFUk5BQ0lPTkFMIEZST05URVJJWkEgQVNPQ0lBREEgQ0lGQTAdBgorBgEEAYKm
+cgMLBA8MDTA3OTAwMTc1NTIwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBUGCisGAQQBgqZyAwQEBwwF
+QVBPTE8wEAYKKwYBBAGCpnIDCAQCDAAwDQYJKoZIhvcNAQELBQADggIBAKMq1xI1efZeyQvXo4q9
+YEINgZhojyzY084tdAT598ZmH+j7l/1OBjFQEFuGfL72xmL2Lqmm+SW3am45tjcVUdoaLsXKpEy4
+lRkFftN2LLXg1XcMB7CdtTLNNUJ9GW3TL+xnc9oMgOwQA3x/EMr4qOe+aMxJQKuHdKEXaMpyK42I
+4GL4jBbgBbpLitjVU8+U4kU1QNqqSaQXyXvKU2KmxDQFB9O15pvAdg3DchJ1qWfVKzywatRkLW5Q
+AzM02FFKezrJvKvuKTC4a3/NyWqVi1oZK1icGFKXIR/92neoJqpWoJS750daIeumbmVcXLNyhItM
+s1BvjnvsdBhouKQBhBUcCqa1i9PMZTA0xCV3xIdZIkFZQztU+I7kWvHWhGnJ+YfBvfLZNsqHX+ZI
+s1LqQhQVjoVbGwJ2Uq6RJybKdS8JTQewIJnmmoC08ZUBhE7DFa+xuVbO2kXFgVILgDt2JFHtmprW
+FcD2IIzWxb632t+Ftaf9Sr1AA7faoxwAz56hlUeo+i8d4UtMlyLQyLQK2iDDhwjtQYfmhKLD9odm
+FHiv99i52hNARNwVxh7r0qX7qqR9fDN/QRJrPR9lIJM1xYXCoW5ReKkcPH6bEz3ph6jQF+4Cow2+
+flhGJxwJaLKRcRxINCOzw6sYtWv/mMSnCtddvpos+z2kVav4KoiISQCP
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+muVHvnBRwa68/pZGnSG1hBVWzhUE1oxOh79LiYbgvIyA7tJzHSlR5EgDlAy+wxJoj8ApcKnHZpqR
+vH1rIiN/TBrVkq2xnD9ODjQTp1bBxuc30wbvMFJIF6+kXf5kYFe+OGEkoiITkxdOHXp+xXMo2RM0
+sQiY3zQqaFbFB4cbw54JqrU69f5bnCYB8JaPNeH/qNix1L/jwxqt+g5TIEqd8b1KIcKlXzqEXnf2
+HfhgoiogB55KFg8cpZkOPgshdYUMOFPTGEfOM8l4HzdW8nOTWlEBzAF5bzO5M+suMTForiobtXJ1
+vlSgF9PeSQKF5YYYnpbzERRqWcv85nvUN3xVJw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature165467-Object663483"><etsi:QualifyingProperties Target="#Signature165467"><etsi:SignedProperties Id="Signature165467-SignedProperties958047"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-06-11T18:40:16-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>pkQnXJNx/505BLbHlvoO5180ZRQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>906589924</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-240246"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

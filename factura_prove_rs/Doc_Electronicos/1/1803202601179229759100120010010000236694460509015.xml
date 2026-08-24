@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>TECNICAS ECUATORIANAS DE PROTECCION CONTRA INCENDIOS ECUATEPI S. A.</razonSocial>
+	    <nombreComercial>ECUATEPI S. A.</nombreComercial>
+	    <ruc>1792297591001</ruc>
+	    <claveAcceso>1803202601179229759100120010010000236694460509015</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>001</ptoEmi>
+	    <secuencial>000023669</secuencial>
+	    <dirMatriz>Manuel Larrea N17-241 y Santiago</dirMatriz>
+		
+		
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>18/03/2026</fechaEmision>
+		
+			<dirEstablecimiento>Manuel Larrea N17-241 y Santiago</dirEstablecimiento>
+		
+	    
+	    
+			<obligadoContabilidad>SI</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>Guayaquil</direccionComprador>
+	    
+	    <totalSinImpuestos>1395.00000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>0.00</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>1395.00</baseImponible>
+				<valor>209.25000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>1604.25000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>1604.25</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>00093 </codigoPrincipal>
+		<codigoAuxiliar>00093 </codigoAuxiliar>
+      	<descripcion>Camilla De Rescate Tipo Canasta (Aluminio)</descripcion>
+      
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>430.000000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1290.00</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>1290.00000</baseImponible>
+          <valor>193.50</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+    <detalle>
+      
+      	<codigoPrincipal>0000345</codigoPrincipal>
+		<codigoAuxiliar>0000345</codigoAuxiliar>
+      	<descripcion>Servicio de Transporte</descripcion>
+      
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>35.000000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>105.00</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>105.00000</baseImponible>
+          <valor>15.75</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+    	
+    		
+    			<campoAdicional nombre="Descripción">3 camillas</campoAdicional>
+    		
+    	
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature925754">
+<ds:SignedInfo Id="Signature-SignedInfo269872">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID40711" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature925754-SignedProperties260125">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>HDvX3SyDAVj3LJ6tWhImqBAqStk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate7477">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>RW6fPsDjfczpA/mqjprpB+A1JIY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-203274" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>cOXajUIps6lFZ64hxuOe5FyIy2A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue762325">
+q5lXnEyWOJJG48ZGmlLpIaLgNcJgCKUlk2XBdrpdAp1xVDpRwh4MH974Dr6FqdUipdGrF7EcNvgz
+vXVpBezjDrFBDD5qNEQoypbk4COiONb0p0Za8V7YtD+cnfPOtvgDZNdHiO+HIp31kcSV0XiaSvjm
+YfbyO5Gp1hqg3Xjb30/J0wXGo2ljjcPu+Ds6+ExLGDYAP9sOW8I5wJ0xZipV0G63j8F+R19inA6y
+Mm5bq4agMZC6O5TFH0WczQNbmZEWEYvPsjb2vO2d6ND7Soh7n72N68DODV9d7eY4vgDT8fV3k7e7
+mo64xpMfwgdSxT5LeaLAtwSBjtYGPY0lOnQpOA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate7477">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIItjCCB56gAwIBAgIFAMIFBIIwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI2
+MDMxMjIyMzEwNFoXDTI4MDMxMTIyMzEwNFowgZoxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEkMCIGA1UEAwwb
+R0FMTyBBTkRSRVMgRFVSQU4gUk9EUklHVUVaMSgwJgYJKoZIhvcNAQkBFhljb250YWJpbGlkYWRA
+ZWN1YXRlcGkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArDOzj8tpVAy33ar3
+AOMsO7QXgSfzfNj7ZClYnitZdhA+el4swGXlFDxPd6MyxcYRaKpnfX9ylNgtUlaW/ykyXt+Yi3jy
+mJZuLRB8nEafBx7/gTVdJBYPebiNa+JnZMtXy9xU9q00cuCGg3dpYeAhzbev8ec0BDagF1r70gHv
+yN92/R7ZlbQRFo4q+qJ1xBAohiNFMApaobp9gaE7a6b/xWD0+GuZRoq++NuBzX5YSPdNO8cvwKtT
+gku81bAP6hza4d/8c+LJwZG/GU2sTxR4/EKUiG4uoM7nJ2QsPzAaj1qiGWiY1rtFnXdzkd5j11pK
+6Qc1ZAEWVZ9alGwjJ5V4lQIDAQABo4IFUzCCBU8wGgYKKwYBBAGDz3YDAQQMDAoxNzE0MDAwMzI4
+MBsGCisGAQQBg892AwIEDQwLR0FMTyBBTkRSRVMwFQYKKwYBBAGDz3YDAwQHDAVEVVJBTjAZBgor
+BgEEAYPPdgMEBAsMCVJPRFJJR1VFWjAfBgorBgEEAYPPdgMFBBEMD0dFUkVOVEUgR0VORVJBTDAh
+BgorBgEEAYPPdgMHBBMMEVBJQ0hJTkNIQSAvIFFVSVRPMBoGCisGAQQBg892AwgEDAwKMDk5ODk3
+NjMxMDAVBgorBgEEAYPPdgMJBAcMBVF1aXRvMBcGCisGAQQBg892AwwECQwHRUNVQURPUjAdBgor
+BgEEAYPPdgMLBA8MDTE3OTIyOTc1OTEwMDEwUwYKKwYBBAGDz3YDCgRFDENURUNOSUNBUyBFQ1VB
+VE9SSUFOQVMgREUgUFJPVEVDQ0lPTiBDT05UUkEgSU5DRU5ESU9TIEVDVUFURVBJIFMuIEEuMAwG
+A1UdEwEB/wQCMAAwHQYDVR0OBBYEFLOr/I3u7IZ/YD7E8TylyptoxWuwMB8GA1UdIwQYMBaAFO12
+SLAK8cmGhgxMRmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNVHR8EMzAxMC+gLaArhilodHRw
+Oi9lbmV4dDIueHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCCAYQGA1UdIASCAXswggF3MHwG
+CisGAQQBg892AgIwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBl
+bWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBD
+aWEuIEx0ZGEuMIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIwYBpeRWwgcHJlc2VudGUgY2Vy
+dGlmaWNhZG8gZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOtdGljYXMgZGUgc2VndXJpZGFk
+IGRlIExhenphdGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpFbCBwcmVzZW50ZSBjZXJ0aWZp
+Y2FkbyBzdWJvcmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBz
+ZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIIBfAYDVR0RBIIBczCCAW+gGgYKKwYBBAGD
+z3YDAaAMDAoxNzE0MDAwMzI4oBsGCisGAQQBg892AwKgDQwLR0FMTyBBTkRSRVOgFQYKKwYBBAGD
+z3YDA6AHDAVEVVJBTqAZBgorBgEEAYPPdgMEoAsMCVJPRFJJR1VFWqAfBgorBgEEAYPPdgMFoBEM
+D0dFUkVOVEUgR0VORVJBTKAhBgorBgEEAYPPdgMHoBMMEVBJQ0hJTkNIQSAvIFFVSVRPoBoGCisG
+AQQBg892AwigDAwKMDk5ODk3NjMxMKAVBgorBgEEAYPPdgMJoAcMBVF1aXRvoBcGCisGAQQBg892
+AwygCQwHRUNVQURPUqAdBgorBgEEAYPPdgMLoA8MDTE3OTIyOTc1OTEwMDGgUwYKKwYBBAGDz3YD
+CqBFDENURUNOSUNBUyBFQ1VBVE9SSUFOQVMgREUgUFJPVEVDQ0lPTiBDT05UUkEgSU5DRU5ESU9T
+IEVDVUFURVBJIFMuIEEuMDwGCCsGAQUFBwEBBDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL2VuZXh0
+Mi54eXo6ODc3Ny9hZHNzL29jc3AwDQYJKoZIhvcNAQELBQADggEBAJOsyacffsAQ4LdlIxbGR2Xw
+NjmnRKd8b1hDTTQSwi+qdlnA8/Rl7rWOSi5ti8mdVxLKXAPJSWQZ9yvkvt12tv5m3FAPqSPWsLES
+9tCM8wF/SDLVDI5sE8+WzOVT5aS7KEq6B6aJcjh2bdunWVzHDQkLtQzWHfp4jSmZsCLqKgKUWA8M
+x5Q9ha5Gvh39TDT5QFPgYObixsmGYUZrrxqDaY0AnghbN0WTnXYnJotsqw+jjmuFoei5LfqCLMpk
+quWLnVwYdWrhDsvS06GLu9tCiIIRrAC5Vqr5UPNOwE8v6rLKrTekB+PbcV5dC7hMjhKehcoAV/gn
+BUMowC2SasLzPyQ=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rDOzj8tpVAy33ar3AOMsO7QXgSfzfNj7ZClYnitZdhA+el4swGXlFDxPd6MyxcYRaKpnfX9ylNgt
+UlaW/ykyXt+Yi3jymJZuLRB8nEafBx7/gTVdJBYPebiNa+JnZMtXy9xU9q00cuCGg3dpYeAhzbev
+8ec0BDagF1r70gHvyN92/R7ZlbQRFo4q+qJ1xBAohiNFMApaobp9gaE7a6b/xWD0+GuZRoq++NuB
+zX5YSPdNO8cvwKtTgku81bAP6hza4d/8c+LJwZG/GU2sTxR4/EKUiG4uoM7nJ2QsPzAaj1qiGWiY
+1rtFnXdzkd5j11pK6Qc1ZAEWVZ9alGwjJ5V4lQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature925754-Object375008"><etsi:QualifyingProperties Target="#Signature925754"><etsi:SignedProperties Id="Signature925754-SignedProperties260125"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-03-18T15:20:07-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>UmZpYNGlztqG9Q78X+K2FUnmCto=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,C=EC,O=Lazzate Cia. Ltda.</ds:X509IssuerName><ds:X509SerialNumber>3255108738</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

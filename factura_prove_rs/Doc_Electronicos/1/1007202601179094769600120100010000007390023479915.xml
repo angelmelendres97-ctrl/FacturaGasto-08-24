@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>BUREAU VERITAS ECUADOR S.A.</razonSocial><nombreComercial>BUREAU VERITAS ECUADOR S.A.</nombreComercial><ruc>1790947696001</ruc><claveAcceso>1007202601179094769600120100010000007390023479915</claveAcceso><codDoc>01</codDoc><estab>010</estab><ptoEmi>001</ptoEmi><secuencial>000000739</secuencial><dirMatriz>Checoslovaqui E9-95 Suiza </dirMatriz><agenteRetencion>00000001</agenteRetencion></infoTributaria><infoFactura><fechaEmision>10/07/2026</fechaEmision><dirEstablecimiento>LA PRIMAVERA   </dirEstablecimiento><contribuyenteEspecial>0158E</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA   </direccionComprador><totalSinImpuestos>3135.03</totalSinImpuestos><totalDescuento>235.97</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>3135.03</baseImponible><valor>470.25</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>3605.28</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>3605.28</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>874INSPECC/CON/LOC</codigoPrincipal><codigoAuxiliar>874</codigoAuxiliar><descripcion>874LOC/SER/INSPECCIONCONCENTRADO  --  MUESTREO POR INSPECTOR:</descripcion><cantidad>8.000000</cantidad><precioUnitario>120.000000</precioUnitario><descuento>67.20</descuento><precioTotalSinImpuesto>892.80</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>892.80</baseImponible><valor>133.92</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>874INSPECC/CON/LOC</codigoPrincipal><codigoAuxiliar>874</codigoAuxiliar><descripcion>874LOC/SER/INSPECCIONCONCENTRADO  --  VIATICOS (MUESTREO):</descripcion><cantidad>8.000000</cantidad><precioUnitario>75.000000</precioUnitario><descuento>42.00</descuento><precioTotalSinImpuesto>558.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>558.00</baseImponible><valor>83.70</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>874INSPECC/CON/LOC</codigoPrincipal><codigoAuxiliar>874</codigoAuxiliar><descripcion>874LOC/SER/INSPECCIONCONCENTRADO  --  CONTROL DE EMBARQUE:</descripcion><cantidad>15.000000</cantidad><precioUnitario>80.000000</precioUnitario><descuento>84.00</descuento><precioTotalSinImpuesto>1116.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>1116.00</baseImponible><valor>167.40</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>874INSPECC/CON/LOC</codigoPrincipal><codigoAuxiliar>874</codigoAuxiliar><descripcion>874LOC/SER/INSPECCIONCONCENTRADO  --  GASTOS DE ENVIO (MUESTRA):</descripcion><cantidad>15.000000</cantidad><precioUnitario>10.000000</precioUnitario><descuento>10.50</descuento><precioTotalSinImpuesto>139.50</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>139.50</baseImponible><valor>20.93</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  PREPRARACION DE MUESTRA</descripcion><cantidad>15.000000</cantidad><precioUnitario>12.000000</precioUnitario><descuento>12.60</descuento><precioTotalSinImpuesto>167.40</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>167.40</baseImponible><valor>25.11</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  ANALISIS DE HUMEDAD</descripcion><cantidad>1.000000</cantidad><precioUnitario>13.000000</precioUnitario><descuento>0.91</descuento><precioTotalSinImpuesto>12.09</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>12.09</baseImponible><valor>1.81</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  Au</descripcion><cantidad>1.000000</cantidad><precioUnitario>65.000000</precioUnitario><descuento>4.55</descuento><precioTotalSinImpuesto>60.45</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>60.45</baseImponible><valor>9.07</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  Ag</descripcion><cantidad>1.000000</cantidad><precioUnitario>65.000000</precioUnitario><descuento>4.55</descuento><precioTotalSinImpuesto>60.45</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>60.45</baseImponible><valor>9.07</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  Cu</descripcion><cantidad>1.000000</cantidad><precioUnitario>46.000000</precioUnitario><descuento>3.22</descuento><precioTotalSinImpuesto>42.78</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>42.78</baseImponible><valor>6.42</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  As</descripcion><cantidad>1.000000</cantidad><precioUnitario>46.000000</precioUnitario><descuento>3.22</descuento><precioTotalSinImpuesto>42.78</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>42.78</baseImponible><valor>6.42</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>875ANALABOR/LOC</codigoPrincipal><codigoAuxiliar>875</codigoAuxiliar><descripcion>875LOCAL/ANA/LABORATORIO  --  Hg</descripcion><cantidad>1.000000</cantidad><precioUnitario>46.000000</precioUnitario><descuento>3.22</descuento><precioTotalSinImpuesto>42.78</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="7.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>42.78</baseImponible><valor>6.42</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Agente de Retención">No. Resolución: 1</campoAdicional><campoAdicional nombre="Descripcion"> Comentarios: CONTRATO: 120766 ARCOM ; REFERENCIA: BELORO; FECHA DE INSPECCIÓN: 6 de marzo del 2026. OI-1166.,   , </campoAdicional><campoAdicional nombre="Direccion">EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA   ~MACHALA </campoAdicional><campoAdicional nombre="Email">tito.valdiviezo@grupodmg.ec;william.armijos@bureauveritas.com</campoAdicional><campoAdicional nombre="FechaVencimiento">10/07/2026</campoAdicional><campoAdicional nombre="Pedido">PEC-031924</campoAdicional><campoAdicional nombre="Descuentos">NORMAL</campoAdicional><campoAdicional nombre="Vendedor">WILLIAM GABRIEL ARMIJOS VARGAS</campoAdicional><campoAdicional nombre="Ciudad">MACHALA</campoAdicional><campoAdicional nombre="CondPago">SIN CREDITO</campoAdicional></infoAdicional><ds:Signature Id="Signature356144" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo952557">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID100770" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature356144-SignedProperties230040">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>8mdQn+2uacmzC0yGe9V/SiXb/pY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate114385">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bZnb8EY2iO36jTk6fQjWgCmS/a4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-333367" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>m63P8HJfWTcT7BZOYa0hnUytn5w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue57791">
+fgCEMiC+3Xpxd9HuZ4nbRCVcigdnsGL0+Z1KfMiSyIwjqN9pEDNaMJf+Sws5RNgAoFnOhh2zYbcT
+s84y1fWVPDjtdCzR/+HpJRtdb606EYpjOzJsT/qZzdXLvY6edfUGAziFzvqdvrkpTfHZr9stK6Q3
+Ar/R1oA3qC/Nilg6jI3ScRo12dbqwoyxWOZmHZswfUXzNS4ijEUnUZ8Pfg+POg8htJW4aTCSMRUP
+xM/hc5FG0RGa4NzvxPoDLGV2QG0RhwX/zQ6pf43HS8IPUoe2nik3ldH+/6P1bLb4kQHHRXmoP6If
+rLWsn5Y31eGNxNvaQa+HHyvdHFZXPblhHC85FA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate114385">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILLDCCCRSgAwIBAgIIDvFC74hitkYwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwMzE2MTkxNzA1WhcNMjgwMzE1MTkxNzA1WjCB
+pjEkMCIGA1UEAwwbTUFSSUEgSVNBQkVMIE1VTk9aIFJJQ0FVUlRFMSAwHgYDVQQFExcxNzE4MzM4
+NzY1LTE2MDMyNjE0MjY1NzEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChUD9O9WpU3FYk/1TonjM9miMQE5DMpgfO6GXN
+P8enVVUcGFBfbiglM9j41xEQYZqQ3Z2YiTEmr3ytkajhdB+G4QwWGxIpmksKWdhNj7AFwr80c399
+yYYyDafKE5YHGWPufP8v813izPxEDOoaMBKaaBOHxDvsx1gOdNpNtvN2XzQbrBOTlRjcBSlTpVqF
+JPzJtHZNCrz/S4rVGEXDc2WSVOS7obEq2SYIuqtiStt7ocoQKPqLAsntRIG3RY/4rIA3OuA30URd
+y207nV4hZkl0BNAb/8s9KMXwr2nIRTlOBnkS2blKNYBx5uiox716ohec7fm39k0Jse6SoOzPky2N
+AgMBAAGjggZnMIIGYzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i
+3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRh
+dGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDApBgNVHREEIjAggR5pc2FiZWwu
+bXVub3pAYnVyZWF1dmVyaXRhcy5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQw
+UgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBz
+AGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIB
+FoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9O
+b3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXBy
+ZXNlbnRhbnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNV
+HR8EggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2Ey
+Y3JsMS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYD
+VQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwy
+L2NybGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1
+ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9V
+PUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEg
+Uy5BLiAyLEM9RUMwHQYDVR0OBBYEFAlQd4SstRSoVI35te+uLBw/VvguMCsGA1UdEAQkMCKADzIw
+MjYwMzE2MTkxNzA1WoEPMjAyODAzMTUxOTE3MDVaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMF
+BBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjE3MTgzMzg3NjUwbwYKKwYBBAGC
+pnIDCQRhDF9RVUlUTyBESVNUUklUTyBNRVRST1BPTElUQU5PIENBQkVDRVJBIENBTlRPTkFMIENB
+UElUQUwgUFJPVklOQ0lBTCBZIERFIExBIFJFUFVCTElDQSBERUwgRUNVQURPUjARBgorBgEEAYKm
+cgMiBAMMAS4wLwYKKwYBBAGCpnIDBwQhDB9BViBDSEVDT1NMT1ZBUVVJQSBFOSA5NSBZIFNVSVpB
+MBwGCisGAQQBgqZyAwIEDgwMTUFSSUEgSVNBQkVMMB8GCisGAQQBgqZyAyAEEQwPMDAyMDAxMDAx
+MTc3NjMyMBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAVBgor
+BgEEAYKmcgMDBAcMBU1VTk9aMCoGCisGAQQBgqZyAwoEHAwaQlVSRUFVIFZFUklUQVMgRUNVQURP
+UiBTIEEwHQYKKwYBBAGCpnIDCwQPDA0xNzkwOTQ3Njk2MDAxMBEGCisGAQQBgqZyAx0EAwwBLjAY
+BgorBgEEAYKmcgMEBAoMCFJJQ0FVUlRFMBoGCisGAQQBgqZyAwgEDAwKMDk5OTIzNjc4NjANBgkq
+hkiG9w0BAQsFAAOCAgEAsu059rxCgGY8ALxn+jmOI9gKfjVk96oRIktJofT7MQ31Df9JISdkWfrM
+hSAc7y0BDkZUfIGFdSxdkLqZhwv5mFXPEcJavdywGSlLjfU44Uv/vlg9IWzasQPUxQ63ZOaUavBm
+OwoRPs13irGzEbHvUNpo618akkZ1FvJ01mHGdXGfEQN7tSkqEwvb1nkl6rhIWQv7Ii/aeKYXA8wc
+QbfPJ4UKV21T27YhNMPE/FWA0WdbPbunBeF8f4JkMsgEr1j5DoOcKVR5ns+ZeRRU44G9EYOXpDev
+jBFp5D7vUJEijq84jvkspxaxEZPAPQNkwGe4n1oJnPGcTQVl80QV+YIOC88f1ImdafuH0BcQSsI6
+/pb60j6Oa+tB5unZnYevCeIqwbrBCgQhrQ2U7MZ5k81if42KmC2gBil4q26V4MMSid136/P0j00+
+docZQsHd9aeCBo+kSolTllAWiCHjZEt+2aZVRO7pe2ctUYv5Nod4zWNTrnmrRIGCEVL86hu/qMdW
+M5Hd32AOYVtn8RHOPDyeGZDRzHeDPtxReDINWApaAUOWstBPy3PEnaWQ/cdsgpCDZHC0s3ZAAO9F
+ZIqkwnazbCHJMFkzOrfYo3cDZws4+EkHPfFtReFHhQm67fcUcdzP+soT892H03VazTHuELTyFoBv
+1BuWutLa/lf/P6vRSa0=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oVA/TvVqVNxWJP9U6J4zPZojEBOQzKYHzuhlzT/Hp1VVHBhQX24oJTPY+NcREGGakN2dmIkxJq98
+rZGo4XQfhuEMFhsSKZpLClnYTY+wBcK/NHN/fcmGMg2nyhOWBxlj7nz/L/Nd4sz8RAzqGjASmmgT
+h8Q77MdYDnTaTbbzdl80G6wTk5UY3AUpU6VahST8ybR2TQq8/0uK1RhFw3NlklTku6GxKtkmCLqr
+Ykrbe6HKECj6iwLJ7USBt0WP+KyANzrgN9FEXcttO51eIWZJdATQG//LPSjF8K9pyEU5TgZ5Etm5
+SjWAceboqMe9eqIXnO35t/ZNCbHukqDsz5MtjQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature356144-Object703820"><etsi:QualifyingProperties Target="#Signature356144"><etsi:SignedProperties Id="Signature356144-SignedProperties230040"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-07-10T17:33:21-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>RWXi9U4O54dCjHMYlEQo3zWgDYw=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1076715382471046726</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-333367"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>CABRERA ROMERO ANTONIO GASPAR</razonSocial>
+        <nombreComercial>CARROCERIAS CABRERA N.- 2</nombreComercial>
+        <ruc>0301183307001</ruc>
+        <claveAcceso>0807202601030118330700120011000000003057284934510</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000305</secuencial>
+        <dirMatriz>Calle: AV. 25 DE AGOSTO Numero: S/N Interseccion: JULIO MARIA MATOVELLE </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>08/07/2026</fechaEmision>
+        <dirEstablecimiento>Calle: AV. 25 DE AGOSTO Numero: S/N Interseccion: JULIO MARIA MATOVELLE </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO </razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA NORTE ESQUINA (MACHALA)</direccionComprador>
+        <totalSinImpuestos>3500.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>3500.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>3500.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>3500.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>270</codigoPrincipal>
+            <descripcion>FABRICACION DE CAJON DE MADERA METAL LARGO 4,50M ANCHO 1,95M ALTO UTIL 1,65M PARA UN CAMION HINO DUTRO, AÑO 2027 COLOR BLANCO MODELO: XZU650L-WKMML3 AC 4.0 2P 4X2 TM DIESEL CHASIS: 9F3CCL3F0V4100944 MOTOR: N04CWH46973 RAMV: T03860041</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>3500</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>3500.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>3500.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="CALIFICACION ARTESANAL:">18946</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9YOYMdLroBW0cvbM1g7QLkpg1WiGHrchEu2ZLR/0Zq0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ejBw2+m8gEbHglPUzeWd7E/6wPJvtgnzibjLNOBblWI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1-sigvalue">GAJ1HqOCAxDKv7fW8mN8YvzFISY5/Q05xOKVnmHTuJYdLn/ThRyLJsoUMuyQIHJChVn7Iz/04kmi6LVt8tYZQbP7TMIzrax8kOSBvjXmR0hVr7+Sg3z+re4U/Wf041pq7T33xiWWIU6kvZkB2ALbksdvQiOqBdVBOzosZnThegPAI5zhLcUj0DQhAXTNvMZGaTC9judTsZ1YMOW7qLcUti294qmu5d68l7/TqnOkcG5zttyoZn2Yfq3yGq2tgLuY/Zht+r2mPUPYp0KYxPNFNPudheZNcwOj9nyKQAobGnUuSNLma/1xSexN7qW2POO0HjwvAUcBiO/onI78kLCztA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1"><xades:SignedProperties Id="xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-07-08T06:41:49.915-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lhh2ubo9fEMgeJMLapeC/0WoFKbZm8y/q7a6nEuXhXk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2021,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona,C=ES</ds:X509IssuerName><ds:X509SerialNumber>1322999548909596046</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-7243f176-3e81-47b8-9d7b-57befa195bd1-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

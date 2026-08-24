@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>Albexxus Cia Ltda</razonSocial><nombreComercial>Albexxus Cia Ltda</nombreComercial><ruc>0190362817001</ruc><claveAcceso>1504202601019036281700120021010000105110000000119</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>101</ptoEmi><secuencial>000010511</secuencial><dirMatriz>Sitio Cazaderos S/N y via al Pache</dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>15/04/2026</fechaEmision><dirEstablecimiento>Sitio Cazaderos SN y via al Pache</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO CL</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>ALEJANDRO CASTRO BENITEZ</direccionComprador><totalSinImpuestos>1000.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>1000.00</baseImponible><valor>150.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>1150.00</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>1150.00</total><plazo>1</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>6009017</codigoPrincipal><codigoAuxiliar>6009017</codigoAuxiliar><descripcion>MUESTREO DE BARRAS</descripcion><cantidad>6.000</cantidad><precioUnitario>80.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>480.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>480.00</baseImponible><valor>72.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>6009019</codigoPrincipal><codigoAuxiliar>6009019</codigoAuxiliar><descripcion>INSPECCION DE BARRAS</descripcion><cantidad>6.000</cantidad><precioUnitario>20.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>120.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>120.00</baseImponible><valor>18.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>6009016</codigoPrincipal><codigoAuxiliar>6009016</codigoAuxiliar><descripcion>LOGISTICA</descripcion><cantidad>1.000</cantidad><precioUnitario>100.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>100.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>100.00</baseImponible><valor>15.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>60050001</codigoPrincipal><codigoAuxiliar>60050001</codigoAuxiliar><descripcion>BARRA B- AU</descripcion><cantidad>5.000</cantidad><precioUnitario>40.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>200.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>200.00</baseImponible><valor>30.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>9306003</codigoPrincipal><codigoAuxiliar>9306003</codigoAuxiliar><descripcion>ANALISIS FLUORECENCIA RAYOS X</descripcion><cantidad>5.000</cantidad><precioUnitario>20.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>100.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>100.00</baseImponible><valor>15.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">ALEJANDRO CASTRO BENITEZ</campoAdicional><campoAdicional nombre="Actividad">01</campoAdicional><campoAdicional nombre="Vendedor">001      </campoAdicional><campoAdicional nombre="Detalle">Exportacion N 121528</campoAdicional><campoAdicional nombre="Sodinfo">Facturacion Electronica</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature568376" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo728882">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID313584" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature568376-SignedProperties201328">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6w5DP6e+bb7VT6B2rt7lSmrJ9QM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1473987">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>x2mBCfyn8CpGibdyKsfgp63ONjQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-899832" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bPxPzd0pes9XSXYCYPRp9kHHFrg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue415264">
+bKImlAibgoHcQnmOD7drHWVxX3WtfnnzPmATg6Dm4N9oRITr7wLj6U4mj0zPJtsA2H76bIEo+koK
+bsUE63JHH/VrA6lF57pjfE95jFToysXjY07yAFl3vTxWxJyynqOXBxOg+SQbFs2IcRxXRL+noR+3
+hvjEJ6QEWjh+lxXGlThfLY0irUn36fqO1TaSifrFRS5Rp+3iUSe6fgbdXx0rnQBC39Kl3SD3BnqN
+xFWJkJV5euLePSydbL84XiDA7Tg5xtRA9QOyJUghwn6WRacZ3Sq09XUdD/nPUdHR7Gp7YB1wHHpJ
+fFOsxcIK0ZDrLRcOjvJT1NHeIczPJUJDRs6DOQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1473987">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK5TCCCM2gAwIBAgIISrYRuKraqzAwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwMTIxMTMxOTUzWhcNMjkwMTIwMTMxOTUzWjCB
+ojEgMB4GA1UEAwwXSU5FUyBNQVJJQSBBUE9MTyBQT05UT04xIDAeBgNVBAUTFzA3MDI2NTA3MTQt
+MjEwMTI2MDgyOTQ1MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAIzjU3AdvCve585+pXV5zVI6t6yDwSiyYZw5PjYLONWl
+rt1+LJans0N0TtnuaNDKwLpRzh8pcrsPpoUIDf7roQ8j/8pZ9GbGZ/5Y+9hNybkWyJf2A1SPChNT
+vy0Yjmj+4M4sK5hc6XR5ODknkjKdUEdkhvOSFrYG+o2J/Yl/631wS8QqZhSSTOYCnXMTQFnzr36H
+RMoJRTFfMoso8h9SnrP28evL+IOr+r1UvWYyMNkY1lS2bvrX7vFja1M/ukTJVkYjnSOw+M/CA84P
+nOJXcD4ZMz9uNkkMzYb71sZ5EgbAEG9mPbT/5iJIOmQ8bmS01xEVcNq9XFld0LetG2LiFLkCAwEA
+AaOCBiQwggYgMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8w
+WQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCQGA1UdEQQdMBuBGWNvbnRhYmlsaWRh
+ZEBhbGJleHh1cy5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUH
+AgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEA
+bgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6
+Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFz
+L1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRl
+IExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIGMIIC
+AjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9jcmxm
+aWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzA8
+oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZpbGUu
+Y3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVU
+T1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9
+RUMwHQYDVR0OBBYEFPPUvI/RA1NAE44zVdGVxd3OMol0MCsGA1UdEAQkMCKADzIwMjYwMTIxMTMx
+OTUzWoEPMjAyOTAxMjAxMzE5NTNaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dFUkVO
+VEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjA3MDI2NTA3MTQwPQYKKwYBBAGCpnIDCQQvDC1D
+VUVOQ0EgQ0FCRUNFUkEgQ0FOVE9OQUwgWSBDQVBJVEFMIFBST1ZJTkNJQUwwEQYKKwYBBAGCpnID
+IgQDDAEuMDAGCisGAQQBgqZyAwcEIgwgQVYgQU5HRUwgU0FMVkFET1IgT0NIT0EgUyBOIFkgU04w
+GgYKKwYBBAGCpnIDAgQMDApJTkVTIE1BUklBMB8GCisGAQQBgqZyAyAEEQwPMDA1MDAxMDAwMTg5
+Mzk3MBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAVBgorBgEE
+AYKmcgMDBAcMBUFQT0xPMCEGCisGAQQBgqZyAwoEEwwRQUxCRVhYVVMgQ0lBIExUREEwHQYKKwYB
+BAGCpnIDCwQPDA0wMTkwMzYyODE3MDAxMBEGCisGAQQBgqZyAx0EAwwBLjAWBgorBgEEAYKmcgME
+BAgMBlBPTlRPTjAaBgorBgEEAYKmcgMIBAwMCjA5ODY5NTk4MzIwDQYJKoZIhvcNAQELBQADggIB
+ABPOdDloHKc5AYJLkh4MqnhZ7GK+2IlfbEYOATm6rHo+M1d1GjmT/Ih+XSXHRUzrMvKC9jM2JSst
+rl782auc1J2euMd5JUEOC4VhOx3yw/5bYLqiqks6qKd2dfS8JGTznDTnK6twKpxc0He07tuoY3hP
+gSf3wLYpfr1d/kaXo1XQuTDz91smBQ1rJalQYLf5CVVZsDGqxj0Zhw6cB1AHDTLMd+AqhxIE9LWX
+N2PMvNxrtduiB6vPRX/OVv9SJw2gze4qaaCfAZr5+hFE5ymREjgmRNaE8AKrbgGwWkT8Bt7f6kyE
+5MvNF/28xkopLvjp251tIupIUDYu7472x8FT8S1zfFMAgqxtO1sdxxKQbG+IwE5hi4jJEDa5ODIX
+2wz2AKMNEpE2G387jaVqYelZDH92EBjd6N3PRR/G0LpQCG2ZM1ntKCO61zJwVrwPsVgS4dj+//C9
+noDGtVsnoK6yhqyaC/MFRQunRCwEvGnMNgPOZ0j/BG9iUShTwhwXB6gs0rcxXK6AATuDCUU/i6yt
+SU7Vsutf9/0hhmy+eDdrruefIzRPnyi72XzY2n61Z/D7VruJ1tf6FI/DY8VI/7q0mc92XiZfEXhu
+tcgz+3ncNDzqHgsdxKpcNicdTlrTL07ywM01F554bGwsBoKpU5yGGvtDcGWeXPmbg4JiVt09hccF
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+jONTcB28K97nzn6ldXnNUjq3rIPBKLJhnDk+Ngs41aWu3X4slqezQ3RO2e5o0MrAulHOHylyuw+m
+hQgN/uuhDyP/yln0ZsZn/lj72E3JuRbIl/YDVI8KE1O/LRiOaP7gziwrmFzpdHk4OSeSMp1QR2SG
+85IWtgb6jYn9iX/rfXBLxCpmFJJM5gKdcxNAWfOvfodEyglFMV8yiyjyH1Kes/bx68v4g6v6vVS9
+ZjIw2RjWVLZu+tfu8WNrUz+6RMlWRiOdI7D4z8IDzg+c4ldwPhkzP242SQzNhvvWxnkSBsAQb2Y9
+tP/mIkg6ZDxuZLTXERVw2r1cWV3Qt60bYuIUuQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature568376-Object232961"><etsi:QualifyingProperties Target="#Signature568376"><etsi:SignedProperties Id="Signature568376-SignedProperties201328"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-04-15T08:34:13-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>r9VE/wjK5zGWuh6mg6lLUhsR9Fk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>5383509889406118704</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-899832"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MICELA CRISTINA MONTALEZA GUAICHA </razonSocial>
+    <nombreComercial>MICELA CRISTINA MONTALEZA GUAICHA</nombreComercial>
+    <ruc>0704393891001</ruc>
+    <claveAcceso>1212202501070439389100120020010000153360001533618</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000015336</secuencial>
+    <dirMatriz>AYACUCHO E/PASAJE Y BOYACA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>12/12/2025</fechaEmision>
+    <dirEstablecimiento>AYACUCHO E/PASAJE Y BOYACA</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L </razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>URB. LOS JARDINES CALLE QUINTA NORTE Y GUAYAQUIL ESQ.</direccionComprador>
+    <totalSinImpuestos>1740.87</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>1740.87</baseImponible>
+        <valor>261.13</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>2002.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>2002.00</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7862122662800</codigoPrincipal>
+      <codigoAuxiliar>7862122662800</codigoAuxiliar>
+      <descripcion>CAMIONETA A TODO TERRENO 4X4</descripcion>
+      <cantidad>364.00000</cantidad>
+      <precioUnitario>4.782609</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1740.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>1740.87</baseImponible>
+          <valor>261.13</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">URB. LOS JARDINES CALLE QUINTA NORTE Y GUAYAQUIL ESQ.</campoAdicional>
+    <campoAdicional nombre="Telefono">2984073</campoAdicional>
+    <campoAdicional nombre="email">fernanda.paccha@grupoadmg.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature319617">
+<ds:SignedInfo Id="Signature-SignedInfo379861">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID406215" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature319617-SignedProperties1017337">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>+lnACD7VyTRlRVmdNNVcWOiVZRQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1975560">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>1VzEQlm3gS0UgNqMbk7FX6nmlOY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1031083" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>WZEKbAeljtwHyiAAmzX2gWIW5eI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue821099">
+cKIaUx9FFKzNQfQit+W3O0u0Ad9whKZ4EYoWD8u+xAZvp5KuVgUI5xkk18BycIPR1LwUU/Mq+n59
+RXECO7thQjPAQ+ebJmmIDXmMzt8Zu0akFyR/7zIX3L9pi6YNz4DfTPnzcZTMK12uwrjGbpVByj9g
+o/wGOqmNbhyZJHmjl8Hqq/O8KIpZlxPtHbPH8Fyw2/mGBHuo+byHgPSyoSrfZdpHFMjRPEx/gHtQ
+AL52DY9LfCkO/swTRnOLLb5AWWlt0dC30vi+8ldQyvwZXtqMNrW8O5PMSG67W3WeDs8Q+ezI0ZmN
+YJEW7ymEi7fP33fMl9NXRLFR2GESsVwOtRx9JA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1975560">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKqTCCCJGgAwIBAgIECrGH3jANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTA0MjQxNTQ4MTlaFw0zMDA0MjQxNTQ4MTlaMIGsMSow
+KAYDVQQDDCFNSUNFTEEgQ1JJU1RJTkEgTU9OVEFMRVpBIEdVQUlDSEExIDAeBgNVBAUTFzA3MDQz
+OTM4OTEtMjQwNDI1MTA1ODE1MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJjPGkmL4GNDc0Dz7HFXPPb+CLQtZsDK2yQP
+mPkQXjNbxmpgzIcaKMAnoR0ZsPm1SH9HmUXf+hLip2Ui/Y+swYGiNjUth4j+OvO808a1/b5a0Iuy
+R4FaF1H4qBWfTRXP86tt4dnHRUFEv5Fs0MLLn1ReqxTlF4GKGboYp8s+IW3RZX3ZPuJLAX9pcC1t
+WSGU+N6TbYWfjZUxT0CElIhQ8rVRS/Uf59BlJTf4xLN55x8X1YHjcsi1scQ0m81Twca5jiG2dIcq
+B5g0cPON1H2i0k7i3pMCRbfsbRdixSYxG6gNtzknT6MbpgFrPOkxSIxGzk8IEnEo1VSI1zcd1QOG
+3e0CAwEAAaOCBeIwggXeMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+N
+rmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMB8GA1UdEQQYMBaBFGxfdGF0
+eTE2QGhvdG1haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcC
+AjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0
+AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1
+cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0
+aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwHQYD
+VR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIICDwYDVR0fBIICBjCCAgIwgd6gOqA4hjZodHRw
+Oi8vY3JsMS5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDEvY3JsZmlsZS5jcmyigZ+kgZww
+gZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwPKA6oDiGNmh0dHA6Ly9j
+cmwyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMi9jcmxmaWxlLmNybDCB4KCB3aCB2oaB
+12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1Ymxp
+Y3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBRD
+F8mY1wflFATm3izjUaAvB4wfmjArBgNVHRAEJDAigA8yMDI1MDQyNDE1NDgxOVqBDzIwMzAwNDI0
+MTU0ODE5WjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAowNzA0MzkzODkxMBcGCisGAQQB
+gqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKmcgMiBAMMAS4wKgYKKwYBBAGCpnIDBwQcDBpBWUFD
+VUNITyBZIFBBU0FKRSBZIEJPWUFDQTAfBgorBgEEAYKmcgMCBBEMD01JQ0VMQSBDUklTVElOQTAf
+BgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDk3ODIxNTARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYB
+BAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBkGCisGAQQBgqZyAwMECwwJ
+TU9OVEFMRVpBMCMGCisGAQQBgqZyAx4EFQwTQkFDSCBDT01FUkNJTyBBRE1JTjAdBgorBgEEAYKm
+cgMLBA8MDTA3MDQzOTM4OTEwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBcGCisGAQQBgqZyAwQECQwH
+R1VBSUNIQTAaBgorBgEEAYKmcgMIBAwMCjA5OTIwODAyMDMwDQYJKoZIhvcNAQELBQADggIBADh1
+J9ElVJ4LyGoT/H4imabvt+LmV9ZHzyx2F+BYvETGU45xi9+touanhVW5B8Oi2FbZ0iK0WrReS9xb
+Az/WCB0VUEbpyvYrgQWwod8KJYZ6vS9DWPEjfWmmgjmLUQDfkp9lBmKtkVbjV7fpFZH3WmKEZ0JQ
+dhMXucwSPgSUjgVp0N3Nvrls1m5EUZbcfPtoBjYKN7tDQ7B/H31jly77SxsRwC/6tnJFNHk3ABEn
+CDHLly6JRoZemzJ/Z9BLWSldLJ2sZFzirJ9cmgc8I1VN56f1ipdroRE14a4xwoCeLI81eKCuZBZc
+NLIlAfg+NDDFbhTTGNt/FrYZwTp6/UsxPbPpVoij/uuE0j+Nwe0iMhDsSXszqJFAgs+A7NORDI0o
+nMBMPflpFEL7C5ZhIyeBFvhcpWJBd+mcPW86M1GzCxeiB6wkxaMzlGvDR2dhMPFptKbhsiAINYEB
+jNa3A+ttrDHHin2Uf7o0nC+7ChyVlNiyhbzRzqgw3JcdOE3oRUW39+xEGrRN0jBJgv67krqIaxMa
+MuaKo0GDqJ8Zs7AUMWUxCDi108gDdPzxjgqM/m3T9+NjegLwzXKWKCkPLEsq0mPzqCFMKwC4U9BJ
+2f7Lhsu4fMj7IZohbZ+dXZ1/+KDGShDzORoirMQeelRjaDbYB0HWlcVTMz7UrYKZk1ToeGMF
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mM8aSYvgY0NzQPPscVc89v4ItC1mwMrbJA+Y+RBeM1vGamDMhxoowCehHRmw+bVIf0eZRd/6EuKn
+ZSL9j6zBgaI2NS2HiP4687zTxrX9vlrQi7JHgVoXUfioFZ9NFc/zq23h2cdFQUS/kWzQwsufVF6r
+FOUXgYoZuhinyz4hbdFlfdk+4ksBf2lwLW1ZIZT43pNthZ+NlTFPQISUiFDytVFL9R/n0GUlN/jE
+s3nnHxfVgeNyyLWxxDSbzVPBxrmOIbZ0hyoHmDRw843UfaLSTuLekwJFt+xtF2LFJjEbqA23OSdP
+oxumAWs86TFIjEbOTwgScSjVVIjXNx3VA4bd7Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature319617-Object993711"><etsi:QualifyingProperties Target="#Signature319617"><etsi:SignedProperties Id="Signature319617-SignedProperties1017337"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-14T14:34:49-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>09+ZXwAD2FOIrCC5HXLJctamaTY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>179406814</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1031083"><etsi:Description>contedido del comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

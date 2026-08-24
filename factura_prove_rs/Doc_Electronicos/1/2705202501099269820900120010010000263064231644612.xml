@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+	    <tipoEmision>1</tipoEmision>
+	    <razonSocial>CLEANSTAR S.A.</razonSocial>
+	    <nombreComercial>CLEANSTAR</nombreComercial>
+	    <ruc>0992698209001</ruc>
+	    <claveAcceso>2705202501099269820900120010010000263064231644612</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>001</ptoEmi>
+	    <secuencial>000026306</secuencial>
+	    <dirMatriz>GUAYAS / GUAYAQUIL / CARBO (CONCEPCION) / VICTOR MANUEL RENDON 401 Y GENERAL CORDOVA</dirMatriz>
+		
+		
+		
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>27/05/2025</fechaEmision>
+		
+			<dirEstablecimiento>GUAYAS / GUAYAQUIL / CARBO (CONCEPCION) / VICTOR MANUEL RENDON 401 Y GENERAL CORDOVA</dirEstablecimiento>
+		
+	    <contribuyenteEspecial>0039E</contribuyenteEspecial>
+	    
+			<obligadoContabilidad>SI</obligadoContabilidad>
+		
+		
+	    
+	    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		
+		<razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+	    <identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+	    
+	    <totalSinImpuestos>600.00000</totalSinImpuestos>
+		
+	  	
+	    <totalDescuento>0.00</totalDescuento>
+	    
+	    <totalConImpuestos>
+		
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>600.00</baseImponible>
+				<valor>90.00000</valor>
+			</totalImpuesto>
+			
+			
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>5</codigoPorcentaje>
+				<descuentoAdicional>0</descuentoAdicional>
+				<baseImponible>0</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+			
+		
+		
+	      
+		  
+		  
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>690.00000</importeTotal>
+	    <moneda>DOLAR</moneda>
+		
+	    
+	    <pagos>
+	    	
+	    	<pago>
+	    		<formaPago>20</formaPago>
+	    		<total>690.00</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+	    	
+	    </pagos>
+	    
+  	</infoFactura>
+  	<detalles>
+  	
+    <detalle>
+      
+      	<codigoPrincipal>0013</codigoPrincipal>
+		<codigoAuxiliar>0013</codigoAuxiliar>
+      	<descripcion>SERVICIOS ADICIONALES DE LIMPIEZA</descripcion>
+      
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>600.000000</precioUnitario>
+	  
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>600.00</precioTotalSinImpuesto>
+	  
+	  
+            
+      
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>600.00000</baseImponible>
+          <valor>90.00</valor>
+        </impuesto>
+        
+		
+		
+      </impuestos>
+	  
+	</detalle>
+    
+	
+	
+	
+    </detalles>
+    
+	
+    
+    <infoAdicional>
+    	
+    		
+    			<campoAdicional nombre="Descripción">SERVICIO ADICIONAL DE DE LIMPIEZA  EVENTO DAVID MACHUCA- MACHALA 26 DE MAYO / OP-EG-E-004-05-2025</campoAdicional>
+    		
+    	
+		
+    </infoAdicional>
+	
+	
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature428047">
+<ds:SignedInfo Id="Signature-SignedInfo692640">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID844297" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature428047-SignedProperties108712">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6si42uGESIZsu/2TkIbMp27QfYk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate468384">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WQ4r5lBJgo+ISRLNEufSRsyilgg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-880354" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>4Hg7mRTFRXkYQHj3l+NPleu0WRc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue898283">
+FtgMXzSE+D+GehxP38LGlDYN87Nwvri3ieKgodpfyaFie34kJND0qR2SibR/fsdI+sKEuaCi89oe
+kSkRbviiqV2ezHfI443PgBl7pC/E6YzVQTySOnpTUopmKX6Wj80f3+zvrYAZLVTz7tc3sFJOWifh
+poVSjt+XuxmuOyXb1CbsxZvOChW2NgWLry9WDq8M3Qyr6AkO5g5FQs/JrIwrgdt8ZkW8V299PGgo
+R5ovAJY7pTPBBt/JnE89u0jJ1MxvCUqpMfN2CF4lG1k/Uz1nCNdLfY5Z4tuFUfYd4oQeDUIv/WhX
+hHfVIwx6dmNFR7pQiz6pcWTAAf1O6AUpkODv/w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate468384">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMETCCCfmgAwIBAgIEc+vT6zANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMTA5MjcyMjI0NTNaFw0yNjA5MjcyMjI0NTNaMIGdMSYw
+JAYDVQQDDB1ERU5OWSBQQVRSSUNJQSBDSE9FWiBDSElRVUlUTzEVMBMGA1UEBRMMMjcwOTIxMTcz
+NDQ0MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAb
+BgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMPdiFKn5khjOzX7gDQ4g4MWFTgUKXhZzoTyslOVyLqcu9oH3gS46pCS
+QZou8kj8q+3P5ZE1fAO3VOyoIazPT56RrRnK2d3+NAgzfJJb8X0/KFSufTGYZXoZfCT08ZpWho2L
+QW1Dei4dnLpIwb1w2jSLXerZXHK9Bm8e8Hl825q+FWRt/4FVouy2PHlihNR4tGUsuoGRjalm32M2
+U8iQWkTkOB0f2I3Faneha12JN7PVgLx8JNiYJUIp9VH0lIN/XS+PZ4TFsaITVfs6OdrTdidLdqy1
+qSWvCYVV3UquC7NVVGQcwrYuuqE7w4Y3ltlbLUXZoYNmv1z3qgMjvUQv6OsCAwEAAaOCB1kwggdV
+MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUH
+AQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpi
+Y2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFwOi8v
+bGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlz
+dD9iYXNlMCcGA1UdEQQgMB6BHGZpcm1hc2VsZWN0cm9uaWNhc0BzaWlnby5jb20wggEVBgNVHSAE
+ggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBh
+AGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisG
+AQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5l
+Yy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0
+aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2FsLnBkZjCCAqIGA1UdHwSCApkw
+ggKVMIHloEGgP4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1Ymxp
+Y3dlYi9zdGF0dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYD
+VQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9D
+Tj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5U
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEu
+IDIsQz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczov
+L3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2Vi
+ZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUDO6kTdWLf24O
+XEPI2jL5ckpbE/gwKwYDVR0QBCQwIoAPMjAyMTA5MjcyMjI0NTNagQ8yMDI2MDkyNzIyMjQ1M1ow
+CwYDVR0PBAQDAgXgMB8GCisGAQQBgqZyAwUEEQwPR0VSRU5URSBHRU5FUkFMMBoGCisGAQQBgqZy
+AwEEDAwKMDkyMjY1MDk4MTAZBgorBgEEAYKmcgMJBAsMCUdVQVlBUVVJTDARBgorBgEEAYKmcgMi
+BAMMAS4wOgYKKwYBBAGCpnIDBwQsDCpWSUNUT1IgTUFOVUVMIFJFTkRPTiA0MDEgWSBHRU5FUkFM
+IENPUkRPVkEwHgYKKwYBBAGCpnIDAgQQDA5ERU5OWSBQQVRSSUNJQTAfBgorBgEEAYKmcgMgBBEM
+DzAwMTAwMjAwMDAxMTk0MDATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VD
+VUFET1IwFQYKKwYBBAGCpnIDAwQHDAVDSE9FWjAeBgorBgEEAYKmcgMKBBAMDkNMRUFOU1RBUiBT
+LkEuMB0GCisGAQQBgqZyAwsEDwwNMDk5MjY5ODIwOTAwMTASBgorBgEEAYKmcgMdBAQMAk5vMBgG
+CisGAQQBgqZyAwQECgwIQ0hJUVVJVE8wHAYKKwYBBAGCpnIDCAQODAw1OTM5ODI3OTg3MzUwDQYJ
+KoZIhvcNAQELBQADggIBAGe5bOYtL+bZvkBhR34h6cHeacGU9V5WVypHypLt0XsPlkTSIS9b+kp2
+/11Yg+5ZtzPZ3Wv1rpmlCJPeEfL89q3wqYyVzEGFF3PBHHRXLSq345MnE8NgK+raRGQXCguc51hM
+8CtW1MNf5MFz73ZuRqlFE73pA/NYoHJFrcjYvQ7tdi8RLgp0hxfiMlDgnWL3i+U2XclaqLpsRPKD
+rDewLgqgDBhAXFjhg24i3AGo1fxf35UShQiHFMSnvctUNAgjfiZXalPycWzfcIJfWqu71b7goVu+
+OmNtlsINXu+Gw3qeU5v592DGpA/nF1cDrtUti7/x9nPZyW6B0SuxAeVw8DmDvwa45sTHAxdwGJOR
+X2M1Oba+eXu2aGGclle2f2nLrrlv5oz4GYJ6z4c46vzMEXksxVXPTx3OuVXkrkBArI1ceJIgtwKL
++RNdPuh/nj6fIy01FUGRh7rexPkq6Nd/HgThSKNrtBbpUAzBOoHyAUF4FBF+NlOZ7xJt2H8Eyuk8
+CNWdB6zxNcQu3Lw7/XYAGh5qn5/BhATR2pMNiisl+2xC/UyW9XqMZbcpOnQD8kpv8YWnlJIA5Ngn
+JsiFXu3DBPdkvIPLsEQvFsEO8nLFgAIgdsmHXGl/cc4h47pPjPX+XW0zUTG/cA5QNqh3Ibjcx0rO
+Jtyux74zGAPJso3UZj63
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w92IUqfmSGM7NfuANDiDgxYVOBQpeFnOhPKyU5XIupy72gfeBLjqkJJBmi7ySPyr7c/lkTV8A7dU
+7KghrM9PnpGtGcrZ3f40CDN8klvxfT8oVK59MZhlehl8JPTxmlaGjYtBbUN6Lh2cukjBvXDaNItd
+6tlccr0Gbx7weXzbmr4VZG3/gVWi7LY8eWKE1Hi0ZSy6gZGNqWbfYzZTyJBaROQ4HR/YjcVqd6Fr
+XYk3s9WAvHwk2JglQin1UfSUg39dL49nhMWxohNV+zo52tN2J0t2rLWpJa8JhVXdSq4Ls1VUZBzC
+ti66oTvDhjeW2VstRdmhg2a/XPeqAyO9RC/o6w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature428047-Object492169"><etsi:QualifyingProperties Target="#Signature428047"><etsi:SignedProperties Id="Signature428047-SignedProperties108712"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-05-27T17:11:14-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>wtjyyxkc78uW3ZPO9JViHyHrymM=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,C=EC,O=SECURITY DATA S.A. 2,OU=ENTIDAD DE CERTIFICACION DE INFORMACION</ds:X509IssuerName><ds:X509SerialNumber>1944835051</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

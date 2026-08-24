@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><factura id="comprobante" version="1.0.0">  <infoTributaria>    <ambiente>2</ambiente>    <tipoEmision>1</tipoEmision>    <razonSocial>MARCO EDUARDO ZAMBRANO ZAMBRANO</razonSocial>    <nombreComercial>NOTARIA QUINTA - EL ORO - MACHALA</nombreComercial>    <ruc>0702353459001</ruc>    <claveAcceso>1806202501070235345900120010020001582140000494210</claveAcceso>    <codDoc>01</codDoc>    <estab>001</estab>    <ptoEmi>002</ptoEmi>    <secuencial>000158214</secuencial>    <dirMatriz>ROCAFUERTE 1132 Y AYACUCHO. EDIFICIO C&amp;H</dirMatriz>    <agenteRetencion>1</agenteRetencion>  </infoTributaria>  <infoFactura>    <fechaEmision>18/06/2025</fechaEmision>    <obligadoContabilidad>SI</obligadoContabilidad>    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>    <identificacionComprador>0992529679001</identificacionComprador>    <direccionComprador>GUAYAQUIL Y QUINTA NORTE</direccionComprador>    <totalSinImpuestos>47.00</totalSinImpuestos>    <totalDescuento>0</totalDescuento>    <totalConImpuestos>      <totalImpuesto>        <codigo>2</codigo>        <codigoPorcentaje>4</codigoPorcentaje>        <descuentoAdicional>0</descuentoAdicional>        <baseImponible>47.00</baseImponible>        <valor>7.05</valor>      </totalImpuesto>      <totalImpuesto>        <codigo>2</codigo>        <codigoPorcentaje>0</codigoPorcentaje>        <descuentoAdicional>0</descuentoAdicional>        <baseImponible>0.00</baseImponible>        <valor>0</valor>      </totalImpuesto>    </totalConImpuestos>    <propina>0</propina>    <importeTotal>54.05</importeTotal>    <moneda>DOLAR</moneda>    <pagos>      <pago>        <formaPago>20</formaPago>        <total>54.05</total>      </pago>    </pagos>  </infoFactura>  <detalles>    <detalle>      <codigoPrincipal>521</codigoPrincipal>      <codigoAuxiliar>622</codigoAuxiliar>      <descripcion>(1) RAZONES EN TESTIMONIOS O COPIAS CERTIFICADAS DE ESCRITURAS</descripcion>      <cantidad>1</cantidad>      <precioUnitario>23.50</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>23.50</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15.00</tarifa>          <baseImponible>23.50</baseImponible>          <valor>3.53</valor>        </impuesto>      </impuestos>    </detalle>    <detalle>      <codigoPrincipal>521</codigoPrincipal>      <codigoAuxiliar>585</codigoAuxiliar>      <descripcion>(1) MARGINACIONES A LA MATRIZ</descripcion>      <cantidad>1</cantidad>      <precioUnitario>23.50</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>23.50</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15.00</tarifa>          <baseImponible>23.50</baseImponible>          <valor>3.53</valor>        </impuesto>      </impuestos>    </detalle>  </detalles>  <infoAdicional>    <campoAdicional nombre="Matrizador">MONICA ANNABELL MOREIRA MALDONADO</campoAdicional>    <campoAdicional nombre="NÚMERO DE LIBRO">20250701005O00409</campoAdicional>    <campoAdicional nombre="Email Cliente">jennifer05062009@hotmail.com</campoAdicional>    <campoAdicional nombre="TELÉFONO">2510005</campoAdicional>    <campoAdicional nombre="CELULAR">0987225783</campoAdicional>  </infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature92633">
+<ds:SignedInfo Id="Signature-SignedInfo662646">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID359603" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature92633-SignedProperties470508">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>5Y0gL6ra1TXuSACSnyeP0PLZwuk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate510910">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>5aVqhRCacngT0Kvf8vdlasfoZrM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-409655" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>7ysOeilYX35xngBK9kz1QHFUTNY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue620112">
+SIIeY+dL/GXozXqndx+Ad4c3rE67YJWhM4Z0OT01vbzcgfviuwUilLhtzg3KImXnhMXxIYIfWte1
+tP1pyw1TR7QAjUmFc7rchvI1ellOkafJxJVo4xNneAJw/2Gm6Auk8QsG0seOseY8pqY71xfw+/n9
+KJimoK18T6fd1XjWeEom47dnwrgz+DVnwt76VbND3SBHNslsTrLifjaAafAPvoV4xVd29rhIjIdp
+PWMtXBXyL0V8DRxd9QChGkKcdgcrMcftXw97U6gv3XL4BpboHdHHp+MT0uAPy2jSy1x6ULQdhbnV
+cyz88d1pDgU7yKQzEQXjAdiYVuO/RlbHqaoi5g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate510910">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHxjCCBa6gAwIBAgIIIj6SXzPe4i8wDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAkVDMREw
+DwYDVQQHDAhETSBRVUlUTzEhMB8GA1UECgwYQ09OU0VKTyBERSBMQSBKVURJQ0FUVVJBMUQwQgYD
+VQQLDDtTVUJESVJFQ0NJT04gTkFDSU9OQUwgREUgU0VHVVJJREFEIERFIExBIElORk9STUFDSU9O
+IEROVElDUzEqMCgGA1UEAwwhRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIElDRVJULUVDMB4XDTI0
+MDgxNjE1MzAxNloXDTI2MDgxNzE1MzAxNlowXjELMAkGA1UEBhMCRUMxEDAOBgNVBAcTB01BQ0hB
+TEExEzARBgNVBAUTCjA3MDIzNTM0NTkxKDAmBgNVBAMTH01BUkNPIEVEVUFSRE8gWkFNQlJBTk8g
+WkFNQlJBTk8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDD6qoVCvDUVI2xgEpl+svv
+ayKsG/07ay69YnQlQ833Ot8BeuXmL4hDde+jecClncTkh5Jq3nUSlLfLRChcL7Iqz+s+oqa2HGOn
+JECNVrOIEPVhCoTUKUMYUBWONdIFDC+OWrzSJ/76X5TYTt1P2U7ur5SwW1j9crjxYKvyJZRHNs1f
+7ysH9Z8U0nxvgtWpnwF/q6/mVTEgcLygtyBjBMMe5yJRPdOoJYMYqPa7YyzYL7eirGgDPeCPang5
+q3tjK+TWE8ctmrX9XlHapZniNA9aW7r3NTZ6HbhCZKbQ8+jwxFwysBkb6symLSZhvIGz5P2ReFs5
+ZRvtZvSj3RcwddsBAgMBAAGjggMuMIIDKjCCAcIGA1UdEQSCAbkwggG1gSNub3RhcmlhZWxvcm9t
+YWNoYWxhcXVpbnRhQGdtYWlsLmNvbaAbBgsrBgEEAYLVYQEDAaAMDAowNzAyMzUzNDU5oB4GCysG
+AQQBgtVhAQMCoA8MDU1BUkNPIEVEVUFSRE+gGQYLKwYBBAGC1WEBAwOgCgwIWkFNQlJBTk+gGQYL
+KwYBBAGC1WEBAwSgCgwIWkFNQlJBTk+gOAYLKwYBBAGC1WEBAwegKQwnUk9DQUZVRVJURSAxMTMy
+IEVOVFJFIEFZQUNVQ0hPIFkgR1VBWUFToB4GCysGAQQBgtVhAQMIoA8MDSs1OTM5OTQ0OTAwMDag
+GAYLKwYBBAGC1WEBAwmgCQwHTUFDSEFMQaAeBgsrBgEEAYLVYQEDC6APDA0wNzAyMzUzNDU5MDAx
+oBgGCysGAQQBgtVhAQMMoAkMB0VDVUFET1KgIAYLKwYBBAGC1WEBAzKgEQwPUEVSU09OQSBOQVRV
+UkFMoB4GCysGAQQBgtVhAQMzoA8MDVRPS0VOL1RBUkpFVEGgEQYLKwYBBAGC1WEBAzSgAgwAoBgG
+CysGAQQBgtVhAQM1oAkMB0FCT0dBRE8wCQYDVR0TBAIwADAfBgNVHSMEGDAWgBQvInr4Xm2UjmpA
+FDfHbmty6TrCPzA4BggrBgEFBQcBAQQsMCowKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmljZXJ0
+LmZqZS5nb2IuZWMwcgYDVR0gBGswaTBnBg4rBgEEAYLVYQECAQEBATBVMFMGCCsGAQUFBwIBFkdo
+dHRwOi8vd3d3LmljZXJ0LmZqZS5nb2IuZWMvZHBjL2RlY2xhcmFjaW9uX3ByYWN0aWNhc19jZXJ0
+aWZpY2FjaW9uLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAv
+oC2gK4YpaHR0cDovL3d3dy5pY2VydC5mamUuZ29iLmVjL2NybC9pY2VydC5jcmwwHQYDVR0OBBYE
+FGYel1Nic8EL19AIHxqSAQil56WVMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEA
+CAQ2Ffpa0WggAWMvlwGilB1DBzsv1zkoYoC4jTqGVxL+76leGqIaneM82Qn/GhgcbQ6lsvJBNCxr
+T5lc8ozauw+cJkFb16hY6UFF0YvzNicWAB5AlIM8MlrliPcrehoko8S9lhH55wWTZtZr3qWrAfHf
+RnVTDGFAIUazk3oX+z89FufBIjIO22LNXEZf4wqB8dml9tqJrS8OLMmM4qV8UEdHKDkMVMpfgYDT
+A2L2LfJE20s2oYJuZrBrco6hv+HE3I/WJTiBZ4U/rPMej9NcaUjkBR4e7pkO/Y2lKpUVeCnDgGqd
+f8TToFOH3ezv/lqGpukwb6RNuH7Yt5iwMF1Dbit6yRO7BEqJglXPQFRPPIupu7EAWGQKcd+ivgZq
+TyeOSxpdXOOxq8qh1CokfgQsgY1mssdhejbzhhf+4Uvsl4qYrMj/+hDL0CWxHmzbe+7jjO2F/M3W
+Ai4XJvL/kyePfpR4cOi9N7u+MUqaF5iSUngF5odIIkz3dfaVd+OBqAkAeeDZst1qVRGx+azrDpTL
+CAmNgiQdJy/A+CdhYw/XGge3Ysh35c4fOdHDSODRhK1h+82xVRJpS93j6p4F1Vgnvk1QLPo9QDe2
+0vZDPt9ozk0fkoVFENLBtxA765dYlNXqRVb2TJSwsQTGYdhg9Ay2FPBiY3yEk2oryfcwvYNS7ng=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w+qqFQrw1FSNsYBKZfrL72sirBv9O2suvWJ0JUPN9zrfAXrl5i+IQ3Xvo3nApZ3E5IeSat51EpS3
+y0QoXC+yKs/rPqKmthxjpyRAjVaziBD1YQqE1ClDGFAVjjXSBQwvjlq80if++l+U2E7dT9lO7q+U
+sFtY/XK48WCr8iWURzbNX+8rB/WfFNJ8b4LVqZ8Bf6uv5lUxIHC8oLcgYwTDHuciUT3TqCWDGKj2
+u2Ms2C+3oqxoAz3gj2p4Oat7Yyvk1hPHLZq1/V5R2qWZ4jQPWlu69zU2eh24QmSm0PPo8MRcMrAZ
+G+rMpi0mYbyBs+T9kXhbOWUb7Wb0o90XMHXbAQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature92633-Object734974"><etsi:QualifyingProperties Target="#Signature92633"><etsi:SignedProperties Id="Signature92633-SignedProperties470508"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-06-18T10:40:56-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>BCDDanZQRC5J6sYLlOUZDJa5yyM=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ENTIDAD DE CERTIFICACION ICERT-EC, OU=SUBDIRECCION NACIONAL DE SEGURIDAD DE LA INFORMACION DNTICS, O=CONSEJO DE LA JUDICATURA, L=DM QUITO, C=EC</ds:X509IssuerName><ds:X509SerialNumber>2467570583435403823</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-409655"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

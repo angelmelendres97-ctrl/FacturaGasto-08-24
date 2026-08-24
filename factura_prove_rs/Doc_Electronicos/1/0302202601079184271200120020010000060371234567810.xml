@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>COMPUTRONICA S.A.S.</razonSocial><nombreComercial>COMPUTRONICA S.A.S.</nombreComercial><ruc>0791842712001</ruc><claveAcceso>0302202601079184271200120020010000060371234567810</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>001</ptoEmi><secuencial>000006037</secuencial><dirMatriz>AV 25 JUNIO Y JUAN MONTALVO</dirMatriz></infoTributaria><infoFactura><fechaEmision>03/02/2026</fechaEmision><dirEstablecimiento>EL ORO / MACHALA / MACHALA / COLON 1813 Y BOLIVAR Y ROCAFUER</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><totalSinImpuestos>703.49</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>703.49</baseImponible><valor>105.52</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>809.01</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>809.01</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>1112</codigoPrincipal><descripcion>TINTA EPSON T544 NEGRA L3110</descripcion><cantidad>5.00</cantidad><precioUnitario>8.91</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>44.57</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>44.57</baseImponible><valor>6.69</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>1764</codigoPrincipal><descripcion>TINTA EPSON T544  CYAN L3110</descripcion><cantidad>3.00</cantidad><precioUnitario>8.91</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>26.74</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>26.74</baseImponible><valor>4.01</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>1811</codigoPrincipal><descripcion>TINTA EPSON T544 MAGENTA L3110</descripcion><cantidad>3.00</cantidad><precioUnitario>8.26</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>24.78</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>24.78</baseImponible><valor>3.72</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2302</codigoPrincipal><descripcion>TINTA EPSON T504 NEGRA</descripcion><cantidad>5.00</cantidad><precioUnitario>9.78</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>48.91</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>48.91</baseImponible><valor>7.34</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2303</codigoPrincipal><descripcion>TINTA EPSON T504 CYAN</descripcion><cantidad>3.00</cantidad><precioUnitario>8.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>26.09</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>26.09</baseImponible><valor>3.91</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2304</codigoPrincipal><descripcion>TINTA EPSON T504 MAGENTA</descripcion><cantidad>3.00</cantidad><precioUnitario>8.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>26.09</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>26.09</baseImponible><valor>3.91</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2305</codigoPrincipal><descripcion>TINTA EPSON T504 YELLOW L4150</descripcion><cantidad>3.00</cantidad><precioUnitario>8.70</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>26.09</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>26.09</baseImponible><valor>3.91</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2712</codigoPrincipal><descripcion>SSD KINGSTON 240GB A400 SATA 2.5 PARA PC O NOT 7MM</descripcion><cantidad>2.00</cantidad><precioUnitario>50.00</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>100.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>100.00</baseImponible><valor>15.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2866</codigoPrincipal><descripcion>TINTA EPSON T544 YELLOW L3110</descripcion><cantidad>3.00</cantidad><precioUnitario>8.26</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>24.78</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>24.78</baseImponible><valor>3.72</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>3678</codigoPrincipal><descripcion>DIMM KINGSTON 16GB DDR4 3200MHZ CL22 KVR32N22S8/16 PC</descripcion><cantidad>1.00</cantidad><precioUnitario>159.13</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>159.13</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>159.13</baseImponible><valor>23.86</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>4645</codigoPrincipal><descripcion>FUENTE DE PODER VANTEC 850W CPU</descripcion><cantidad>5.00</cantidad><precioUnitario>11.74</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>58.70</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>58.70</baseImponible><valor>8.81</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>5614</codigoPrincipal><descripcion>BATERIA POWEST 12V 9AH</descripcion><cantidad>2.00</cantidad><precioUnitario>30.44</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>60.87</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>60.87</baseImponible><valor>9.13</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>6617</codigoPrincipal><descripcion>DIMM PC INDILINX 8GB 1600 DDR3 DRAN</descripcion><cantidad>2.00</cantidad><precioUnitario>34.57</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>69.13</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>69.13</baseImponible><valor>10.37</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>6967</codigoPrincipal><descripcion>CABLE HDMI PREMIUM 2MTRS 8K ULTRA HD</descripcion><cantidad>1.00</cantidad><precioUnitario>3.48</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>3.48</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>3.48</baseImponible><valor>0.52</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>6968</codigoPrincipal><descripcion>CABLE HDMI PREMIUM 3MTRS 8K ULTRA HD</descripcion><cantidad>1.00</cantidad><precioUnitario>4.13</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>4.13</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>4.13</baseImponible><valor>0.62</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion ">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional><campoAdicional nombre="Telefono ">29323970//0</campoAdicional><campoAdicional nombre="e@mail ">0</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature476319">
+<ds:SignedInfo Id="Signature-SignedInfo991565">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID31406" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature476319-SignedProperties430220">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>8fhIoZ2q3icI/n2+VK1InKN+BrU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1198520">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>DigGEDJaqNEkg/lLZc9ny0y2oxc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-107518" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZRbIkUKHpQagw7JDISERlcnEhtI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue283447">
+oANXTbsOlzwl6plPFIpV8vr5HC4XfZ0kN4Z+0b8tzliM4qwtxzqkkbiaNx1A7mtB3BJr/dd9+yEQ
+bZPGtsNjzwixthSc6y5MURy54Q3b9/YO/B5iU/BDYLsZC7lAax9BfI3XUJF8PIKnrdi4Eaz67i24
+yir85VytAhZJemHVPIKjS3Rd9lx+IeXz0FoiW2QxXK70b544C5xsCHa731pTxVYAxndUfrBmABWx
+hMjHm6adXw/OxUDN1UI66LRC2Gm3hhDBIVkLSC38Y8cM1+A1Xi5qY8L4pu0I2+PB35UxfO8DAYfT
+OB4PDpv6YIPVxPYfqz6ePAvLu7YeuTGYq0HN7w==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1198520">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKyjCCCLKgAwIBAgIIU8xLue7O9ZIwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMTE2MTkzOTA4WhcNMzAxMTE2MTkzOTA4WjCB
+pzElMCMGA1UEAwwcQUxGUkVETyBFUk9TIFJVSUxPVkEgQ09ST05FTDEgMB4GA1UEBRMXMDcwNDkw
+NTI3Mi0xNjExMjUxNDQ5MDAxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArF3YOtXI+8+laDo8KRRwNjyoBTWLGIlYhggP
+PU0wtPjYCtStudTTvt+p8cu9Yco3ms9SRVfogHcarnVjVb+wAoCMiPRwpKonHDGx6bTqx04303TG
+USzEW3Zwz2i55fGPn9xYYu8WLU2eS/8SbfvvtgCan0YVDVlZoC2e2ZQNVNio1ODgIldcqsApyVqa
+PR5Lgj6NQUOSD3Wl3j0AiY7Rwp76k6eY/TYkow87Ta4bTX8a7bDLbG7X5pkCWa9gQaFbIXTy4t83
+6k0kXj8V0eRyf/BNVZGphzZuFHtahAT64JwXN6a8cdcn/Lm/pi2moZ3gtlLeQz9R2pcvtbUctVjj
++wIDAQABo4IGBDCCBgAwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42u
+Yt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwKAYDVR0RBCEwH4EdZS5ydWls
+b3ZhQGNvbXB1dHJvbmljYS5jb20uZWMwggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQw
+UgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBz
+AGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIB
+FoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9O
+b3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXBy
+ZXNlbnRhbnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNV
+HR8EggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2Ey
+Y3JsMS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYD
+VQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwy
+L2NybGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1
+ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9V
+PUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEg
+Uy5BLiAyLEM9RUMwHQYDVR0OBBYEFGVDhEa6l6Uo+r51uE9W2AXhjFfZMCsGA1UdEAQkMCKADzIw
+MjUxMTE2MTkzOTA4WoEPMjAzMDExMTYxOTM5MDhaMAsGA1UdDwQEAwIF4DAaBgorBgEEAYKmcgMF
+BAwMClBSRVNJREVOVEUwGgYKKwYBBAGCpnIDAQQMDAowNzA0OTA1MjcyMBcGCisGAQQBgqZyAwkE
+CQwHTUFDSEFMQTARBgorBgEEAYKmcgMiBAMMAS4wMQYKKwYBBAGCpnIDBwQjDCFBViAyNSBERSBK
+VU5JTyAwMCBZIEpVQU4gTU9OVEFMVk8wHAYKKwYBBAGCpnIDAgQODAxBTEZSRURPIEVST1MwHwYK
+KwYBBAGCpnIDIAQRDA8wMjEwMDEwMDAwMDM2NjcwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYB
+BAGCpnIDDAQJDAdFQ1VBRE9SMBcGCisGAQQBgqZyAwMECQwHUlVJTE9WQTAiBgorBgEEAYKmcgMK
+BBQMEkNPTVBVVFJPTklDQSBTIEEgUzAdBgorBgEEAYKmcgMLBA8MDTA3OTE4NDI3MTIwMDEwEQYK
+KwYBBAGCpnIDHQQDDAEuMBcGCisGAQQBgqZyAwQECQwHQ09ST05FTDAaBgorBgEEAYKmcgMIBAwM
+CjA5ODA3Mzc4NzcwDQYJKoZIhvcNAQELBQADggIBADkxnqAIqiu4zv4W9YhHMT/9ixaeViiEZGYk
+heaJnB2NLDxi5D8ALtOA87j2t4TCbIZITaWrdvVtKK1Gd2fRoeMx5IE826zrr63buy9laUZXhacz
+Yqmq6i3rocxW8/dXojV4e4rvMS6U7HsyBgsv068jNQcCPgliHZq4WLnYz4ODJdPN2Xp21Wp9rhHz
+F/qAwmC5cuPMuHnzAhIKezp9U65V32sSn8cVZbpEJlSBXOSXjNbYMO233xIULg819ydteVHuUN2G
+HzQY6jQNl02mZGiSCBuqlnqUbx6QnMJKAiKAek27rLYXCWuxW3oES3gYyO3ZT40lnesny/m+tA8z
+Ao+PObP8xz6jFFaGgjpBrIX/F6Js+oUI83WMPLfqpGx/wuIogxM2Q5w2+BPc+iedwfgPM8l8Axq5
+qSqhuqaN2NWRYycKM4MYhpNcpuhN8W55cErFU4jUHgzp/0yxOkU9da9h6ExfN0tiT9gByzmLdLEy
+raNzmqUOnaL3xhjHsn8qxA0HOy6Ksr6mQaRlR2cr9IQOIdkdAgq4Se3LjCAd9zeFKacQTMQqmky3
+nd2eSf1zw/cSy6PX3smGtYCYmlGTGDTNvyx/xwxW1/uxm7J4n8AWK+gf+sj/2eRsE3cQPtWpCp10
+JkspoIcUWb/Z6cnNx5TylLh1RLd5R8Y3hnWfdJw/
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rF3YOtXI+8+laDo8KRRwNjyoBTWLGIlYhggPPU0wtPjYCtStudTTvt+p8cu9Yco3ms9SRVfogHca
+rnVjVb+wAoCMiPRwpKonHDGx6bTqx04303TGUSzEW3Zwz2i55fGPn9xYYu8WLU2eS/8SbfvvtgCa
+n0YVDVlZoC2e2ZQNVNio1ODgIldcqsApyVqaPR5Lgj6NQUOSD3Wl3j0AiY7Rwp76k6eY/TYkow87
+Ta4bTX8a7bDLbG7X5pkCWa9gQaFbIXTy4t836k0kXj8V0eRyf/BNVZGphzZuFHtahAT64JwXN6a8
+cdcn/Lm/pi2moZ3gtlLeQz9R2pcvtbUctVjj+w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature476319-Object573173"><etsi:QualifyingProperties Target="#Signature476319"><etsi:SignedProperties Id="Signature476319-SignedProperties430220"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-02-03T15:49:35-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>ufioyOumGcjAYNji/FvU9rpmAGs=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>6038284462344566162</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-107518"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

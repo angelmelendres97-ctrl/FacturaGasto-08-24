@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>CARDENAS APOLO KENNIA DEL ROCIO</razonSocial>
+    <nombreComercial>SUPERMERCADOS ANAZCO</nombreComercial>
+    <ruc>0704898089001</ruc>
+    <claveAcceso>1106202601070489808900120020060000006321234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000000632</secuencial>
+    <dirMatriz>9 DE MAYO Y OCTAVA NORTE ESQUINA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>11/06/2026</fechaEmision>
+    <dirEstablecimiento>JUAN MONTALVO Y GUABO</dirEstablecimiento>
+    <contribuyenteEspecial>011</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>CALLE GUAYAQUIL S/N Y 5TA NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>521.02</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>409.26</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>111.76</baseImponible>
+        <valor>16.76</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>537.78</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>537.78</total>
+        <plazo>6</plazo>
+        <unidadTiempo>DIAS      </unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7084</codigoPrincipal>
+      <descripcion>HUEVOS X UND X30 CUBETA</descripcion>
+      <cantidad>10.000000</cantidad>
+      <precioUnitario>3.699000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>36.99</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5015</codigoPrincipal>
+      <descripcion>ACEITE RICA PALMA CANECA 20LT</descripcion>
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>30.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>30.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>30.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>8335</codigoPrincipal>
+      <descripcion>ACHIOTE FAVORITA BTL 1LT X15</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>3.100000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>9.30</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>9.30</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7595</codigoPrincipal>
+      <descripcion>ALINO INDIAS 1200G</descripcion>
+      <cantidad>2.000000</cantidad>
+      <precioUnitario>2.130000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>4.26</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>4.26</baseImponible>
+          <valor>0.64</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>522</codigoPrincipal>
+      <descripcion>ATUN ISABEL *12 900GR</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>6.150000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>73.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>73.80</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11544</codigoPrincipal>
+      <descripcion>AZUCAR BLANCA GRANEL 50KG XLB (110)</descripcion>
+      <cantidad>165.000000</cantidad>
+      <precioUnitario>0.345394</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>56.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>56.99</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14701</codigoPrincipal>
+      <descripcion>CAFE MANUELITO  200GR</descripcion>
+      <cantidad>12.000000</cantidad>
+      <precioUnitario>2.100000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>25.20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>25.20</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>6604</codigoPrincipal>
+      <descripcion>COMINO MOLIDO XLB  (100)</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>1.800000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>5.40</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>5.40</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12129</codigoPrincipal>
+      <descripcion>NUTRI CREMA DE LECHE FDA X12 900ML</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>3.390000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>10.17</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>10.17</baseImponible>
+          <valor>1.53</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13228</codigoPrincipal>
+      <descripcion>DT DEJA FLORAL X30 370GR</descripcion>
+      <cantidad>20.000000</cantidad>
+      <precioUnitario>0.649500</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>12.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>12.99</baseImponible>
+          <valor>1.95</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5811</codigoPrincipal>
+      <descripcion>ESPONJA MULTIUSO LAMINADA SCOTCH BRIT</descripcion>
+      <cantidad>8.000000</cantidad>
+      <precioUnitario>0.435000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>3.48</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>3.48</baseImponible>
+          <valor>0.52</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12787</codigoPrincipal>
+      <descripcion>FREJOL NEGRO LB</descripcion>
+      <cantidad>5.000000</cantidad>
+      <precioUnitario>0.800000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>4.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>4.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13241</codigoPrincipal>
+      <descripcion>SUPER ROLLO PRECORTADAS 8X12</descripcion>
+      <cantidad>25.000000</cantidad>
+      <precioUnitario>1.260800</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>31.52</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>31.52</baseImponible>
+          <valor>4.73</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13134</codigoPrincipal>
+      <descripcion>JABON MACHO AZUL PEQUENO 220GR X50</descripcion>
+      <cantidad>20.000000</cantidad>
+      <precioUnitario>0.452000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>9.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>9.04</baseImponible>
+          <valor>1.36</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>12699</codigoPrincipal>
+      <descripcion>NUTRI LECHE POLVO 1LB  25KL (55)</descripcion>
+      <cantidad>15.000000</cantidad>
+      <precioUnitario>3.550000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>53.25</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>53.25</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2539</codigoPrincipal>
+      <descripcion>LENTEJA XLB 100 ROLDAN</descripcion>
+      <cantidad>10.000000</cantidad>
+      <precioUnitario>0.520000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>5.20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>5.20</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11417</codigoPrincipal>
+      <descripcion>MAGGI CUBITO COSTILLA  24X504G</descripcion>
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>7.910000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>7.91</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>7.91</baseImponible>
+          <valor>1.19</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13407</codigoPrincipal>
+      <descripcion>MAGGI CUBO CALDO DE GALLINA 24X26X20G</descripcion>
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>8.040000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>8.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>8.04</baseImponible>
+          <valor>1.21</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2688</codigoPrincipal>
+      <descripcion>MANI MOLIDO 1LB</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>1.650000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>4.95</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>4.95</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2051</codigoPrincipal>
+      <descripcion>MARGARINA REGIA BALDE X8 3KG</descripcion>
+      <cantidad>2.000000</cantidad>
+      <precioUnitario>7.250000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>14.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>14.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>11478</codigoPrincipal>
+      <descripcion>MORTADELA ESPECIAL BOLOG 3.45K (7.59LB) X LB</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>13.500000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>40.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>40.50</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>982</codigoPrincipal>
+      <descripcion>PANELA PALMIRA (50)</descripcion>
+      <cantidad>6.000000</cantidad>
+      <precioUnitario>0.550000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>3.30</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>3.30</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>16839</codigoPrincipal>
+      <descripcion>RANCHERO DISPLEY (24) X48UND 360G</descripcion>
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>6.960000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>6.96</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>6.96</baseImponible>
+          <valor>1.04</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1803</codigoPrincipal>
+      <descripcion>CRISAL 2KG *25</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>0.680000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>2.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>2.04</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>258</codigoPrincipal>
+      <descripcion>SALSA CHINA ORIENTAL 400ML</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>1.826667</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>5.48</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>5.48</baseImponible>
+          <valor>0.82</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>13403</codigoPrincipal>
+      <descripcion>SALSA TOMATE MAGGI 1000G *12 1KG</descripcion>
+      <cantidad>3.000000</cantidad>
+      <precioUnitario>2.956667</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>8.87</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>8.87</baseImponible>
+          <valor>1.33</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>34</codigoPrincipal>
+      <descripcion>SARDINA VAN CAMPS 425G X24 CJ</descripcion>
+      <cantidad>24.000000</cantidad>
+      <precioUnitario>1.500000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>36.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>239</codigoPrincipal>
+      <descripcion>SPAGHETTI AMANCAY 400GR</descripcion>
+      <cantidad>14.000000</cantidad>
+      <precioUnitario>0.560000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>7.84</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>7.84</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>14560</codigoPrincipal>
+      <descripcion>VINAGRE NATURAL MI SUPERS GALON 3.3KL X6</descripcion>
+      <cantidad>2.000000</cantidad>
+      <precioUnitario>1.520000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>3.04</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>3.04</baseImponible>
+          <valor>0.46</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Vendedor:">YAUCAN PALACIOS FREDDY PATRICIO                                                                                                                                                                         </campoAdicional>
+    <campoAdicional nombre="Ciudad:">EL ORO</campoAdicional>
+    <campoAdicional nombre="Telefono:">0</campoAdicional>
+    <campoAdicional nombre="Término:">CREDITO DIRECTO</campoAdicional>
+    <campoAdicional nombre="Vencimiento:">12-Jun-2026</campoAdicional>
+    <campoAdicional nombre="Correo:">fernanda.paccha@grupoadmg.com</campoAdicional>
+    <campoAdicional nombre="Tipo:">CONTADO</campoAdicional>
+  </infoAdicional>
+<ds:Signature Id="Signature54325" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo Id="Signature-SignedInfo75405"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="SignedPropertiesID52718" URI="#Signature54325-SignedProperties97468" Type="http://uri.etsi.org/01903#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>nQC+uf5Y+6hb0td/J+P8RbYIA0U=</ds:DigestValue></ds:Reference><ds:Reference URI="#Certificate62898"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>T1N8/27POGtt9jAjmNPi5ri/vOQ=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-80928" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>7qjplfkc/tB8uThfXwiqRo51AJE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue54118">CO7U09ni0SSnI9x5/eHz/4sQZVTAQSt8DSKcR36KaN5/KgVk3q6xAZHCaJwTM149pqtm2Qt4vF2x
+XP41mLMJk/15lwqT0bi2XBFcmvXKekWi2PyoLR1fZtY0f1g7pCQcm0ONE57Ki/kBG3+JNxMfCxUU
+nBYEo5F31Z24KDVgF+fxLcL37DVeNaunnQmaqkETxCtuDEa5Fw9cVU8N7Jm0Ub0OaDHyjGagURR6
+V18KDoDAC2CU4wQNHujral7oy00/7xsh9GaatOMf5RnWuh5pYbR82ekTDVI2lyrKmdVk9l6ii34M
+nCjLwKQQDGlRKHawV+BRZVU6tNGnpmE2L3XDfw==</ds:SignatureValue><ds:KeyInfo Id="Certificate62898"><ds:X509Data><ds:X509Certificate>MIILzzCCCbegAwIBAgIENmYi0jANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMTEyMjcyMjAyNDZaFw0yNjEyMjcyMjAyNDZaMIGfMSgw
+JgYDVQQDDB9LRU5OSUEgREVMIFJPQ0lPIENBUkRFTkFTIEFQT0xPMRUwEwYDVQQFEwwyNzEyMjEx
+NzEyMzIxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEApseofJBP9NL/Aiy9EU4J9oGUxqIyb7l2/0ev+3EoB80VwYj1pDco
+kxYZkS+SVTCqsga4jjnY7Y1goxoj0E+Jjc1y5Kq3m5q9EaD2BSLW1iUaTcgFbG5dDMfuYHSC3MH/
+J/8KmrQO/UClUQuuwDJpw3N6ZjqQXAmGc/Y7TytWTOWvSgPXmXmn0Dc7BZGFTE3x9l5Hmkj+m3ip
+zEhNw5XeeBAnXPIVlezf6b8g7hoXhFhlz3pRlWuBXqJZJvRwgM8vImz9FIPfUWyeeW6HWqkLY2H5
+LtUJ/6zQykrvGL4Dl5Fmbw+nTxv4stlwVcKbQAJldISjCCLoipD0/eIbQOkPpwIDAQABo4IHFTCC
+BxEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEF
+BQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9l
+amJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6
+Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25M
+aXN0P2Jhc2UwIQYDVR0RBBowGIEWb2xlc2lzdGVtYXNjQGdtYWlsLmNvbTCCAQYGA1UdIASB/jCB
++zBaBgorBgEEAYKmcgIHMEwwSgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAg
+AGQAZQAgAFAAZQByAHMAbwBuAGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGK
+BggrBgEFBQcCARZ+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rv
+d25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZp
+Y2FkbyBQZXJzb25hIE5hdHVyYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8v
+b2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGf
+pIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+
+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRl
+UmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5z
+ZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1j
+cmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklU
+WSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBQyqnTlgbg7c2eHHoBAVSxEyQxdJzArBgNVHRAE
+JDAigA8yMDIxMTIyNzIyMDI0NlqBDzIwMjYxMjI3MjIwMjQ2WjALBgNVHQ8EBAMCBeAwGgYKKwYB
+BAGCpnIDAQQMDAowNzA0ODk4MDg5MBcGCisGAQQBgqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKm
+cgMiBAMMAS4wKQYKKwYBBAGCpnIDBwQbDBlKVUFOIE1PTlRBTFZPIFMgTiBZIEdVQUJPMCAGCisG
+AQQBgqZyAwIEEgwQS0VOTklBIERFTCBST0NJTzAfBgorBgEEAYKmcgMgBBEMDzAwMjAwMTAwMDAw
+MDAwMDARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnID
+DAQJDAdFQ1VBRE9SMBgGCisGAQQBgqZyAwMECgwIQ0FSREVOQVMwEQYKKwYBBAGCpnIDHgQDDAEu
+MB0GCisGAQQBgqZyAwsEDwwNMDcwNDg5ODA4OTAwMTARBgorBgEEAYKmcgMdBAMMAS4wFQYKKwYB
+BAGCpnIDBAQHDAVBUE9MTzAaBgorBgEEAYKmcgMIBAwMCjA5OTcwNDcxMTQwDQYJKoZIhvcNAQEL
+BQADggIBAEMMoP2ZJmHtUzRLoWSbxtjnLP7Z1ZtVuKwRVSlfX3eS026f+RbjCbE7NQLHUqb/1GmH
+mSFkzCm7BL8xfQnttBcmTFgCVu0TEDIlxBJttoAQsVy5JlYKz//B1iIBo1zbNzKDwwo1xP79pukx
+1Wa3N6KgXAHowfjJMnv0Ji8ttTJMTd09/Gr2bqv6/9IMoh1UN3/Hspy+b/JJE5BjrO78zPXaCm5p
+jRA8tc1pKAX1DggcQ7Q3TrYT2fvLxHYLLjsqJvsdxL9kgDKLV8Se4psWlx9rLvWjPw48nNn6keyO
+NiCsFyLp0eqVp03yE7eCt46NyIp0ZE7PCqZax7xrR1pXyFYJ0vSLUIasadH+oouHO4gRcQQvTbD1
+N3aCIgZjLa0+4MacsC0dTqdCPoKUbATa38aa+bq8bk5HCJlWU5W1YR/ZWrJYXiEsWunItaLInT66
+g/GM1xe69qHMF52hMgf1P7t/fTwAXpTodSooGGmO+6n7MscqkcUlU+E8mlK3yC8MhASeSuEZ/Rss
+lTEai3LsKL2LvB0oVbntOeOiEGI8gsCEd4lWd01H6BRDVBrf8zaQTS3ZqbzqR89HR8xUZSTBRPR/
+53Q2BBGgu300TdUF7rNMW4JJ2Gh1ya3IdVIs7ve3vKyZHu5Yv/sP1jK8SIh69JHVj2JLP7ze82ei
+V5KgGz9h</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>pseofJBP9NL/Aiy9EU4J9oGUxqIyb7l2/0ev+3EoB80VwYj1pDcokxYZkS+SVTCqsga4jjnY7Y1g
+oxoj0E+Jjc1y5Kq3m5q9EaD2BSLW1iUaTcgFbG5dDMfuYHSC3MH/J/8KmrQO/UClUQuuwDJpw3N6
+ZjqQXAmGc/Y7TytWTOWvSgPXmXmn0Dc7BZGFTE3x9l5Hmkj+m3ipzEhNw5XeeBAnXPIVlezf6b8g
+7hoXhFhlz3pRlWuBXqJZJvRwgM8vImz9FIPfUWyeeW6HWqkLY2H5LtUJ/6zQykrvGL4Dl5Fmbw+n
+Txv4stlwVcKbQAJldISjCCLoipD0/eIbQOkPpw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature54325-Object59310"><etsi:QualifyingProperties Target="#Signature54325"><etsi:SignedProperties Id="Signature54325-SignedProperties97468"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-06-11T10:33:44</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Bv/ZG/8sw+F5oORNNFPuLyYZOIw=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>912663250</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-80928"><etsi:Description>Servicios IT, Luis Orellana Escalante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

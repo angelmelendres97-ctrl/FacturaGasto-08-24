@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><factura id="comprobante" version="1.0.0">  <infoTributaria>    <ambiente>2</ambiente>    <tipoEmision>1</tipoEmision>    <razonSocial>JOHN HENRRY CABRERA DAVILA</razonSocial>    <nombreComercial>NOTARIA CUARTA - EL ORO - MACHALA</nombreComercial>    <ruc>0702118266001</ruc>    <claveAcceso>2808202501070211826600120040020001699310001279518</claveAcceso>    <codDoc>01</codDoc>    <estab>004</estab>    <ptoEmi>002</ptoEmi>    <secuencial>000169931</secuencial>    <dirMatriz>ROCAFUERTE ENTRE 9 DE MAYO Y JUAN MONTALVO</dirMatriz>  	<agenteRetencion>1</agenteRetencion>	</infoTributaria>  <infoFactura>    <fechaEmision>28/08/2025</fechaEmision>    <obligadoContabilidad>SI</obligadoContabilidad>    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>    <identificacionComprador>0992529679001</identificacionComprador>    <direccionComprador>MACHALA / CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>    <totalSinImpuestos>103.29</totalSinImpuestos>    <totalDescuento>0</totalDescuento>    <totalConImpuestos>      <totalImpuesto>        <codigo>2</codigo>        <codigoPorcentaje>4</codigoPorcentaje>        <descuentoAdicional>0</descuentoAdicional>        <baseImponible>102.39</baseImponible>        <valor>15.36</valor>      </totalImpuesto>      <totalImpuesto>        <codigo>2</codigo>        <codigoPorcentaje>0</codigoPorcentaje>        <descuentoAdicional>0</descuentoAdicional>        <baseImponible>0.90</baseImponible>        <valor>0</valor>      </totalImpuesto>    </totalConImpuestos>    <propina>0</propina>    <importeTotal>118.65</importeTotal>    <moneda>DOLAR</moneda>    <pagos>      <pago>        <formaPago>01</formaPago>        <total>118.65</total>      </pago>    </pagos>  </infoFactura>  <detalles>    <detalle>      <codigoPrincipal>520</codigoPrincipal>      <codigoAuxiliar>429</codigoAuxiliar>      <descripcion>(3) CONSULTA DATOS BIOMETRICOS  SISTEMA NACIONAL DE IDENTIFICACIÓN CIUDADANA -  REGISTRO CIVIL (D)</descripcion>      <cantidad>1</cantidad>      <precioUnitario>0.90</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>0.90</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>0</codigoPorcentaje>          <tarifa>0.00</tarifa>          <baseImponible>0.90</baseImponible>          <valor>0</valor>        </impuesto>      </impuestos>    </detalle>    <detalle>      <codigoPrincipal>520</codigoPrincipal>      <codigoAuxiliar>502</codigoAuxiliar>      <descripcion>(6) CERTIFICACIÓN DE DOCUMENTOS EXHIBIDOS EN ORIGINALES O COPIAS CERTIFICADAS (D)</descripcion>      <cantidad>1</cantidad>      <precioUnitario>10.74</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>10.74</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15.00</tarifa>          <baseImponible>10.74</baseImponible>          <valor>1.61</valor>        </impuesto>      </impuestos>    </detalle>    <detalle>      <codigoPrincipal>520</codigoPrincipal>      <codigoAuxiliar>626</codigoAuxiliar>      <descripcion>(3) RECONOCIMIENTO DE FIRMAS</descripcion>      <cantidad>1</cantidad>      <precioUnitario>21.15</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>21.15</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15.00</tarifa>          <baseImponible>21.15</baseImponible>          <valor>3.17</valor>        </impuesto>      </impuestos>    </detalle>    <detalle>      <codigoPrincipal>520</codigoPrincipal>      <codigoAuxiliar>645</codigoAuxiliar>      <descripcion>PRESTACIÓN DEL SERVICIO NOTARIAL FUERA DEL DESPACHO (D)</descripcion>      <cantidad>1</cantidad>      <precioUnitario>70.50</precioUnitario>      <descuento>0</descuento>      <precioTotalSinImpuesto>70.50</precioTotalSinImpuesto>      <impuestos>        <impuesto>          <codigo>2</codigo>          <codigoPorcentaje>4</codigoPorcentaje>          <tarifa>15.00</tarifa>          <baseImponible>70.50</baseImponible>          <valor>10.58</valor>        </impuesto>      </impuestos>    </detalle>  </detalles>  <infoAdicional>    <campoAdicional nombre="Matrizador">LUZ MARLENE MACAS CARTUCHE</campoAdicional>    <campoAdicional nombre="NÚMERO DE LIBRO">20250701004D02174</campoAdicional>    <campoAdicional nombre="Email Cliente">marcelohet@hotmail.com</campoAdicional>    <campoAdicional nombre="CELULAR">072937375</campoAdicional>  </infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature92633">
+<ds:SignedInfo Id="Signature-SignedInfo662646">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID359603" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature92633-SignedProperties470508">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>AHLuhMTNE+8+QBI27MX+Im9Eyc8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate510910">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hRlwPmrmE2jmmJOspmOs7pbM+5c=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-409655" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>v29NnFD412ubIZJcExUfuX4wAQI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue620112">
+Q0T5K2E5giWe8sniId/WgnU0pSrvrV2Hpl1ZQKcqVHNNbQHgkpHQ3lJdxAEo6nrAhMyAhVE1++bG
+VTRIGinmD1JYG0yXXfG+YvcjyhI3hTyNPZVB0sNt7rx8YYnG0SL5eK0NHAD3GsA3hl579IW6dNu/
+tXmn17bG55rFZ8rtoxqH1Wf0VZ619lIBEd0ZT1F7mEQFZdPXz7OSMtTIKbyZjzyXa9EHf+cW0Am9
+PlTO+CYmq1u0aQtvdIft1H32WbGR5A98Q788rKvY75LYyK6ItUyG6Cs9LgsWaE6WB+8utFpxPkTV
+/QhBl8mg4AzvX9N5NvzZlpVXWVdbhw2pGky/Nw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate510910">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHtDCCBZygAwIBAgIILvnmdgAqEKowDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAkVDMREw
+DwYDVQQHDAhETSBRVUlUTzEhMB8GA1UECgwYQ09OU0VKTyBERSBMQSBKVURJQ0FUVVJBMUQwQgYD
+VQQLDDtTVUJESVJFQ0NJT04gTkFDSU9OQUwgREUgU0VHVVJJREFEIERFIExBIElORk9STUFDSU9O
+IEROVElDUzEqMCgGA1UEAwwhRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIElDRVJULUVDMB4XDTI1
+MDIyMTIxMjEwMFoXDTI3MDIyMTIxMjEwMFowWTELMAkGA1UEBhMCRUMxEDAOBgNVBAcTB01BQ0hB
+TEExEzARBgNVBAUTCjA3MDIxMTgyNjYxIzAhBgNVBAMTGkpPSE4gSEVOUlJZIENBQlJFUkEgREFW
+SUxBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA15PZ3qZBIxOPG60NrO0RjzXgdFQO
+qWJherWKtXr/hO/ZwKBvwG//bQtyLUrv/ehuPmGXMbwpyISSjWX6hWG4/qjR8CWL+UvPeWhWAae3
+rSuMtizyi7CI5KD9wxwVZkztenQuXNKFdVFYjZY+NP5kfejcUzLb9LzTu+c6TUdJ3UAVbGXsaAxt
+uizCyJ1W+JM0Y5JQfDned+11Cj4ersxki5JRC+q7Nmh9fT49SW4prdZSsAwPQZurDyc3/7W0wpOk
+XTlFzzkLKq9bL5YhUqREGz/4qeqq3D2o/+hqu3bGFytrSKjP4SnauaZOqwMD8v66QMEJ3ECpWi4/
+yUidIrWnAQIDAQABo4IDITCCAx0wggG1BgNVHREEggGsMIIBqIEYamNhYnJlcmEwMTA1QGhvdG1h
+aWwuY29toBsGCysGAQQBgtVhAQMBoAwMCjA3MDIxMTgyNjagHAYLKwYBBAGC1WEBAwKgDQwLSk9I
+TiBIRU5SUlmgGAYLKwYBBAGC1WEBAwOgCQwHQ0FCUkVSQaAXBgsrBgEEAYLVYQEDBKAIDAZEQVZJ
+TEGgOwYLKwYBBAGC1WEBAwegLAwqUk9DQUZVRVJURSBFTlRSRSA5IERFIE1BWU8gWSBKVUFOIE1P
+TlRBTFZPoB4GCysGAQQBgtVhAQMIoA8MDSs1OTM5OTQwNzAwMzWgGAYLKwYBBAGC1WEBAwmgCQwH
+TUFDSEFMQaAeBgsrBgEEAYLVYQEDC6APDA0wNzAyMTE4MjY2MDAxoBgGCysGAQQBgtVhAQMMoAkM
+B0VDVUFET1KgIAYLKwYBBAGC1WEBAzKgEQwPUEVSU09OQSBOQVRVUkFMoB4GCysGAQQBgtVhAQMz
+oA8MDVRPS0VOL1RBUkpFVEGgEQYLKwYBBAGC1WEBAzSgAgwAoBgGCysGAQQBgtVhAQM1oAkMB0FC
+T0dBRE8wCQYDVR0TBAIwADAfBgNVHSMEGDAWgBQvInr4Xm2UjmpAFDfHbmty6TrCPzA4BggrBgEF
+BQcBAQQsMCowKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmljZXJ0LmZqZS5nb2IuZWMwcgYDVR0g
+BGswaTBnBg4rBgEEAYLVYQECAQEBATBVMFMGCCsGAQUFBwIBFkdodHRwOi8vd3d3LmljZXJ0LmZq
+ZS5nb2IuZWMvZHBjL2RlY2xhcmFjaW9uX3ByYWN0aWNhc19jZXJ0aWZpY2FjaW9uLnBkZjAdBgNV
+HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL3d3dy5p
+Y2VydC5mamUuZ29iLmVjL2NybC9pY2VydC5jcmwwHQYDVR0OBBYEFC5bn2WYEDln4iBL/ykG2xz3
+k0LwMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAbK/O1XypPeVxcXZnFj2r/G//
+cno4iVWxFDho8KggisnSRSECAXyqUI/y5amsai4AgyZmMwevu2w8m+52ShD5RxkpGvDuuSCxiJGD
+JsZ7K6y9lhgbA3vK4H2A3FD59vmGaSRNKSjVmUqqN36CGNp0876/p9tx1xJKv/nVAzm3n/ceClAO
+mn55fP6QMPBVTcqFQfDJKg2ZFgdsgJ6OXhfvvFh0AyP2S4tM989bwtDygQ5TYgmliQZPzarmJ4Uz
+8FbeP9ARbXGTQggs4ZKuvdCpX4LHAz5XRv1UFjZWFspjMPLr3aUegPcR6y8pwz2akDJfKYsRuYGT
+BDmRsMmh/mIoCaLHf1lBb3srC8RHMV5JW1/z3Mi3EHNcY4xC5+gv1kf2lhIJyTYUW3rAGQQjHFJD
+iBa4CTttXK+8CJopmeTtXWUf7Es2QNns/tur2rRruwxkeF3YRJYVwBZRAM0uWHICIrVmebf7uRAU
+F3d4nF52Uh6P/n1pEWfCL1fGfkmjYaBCD7YO5+R2xlr78lTrMUSwHOwrZ/Ypo+fwTgIrU1YAJl9p
+JPQgBGpcbuoF2ggqcVLKDSEgyaymPebQHG13vw2g2+/1HRdT33j7vwPm5hOv96zHMZKozOinz0cb
++2l2ZnfFBsr5i0yGuCmV0HhrhcV7NtcnTxAZ3OBWqLWeP3bhFQM=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+15PZ3qZBIxOPG60NrO0RjzXgdFQOqWJherWKtXr/hO/ZwKBvwG//bQtyLUrv/ehuPmGXMbwpyISS
+jWX6hWG4/qjR8CWL+UvPeWhWAae3rSuMtizyi7CI5KD9wxwVZkztenQuXNKFdVFYjZY+NP5kfejc
+UzLb9LzTu+c6TUdJ3UAVbGXsaAxtuizCyJ1W+JM0Y5JQfDned+11Cj4ersxki5JRC+q7Nmh9fT49
+SW4prdZSsAwPQZurDyc3/7W0wpOkXTlFzzkLKq9bL5YhUqREGz/4qeqq3D2o/+hqu3bGFytrSKjP
+4SnauaZOqwMD8v66QMEJ3ECpWi4/yUidIrWnAQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature92633-Object734974"><etsi:QualifyingProperties Target="#Signature92633"><etsi:SignedProperties Id="Signature92633-SignedProperties470508"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-08-28T11:22:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>aeEqxIyDxWcJ6YWFZQYA2vT6MSM=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ENTIDAD DE CERTIFICACION ICERT-EC, OU=SUBDIRECCION NACIONAL DE SEGURIDAD DE LA INFORMACION DNTICS, O=CONSEJO DE LA JUDICATURA, L=DM QUITO, C=EC</ds:X509IssuerName><ds:X509SerialNumber>3384989989428924586</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-409655"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

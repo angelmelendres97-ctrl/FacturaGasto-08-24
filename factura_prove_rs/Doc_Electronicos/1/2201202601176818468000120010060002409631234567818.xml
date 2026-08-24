@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>AGENCIA DE ASEGURAMIENTO DE LA CALIDAD DE LOS SERVICIOS DE SALUD Y MEDICINA PREPAGADA - ACESS</razonSocial><nombreComercial>N/A</nombreComercial><ruc>1768184680001</ruc><claveAcceso>2201202601176818468000120010060002409631234567818</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>006</ptoEmi><secuencial>000240963</secuencial><dirMatriz>AV. LIRA ÑAN ENTRE AMARU ÑAN Y QUITUMBE ÑAN</dirMatriz><agenteRetencion>00000001</agenteRetencion></infoTributaria><infoFactura><fechaEmision>22/01/2026</fechaEmision><dirEstablecimiento>SITIO PARAISO</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>SITIO PARAISO</direccionComprador><totalSinImpuestos>64.83</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>64.83</baseImponible><valor>0.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>64.83</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>64.83</total><plazo>5</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>PF</codigoPrincipal><descripcion>Pago de derechos por concepto de Permiso de Funcionamiento de la solicutud SPF-406118 con la orden de pago DPF-442259</descripcion><cantidad>1</cantidad><precioUnitario>64.83</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>64.83</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>64.83</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Teléfono">0989743900</campoAdicional><campoAdicional nombre="Dirección">SITIO PARAISO</campoAdicional><campoAdicional nombre="SPF">SPF-406118</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature947831">
+<ds:SignedInfo Id="Signature-SignedInfo896357">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID94497" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature947831-SignedProperties58073">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Ujhf1gU/YZdbfLeOi9yrKR+cNrU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1453140">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Osg5Jbc3kGwvDSIgHQaUhFZ5hns=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1012107" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WaRPGSHdBTG89HlGoM/UABm+t/Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue65221">
+nf9gWVYCBnHUiIIzfsubvhyYixfkdXub1chTEGv6DhlA0X3dIM1diyoG78xILpGO8AXwhC1Va98+
+XgJkCI0mwiRsxRZgE3iEmDxjZSybRMYmPdYLcMqfEbnYqeZTUcdy3okoottR/nZe0qgoJJJxwpoD
+Y4kvlXHjiCGGDUEnUYuct733IyG22bF8ZYmj2Ts1FmpD2i2p9JmklZj8TfXKHQFFAtlLt/c8f/z4
+cJBLm7p0kOgi5QSIiEDQ6dF5+ZOYfvw5TfOmY7r3Rx/Bli5a1biuu1n86BV2b7plUTg+yX4tEUWy
+g7xE+lH2J8baVH5bf//fuLHE4BTDYbr6UMe24g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1453140">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKZDCCCEygAwIBAgIEZeUqxDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI0MTEyODE3MDQzOFoXDTI2MTEyODE3MzQz
+N1owgbkxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE9MBEGA1UEBRMKMDIwMDA0MDE0OTAoBgNVBAMTIUxPUkVOQSBBQklHQUlM
+IE1BTERPTkFETyBDQUxERVJPTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMAgotTf
+cJ8A1o6M0dfd6+d/6TK4cqlskoFJcMEqX3DEeZ1BH6oZ3vQIbZXvZGaboNNrgC8UiL7JhgBKVWEi
+HZq4DMqnmmJN0wHl+NXlUs6NeEYgmvoA+e+CjkedJ2tvupruH/epPuDlxvt/pyX4Mrr/3RS0diFw
+fN9Ji258kpTMPErhVtG/cvFvgNYsymzYygh8o85JLl0P55STI6l6rvwyzEVKlquOOn/LH+XMHJ/F
+C5s0ikJnz0SP6LAVvXlN1iySIOejBFQEqhpjOiE5Dc7EgZ6P8gfCtbfwPEyauF6oRO4B+z0nemQ1
+1fk+hvFUM1v9H+yU+QXFRrOjJSKpyTUCAwEAAaOCBYgwggWEMAsGA1UdDwQEAwIHgDBnBgNVHSAE
+YDBeMFwGCysGAQQBgqg7AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9w
+b2xpdGljYS1jZXJ0aWZpY2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQw
+gYEwPgYIKwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0
+YXR1cy9vY3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJs
+aWN3ZWIvc3RhdHVzL29jc3AwbQYKKwYBBAGCqDsDCgRfE11BR0VOQ0lBIERFIEFTRUdVUkFNSUVO
+VE8gREUgTEEgQ0FMSURBRCBERSBMT1MgU0VSVklDSU9TIERFIFNBTFVEIFkgTUVESUNJTkEgUFJF
+UEFHQURBIC0gQUNFU1MwHQYKKwYBBAGCqDsDCwQPEw0xNzY4MTg0NjgwMDAxMBoGCisGAQQBgqg7
+AwEEDBMKMTcyNjg3MTc0MDAeBgorBgEEAYKoOwMCBBATDkxPUkVOQSBBQklHQUlMMBkGCisGAQQB
+gqg7AwMECxMJTUFMRE9OQURPMBgGCisGAQQBgqg7AwQEChMIQ0FMREVST04wGAYKKwYBBAGCqDsD
+BQQKEwhURVNPUkVSQTA1BgorBgEEAYKoOwMHBCcTJU1hbnVlbGEgQ2FuaXphcmVzIHkgZXVzdGFx
+dWlvIGJlcm5hbCAwGQYKKwYBBAGCqDsDCAQLEwkwMjM4MzQwMDYwFQYKKwYBBAGCqDsDCQQHEwVR
+VUlUTzAXBgorBgEEAYKoOwMMBAkTB0VDVUFET1IwHQYKKwYBBAGCqDsDMgQPEw0xNzI2ODcxNzQw
+MDAxMCAGCisGAQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAjBgNVHREEHDAagRhsb3JlbmFi
+aWdhaWw5M0BnbWFpbC5jb20wggHhBgNVHR8EggHYMIIB1DCCAdCgggHMoIIByIaB1mxkYXA6Ly9i
+Y2VxbGRhcHN1YnAxLmJjZS5lYy9jbj1DUkwyMTI1LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIw
+REVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBE
+RSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1Is
+Yz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5l
+Yy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbYwgbMxCzAJBgNVBAYTAkVDMSIwIAYD
+VQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJ
+RklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMc
+QUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEQMA4GA1UEAxMHQ1JMMjEyNTArBgNVHRAEJDAi
+gA8yMDI0MTEyODE3MDQzOFqBDzIwMjYxMTI4MTczNDM3WjAfBgNVHSMEGDAWgBRIot8jHx34LFF6
+jAPNSTKlCcGUqzAdBgNVHQ4EFgQU45T1P7l/AB1h4+3fup/JZ+veMxYwCQYDVR0TBAIwADAaBgkq
+hkiG9n0HQQAEDTALGwVWMTAuMAMCBDAwDQYJKoZIhvcNAQELBQADggIBAAQkD8vThDpksy926gMq
+LCOp2682ddLXiktKxaCFDrf06qOD7f6FimC3bafCRuC8MuZR7qIoofdssD2SIOAAetT/FRCorz1W
+YttV1JJy1ZLEhPWdLZ83WJIFtnvZl7o1Igv8/qpJg0JflAqauZc7i+d1xWFn8ElcMFMrlNN83WDB
+FCMX/18+wuHyzXYU7PosxrKTQtZcPRPTkJpZcVfMBjiy5iScLphnt4Dz7W/nQViH4CKn1ugyr28m
+XLbT1w/B0hFB+9Itsvv2iZbMPm6sr14NtVHkDpiEDmUvgFwIJnl0OMSAYuHPr0uSCwpgbJpzg1x0
+dJ3daKtB98bF6DHn1jsWCHlJotdXIO7sGoWBMdLMF/Pe6d6GJ7oWaVdlY5HRZXLjTgPT2OECxaPX
+WZE16pfbzGNvHyfbtikEgXoo34vDlfSyG1DUCYRz1Ci1qYgst9m2Z+LfAXeA9pMPosdbB3TuASvX
+wlgl+6pJCwkHtFhnvr6po5xLHB/JRwJ5i/zuI2mqavXwkaYkqBolW1quujyO3phtC2Y7BnN2Ir0k
+9NZxtkhin6FBCGfmILFcc4slBpiszbhRGdP/dxV/Z+yT4VgqthamiiKgjRsQyMofiPmq9B5PPbGJ
+NL4183VRR0q8rVNg2ghn+E0/TpgCPAZz8Q72h1vtEZOF7oI7Tw6vK1WR
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wCCi1N9wnwDWjozR193r53/pMrhyqWySgUlwwSpfcMR5nUEfqhne9Ahtle9kZpug02uALxSIvsmG
+AEpVYSIdmrgMyqeaYk3TAeX41eVSzo14RiCa+gD574KOR50na2+6mu4f96k+4OXG+3+nJfgyuv/d
+FLR2IXB830mLbnySlMw8SuFW0b9y8W+A1izKbNjKCHyjzkkuXQ/nlJMjqXqu/DLMRUqWq446f8sf
+5cwcn8ULmzSKQmfPRI/osBW9eU3WLJIg56MEVASqGmM6ITkNzsSBno/yB8K1t/A8TJq4XqhE7gH7
+PSd6ZDXV+T6G8VQzW/0f7JT5BcVGs6MlIqnJNQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature947831-Object999598"><etsi:QualifyingProperties Target="#Signature947831"><etsi:SignedProperties Id="Signature947831-SignedProperties58073"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-01-22T15:27:04-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>XvoEjiiiVFhB23wDtu1efCWh4dY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709517508</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1012107"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

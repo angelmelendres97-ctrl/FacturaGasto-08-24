@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>DE LA CRUZ BERMEO ANGELA PAULINA</razonSocial>
+    <nombreComercial>DE LA CRUZ BERMEO ANGELA PAULINA</nombreComercial>
+    <ruc>0705119980001</ruc>
+    <claveAcceso>2912202501070511998000120020030000006992013886114</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>003</ptoEmi>
+    <secuencial>000000699</secuencial>
+    <dirMatriz>EL ORO / MACHALA / MACHALA / ESTERO HUAYLA S/N Y PICHINCHA Y GONZALO CORDOVA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>29/12/2025</fechaEmision>
+    <dirEstablecimiento>EL ORO / MACHALA / LA PROVIDENCIA / ARIZAGA SN Y BUENAVISTA	</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>430.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>430.00</baseImponible>
+        <valor>64.50</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>494.50</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>494.50</total>
+        <plazo>8</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>MCN00032</codigoPrincipal>
+      <codigoAuxiliar>MCN00032</codigoAuxiliar>
+      <descripcion>LAVAR CABEZOTE</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>10.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>10.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>10.00</baseImponible>
+          <valor>1.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>CBZ00025</codigoPrincipal>
+      <codigoAuxiliar>CBZ00025</codigoAuxiliar>
+      <descripcion>RECTIFICAR ASIENTOS Y ASENTAR VALVULAS</descripcion>
+      <cantidad>24.00</cantidad>
+      <precioUnitario>5.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>120.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>120.00</baseImponible>
+          <valor>18.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>CBZ00026</codigoPrincipal>
+      <codigoAuxiliar>CBZ00026</codigoAuxiliar>
+      <descripcion>RECTIFICAR VALVULAS</descripcion>
+      <cantidad>24.00</cantidad>
+      <precioUnitario>1.500000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>36.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>36.00</baseImponible>
+          <valor>5.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>CBZ00023</codigoPrincipal>
+      <codigoAuxiliar>CBZ00023</codigoAuxiliar>
+      <descripcion>ARMAR CABEZOTE</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>50.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>50.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>50.00</baseImponible>
+          <valor>7.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>CGÑ00042</codigoPrincipal>
+      <codigoAuxiliar>CGÑ00042</codigoAuxiliar>
+      <descripcion>PULIR CIGUEÑAL</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>90.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>90.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>90.00</baseImponible>
+          <valor>13.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>TORNO0015</codigoPrincipal>
+      <codigoAuxiliar>TOR0015</codigoAuxiliar>
+      <descripcion>PULIR BARRA DE LEVAS</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>40.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>40.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>40.00</baseImponible>
+          <valor>6.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>CBZ00028</codigoPrincipal>
+      <codigoAuxiliar>CBZ00028</codigoAuxiliar>
+      <descripcion>CAMBIAR GUIAS DE VALVULAS</descripcion>
+      <cantidad>24.00</cantidad>
+      <precioUnitario>3.500000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>84.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>84.00</baseImponible>
+          <valor>12.60</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="TELEFONO"> | 072984073</campoAdicional>
+    <campoAdicional nombre="EMAIL">fernanda.paccha@grupoadmg.com</campoAdicional>
+    <campoAdicional nombre="CPN">S/N</campoAdicional>
+    <campoAdicional nombre="PLACA">S_P001010</campoAdicional>
+    <campoAdicional nombre="MODELO">C9</campoAdicional>
+    <campoAdicional nombre="ANIO">2025</campoAdicional>
+    <campoAdicional nombre="NUMERO CHASIS">S/N</campoAdicional>
+    <campoAdicional nombre="NUMERO MOTOR">S/N</campoAdicional>
+    <campoAdicional nombre="KILOMETRAJE">| 0</campoAdicional>
+    <campoAdicional nombre="ORDEN TRABAJO">| 1351</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature314672">
+<ds:SignedInfo Id="Signature-SignedInfo298395">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID673606" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature314672-SignedProperties851340">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>O5buFgxLbo8tXzIuipa8a3zBmbo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate526833">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>IQ2HT2TJy6cVTyERrDMqR42T8FQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-332035" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>J6PmLRxPzxTB740+sfwzr668Kys=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue491441">
+OA1u+sFBcQLFMt5PlwhnukLsWYr6xBJqKv/Dd+yzpyXzyZapYrS0ShBU0EmubDaU
+LsvMuGTngvFEphd4DGFKTuga2M/U2O/t1TXREcuVCT3ENFGKQPySWf4ZpF29uz9J
+PeAlA+9+mJavfRdRrQmJFWoG6fqpFw3Kxy+TdPhF1CMtbo9uNn0OEpsdD/aVPlQB
+0w0Jq55jn9oo+3etgVJi4WG+k7Ce+UW4UGch+GGwlB0FS2va1XiueiNqRzmQli/C
+yPqse/h9sKsWUW6bcKPEnkVr4BScBmG5UkooPPUlSw8ZcTtcSOPuUFEDQ3nSdumK
+AxK9wjVlUAdW2HHsUQzIlA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate526833">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJbTCCB1WgAwIBAgIIEGfOdM3HatgwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNV
+BAYTAkVTMUQwQgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3Mg
+YXQgd3d3LnVhbmF0YWNhLmNvbS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0Eg
+Uy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNBMRowGAYDVQQDDBFVQU5BVEFDQSBD
+QTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4XDTI0MDkwNTE5NDQw
+MFoXDTI2MDkwNTE5NDQwMFowgaYxCzAJBgNVBAYTAkVDMRowGAYDVQQEDBFERSBM
+QSBDUlVaIEJFUk1FTzEXMBUGA1UEKgwOQU5HRUxBIFBBVUxJTkExGTAXBgNVBAUT
+EElEQ0VDLTA3MDUxMTk5ODAxKTAnBgNVBAMMIEFOR0VMQSBQQVVMSU5BIERFIExB
+IENSVVogQkVSTUVPMRwwGgYDVQRhDBNUSU5FQy0wNzA1MTE5OTgwMDAxMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgGwnSkfJd1lcEYx4uyh0EIw+Aow8
+iNqSsQ02iHxFlZCwQ5BMwZUsgo6+Z/g3wJZ+mCpB58wkeRbgpjn97LO0BeUFVuIZ
+1NSBNkzJw5dHxL67xDkjIbIoeWZEdHF4nsIpMz3bR1+aNMRVMiElAyoH5Rlcn62Y
+zWvH+mznXt5VF4RLhmXWCYBkYvlFu9DILFupu2qSDRvlTtPrSjoEqWYo1amoRdjz
+OhtkRGDbQpVwZ7wnyEH3HQT6xl6rlDD/GsL8Srym5CqGFClx24H+6/tDZtQXMz/F
+oYPkJODUcgs1g8xKvCGww6XgTWdnhQKAfNTACWe/6I+Ut+hCUCL/0yeEhwIDAQAB
+o4IEiTCCBIUwGwYLKwYBBAGC8TZmAwEEDAwKMDcwNTExOTk4MDAeBgsrBgEEAYLx
+NmYDCwQPDA0wNzA1MTE5OTgwMDAxMIHXBggrBgEFBQcBAQSByjCBxzBVBggrBgEF
+BQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2FkL3Rz
+cF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0
+cDovL29jc3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUF
+BzABhipodHRwOi8vb2NzcDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8w
+HQYDVR0OBBYEFNYn3pzdnVw7aGd0t6uWhOwauTcjMAwGA1UdEwEB/wQCMAAwHwYD
+VR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgZkGA1UdIASBkTCBjjCBiwYM
+KwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVhbmF0YWNh
+LmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElGSUNB
+RE8gREUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1Ud
+HwSBhzCBhDBAoD6gPIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9w
+a2kvY3JsL0NBMnN1Ym9yZGluYWRhLmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFu
+YXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRhLmNybDAOBgNV
+HQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIIBvwYD
+VR0RBIIBtjCCAbKBE2FuZ19saXRhQGhvdG1haWwuZXOgGwYLKwYBBAGC8TZmAwGg
+DAwKMDcwNTExOTk4MKAfBgsrBgEEAYLxNmYDAqAQDA5BTkdFTEEgUEFVTElOQaAb
+BgsrBgEEAYLxNmYDA6AMDApERSBMQSBDUlVaoBcGCysGAQQBgvE2ZgMEoAgMBkJF
+Uk1FT6ByBgsrBgEEAYLxNmYDB6BjDGFDQUxMRTogRVNURVJPIEhVQVlMQSBOTUVS
+TzogUyBOIElOVEVSU0VDQ0lOOiBQSUNISU5DSEEgWSBHT05aQUxPIENPUkRPVkEg
+Tk1FUk8gREUgT0ZJQ0lOQTogUC5CLiBSoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkz
+OTg4NTIwNjIzoBgGCysGAQQBgvE2ZgMJoAkMB01BQ0hBTEGgHgYLKwYBBAGC8TZm
+AwugDwwNMDcwNTExOTk4MDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEE
+AYLxNmYDMqAaDBhQRVJTT05BIE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZm
+AzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAXxxbk2kIP7cpQnKVXqtu
+oMMr7gXTlpn4IvqTRrSsxs8pehDTj+LAPDrRdXitrCW1T6cdOSsZrRrKFimsrOfx
+d0oqssZVZvvCwiM2GlUsv+WKgodFxAp5PZ85HWkWC+4GCsTDtRoVKbANNKBtVFVO
+y8iT25qh6kQGzS2aC4Hh5ijH/SRA4b0/d32PxfgPGU/ZlN14c1bTQEJEYtwUjAWY
+JPiK7Jh/SFdjusZoUzYh1ghlgkmQ1UEVcyryKzr5SW01mZr85vyF474Em7puIpue
+d7u4yxb7wC761PTYDzHo4ZrtBfpzaq1SlJdDsGhPZQyMp/W/478GAPNKYn4hpT+B
+IQlnDiWO5FFaFqkQJYyd53aFeLhNgSN+JeoNi2xTFUqXVeQf5PfU0Ya7yx7JLdNZ
+YbqFddSqC8tG6XvBEvFvGrcQbZrmVw7b4PPYHnsIL/ndW8zCB1oYF0eKvKSlz+6l
+umx0unvmXzLA24MMutDsVVnhEj7nKlTEybByjrQLuQfzLF7Hcf4ZPR+FrRfCusYx
+O/YjFS5byE0AHtUbcDON/1TNrB4amAtjbw4rhzy7MZq+s95nQQ4bGxvo0d2sICKf
+oltk9Y3opYwN+o9HvYC1bwZp9vO3YwXqxoiSpVLcCbgAjDUGyR+w+QylTiS7u1WP
+35WMsJy5H6DAZRx9c+iwPcI=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+gGwnSkfJd1lcEYx4uyh0EIw+Aow8iNqSsQ02iHxFlZCwQ5BMwZUsgo6+Z/g3wJZ+
+mCpB58wkeRbgpjn97LO0BeUFVuIZ1NSBNkzJw5dHxL67xDkjIbIoeWZEdHF4nsIp
+Mz3bR1+aNMRVMiElAyoH5Rlcn62YzWvH+mznXt5VF4RLhmXWCYBkYvlFu9DILFup
+u2qSDRvlTtPrSjoEqWYo1amoRdjzOhtkRGDbQpVwZ7wnyEH3HQT6xl6rlDD/GsL8
+Srym5CqGFClx24H+6/tDZtQXMz/FoYPkJODUcgs1g8xKvCGww6XgTWdnhQKAfNTA
+CWe/6I+Ut+hCUCL/0yeEhw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature314672-Object208336"><etsi:QualifyingProperties Target="#Signature314672"><etsi:SignedProperties Id="Signature314672-SignedProperties851340"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-29T10:34:42-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>KLdlbI1481QKAeoVQs4dqTPBHss=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=VATES-A66721499,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>1182140428271971032</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-332035"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

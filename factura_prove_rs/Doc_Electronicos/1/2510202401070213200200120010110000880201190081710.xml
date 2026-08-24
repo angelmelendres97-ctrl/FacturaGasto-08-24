@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>SAMANIEGO CABRERA CESAR EDWIN</razonSocial>
+		<nombreComercial>ORO PERNO</nombreComercial>
+		<ruc>0702132002001</ruc>
+		<claveAcceso>2510202401070213200200120010110000880201190081710</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000088020</secuencial>
+		<dirMatriz>EL ORO / MACHALA / MARCEL LANIADO S/N Y 10 DE AGOSTO</dirMatriz>
+		<agenteRetencion>1</agenteRetencion>
+	</infoTributaria>
+<infoFactura>
+	<fechaEmision>25/10/2024</fechaEmision>
+	<dirEstablecimiento>EL ORO / MACHALA / MARCEL LANIADO S/N Y 10 DE AGOSTO</dirEstablecimiento>
+	<obligadoContabilidad>SI</obligadoContabilidad>
+	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+	<razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador>
+	<identificacionComprador>0992529679001</identificacionComprador>
+	<direccionComprador>LOS JARDINES, GUAYAQUIL Y 5TA NORTE</direccionComprador>
+	<totalSinImpuestos>315.21</totalSinImpuestos>
+	<totalDescuento>0.00</totalDescuento>
+	<totalConImpuestos>
+		<totalImpuesto>
+		<codigo>2</codigo>
+		<codigoPorcentaje>4</codigoPorcentaje>
+		<descuentoAdicional>0.00</descuentoAdicional>
+		<baseImponible>315.21</baseImponible>
+		<valor>47.28</valor>
+		</totalImpuesto>
+	</totalConImpuestos>
+	<propina>0.00</propina>
+	<importeTotal>362.49</importeTotal>
+	<moneda>DOLAR</moneda>
+	<pagos>
+		<pago>
+		<formaPago>20</formaPago>
+		<total>362.49</total>
+		<plazo>30</plazo>
+		<unidadTiempo>dias</unidadTiempo>
+		</pago>
+	</pagos>
+</infoFactura>
+<detalles>
+	<detalle>
+		<codigoPrincipal>000000011864</codigoPrincipal>
+		<descripcion>TUERCA P/ RUEDA 3/4 OSCILANTE FORD</descripcion>
+		<unidadMedida>Cajas: 50 Unidades: 0</unidadMedida>
+		<cantidad>50.000000</cantidad>
+		<precioUnitario>2.608695</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>130.43</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>130.43</baseImponible>
+			<valor>19.56</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+	<detalle>
+		<codigoPrincipal>000000011863</codigoPrincipal>
+		<descripcion>PERNO P/ RUEDA FORD 600 - 750 3/4 X 80 MM R</descripcion>
+		<unidadMedida>Cajas: 50 Unidades: 0</unidadMedida>
+		<cantidad>50.000000</cantidad>
+		<precioUnitario>3.695652</precioUnitario>
+		<descuento>0.00</descuento>
+		<precioTotalSinImpuesto>184.78</precioTotalSinImpuesto>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoPorcentaje>4</codigoPorcentaje>
+			<tarifa>15.00</tarifa>
+			<baseImponible>184.78</baseImponible>
+			<valor>27.72</valor>
+		</impuesto>
+	</impuestos>
+	</detalle>
+</detalles>
+<infoAdicional>
+	<campoAdicional nombre="Direccion">LOS JARDINES, GUAYAQUIL Y 5TA NORTE</campoAdicional>
+	<campoAdicional nombre="Vencimiento">24/11/2024</campoAdicional>
+	<campoAdicional nombre="Comercio">MINERA BELORO C. L.</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature823691">
+<ds:SignedInfo Id="Signature-SignedInfo621900">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID539510" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature823691-SignedProperties926712">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>lStiz8V8ke1o2g2DYTp1rGwlTdA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1880931">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>FhEngDR9I1nElWX7NrPsTSaGPRs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-1029953" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>uw4ayjORZhmEgzToh5g9Zjwo05Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue349632">
+K61L3c6ZFngxVbPDX5EpkACjRDZzlnmgYX1SAXWK/oHhKcGqgsVO8N0RDlumadFaBcST5pCLKcQm
+W7uFn+umwlTVuxyY+cEdl+ERPi2/9mg3g0WJx5r1z4Qqf1sE1aJw97uVGXzeMlA7EPcDow6HAoMo
+xugTsCQIuKNxWRAOv20e0Pq4+eGSegSxiUdNL1ugrvMa93tkW5G5eBMisXoTieZyd6ssYESad7LA
+XOKCIGgCW0kHhVwLBn9PXCe0E0evZD0/SsZCDMwbrDVWqT4HP3iD2rvUOc/6mv3WzMTd4aIY+JWK
+xHRbuU2HP7R8xFY8H3x9qK7jrUMc+iX93OvbAw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1880931">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJJjCCBw6gAwIBAgIIF1LYVHr6x6swDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMTExNzE0MDEwMFoXDTI4MTExNTE0MDEwMFowgaAxCzAJBgNVBAYTAkVDMRowGAYDVQQEDBFT
+QU1BTklFR08gQ0FCUkVSQTEUMBIGA1UEKgwLQ0VTQVIgRURXSU4xGTAXBgNVBAUTEElEQ0VDLTA3
+MDIxMzIwMDIxJjAkBgNVBAMMHUNFU0FSIEVEV0lOIFNBTUFOSUVHTyBDQUJSRVJBMRwwGgYDVQRh
+DBNUSU5FQy0wNzAyMTMyMDAyMDAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGEk
+ADrE+cTsDKrOxQgHqhoIKQPJ2gTIcwDdf3H4HSXsa6GxJ6bqZDMas6N6GWohJfcZ4ZNRj4kN3VYj
+7tP70XfgJyTID5c/6St9p6yhQrsTCrmBbiue9iuY/w/yjsdmc+ldzMWRi0MKjhiMhB7jFqJRrxhb
+Y37JcPygcgUTum7qxy1tRh3Js1X4bC9/XVzR0DADaN/wvLJcbzVdvOG5/CWeM7BR1NdbzKx8B5aV
+CxYYIsASj6ra0fnJdgpqfFZZc/yRyDCD0cHz8KZdk+7w21CrQDbonjeE4tfQO9/cnYONtwPA7GTZ
+pU6NvwxMSkuQmhmlXlKzu8rmr7FSwHW1VwIDAQABo4IESDCCBEQwGwYLKwYBBAGC8TZmAwEEDAwK
+MDcwMjEzMjAwMjAeBgsrBgEEAYLxNmYDCwQPDA0wNzAyMTMyMDAyMDAxMIHXBggrBgEFBQcBAQSB
+yjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2Fk
+L3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0cDovL29j
+c3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRwOi8vb2Nz
+cDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFFaevK+rcRqV/WQlf1Wj
+ATbwrnVZMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgZkG
+A1UdIASBkTCBjjCBiwYMKwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVh
+bmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElGSUNBRE8g
+REUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6g
+PIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh
+LmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1
+Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMIIBfgYDVR0RBIIBdTCCAXGBFmNzYW1hbmllZ29vcEBnbWFpbC5jb22gGwYLKwYBBAGC8TZm
+AwGgDAwKMDcwMjEzMjAwMqAcBgsrBgEEAYLxNmYDAqANDAtDRVNBUiBFRFdJTqAaBgsrBgEEAYLx
+NmYDA6ALDAlTQU1BTklFR0+gGAYLKwYBBAGC8TZmAwSgCQwHQ0FCUkVSQaAxBgsrBgEEAYLxNmYD
+B6AiDCBNQVJDRUwgTEFOSUFETyBTTiBZIDEwIERFIEFHT1NUT6AfBgsrBgEEAYLxNmYDCKAQDA4w
+MDU5Mzk5ODA3MjQ2OKAYBgsrBgEEAYLxNmYDCaAJDAdNQUNIQUxBoB4GCysGAQQBgvE2ZgMLoA8M
+DTA3MDIxMzIwMDIwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOgKQYLKwYBBAGC8TZmAzKgGgwYUEVS
+U09OQSBOQVRVUkFMIE8gRklTSUNBoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcN
+AQELBQADggIBAFHvpFa9uPXhmh2PmJcuBTg6LpG3ivSWiE4+gJfTu6jZb9N8bXEmz70PD9dzD2RE
+g8SiiHgOElQXjSRIUd+LBLPYYVR6RYuQpAr2UKHnxuCngMxgTzFsLYrem5cPp6fkUrY4wDvuGs7n
+iefjrP0IfjEr5rVmdMv/UumbrxvbxZBuU8GWCHQyvUmKkQuQnnIs5+aDNXQhgZI64GGs6jDQkkZY
+FD73WT4/ljGFgLkqSWN08xaIiphrUmfTGUi62H6bmJTwRrGSCytm2/FxzZ/A8bhT4OXCNem9pJIy
+LUYV0nHJPzargQrA5OdxzdccFrmB1aC70cEeJO4+H7xC5Wj9hgRT/ORB7zGrsAy/786Ssvcnpg2N
++nvVekZYdCPY1WXq2eHqHG356yUuzMvRmA9yG2jUlQ3PsnN6B74WhN3BpBRxKoRU1t9R3exQzWyn
+dixb9O9lLFyS2Jj+b7C27SAHZ/1kBiF2FgA+Q3gTDtXH2iVekcBa5CRqybNYWdinCLNZxPIc5WLE
+gv4FmDftHWy9EAus3EjHsMN0N65Yff0ejMgpaOQihjaeg+gb/EbODDsr5K9UfqPReQPD6ZM8jKym
+lgnApN7TYaTjcUdZ8BUQhEMViUSlBvB66XnlW/tBh24V30MMLh/4P1vasoRcDJiY00ZqCm/oFqnz
+WCF9I/EHqLL7
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vGEkADrE+cTsDKrOxQgHqhoIKQPJ2gTIcwDdf3H4HSXsa6GxJ6bqZDMas6N6GWohJfcZ4ZNRj4kN
+3VYj7tP70XfgJyTID5c/6St9p6yhQrsTCrmBbiue9iuY/w/yjsdmc+ldzMWRi0MKjhiMhB7jFqJR
+rxhbY37JcPygcgUTum7qxy1tRh3Js1X4bC9/XVzR0DADaN/wvLJcbzVdvOG5/CWeM7BR1NdbzKx8
+B5aVCxYYIsASj6ra0fnJdgpqfFZZc/yRyDCD0cHz8KZdk+7w21CrQDbonjeE4tfQO9/cnYONtwPA
+7GTZpU6NvwxMSkuQmhmlXlKzu8rmr7FSwHW1Vw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature823691-Object993176"><etsi:QualifyingProperties Target="#Signature823691"><etsi:SignedProperties Id="Signature823691-SignedProperties926712"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-10-25T14:04:59-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>M9isBLzXqOaVfssFzXtHVPQ8s8M=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>1680643468314724267</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1029953"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

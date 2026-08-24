@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>SEGUROS UNIDOS S.A.</razonSocial><nombreComercial>SEGUROS UNIDOS S.A.</nombreComercial><ruc>1791282264001</ruc><claveAcceso>0705202501179128226400120020020000689208923941810</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>002</ptoEmi><secuencial>000068920</secuencial><dirMatriz>SANTA MARIA E-4333 Y AV. AMAZONAS (ESQUINA) - PISO 7</dirMatriz></infoTributaria><infoFactura><fechaEmision>07/05/2025</fechaEmision><dirEstablecimiento>AV GRAN COLOMBIA 22-252 Y MANZANEROS</dirEstablecimiento><contribuyenteEspecial>0281</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO CL  </razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL Y QUINTA NORTE</direccionComprador><totalSinImpuestos>18448.20</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>18448.20</baseImponible><tarifa>15.0</tarifa><valor>2767.23</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>21215.43</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>21215.43</total><plazo>7</plazo><unidadTiempo>MESES</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>713350</codigoPrincipal><codigoAuxiliar>0.0</codigoAuxiliar><descripcion>VEHICULOS</descripcion><cantidad>1</cantidad><precioUnitario>18448.2</precioUnitario><descuento>0.0</descuento><precioTotalSinImpuesto>18448.2</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Poliza" valor="9922928"/><detAdicional nombre="Endoso" valor="0"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.0</tarifa><baseImponible>18448.20</baseImponible><valor>2767.23</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Email">davidg-alejo@hotmail.com</campoAdicional><campoAdicional nombre="CodInternoSAP">2149220</campoAdicional><campoAdicional nombre="CodSociedad">1078</campoAdicional><campoAdicional nombre="DetInfoAdic">.</campoAdicional><campoAdicional nombre="DetInfoAdic1">VIG. DESDE: 06/05/2025 VIG. HASTA:06/05/2026</campoAdicional><campoAdicional nombre="DetInfoAdic2">CONTRATANTE: MINERA BELORO CL  </campoAdicional><campoAdicional nombre="DetInfoAdic3">OBSERVACION: </campoAdicional><campoAdicional nombre="DetInfoAdic4">SUMA ASEG: 591000.00 - PRIMA NETA: 17730.00</campoAdicional><campoAdicional nombre="DetInfoAdic5">IMP.SUPER: 620.55</campoAdicional><campoAdicional nombre="DetInfoAdic6">IMP.DER.EMISION: 9.00</campoAdicional><campoAdicional nombre="DetInfoAdic7">IMP.SEG.CAMP.: 88.65</campoAdicional><campoAdicional nombre="DetInfoAdic8">OTROS CARGOS CON IVA: 0.00</campoAdicional><campoAdicional nombre="DetInfoAdic9">PLAN DE PAGO: CUOTAS FINANCIADAS - MEDIO DE PAGO: CHEQUE</campoAdicional><campoAdicional nombre="DetInfoAdic10">GRAN CONTRIBUYENTE: NAC-GCFOIOC21-00001155-E  NO SUJETO A RETENCION DE RENTA</campoAdicional><campoAdicional nombre="DetInfoAdic11">020020</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature617544">
+<ds:SignedInfo Id="Signature-SignedInfo774664">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID1029535" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature617544-SignedProperties358176">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>i/1n9lpmBV3w80Z8FHKCOaExaSA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1471925">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>6/vvMX0LIxmVy9hmwKULj3sQWUk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-863395" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>S5CL+YDSipKKHM8sPvJF1/AsF6U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue195853">
+dRCBUWVzxFWqQCcwAonRca1S0wPlRVmrqJTNOu+IJZgOmRXcE8KcxoKivmgKi6ezwcQ0R4RJ17ir
+CvRIpoHstphEWwZQ1qd9n4s2pP7XO5mcW0AU3YkRmzaTrIlvdEYHbcvzF/F3YiSOy3p9uPxNKFVO
+0OMJLy2rJlF8fAqikpOkci92n5U4RM7Iw9uCsfFBYGKPfWT1NB5/az93uabDIP1oEg3Qsy/jIr9i
+8DYUjmRFYtKYubwwrnmFNa+HwI+dtNG4q6yeMBZAvGb9CmBVGnNwJUjoPB1Yo37MvbMm/bc3mai3
+95+lHxyEZF5sSpJmnF5vK7cZ4g7djn+v3N7WJw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1471925">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILXzCCCUegAwIBAgIMAzePi4Wo0CiVd0Q9MA0GCSqGSIb3DQEBCwUAMIG5MRYwFAYDVQQFEw0x
+NzkyNjAxMjE1MDAxMQswCQYDVQQGEwJFQzE2MDQGA1UEChMtQU5GQUMgQVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gRUNVQURPUiBDLkEuMSUwIwYDVQQLExxBTkYgQXV0b3JpZGFkIGludGVybWVk
+aWEgIEVDMTMwMQYDVQQDEypBTkYgSGlnaCBBc3N1cmFuY2UgRWN1YWRvciBJbnRlcm1lZGlhdGUg
+Q0EwHhcNMjMwNjIzMDEwMTA0WhcNMjUwNjIyMDEwMTA0WjCCAXsxHDAaBgNVBAoME1NFR1VST1Mg
+VU5JRE9TIFMuQS4xGjAYBgorBgEEAYKkQgoEDAoxNzA4MjQ0MDIzMTAwLgYDVQQLDCdDZXJ0aWZp
+Y2FkbyBQZXJzb25hIEp1cmlkaWNhIEVDIChGSVJNQSkxGDAWBgNVBCoMD0JZUk9OIFNFQkFTVElB
+TjEWMBQGA1UEYRMNMTc5MTI4MjI2NDAwMTELMAkGA1UEBhMCRUMxEzARBgNVBAUTCjE3MDgyNDQw
+MjMxGDAWBgNVBAQMD1RPUlJFUyBDQU1QQcORQTEzMDEGA1UEAwwqMTcwODI0NDAyMyBCWVJPTiBT
+RUJBU1RJQU4gVE9SUkVTIENBTVBBw5FBMRgwFgYDVQQMDA9HRVJFTlRFIEdFTkVSQUwxKDAmBgkq
+hkiG9w0BCQEWGWRkb21pbmd1ZXpAc3VuaWRvcy5maW4uZWMxEjAQBgNVBAgMCVBJQ0hJTkNIQTES
+MBAGA1UEBwwJScORQVFVSVRPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu5NpXArl
+sBW3NMcxOp7zL1oSONwgGoqtFZBW0oAh7ncAcdMOzgL2DBiuTRoxbKqJOivKE0qZ21gNXybpz7lh
+Rx9ykxL1xmTJWxp49b4PPn92T9laPdVRLRnnvuUe5zJEldc/XFMmNTWZND/mi1F4olEcwlXucuXv
+w5u1YYhpWb4/hC1EvnVc+730qy/VWMsLNtUpxilk6XQkPydAiuoIXGTnGxAnjkWPeiNZw5HJb7O5
+S7hv8CPaHhTX2BdUC8ko+wdqDpTPZTmEmVRy4x9CNVCgNLQuNmRF3hqVOLmxlnqu7sJBJmla3gX6
+pGfBwprHVEdsUrQCS4GLGRhcRZz7aQIDAQABo4IFoDCCBZwwHwYDVR0jBBgwFoAUkq7Uy4K0mcbR
+exFsZerFTWgh+awwHQYDVR0OBBYEFHCo3lvxvPLZFD9k/gVEm0NXiY31MIIBAAYDVR0RBIH4MIH1
+gRlkZG9taW5ndWV6QHN1bmlkb3MuZmluLmVjpIHXMIHUMR8wHQYKKwYBBAGCpEIKAQwPQllST04g
+U0VCQVNUSUFOMRYwFAYKKwYBBAGCpEIKAgwGVE9SUkVTMRgwFgYKKwYBBAGCpEIKAwwIQ0FNUEHD
+kUExGjAYBgorBgEEAYKkQgoEDAoxNzA4MjQ0MDIzMRkwFwYJKwYBBAGDvW4BDApBLTIzMDYyMDIz
+MTMwMQYDVQQDDCoxNzA4MjQ0MDIzIEJZUk9OIFNFQkFTVElBTiBUT1JSRVMgQ0FNUEHDkUExEzAR
+BgNVBAUMCjE3MDgyNDQwMjMwDgYDVR0PAQH/BAQDAgbAMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDBDBQBgNVHR8ESTBHMEWgQ6BBhj9odHRwOi8vY3JsLmFuZi5lcy9jcmwvQU5GSGlnaEFz
+c3VyYW5jZUVjdWFkb3JJbnRlcm1lZGlhdGVDQS5jcmwwggEDBgNVHSAEgfswgfgwgd8GDCsGAQQB
+gqRCAgUBAzCBzjAoBggrBgEFBQcCARYcaHR0cDovL3d3dy5hbmYuZXMvZG9jdW1lbnRvczCBoQYI
+KwYBBQUHAgIwgZQMgZFDZXJ0aWZpY2FkbyBjb25mb3JtZSBhIGxhIGxlZ2lzbGFjacOzbiBkZSBm
+aXJtYSBlbGVjdHLDs25pY2EuIEFudGVzIGRlIGFjZXB0YXJsbyBjb21wcnVlYmUgaW50ZWdyaWRh
+ZCwgbGltaXRhY2lvbmVzLCB2aWdlbmNpYSB5IHVzb3MgYXV0b3JpemFkb3MuMAkGBwQAi+xAAQEw
+CQYHYIVUAQMFCDCBmwYIKwYBBQUHAQEEgY4wgYswJwYIKwYBBQUHMAGGG2h0dHA6Ly9vY3NwLmFu
+Zi5lcy9zcGFpbi9BVjBgBggrBgEFBQcwAoZUaHR0cDovL3d3dy5hbmYuZXMvZXMvY2VydGlmaWNh
+dGVzLWRvd25sb2FkL0FORkhpZ2hBc3N1cmFuY2VFY3VhZG9ySW50ZXJtZWRpYXRlQ0EuY2VyMAwG
+A1UdEwEB/wQCMAAwKAYJKwYBBAGBjxwTBBsMGTU4MDI2Mjg0NjI5OS01MjUwMjAxNzIxMTUwFQYK
+KwYBBAGBjxwTAgQHDAUzNzQ0MjApBgorBgEEAYKkQhMBBBsMGTUyNTAyMDE3MjExNS00ODcwNjUx
+MjIzNDgwGgYKKwYBBAGCpEIDAQQMDAoxNzA4MjQ0MDIzMCMGCisGAQQBgqRCAwoEFQwTU0VHVVJP
+UyBVTklET1MgUy5BLjAdBgorBgEEAYKkQgMLBA8MDTE3OTEyODIyNjQwMDEwEgYKKwYBBAGCpEID
+DAQEDAJFQzAfBgorBgEEAYKkQgMCBBEMD0JZUk9OIFNFQkFTVElBTjAfBgorBgEEAYKkQgMDBBEM
+D1RPUlJFUyBDQU1QQcORQTAfBgorBgEEAYKkQgMFBBEMD0dFUkVOVEUgR0VORVJBTDAZBgorBgEE
+AYKkQgMJBAsMCUnDkUFRVUlUTzAXBgorBgEEAYKkQioBBAkMB1VJTy0wMDcwEwYKKwYBBAGCpEIu
+AQQFDAM3MzAwUAYKKwYBBAGCpEIvAQRCDEA5OTZiMzk5MDA2NGRjZWQzNzZhYTQ5ZWRmZGMxYTZi
+NjZjZDJmMDc0OWJlYjllOTRiNjdkNzYxOGZkMjJhN2RiMEQGCCsGAQUFBwEDBDgwNjAIBgYEAI5G
+AQEwEwYGBACORgEGMAkGBwQAjkYBBgEwCQYHBACL7EkBATAKBggrBgEFBQcLAjANBgkqhkiG9w0B
+AQsFAAOCAgEAR57xQsEePY1cNP5L0o62QVUPQmQdhusVSkYQZJxu8J7onRLRWlVv6KZw5osMj/5F
+tvQWdrBb4HzztPqUAYmI7/Q1n2O79lUQsrHukr9iKEL/enzUG/1fCH1RzgUS9ephAgbWIQOD3kFX
+DfxWtmt1mjGuXfguT2N3181Ri07qcRQMrx+4ytdWS6cI2us4xIkaGKTb+GqRHKkH9zYKsx7C4D9w
+u9gaVzwdjuV6plVWcbyJNnMaImW+T9f1L7kkg0rYv7Mf6j5ITZ4839QQMhKhdftZRkeqgz+lMbCr
+g3+6qPHLhmBxW0HICHZS7GiQFD60xdbOLm/P4EtxScREE1VYnv7dhPLq0Cn8qgYkjrzW8US0b99H
+PL1SOwA0Z1hnyEYG0mt+5qUEsmT1sX8wuCAoY80WN3Qda7BnxyZ1+JSblTqJEBZMtuyU6V1hJL9V
+0L1FU51odlrox0WHG7Nrpzy2BqbVAamlh51A9npN/D64QOiJLMMH8yMCIrwZ9P1P7BsVG+VpYibH
+7pz/DrfmC7M9fm6dyQcRGw5lkjPQk3/RGD7m/60t0CHGgCzmRU9WfRJX0AgRqfQGlGhE2gQQMMDg
+JQ5shAq7i18tt7UfUw7Wwhs/jOHHYtcYxauu55MXT6PdIp7SPml1rQXsgBi0YAnPmB+sS80hIkpu
+Cpm9I/CX86s=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u5NpXArlsBW3NMcxOp7zL1oSONwgGoqtFZBW0oAh7ncAcdMOzgL2DBiuTRoxbKqJOivKE0qZ21gN
+Xybpz7lhRx9ykxL1xmTJWxp49b4PPn92T9laPdVRLRnnvuUe5zJEldc/XFMmNTWZND/mi1F4olEc
+wlXucuXvw5u1YYhpWb4/hC1EvnVc+730qy/VWMsLNtUpxilk6XQkPydAiuoIXGTnGxAnjkWPeiNZ
+w5HJb7O5S7hv8CPaHhTX2BdUC8ko+wdqDpTPZTmEmVRy4x9CNVCgNLQuNmRF3hqVOLmxlnqu7sJB
+Jmla3gX6pGfBwprHVEdsUrQCS4GLGRhcRZz7aQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature617544-Object539535"><etsi:QualifyingProperties Target="#Signature617544"><etsi:SignedProperties Id="Signature617544-SignedProperties358176"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-05-07T13:59:34-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>oA122/XWV14BbS3yrh8DUyHUL4Q=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=ANF High Assurance Ecuador Intermediate CA,OU=ANF Autoridad intermedia  EC,O=ANFAC AUTORIDAD DE CERTIFICACION ECUADOR C.A.,C=EC,2.5.4.5=#130d31373932363031323135303031</ds:X509IssuerName><ds:X509SerialNumber>995623821678493091533112381</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-863395"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

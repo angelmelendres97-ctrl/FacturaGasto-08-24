@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.0.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>AUTOMEKANO CIA. LTDA.</razonSocial>
+<nombreComercial>AUTOMEKANO</nombreComercial>
+<ruc>1891715664001</ruc>
+<claveAcceso>1308202501189171566400120160070000034600038844516</claveAcceso>
+<codDoc>01</codDoc>
+<estab>016</estab>
+<ptoEmi>007</ptoEmi>
+<secuencial>000003460</secuencial>
+<dirMatriz>AV. INDOAMERICA KM. 1</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>13/08/2025</fechaEmision>
+<dirEstablecimiento>AV 25 DE JUNIO Y VIA PASAJE</dirEstablecimiento>
+<contribuyenteEspecial>176</contribuyenteEspecial>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<totalSinImpuestos>4202.91</totalSinImpuestos>
+<totalDescuento>0</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>4202.91</baseImponible>
+<valor>630.44</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0</propina>
+<importeTotal>4833.35</importeTotal>
+<moneda>DOLARES</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>4833.35</total>
+<plazo>0</plazo>
+<unidadTiempo>DIAS</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>101120</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>REFRIGERANTE  VERDE GALON</descripcion>
+<cantidad>2</cantidad>
+<precioUnitario>16.08</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>32.16</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>32.16</baseImponible>
+<valor>4.82</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1017100-ED01</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>FILTRO DE ACEITE (MOTOR 4D20)</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>7.07</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>7.07</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>7.07</baseImponible>
+<valor>1.06</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>10W40-CI4/SL</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>ACEITE 10W40 CI4</descripcion>
+<cantidad>6</cantidad>
+<precioUnitario>7.3</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>43.8</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>43.8</baseImponible>
+<valor>6.57</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1100100XED15</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>INYECTOR WINGLE 7</descripcion>
+<cantidad>4</cantidad>
+<precioUnitario>421.67</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>1686.68</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>1686.68</baseImponible>
+<valor>253</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1105103-P00</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>FILTRO DE COMB WINGLE (6520, 6543, 6600)</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>6.11</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>6.11</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>6.11</baseImponible>
+<valor>.92</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1105110-E06-L</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>FILTRO TRAMPA AGUA</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>20.49</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>20.49</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>20.49</baseImponible>
+<valor>3.07</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1109110-P64</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>FILTRO DE AIRE</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>9.15</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>9.15</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>9.15</baseImponible>
+<valor>1.37</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1111100-ED01B</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>BOMBA ALTA PRESION COMBUSTIBLE 4D20</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>1342.44</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>1342.44</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>1342.44</baseImponible>
+<valor>201.37</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>1207101XED01B</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>VALVULA EGR 4D20D</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>269.73</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>269.73</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>269.73</baseImponible>
+<valor>40.46</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>40.10.773</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>ACEITE 80W90 GL5</descripcion>
+<cantidad>6</cantidad>
+<precioUnitario>6.44</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>38.64</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>38.64</baseImponible>
+<valor>5.8</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>40.10.801</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>ACEITE SAE 75W80 GL-4</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>8.55</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>25.65</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>25.65</baseImponible>
+<valor>3.85</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>40.10.802</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>ACEITE ATF MD3</descripcion>
+<cantidad>5</cantidad>
+<precioUnitario>6.5</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>32.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>32.5</baseImponible>
+<valor>4.88</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>602732</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>BATERIA</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>145.18</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>145.18</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>145.18</baseImponible>
+<valor>21.78</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>8104400XP24BA</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>FILTRO DE CABINA A/C</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>8.77</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>8.77</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>8.77</baseImponible>
+<valor>1.32</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>LIQUIDO-FRENO-D4</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>LIQUIDO FRENO DOT4</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>3</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>9</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>9</baseImponible>
+<valor>1.35</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>AZ</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>CAMBIO DE BOMBA</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>69.96</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>69.96</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>69.96</baseImponible>
+<valor>10.49</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>AZ</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>CAMBIO DE INYECTORES</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>119.79</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>119.79</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>119.79</baseImponible>
+<valor>17.97</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>AZ</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>MANTENIMIENTO PREVENTIVO</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>119.79</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>119.79</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>119.79</baseImponible>
+<valor>17.97</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>4025-4</codigoPrincipal>
+<codigoAuxiliar>4025</codigoAuxiliar>
+<descripcion>REPARACION CAMBIO DE VALVULA</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>216</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>216</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>216</baseImponible>
+<valor>32.4</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Telefono cliente">072984073</campoAdicional>
+<campoAdicional nombre="Email cliente">fernanda.paccha@grupoadmg.com</campoAdicional>
+<campoAdicional nombre="Direccion cliente">URBANIZACION LOS JARDINES CALLE 5TA NORT</campoAdicional>
+<campoAdicional nombre="Ciudad cliente">MACHALA</campoAdicional>
+<campoAdicional nombre="Forma pago">CREDITO</campoAdicional>
+<campoAdicional nombre="Asesor">ANDRES DIAZ</campoAdicional>
+<campoAdicional nombre="Datos unidad">Serie chasis:8L4DBE177PC003885 | Serie motor:GW4D20D22151043267 | Placa:XEA3149 | Modelo:CC1032PS62C | Color:BLANCO | Km:75122 | Marca:GWM</campoAdicional>
+<campoAdicional nombre="Datos orden">Orden:4025 | Codigo cliente:37107 | Fecha inicial:12/08/2025 | Fecha final:13/08/2025</campoAdicional>
+<campoAdicional nombre="Datos propietario">D.I.N.A.S.E.D. DELITOS CONTRA LA VIDA, M | Codigo:29236</campoAdicional>
+<campoAdicional nombre="Referencia">REVISION MECANICA CA</campoAdicional>
+<campoAdicional nombre="Control">4338 | TALLER | KH</campoAdicional>
+<campoAdicional nombre="Telefono establecimiento">073942115</campoAdicional>
+<campoAdicional nombre="TIPO">GRAN CONTRIBUYENTE NAC-GCFOIOC21-00001064-E</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature661640">
+<ds:SignedInfo Id="Signature-SignedInfo459798">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID264010" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature661640-SignedProperties648670">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>+/25tEMBSpcrj8CThl3lTtNCHyE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1986041">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>zMjK8cjf9vGLlxfr5UyoywVzfV0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-323657" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>j3nfjsNh01S4Syobf6in6Cwr9+8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue263656">
+O0PPXaXtxBtNvqeyaKq3SFtjXsCB+vDH54Raxb1taljaQrQSvhBqb/okJ0sxHrBYjFVHAs3rHBt7
+Hh1U0T5kvBfE8gp4OHFLULCrM5AeUixsVuDjpVNg2Denohi4CYvChYjnzW0vxs91VsFn1BiYR3Zq
+LmLmNwFx22NXiycf3ArYVHiUNh0YTIZRlTZLfZ+8hJdCUiQ3lDTFrRU6IGSbiBuByaub8liotfAZ
+cI9ueNm6wYmNYZKTFu3rrq/+zlLYNQKXoYhTuBF98c0KJkLmEyRBdxcq3VjDTRIlnrSGgxK1RwEL
+hj7etTeVKPvAEhV1WXtwN9ZPCgIuhWzlT3OhUw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1986041">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMBTCCCe2gAwIBAgIEeGVntjANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDA4MTYxNDMwMzNaFw0yNjA4MTYxNDMwMzNaMIGpMScw
+JQYDVQQDDB5UQU5JQSBFTElaQUJFVEggQ0FSUkFTQ08gUlVBTk8xIDAeBgNVBAUTFzE4MDMyMzgz
+NDItMTYwODI0MDk0MDIzMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5G
+T1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOaLyJY4RBBPYpUgCgP7Dq+wHafwJ64RWEq5bmAt
+lh0taAFoeZ+tuYgY0XGzcy7IFBC2kSxIzEXtS378fr9X73JX8T2LbX5irXhDCCG1VgqH1CCFj4RN
+Zs7wTu8gWT8bivdGhKKl7n66UqheNYCBAd9dFgTn3WZ6ii6tiRUZF2vbkApqIaDjqXcTCKsXmXif
+5vCkAlc3e7s7wVQufZqtMiOx/aL5+KWlxjoiZlQQhBmq+BlSXSGe+sf/3Yy3lAgaK8Rnk0ojyesJ
+mAYcpmcZev/NPuaG0d+Ho3OVVnkDP7X/TyCZQEwZhm0p6oyHR2/XvSSktro3Z2zMYYUslXFhTFcC
+AwEAAaOCB0Ewggc9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLd
+vY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0
+YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6g
+gbuGgbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERF
+IENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFS
+ZXZvY2F0aW9uTGlzdD9iYXNlMCYGA1UdEQQfMB2BG2NvbnRhYmlsaWRhZEBhdXRvbWVrYW5vLmNv
+bTCCARIGA1UdIASCAQkwggEFMGAGCisGAQQBgqZyAgowUjBQBggrBgEFBQcCAjBEHkIAQwBlAHIA
+dABpAGYAaQBjAGEAZABvACAAZABlACAATQBpAGUAbQBiAHIAbwAgAGQAZQAgAEUAbQBwAHIAZQBz
+AGEwgaAGCisGAQQBgqZyAgQwgZEwgY4GCCsGAQUFBwIBFoGBaHR0cHM6Ly93d3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNh
+ZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBNaWVtYnJvIGRlIEVtcHJlc2EucGRmMIICogYD
+VR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpi
+Y2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEu
+IDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEu
+bmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFU
+QSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBE
+QVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB
+12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1Ymxp
+Y3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBS9
+w+Ljh/ndrz3SBFA3A66tkcMmdDArBgNVHRAEJDAigA8yMDI0MDgxNjE0MzAzM1qBDzIwMjYwODE2
+MTQzMDMzWjALBgNVHQ8EBAMCBeAwIAYKKwYBBAGCpnIDBQQSDBBDT05UQURPUiBHRU5FUkFMMBoG
+CisGAQQBgqZyAwEEDAwKMTgwMzIzODM0MjAZBgorBgEEAYKmcgMJBAsMCUxBIE1FUkNFRDARBgor
+BgEEAYKmcgMiBAMMAS4wIgYKKwYBBAGCpnIDBwQUDBJBViBJTkRPQU1FUklDQSBTIE4wHwYKKwYB
+BAGCpnIDAgQRDA9UQU5JQSBFTElaQUJFVEgwHwYKKwYBBAGCpnIDIAQRDA8wMTAwMDEwMDAwMjg1
+MjIwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBgGCisGAQQB
+gqZyAwMECgwIQ0FSUkFTQ08wIwYKKwYBBAGCpnIDCgQVDBNBVVRPTUVLQU5PIENJQSBMVERBMB0G
+CisGAQQBgqZyAwsEDwwNMTg5MTcxNTY2NDAwMTARBgorBgEEAYKmcgMdBAMMAS4wFQYKKwYBBAGC
+pnIDBAQHDAVSVUFOTzAaBgorBgEEAYKmcgMIBAwMCjA5OTk2NzI2MjgwDQYJKoZIhvcNAQELBQAD
+ggIBAKJloGBbVkujo+CPNxpxdfvpBrdmReWHTYv7Cyq7T500vZEZ9PvS8VZ8SBaMQvF+igUaqpzt
+dtuKOkA3T3GsDApQYrUvjD7zfBEa3mNLaSOBtuLr0TX5fFUFybiYJQ3FJbciy55AZk5+ES8bz6Jd
+G4bXWcRHvLRQv595CUMkZHXX9dENh56iqMbnzNEylBDpNNrQO9SBPptE9/fQvug+wqdYxIdz/K/l
+xBzWuVYEClwXKcFi6YuGRSUDK8Qb3zssFlEPGabihHfvdO6kue/jvx4Sf4dsUCuGTIrl0JjIiRpg
+KuZ2hwb17iF9vYisURmH4C+gZqLr2msrJXBnhREqEu+xM7ElNPmQ5WEUrH9Y7yVtT9BWT+COhPHy
+0jr3HjBPz0FnX2mvtHE0OucRLSuQiqA/KBCzLSZFYgsSJnNJNWPrahDbhim0GT9ioaT3jxEAfYIY
+qsW+vhTynblZVLdaQuFeLJyuQb1F4eWnxPbktHvHPtRPh91r6rCCQCu5SgdBFJ3mE+O81d9CbAxC
+Yld4PX+Biis0pYWDClJ8WqmylQcb/JNnd4+03mE1rWMvI6kSrNhXCaKNWsx8r7XUpQNs1iWt+dp2
+XJ0g/tU09fnSEe97lX7CqkI0zfj3HIjORMkfDGdumMmhOQZZiUuynrg1OPcVAxTkL9dd34Ns5dIW
+FqW7
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5ovIljhEEE9ilSAKA/sOr7Adp/AnrhFYSrluYC2WHS1oAWh5n625iBjRcbNzLsgUELaRLEjMRe1L
+fvx+v1fvclfxPYttfmKteEMIIbVWCofUIIWPhE1mzvBO7yBZPxuK90aEoqXufrpSqF41gIEB310W
+BOfdZnqKLq2JFRkXa9uQCmohoOOpdxMIqxeZeJ/m8KQCVzd7uzvBVC59mq0yI7H9ovn4paXGOiJm
+VBCEGar4GVJdIZ76x//djLeUCBorxGeTSiPJ6wmYBhymZxl6/80+5obR34ejc5VWeQM/tf9PIJlA
+TBmGbSnqjIdHb9e9JKS2ujdnbMxhhSyVcWFMVw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature661640-Object476947"><etsi:QualifyingProperties Target="#Signature661640"><etsi:SignedProperties Id="Signature661640-SignedProperties648670"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-08-13T10:24:11-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>suVVLZjWk0xPFyk20NrHXqdTCfY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>2019911606</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-323657"><etsi:Description>comprobantes</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

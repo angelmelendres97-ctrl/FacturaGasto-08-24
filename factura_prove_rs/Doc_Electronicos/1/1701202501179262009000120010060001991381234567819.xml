@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>DINAMICANETWORK ADMINISTRACION Y NEGOCIOS CIA LTDA</razonSocial><ruc>1792620090001</ruc><claveAcceso>1701202501179262009000120010060001991381234567819</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>006</ptoEmi><secuencial>000199138</secuencial><dirMatriz>MARISCAL SUCRE / PSJE JOSÉ GALDOZ/104 / CALLE YANEZ PINZÓN</dirMatriz></infoTributaria><infoFactura><fechaEmision>17/01/2025</fechaEmision><dirEstablecimiento>MARISCAL SUCRE / PSJE JOSÉ GALDOZ/104 / CALLE YANEZ PINZÓN</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>Dir: SN</direccionComprador><totalSinImpuestos>0.56</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>0.56</baseImponible><valor>0.08</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>0.64</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>0.64</total></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>1</codigoPrincipal><codigoAuxiliar>SER001</codigoAuxiliar><descripcion>Valor por el cargo de Gestion de Cobranza, realizado a nombre de la CNT-EP, que ya fue pagado en la factura Nº 792153404 del servicio Nº 72984073 por el pago atrasado de los servicios fijos yo moviles del mes de Julio</descripcion><cantidad>1.00</cantidad><precioUnitario>0.560000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>0.56</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>0.56</baseImponible><valor>0.08</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Sistema Contable">Neola v.1.1</campoAdicional><campoAdicional nombre="Catastro">CONTRIBUYENTE RÉGIMEN GENERAL</campoAdicional><campoAdicional nombre="comentario">Valor por el cargo de Gestion de Cobranza, realizado a nombre de la CNT-EP, que ya fue pagado en la factura Nº 792153404 del servicio Nº 72984073 por el pago atrasado de los servicios fijos y/o moviles del mes de Julio</campoAdicional><campoAdicional nombre="Dirección">SN</campoAdicional><campoAdicional nombre="Email">marcelohet@hotmail.com</campoAdicional><campoAdicional nombre="Teléfono">SN</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature559729">
+<ds:SignedInfo Id="Signature-SignedInfo346661">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID163026" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature559729-SignedProperties545797">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>7Q626UltCRz+efH/Ru8vMGhwGSI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1505976">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>uh3Vl0T0aIIsFap8Z2e+h0FhPzc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-829956" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>JNRsyp6Ljvo5kEwfwQXgDsQtUkM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue1021739">
+MAsUvCW3gNtx062c17vcwp3xppMiHf7v9IMjwv83ZmAsGDMEF5JQLITp8cpl64J+tJQn1aC5a00x
+4QTfeUqYVOuPkjdDA6V1nEO/vFutyt2SgiN7tdpry06wGs9g9GbpTBHJGX3T4LZxZA0LBU3TU+cg
+fJ5IMZRoDzkU9aBpeSKZ3Lc/YoBYXg2ZVaM7vd48JElWZzV6/933QNGvCGGK6uFOwaWn8ZmNuoIb
+OJR/OCz/7rHVAYnAAwb7z4gjJ7ms9b3QYWpYBhzRpTZ9O+0rMXD4BAmUtM/wzLx4oIrD335mgdhh
+3haAeWczL1IskewmuFVru8GFpEqiA9qXVT2E7Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1505976">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ4TCCB8mgAwIBAgIIRHlvU8pZoGowDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMDQyMTE3MDQwMFoXDTI1MDQyMDE3MDQwMFowge8xCzAJBgNVBAYTAkVDMT0wOwYDVQQKDDRE
+SU5BTUlDQU5FVFdPUksgQURNSU5JU1RSQUNJT04gWSBORUdPQ0lPUyBDSUEuIExUREEuMRgwFgYD
+VQQMDA9HRVJFTlRFIEdFTkVSQUwxFTATBgNVBAQMDEFSQ0UgWUFOSkFSSTEUMBIGA1UEKgwLTUFS
+SU8gT0NJRUwxGTAXBgNVBAUTEElEQ0VDLTE3MjM0OTUwNzExITAfBgNVBAMMGE1BUklPIE9DSUVM
+IEFSQ0UgWUFOSkFSSTEcMBoGA1UEYQwTVkFURUMtMTc5MjYyMDA5MDAwMTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKNw2dNX2eRjnvaA7wZGTWQR7PKDHwaM8vgyaG37661KEkD3qH+M
+9ABh4TJ+GP00mpAywuxY3jdRE/WL5c+lw2qQ/+Qfl74092ZDWq4ngN9rIzWI2QVK5IbMSHOv5STM
+y4zClzNE6mOdgRZSMV0Vvw5EqJb9iJZ+PkWjvPM7XvOh3mBl4F3Ihotiq/T7hG4wyZpy0qGEWuFW
+topjswAMKGfqHNlPz/M/Qb2x/v4e2VE4gid61nis07c3Zwi+PkPHMGek6upylhOqxlrviRwpmokE
+ZZF5jk4cpHfIPyizQHIab6ofP52YvKQyfIdJPhnzQKspOWbb9NJ/eGeQDu9/axUCAwEAAaOCBLQw
+ggSwMBsGCysGAQQBgvE2ZgMBBAwMCjE3MjM0OTUwNzEwHgYLKwYBBAGC8TZmAwsEDwwNMTc5MjYy
+MDA5MDAwMTCB1wYIKwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRh
+Y2EuY29tL3B1YmxpYy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQw
+NgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2
+BggrBgEFBQcwAYYqaHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0G
+A1UdDgQWBBS6ZD3riTYpgRjBENXrxxSueYj7bzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X
+52BzzgdGqeKjaPDhEbJ0knP9MIGOBgNVHSAEgYYwgYMwgYAGDCsGAQQBgvE2ZgIDATBwMDcGCCsG
+AQUFBwIBFitodHRwczovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMDUGCCsG
+AQUFBwICMCkMJ0NFUlRJRklDQURPIERFIFJFUFJFU0VOVEFOVEUgRU4gQVJDSElWTzCBjwYDVR0f
+BIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Ey
+c3Vib3JkaW5hZGEuY3JsMECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3Br
+aS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEF
+BQcDAgYIKwYBBQUHAwQwggH1BgNVHREEggHsMIIB6IEfbWFyaW8uYXJjZUBkaW5hbWljYS1uZXR3
+b3JrLmNvbaAbBgsrBgEEAYLxNmYDAaAMDAoxNzIzNDk1MDcxoBwGCysGAQQBgvE2ZgMCoA0MC01B
+UklPIE9DSUVMoBUGCysGAQQBgvE2ZgMDoAYMBEFSQ0WgGAYLKwYBBAGC8TZmAwSgCQwHWUFOSkFS
+SaAgBgsrBgEEAYLxNmYDBaARDA9HRVJFTlRFIEdFTkVSQUygQgYLKwYBBAGC8TZmAwegMwwxUFNK
+RSBKT1NFIEdBTERPWiAxMDQgQ0FMTEUgWUFORVogUElOWk9OIEVERiBRVUVTVKAfBgsrBgEEAYLx
+NmYDCKAQDA4wMDU5Mzk5ODYyMzI5MqAWBgsrBgEEAYLxNmYDCaAHDAVRVUlUT6BFBgsrBgEEAYLx
+NmYDCqA2DDRESU5BTUlDQU5FVFdPUksgQURNSU5JU1RSQUNJT04gWSBORUdPQ0lPUyBDSUEuIExU
+REEuoB4GCysGAQQBgvE2ZgMLoA8MDTE3OTI2MjAwOTAwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOg
+JAYLKwYBBAGC8TZmAzKgFQwTUkVQUkVTRU5UQU5URSBMRUdBTKAYBgsrBgEEAYLxNmYDM6AJDAdB
+UkNISVZPMA0GCSqGSIb3DQEBCwUAA4ICAQBzCqgT9Nw2JkqmScqI5wAJdOrdehyuFItXAKzqDpJ4
+CenRMAPu+xnd5TV5kyfU67zJ7bASpJzWyj5VKFN7wdMmcB19ApDova5nk/i0/CijEBOon9TsKAGQ
+oKwkGoCP23/8rL0GCUrPqB+7CHAxK4X5J+VReD9IkdjKQOH/mdfyU7BP+RJ0XUa9g2e+B0TzdWqm
+t0aVeg9ODG/S2xgZLKEb+oGyxs9tq8rC1CuIs694Mjv++Entp2BttHHs2isQnsbN1eKKih9G6WDI
+a3+d8VXkMfK7U9nhZq/QxUg5Rh4KOu/9wYQuTEiChz9O/KktaUrucplzAjDG9vW4k5DPJE8t0YTG
+0pAWAZGEFmeWWwwQZaHJ2FUc7fSM0sEF61mBqKhTPWY0UJNnS6lK+j+UN/wUDKm5O5IrJlXhOCmZ
+Q5qhDr+TZco06EOQ+hO8uxXdjJlkGyfkGhkZruLVOZOjAIRjC/x9Zf7qubeuq8+Nucnl8xdGxzso
+E/p1G75hXC/3OPy17GzWECoAM3JrDCZQkz1ijfEk0Nd5L1H/WdVn67yVlxzQ3/y0rlak2P37ocdg
+U0/OST7ufpwCwF56Pe6hu3rnU9PSyxfGRDqDO/hQB6ag7YFH45VcxKKoblqmCfIeBdkZG72nVS7i
+GDree/kbmL3sGDUphgRy2hePQ5XKsx3Wfw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+o3DZ01fZ5GOe9oDvBkZNZBHs8oMfBozy+DJobfvrrUoSQPeof4z0AGHhMn4Y/TSakDLC7FjeN1ET
+9Yvlz6XDapD/5B+XvjT3ZkNarieA32sjNYjZBUrkhsxIc6/lJMzLjMKXM0TqY52BFlIxXRW/DkSo
+lv2Iln4+RaO88zte86HeYGXgXciGi2Kr9PuEbjDJmnLSoYRa4Va2imOzAAwoZ+oc2U/P8z9BvbH+
+/h7ZUTiCJ3rWeKzTtzdnCL4+Q8cwZ6Tq6nKWE6rGWu+JHCmaiQRlkXmOThykd8g/KLNAchpvqh8/
+nZi8pDJ8h0k+GfNAqyk5Ztv00n94Z5AO739rFQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature559729-Object843211"><etsi:QualifyingProperties Target="#Signature559729"><etsi:SignedProperties Id="Signature559729-SignedProperties545797"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-01-17T12:30:12-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>8nYJGKYviVB0uQmzcsgKTEt1ue4=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>4934097272428929130</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-829956"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>DOMINGUEZ VALLEJO VERONICA BEATRIZ</razonSocial>
+        <ruc>1710351873001</ruc>
+        <claveAcceso>2012202501171035187300120011000000000763372470511</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000076</secuencial>
+        <dirMatriz>Barrio: LA FLORESTA Calle: MADRID Numero: E14-144 Interseccion: CORUÑA </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>20/12/2025</fechaEmision>
+        <dirEstablecimiento>Barrio: LA FLORESTA Calle: MADRID Numero: E14-144 Interseccion: CORUÑA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>7973.34</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>7973.34</baseImponible>
+                <valor>1196.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>9169.34</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>7176.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>003</codigoPrincipal>
+            <descripcion>HONORARIOS PROFESIONALES 2</descripcion>
+            <cantidad>2.00</cantidad>
+            <precioUnitario>3986.67</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>7973.34</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>7973.34</baseImponible>
+                    <valor>1196.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+        <campoAdicional nombre="MINERA BELORO ">HONORARIOS PROFESIONALES DESDE EL MES DE  NOV Y DIC 2025</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>0Jtgqy1hS/Dd3VdRVHHL8sfEAZFiyvk18xil+StYeE0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RmPCzGL7ERhUo0iZLXEMczKEh/Emd53nsI/QWleOeus=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb-sigvalue">p6sXy2vpfsHI8WBcj1mReg5E8rPH796biT/SnscC/xVM6Z3iQJkDQaDGQDiIoglTihJwu/Bx9vfXtIHAB7zH5GCQeVtPWpy56Dv6KOubygK1IaAtpaKHZyFtx7OTP5YQfm2b0/gOC/RliczNBF2Mf2/pmg0r6GSCuQVzMd0YyFzG7Qys8pqJIKqTI6I5hQXEOzwOxBYgz/jitwkMCxopj91ePXSwS+leBiX3xbL7QFpNFSC+quv12YyUkM0/v9r3o7+Cq5A1y0W8iiwBPG46Ammx6t8trmAYpzXpYKAwdUUefDVJn5tGQ763WBF0OdfnT4DlkJlijyWTXmncPjiNfg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb"><xades:SignedProperties Id="xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-20T18:24:26.888-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>BvShu51pGYCnTE7PRy0ebx0Y3Qsai6xZxUlkZ6RzQdI=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3254968541</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-a20a53b0-ea31-4ee1-9ae4-ab431fbb97fb-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

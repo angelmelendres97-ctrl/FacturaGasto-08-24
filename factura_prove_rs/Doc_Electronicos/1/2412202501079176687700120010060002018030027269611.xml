@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>FERREARMIJOS S A</razonSocial>
+    <nombreComercial>FERREARMIJOS S A</nombreComercial>
+    <ruc>0791766877001</ruc>
+    <claveAcceso>2412202501079176687700120010060002018030027269611</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000201803</secuencial>
+    <dirMatriz>AVENIDA LA FERROVIARIA S/N Y MARY VILLAVICENCIO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>24/12/2025</fechaEmision>
+    <dirEstablecimiento>AVENIDA LA FERROVIARIA S/N Y MARY VILLAVICENCIO</dirEstablecimiento>
+    <contribuyenteEspecial>0745</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>CDLA LOS JARDINES CALLE GUAYAQUIL Y 5TA NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>730.43</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>730.43</baseImponible>
+        <valor>109.56</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>839.99</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>839.99</total>
+        <plazo>5</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>020943</codigoPrincipal>
+      <descripcion>TANQUE GLOBAL 65GL FIBRA/VERT H/NEUMAT (C2N-65GV) (01HID0871)</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>730.4300</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>730.43</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>730.43</baseImponible>
+          <valor>109.56</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Dirección">CDLA LOS JARDINES CALLE GUAYAQUIL Y 5TA NORTE ESQUINA</campoAdicional>
+    <campoAdicional nombre="Email">diego.alvear@grupodmg.ec</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1031161">
+<ds:SignedInfo Id="Signature-SignedInfo496583">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID674175" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1031161-SignedProperties502091">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>TGjhw5qdWXvIz9Q4YPMPVK/RsTw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1394001">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>4OA+bA0Pjn8fi50dBiKIPPadUxw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-231015" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>a2dcxL77CIUER3F2x9YXEITjEd8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue711827">
+fk9CnqCi1GFDc6Ehxb33+5YhVVxDUDtaDMFJGP8UbPtELNBVb5AwAf8mBHLsdGLTkj2xTGRwtcYx
+kDBg6YYptCV87RHbL+LHEdGkl1fmshSEwPbCdMXUeQ21VDSdvANCWIGwH/JMgegarg1DObU/yj8w
+MNj7LiRAcJ6TTf8ghdUPWLVw8sv2TEP9Rwm2+B4LSqEB4/PGFGz361xobcGfJ/b952ZDqH7up/Cu
+70VVvw/mu4605yEQORCQVbhRmhLuVPF0bbEEQPDjJhvIas6lFWRIkK8v+LkBCqVv6eeY3sk+Ecy5
+K0UzgzDSnrj9viAjjOo9qVcOiVm/gnm1/55R8Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1394001">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJuzCCB6OgAwIBAgIIMhahol1LCRUwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDUwODIwMjcwMFoXDTI2MDUwODIwMjcwMFowgdcxCzAJBgNVBAYTAkVDMRkwFwYDVQQKDBBG
+RVJSRUFSTUlKT1MgUyBBMRgwFgYDVQQMDA9HRVJFTlRFIEdFTkVSQUwxGDAWBgNVBAQMD0FSTUlK
+T1MgQ0FSUklPTjEXMBUGA1UEKgwOSElUTEVSIFZJTklDSU8xGTAXBgNVBAUTEElEQ0VDLTA3MDMz
+MDYyMTcxJzAlBgNVBAMMHkhJVExFUiBWSU5JQ0lPIEFSTUlKT1MgQ0FSUklPTjEcMBoGA1UEYQwT
+VkFURUMtMDc5MTc2Njg3NzAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSj4kmM
+rhhbnFGH+EgLGFGpWor8ahEIFAj9kmOj7qI79gTGrUuyedS1eZgNs0ARxBQklwqvQXyAgJCcVdHf
+wk3AHmgZhgahsklWe2naQoWE/SYofqgNrMg7qqKotzYMsKYC+kEgZnpXB7Laq7/B2eRVV9K7cznC
+O0PGYXmQFMfYjY/ZHTSIizAhTQ2i9sYWPQDcU97AGDNaKR1a0dspbAwBIIZvLbDoScAqpLL9hlRJ
+0hTaTlzkaPGlM/j3sjSEyVHVpOPzmsT614LpIwd5OJAranipcBqTHMCCg9TWeGNVFVclgukykFMr
+P6QdKZOjH8bJNCz0TO/mBp9R5VYgEmcCAwEAAaOCBKYwggSiMBsGCysGAQQBgvE2ZgMBBAwMCjA3
+MDMzMDYyMTcwHgYLKwYBBAGC8TZmAwsEDwwNMDc5MTc2Njg3NzAwMTCB1wYIKwYBBQUHAQEEgcow
+gccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9kb3dubG9hZC90
+c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3Nw
+MS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYqaHR0cDovL29jc3Ay
+LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBRQyVVZGzSj3Rkix2B9SPRE
+Kz9V1TAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDhEbJ0knP9MIGOBgNV
+HSAEgYYwgYMwgYAGDCsGAQQBgvE2ZgIDATBwMDcGCCsGAQUFBwIBFitodHRwczovL3d3dy51YW5h
+dGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMDUGCCsGAQUFBwICMCkMJ0NFUlRJRklDQURPIERF
+IFJFUFJFU0VOVEFOVEUgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3Js
+MS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3JsMECgPqA8hjpo
+dHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3Js
+MA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggHnBgNVHREE
+ggHeMIIB2oEWZW1pbGlhbm85MjIwQGdtYWlsLmNvbaAbBgsrBgEEAYLxNmYDAaAMDAowNzAzMzA2
+MjE3oB8GCysGAQQBgvE2ZgMCoBAMDkhJVExFUiBWSU5JQ0lPoBgGCysGAQQBgvE2ZgMDoAkMB0FS
+TUlKT1OgGAYLKwYBBAGC8TZmAwSgCQwHQ0FSUklPTqAgBgsrBgEEAYLxNmYDBaARDA9HRVJFTlRF
+IEdFTkVSQUygWQYLKwYBBAGC8TZmAwegSgxIQ0FMTEU6IEFWRU5JREEgTEEgRkVSUk9WSUFSSUEg
+Tk1FUk86IFMvTiBJTlRFUlNFQ0NJTjogTUFSWSBWSUxMQVZJQ0VOQ0lPoB8GCysGAQQBgvE2ZgMI
+oBAMDjAwNTkzOTgxMDIzNTQwoBgGCysGAQQBgvE2ZgMJoAkMB01BQ0hBTEGgIQYLKwYBBAGC8TZm
+AwqgEgwQRkVSUkVBUk1JSk9TIFMgQaAeBgsrBgEEAYLxNmYDC6APDA0wNzkxNzY2ODc3MDAxoBMG
+CysGAQQBgvE2ZgMMoAQMAkVDoCQGCysGAQQBgvE2ZgMyoBUME1JFUFJFU0VOVEFOVEUgTEVHQUyg
+GAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAMctr4+T38HfM3pT7
+sm2XHEQlkgbqRQr65fipKl4NYTc9YxcceSGhgmdPhY03EiyTHT+lgAwQy55OSZLmnwuceXPOjFYc
+GhsUpNk3YnOWbUFXBjFy5PzViBCI61UBuc1DjB/l+8rmLOUNt/hGt8GoJZSsKs1hnrXcadfukSuB
+wFs6I9U1oWTzZeMkQSkeUa+yDYYHQgn54+fzFtdi9YUXDs+kwttxE7nUP3HjUank+d4jA//8nccY
+RzQvl+VGECadgs6SK3nmLVKPLx8if2NVp0AE6l3fEOGAt3tVBLvpphb48raR5VccQFZ42f9YRYoR
+i0lJDFl6wkpjsuCwCYVWdu7Rxss1Io9LXFJu1inbVT+Ol/yAasvyrj+68fN+rA8GbYt7BmeVe8bF
+jrP97RLNvAox9e4UtYTG88qbAKHBDR0k+MQQ7jLve8xQjlTKxRy/mLZYAw81rbJ5h3fkKX4DU/Ln
+RRpdUhFtajudxGEtwUYy/NywD7pJ/LHcWVkxTqB3l6+3aqQqgjY0vDdzf1P3NlJIfEMy0Nu0wElh
+fMAEC1OQtv0ND8nAnBAw5MqtykLmLboFl/ewpuT7kmo6VYdGeiJkdcGLlzIZJLT09Y0zv+cyTMti
+1RZ2o+MwcGp1LdVMwY0ixS1zsAj3hfWRj4IEQ1tqjfW5Ko/u5smSpAx3pKA=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tKPiSYyuGFucUYf4SAsYUalaivxqEQgUCP2SY6Puojv2BMatS7J51LV5mA2zQBHEFCSXCq9BfICA
+kJxV0d/CTcAeaBmGBqGySVZ7adpChYT9Jih+qA2syDuqoqi3NgywpgL6QSBmelcHstqrv8HZ5FVX
+0rtzOcI7Q8ZheZAUx9iNj9kdNIiLMCFNDaL2xhY9ANxT3sAYM1opHVrR2ylsDAEghm8tsOhJwCqk
+sv2GVEnSFNpOXORo8aUz+PeyNITJUdWk4/OaxPrXgukjB3k4kCtqeKlwGpMcwIKD1NZ4Y1UVVyWC
+6TKQUys/pB0pk6Mfxsk0LPRM7+YGn1HlViASZw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature1031161-Object457501"><etsi:QualifyingProperties Target="#Signature1031161"><etsi:SignedProperties Id="Signature1031161-SignedProperties502091"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-24T09:08:09-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>wqDvnVnPWkEvaJHgXPwXaRA5TJ0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>3609249870106003733</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-231015"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

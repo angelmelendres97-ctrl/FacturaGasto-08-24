@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>JIMENEZ ASTUDILLO REY CLOTARIO</razonSocial>
+<nombreComercial>REPUESTOS PARA MINERIA "JIMENEZ"</nombreComercial>
+        <ruc>0701104309001</ruc>
+        <claveAcceso>0508202601070110430900120010020000069421234567814</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000006942</secuencial>
+        <dirMatriz>ROCAFUERTE E/NAPOLEON MERA Y 23 ABRIL</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>05/08/2026</fechaEmision>
+        <dirEstablecimiento>ROCAFUERTE E/NAPOLEON MERA Y 23 ABRIL</dirEstablecimiento>
+        <contribuyenteEspecial>011</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>BELORO CL</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <totalSinImpuestos>1452.17</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+        <totalImpuesto>
+            <codigo>2</codigo>
+            <codigoPorcentaje>4</codigoPorcentaje>
+            <baseImponible>1452.17</baseImponible>
+            <valor>217.83</valor>
+        </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1670.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+        <pago>
+            <formaPago>20</formaPago>
+            <total>1670</total>
+            <plazo>3.00</plazo>
+            <unidadTiempo>Meses</unidadTiempo>
+        </pago>
+    </pagos>
+    <valorRetIva>0</valorRetIva>
+    <valorRetRenta>0</valorRetRenta>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>BAL ACET007</codigoPrincipal>
+            <codigoAuxiliar>BAL ACET007</codigoAuxiliar>
+            <descripcion>BALDE  AROIL ARDRILL 150 5GLNS</descripcion>
+            <cantidad>5.0000</cantidad>
+            <precioUnitario>59.130000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>295.65</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>295.65</baseImponible>
+                    <valor>44.35</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>BARRAS 001</codigoPrincipal>
+            <codigoAuxiliar>BARRAS 001</codigoAuxiliar>
+            <descripcion>BARRA CONICA  EPIROC 4" 90504865 4.2 Kg 1/20</descripcion>
+            <cantidad>10.0000</cantidad>
+            <precioUnitario>100.000000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>1000.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>1000.00</baseImponible>
+                    <valor>150.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>ALAB 02</codigoPrincipal>
+            <codigoAuxiliar>ALAB 02</codigoAuxiliar>
+            <descripcion>ALAMBRE GALVANIZADO ROLLO 100  IDEAL  # 14 (2.15MM)*14KLS</descripcion>
+            <cantidad>1.0000</cantidad>
+            <precioUnitario>104.350000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>104.35</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>104.35</baseImponible>
+                    <valor>15.65</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>MAG029</codigoPrincipal>
+            <codigoAuxiliar>MAG029</codigoAuxiliar>
+            <descripcion>MANG COVALCA LONA ROJA 300PSI  1/2"</descripcion>
+            <cantidad>10.0000</cantidad>
+            <precioUnitario>5.220000</precioUnitario>
+            <descuento>.000000</descuento>
+            <precioTotalSinImpuesto>52.17</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>52.17</baseImponible>
+                    <valor>7.83</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">CDLA LOS JARDINES</campoAdicional>
+        <campoAdicional nombre="Email">beloro.facturacion@grupodmg.ec</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature853877">
+<ds:SignedInfo Id="Signature-SignedInfo1014432">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID817974" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature853877-SignedProperties320540">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>7D4kO1iRfZPfX6JkLH1cw5UfCiw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1161186">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>eFfSzN/dNOODE7O4pNv3aTzCtXM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-37542" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>2SRBVNgFols3Sp09E0VD/Mr02NA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue72371">
+UsP40UWJJGf3yQbsU0bJNlHAvB4la6/5SU79DHutUlK3YhEebstXUapFHigrHX+hbzotMq/Rh3pH
+Bekfj8JrN7c4IA35lht0i9tbqFQn+Q1pVGBVLmLne2HObsRyu6VuMorCfvZcQpcJ35KTRB4tC67H
+GiRuD4/YdoCWDsBjEWihATIhaaYfBKw89P2q82KsG7Ob9yPa/1jlgC2b+XBD9RTZjPMI2U8oWM3X
+JqtZZ4L07c3tvLux9bgnnKzJ1AA3rHzowq4mw7nwgCEdUOABSmsIQ4veMADcStsP2+RxxIA3eZp7
+WbZYqnduVudt2UJnGPrwg06vFKeOBDsdi9b2Fg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1161186">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIDjCCBvagAwIBAgIFAMIEKz8wDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI2
+MDEyNzE0NDgzNloXDTMxMDEyNjE0NDgzNlowgaQxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjEoMCYGA1UEAwwf
+UkVZIENMT1RBUklPICBKSU1FTkVaIEFTVFVESUxMTzEuMCwGCSqGSIb3DQEJARYfa2FyaW5hX3hp
+b21haXJhMTg5MUBob3RtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMap
+YRJz2muYOitjXJEeTwoaDmeUJrdU+HapDAChYcQhril6KhOSaD6BHWjIvqzKmOthrPSypEtGaHHJ
+x3HJ3MWQB/K+HxQylX/IrDbg/bUtW/be2sNLeWVDEigV2sXK40gzGTvjrH78IPSgGWWfta1nc7nf
+VDSNVrWtumMPL0yjZCN/W9nc1BLMexNJme9RyOHiv+5do7D/wlllS8S1vgOJBTd3egRzmjyHJbLK
+Z3rcy3YMixiDMg4qHkNGRpCToG80LLi0ORJ6C3sWCPniq1U0VdqDp2FUJTtex4fGvn/gETVIPgao
+ZyVKoh1TlPFGQTKz/NCi12bWRpfVQV9wBzcCAwEAAaOCBKEwggSdMBoGCisGAQQBg892AwEEDAwK
+MDcwMTEwNDMwOTAcBgorBgEEAYPPdgMCBA4MDFJFWSBDTE9UQVJJTzAXBgorBgEEAYPPdgMDBAkM
+B0pJTUVORVowGQYKKwYBBAGDz3YDBAQLDAlBU1RVRElMTE8wOQYKKwYBBAGDz3YDBwQrDClST0NB
+RlVFUlRFIFNOIDIzIERFIEFCUklMIFkgTkFQT0xFT04gTUVSQTAaBgorBgEEAYPPdgMIBAwMCjA5
+OTk3OTQ4MDIwFwYKKwYBBAGDz3YDCQQJDAdNYWNoYWxhMBcGCisGAQQBg892AwwECQwHRUNVQURP
+UjAdBgorBgEEAYPPdgMLBA8MDTA3MDExMDQzMDkwMDEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU
+L97p7BjZdqX9cw7Xkz8pvqIbxrwwHwYDVR0jBBgwFoAU7XZIsArxyYaGDExGZNIG+MzVvT4wDgYD
+VR0PAQH/BAQDAgXgMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6L2VuZXh0Mi54eXovTGF6emF0ZUNB
+Mi9lbWlzb3JDQTIuY3JsMIIBhAYDVR0gBIIBezCCAXcwfAYKKwYBBAGDz3YCATBuMGwGCCsGAQUF
+BwICMGAaXkVsIHByZXNlbnRlIGNlcnRpZmljYWRvIGVzIGVtaXRpZG8gZW4gYmFzZSBhIGxhcyBw
+b2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENpYS4gTHRkYS4wgfYGCSsGAQQBg892
+AjCB6DBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0aWRvIGVu
+IGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEu
+MHgGCCsGAQUFBwICMGwaakVsIHByZXNlbnRlIGNlcnRpZmljYWRvIHN1Ym9yZGluYWRvIGVzIGVt
+aXRpZG8gZW4gYmFzZSBhIGxhcyBwb2zDrXRpY2FzIGRlIHNlZ3VyaWRhZCBkZSBMYXp6YXRlIENp
+YS4gTHRkYS4wggEjBgNVHREEggEaMIIBFqAaBgorBgEEAYPPdgMBoAwMCjA3MDExMDQzMDmgHAYK
+KwYBBAGDz3YDAqAODAxSRVkgQ0xPVEFSSU+gFwYKKwYBBAGDz3YDA6AJDAdKSU1FTkVaoBkGCisG
+AQQBg892AwSgCwwJQVNUVURJTExPoDkGCisGAQQBg892AwegKwwpUk9DQUZVRVJURSBTTiAyMyBE
+RSBBQlJJTCBZIE5BUE9MRU9OIE1FUkGgGgYKKwYBBAGDz3YDCKAMDAowOTk5Nzk0ODAyoBcGCisG
+AQQBg892AwmgCQwHTWFjaGFsYaAXBgorBgEEAYPPdgMMoAkMB0VDVUFET1KgHQYKKwYBBAGDz3YD
+C6APDA0wNzAxMTA0MzA5MDAxMDwGCCsGAQUFBwEBBDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL2Vu
+ZXh0Mi54eXo6ODc3Ny9hZHNzL29jc3AwDQYJKoZIhvcNAQELBQADggEBAKz3TdM0yziEsCSTVxhB
+h+hUbHMXxBcFk5jMvs+yhuz+MhCznfvHqDSD4LEiBySf/4VS6ur8FovPATjsiCEloMji6c6SnNtK
+L1atjdKchMRwWDU6CEamT3yKbwL/Lv+V2y3r7aGps2bVBEV1s1cM/SLIhSFMKGbCol60RVxBpKjq
+8sXRY5zjpyK3wrOmxDsyxK8grPHQpuJw/gYzB0mHdV0QvH9Yhpk7kAyh6SmjefofS7aoh59cSltf
+MNsKlWGBpUQiNPMCnn8UHwcnm58bYksaylcAdmYFkJk8OlWZbCqLaGQ3mTp+LMuGBSxfuQkbAQpt
+RJbSZWG5IPafZenANzc=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xqlhEnPaa5g6K2NckR5PChoOZ5Qmt1T4dqkMAKFhxCGuKXoqE5JoPoEdaMi+rMqY62Gs9LKkS0Zo
+ccnHccncxZAH8r4fFDKVf8isNuD9tS1b9t7aw0t5ZUMSKBXaxcrjSDMZO+Osfvwg9KAZZZ+1rWdz
+ud9UNI1Wta26Yw8vTKNkI39b2dzUEsx7E0mZ71HI4eK/7l2jsP/CWWVLxLW+A4kFN3d6BHOaPIcl
+sspnetzLdgyLGIMyDioeQ0ZGkJOgbzQsuLQ5EnoLexYI+eKrVTRV2oOnYVQlO17Hh8a+f+ARNUg+
+BqhnJUqiHVOU8UZBMrP80KLXZtZGl9VBX3AHNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature853877-Object409261"><etsi:QualifyingProperties Target="#Signature853877"><etsi:SignedProperties Id="Signature853877-SignedProperties320540"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-08-05T12:04:56-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>7TzH9J/KYAf+yRYRP5WsJLbiaWk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3255053119</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-37542"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

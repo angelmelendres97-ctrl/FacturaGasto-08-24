@@ -1,0 +1,104 @@
+
+/*PARA CREACION DE PESTA?AS*/
+	.contenedor{
+		width: 98%;
+		margin: auto;
+		background-color: #EBEBEB;
+		color: bisque;
+		padding: 10px 10px 10px 10px;
+		border-radius: 10px;
+		box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+	}
+
+	.contenedorConsulta{
+		width: 300px;
+		margin: auto;
+		background-color: #EBEBEB;
+		color: bisque;
+		padding: 5px 15px 25px 25px;
+		border-radius: 10px;
+		box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+	}
+
+	#pestanas {
+		background-color:#EBEBEB;
+		float: top;
+		font-size: 3ex;
+		font-weight: bold;
+	}
+
+	#pestanas ul{
+		margin-left: -40px;
+	}
+
+	#pestanas li{
+		list-style-type: none;
+		float: left;
+		text-align: center;
+		margin: 0px 2px -2px -0px;
+		background: #A6C4E1;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border: 2px #808080;
+		border-bottom: dimgray;
+		padding: 0px 10px 0px 10px;
+	}
+
+	#pestanas a:link{
+		text-decoration: none;
+		color: white;
+	}
+
+	#contenidopestanas{
+		clear: both;
+		/*background: #D3D3D3;*/
+		padding: 10px 0px 10px 10px;
+		border-radius: 5px;
+		border-top-left-radius: 0px;
+		border: 2px  #808080;
+	}
+
+/*FIN DE CREACION DE PESTA?AS*/
+
+label{
+	cursor: pointer;
+}
+
+.twitter-typeahead{
+	width: 100%;
+}
+
+.tt-menu{
+	background: white;
+	border-radius: 4px;
+	border: 1px solid gray;
+	margin-top: 10px;
+	max-height: 200px;
+	overflow-y: auto;
+	width: 100%;
+	text-align: left;
+}
+
+.tt-suggestion{
+	padding: 5px 10px;
+}
+
+.tt-suggestion.tt-cursor{
+	color: white;
+	background: #0097cf;
+}
+
+.form-control{
+	text-transform: uppercase;
+}
+
+#WindowLoad{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:3200;
+    filter:alpha(opacity=65);
+   -moz-opacity:65;
+    opacity:0.65;
+    background:#999;
+}

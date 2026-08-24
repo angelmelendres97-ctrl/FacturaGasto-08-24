@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>Cabrera Rojas Doris Maria</razonSocial>
+        <nombreComercial>NOTARIA SEPTIMA DEL CANTON CUENCA</nombreComercial>
+        <ruc>0101861581001</ruc>
+        <claveAcceso>2611202501010186158100120012000001889110002020211</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>200</ptoEmi>
+        <secuencial>000188911</secuencial>
+        <dirMatriz>TADEO TORRES S N Y JOSE ALVEAR</dirMatriz>        
+<agenteRetencion>1</agenteRetencion>
+        </infoTributaria>
+        <infoFactura>
+        <fechaEmision>26/11/2025</fechaEmision>
+        <dirEstablecimiento>TADEO TORRES Y JOSE ALVEAR</dirEstablecimiento>        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>MACHALA   CALLE GUAYAQUIL S N Y QUINTA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>5019.53</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos> 
+                    <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>1.50</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>5018.03</baseImponible>
+                <valor>752.70</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>5772.23</importeTotal>
+        <moneda>DOLAR</moneda>
+        
+        <pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>5772.23</total>
+            <plazo>1.00</plazo>
+        <unidadTiempo>DIAS</unidadTiempo>
+   </pago>
+            </pagos>
+         </infoFactura>
+         <detalles>
+        <detalle>
+            <codigoPrincipal>297</codigoPrincipal>
+            <codigoAuxiliar>297</codigoAuxiliar>
+            <descripcion>CERTIFICACION DE DOCUMENTOS EXHIBIDOS EN COPIAS CERTIFICADAS</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>12.530000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>12.53</precioTotalSinImpuesto>
+            <detallesAdicionales>
+        <detAdicional nombre="Dato1" valor="660" />
+                <detAdicional nombre="Dato2" valor=" 7  CERTIFICACION DE" />
+                <detAdicional nombre="Dato3" valor="DOCUMENTOS EXHIBIDOS" />
+
+   </detallesAdicionales> 
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>12.53</baseImponible>
+                    <valor>1.88</valor>
+                 </impuesto>          </impuestos>
+        </detalle> 
+        <detalle>
+            <codigoPrincipal>186</codigoPrincipal>
+            <codigoAuxiliar>186</codigoAuxiliar>
+            <descripcion>PRESTACION DEL SERVICIO NOTARIAL FUERA DEL DESPACHO EN ESCRITURAS DE VIVIENDA CON FINALIDAD SOCIAL</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>70.500000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>70.50</precioTotalSinImpuesto>
+            <detallesAdicionales>
+        <detAdicional nombre="Dato1" valor="320" />
+                <detAdicional nombre="Dato2" valor="PRESTACION DEL SERVIC" />
+                <detAdicional nombre="Dato3" valor="IO NOTARIAL FUERA DEL" />
+
+   </detallesAdicionales> 
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>70.50</baseImponible>
+                    <valor>10.58</valor>
+                 </impuesto>          </impuestos>
+        </detalle> 
+        <detalle>
+            <codigoPrincipal>293</codigoPrincipal>
+            <codigoAuxiliar>293</codigoAuxiliar>
+            <descripcion>PROMESA DE CELEBRAR CONTRATOS</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>4935.000000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>4935.00</precioTotalSinImpuesto>
+            <detallesAdicionales>
+        <detAdicional nombre="Dato1" valor="469" />
+                <detAdicional nombre="Dato2" valor="PROMESA DE CELEBRAR C" />
+                <detAdicional nombre="Dato3" valor="ONTRATOS" />
+
+   </detallesAdicionales> 
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.00</tarifa>
+                    <baseImponible>4935.00</baseImponible>
+                    <valor>740.25</valor>
+                 </impuesto>          </impuestos>
+        </detalle> 
+        <detalle>
+            <codigoPrincipal>174</codigoPrincipal>
+            <codigoAuxiliar>174</codigoAuxiliar>
+            <descripcion>01CONSULTA DATOS BIOMETRICOS SISTEMA NACIONAL DE IDENTIFICACION CIUDADANA REGISTRO CIVIL D REEMBOLSO</descripcion>
+            <cantidad>1.000000</cantidad>
+            <precioUnitario>1.500000</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.50</precioTotalSinImpuesto>
+            <detallesAdicionales>
+        <detAdicional nombre="Dato1" valor="428" />
+                <detAdicional nombre="Dato2" valor=" 5  CONSULTA DATOS BI" />
+                <detAdicional nombre="Dato3" valor="OMETRICOS  SISTEMA NA" />
+
+   </detallesAdicionales> 
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.00</tarifa>
+                    <baseImponible>1.50</baseImponible>
+                    <valor>0.00</valor>
+                 </impuesto>          </impuestos>
+        </detalle> 
+    </detalles>   
+        <infoAdicional>
+        <campoAdicional nombre="eMail">jennifer05062009@hotmail.com</campoAdicional>
+        <campoAdicional nombre="Sistema">FenixPRO</campoAdicional>
+        <campoAdicional nombre="Matrizador">JOSELIN</campoAdicional>
+        <campoAdicional nombre="Telefono">072841741</campoAdicional>
+        <campoAdicional nombre="Correo">jennifer05062009@hotmail.com</campoAdicional>
+        <campoAdicional nombre="Forma Pago">OTROS CON UTILIZACION DEL SISTEMA FINANCIERO USD-5772.23</campoAdicional>
+        <campoAdicional nombre="Plazo">0 DIAS</campoAdicional>
+        <campoAdicional nombre="Observacion">CREDITO DR SANTIAGO VEGA</campoAdicional>
+        <campoAdicional nombre="Contribuyente">Agente de Retencion - Resolucion Nro. NAC-DNCRASC20-00000001</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature297364"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="Reference-ID-722434" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>aT+fV6lcjj66J1P5PaRiF0L/JHk=</ds:DigestValue></ds:Reference><ds:Reference URI="#Certificate371127"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>AiJbQ4uz/MVE95l1X+dhlW8MtqU=</ds:DigestValue></ds:Reference><ds:Reference Id="SignedPropertiesID965516" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature297364-SignedProperties721068"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>I7PBfLax4FnywACeNGbdhrgf0oI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue787045">n6O79aw7bJlNhbuchIU6To17r8UjlKfH0m3Orm36uUif/68OI2Euj+O8GW7NsSFyf7ZJ27RavynOoNoIxn1FyajtiEpYxKt5oZhPYYCsdCqF7NrSiA/83mJedjCa5xsZqinja1fey+eKlwPCzf8VfvpFPXm2y30y+FAtQ4HntHlLAVpjfljVjdwWhKLp3RvdVb58gn6Nf4moHXS5Jh8t2kvY0JWGXEuzoFZ8Cc3pofce2C511uz2AFHw1uX/q6SMG3Q41sPdIXF/vhNDew6kFMqBjcof40WBPxzQTy5fKK8VuRWz+SRD41p0nEwgOAE67mmRhjrzBJZW+2T3ju09wA==</ds:SignatureValue><ds:KeyInfo Id="Certificate371127"><ds:X509Data><ds:X509Certificate>MIILyTCCCbGgAwIBAgIEWCssqTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDAxMjMxNTQzMzdaFw0yNzAxMjIxNTQzMzdaMIGZMSIwIAYDVQQDDBlET1JJUyBNQVJJQSBDQUJSRVJBIFJPSkFTMRUwEwYDVQQFEwwyMzAxMjQxMDUzMjQxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArXDPArqX2/K8SXhDl5m9XQsSBvHL+yHwH+scjNMgqFwKIW4S6ZGpuLKDthmRfyh3AGY+AA5kdyPqVFT97bfbfnPChVRSCXugYyMu+yKPDF5Ebs994ellloaaRjqCQe5lSqMxD5m9ooFVlQS9Rp5hqKa76mwDKXUGdo+LLDlv0uq01dfLSvEJucRZgwK0eCLb3neHMhejQGZmyCMF40AnDqQz4laSRKhDExUVGqcXd5uyCFJWBYKbzMdYFXBjN+5Em32poNjMeK7PCIADskJKuq5ulazo5Lc5Z6GP5n7a14GXfd63IBsN1zLSob6m6YVbNpD0+DAvTfr5B4T9DOxBuQIDAQABo4IHFTCCBxEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25MaXN0P2Jhc2UwIwYDVR0RBBwwGoEYc2VwdGltYW5vdGFyaWFAZ21haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFKSJXlnmtFGm4ZT/8vCvxlf412vaMCsGA1UdEAQkMCKADzIwMjQwMTIzMTU0MzM3WoEPMjAyNzAxMjIxNTQzMzdaMAsGA1UdDwQEAwIF4DAaBgorBgEEAYKmcgMBBAwMCjAxMDE4NjE1ODEwFgYKKwYBBAGCpnIDCQQIDAZDVUVOQ0EwEQYKKwYBBAGCpnIDIgQDDAEuMC4GCisGAQQBgqZyAwcEIAweVEFERU8gVE9SUkVTIFMgTiBZIEpPU0UgQUxWRUFSMBsGCisGAQQBgqZyAwIEDQwLRE9SSVMgTUFSSUEwHwYKKwYBBAGCpnIDIAQRDA8wMDEwODAwMDAwMjE2NjcwEQYKKwYBBAGCpnIDIwQDDAEuMBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAXBgorBgEEAYKmcgMDBAkMB0NBQlJFUkEwEQYKKwYBBAGCpnIDHgQDDAEuMB0GCisGAQQBgqZyAwsEDwwNMDEwMTg2MTU4MTAwMTARBgorBgEEAYKmcgMdBAMMAS4wFQYKKwYBBAGCpnIDBAQHDAVST0pBUzAaBgorBgEEAYKmcgMIBAwMCjA5OTgwNjY5MjAwDQYJKoZIhvcNAQELBQADggIBAG73Qcsw0we8ueaHc/qTA10nO84Tv6DruuNI9glFPfj6rWp365LJSFheK2+F62tAd9KjJ9mXtYxnTR2jlxWZ/ASoADRPUj5Vk2yvL83kOjSlD0AdLScV8+OYKriig9pv5SNUcY06F3Bfi/o7GYmN6aIzB9ut3s9IwUnxe3xp6apU3JsU6EpEWcFPWnDIaI5oCSgIb2O53jHIX2RG81zRRGxmUNEkChhCa6KnmWQ+6oDBoDPpLSrpC7WdVdv9iDyDLxIY3gSIVtvZsVwyZLFWz6G+Oz1FjB02qTaO/4NkoXJReKiZwdtM3bfBxk96VfUK2Sd7sWL4PhsTL3TUv4esENvLqv1Z0GByA7Y3IdQtJYXOgAAVuxdHd2vsZVJrRgcLnXDrf5mHZATsO4Ae4XJvoO25S6+fqorrTdOOpNpEy6f5FsN5w9l5o1Fyu05P6S2uDK4nQ0gOXPT/5ishBxIJLOCZN9yAkW/05zCOuCEBwNzyUOhKlJgMv/4QhV4R+A7Vwzfov6jxuVQnrNiymyBCZmodITgrKzQx7YKwKV0HhtEEH+BM/OmCOeuUX6xfBT9KFVi+gt19E4SX5ZKb+O8W8OCD19t509vsJ5z13+uWLGmMPvFhonBA/6mCZ35P8yTFrC8ikX4sO6ZX2yTQiXWL0aAcfGAJwEnRsHmOf3xmIgwc</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>rXDPArqX2/K8SXhDl5m9XQsSBvHL+yHwH+scjNMgqFwKIW4S6ZGpuLKDthmRfyh3AGY+AA5kdyPqVFT97bfbfnPChVRSCXugYyMu+yKPDF5Ebs994ellloaaRjqCQe5lSqMxD5m9ooFVlQS9Rp5hqKa76mwDKXUGdo+LLDlv0uq01dfLSvEJucRZgwK0eCLb3neHMhejQGZmyCMF40AnDqQz4laSRKhDExUVGqcXd5uyCFJWBYKbzMdYFXBjN+5Em32poNjMeK7PCIADskJKuq5ulazo5Lc5Z6GP5n7a14GXfd63IBsN1zLSob6m6YVbNpD0+DAvTfr5B4T9DOxBuQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature297364-Object355893"><etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature297364"><etsi:SignedProperties Id="Signature297364-SignedProperties721068"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-11-26T19:07:22-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>ylNzIFgZNVT61CY77u+kN7N5TBM=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>1479224489</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-722434"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

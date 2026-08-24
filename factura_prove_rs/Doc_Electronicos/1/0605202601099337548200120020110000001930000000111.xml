@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>NEOCAMIONES S.A.S.</razonSocial><nombreComercial>NEOCAMIONES S.A.S.</nombreComercial><ruc>0993375482001</ruc><claveAcceso>0605202601099337548200120020110000001930000000111</claveAcceso><codDoc>01</codDoc><estab>002</estab><ptoEmi>011</ptoEmi><secuencial>000000193</secuencial><dirMatriz>AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</dirMatriz></infoTributaria><infoFactura><fechaEmision>06/05/2026</fechaEmision><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C L</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL SN QUINTA A NORTE ESQUINA</direccionComprador><totalSinImpuestos>7942.63</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>7942.63</baseImponible><valor>1191.39</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>9134.02</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>9134.02</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>M-10W40</codigoPrincipal><descripcion>ACEITE MOTOR 10W40 55GL</descripcion><cantidad>4.00</cantidad><precioUnitario>1542.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>6168.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>6168.00</baseImponible><valor>925.20</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>M-51055040122</codigoPrincipal><descripcion>FILTRO DE ACEITE MAN TGS 33440 6X4 BBCH</descripcion><cantidad>8.00</cantidad><precioUnitario>27.270000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>218.16</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>218.16</baseImponible><valor>32.72</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>M-51125030109</codigoPrincipal><descripcion>FILTRO DE COMBUSTIBLE MAN TGS 33440 6X4 BBCH</descripcion><cantidad>7.00</cantidad><precioUnitario>28.700000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>200.90</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>200.90</baseImponible><valor>30.14</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>M-81125016129</codigoPrincipal><descripcion>FILTRO RACOR TGS 33440  TGS 33480 2025</descripcion><cantidad>5.00</cantidad><precioUnitario>59.440000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>297.20</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>297.20</baseImponible><valor>44.58</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>ML-81619100050</codigoPrincipal><descripcion>FILTRO DE CABINA TG3 CARBON ACTIVO</descripcion><cantidad>4.00</cantidad><precioUnitario>62.030000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>248.12</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>248.12</baseImponible><valor>37.22</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>ML-81084050017</codigoPrincipal><descripcion>ELEMENTO FILTRANTE AIRE SECUNDARIO</descripcion><cantidad>7.00</cantidad><precioUnitario>41.350000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>289.45</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>289.45</baseImponible><valor>43.42</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>ML-81084050021</codigoPrincipal><descripcion>ELMENTO FILTRANTE AIRE PRIMARIO</descripcion><cantidad>7.00</cantidad><precioUnitario>74.400000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>520.80</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>520.80</baseImponible><valor>78.12</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion Establecimiento">AV DE LAS AMERICAS  ISIDRO AYORA SN. JUNTO AL AEROPUERTO</campoAdicional><campoAdicional nombre="OBLIGADO A LLEVAR CONTABILIDAD">OBLIGADO A LLEVAR CONTABILIDAD</campoAdicional><campoAdicional nombre="nombre_vendedor">CEDENO BRIONES MARLON OSWALDO</campoAdicional></infoAdicional><ds:Signature Id="Signature144819" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo353069">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID16235" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature144819-SignedProperties282994">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>aN1+PdDy39zBTE1fh78iVCkg670=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate116724">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>9zhq4Q7wWpUkPShtQHPxtefv/qs=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-826470" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>XxohWBQQQ5eFgV/bFF0tszE8jWA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue212115">
+p0dbi6rhx2/jZtXXbpjJEvl2jU80GGCNpmOpY+IP7FNY194eqExY5H1G80UUB9ZNXDYmc5ONH2Fh
+PVKeYZvToA3Ly/iijgOL0RbK5tYb8tma69eYIKCWkpv/6xQ4Nn+jmSI1YqPZg/hb/bO1exQNZfv+
+MMdAdrACJWtyz8oIzHxzmB9qjlFAHEiHeyjDIt4K/jZUvTNbUQAwoEBE9lP8SmrNfhgM8TynyfqG
+lxM0oB+LMSf3ds8ZhIjNItzq9PsFD4NDkUWdSVfScwAS+udZT65jLMMKI2AI6bpLq84OB8zbONje
+n/NjVYneMoijjsTMqmWoXkWEY1HovRJIVYY0rw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate116724">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIK8zCCCNugAwIBAgIEE2bKrDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTA1MjYxNDU1MjdaFw0yNzA1MjYxNDU1MjdaMIGjMSEw
+HwYDVQQDDBhKVUFOIEdBQlJJRUwgTU9SRU5PIExFT04xIDAeBgNVBAUTFzAxMDQxNDYyMTItMjYw
+NTI1MTAwNTE4MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJ
+T04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAPUHJ8oReODa8sYqxRmDTMImU1nmZ4ah0BxYb7tfwOepLnpG
+9uNCd/+91MmyClQfuCkQI/gFC9njFFKPpgEzPP6EInKjn6oP23Zy7Nn1g+lufVCcZ/cwOD7Qz7Kh
+Dn2o9557sVYMGJkEP7ByqKT9l9SaxHu79wfnd0JobAYEscTgvVqYwxqNlo5bKxXwCaYknVDqJ1Wi
+36KP8SoPLKkjORM5+7ajd2HtBSpBhyBC+xYCUoXagMRJiVwOXFbO+Lu2kvVnmR9MOuevOJBec5R/
+wOfjygPIwUeRmPzhe5kwTs4pKRBFt22TKNp9mUwSRtI5f5IV8K9Fe8W3DKjB50XlqUsCAwEAAaOC
+BjUwggYxMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYI
+KwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCoGA1UdEQQjMCGBH21kb21pbmd1ZXpAaW5k
+aWFuZWdvY2lvcy5jb20uZWMwggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYB
+BQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0
+AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0
+cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRp
+dmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRh
+bnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIG
+MIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9j
+cmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04g
+REUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJF
+QzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZp
+bGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049
+QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAy
+LEM9RUMwHQYDVR0OBBYEFAVoiKIq6LijhyjYIMyzpMQ/KTbVMCsGA1UdEAQkMCKADzIwMjUwNTI2
+MTQ1NTI3WoEPMjAyNzA1MjYxNDU1MjdaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dF
+UkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjAxMDQxNDYyMTIwQAYKKwYBBAGCpnIDCQQy
+DDBHVUFZQVFVSUwgQ0FCRUNFUkEgQ0FOVE9OQUwgWSBDQVBJVEFMIFBST1ZJTkNJQUwwEQYKKwYB
+BAGCpnIDIgQDDAEuMDcGCisGAQQBgqZyAwcEKQwnQVYgREUgTEFTIEFNRVJJQ0FTIFMgTiBZIENB
+TExFIExBIFNBTExFMBwGCisGAQQBgqZyAwIEDgwMSlVBTiBHQUJSSUVMMB8GCisGAQQBgqZyAyAE
+EQwPMDAxMDAyMDAwOTk4NDg3MBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwH
+RUNVQURPUjAWBgorBgEEAYKmcgMDBAgMBk1PUkVOTzAhBgorBgEEAYKmcgMKBBMMEU5FT0NBTUlP
+TkVTIFMgQSBTMB0GCisGAQQBgqZyAwsEDwwNMDk5MzM3NTQ4MjAwMTARBgorBgEEAYKmcgMdBAMM
+AS4wFAYKKwYBBAGCpnIDBAQGDARMRU9OMBoGCisGAQQBgqZyAwgEDAwKMDk1ODgwNjgzNTANBgkq
+hkiG9w0BAQsFAAOCAgEAACvR09ta+7EESBG2VbIBRSHVLXFErDI7iTjVjWsJs4TpDiI5n/pQUGQR
+fDYy3xnJ0YBEebnrTaXi0N/Fp4IJZcQ6M+JmXZZiyykE0qyla7CVSlMTcY96xRJM0JzxFHSit7ky
+D7yKtE7fE6R/ysuLSlG+bM5RIWuFYZfFbxFWucRi6bNLSIEbthKCcRRR0W9fargqDURxrMz24RqX
+5wX5svY7dqbe2Jjkq74rytEFuSTcxKbRonbtYiqZU0Pc23DrndTxfMqXdnEx+r1I5hv09GbY/uiO
+TjRYn6FwdIIoWdQppp1ubVKNYkj84owmrn5XVKPuaQFbY1/l9Uk21aA2MB+2Iw006I1zRXN7KzU2
+OPnFunanVX8TykfTfoprjWwOUcx+eDb/DP62HBMTDUO2LlnvZPErlZ2HaaSdcQJHHrCdSad1q0jB
+1TOyc3DDu92vynfyJFdsU9mkEZbHNM0XgqQwc6EkGnUcS7xm7nLbjpkRS18z1NgvUsHX81x12kpo
+5CoVbvbtsKJeKN5UdxeJSlgJyeLxliLEGjsQ/Yfyurci93+6BdrrbBYwajHQX0GzOeYfgdwu5L3c
+k9lN3IXGQQ0STn17FuWrfOh8Xfms9Una7rLrEo+boI0e1RAIU+NaWjJ8gKl/UxLbZbRQA7cHmgw4
+wnctYTmySkyt+uPXk7E=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+9QcnyhF44NryxirFGYNMwiZTWeZnhqHQHFhvu1/A56kuekb240J3/73UybIKVB+4KRAj+AUL2eMU
+Uo+mATM8/oQicqOfqg/bdnLs2fWD6W59UJxn9zA4PtDPsqEOfaj3nnuxVgwYmQQ/sHKopP2X1JrE
+e7v3B+d3QmhsBgSxxOC9WpjDGo2WjlsrFfAJpiSdUOonVaLfoo/xKg8sqSM5Ezn7tqN3Ye0FKkGH
+IEL7FgJShdqAxEmJXA5cVs74u7aS9WeZH0w65684kF5zlH/A5+PKA8jBR5GY/OF7mTBOzikpEEW3
+bZMo2n2ZTBJG0jl/khXwr0V7xbcMqMHnReWpSw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature144819-Object987017"><etsi:QualifyingProperties Target="#Signature144819"><etsi:SignedProperties Id="Signature144819-SignedProperties282994"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-05-06T18:08:50-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>NDMU8PaOJuNvoLVQetpuKp7LaQk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>325503660</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-826470"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

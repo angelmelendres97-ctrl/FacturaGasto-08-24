@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>Maquinarias y Vehículos S.A. Mavesa</razonSocial>
+    <nombreComercial>Maquinarias y Vehículos S.A. Mavesa</nombreComercial>
+    <ruc>0990022011001</ruc>
+    <claveAcceso>3005202601099002201100120010010000606540990022019</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000060654</secuencial>
+    <dirMatriz>Av. Juan Tanca Marengo Km 3.5</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>30/05/2026</fechaEmision>
+    <contribuyenteEspecial>6925</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <totalSinImpuestos>47335.14</totalSinImpuestos>
+    <totalDescuento>891.09</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>12582.75</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>34752.39</baseImponible>
+        <tarifa>15.0</tarifa>
+        <valor>5212.86</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>52548.0</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>52548.0</total>
+        <plazo>60</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>9F3CCL3F0V4100944</codigoPrincipal>
+      <descripcion>XZU650L-WKMML3 AC 4.0 2P 4X2 TM DIESEL CN</descripcion>
+      <cantidad>1.0</cantidad>
+      <precioUnitario>35643.48</precioUnitario>
+      <descuento>891.09</descuento>
+      <precioTotalSinImpuesto>34752.39</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Motor" valor="N04CWH46973"/>
+        <detAdicional nombre="Ramv" valor="T03860041"/>
+        <detAdicional nombre="Color" valor="Blanco"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.0</tarifa>
+          <baseImponible>34752.39</baseImponible>
+          <valor>5212.86</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>INTERESES</codigoPrincipal>
+      <descripcion>INTERESES</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>12582.75</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>12582.75</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>12582.75</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="GRAN CONTRIBUYENTE                              COD                                                  FORMA PAGO ">No. NAC-GCFOIOC21-00000902-E                                                                        9001030                                                                                                                           Crédito                                           </campoAdicional>
+    <campoAdicional nombre="TIPO                                                     CAP. DE PASAJEROS ">Chasis Cabinado                                                                                                                             3                                                 </campoAdicional>
+    <campoAdicional nombre="MARCA                                           MODELO ">Hino                                                                                                                                        XZU650L-WKMML3 AC 4.0 2P 4X2 TM DIESEL CN         </campoAdicional>
+    <campoAdicional nombre="AÑO">2027</campoAdicional>
+    <campoAdicional nombre="COMBUSTIBLE                                     PAIS ORIGEN">DIESEL                                                                                                                                      COLOMBIA                                                                        </campoAdicional>
+    <campoAdicional nombre="CLASE                                           SUBCLASE ">CAMIÓN                                                                                                                                      CAMIÓN                                            </campoAdicional>
+    <campoAdicional nombre="PESO BRUTO VEHICULAR                                     CILINDRAJE">5500 KG                                                                                                                                     4009,00 CC.                                                                     </campoAdicional>
+    <campoAdicional nombre="CAPACIDAD DE CARGA">3290 KG</campoAdicional>
+    <campoAdicional nombre="No. EJES                                                      No. RUEDAS ">2                                                                                                                                           6                                                                               </campoAdicional>
+    <campoAdicional nombre="HUNTER                                               SEGURO ">310500                                                                                                                                      783216                                                                                                                  </campoAdicional>
+    <campoAdicional nombre="MESES PLAZO: ">60</campoAdicional>
+    <campoAdicional nombre="RESERVA DE DOMINIO: ">TIPO DE LEYENDA: Aportado al Fideicomiso Vehicular IFC</campoAdicional>
+    <campoAdicional nombre="MODELO HOMOLOGADO: ">XZU650L-WKMML3</campoAdicional>
+    <campoAdicional nombre="DIRECCION CLIENTE: ">CALLE GUAYAQUIL SN Y 5TA NORTE ESQUINA</campoAdicional>
+  </infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1052623617">
+	<ds:SignedInfo>
+		<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<ds:Reference URI="#comprobante">
+			<ds:Transforms>
+				<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+			</ds:Transforms>
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>aBnGSK8Cgun7jaQYkUYrsT0Jm9w=</ds:DigestValue>
+		</ds:Reference>
+		<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1237925223">
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>LBbkpbJ8uhh2RbbuXd9sPbkN3QY=</ds:DigestValue>
+		</ds:Reference>
+	</ds:SignedInfo>
+	<ds:SignatureValue>
+tyIrAFaM2y19S6j/Af2FMLGjRaSoMAJU2mNiCl3PtU5ql/jFTUfzHxkRzo44buBM
+5r/YtICOKYU0NcflNT+5UG4RDe/SsoyAfRRQ7ENiZQSZWY7n8xVp6caG8o4GOerR
+mAt3KeWH55THHckca0diexpXZu6H2Rtq/5mRxOjOWytrdxrbzBCK1QC++T+3Wpps
++Cvibl1fSqvohUIWuiRC374WQx2++YZN6+EBhP9k1sI9nPDTLBpojmtD0GT5kuWf
+JOAGPQ1lSyVr0jYggnTwyGeDno7MmgZqVuoRqsbfDKFzJ3U0aowkvRYv8DNmfNv5
+0eh8UkNVA0UTTbblCKoMfw==
+	</ds:SignatureValue>
+	<ds:KeyInfo>
+		<ds:KeyValue>
+			<ds:RSAKeyValue>
+				<ds:Modulus>
+99VFRBRGrlcbOMOiACYnTeSeN4RcLumO6uP60rhD5NemdAJw6qqMzfpJ7lJ7UZ6E
+fyD3tTF0muSkUykLXTazi7h8Bbej5YRXyDwgYZSha6qxe8ge+MnvWJ4dvocJrTkb
+4Ocb544y9VC+6Cqkl7Q1w7jnYz3tg3ts12I2tTH2BKzvYuozqSxXiITsOK2FECTq
+d0NtldCTnFpQ+Dle6R3YoY0kQGOJChuLekOD1OVOOqp/f+QT3rf1lrzVl3pKWcOx
+P7FVcjDO5alyUUKL3hqrCUMXiiCZPluJvj9J9lXMQQTtPEbsWWTnmWnrj6b4ceYh
+X49Vsm4SByDpi94NUPlIHw==
+				</ds:Modulus>
+				<ds:Exponent>AQAB</ds:Exponent>
+			</ds:RSAKeyValue>
+		</ds:KeyValue>
+		<ds:X509Data>
+			<ds:X509IssuerSerial>
+				<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+				<ds:X509SerialNumber>9071130059678710822</ds:X509SerialNumber>
+			</ds:X509IssuerSerial>
+			<ds:X509SubjectName>C=EC, O=SECURITY DATA S.A. 2, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, 2.5.4.5=0913073854-190925170439, CN=JUAN JOSE IZURIETA CASTRO</ds:X509SubjectName>
+			<ds:X509Certificate>
+MIIK3TCCCMWgAwIBAgIIfeMgunaEfCYwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNV
+BAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwn
+RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQD
+DDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERB
+VEEwHhcNMjUwOTE5MjE1NDQ4WhcNMjgwOTE4MjE1NDQ4WjCBpDEiMCAGA1UEAwwZ
+SlVBTiBKT1NFIElaVVJJRVRBIENBU1RSTzEgMB4GA1UEBRMXMDkxMzA3Mzg1NC0x
+OTA5MjUxNzA0MzkxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJ
+BgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA99VFRBRG
+rlcbOMOiACYnTeSeN4RcLumO6uP60rhD5NemdAJw6qqMzfpJ7lJ7UZ6EfyD3tTF0
+muSkUykLXTazi7h8Bbej5YRXyDwgYZSha6qxe8ge+MnvWJ4dvocJrTkb4Ocb544y
+9VC+6Cqkl7Q1w7jnYz3tg3ts12I2tTH2BKzvYuozqSxXiITsOK2FECTqd0NtldCT
+nFpQ+Dle6R3YoY0kQGOJChuLekOD1OVOOqp/f+QT3rf1lrzVl3pKWcOxP7FVcjDO
+5alyUUKL3hqrCUMXiiCZPluJvj9J9lXMQQTtPEbsWWTnmWnrj6b4ceYhX49Vsm4S
+ByDpi94NUPlIHwIDAQABo4IGGjCCBhYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAW
+gBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUH
+MAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJs
+aWN3ZWIvc3RhdHVzL29jc3AwIgYDVR0RBBswGYEXaml6dXJpZXRhQG1hdmVzYS5j
+b20uZWMwggESBgNVHSAEggEJMIIBBTBgBgorBgEEAYKmcgIKMFIwUAYIKwYBBQUH
+AgIwRB5CAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAE0AaQBlAG0AYgBy
+AG8AIABkAGUAIABFAG0AcAByAGUAcwBhMIGgBgorBgEEAYKmcgIEMIGRMIGOBggr
+BgEFBQcCARaBgWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29u
+dGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xp
+dGljYXMgZGUgQ2VydGlmaWNhZG8gTWllbWJybyBkZSBFbXByZXNhLnBkZjAdBgNV
+HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIGMIICAjCB3qA6
+oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9j
+cmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJ
+RklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFE
+IERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VS
+SVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIu
+c2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZpbGUuY3JsMIHgoIHd
+oIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1
+ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFC22RQofB4Qa
+Z4nBkFx9YFx/LPkuMCsGA1UdEAQkMCKADzIwMjUwOTE5MjE1NDQ4WoEPMjAyODA5
+MTgyMTU0NDhaMAsGA1UdDwQEAwIF4DAiBgorBgEEAYKmcgMFBBQMEkdFUkVOVEUg
+RklOQU5DSUVSTzAaBgorBgEEAYKmcgMBBAwMCjA5MTMwNzM4NTQwFgYKKwYBBAGC
+pnIDCQQIDAZUQVJRVUkwEQYKKwYBBAGCpnIDIgQDDAEuMCkGCisGAQQBgqZyAwcE
+GwwZQVYgSlVBTiBUQU5DQSBNQVJFTkdPIFMgTjAZBgorBgEEAYKmcgMCBAsMCUpV
+QU4gSk9TRTAfBgorBgEEAYKmcgMgBBEMDzAwMTAwMjAwMTA0ODY4MDATBgorBgEE
+AYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwGAYKKwYBBAGC
+pnIDAwQKDAhJWlVSSUVUQTARBgorBgEEAYKmcgMeBAMMAS4wMgYKKwYBBAGCpnID
+CgQkDCJNQVFVSU5BUklBUyBZIFZFSElDVUxPUyBTIEEgTUFWRVNBMB0GCisGAQQB
+gqZyAwsEDwwNMDk5MDAyMjAxMTAwMTARBgorBgEEAYKmcgMdBAMMAS4wFgYKKwYB
+BAGCpnIDBAQIDAZDQVNUUk8wGgYKKwYBBAGCpnIDCAQMDAowOTk4NTc0MzQzMA0G
+CSqGSIb3DQEBCwUAA4ICAQC5FeSNlfJYXUZOhoPQFxTJUGI/uRwiA0ObJkDKNYct
+meY81TrtEMWclxIHgQUPtBFldJ6A28akSOtBoWPjHpagkdo+4HkbFzYeToNZsdIz
+OXdsEXaaVlBqL/aBap0Tt782AmW1ksMMDRXqE1v/DsFl66VH5uCYB873+9OEFXCp
+eKFUqe50QhdelvQxrgrDIeT7k1gRkQfJJRdSqqyiBM/NwhqUzUjSN38kp3/5yUvW
+fgAws/mJx9WXvQlFUS6Cn/VUENYFgTD5nBnNKRCc9X/vDFbflpEAbm44CGKGO8C4
+bjPFZ4nTHgKH4rCfuQy+oygMeH4CTmzTnkSOH4kW4DqILYFGB71QVBcZ4CP5SnC/
+jAet+M83jw/1l2GY3jkdnGeoID1tpBYAUViv5fciwWH22BBQ+tURjKfmBke2ZYMo
+d/l/uatmJiPly/NByC8hnfZZm0X1p5xpbi6XNbIFZJDqda3imspWBUVpka4920ib
+RRPLsMrkN76VhNghuHtXMRP1leWR5e3qtk6LYJYAyt1uXlsFtQrqSPEBEMmBtWEJ
+WaloeChHHwYFfgxg5UCplYHZrQdOrkd5RGlK/4Q2G4twKFQ8059MdNxAfmmGXzSH
++OKdGF8jqos0YX/FW/452YRyUAYJ3ZaRzQhHuhbpkZeWJ8pW3qjWmEsoZoBr7gNR
+WA==
+			</ds:X509Certificate>
+		</ds:X509Data>
+	</ds:KeyInfo>
+	<ds:Object>
+		<etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1052623617">
+			<etsi:SignedProperties Id="SignedProperties-1237925223">
+				<etsi:SignedSignatureProperties>
+					<etsi:SigningTime>2026-05-30T13:41:50.775Z</etsi:SigningTime>
+					<etsi:SigningCertificate>
+						<etsi:Cert>
+							<etsi:CertDigest>
+								<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+								<ds:DigestValue>9ckWSXz36Dgq2XJ96HAk1Ua7UY0=</ds:DigestValue>
+							</etsi:CertDigest>
+							<etsi:IssuerSerial>
+								<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+								<ds:X509SerialNumber>9071130059678710822</ds:X509SerialNumber>
+							</etsi:IssuerSerial>
+						</etsi:Cert>
+					</etsi:SigningCertificate>
+				</etsi:SignedSignatureProperties>
+			</etsi:SignedProperties>
+		</etsi:QualifyingProperties>
+	</ds:Object>
+</ds:Signature>
+</factura>

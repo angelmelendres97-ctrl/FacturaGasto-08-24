@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>SOLINDSAS SOLUCIONES INDUSTRIALES DEL ECUADOR S.A.S.</razonSocial>
+<nombreComercial>SOLINDSAS SOLUCIONES INDUSTRIALES DEL ECUADOR S.A.S.</nombreComercial>
+<ruc>0993388737001</ruc>
+<claveAcceso>2111202401099338873700120010010000003892024112219</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000389</secuencial>
+<dirMatriz>PARQUE INDUSTRIAL CALIFORNIA BODEGA F 40 VIA DAULE KM 12</dirMatriz>
+
+
+<contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>21/11/2024</fechaEmision>
+<dirEstablecimiento>PARQUE INDUSTRIAL CALIFORNIA BODEGA F 40 VIA DAULE KM 12</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<direccionComprador>EL ORO - MACHALA GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</direccionComprador>
+<totalSinImpuestos>1200.0</totalSinImpuestos>
+<totalDescuento>0.0</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>1200.0</baseImponible>
+<valor>180.0</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.0</propina>
+<importeTotal>1380.0</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>1380.0</total>
+<plazo>0</plazo>
+<unidadTiempo>dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>RAD - 0075</codigoPrincipal>
+<codigoAuxiliar>RAD - 0075</codigoAuxiliar>
+<descripcion>BAQUETEO - REPARACION DE ENFRIADOR DE ACEITE</descripcion>
+<cantidad>1.0</cantidad>
+<precioUnitario>650.0</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>650.0</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.0</tarifa>
+<baseImponible>650.0</baseImponible>
+<valor>97.5</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>LOG - 0002</codigoPrincipal>
+<codigoAuxiliar>LOG - 0002</codigoAuxiliar>
+<descripcion>LOGISTICA DE TRANSPORTE IDA - VUELTA</descripcion>
+<cantidad>1.0</cantidad>
+<precioUnitario>250.0</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>250.0</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.0</tarifa>
+<baseImponible>250.0</baseImponible>
+<valor>37.5</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>MOB - 001</codigoPrincipal>
+<codigoAuxiliar>MOB - 001</codigoAuxiliar>
+<descripcion>MANO DE OBRA - MONTAJE / DESMONTAJE - PRUEBAS</descripcion>
+<cantidad>1.0</cantidad>
+<precioUnitario>300.0</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>300.0</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.0</tarifa>
+<baseImponible>300.0</baseImponible>
+<valor>45.0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Email">fernanda.paccha@grupoadmg.ec</campoAdicional>
+<campoAdicional nombre="Direccion">EL ORO - MACHALA GUAYAQUIL SN Y QUINTA A NORTE ESQUINA</campoAdicional>
+<campoAdicional nombre="Telefono">,</campoAdicional>
+<campoAdicional nombre="Regimen">CONTRIBUYENTE RÉGIMEN RIMPE</campoAdicional>
+
+</infoAdicional>
+
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature894876">
+<ds:SignedInfo Id="Signature-SignedInfo81813">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID701141" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature894876-SignedProperties912300">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>kyOuSJ0FcgWHJjjFZeDO6QeOd+I=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1805850">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>v0RAfBNSL5o8mn3yggsd5K/KrJg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-5933" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Y3avPHEE0iS8GKPScRQCqDJNm10=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue124864">
+Zh49Lbpyl2S5o43w4gBM4TXV1znFLl4ldxPzvg1gyKPQSH27vvlov4RlN9AuJYzswkqORRJgGMkF
+kIAQUkXojo1cmgJwyk+FuatOQeBFLV3VhCJR/VYWej/+JynhU9cA4VSf33GvmiJohGx75+km9Ewb
+6kn+RKDnjf5WzLBaLzkETSWVKdZvoGgBs6CXLXFhHQiyz5SOU/XuqKgkrN9d+88FPaeIaunzsPKf
+wlrdloT7ObCwfSIZMEkGRG7a4kNRzQpxxG7YcowqpwkqHb98LHSbtvrKQiHcziNorVX89IWD+mgA
+I18yjTCQTmLtpVbVyjA6ONfuGvyquzbrSUG+1A==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1805850">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKAzCCB+ugAwIBAgIIdTcq/yj0iVQwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDMxNDIwMzQwMFoXDTI1MDMxNDIwMzQwMFowgf0xCzAJBgNVBAYTAkVDMT0wOwYDVQQKDDRT
+T0xJTkRTQVMgU09MVUNJT05FUyBJTkRVU1RSSUFMRVMgREVMIEVDVUFET1IgUy5BLlMuMRgwFgYD
+VQQMDA9HRVJFTlRFIEdFTkVSQUwxGTAXBgNVBAQMEEpVUkFETyBQTEFDRU5DSU8xFzAVBgNVBCoM
+Dk1BUklBIEZFUk5BTkRBMRkwFwYDVQQFExBJRENFQy0wOTUxMzU3OTEyMSgwJgYDVQQDDB9NQVJJ
+QSBGRVJOQU5EQSBKVVJBRE8gUExBQ0VOQ0lPMRwwGgYDVQRhDBNWQVRFQy0wOTkzMzg4NzM3MDAx
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi5BQTCg/uQvgOpSjqBqOs5P0joXtGFoA
+D9C0QQmMZ+lOCuumCHrBnguLH1MEC/mGvhYkVYMtE5fXw/MHG4N5rAuVjsnbood5B2DbqIQc3ryo
+lCo3idlCQxBpAumW+jQaP+22N6EVDFUahgcIUgyXDdMpvKl68oePOBZI7y9Xj0EYJFcqYfqEYvLi
+aXExoxRNdjtkhQlyFA9Zrv+njCmwu1Iof2R1/Q01KRXWM/SWUZKdGdBohyT5/7QLsIFO9yY+WlDw
+u7v4Iz4a8TjiZY6WhSdqBWlfOMIfjJqSqFm9hIn22b6DYpGFqO9W197tVgYElVjKcNKZa8G0V9gG
+iNuNpwIDAQABo4IEyDCCBMQwGwYLKwYBBAGC8TZmAwEEDAwKMDk1MTM1NzkxMjAeBgsrBgEEAYLx
+NmYDCwQPDA0wOTkzMzg4NzM3MDAxMIHXBggrBgEFBQcBAQSByjCBxzBVBggrBgEFBQcwAoZJaHR0
+cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2FkL3RzcF9jZXJ0aWZpY2F0ZXMvc3Vi
+b3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AxLnVhbmF0YWNhLmNvbS9wdWJs
+aWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDIudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9wa2kvb2NzcC8wHQYDVR0OBBYEFAr4ttxhAhWhF6TTDqSvJEcz2ouqMAwGA1UdEwEB/wQCMAAw
+HwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgY4GA1UdIASBhjCBgzCBgAYMKwYBBAGC
+8TZmAgMBMHAwNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp
+L2RwYy1lYy8wNQYIKwYBBQUHAgIwKQwnQ0VSVElGSUNBRE8gREUgUkVQUkVTRU5UQU5URSBFTiBB
+UkNISVZPMIGPBgNVHR8EgYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJs
+aWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNh
+LmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAgkGA1UdEQSCAgAwggH8gRt2YW5kcmFkZS5j
+b250YWJsZUBnbWFpbC5jb22gGwYLKwYBBAGC8TZmAwGgDAwKMDk1MTM1NzkxMqAfBgsrBgEEAYLx
+NmYDAqAQDA5NQVJJQSBGRVJOQU5EQaAXBgsrBgEEAYLxNmYDA6AIDAZKVVJBRE+gGgYLKwYBBAGC
+8TZmAwSgCwwJUExBQ0VOQ0lPoCAGCysGAQQBgvE2ZgMFoBEMD0dFUkVOVEUgR0VORVJBTKBPBgsr
+BgEEAYLxNmYDB6BADD5HVUFZQVFVSUwgLyBQQVJRVUUgSU5EVVNUUklBTCBDQUxJRk9STklBIEJP
+REVHQSBGIDQwIFZJQSBEQVVMRaAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk5MzEwMjcwOKAaBgsr
+BgEEAYLxNmYDCaALDAlHVUFZQVFVSUygRQYLKwYBBAGC8TZmAwqgNgw0U09MSU5EU0FTIFNPTFVD
+SU9ORVMgSU5EVVNUUklBTEVTIERFTCBFQ1VBRE9SIFMuQS5TLqAeBgsrBgEEAYLxNmYDC6APDA0w
+OTkzMzg4NzM3MDAxoBMGCysGAQQBgvE2ZgMMoAQMAkVDoCQGCysGAQQBgvE2ZgMyoBUME1JFUFJF
+U0VOVEFOVEUgTEVHQUygGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOC
+AgEAYgK6zHnqs2fKCZ1fI479DXzgbe6/Wr8/spgKVcVBzwQx9Z45LRGTcpe1UnNto2YdRfdGldfI
+x/5yWLiciVWIBuLkAgscqj3fNQJvryOzDZjnP07Purs+ZH8vWXyoDOz/T3IrVEpv/FvxWWl60wx4
+O/qD74XVQWmif9BV0mI7s/0wHu92Ha6i4bNd5m5S3DMdv0YCVJpz5XWapmBqooagIjCZgOttKfGq
+AgHz5Or9HnTPuKBxMcS9mAgWPLiSv40CnuNVnd8TjnTM7VEsPxIbfmVNOi7qNA5YeFqCLv5kP6HA
+h3h17QoUMjGAj0nc+VeD59OS+zmm7Xqe0SQpFnDV4rP2RXGAlUdCX55a89U4waM9SyLaXY3Bu6Dw
+LGaMRtuCFED9oSDfX1J+qJK2Xl0GaqzyE113fnZYrk17q9xSARlF5a00Y7HmRVASvMK3uCMdRZPQ
+NuTz0Eg5s2v6rSNDV3RrbwTBg0Egz1gmpkw4kxhEmKSpJlwGcs7eGLwILSlwq9aDacVbgZ5jpSdl
+f1qGRur37EWzSK3tZMr2Kdt0WnSRESXf9lRTMXDRt4sSSjU8KGozOsxuXy+Q24kQNCqTq7PqCxR3
+Q2T4k9y0IudAnlwjNMWiAMsoC+CFMTCX37bwlJ35lLN74pHonDbFoJYDLVbF7ZTiE02GQVM0IJ4Q
+v1Y=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+i5BQTCg/uQvgOpSjqBqOs5P0joXtGFoAD9C0QQmMZ+lOCuumCHrBnguLH1MEC/mGvhYkVYMtE5fX
+w/MHG4N5rAuVjsnbood5B2DbqIQc3ryolCo3idlCQxBpAumW+jQaP+22N6EVDFUahgcIUgyXDdMp
+vKl68oePOBZI7y9Xj0EYJFcqYfqEYvLiaXExoxRNdjtkhQlyFA9Zrv+njCmwu1Iof2R1/Q01KRXW
+M/SWUZKdGdBohyT5/7QLsIFO9yY+WlDwu7v4Iz4a8TjiZY6WhSdqBWlfOMIfjJqSqFm9hIn22b6D
+YpGFqO9W197tVgYElVjKcNKZa8G0V9gGiNuNpw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature894876-Object758427"><etsi:QualifyingProperties Target="#Signature894876"><etsi:SignedProperties Id="Signature894876-SignedProperties912300"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-11-22T16:49:23+00:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>22j65DZC0Zucbq30VwhnbYi/E/c=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>8446266901548796244</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-5933"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

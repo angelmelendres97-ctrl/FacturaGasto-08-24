@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>REGISTRO MERCANTIL DEL CANTÓN MACHALA</razonSocial><nombreComercial>REGISTRO MERCANTIL DEL CANTÓN MACHALA</nombreComercial><ruc>0760045870001</ruc><claveAcceso>2905202501076004587000120010100000655780006557810</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>010</ptoEmi><secuencial>000065578</secuencial><dirMatriz>Calle Vela, entre 25 de Junio y Sucre,</dirMatriz></infoTributaria><infoFactura><fechaEmision>29/05/2025</fechaEmision><dirEstablecimiento>Calle Vela, entre 25 de Junio y Sucre,</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO C. L.</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><totalSinImpuestos>72.50</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>72.50</baseImponible><valor>0.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>72.50</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>72.50</total></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>TT-189</codigoPrincipal><descripcion>Derechos Registrales</descripcion><cantidad>1</cantidad><precioUnitario>72.50</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>72.50</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>72.50</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="EMAIL">jennifer05062009@hotmail.com</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature340604">
+<ds:SignedInfo Id="Signature-SignedInfo476314">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID1017419" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature340604-SignedProperties616402">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>L7bSnr+CrliaMqOYhaVN0/jxZAw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1637311">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>YkLeBBV60RO5Kmg8oXAR0BPbcyE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-533665" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>o3uczA58B85Z8wPp9XnqlOJqyHQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue873018">
+oqOtN19BWdtKWJUUs4KUGa+UQ4eIgIP+xlB4GST6nQ0fr6h4XllmEIQCaaEhiMzBv09c71zWU27V
+SxT1BabSueDYAGpxd/I1XTjfzNQbS0sFpo4Woc/CVRlt/ht74P+0JZQdotT1rNfSwWKExtRiPLnS
+RnYwOaIYyLUm9D+FZSYfUTpM+vimkGa2/lrFzEbSdiwiyIWgKwLnzXCnaKMhayGxS3vR9cUO6Pjf
+VjbEAjkpz6ljP8gWAccrOLGKDpbxsMD6dUdtptucczXWHClPH9VFmw+EYQGYx9oZZWPvDdpfwfKh
+Yeumc5lNEEFKuqUhdNi0nMJT6ao7sMFEHwwSqg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1637311">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKLzCCCBegAwIBAgIEZeZGtTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI1MDUwNzEzNDMxNVoXDTI3MDUwNzE0MTMx
+NFowgbUxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE5MBEGA1UEBRMKMDIwMDA0NjQ3ODAkBgNVBAMTHUhBUkxFWSBMSU5JRVJT
+IEZSQU5DTyBDT1JET1ZBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0AfcwowR4mJ7
+BzzTpx+p2iRmg7SCJyUDCrryKKErW1qu8o8SXHU9076bY0HAe8MnkTd7bd32a6Z7sjbnjyU3WkG4
+TVC1X4F7bXp9A4spKsNX9v9ZxBs+jLSr0ChAsNWJJOuR84imFtUYC9KYiGPEqPMaj/yhLEfngtTL
+lF8C4vzmQzWx3qauoFxvTVmfyiP8KWk5kOrEmTcEQ7J8eqqsK7frsXWSuLWy4Tp7DqjjH5SINuWL
+X+vLQ1MJeVlQcAYEldmvP7xOompAwY1sARCH7TiqbBFeODP0rx9KjyashR7Png0hrcCA1MOD56Bz
+aljOBdeH9095fAsymaNRZhh2UQIDAQABo4IFVzCCBVMwCwYDVR0PBAQDAgeAMGcGA1UdIARgMF4w
+XAYLKwYBBAGCqDsCAgEwTTBLBggrBgEFBQcCARY/aHR0cDovL3d3dy5lY2kuYmNlLmVjL3BvbGl0
+aWNhLWNlcnRpZmljYWRvL3BlcnNvbmEtanVyaWRpY2EucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+
+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDA1BgorBgEEAYKoOwMKBCcTJVJFR0lTVFJPIE1FUkNBTlRJTCBERUwgQ0FO
+VE9OIE1BQ0hBTEEwHQYKKwYBBAGCqDsDCwQPEw0wNzYwMDQ1ODcwMDAxMBoGCisGAQQBgqg7AwEE
+DBMKMDcwMjU1MTk4NzAeBgorBgEEAYKoOwMCBBATDkhBUkxFWSBMSU5JRVJTMBYGCisGAQQBgqg7
+AwMECBMGRlJBTkNPMBcGCisGAQQBgqg7AwQECRMHQ09SRE9WQTA4BgorBgEEAYKoOwMFBCoTKFJF
+R0lTVFJBRE9SIE1FUkNBTlRJTCBERUwgQ0FOVE9OIE1BQ0hBTEEwOgYKKwYBBAGCqDsDBwQsEypD
+RExBLkVMT1kgQUxGQVJPIE1aLTA1IFYtNDktMCA4VkEuTk9SVEUgMSAwGQYKKwYBBAGCqDsDCAQL
+EwkwNzI5MzAyMTUwFwYKKwYBBAGCqDsDCQQJEwdNQUNIQUxBMBcGCisGAQQBgqg7AwwECRMHRUNV
+QURPUjAgBgorBgEEAYKoOwMzBBITEFNPRlRXQVJFLUFSQ0hJVk8wJgYDVR0RBB8wHYEbYWJnLmhh
+cmxleS5mcmFuY29AZ21haWwuY29tMIIB4QYDVR0fBIIB2DCCAdQwggHQoIIBzKCCAciGgdZsZGFw
+Oi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMMjIxMixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJB
+TCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9O
+JTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VB
+RE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5i
+Y2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG2MIGzMQswCQYDVQQGEwJFQzEi
+MCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNV
+BAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxEDAOBgNVBAMTB0NSTDIyMTIwKwYDVR0Q
+BCQwIoAPMjAyNTA1MDcxMzQzMTVagQ8yMDI3MDUwNzE0MTMxNFowHwYDVR0jBBgwFoAUSKLfIx8d
++CxReowDzUkypQnBlKswHQYDVR0OBBYEFDcahq84/w4rAI0l2pPz5/4+KswAMAkGA1UdEwQCMAAw
+GgYJKoZIhvZ9B0EABA0wCxsFVjEwLjADAgQwMA0GCSqGSIb3DQEBCwUAA4ICAQAkVKzOqyHt3i6G
+j5/BqMelTqd/+ZJaqAWo/n0deHyebHCkKpZHtsGHpUj0YB0zeLYCFEHbFznCMQQm/T1sDh6Pam+h
+HT6EvZAx6AM9yR+BVUzG96UZNovSXJFPJBOoeIe6agkGG0T8G/1koIZhFAumE0WUmtI178aCitSI
+axnpY1JWyYD45jVb4fXhVEtxd7L+zJX0eYg47/aktmLbsW/XlE7DYV3dkpcfQtizQ9AYV+bS90Wx
+/Dw73W+rGSqS8MTTmsnEAOqznb7JVXghEGagUcPbUtkeJEbLQo0So3fLjPrff6TkWKs23NBIGdjb
+lyAkUZFGmoIaFVRs6pb7DGZl1u6fdhOS2FiwOBOVtKIrlsHkD3fcXGqH3s5pQZcpMSPBPbxiS3/p
+BM8hGDR7nyVpit1oagZNliCY9Bigiu6BBwSUoT2YQoARKWHLic/9ujLGeHQ/45e29enZE18xLBTc
+2OUiPd+/DNCqWu8ntSJ55G1nDy5lxfQyk99bNhTB/ZZtDrTa+aLH/jNIUBojefeh8LK5qeZ8DVH7
+McQpfvsd+AOhNNG9UwSf+pWl8c9ftu/EMfBMrTG4mJKuFcO7il5fDGCalmgA4Z9bvkh7BCZUT7Qg
+PUmM/6Z88oXexFgiluIlTqCsZb3NyZxci14PaRnWxvA98ulR43PDooqeODuuWQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0AfcwowR4mJ7BzzTpx+p2iRmg7SCJyUDCrryKKErW1qu8o8SXHU9076bY0HAe8MnkTd7bd32a6Z7
+sjbnjyU3WkG4TVC1X4F7bXp9A4spKsNX9v9ZxBs+jLSr0ChAsNWJJOuR84imFtUYC9KYiGPEqPMa
+j/yhLEfngtTLlF8C4vzmQzWx3qauoFxvTVmfyiP8KWk5kOrEmTcEQ7J8eqqsK7frsXWSuLWy4Tp7
+DqjjH5SINuWLX+vLQ1MJeVlQcAYEldmvP7xOompAwY1sARCH7TiqbBFeODP0rx9KjyashR7Png0h
+rcCA1MOD56BzaljOBdeH9095fAsymaNRZhh2UQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature340604-Object658729"><etsi:QualifyingProperties Target="#Signature340604"><etsi:SignedProperties Id="Signature340604-SignedProperties616402"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-05-29T17:40:13-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>u7/N6LGgRxD6ShyaW68M+u0/b4E=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709590197</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-533665"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

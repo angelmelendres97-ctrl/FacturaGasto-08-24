@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>YANANGOMEZ CABRERA VICTOR ARNULFO</razonSocial>
+    <nombreComercial>YANANGOMEZ CABRERA VICTOR ARNULFO</nombreComercial>
+    <ruc>0705076180001</ruc>
+    <claveAcceso>0303202601070507618000120021200000002130016353717</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>120</ptoEmi>
+    <secuencial>000000213</secuencial>
+    <dirMatriz>EL ORO / BALSAS / BALSAS / TRANSVERSAL SUR S/N Y SN</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>03/03/2026</fechaEmision>
+    <dirEstablecimiento>EL ORO / BALSAS / BALSAS / TRANSVERSAL SUR S/N Y SN</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C.L.</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>2625.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>2625.00</baseImponible>
+        <tarifa>0.00</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>6</codigoPorcentaje>
+        <baseImponible>0</baseImponible>
+        <tarifa>0.00</tarifa>
+        <valor>0</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>7</codigoPorcentaje>
+        <baseImponible>0</baseImponible>
+        <tarifa>0.00</tarifa>
+        <valor>0</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>2625.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>2625.00</total>
+        <plazo>0.00</plazo>
+        <unidadTiempo>DIAS</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>52</codigoPrincipal>
+      <codigoAuxiliar>N/A</codigoAuxiliar>
+      <descripcion>Consumo</descripcion>
+      <cantidad>2625.000000</cantidad>
+      <precioUnitario>1.000000</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>2625.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0.00</tarifa>
+          <baseImponible>2625.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="empresarial-Actividad económica">ELABORACIÓN DE HELADOS (DE TODO TIPO), SORBETES, BOLOS, GRANIZADOS, ETCÉTERA.</campoAdicional>
+    <campoAdicional nombre="empresarial-Correo">victoryanan@hotmail.com</campoAdicional>
+    <campoAdicional nombre="empresarial-Teléfono">0981291576</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature44609">
+<ds:SignedInfo Id="Signature-SignedInfo825271">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID284633" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature44609-SignedProperties837157">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>4XMc6gl21agr8fQ7KWpwKLj9cSk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1155114">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>v1RXzQV3pzWB9iXukRQqcsiBOJM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-410010" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>5KeLV9+M59/t0iivYf8n5fanLxc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue776105">
+i/1PANVLBLGG6usk9Rv2CPMncn0HNPGDA3lOswvlWR4MQgXhK/tVs/B1CRAeDQ2te14qf0M1DsIN
+pRnHMqyuhjAuoQrPEFTJbS7k3uBGrCXyF+3qbq4Gcc0MKTpSwRoGJKxHjoHex5CLoZfFx30Rx7o/
+CJ/sVPN6b61J8gcMc7DYrMtneJgoE2knJqZrC9Hb7AE4pyaUSG3TyO2O5Zx9whRxJkV96+WrIxJW
+vygkXvPvlOHTXJ/+pxQgrZjLiKDIEjSb9rqmDtx3V95HSWfzQwp2XElqk8m56WgKf1dEHQRvCvlr
+eBkRtlz8rUm12lV/LDaTqFpIBgBWgw95L3vqBQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1155114">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKtzCCCJ+gAwIBAgIIBWYOJI6FpscwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUwOTA1MjEzNjQ5WhcNMjcwOTA1MjEzNjQ5WjCB
+rDEqMCgGA1UEAwwhVklDVE9SIEFSTlVMRk8gWUFOQU5HT01FWiBDQUJSRVJBMSAwHgYDVQQFExcw
+NzA1MDc2MTgwLTA1MDkyNTE2NDY0MTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMC
+RUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbKCEbNHjgU/2kQGK1NE4ARqJgcPoT
+4Ji4rryn1lBrbeAlm49c+V29wCq4Xkcm1b+wJsIieSjvYx537Odlb2GwIU8bbRyHove9Q2hLvx8G
+VAaw+wRfbgSmuMJq70B9kOzQ3io5FmdDPEOFSYPfu0LQrHEdayji5WqxgwFimxf3gMUpDfJZ5bnS
+1KwV0GgKj8d3mV9DCERKbuBTJ6PgJBIUvbihS8Rxba2yOz6LZ7Tqk+Q6UUb4kXXHqMSR5OsXERke
+Z0Do4xvWe10rYgV0+fqF3mrPwUUKp1vovL/CEwHZrazUNDe98bpzrPQbcQ11Hwms6NkJMlLuKVM0
+XEH4+Y7PAgMBAAGjggXsMIIF6DAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsK
+S1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1
+cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDAiBgNVHREEGzAZgRd2
+aWN0b3J5YW5hbkBob3RtYWlsLmNvbTCCAQYGA1UdIASB/jCB+zBaBgorBgEEAYKmcgIHMEwwSgYI
+KwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFAAZQByAHMAbwBuAGEA
+IABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggrBgEFBQcCARZ+aHR0cHM6Ly93
+d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1Bf
+ZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5hdHVyYWwu
+cGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHeoDqg
+OIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwxL2NybGZpbGUuY3Js
+ooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNF
+Q1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4hjZo
+dHRwOi8vY3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmwwgeCg
+gd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJj
+YS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJU
+SUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNV
+HQ4EFgQUCkO0uoxNVWzXrVbAMlEOJpZ6ngYwKwYDVR0QBCQwIoAPMjAyNTA5MDUyMTM2NDlagQ8y
+MDI3MDkwNTIxMzY0OVowCwYDVR0PBAQDAgXgMBoGCisGAQQBgqZyAwEEDAwKMDcwNTA3NjE4MDAo
+BgorBgEEAYKmcgMJBBoMGEJBTFNBUyBDQUJFQ0VSQSBDQU5UT05BTDARBgorBgEEAYKmcgMiBAMM
+AS4wKAYKKwYBBAGCpnIDBwQaDBhUUkFOU1ZFUlNBTCBTVVIgUyBOIFkgU04wHgYKKwYBBAGCpnID
+AgQQDA5WSUNUT1IgQVJOVUxGTzAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDk4NjY3NzARBgor
+BgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VB
+RE9SMBoGCisGAQQBgqZyAwMEDAwKWUFOQU5HT01FWjAbBgorBgEEAYKmcgMeBA0MC0NPTUVSQ0lB
+TlRFMB0GCisGAQQBgqZyAwsEDwwNMDcwNTA3NjE4MDAwMTARBgorBgEEAYKmcgMdBAMMAS4wFwYK
+KwYBBAGCpnIDBAQJDAdDQUJSRVJBMBoGCisGAQQBgqZyAwgEDAwKMDk3ODkyNDY5NDANBgkqhkiG
+9w0BAQsFAAOCAgEAOFkbarxKmn9mfEDWkXQl4Wycu3elvXZwF0HZHxsUA3u0XMZoFwkzz1RYvMt0
+SBw3znov0EAhDPHVqge1oQkpqEPCIm1WGbWnww1AYIFKimw5W6lqP/WhLH9gIhAt4N8UGdmLSoQQ
+xEOX9HKaUCmomIsFdaRckFPtZGt+BEyHefWg7F+NP+qFq0cFSTonm5rjOok1JZQ1XPgxFtfPFFgC
+ZRNPJab3ediTr1zvQC2KbIFdanKNdneehYzlFtnFTu3v/wDHj9qibVRtxlnIuootyK2pjgcuFHVm
+C/VHIvNWzT53NlB9f3AHPjOm7b2bD+/YSRfaGZ3p5IW5wG06Ns4IXmzgxGSB4zcdm+h+arbhGx8o
+nrdnbPVOao8kpefbduFh9SR9CZLsVEDNQbWch+H5d5MSSOU17ANas39MQun2Iwabw2Ysz5Zc+rS2
+SPdvDAE9O9mnv92W8PILbupfXMvm3AvgdL5g4PJcb7dGPiqqShaXGxMdlwzvfIG0Dea51ZdQNDwP
+XPlhDMRxne3Efvyq8eHOxsw6eICbA0Fsj+3+i/H54e8UC9W/iI286LytzLEwbdIlncQ8ZZlg3uDq
+YiG83jds23SI+Eg9vQeNbG59AWtQmN1dWv/I3gqzGub3xdY3+9EN2La0im3kCRcEXN/DkYWgPqX+
+GxkyVSatk30RhgA=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+myghGzR44FP9pEBitTROAEaiYHD6E+CYuK68p9ZQa23gJZuPXPldvcAquF5HJtW/sCbCInko72Me
+d+znZW9hsCFPG20ch6L3vUNoS78fBlQGsPsEX24EprjCau9AfZDs0N4qORZnQzxDhUmD37tC0Kxx
+HWso4uVqsYMBYpsX94DFKQ3yWeW50tSsFdBoCo/Hd5lfQwhESm7gUyej4CQSFL24oUvEcW2tsjs+
+i2e06pPkOlFG+JF1x6jEkeTrFxEZHmdA6OMb1ntdK2IFdPn6hd5qz8FFCqdb6Ly/whMB2a2s1DQ3
+vfG6c6z0G3ENdR8JrOjZCTJS7ilTNFxB+PmOzw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature44609-Object74463"><etsi:QualifyingProperties Target="#Signature44609"><etsi:SignedProperties Id="Signature44609-SignedProperties837157"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-03-03T19:48:18-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>MC4fqio83gNIhCTrjC4dWzOST0s=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>389013967986861767</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-410010"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

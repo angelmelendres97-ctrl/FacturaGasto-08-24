@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>CONSTRUCTORA PATRIDASA SA</razonSocial>
+<nombreComercial>CONSTRUCTORA PATRIDASA S.A.</nombreComercial>
+<ruc>0790093844001</ruc>
+<claveAcceso>1912202501079009384400120030020000005461234567813</claveAcceso>
+<codDoc>01</codDoc>
+<estab>003</estab>
+<ptoEmi>002</ptoEmi>
+<secuencial>000000546</secuencial>
+<dirMatriz>ALFREDO GUERRERO VALENZUELA 610 E/ PP GOMEZ Y AYACUCHO</dirMatriz>
+<agenteRetencion>1</agenteRetencion>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>19/12/2025</fechaEmision>
+<dirEstablecimiento>ALFREDO GUERRERO VALENZUELA 610 E/ PP GOMEZ Y AYACUCHO</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO CL</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<totalSinImpuestos>140000.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>140000.00</baseImponible>
+<valor>21000.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>161000.00</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>161000.00</total>
+<plazo>30</plazo>
+<unidadTiempo>dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>58</codigoPrincipal>
+<descripcion>EXCAVATOR CATERPILLAR MOD TL1255D TELEHANDLER 2019</descripcion>
+<cantidad>1.00</cantidad>
+<precioUnitario>140000.00</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>140000.00</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalleAdicional" valor="."/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>140000.00</baseImponible>
+<valor>21000.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Direccion Establecimiento">ALFREDO GUERRERO VALENZUELA 610 E/ PP GOMEZ Y AYACUCHO</campoAdicional>
+<campoAdicional nombre="NombreComercial">CONSTRUCTORA PATRIDASA S.A.</campoAdicional>
+<campoAdicional nombre="Direccion Cliente">CALLE GUAYAQUIL S/N Y QUINTA NORTE</campoAdicional>
+<campoAdicional nombre="email">fernanda.paccha@grupoadmg.com</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature180815">
+<ds:SignedInfo Id="Signature-SignedInfo648303">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID148753" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature180815-SignedProperties169399">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>qmqYCkGZ6SfiXHCPStcNKn8C8uE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1547014">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>wCDzRcqTRH3plU9InVxlf0F+e6g=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-110219" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>06emzC4wRJQadcjaFFy5TffKyD8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue464055">
+gN4Y6cVIQbDAR9rFn4/sd9yeUltc3FZjpIAQAnej2hl5E3AsHN8/5z5W/nfFN6XQAoVCRsVxRpT6
+7DIkzCZ9tsLWoP09JIGMylYxaA7nXYP0oLO/Mq+WF4LiOL8RMvjpO+ItnT75xYd3WHpY7hGe5QWs
+VVHS0NQ0e+Ns0ZEjyHos9KGD1RIXOCdNWOrjA7lbRjSR8Efj8VJCavhzFEIxnGt3NXNpSjztsaCv
+lK87vRAYnIjlz3RuKEWNKtCchJvRWueL+T9aJz6esq5hLzOWTzidr3A0DMep7OE0X1JRseo3E81d
+Ni+y184ydu2qKKPbzLRfCFFhoMYNUCj0qjCCNQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1547014">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMPjCCCiagAwIBAgIEHS2rRzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTAxMjQxOTU5NTdaFw0yNzAxMjQxOTU5NTdaMIGlMSMw
+IQYDVQQDDBpQQVRSSUNJTyBJVkFOIEpBUkEgQUdVSUxBUjEgMB4GA1UEBRMXMDkyNDg2MDgxMC0y
+NDAxMjUxNTA5NTExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmlo6+gMVbRM+8meCpn+lwdVRhnKbmw3TAISvW6MgA1P3
+k+Zhqn2vie0UoGSsu/ePixPAq98EjHKt0YIDQ1GLQjFNbsixBi8TgSPzkIGbR0gfmj+676/m0Gxb
+zqLo2C4JGRazgFKAUTvl2wQAY0OpsL2IMQLEFXeAxI68lNyNEVcBQT4HGDVkQz/SQncX9ZY3ydmy
++OUT+jbyT9eZaOSDpAVZhXo3WGw4NSWMP1WJXbv/4TbHlWjllPAac/GbAExcp4Vtl/WubENjHV4w
+KOFW7nRwysPdjV0JaHCzk3xvTqxoD5kNalB8VqG4vzOCzHj/Te+zDSq+hNhGqwESm32YZwIDAQAB
+o4IHfjCCB3owDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZ
+BggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aB
+uGxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9j
+YXRpb25MaXN0P2Jhc2UwKgYDVR0RBCMwIYEfY29uc3RydWN0b3JhcGF0cmlkYXNhQGdtYWlsLmNv
+bTCCARUGA1UdIASCAQwwggEIMGIGCisGAQQBgqZyAgkwVDBSBggrBgEFBQcCAjBGHkQAQwBlAHIA
+dABpAGYAaQBjAGEAZABvACAAZABlACAAUgBlAHAAcgBlAHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBn
+AGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYIKwYBBQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0
+eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZp
+Y2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFJlcHJlc2VudGFudGUgTGVnYWwucGRmMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0
+cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBT
+RUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCB
+wYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZp
+Y2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRv
+cjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9j
+bWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VD
+VVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUWaH2PBc7HdIjzV/M/UvHSvRLjJowKwYD
+VR0QBCQwIoAPMjAyNTAxMjQxOTU5NTdagQ8yMDI3MDEyNDE5NTk1N1owCwYDVR0PBAQDAgXgMBcG
+CisGAQQBgqZyAwUECQwHR0VSRU5URTAaBgorBgEEAYKmcgMBBAwMCjA5MjQ4NjA4MTAwHgYKKwYB
+BAGCpnIDCQQQDA5GRUJSRVMgQ09SREVSTzARBgorBgEEAYKmcgMiBAMMAS4wRAYKKwYBBAGCpnID
+BwQ2DDRBTEZSRURPIFZBTEVOWlVFTEEgNjEwIFkgUEVEUk8gUEFMTyBHT01FWiBZIEFZQUNVQ0hP
+MB0GCisGAQQBgqZyAwIEDwwNUEFUUklDSU8gSVZBTjAfBgorBgEEAYKmcgMgBBEMDzAwMTAwMjAw
+MDcwNjQ0MzATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFAYK
+KwYBBAGCpnIDAwQGDARKQVJBMCoGCisGAQQBgqZyAwoEHAwaQ09OU1RSVUNUT1JBIFBBVFJJREFT
+QSBTIEEwHQYKKwYBBAGCpnIDCwQPDA0wNzkwMDkzODQ0MDAxMBEGCisGAQQBgqZyAx0EAwwBLjAX
+BgorBgEEAYKmcgMEBAkMB0FHVUlMQVIwEAYKKwYBBAGCpnIDCAQCDAAwDQYJKoZIhvcNAQELBQAD
+ggIBAFseGSCurUduueCMo1lUvoUFs+/wv5gkPYT6PC0fZW9FVjVFQmKoIhwUy349WkxB8OO1CJBR
+zHYt+FOPQ26LjMuwi5/SoQjMI0ym1J4ozwErrziv0PCe/bhvjNUVO3PTDWutgGbZk7vGxdemvE+S
+38AAquEs0ti5vOkDT7WyrbJ3uuioTgcalu4qJMqaBcGifsUZtJmVeaOeEJKpnx6GS6wadrPiNzFT
+o5LPRykeyt6A1L4omjPPxOs2kjCTzUbmvZ5F4iK2hfF8tcNy9RO7355565DX177JRKoQSWIT4Xud
+MI1SrNlsldJd8s0EXGZATFVi21bvLOA8PE2wLHqbO0wONF/xGjlDwudEv198QL7fhndAaZjEhUf0
+kv0vSi5zw+3pB0YiajjYzzlR9PGqBf2eLqKAOt5VN7QtYuf9XuqFx283FlzDMXp3teNNUpYYZE5X
+xNoTMuJklDXYcGTc7ytexEhNRavGCOaDDgZu45NNjmSt8r+32javDvAVGiv7jGngj/mxHDUKpG/G
+5rPL1vBhfcD+rQ8XPRL32wj3E/Y2L0bwurWcoL5Rmi19u38ME+sDhVtmIL1KKYHe1Q9LxcVJdfSC
+B9qAcWrEvZwYqlVvvRYp7NwAy2EHV0QCYe/Tizxf58z9dqp9u1GqCNmTz4TQeKog6S7lJXNkVHni
+0JDg
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mlo6+gMVbRM+8meCpn+lwdVRhnKbmw3TAISvW6MgA1P3k+Zhqn2vie0UoGSsu/ePixPAq98EjHKt
+0YIDQ1GLQjFNbsixBi8TgSPzkIGbR0gfmj+676/m0GxbzqLo2C4JGRazgFKAUTvl2wQAY0OpsL2I
+MQLEFXeAxI68lNyNEVcBQT4HGDVkQz/SQncX9ZY3ydmy+OUT+jbyT9eZaOSDpAVZhXo3WGw4NSWM
+P1WJXbv/4TbHlWjllPAac/GbAExcp4Vtl/WubENjHV4wKOFW7nRwysPdjV0JaHCzk3xvTqxoD5kN
+alB8VqG4vzOCzHj/Te+zDSq+hNhGqwESm32YZw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature180815-Object715184"><etsi:QualifyingProperties Target="#Signature180815"><etsi:SignedProperties Id="Signature180815-SignedProperties169399"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-12-19T16:11:15-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>1rSeymn0f8Wi3bIMDIsc1G1/cTI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>489532231</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-110219"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

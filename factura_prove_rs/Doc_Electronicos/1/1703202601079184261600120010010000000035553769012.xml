@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>GEORIOS S.A.S.</razonSocial>
+        <nombreComercial>GEORIOS SERVICIOS MINEROS</nombreComercial>
+        <ruc>0791842616001</ruc>
+        <claveAcceso>1703202601079184261600120010010000000035553769012</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000003</secuencial>
+        <dirMatriz>Calle: 6TA SUR Interseccion: SUSANA GALLARDO VALAREZO Manzana: 5-11 </dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>17/03/2026</fechaEmision>
+        <dirEstablecimiento>Calle: 6TA SUR Interseccion: SUSANA GALLARDO VALAREZO Manzana: 5-11 </dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>Cdla. Los Jardines. Calle Guayaquil SN y Quinta Norte Esquina</direccionComprador>
+        <totalSinImpuestos>29700.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>29700.00</baseImponible>
+                <valor>4455.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>34155.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>34155.00</total>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>SRV-MIN-001</codigoPrincipal>
+            <descripcion>EXPLORACIÓN INICIAL Y SERVICIOS TÉCNICO-MINEROS OPERATIVOS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>29700.00</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>29700.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>29700.00</baseImponible>
+                    <valor>4455.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">marcelohet@hotmail.com</campoAdicional>
+        <campoAdicional nombre="CONTRATO:">Exploración Inicial y Servicios Técnicos Operativos.
+</campoAdicional>
+        <campoAdicional nombre="VALOR TOTAL CONTRATO:">$99,000.00 USD (Más IVA).
+</campoAdicional>
+        <campoAdicional nombre="CONCESIÓN MINERA:">PARAISO V | Cód: 30000383 | Área: 300 Ha. PARAISO VI | Cód: 30000384 | Área: 300 Ha. PARAISO VII | Cód: 30000385 | Área: 300 Ha. 	
+</campoAdicional>
+        <campoAdicional nombre="UBICACIÓN: ">Parróquia Rio Bonito, Cantón El Guabo, Provincia de El Oro.
+</campoAdicional>
+        <campoAdicional nombre="DETALLE DE COBRO:">Pago del 30% de anticipo estipulado en contrato
+</campoAdicional>
+        <campoAdicional nombre="OBJETO DEL CONTRATO:">Prestación de servicios mineros, en labores de campo: exploración geológica-minera inicial: instalación y mantenimiento de hitos, logística, permisos, mapeo, muestreo…	
+</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OwMmD58YUMjKZYaeYw/y96Xy4gJdGGlhbWQqDy5PdEM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6gDMMkg3KEZAXBqDjkTjeEPQ5GKd64g0/9Z/ZV35hyc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe-sigvalue">Fce6a5UttMPijMkWJAyJHJNGaE/ATiGpSUZINMlQpeRGXcd6GlgHOmOs5EfRRB77Yxnoa0krkYBoSB0oKWdIS82CTvqcFCqyLNOXPyN2d6vtVhK0MKM/ZxztLY1YfBJlOziOa6w/iHJ1woFmiZUUjMTAxRrhYo2l7Y72ygh4bvGYgTnZHTjWNZGOAGrtPX5MRj13BygvOh5jwN1Nl4JeE36NXYBvAOaZsD5UAMT1CQj3qrGBmIzAMLyUz0Ngy//Siqfbm7QFISOXsl1As0RG3Zxltp23jmXFjAMTT081hrfDFqxZigwxjHUppzvnmLT/+emJp1Y1TR3hWldNlfMhBQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIKtDCCCJygAwIBAgIITPpGjnRd/q8wDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwMzE0MjI0MTQzWhcNMzEwMzE0MjI0MTQzWjCBojEgMB4GA1UEAwwXT1NDQVIgRkFCSUFOIFJJT1MgTU9DSEExIDAeBgNVBAUTFzA3MDI3Nzc3OTgtMTQwMzI2MTc1MTM1MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5sclPhhjrnCa9gcl8mjqob7CwPk1Oj9FwVXMjxfN3XyG/s97N6Zhclh4TgkejgckMnoqeigKdCwlwWNlAMsc3UlYgdluqqMeB5I0BqdUm+hu3rL5kvqHI0xM2T8boMwHS78uhugec6mk10mCDnsJ3D0L13Xs8KsZaoYU3DQsXvNPK+cKB/2t3EP945ebd70raH0wyvrpSltQKqLeDCOlYrZ5dsgFFQAYHtNBZUjYW0ESpepJ6Lk06JBwivLQvKVSZ6/7txGKh4dEXfS9bRY5v9rJsJNeS5ouIlMHU86gBwp8p7zZ2e7nGzWd1QqrR0sktuoU67lfhQozHBw+Sz02UCAwEAAaOCBfMwggXvMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMBsGA1UdEQQUMBKBEG9mcm03N0BnbWFpbC5jb20wggEVBgNVHSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEGCisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFAfyj67m4X4/uhJw4K55RlCOzsV6MCsGA1UdEAQkMCKADzIwMjYwMzE0MjI0MTQzWoEPMjAzMTAzMTQyMjQxNDNaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjA3MDI3Nzc3OTgwFwYKKwYBBAGCpnIDCQQJDAdNQUNIQUxBMBEGCisGAQQBgqZyAyIEAwwBLjAyBgorBgEEAYKmcgMHBCQMIjZUQSBTVVIgWSBTVVNBTkEgR0FMTEFSRE8gVkFMQVJFWk8wHAYKKwYBBAGCpnIDAgQODAxPU0NBUiBGQUJJQU4wHwYKKwYBBAGCpnIDIAQRDA8wMjEwMDEwMDAwMDcyNjkwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBQGCisGAQQBgqZyAwMEBgwEUklPUzAdBgorBgEEAYKmcgMKBA8MDUdFT1JJT1MgUyBBIFMwHQYKKwYBBAGCpnIDCwQPDA0wNzkxODQyNjE2MDAxMBEGCisGAQQBgqZyAx0EAwwBLjAVBgorBgEEAYKmcgMEBAcMBU1PQ0hBMBoGCisGAQQBgqZyAwgEDAwKMDk5MjI2MDc1MTANBgkqhkiG9w0BAQsFAAOCAgEADKFjo9Hg5jkgHEf/k+ZROWx2MfASbypbVo7OYSiirHdnWvxV4TAQgxJR3AnzBI8MPMUzG5sMMOnvYqCF5VnCTtEyQWevrc3gvmmNeNW++01WXVSR4iScjpq0ALI0qQ1jHqkbCqiEMbuljURXe3YOQvY9qazVI8rj+ukUlUgBBb9kp7ehSOdvB6G4NM1AjP0ww06t2XRba+sihz/13VR79ZtkIHDrIiFUosiiLKNUDRDi0yssJEapCpGgwYZ6SG/Z+++gUQKo39FW0mIGGRbtcrAWl/SfZ31VDSyJQYLwQs06sl0rUWYuuExq+Bkw6zUpl6B0mppRPOV0OTGQlGM5Oxd6xBspnBBzIlQ9BlasWyM8A452Au7iAB/KYVn5+rtx3Zh9AHe1Ek1XvOvSibdDXIm8WXabCxybWE58z7uuOM+oYsk0ghOlNu5FYMLg6X/Du71uvYNzHaeThcYgu2qfD0fWGDMIj8wEgQ3gsj8kA1LDXV5YF+Ujg2mDgxtPY3pabp5QyXLwkHOjLxj7BdJ45rjEBOnJgSGReNuUJI+SEm8bMSee+xoqKuzIz41yQCPbcgj0Dr3xWLa/KJxBdoWXFohJl6UwHxPMLMZQDo6qiFSoBchy6HVTkhTHtK/ba5AM/kSGofP92tu7sVzws4ChSMypJu+lZCotDl5VV8jvmdU=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe"><xades:SignedProperties Id="xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-17T13:09:25.302-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1OEY8smfuDavRTJrUSbJYZlpusRUO6Gun25AMqKAMdE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>5546823468711804591</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-6e7860db-5ee3-4e67-95ca-aa2e2e901cbe-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

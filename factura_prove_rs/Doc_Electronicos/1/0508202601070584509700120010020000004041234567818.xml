@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>PEREZ BERMEO YELENA ANDREINA</razonSocial>
+		<nombreComercial>PEREZ BERMEO YELENA ANDREINA</nombreComercial>
+		<ruc>0705845097001</ruc>
+		<claveAcceso>0508202601070584509700120010020000004041234567818</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>002</ptoEmi>
+		<secuencial>000000404</secuencial>
+		<dirMatriz>EL ORO / MACHALA / MACHALA / BOLIVAR S/N Y JUAN MONTALVO</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>05/08/2026</fechaEmision>
+		<dirEstablecimiento>EL ORO / MACHALA / MACHALA / BOLIVAR S/N Y JUAN MONTALVO</dirEstablecimiento>
+		<obligadoContabilidad>NO</obligadoContabilidad>
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		<razonSocialComprador>MINERIA BELORO C.L.</razonSocialComprador>
+		<identificacionComprador>0992529679001</identificacionComprador>
+		<direccionComprador>CALLE 5TA NORTA / GUAYAQUIL     TELEFONO: 072937375   EMAIL: consumidor@efaccilito.com</direccionComprador>
+		<totalSinImpuestos>456.00</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>4</codigoPorcentaje>
+				<baseImponible>456.00</baseImponible>
+				<tarifa>15</tarifa>
+				<valor>68.40</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>524.40</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>20</formaPago>
+				<total>524.40</total>
+				<plazo>30</plazo>
+				<unidadTiempo>Días</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>3685</codigoPrincipal>
+			<descripcion>JUEGO PORTALAMPARA CON PORTACABLE MSA GEN</descripcion>
+			<cantidad>100.000000</cantidad>
+			<precioUnitario>4.560000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>456.00</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>4</codigoPorcentaje>
+					<tarifa>15</tarifa>
+					<baseImponible>456.00</baseImponible>
+					<valor>68.40</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+<campoAdicional nombre="Email">consumidor@efaccilito.com</campoAdicional>
+<campoAdicional nombre="TIPO DE RÉGIMEN: ">RÉGIMEN GENERAL</campoAdicional>
+<campoAdicional nombre="PEDIDO: ING LILIANA">CLIENTE DE ACUERDO CON PRECIOS Y CANTIDADES ESTABLECIDAS.</campoAdicional><campoAdicional nombre="RUC Proveedor">1751058577001</campoAdicional>
+
+	</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature718414">
+<ds:SignedInfo Id="Signature-SignedInfo117783">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID71121" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature718414-SignedProperties871139">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>HVLjXHFd2GJzSIPvrsH/JrDF7sc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1483403">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>GpxM6tocbmSzZpHqvyuow9UNTo8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-659853" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>KLfEhHfeskR1B9EwfOh2K1lGVig=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue19473">
+aZS8kFvptzbtjxDdttMPggZO6xHlHboSxnTHJaOPsUVHbaCeXOLR9DM/ubAlGO+mJKRHxUEfFUZw
+WeWrzFwzkp/HKRd38QyM4CKPljOL8N2hZvFdo5JvzGe+o9SPj5wm8FxHgDo4OtpW6x54tmiDxVhT
+lTPTYeWrogvQUXz5MBpI1jGC8fPcdHS/MiMku1JXQUMUmxJnAfO6nxHi0lKi6KQY6uco/t3UywMn
+bhPxlMXrXqSBjqeP2LsApo8+2JjiWDGgkUL6m2VJoHTF6hZPAbdj/XB61goThJ67NSdoeXUnJYrt
+QmA8VAxp9GJdFV3DxfT3fm42skCzA+rw9cc+cg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1483403">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHuzCCBqOgAwIBAgIFAMIPsrEwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoMEkxhenphdGUgQ2lhLiBMdGRhLjEbMBkGA1UEAwwSTGF6emF0ZSBFbWlzb3IgQ0EyMB4XDTI2
+MDYxNjIxMjkwNFoXDTI3MDYxNjIxMjkwNFowgZwxCzAJBgNVBAYTAkVDMRswGQYDVQQKDBJMYXp6
+YXRlIENpYS4gTHRkYS4xHjAcBgNVBAsMFUVudGUgZGUgQ2VydGlmaWNhY2lvbjElMCMGA1UEAwwc
+WUVMRU5BIEFORFJFSU5BIFBFUkVaIEJFUk1FTzEpMCcGCSqGSIb3DQEJARYaZmlybWFzZW5leHRA
+ZWZhY2NpbGl0by5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCc0CQKNPpnP91Q
+8nFTmZc6/1jEp1drt/kCWuzKwxEgsHyPF/P+S/FNKC5STDlI5NmA3H6/7JCOwkvhn8t0uGRFvyfV
+JWFykL47yzC6R80RA37+n1ivS/lDOLwpKPOArVu4AfuCpWvd8XaERmtWHhWJspap8yk8IaN3XS/2
+GaziLluuKTBhb4E1wjl56ECgN8kkAgsXJ9zhC5O1aLcynKpHTJZ+pRgGS607jVgLtQc0OcCmjvHl
+E3LLHR67iRjKswydFHJ0mn1WPrwffxdONcGEmDJRM+HPL7q/3nlETN38h4amOYft1pS50xLDmVjE
+4lSkdy1hE4kw6ZyHM6THoh5ZAgMBAAGjggRWMIIEUjAaBgorBgEEAYPPdgMBBAwMCjA3MDU4NDUw
+OTcwHwYKKwYBBAGDz3YDAgQRDA9ZRUxFTkEgQU5EUkVJTkEwFQYKKwYBBAGDz3YDAwQHDAVQRVJF
+WjAWBgorBgEEAYPPdgMEBAgMBkJFUk1FTzAXBgorBgEEAYPPdgMHBAkMB01BQ0hBTEEwGgYKKwYB
+BAGDz3YDCAQMDAowOTk5MjczMzA3MBcGCisGAQQBg892AwkECQwHTUFDSEFMQTAXBgorBgEEAYPP
+dgMMBAkMB0VDVUFET1IwHQYKKwYBBAGDz3YDCwQPDA0wNzA1ODQ1MDk3MDAxMAwGA1UdEwEB/wQC
+MAAwHQYDVR0OBBYEFKWNL7Tu7EaCW3se18g+qVr72Kc6MB8GA1UdIwQYMBaAFO12SLAK8cmGhgxM
+RmTSBvjM1b0+MA4GA1UdDwEB/wQEAwIF4DA6BgNVHR8EMzAxMC+gLaArhilodHRwOi9lbmV4dDIu
+eHl6L0xhenphdGVDQTIvZW1pc29yQ0EyLmNybDCCAYQGA1UdIASCAXswggF3MHwGCisGAQQBg892
+AgEwbjBsBggrBgEFBQcCAjBgGl5FbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBlcyBlbWl0aWRvIGVu
+IGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQgZGUgTGF6emF0ZSBDaWEuIEx0ZGEu
+MIH2BgkrBgEEAYPPdgIwgegwbAYIKwYBBQUHAgIwYBpeRWwgcHJlc2VudGUgY2VydGlmaWNhZG8g
+ZXMgZW1pdGlkbyBlbiBiYXNlIGEgbGFzIHBvbMOtdGljYXMgZGUgc2VndXJpZGFkIGRlIExhenph
+dGUgQ2lhLiBMdGRhLjB4BggrBgEFBQcCAjBsGmpFbCBwcmVzZW50ZSBjZXJ0aWZpY2FkbyBzdWJv
+cmRpbmFkbyBlcyBlbWl0aWRvIGVuIGJhc2UgYSBsYXMgcG9sw610aWNhcyBkZSBzZWd1cmlkYWQg
+ZGUgTGF6emF0ZSBDaWEuIEx0ZGEuMIH9BgNVHREEgfUwgfKgGgYKKwYBBAGDz3YDAaAMDAowNzA1
+ODQ1MDk3oB8GCisGAQQBg892AwKgEQwPWUVMRU5BIEFORFJFSU5BoBUGCisGAQQBg892AwOgBwwF
+UEVSRVqgFgYKKwYBBAGDz3YDBKAIDAZCRVJNRU+gFwYKKwYBBAGDz3YDB6AJDAdNQUNIQUxBoBoG
+CisGAQQBg892AwigDAwKMDk5OTI3MzMwN6AXBgorBgEEAYPPdgMJoAkMB01BQ0hBTEGgFwYKKwYB
+BAGDz3YDDKAJDAdFQ1VBRE9SoB0GCisGAQQBg892AwugDwwNMDcwNTg0NTA5NzAwMTA8BggrBgEF
+BQcBAQQwMC4wLAYIKwYBBQUHMAGGIGh0dHA6Ly9lbmV4dDIueHl6Ojg3NzcvYWRzcy9vY3NwMA0G
+CSqGSIb3DQEBCwUAA4IBAQAC2F58Uzespp6rrjxfFzxQAz0euAM1jaR5mqPUnlJm992kRC8CmhGD
+4gaaoIYp0FdMhWKlP0euYXkaWju6EwGOzUvRSnJjvGFjp6MbrAbrqL6hP41UROfvPS3NZY8FbHvq
+InNAs3JkJnZna/se18dB4u2YuPZycU2oReTn3sY+rQ0AViW+cPOMFh6Eip1xGa0pi20aPfj5bVlB
+vY3APeOUJsZcM1ktUNSVyntqRUDyQIlzFhhRDFkLcDvcmB52Du8PMBgA+lY6sD6f1vhdlM52DMGG
+oz7Ue4aY+iL1keQ3Q00+mYd6gU+Fbo4GbFmy3XExfH3pq4Oseme4xJnKMFMJ
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nNAkCjT6Zz/dUPJxU5mXOv9YxKdXa7f5AlrsysMRILB8jxfz/kvxTSguUkw5SOTZgNx+v+yQjsJL
+4Z/LdLhkRb8n1SVhcpC+O8swukfNEQN+/p9Yr0v5Qzi8KSjzgK1buAH7gqVr3fF2hEZrVh4VibKW
+qfMpPCGjd10v9hms4i5brikwYW+BNcI5eehAoDfJJAILFyfc4QuTtWi3MpyqR0yWfqUYBkutO41Y
+C7UHNDnApo7x5RNyyx0eu4kYyrMMnRRydJp9Vj68H38XTjXBhJgyUTPhzy+6v955REzd/IeGpjmH
+7daUudMSw5lYxOJUpHctYROJMOmchzOkx6IeWQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature718414-Object4405"><etsi:QualifyingProperties Target="#Signature718414"><etsi:SignedProperties Id="Signature718414-SignedProperties871139"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-08-05T08:38:58-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>hAercCpUFgwwYSszdZMFNFfMBqo=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Lazzate Emisor CA2,O=Lazzate Cia. Ltda.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>3255808689</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-659853"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

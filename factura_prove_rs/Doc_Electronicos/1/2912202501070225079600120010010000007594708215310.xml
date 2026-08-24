@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>CUEVA LUZON PATRICIO</razonSocial>
+        <nombreComercial>ELECTROTELSA</nombreComercial>
+        <ruc>0702250796001</ruc>
+        <claveAcceso>2912202501070225079600120010010000007594708215310</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000759</secuencial>
+        <dirMatriz>Calle: ROCAFUERTE Numero: 1005 Interseccion: 9 DE MAYO </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>29/12/2025</fechaEmision>
+        <dirEstablecimiento>Calle: ROCAFUERTE Numero: 1005 Interseccion: 9 DE MAYO </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+        <identificacionComprador>0992529679001</identificacionComprador>
+        <direccionComprador>CALLE GUAYAQUIL S/N Y QUITA A NORTE ESQUINA</direccionComprador>
+        <totalSinImpuestos>6842.50</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>6842.50</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>6842.50</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>6842.50</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>00122</codigoPrincipal>
+            <descripcion>SMART SOLKI INVERSOR XSI 10KVA BATERY 8*100</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>4772.5</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>4772.50</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>4772.50</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>00123</codigoPrincipal>
+            <descripcion>XMART BATERIA XMB-GEN12-100AH GEL SELLADA</descripcion>
+            <cantidad>8.00</cantidad>
+            <precioUnitario>241.5</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1932.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>1932.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>00124</codigoPrincipal>
+            <descripcion>ENVIO DE MERCADERIA DE GUAYAQUIL A MACHALA</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>138</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>138.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>138.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">072937375</campoAdicional>
+        <campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>l3ClpsdFhqdmMZZbWU+oY5kYzjeWSVIHMtMeAejRj5g=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2dW4h5QpBKG8DcLJVGLwBg0zsr7NDu8jRhpIOs32qlc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934-sigvalue">Re8UghUCJsmYz0A8AVsRnEaBMVEiqb+bmIm8q5RgfjLeGXdzsd008pFs+2ebP1sFuHw2URJQbQl/w7YBBPm72OVkgG8W0ZnHr1rvrjyxOIwoM6qKruUuD9p/8MdwkuniPmIIKLV8en63edwZPs3gwS2eFyAF7w0Q8WmNibD0xkcplmaKMSayh2mS2oxw7d+Vp1mVdA1Qe3QH6yVe/+0u6TILaPr5q/mFlpO6AqcTeupm/1ZE/ziMeRsKVyqGA+MFkVKdvqC1zsl/hRkvCflwQoAq4ustFLOiqoUt9kzS8DczW4U47mxkifgYTR7jy/4kCAnEByOpXuytAM2BRE2zUA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIKmzCCCIOgAwIBAgIIOb6M6hcFED0wDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMDE0MjAxMjU1WhcNMzAxMDE0MjAxMjU1WjCBnzEdMBsGA1UEAwwUUEFUUklDSU8gQ1VFVkEgTFVaT04xIDAeBgNVBAUTFzA3MDIyNTA3OTYtMTQxMDI1MTUyMjQ4MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAObYU0dPzsK0u54Gxi3dTAeMxwwRiiK8u05UUWdDH2XceS2HPa5iFeubmUG/YS3bz71JtNduzII6hMaqafp4w0DKC5rOm2RS+ts8Le/k6+LbdyTvUv35tD+OkaMG8dMIMa8MEPesAlcTvGSVM3M+ekSKSq2eVbyi8DkCfTyt1ZDhkJ29SXMJbkiyPkJgqEu/BMM8ICvzMxD1Y/c8P3KDJ2mN8l1ERdhsOQOSFamxBtSUiHnpJ/qSML3m5Sy7HXUBRkHcJg5NzEqP6lggsfMEaune0Kya8DB+M8LnwwzLejfDOOFVxsnhucAnvOIsbT2vx/noTk7cnO7jIx6QiPAK/S0CAwEAAaOCBd0wggXZMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCUGA1UdEQQeMByBGmVsZWN0cm90ZWxzYS5uZXRAZ21haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIICDwYDVR0fBIICBjCCAgIwgd6gOqA4hjZodHRwOi8vY3JsMS5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDEvY3JsZmlsZS5jcmyigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwPKA6oDiGNmh0dHA6Ly9jcmwyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMi9jcmxmaWxlLmNybDCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBT0qu9tk84BBdUBU1eETa0Wanfq2jArBgNVHRAEJDAigA8yMDI1MTAxNDIwMTI1NVqBDzIwMzAxMDE0MjAxMjU1WjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAowNzAyMjUwNzk2MBcGCisGAQQBgqZyAwkECQwHTUFDSEFMQTARBgorBgEEAYKmcgMiBAMMAS4wKwYKKwYBBAGCpnIDBwQdDBtST0NBRlVFUlRFIDEwMDUgWSA5IERFIE1BWU8wGAYKKwYBBAGCpnIDAgQKDAhQQVRSSUNJTzAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDk4OTA1OTARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBUGCisGAQQBgqZyAwMEBwwFQ1VFVkEwJAYKKwYBBAGCpnIDHgQWDBRURUMgU1VQIEVMRUNUUklDSURBRDAdBgorBgEEAYKmcgMLBA8MDTA3MDIyNTA3OTYwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBUGCisGAQQBgqZyAwQEBwwFTFVaT04wGgYKKwYBBAGCpnIDCAQMDAowOTk3MjgwMjg4MA0GCSqGSIb3DQEBCwUAA4ICAQAYHBniyTBhysUU6r6pWV7kbEBJWcM0ucXhZDksYtFCfrpGDldIETpfXUCqtKLmkzbaXNTFKhgfFXUhIjW+de/5Hu/m37NTWbZM3T3Mlto5cdY+/bzakwM37gGn45/g+E+FWvUJcEb/L7G0d5UIwLV0UzFIhztV0SJWJ7yahaPIU+W/tUBE0Js2msY5i4pzZyBHOlu6pi7B50wn0R1HTO1jR525BY2o8KjuUv0QgmKMVzrCFnXyoLMzVnd07AjhbGT9sjgCL8i332Cl5LEcl2all80XNaxvYVSbt9PePOyqVqgbDdVA5+DLwgIrXol+sMJ+6Ew9mY5bZvSGHJE5LlhTNJykwefY7y5DnBuheYKESZ6Ppo0xiTu+LUNGNuL8tYMMfr3z9pAe3I9LEVHu1fFwOwS3FxFCqg9ox5Ap59k//4nu5mQYCDZNf/6hg5x3Gyx0CI/aAjkHJXWCRYiaf9Cp2KTZ0XyDBi6eftbkzyGukTsBpOKJt4A9v1dy5yMfyeeX7qmnCwPt/50To/IjFSyyPHDaLwBBvZWn9bFqvwHUSiEX66N8qKxBm9pVmgJP2bbGHq+hJgJDRxXc9RiL/qwU2q2TCJgbCeHW2wsT1eMHUIux+ZEntZ0mdZt9ADH+Wu2hFmEfYh7A/x20uAur/h4g44z95lyDyGxkKrXBd66lbg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934"><xades:SignedProperties Id="xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-29T18:10:08.556-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>LhCoSamjPUhYEWGKjk2hj6hv1ZOywVLKZ8zOc5IDDCE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>4160918042773360701</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-ac57d2e0-6f70-426f-ad7d-792077ed0934-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

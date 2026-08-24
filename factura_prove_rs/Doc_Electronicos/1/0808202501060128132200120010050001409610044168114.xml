@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="2.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>MARTHA BEATRIZ ALDAZ MEDINA</razonSocial>
+<nombreComercial>MADEC</nombreComercial>
+<ruc>0601281322001</ruc>
+<claveAcceso>0808202501060128132200120010050001409610044168114</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>005</ptoEmi>
+<secuencial>000140961</secuencial>
+<dirMatriz>PASAJE 810 ENTRE SANTA R0SA Y VELA</dirMatriz>
+<agenteRetencion>1</agenteRetencion>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>08/08/2025</fechaEmision>
+<dirEstablecimiento>PASAJE 810 ENTRE SANTA R0SA Y VELA</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<direccionComprador>LOS JARDINES CALLE GUAYAQUIL S/N Y QUINTA NORTE</direccionComprador>
+<totalSinImpuestos>198.39</totalSinImpuestos>
+<totalDescuento>8.27</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>198.39</baseImponible>
+<valor>29.76</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>228.15</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>228.15</total>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>T0324</codigoPrincipal>
+<descripcion>TRANSF VOLTAJE SECO ELEKTRA 100VA 240-480/120-240V ABIERTO 9T58K2804</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>65.117000</precioUnitario>
+<descuento>7.81</descuento>
+<precioTotalSinImpuesto>187.54</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>187.54</baseImponible>
+<valor>28.13</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>F0272</codigoPrincipal>
+<descripcion>PULSADOR CNC VERDE PLASTICO NO LAY5-EA3311 22MM(MARCHA)</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>1.339000</precioUnitario>
+<descuento>0.16</descuento>
+<precioTotalSinImpuesto>3.86</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>3.86</baseImponible>
+<valor>0.58</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>B5546</codigoPrincipal>
+<descripcion>PULSADOR CNC ROJO PLASTICO NC LAY5-BA42 (PARO) 1NC</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>1.339000</precioUnitario>
+<descuento>0.16</descuento>
+<precioTotalSinImpuesto>3.86</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>3.86</baseImponible>
+<valor>0.58</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>F0014</codigoPrincipal>
+<descripcion>LUZ PILOTO CNC VERDE 22MM 12/220/440V</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>1.092000</precioUnitario>
+<descuento>0.13</descuento>
+<precioTotalSinImpuesto>3.15</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>3.15</baseImponible>
+<valor>0.47</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Fpago">CREDITO</campoAdicional>
+<campoAdicional nombre="Correo">fernanda.paccha@grupoadmg.com</campoAdicional>
+<campoAdicional nombre="Direccion">LOS JARDINES CALLE GUAYAQUIL S/N Y QUINTA NORTE</campoAdicional>
+<campoAdicional nombre="Telefono">2984074-2984073-2923970</campoAdicional>
+<campoAdicional nombre="Vencimiento">08/08/2025</campoAdicional>
+<campoAdicional nombre="Vendedor">INDETERMINADO</campoAdicional>
+</infoAdicional>
+<ds:Signature Id="Signature60833" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo Id="Signature-SignedInfo84269"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="SignedPropertiesID69593" URI="#Signature60833-SignedProperties83677" Type="http://uri.etsi.org/01903#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>tz/GJGlweSRl2xg6SBu07SNy8gA=</ds:DigestValue></ds:Reference><ds:Reference URI="#Certificate83644"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>D1KW7w3sX1Wgw/WV00qlAVfUaCo=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-60065" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>pS8cX5DKWQOTsPopPxMObajhxDc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue92085">eXU+qx8PZEpKNkbB87RKxoe8LAWlckO7zqsrJ1pE9YOeReEd03nAQx9AqPyiEQ03hGM4e/uWIODW
+XqeKTaKpgZQlH0jSEERtpmIrccgHV0g1WDIs3qJADb5iNcX0nuc2NIpEwgXJN4TmFFC8QplgCpoN
+8BUdF6JmyAkZW40SzAvK2cs79QaRBOG61h4bJS/IsUW64qeUwwrZzT1R7rK1YlofDz1UMFGCzKnH
+4G9t5uBW3Jw3FbwrjVCCQXngy+QOkcpFOyYfEzN7iyHtPkYnWewh3oZu07xByJXPHA8gp/uHmTVq
+8n59B6x/IXRb8KwOdZUSGDWln+84ka37dpxXqA==</ds:SignatureValue><ds:KeyInfo Id="Certificate83644"><ds:X509Data><ds:X509Certificate>MIIKnTCCCIWgAwIBAgIIATvAkE8shfwwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUwNzI4MjAyNTI3WhcNMzAwNzI4MjAyNTI3WjCB
+pjEkMCIGA1UEAwwbTUFSVEhBIEJFQVRSSVogQUxEQVogTUVESU5BMSAwHgYDVQQFExcwNjAxMjgx
+MzIyLTI4MDcyNTE1MzUxNzEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwRvgy+T5RporHBXGzGsVqVwRLmigc/b1iCdUs
+5Y5ATXyIQBqnRY729txplqts5Xcb7woZDIM6nwlvhQIx0kVkicaabP7YXr8zdUZxh5NkwRr9Hx12
+koHu1QANntMnHp3R249o3U8bQ2F/mK/nNQ1KUcB2yqV///ocK5kb5tmALhdCmZTmXGA9GMFBMPCp
+ZGcXZy4KIOk3bXnE7rR1T9A+KIoGAyiQARUe7Q67dtB8+/OVG0HB3p0Ymtkhp6Q2v0BBQGb2EmA3
+xs9MRTjrNT/1g3R0Bye0923YoC8j3BaKtCNlDmdtH/0Z7efXiXUaID1S4g01LHVSn9CaSCgPWg11
+AgMBAAGjggXYMIIF1DAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i
+3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRh
+dGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDAiBgNVHREEGzAZgRdlbGVjdHJp
+Y29zQG1hZGVjLmNvbS5lYzCCAQYGA1UdIASB/jCB+zBaBgorBgEEAYKmcgIHMEwwSgYIKwYBBQUH
+AgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFAAZQByAHMAbwBuAGEAIABOAGEA
+dAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggrBgEFBQcCARZ+aHR0cHM6Ly93d3cuc2Vj
+dXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2Vy
+dGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5hdHVyYWwucGRmMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHeoDqgOIY2aHR0
+cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwxL2NybGZpbGUuY3JsooGfpIGc
+MIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZ
+IERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4hjZodHRwOi8v
+Y3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmwwgeCggd2ggdqG
+gddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJs
+aWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU
+/n3YSWC3+udHia5+O/rxThPwA9owKwYDVR0QBCQwIoAPMjAyNTA3MjgyMDI1MjdagQ8yMDMwMDcy
+ODIwMjUyN1owCwYDVR0PBAQDAgXgMBoGCisGAQQBgqZyAwEEDAwKMDYwMTI4MTMyMjAXBgorBgEE
+AYKmcgMJBAkMB01BQ0hBTEEwEQYKKwYBBAGCpnIDIgQDDAEuMC4GCisGAQQBgqZyAwcEIAweUEFT
+QUpFIDgxMCBZIFNBTlRBIFJPU0EgWSBWRUxBMB4GCisGAQQBgqZyAwIEEAwOTUFSVEhBIEJFQVRS
+SVowHwYKKwYBBAGCpnIDIAQRDA8wMjEwMDEwMDAwMDIwODIwEQYKKwYBBAGCpnIDIwQDDAEuMBMG
+CisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAVBgorBgEEAYKmcgMD
+BAcMBUFMREFaMBgGCisGAQQBgqZyAx4ECgwIQ09OVEFET1IwHQYKKwYBBAGCpnIDCwQPDA0wNjAx
+MjgxMzIyMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAWBgorBgEEAYKmcgMEBAgMBk1FRElOQTAaBgor
+BgEEAYKmcgMIBAwMCjA5ODAwMDU1MjMwDQYJKoZIhvcNAQELBQADggIBAJZ9qeRVygoE27sDWqW/
+3lxkNAgCYZ4uKarz05+J4njqL96eqfmRg+ciVtEe+taw22ehTkm0bTOnmUO1HyEN6AOH11Mp+CQG
++ccBzCLhl2eYOGdnYrTEZzg1C0QnjBAyGk3f6Yuu9Km5iFoFW2AzNd0josrZzYWFYzRCCPARQZIJ
+U5UbiQkSDpCNESQK0pvTgmcvWzTCaEVN7jwbymmRtwQ//oirSk1Z3qss9E0qi6EnCiHGV0OZH+KI
+xf98Do3j9QQ4fIrgH8E49wd+yFREYOjcZ3QxUJXOJYRoX1hC+j5IzUdHS+uK6eemRIOdxTDK7FVt
+Bp5ryGGGW+QG/5fPf9SNXeC6Mb5gOHv52s6kk+YxdlRgjwSG9cKR5rNdyzjXk+Yh1o8qz8U/Gl6/
+VogqE6jfH0De8Cmr0nBoTM4QK+jXj6bqOgaEJ8uVdPhBAF90mY18dnQCkM/TgbTUaNCijWzu5WX2
+Zx6Z4dwE2CLswBFlGG+RKfP/1x78LPdGvrVRfl49JgH+iWND4+zxB0BX5kHEjVndUb9JQhksgpmf
+zZ91vNjljcTeUh+FiWHRIA4k4hn0deWbslY3xIbbQN68p13TP9wIfOLXyCR6QJNS/cIDeguBxPfR
+sooUX6IfLJ/C1QsKB9qRJh3NC3nSHw0pXwQ5OD81SHbg/y5Ti3BcrWGO</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>sEb4Mvk+UaaKxwVxsxrFalcES5ooHP29YgnVLOWOQE18iEAap0WO9vbcaZarbOV3G+8KGQyDOp8J
+b4UCMdJFZInGmmz+2F6/M3VGcYeTZMEa/R8ddpKB7tUADZ7TJx6d0duPaN1PG0Nhf5iv5zUNSlHA
+dsqlf//6HCuZG+bZgC4XQpmU5lxgPRjBQTDwqWRnF2cuCiDpN215xO60dU/QPiiKBgMokAEVHu0O
+u3bQfPvzlRtBwd6dGJrZIaekNr9AQUBm9hJgN8bPTEU46zU/9YN0dAcntPdt2KAvI9wWirQjZQ5n
+bR/9Ge3n14l1GiA9UuINNSx1Up/QmkgoD1oNdQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature60833-Object95346"><etsi:QualifyingProperties Target="#Signature60833"><etsi:SignedProperties Id="Signature60833-SignedProperties83677"><etsi:SignedSignatureProperties><etsi:SigningTime>2025-08-08T11:44:37</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>tSgvBzkTaaInXhdJxMcbO0kAaiQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>88876343699998204</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-60065"><etsi:Description>Servicios IT, Luis Orellana Escalante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

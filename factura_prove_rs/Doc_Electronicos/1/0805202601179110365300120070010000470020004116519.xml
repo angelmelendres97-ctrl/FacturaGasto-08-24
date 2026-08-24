@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>OPERADORA Y CONSOLIDADORA INTERNACIONAL DE CARGA ECUACARGAS S A</razonSocial><nombreComercial>OPERADORA Y CONSOLIDADORA INTERNACIONAL DE CARGA ECUACARGAS S A</nombreComercial><ruc>1791103653001</ruc><claveAcceso>0805202601179110365300120070010000470020004116519</claveAcceso><codDoc>01</codDoc><estab>007</estab><ptoEmi>001</ptoEmi><secuencial>000047002</secuencial><dirMatriz>AV LA REPUBLICA EUSEBIO PRECIA  S/N ETZA </dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>08/05/2026</fechaEmision><dirEstablecimiento>AV LA REPUBLICA EUSEBIO PRECIA  S/N ETZA </dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>MINERA BELORO CL</razonSocialComprador><identificacionComprador>0992529679001</identificacionComprador><direccionComprador>GUAYAQUIL S/N Y   QUINTA A NORTE ESQUINA </direccionComprador><totalSinImpuestos>126.42</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>126.42</baseImponible><valor>18.96</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>145.38</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>145.38</total><plazo>1</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>00008</codigoPrincipal><codigoAuxiliar>1002</codigoAuxiliar><descripcion>ALMACENAJE  --  BULTO</descripcion><cantidad>1.000000</cantidad><precioUnitario>96.417900</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>96.42</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="0.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>96.42</baseImponible><valor>14.46</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>00002</codigoPrincipal><descripcion>BASCULA  --  VEHICULO</descripcion><cantidad>1.000000</cantidad><precioUnitario>10.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>10.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="0.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>10.00</baseImponible><valor>1.50</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>3.1.1</codigoPrincipal><descripcion>Servicio Montacargas Hyundai 1 o 05 minutos  --  VEHICULO/DESCARGUE</descripcion><cantidad>1.000000</cantidad><precioUnitario>10.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>10.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="0.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>10.00</baseImponible><valor>1.50</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>3.1.1</codigoPrincipal><descripcion>Servicio Montacargas Hyundai 1 o 05 minutos  --  VEHICULO/CARGUE</descripcion><cantidad>1.000000</cantidad><precioUnitario>10.000000</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>10.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Unidad" valor="Unidad"/><detAdicional nombre="PorcentajeDescuento" valor="0.0000"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15.00</tarifa><baseImponible>10.00</baseImponible><valor>1.50</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Agente de Retención">No. Resolución: 1</campoAdicional><campoAdicional nombre="Descripcion">VALVULA PINCH ABIERTA ICBA DIVERSAS REFERENCIAS, CODODE 3X90 GRADOS, REVESTIDO CON CUCHO NATURAL // DESCARGUE Y CARGUE//</campoAdicional><campoAdicional nombre="Direccion">GUAYAQUIL S/N Y   QUINTA A NORTE ESQUINA ~MACHALA </campoAdicional><campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com;juanzapataperu@yahoo.com</campoAdicional><campoAdicional nombre="FechaVencimiento">09/05/2026</campoAdicional><campoAdicional nombre="CPIC">M&amp;R-0097</campoAdicional><campoAdicional nombre="Descuentos">GRAL</campoAdicional><campoAdicional nombre="Vendedor">PATRICIA JAZMIN ENCARNACION BUSTAMANTE</campoAdicional><campoAdicional nombre="Ciudad">MACHALA</campoAdicional><campoAdicional nombre="CondPago">1 dia</campoAdicional></infoAdicional><ds:Signature Id="Signature520366" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo420519">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID179875" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature520366-SignedProperties362149">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>yT9N3k60Ci1o1C92I4B70sMk9lY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1586522">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WC1qub7d/wVJUeTyOVnNYkvRk18=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-794037" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>fjdEz4QizRGyQJ8Da4BddUqYjCc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue294966">
+HePubv7upstjosPg2cltPiuN3kSEWMDbkvA35tbO5rsdBtGcdoAOhktdHn2rL6xT6KB31s6B4Zu7
+KQw8UawUfUnCB/0ZGIyQ6ODcVpfEOnunHQpuB5sygEuZxSWk5hEhZgLzf2ZQox591Myz8sH/HXaO
+cvCdp1dMVuvQYJLq7Fja7Iwzsc7sud8J+u8As+nWsfwHqdntvIEOSBgj+Nk/gms7JgF/vHF6K3s/
+T2tdC2QYRAAVBcForSdsmgOATSO72bb+wEaw46dZHFlm8BD47+y+RFPSuy7lW/KRFCBHYdvmerEb
+3WaHMO2b31hSBBln4oqyc+DqT9vVFQWIDSI+/Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1586522">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILGTCCCQGgAwIBAgIIUrikLMhtzigwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwMjA3MTg0NzMwWhcNMjkwMjA2MTg0NzMwWjCB
+qjEoMCYGA1UEAwwfR0VPUkdJIEFMT05TTyBMVVpVUklBR0EgSU5JR1VFWjEgMB4GA1UEBRMXMDEw
+MTA5MDQxMy0wNzAyMjYxMzU3MjIxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVD
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoVkIBBLxlzPN+rQ4ozICCXRPwQDWbM1S
+nVc7rs51DizlunNLbVM0zdpi2mki54f2+No/TMmEJiirKZcj3gDU91Zn9956MkqVPUPrrURHqqGv
+Q2QWClyFWzYbejkKphJTgWIbhaUeVFP5mlRScefF06qyfRsDlk546FNuL3Xgi40Yzg2sPXq+vIqA
+fUKkuRqjnpLubP3hPIQW//sHwtvASUiw3Tb9IX2WrJu9oVggXrptGPIhStAcomMUr22DLFTgMC/z
+o68OPzoqy/7G100bxhby4Wh7Dq3Ul8Cg61y2c46xZBhU1OUrrrsM/Jq+K/UCN73dB1cY5mo0oCS/
+3tYAuQIDAQABo4IGUDCCBkwwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktV
+v42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwIAYDVR0RBBkwF4EVZ2Vy
+ZW50ZWVjdWFAZ21haWwuY29tMIIBFQYDVR0gBIIBDDCCAQgwYgYKKwYBBAGCpnICCTBUMFIGCCsG
+AQUFBwICMEYeRABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABkAGUAIABSAGUAcAByAGUAcwBlAG4A
+dABhAG4AdABlACAATABlAGcAYQBsMIGhBgorBgEEAYKmcgIDMIGSMIGPBggrBgEFBQcCARaBgmh0
+dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0
+aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50
+YW50ZSBMZWdhbC5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIICDwYDVR0fBIIC
+BjCCAgIwgd6gOqA4hjZodHRwOi8vY3JsMS5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDEv
+Y3JsZmlsZS5jcmyigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9O
+IFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMC
+RUMwPKA6oDiGNmh0dHA6Ly9jcmwyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMi9jcmxm
+aWxlLmNybDCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEu
+bmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNO
+PUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4g
+MixDPUVDMB0GA1UdDgQWBBTbgLeOShr/SpnkOgTeQcwswitNJjArBgNVHRAEJDAigA8yMDI2MDIw
+NzE4NDczMFqBDzIwMjkwMjA2MTg0NzMwWjALBgNVHQ8EBAMCBeAwHwYKKwYBBAGCpnIDBQQRDA9H
+RVJFTlRFIEdFTkVSQUwwGgYKKwYBBAGCpnIDAQQMDAowMTAxMDkwNDEzMCwGCisGAQQBgqZyAwkE
+HgwcSFVBUVVJTExBUyBDQUJFQ0VSQSBDQU5UT05BTDARBgorBgEEAYKmcgMiBAMMAS4wOwYKKwYB
+BAGCpnIDBwQtDCtBViBMQSBSRVBVQkxJQ0EgRVVTRUJJTyBQUkVDSUEgUyBOIFkgWSBFVFpBMB0G
+CisGAQQBgqZyAwIEDwwNR0VPUkdJIEFMT05TTzAfBgorBgEEAYKmcgMgBBEMDzAwNjAwMTAwMDk5
+NTgwNTATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwGQYKKwYB
+BAGCpnIDAwQLDAlMVVpVUklBR0EwTwYKKwYBBAGCpnIDCgRBDD9PUEVSQURPUkEgWSBDT05TT0xJ
+REFET1JBIElOVEVSTkFDSU9OQUwgREUgQ0FSR0EgRUNVQUNBUkdBUyBTIEEwHQYKKwYBBAGCpnID
+CwQPDA0xNzkxMTAzNjUzMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAXBgorBgEEAYKmcgMEBAkMB0lO
+SUdVRVowGgYKKwYBBAGCpnIDCAQMDAowOTkxOTMxNjkyMA0GCSqGSIb3DQEBCwUAA4ICAQC2LpBi
+6jt07GlCoJbNJP/LOV1KoV4ovB5dnWb9QD7ugs0IidNNYpG28cSSc62CTDGfCRigSif73LjX++cq
+tZ2xfSJcUtUYOvtQCa6ksfcVWTh4DI/JhsWg/auQ33Kd5sb1WNmHXNwRAFpfzBlrJfaX+QCTVDYh
+gZUZz1nf3riBN0PmBhlMNJKbMig7GVgxRc4f3wlwLWlZ/hQjyYXuls4QiJNDfzMjbjkAsnu0ahlG
+ncdI1s++ED51iiM++lrVblkJhRtlmFa78QN5QfJ1Qplg2OGhymNAjp8S+d6WHJtNsY2IVXdYQ1R/
+P7JrycjKR/y03D1NQE7KdbYpIH92QYxAP1PJpTxF4XgDN43FhWLS1E0eC+AFhhR84rT8b0v4CFLU
+AZ992gvLWiQHnG39CXuRL3vrFA16hnRmqWWlJC3SmAAxvzMOEQcH4tr7yqt6PzrU0RGTmgJNl8N3
+mLej/0xnt8MFeUrBVxPbtgBFLwQrdjjKV4GPt1lbWjJT4RpRTi8VPnkE9ZvWU9lR2EkmTcJVpLnw
+1zJ3meZvKfNWlRsw/8VFwQ9AGW65Gy2OLK5x+UFt2CPiP2TipXqSorNXyd+a/d8x75UKJbSIKcPe
+/FvV+yetWaQGgNOBIX7juNOx/T1H5ELLle4dXIy2ym2LHffmC9LNFMpm1tz6xf0Jw7m2uQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oVkIBBLxlzPN+rQ4ozICCXRPwQDWbM1SnVc7rs51DizlunNLbVM0zdpi2mki54f2+No/TMmEJiir
+KZcj3gDU91Zn9956MkqVPUPrrURHqqGvQ2QWClyFWzYbejkKphJTgWIbhaUeVFP5mlRScefF06qy
+fRsDlk546FNuL3Xgi40Yzg2sPXq+vIqAfUKkuRqjnpLubP3hPIQW//sHwtvASUiw3Tb9IX2WrJu9
+oVggXrptGPIhStAcomMUr22DLFTgMC/zo68OPzoqy/7G100bxhby4Wh7Dq3Ul8Cg61y2c46xZBhU
+1OUrrrsM/Jq+K/UCN73dB1cY5mo0oCS/3tYAuQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature520366-Object168397"><etsi:QualifyingProperties Target="#Signature520366"><etsi:SignedProperties Id="Signature520366-SignedProperties362149"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-05-08T13:03:29-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>zAiddEytremURJNijDJjqDVvq3w=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>5960694619073007144</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-794037"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

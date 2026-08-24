@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>FRISAC S.A. FRISACSA</razonSocial>
+<nombreComercial>FRISAC S.A. FRISACSA</nombreComercial>
+<ruc>0992841362001</ruc>
+<claveAcceso>1002202601099284136200120010010000167441234567815</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000016744</secuencial>
+<dirMatriz>GUAYAQUIL Parroquia TARQUI Ciudadela ASOCIACION SIMON BOLIVAR, SOLAR 9-10 Mz 35</dirMatriz>
+<agenteRetencion>1</agenteRetencion>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>10/02/2026</fechaEmision>
+<dirEstablecimiento>GUAYAQUIL Parroquia TARQUI Ciudadela ASOCIACION SIMON BOLIVAR, SOLAR 9-10 Mz 35</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+<identificacionComprador>0992529679001</identificacionComprador>
+<totalSinImpuestos>1502.01</totalSinImpuestos>
+<totalDescuento>318.83</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<baseImponible>1502.01</baseImponible>
+<valor>225.30</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>1727.31</importeTotal>
+<moneda>DOL</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>1727.31</total>
+<plazo>1</plazo>
+<unidadTiempo>DIAS</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>10011006</codigoPrincipal>
+<codigoAuxiliar>10011006</codigoAuxiliar>
+<descripcion>REGULADOR 753 3KG/HORA RECA</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>19.020000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>19.02</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="REGULADOR 753 3KG/HORA RECA"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>19.02</baseImponible>
+<valor>2.85</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>20017125</codigoPrincipal>
+<codigoAuxiliar>20017125</codigoAuxiliar>
+<descripcion>VALVULA ATAQUE RAPIDO PITON</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>13.430000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>13.43</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="VALVULA ATAQUE RAPIDO PITON"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>13.43</baseImponible>
+<valor>2.01</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>30099033</codigoPrincipal>
+<codigoAuxiliar>30099033</codigoAuxiliar>
+<descripcion>NEPLO BRONCE DE 1/2X3/8</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>3.530000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>3.53</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="NEPLO BRONCE DE 1/2X3/8"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>3.53</baseImponible>
+<valor>0.53</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>30099037</codigoPrincipal>
+<codigoAuxiliar>30099037</codigoAuxiliar>
+<descripcion>PUNTA MANGUERA BRONCE DE 5/16X1/4</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>2.300000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>2.30</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="PUNTA MANGUERA BRONCE DE 5/16X1/4"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>2.30</baseImponible>
+<valor>0.35</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>ABRA03</codigoPrincipal>
+<codigoAuxiliar>ABRA03</codigoAuxiliar>
+<descripcion>ABRAZADERA</descripcion>
+<cantidad>2.000000</cantidad>
+<precioUnitario>0.450000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.90</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="ABRAZADERA"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>0.90</baseImponible>
+<valor>0.14</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>C1606</codigoPrincipal>
+<codigoAuxiliar>C1606</codigoAuxiliar>
+<descripcion>CODO GALVANIZADO DE 90X1/2</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>5.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>5.00</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="CODO GALVANIZADO DE 90X1/2"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>5.00</baseImponible>
+<valor>0.75</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>FG-ZXY10-IZQ</codigoPrincipal>
+<codigoAuxiliar>FG-ZXY10-IZQ</codigoAuxiliar>
+<descripcion>COCINADOR DE ARROZ 1 PUERTA L/IZQUIERDO CAP 12/BANDEJAS A GAS LPG 1.20KG</descripcion>
+<cantidad>1.000000</cantidad>
+<precioUnitario>1771.300000</precioUnitario>
+<descuento>318.83</descuento>
+<precioTotalSinImpuesto>1452.47</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="COCINADOR DE ARROZ 1 PUERTA L/IZQUIERDO CAP 12/BANDEJAS A GAS LPG 1.20KG"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>1452.47</baseImponible>
+<valor>217.87</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>MAN-INDUS</codigoPrincipal>
+<codigoAuxiliar>MAN-INDUS</codigoAuxiliar>
+<descripcion>MANGUERA  PARA VALVULA DE GAS LICUADO</descripcion>
+<cantidad>2.000000</cantidad>
+<precioUnitario>2.680000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>5.36</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="CLASE" valor="MANGUERA  PARA VALVULA DE GAS LICUADO"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>5.36</baseImponible>
+<valor>0.80</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Direccion">EL ORO / MACHALA / MACHALA / GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional>
+<campoAdicional nombre="Telefono">072984073</campoAdicional>
+<campoAdicional nombre="Email">fernanda.paccha@grupoadmg.com</campoAdicional>
+<campoAdicional nombre="AGENTE">AGENTE DE RETENCION - RESOLUCION Nro. NAC-DNCRASC20-00000001</campoAdicional>
+<campoAdicional nombre="Comentario">CANCELA MEDIANTE TRANSFERENCIA BANCARIA</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature479856">
+<ds:SignedInfo Id="Signature-SignedInfo838666">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID235921" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature479856-SignedProperties475608">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Sfc98QUA+ofDXqLQHGSLCvZPXyo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1979613">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>CJ6ZCF+1Vcc5YGg7cWmsIdEc9Tc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-412340" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>zfHtBQcJ7Rbo6TXaR7gtovGVZjc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue466480">
+CIkSRL9ScKd1pmBw63PnymCEvNiRfCIwfdhuKG7l3F+7ZoNKyhtbZLv0x2d7uZbwyFz69O2evL4M
+IK2SD6bI8FpHAQl1h8xmKpkM2CMeiwog+lH6UOY2xrIWJ5eRVksCTjA6Tc2F1xgnyHAMPWm265YR
+rb7nElb/RohfyWC1J4iHzgHF/eTAa06xbK6T3V+1B842LAOTmc5cqlvmMdri25QTcKc3CIs+Qzg6
+hXLVfwIOnerV6lvqJ2+OpStHXhRIvTj/iLqeg5BODTjZ8YxuAsGGPeNSezEHpBbGsg2UiSalr2jS
+9xuzDscCd/VmzbgbB5xpJpmh4thtK5S/cZn/rA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1979613">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJsDCCB5igAwIBAgIIQF8iVt+wN2QwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDUyNDIwNTcwMFoXDTI2MDUyNDIwNTcwMFowgd8xCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRG
+UklTQUMgUy5BLiBGUklTQUNTQTEYMBYGA1UEDAwPR0VSRU5URSBHRU5FUkFMMRYwFAYDVQQEDA1W
+QVJHQVMgTU9SRU5PMRswGQYDVQQqDBJNQVJHQVJJVEEgQ1JJU1RJTkExGTAXBgNVBAUTEElEQ0VD
+LTA5MTQ2NTAwMDcxKTAnBgNVBAMMIE1BUkdBUklUQSBDUklTVElOQSBWQVJHQVMgTU9SRU5PMRww
+GgYDVQRhDBNWQVRFQy0wOTkyODQxMzYyMDAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAkD+80EiOUgxQAxHoNlxcIlzxABDSqVnyqknVHsvemy8SfMJF3EnjsyPaxyIgbsOtcCuTTCzd
+iYc9lwws/zY/id1F1nrwnWKRW9WqZIlUNbY3lUskSLK60goq+0cykOO2xJ38Itipr6Hzv1jFt6hK
+VIixDBFYLfjn2DHpl3eKxGx86DmcGc0p8la52nHFjDQ/aoWMYo0xfBuGpHEKnVW6ZQQicNnC4vK0
+D6Fcdv9W+jBIvfMveWpQBHi8V15fAlA/SraV3CtbAHv407xFssaZ7niVISDfJ22s8VTWqzWvp60s
+h9PhFTbbDDS9dbN/zBYkG/2EPUQEUHg+3TSLcoE0bwIDAQABo4IEkzCCBI8wGwYLKwYBBAGC8TZm
+AwEEDAwKMDkxNDY1MDAwNzAeBgsrBgEEAYLxNmYDCwQPDA0wOTkyODQxMzYyMDAxMIHXBggrBgEF
+BQcBAQSByjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rv
+d25sb2FkL3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0
+cDovL29jc3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRw
+Oi8vb2NzcDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFAdJylyW07Su
+Ne+NNz/9uDYT8wwfMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSS
+c/0wgY4GA1UdIASBhjCBgzCBgAYMKwYBBAGC8TZmAgMBMHAwNwYIKwYBBQUHAgEWK2h0dHBzOi8v
+d3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wNQYIKwYBBQUHAgIwKQwnQ0VSVElG
+SUNBRE8gREUgUkVQUkVTRU5UQU5URSBFTiBBUkNISVZPMIGPBgNVHR8EgYcwgYQwQKA+oDyGOmh0
+dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRpbmFkYS5jcmww
+QKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJzdWJvcmRp
+bmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCC
+AdQGA1UdEQSCAcswggHHgRZydWJlbnRpZ3VhMjZAZ21haWwuY29toBsGCysGAQQBgvE2ZgMBoAwM
+CjA5MTQ2NTAwMDegIwYLKwYBBAGC8TZmAwKgFAwSTUFSR0FSSVRBIENSSVNUSU5BoBcGCysGAQQB
+gvE2ZgMDoAgMBlZBUkdBU6AXBgsrBgEEAYLxNmYDBKAIDAZNT1JFTk+gIAYLKwYBBAGC8TZmAwWg
+EQwPR0VSRU5URSBHRU5FUkFMoEEGCysGAQQBgvE2ZgMHoDIMMENETEEuIFBFRFJPIE1FTkVOREVa
+IEdJTEJFUlQgTVouIDMgU09MQVIgMjEgWSAyNaAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk5MDc1
+NjExNaAXBgsrBgEEAYLxNmYDCaAIDAZEVVLDgU6gJQYLKwYBBAGC8TZmAwqgFgwURlJJU0FDIFMu
+QS4gRlJJU0FDU0GgHgYLKwYBBAGC8TZmAwugDwwNMDk5Mjg0MTM2MjAwMaATBgsrBgEEAYLxNmYD
+DKAEDAJFQ6AkBgsrBgEEAYLxNmYDMqAVDBNSRVBSRVNFTlRBTlRFIExFR0FMoBgGCysGAQQBgvE2
+ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcNAQELBQADggIBAGyTKXUHvpOygTz2QnC+tu1Mahz332CE
+g1pbFu0gv6yg2Xvoz+++uZVWCbo6mJAjb/LcntOv3VqwRqMQWnG8UNv2N33vkeoLyETA00arRGXf
+Gxck7o/XwvFdW2u2l4WkZCDf9tf9tt0U9iwb16BGjGJcYNfT1wce8g13SJPrsN672cjhGvxU5gM2
+NXfPivoa931vZvrSxDfpuBAwXpc57HgxEKezTwNY+7Ph4BlDj4ol6SNSxsBiyGjwjIFIJC9m6rTV
+lpb7weDa2Lx6U5d18eZmgAMGYW5e1/T1NnsMhM1Hz2k11PfuzVU5JJgZZOMBwkYSLETGqhkSmNmc
+sc//gB0FoIDX58OlueXkW8NB5jI6aNKZjLMweSaFTlW9nByL3SjFqv7Z2j7+9JiZQRt/F1jahj2Q
+HRMEkjvlsAadfJkSf0JjtDmxAB69FGWgQQ1YweuLgdZ8pY1MvMXgUg9oqRyRESwQpn7MUQbNxsKS
+qGdqPynnR/DSmuxKzdOPVGsvRaTlfHglevrGLfH/kfOEy9nXm/j1Suh0UDLmB7qO9gCJcs7FLqo+
+MCldgzWqVK64Te1GYdFUFfc5yl6IEKwVh9lWEHybc0v8BD9O0Jx9YVCCGHLWkkXNGZ46uc98pZX1
+7LDT3kr07ny5S7Sqgv2ACRH9nG3ySYkQ6QzNAJOynb4T
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+kD+80EiOUgxQAxHoNlxcIlzxABDSqVnyqknVHsvemy8SfMJF3EnjsyPaxyIgbsOtcCuTTCzdiYc9
+lwws/zY/id1F1nrwnWKRW9WqZIlUNbY3lUskSLK60goq+0cykOO2xJ38Itipr6Hzv1jFt6hKVIix
+DBFYLfjn2DHpl3eKxGx86DmcGc0p8la52nHFjDQ/aoWMYo0xfBuGpHEKnVW6ZQQicNnC4vK0D6Fc
+dv9W+jBIvfMveWpQBHi8V15fAlA/SraV3CtbAHv407xFssaZ7niVISDfJ22s8VTWqzWvp60sh9Ph
+FTbbDDS9dbN/zBYkG/2EPUQEUHg+3TSLcoE0bw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature479856-Object792850"><etsi:QualifyingProperties Target="#Signature479856"><etsi:SignedProperties Id="Signature479856-SignedProperties475608"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-02-10T13:36:02-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Wp4Vz6JAtBCZ3qKi1becZdDsfCg=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>4638463897730299748</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-412340"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

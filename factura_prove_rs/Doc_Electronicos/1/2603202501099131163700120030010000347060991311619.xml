@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>LATINA SEGUROS C.A.</razonSocial>
+    <nombreComercial>LATINA SEGUROS C.A.</nombreComercial>
+    <ruc>0991311637001</ruc>
+    <claveAcceso>2603202501099131163700120030010000347060991311619</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>003</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000034706</secuencial>
+    <dirMatriz>URB. CIUDAD COLON ETP.3 5.3-4 MZ.275 PARQUE EMP.COLON ED.CORP.3</dirMatriz>
+    <agenteRetencion>1</agenteRetencion>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>26/03/2025</fechaEmision>
+    <dirEstablecimiento>CENTRO COMERCIAL ORO PLAZA LOC</dirEstablecimiento>
+    <contribuyenteEspecial>136</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MINERA BELORO C L</razonSocialComprador>
+    <identificacionComprador>0992529679001</identificacionComprador>
+    <direccionComprador>CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</direccionComprador>
+    <totalSinImpuestos>8287.04</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>0.00</baseImponible>
+        <tarifa>0.00</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>8287.04</baseImponible>
+        <tarifa>15.00</tarifa>
+        <valor>1243.06</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>9530.10</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>9530.10</total>
+        <plazo>30</plazo>
+        <unidadTiempo>Dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>11039961</codigoPrincipal>
+      <descripcion>INCENDIO-0002636-000000 - 26/03/2025 - 26/03/2026 PRIMA NETA</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>7959.65</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>7959.65</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>7959.65</baseImponible>
+          <valor>1193.95</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>SCVS</codigoPrincipal>
+      <descripcion>CONTRIBUCION SCVS 3.50%</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>278.59</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>278.59</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>278.59</baseImponible>
+          <valor>41.79</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>SSC</codigoPrincipal>
+      <descripcion>SEGURO SOCIAL CAMPESINO 0.50%</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>39.80</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>39.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>39.80</baseImponible>
+          <valor>5.97</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>EMIS</codigoPrincipal>
+      <descripcion>DERECHO DE EMISION</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>9.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>9.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>9.00</baseImponible>
+          <valor>1.35</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="emailCliente">contabilidad_1409oro@hotmail.com|marcelohet@hotmail.com|abigail.fallain@latinaseguros.com.ec|ab.elizabethpalacios@gmail.com</campoAdicional>
+    <campoAdicional nombre="CodInternoSAP">000034706</campoAdicional>
+    <campoAdicional nombre="CodInternoSociedadSAP">136</campoAdicional>
+    <campoAdicional nombre="Direccion">CALLE GUAYAQUIL S/N Y QUINTA A NORTE ESQUINA</campoAdicional>
+    <campoAdicional nombre="Telefono">072937375||Gran Contribuyente Oficio Nro. NAC-AGCOGEC22-00000038-M</campoAdicional>
+    <campoAdicional nombre="PrimaNeta">7959.65</campoAdicional>
+    <campoAdicional nombre="Gran Contribuyente">Gran Contribuyente NAC-AGCOGEC22-00000038-M</campoAdicional>
+  </infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1403672620">
+	<ds:SignedInfo>
+		<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<ds:Reference URI="#comprobante">
+			<ds:Transforms>
+				<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+			</ds:Transforms>
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>42lQoiVBtPuj70nd3vv3QoF77sk=</ds:DigestValue>
+		</ds:Reference>
+		<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1045193702">
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>IFQWC6uVVRNZUgfDs9EzSmmzgJw=</ds:DigestValue>
+		</ds:Reference>
+	</ds:SignedInfo>
+	<ds:SignatureValue>
+LEQNo1mIN+PAqRM1nWtZ3qPaAF/OYrJDNpeF7jaUnFpftu4o/h2cYqWuFRqRVxGa
+kDm98O1HR/UiTepd/Xv5597IVHhX4S3kx5fV45ItEpCZYB9D1sd7AkZw5TZRS4EN
+CPdrfGG1d3fSrJs+fPeHNYfO/5ljpoCwf6co+DJTlYhDhMVNfilTxq72OXRqTK/x
+0GilzIS5d9kyJIUjcDHZuq5VGIgcH+jnWWjW8it+4QlBlnHEmSNerPxwhy4/AfO8
+5ltm20Il6+1CuCiSHNfjOMAZuXlQr2HgP15lMCIJgTNRFZyEwEC5g2ozR53XVkee
+mxNf355Je2Oe5Um0MvbNSQ==
+	</ds:SignatureValue>
+	<ds:KeyInfo>
+		<ds:KeyValue>
+			<ds:RSAKeyValue>
+				<ds:Modulus>
+qrCoCKOzg2sNI7j5lAtD4OcBqiUtgANn07ztQDqroJVo0Ry6QjmQ5jEpFfFf6zz9
+/+ZxXDmoK0seUw0yc/sJMlxmgvIwvnZ3VVlpUNG/MN5OVodbAH0YCj/Xyw3G702A
+CA7PhPDlouedE/uiBUa5Z+ajtKVC7zWkDw0/She8XlaiMmAooZCAUoQwgLGAIIFb
+OqlZ3gawnDqLRtgIMuBfjmtzJXsgBObYf+Xb54yl9Ux3WoTWiSg6qc6zz7GeOG7e
+g/QCeKhDh1asT5d+ZH6IPeHLM5rm3DQqcVALlFdgzm1jEJiC0lnjqhWpqSor7gvy
+JX8cQz4iwHgiWqAKm+jImw==
+				</ds:Modulus>
+				<ds:Exponent>AQAB</ds:Exponent>
+			</ds:RSAKeyValue>
+		</ds:KeyValue>
+		<ds:X509Data>
+			<ds:X509IssuerSerial>
+				<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+				<ds:X509SerialNumber>124846104</ds:X509SerialNumber>
+			</ds:X509IssuerSerial>
+			<ds:X509SubjectName>C=EC, O=SECURITY DATA S.A. 2, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, 2.5.4.5=1713080560-030424165711, CN=GUSTAVO HENRY VALLEJO BEDOYA</ds:X509SubjectName>
+			<ds:X509Certificate>
+MIIMDTCCCfWgAwIBAgIEB3EAGDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yNDA0MDMyMTQ3MjNaFw0yNjA0MDMyMTQ3MjNaMIGnMSUwIwYDVQQDDBxHVVNU
+QVZPIEhFTlJZIFZBTExFSk8gQkVET1lBMSAwHgYDVQQFExcxNzEzMDgwNTYwLTAz
+MDQyNDE2NTcxMTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkG
+A1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqsKgIo7OD
+aw0juPmUC0Pg5wGqJS2AA2fTvO1AOquglWjRHLpCOZDmMSkV8V/rPP3/5nFcOagr
+Sx5TDTJz+wkyXGaC8jC+dndVWWlQ0b8w3k5Wh1sAfRgKP9fLDcbvTYAIDs+E8OWi
+550T+6IFRrln5qO0pULvNaQPDT9KF7xeVqIyYCihkIBShDCAsYAggVs6qVneBrCc
+OotG2Agy4F+Oa3MleyAE5th/5dvnjKX1THdahNaJKDqpzrPPsZ44bt6D9AJ4qEOH
+VqxPl35kfog94cszmubcNCpxUAuUV2DObWMQmILSWeOqFampKivuC/IlfxxDPiLA
+eCJaoAqb6MibAgMBAAGjggdLMIIHRzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaA
+FIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0wSzBJBggrBgEFBQcw
+AYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1Ymxp
+Y3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDov
+L2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBD
+RVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERF
+IENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMu
+QS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/YmFzZTAtBgNVHREEJjAkgSJo
+ZW5yeS52YWxsZWpvQGxhdGluYXNlZ3Vyb3MuY29tLmVjMIIBEgYDVR0gBIIBCTCC
+AQUwYAYKKwYBBAGCpnICCjBSMFAGCCsGAQUFBwICMEQeQgBDAGUAcgB0AGkAZgBp
+AGMAYQBkAG8AIABkAGUAIABNAGkAZQBtAGIAcgBvACAAZABlACAARQBtAHAAcgBl
+AHMAYTCBoAYKKwYBBAGCpnICBDCBkTCBjgYIKwYBBQUHAgEWgYFodHRwczovL3d3
+dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1h
+dGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRv
+IE1pZW1icm8gZGUgRW1wcmVzYS5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+G
+PWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3
+ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBD
+RVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5U
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRT
+RUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5sZGFw
+Oi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERF
+IENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEg
+Uy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHd
+oIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1
+ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lP
+TixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFK0yXcHEY8EA
+KJ9pPGgjRK8noCH7MCsGA1UdEAQkMCKADzIwMjQwNDAzMjE0NzIzWoEPMjAyNjA0
+MDMyMTQ3MjNaMAsGA1UdDwQEAwIF4DAyBgorBgEEAYKmcgMFBCQMIkdFUkVOVEUg
+REUgUExBTklGSUNBQ0lPTiBZIENPTlRST0wwGgYKKwYBBAGCpnIDAQQMDAoxNzEz
+MDgwNTYwMBYGCisGAQQBgqZyAwkECAwGVEFSUVVJMBEGCisGAQQBgqZyAyIEAwwB
+LjAZBgorBgEEAYKmcgMHBAsMCVNPTEFSIDMgNDAdBgorBgEEAYKmcgMCBA8MDUdV
+U1RBVk8gSEVOUlkwHwYKKwYBBAGCpnIDIAQRDA8wMDEwMDIwMDA1NTgxMzIwEwYK
+KwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBcGCisG
+AQQBgqZyAwMECQwHVkFMTEVKTzAiBgorBgEEAYKmcgMKBBQMEkxBVElOQSBTRUdV
+Uk9TIEMgQTAdBgorBgEEAYKmcgMLBA8MDTA5OTEzMTE2MzcwMDEwEQYKKwYBBAGC
+pnIDHQQDDAEuMBYGCisGAQQBgqZyAwQECAwGQkVET1lBMBoGCisGAQQBgqZyAwgE
+DAwKMDk4MzE0MzMzOTANBgkqhkiG9w0BAQsFAAOCAgEABCBwUGeXUjNEElHF+UkQ
+BWEK5hq1D2Qd5oz7+6BfORjyFgLBzZQgUGt1pNTAuUF+tX6OnDj0hYAL8XyXfm0x
+cBdC/pFRZA31GenghdPpBywpp8uosbOd+irKeQdykW1vKCid/sFsiChIJsC0DkDM
+k5RlMmxHbTIHrDKXZmHcuC6OO7+iIL6Fc9KLnjzxbIgMnweZ4jYbVS+pnFbzIPB3
+lekGND0s1vFzm240wVyLAcsbNEedhTbUK8r5Z+ZWTvYjVl7BFM1gprNcQijUZaTz
+92CJnUIy0fR/cE/3jm2CZmtxywIvj9YT6oAfB1VKy/udrUOsFbk0fJ77Al0iDEHJ
+CTK5HapTnwlHsKyz8g3MOF6i3PAWcpxxM+i6X7PL2IdfP1HGrEqREtCJ48vsX7sj
+NL4eIVa89oTFQ8luGtpbdGZttvt3NzE9DjQ/pPC9+zimRshd47RhvlKgKpywTCd/
+quQRDgPCz1u+3AHBNHjLBnJru5uzVZnh7yuBvEBufh+NL9ISCKZzTJzyEpscvUIk
+PsSflOmkAwT4Ybx4O0KRVExLKUlFOo9kp2xNibavhXspfCY1QO6gMQKR515vRqZo
+400MjtgJ3ZvcXODDdkNHJ87QjiOvI86ZS2osj9hJEg+uFig0M8xMMrBYmik95kkE
+U/+bbBZ90ttEehUbEkDfypc=
+			</ds:X509Certificate>
+		</ds:X509Data>
+	</ds:KeyInfo>
+	<ds:Object>
+		<etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1403672620">
+			<etsi:SignedProperties Id="SignedProperties-1045193702">
+				<etsi:SignedSignatureProperties>
+					<etsi:SigningTime>2025-03-26T16:17:03.312Z</etsi:SigningTime>
+					<etsi:SigningCertificate>
+						<etsi:Cert>
+							<etsi:CertDigest>
+								<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+								<ds:DigestValue>WEnd/udcsQ8EhGtqhkhs64fjwnQ=</ds:DigestValue>
+							</etsi:CertDigest>
+							<etsi:IssuerSerial>
+								<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+								<ds:X509SerialNumber>124846104</ds:X509SerialNumber>
+							</etsi:IssuerSerial>
+						</etsi:Cert>
+					</etsi:SigningCertificate>
+				</etsi:SignedSignatureProperties>
+			</etsi:SignedProperties>
+		</etsi:QualifyingProperties>
+	</ds:Object>
+</ds:Signature>
+</factura>
